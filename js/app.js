@@ -6,12 +6,17 @@ const NAV_KEY = "habla_nav_v1";
 const WORD_STATS_KEY = "habla_word_stats_v1";
 const REVIEW_SESSION_SIZE = 20;
 
+// EXERCISE_TYPES קובע את אחוז ההשלמה של נושא/רמה (ממוצע על פני המערך הזה).
+// "שליפה פעילה" מוצג למשתמש ונשמר באותו מנגנון התקדמות, אך במתכוון לא נכלל כאן -
+// כדי לא לשנות רטרואקטיבית אחוזי השלמה קיימים אצל מי שכבר תרגל לפני שהתרגול הזה נוסף.
 const EXERCISE_TYPES = [
   { id: "flashcards", name: "כרטיסיות", icon: "🗂️" },
   { id: "quiz", name: "חידון", icon: "❓" },
   { id: "listening", name: "האזנה", icon: "🎧" },
   { id: "sentences", name: "בניית משפטים", icon: "✍️" }
 ];
+const RECALL_TYPE = { id: "recall", name: "שליפה פעילה", icon: "⌨️" };
+const DISPLAY_EXERCISE_TYPES = [...EXERCISE_TYPES, RECALL_TYPE];
 
 // ---------- שמירת התקדמות ----------
 function loadProgress() {
@@ -173,6 +178,33 @@ function pickDistractors(pool, correctValue, valueFn, n = 3) {
   return sample(pool.filter(o => valueFn(o) !== correctValue), n).map(valueFn);
 }
 
+// ---------- בדיקת תשובה בתרגול "שליפה פעילה" (הקלדה חופשית) ----------
+function normalizeAnswer(s) {
+  return s
+    .normalize("NFD").replace(/[̀-ͯ]/g, "") // הסרת ניקוד (accents)
+    .toLowerCase()
+    .replace(/[¿?¡!.,;:]/g, "")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+// בונה את קבוצת התשובות הקבילות מתוך ערך ה-es הגולמי:
+// מסיר הבהרות בסוגריים ("(yo hablo)"), מפצל לפי "/" לחלופות, ומקבל כל חלופה גם בלי מילת יחס בהתחלה
+function acceptableAnswers(es) {
+  const cleaned = es.replace(/\([^)]*\)/g, "").trim();
+  const answers = new Set();
+  for (const alt of cleaned.split("/")) {
+    const norm = normalizeAnswer(alt);
+    if (!norm) continue;
+    answers.add(norm);
+    const noArticle = norm.replace(/^(el|la|los|las)\s+/, "");
+    if (noArticle) answers.add(noArticle);
+  }
+  return answers;
+}
+function isRecallCorrect(userInput, es) {
+  return acceptableAnswers(es).has(normalizeAnswer(userInput));
+}
+
 // ---------- state ----------
 let state = loadNav() || { screen: "home" };
 let ex = null; // exercise runtime state
@@ -235,6 +267,11 @@ function buildExercise(levelId, topicId, type) {
       return { es: s.es, he: s.he, bank: shuffle(words), answer: [], usedIdx: new Set() };
     });
     ex = { type, index: 0, score: 0, items, checked: false, correctFlag: null, finished: false };
+  } else if (type === "recall") {
+    const items = shuffle(topic.vocab.map((v, i) => ({
+      vocabIndex: i, levelId, topicId, prompt: v.he, answer: v.es
+    })));
+    ex = { type, index: 0, score: 0, items, userAnswer: "", checked: false, correctFlag: null, finished: false };
   }
 }
 
@@ -425,7 +462,7 @@ function renderTopic() {
     <div class="section-title">${topic.name}</div>
     <div class="section-sub">רמת ${level.name} · בחר סוג תרגיל</div>
     <div class="exercise-grid">
-      ${EXERCISE_TYPES.map(et => {
+      ${DISPLAY_EXERCISE_TYPES.map(et => {
         const score = getTopicScore(level.id, topic.id, et.id);
         return `
         <button class="exercise-card" data-action="goto-exercise" data-level="${level.id}" data-topic="${topic.id}" data-type="${et.id}">
@@ -452,7 +489,7 @@ function renderExercise() {
 
   const level = LEVELS[state.levelId];
   const topic = level.topics.find(t => t.id === state.topicId);
-  const etMeta = EXERCISE_TYPES.find(e => e.id === state.type);
+  const etMeta = DISPLAY_EXERCISE_TYPES.find(e => e.id === state.type);
   breadcrumb.textContent = `${level.name} › ${topic.name} › ${etMeta.name}`;
 
   let body = "";
@@ -460,6 +497,7 @@ function renderExercise() {
   else if (ex.type === "quiz") body = renderQuiz();
   else if (ex.type === "listening") body = renderListening();
   else if (ex.type === "sentences") body = renderSentenceBuilder();
+  else if (ex.type === "recall") body = renderRecall();
 
   app.innerHTML = `
     <button class="back-btn" data-action="back-topic" data-level="${level.id}" data-topic="${topic.id}">→ חזרה לתרגילים</button>
@@ -594,6 +632,39 @@ function renderSentenceBuilder() {
         <button class="ctrl-btn" data-action="sb-check" ${item.answer.length === 0 ? "disabled" : ""}>בדוק</button>
       </div>
     `}
+  `;
+}
+
+// ---------- שליפה פעילה (הקלדה חופשית מעברית לספרדית) ----------
+function renderRecall() {
+  if (ex.index >= ex.items.length) {
+    return renderSummary({ correct: ex.score, total: ex.items.length, label: "סיכום שליפה פעילה" });
+  }
+  const item = ex.items[ex.index];
+  return `
+    <div class="runner-top">
+      <span>${ex.index + 1} / ${ex.items.length}</span>
+      <div class="runner-progress"><div class="runner-progress-fill" style="width:${(ex.index / ex.items.length) * 100}%"></div></div>
+      <span>ניקוד: ${ex.score}</span>
+    </div>
+    <div class="section-sub" style="text-align:center">איך אומרים את זה בספרדית?</div>
+    <div class="quiz-question">${item.prompt}</div>
+    <form class="recall-form">
+      <input type="text" class="recall-input ${ex.checked ? (ex.correctFlag ? "correct" : "incorrect") : ""}"
+             dir="ltr" lang="es" autocomplete="off" autocapitalize="off" spellcheck="false"
+             value="${ex.checked ? (ex.userAnswer || "") : ""}" ${ex.checked ? "disabled" : ""}
+             placeholder="הקלד/י בספרדית..." data-role="recall-input">
+      ${!ex.checked ? `<button type="submit" class="ctrl-btn">בדוק</button>` : ""}
+    </form>
+    ${ex.checked ? `
+      <div class="section-sub" style="text-align:center;margin-top:14px;color:${ex.correctFlag ? "var(--success)" : "var(--danger)"}">
+        ${ex.correctFlag ? "נכון מאוד! 🎉" : `לא מדויק. התשובה: <span lang="es">${item.answer}</span>`}
+      </div>
+      <div class="runner-controls">
+        <button class="speak-btn" data-action="recall-speak" aria-label="השמע הגייה בספרדית">🔊</button>
+        <button class="ctrl-btn" data-action="recall-next">המשך</button>
+      </div>
+    ` : ""}
   `;
 }
 
@@ -742,6 +813,38 @@ function handleAction(el) {
       render();
       break;
     }
+
+    // שליפה פעילה
+    case "recall-check": {
+      if (ex.checked) break;
+      const item = ex.items[ex.index];
+      const inputEl = app.querySelector('[data-role="recall-input"]');
+      const typed = inputEl ? inputEl.value : "";
+      const isCorrect = isRecallCorrect(typed, item.answer);
+      ex.userAnswer = typed;
+      ex.correctFlag = isCorrect;
+      ex.checked = true;
+      recordAnswer(item.levelId, item.topicId, item.vocabIndex, isCorrect);
+      if (isCorrect) {
+        ex.score += 1;
+        markLearned(item.levelId, item.topicId, item.vocabIndex);
+      }
+      render();
+      break;
+    }
+    case "recall-speak": speak(ex.items[ex.index].answer); break;
+    case "recall-next": {
+      ex.index += 1;
+      ex.checked = false;
+      ex.correctFlag = null;
+      ex.userAnswer = "";
+      if (ex.index >= ex.items.length && !ex.finished) {
+        ex.finished = true;
+        setTopicScore(state.levelId, state.topicId, "recall", Math.round((ex.score / ex.items.length) * 100));
+      }
+      render();
+      break;
+    }
   }
 }
 
@@ -758,6 +861,12 @@ function bindDelegatedEvents() {
     if (!el || el.disabled || el.tagName === "BUTTON") return; // כפתורים כבר מטפלים בזה באופן טבעי
     e.preventDefault();
     handleAction(el);
+  };
+  // בתרגול "שליפה פעילה", לחיצת Enter בתוך שדה הטקסט שולחת את הטופס באופן טבעי - נתפוס את זה כאן
+  app.onsubmit = (e) => {
+    if (!e.target.closest(".recall-form")) return;
+    e.preventDefault();
+    handleAction({ dataset: { action: "recall-check" } });
   };
 }
 
