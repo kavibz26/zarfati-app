@@ -3,6 +3,8 @@
 const PROGRESS_KEY = "habla_progress_v1";
 const LEARNED_KEY = "habla_learned_v1";
 const NAV_KEY = "habla_nav_v1";
+const WORD_STATS_KEY = "habla_word_stats_v1";
+const REVIEW_SESSION_SIZE = 20;
 
 const EXERCISE_TYPES = [
   { id: "flashcards", name: "כרטיסיות", icon: "🗂️" },
@@ -57,7 +59,40 @@ function totalWordCount() {
 function resetProgress() {
   localStorage.removeItem(PROGRESS_KEY);
   localStorage.removeItem(LEARNED_KEY);
+  localStorage.removeItem(WORD_STATS_KEY);
 }
+
+// ---------- מעקב אחר מילים קשות (לצורך תרגול חוזר) ----------
+function loadWordStats() {
+  try { return JSON.parse(localStorage.getItem(WORD_STATS_KEY)) || {}; }
+  catch { return {}; }
+}
+function saveWordStats(s) { localStorage.setItem(WORD_STATS_KEY, JSON.stringify(s)); }
+function recordAnswer(levelId, topicId, vocabIndex, isCorrect) {
+  const stats = loadWordStats();
+  const key = `${levelId}:${topicId}:${vocabIndex}`;
+  const entry = stats[key] || { correct: 0, incorrect: 0 };
+  if (isCorrect) entry.correct += 1; else entry.incorrect += 1;
+  stats[key] = entry;
+  saveWordStats(stats);
+}
+// מילה נחשבת "קשה" כשהמשתמש טועה בה יותר משהוא מצליח בה
+function getStruggleWords(limit = REVIEW_SESSION_SIZE) {
+  const stats = loadWordStats();
+  const candidates = [];
+  for (const [key, entry] of Object.entries(stats)) {
+    if (entry.incorrect <= entry.correct) continue;
+    const [levelId, topicId, idxStr] = key.split(":");
+    const level = LEVELS[levelId];
+    const topic = level && level.topics.find(t => t.id === topicId);
+    const vocab = topic && topic.vocab[parseInt(idxStr, 10)];
+    if (!vocab) continue;
+    candidates.push({ levelId, topicId, vocabIndex: parseInt(idxStr, 10), vocab, delta: entry.incorrect - entry.correct });
+  }
+  candidates.sort((a, b) => b.delta - a.delta);
+  return candidates.slice(0, limit);
+}
+function struggleWordCount() { return getStruggleWords(Infinity).length; }
 
 // ---------- שמירת מיקום ניווט (כדי לשרוד רענון דף) ----------
 function saveNav(s) {
@@ -136,6 +171,11 @@ function gotoExercise(levelId, topicId, type) {
   buildExercise(levelId, topicId, type);
   render();
 }
+function gotoReview() {
+  state = { screen: "exercise", type: "quiz", isReview: true };
+  buildReviewExercise();
+  render();
+}
 
 // ---------- בניית תרגיל ----------
 function buildExercise(levelId, topicId, type) {
@@ -153,6 +193,8 @@ function buildExercise(levelId, topicId, type) {
       const options = shuffle([correctText, ...pickDistractors(allVocabInLevel, correctText, valueFn)]);
       return {
         vocabIndex: i,
+        levelId,
+        topicId,
         direction,
         prompt: direction === "es2he" ? v.es : v.he,
         correct: correctText,
@@ -163,7 +205,7 @@ function buildExercise(levelId, topicId, type) {
   } else if (type === "listening") {
     const questions = shuffle(topic.vocab.map((v, i) => {
       const options = shuffle([v.he, ...pickDistractors(allVocabInLevel, v.he, o => o.he)]);
-      return { vocabIndex: i, es: v.es, correct: v.he, options };
+      return { vocabIndex: i, levelId, topicId, es: v.es, correct: v.he, options };
     }));
     ex = { type, index: 0, score: 0, questions, answered: false, selected: null, finished: false };
   } else if (type === "sentences") {
@@ -173,6 +215,29 @@ function buildExercise(levelId, topicId, type) {
     });
     ex = { type, index: 0, score: 0, items, checked: false, correctFlag: null, finished: false };
   }
+}
+
+// תרגיל חזרה על מילים קשות: אותה צורת נתונים בדיוק כמו חידון רגיל (ex.type === "quiz"),
+// רק שהשאלות נאספות מכמה נושאים/רמות שונות במקום נושא בודד
+function buildReviewExercise() {
+  const words = getStruggleWords(REVIEW_SESSION_SIZE);
+  const questions = shuffle(words.map(w => {
+    const allVocabInLevel = LEVELS[w.levelId].topics.flatMap(t => t.vocab);
+    const direction = Math.random() < 0.5 ? "es2he" : "he2es";
+    const correctText = direction === "es2he" ? w.vocab.he : w.vocab.es;
+    const valueFn = o => direction === "es2he" ? o.he : o.es;
+    const options = shuffle([correctText, ...pickDistractors(allVocabInLevel, correctText, valueFn)]);
+    return {
+      vocabIndex: w.vocabIndex,
+      levelId: w.levelId,
+      topicId: w.topicId,
+      direction,
+      prompt: direction === "es2he" ? w.vocab.es : w.vocab.he,
+      correct: correctText,
+      options
+    };
+  }));
+  ex = { type: "quiz", index: 0, score: 0, questions, answered: false, selected: null, finished: false, isReview: true };
 }
 
 // ---------- רינדור ראשי ----------
@@ -187,6 +252,7 @@ function renderHome() {
   breadcrumb.textContent = "";
   const learned = totalLearnedCount();
   const total = totalWordCount();
+  const reviewCount = struggleWordCount();
   app.innerHTML = `
     <div class="hero">
       <h1>¡Habla! 🇪🇸 לימוד ספרדית</h1>
@@ -212,6 +278,12 @@ function renderHome() {
       }).join("")}
     </div>
     <div style="text-align:center; margin-top:24px;">
+      <button class="ctrl-btn" data-action="goto-review" ${reviewCount === 0 ? "disabled" : ""}>
+        📝 תרגול מילים קשות${reviewCount > 0 ? ` (${reviewCount})` : ""}
+      </button>
+      ${reviewCount === 0 ? `<div class="section-sub" style="margin-top:8px;">אין עדיין מילים לחזרה - תרגלו קצת ונחזור לכאן!</div>` : ""}
+    </div>
+    <div style="text-align:center; margin-top:16px;">
       <button class="back-btn" data-action="reset-progress">איפוס התקדמות</button>
     </div>
   `;
@@ -267,6 +339,16 @@ function renderTopic() {
 }
 
 function renderExercise() {
+  if (state.isReview) {
+    breadcrumb.textContent = "תרגול מילים קשות";
+    app.innerHTML = `
+      <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
+      <div class="runner">${renderQuiz()}</div>
+    `;
+    bindDelegatedEvents();
+    return;
+  }
+
   const level = LEVELS[state.levelId];
   const topic = level.topics.find(t => t.id === state.topicId);
   const etMeta = EXERCISE_TYPES.find(e => e.id === state.type);
@@ -337,7 +419,8 @@ function renderChoiceOptions(q, action, optionsAreHebrew) {
 // ---------- חידון ----------
 function renderQuiz() {
   if (ex.index >= ex.questions.length) {
-    return renderSummary({ correct: ex.score, total: ex.questions.length, label: "סיכום החידון" });
+    const label = ex.isReview ? "סיכום תרגול המילים הקשות" : "סיכום החידון";
+    return renderSummary({ correct: ex.score, total: ex.questions.length, label });
   }
   const q = ex.questions[ex.index];
   const dirLabel = q.direction === "es2he" ? "מה התרגום לעברית?" : "מה התרגום לספרדית?";
@@ -416,6 +499,9 @@ function renderSentenceBuilder() {
 // ---------- סיכום ----------
 function renderSummary({ correct, total, label }) {
   const pct = total > 0 ? Math.round((correct / total) * 100) : 100;
+  const continueBtn = state.isReview
+    ? `<button class="ctrl-btn" data-action="back-home">סיום</button>`
+    : `<button class="ctrl-btn" data-action="back-topic" data-level="${state.levelId}" data-topic="${state.topicId}">חזרה לתרגילים</button>`;
   return `
     <div class="summary">
       <div class="section-sub">${label}</div>
@@ -423,7 +509,7 @@ function renderSummary({ correct, total, label }) {
       <div class="score-lbl">${correct} מתוך ${total} נכונים</div>
       <div class="runner-controls">
         <button class="ctrl-btn secondary" data-action="retry-exercise">נסה שוב</button>
-        <button class="ctrl-btn" data-action="back-topic" data-level="${state.levelId}" data-topic="${state.topicId}">חזרה לתרגילים</button>
+        ${continueBtn}
       </div>
     </div>
   `;
@@ -451,7 +537,13 @@ function handleAction(el) {
     }
     case "back-level": gotoLevel(level); break;
     case "back-topic": gotoTopic(level, topic); break;
-    case "retry-exercise": buildExercise(state.levelId, state.topicId, state.type); render(); break;
+    case "goto-review": gotoReview(); break;
+    case "retry-exercise": {
+      if (state.isReview) buildReviewExercise();
+      else buildExercise(state.levelId, state.topicId, state.type);
+      render();
+      break;
+    }
 
     // Flashcards
     case "flip-card": ex.flipped = !ex.flipped; render(); break;
@@ -475,9 +567,11 @@ function handleAction(el) {
       const q = ex.questions[ex.index];
       ex.selected = q.options[index];
       ex.answered = true;
-      if (ex.selected === q.correct) {
+      const isCorrect = ex.selected === q.correct;
+      recordAnswer(q.levelId, q.topicId, q.vocabIndex, isCorrect);
+      if (isCorrect) {
         ex.score += 1;
-        markLearned(state.levelId, state.topicId, q.vocabIndex);
+        markLearned(q.levelId, q.topicId, q.vocabIndex);
       }
       render();
       break;
@@ -489,7 +583,9 @@ function handleAction(el) {
       ex.selected = null;
       if (ex.index >= ex.questions.length && !ex.finished) {
         ex.finished = true;
-        setTopicScore(state.levelId, state.topicId, ex.type, Math.round((ex.score / ex.questions.length) * 100));
+        if (!ex.isReview) {
+          setTopicScore(state.levelId, state.topicId, ex.type, Math.round((ex.score / ex.questions.length) * 100));
+        }
       }
       render();
       break;
