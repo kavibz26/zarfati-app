@@ -2,6 +2,7 @@
 
 const PROGRESS_KEY = "habla_progress_v1";
 const LEARNED_KEY = "habla_learned_v1";
+const NAV_KEY = "habla_nav_v1";
 
 const EXERCISE_TYPES = [
   { id: "flashcards", name: "כרטיסיות", icon: "🗂️" },
@@ -53,6 +54,31 @@ function totalWordCount() {
   return Object.values(LEVELS).reduce((sum, lvl) =>
     sum + lvl.topics.reduce((s, t) => s + t.vocab.length, 0), 0);
 }
+function resetProgress() {
+  localStorage.removeItem(PROGRESS_KEY);
+  localStorage.removeItem(LEARNED_KEY);
+}
+
+// ---------- שמירת מיקום ניווט (כדי לשרוד רענון דף) ----------
+function saveNav(s) {
+  // מסך תרגיל לא נשמר כמו שהוא (מצב התרגיל עצמו לא נשמר) - נשמר כמסך הנושא שמכיל אותו
+  const toSave = s.screen === "exercise"
+    ? { screen: "topic", levelId: s.levelId, topicId: s.topicId }
+    : s;
+  try { localStorage.setItem(NAV_KEY, JSON.stringify(toSave)); } catch {}
+}
+function loadNav() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(NAV_KEY));
+    if (!saved || !saved.screen) return null;
+    if (saved.screen === "home") return saved;
+    const level = LEVELS[saved.levelId];
+    if (!level) return null;
+    if (saved.screen === "level") return saved;
+    if (saved.screen === "topic" && level.topics.some(t => t.id === saved.topicId)) return saved;
+    return null;
+  } catch { return null; }
+}
 
 // ---------- דיבור (Text-to-Speech) ----------
 let spanishVoice = null;
@@ -93,18 +119,20 @@ function pickDistractors(pool, correctValue, valueFn, n = 3) {
 }
 
 // ---------- state ----------
-let state = { screen: "home" };
+let state = loadNav() || { screen: "home" };
 let ex = null; // exercise runtime state
 
 const app = document.getElementById("app");
 const breadcrumb = document.getElementById("breadcrumb");
-document.getElementById("homeBtn").addEventListener("click", () => { state = { screen: "home" }; render(); });
+document.getElementById("homeBtn").addEventListener("click", () => { goHome(); });
 
 // ---------- ניווט ----------
-function gotoLevel(levelId) { state = { screen: "level", levelId }; render(); }
-function gotoTopic(levelId, topicId) { state = { screen: "topic", levelId, topicId }; render(); }
+function goHome() { state = { screen: "home" }; saveNav(state); render(); }
+function gotoLevel(levelId) { state = { screen: "level", levelId }; saveNav(state); render(); }
+function gotoTopic(levelId, topicId) { state = { screen: "topic", levelId, topicId }; saveNav(state); render(); }
 function gotoExercise(levelId, topicId, type) {
   state = { screen: "exercise", levelId, topicId, type };
+  saveNav(state);
   buildExercise(levelId, topicId, type);
   render();
 }
@@ -182,6 +210,9 @@ function renderHome() {
           <div class="progress-label"><span>התקדמות</span><span>${pct}%</span></div>
         </button>`;
       }).join("")}
+    </div>
+    <div style="text-align:center; margin-top:24px;">
+      <button class="back-btn" data-action="reset-progress">איפוס התקדמות</button>
     </div>
   `;
   bindDelegatedEvents();
@@ -410,7 +441,14 @@ function handleAction(el) {
     case "goto-level": gotoLevel(level); break;
     case "goto-topic": gotoTopic(level, topic); break;
     case "goto-exercise": gotoExercise(level, topic, type); break;
-    case "back-home": state = { screen: "home" }; render(); break;
+    case "back-home": goHome(); break;
+    case "reset-progress": {
+      if (confirm("לאפס את כל ההתקדמות שנשמרה? פעולה זו לא ניתנת לביטול.")) {
+        resetProgress();
+        render();
+      }
+      break;
+    }
     case "back-level": gotoLevel(level); break;
     case "back-topic": gotoTopic(level, topic); break;
     case "retry-exercise": buildExercise(state.levelId, state.topicId, state.type); render(); break;
