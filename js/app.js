@@ -46,6 +46,26 @@ function getLevelCompletion(levelId) {
   const scores = level.topics.map(t => getTopicCompletion(levelId, t.id));
   return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
 }
+function overallCompletion() {
+  const scores = Object.keys(LEVELS).map(id => getLevelCompletion(id));
+  return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+}
+function getAllTopicsWithCompletion() {
+  const rows = [];
+  for (const level of Object.values(LEVELS)) {
+    for (const topic of level.topics) {
+      rows.push({
+        levelId: level.id,
+        levelName: level.name,
+        levelColor: level.color,
+        topicId: topic.id,
+        topicName: topic.name,
+        completion: getTopicCompletion(level.id, topic.id)
+      });
+    }
+  }
+  return rows;
+}
 function markLearned(levelId, topicId, vocabIndex) {
   const s = loadLearned();
   s.add(`${levelId}:${topicId}:${vocabIndex}`);
@@ -176,6 +196,7 @@ function gotoReview() {
   buildReviewExercise();
   render();
 }
+function gotoStats() { state = { screen: "stats" }; render(); }
 
 // ---------- בניית תרגיל ----------
 function buildExercise(levelId, topicId, type) {
@@ -246,6 +267,7 @@ function render() {
   if (state.screen === "level") return renderLevel();
   if (state.screen === "topic") return renderTopic();
   if (state.screen === "exercise") return renderExercise();
+  if (state.screen === "stats") return renderStats();
 }
 
 function renderHome() {
@@ -278,6 +300,9 @@ function renderHome() {
       }).join("")}
     </div>
     <div style="text-align:center; margin-top:24px;">
+      <button class="ctrl-btn secondary" data-action="goto-stats">📊 סטטיסטיקות והתקדמות</button>
+    </div>
+    <div style="text-align:center; margin-top:16px;">
       <button class="ctrl-btn" data-action="goto-review" ${reviewCount === 0 ? "disabled" : ""}>
         📝 תרגול מילים קשות${reviewCount > 0 ? ` (${reviewCount})` : ""}
       </button>
@@ -285,6 +310,82 @@ function renderHome() {
     </div>
     <div style="text-align:center; margin-top:16px;">
       <button class="back-btn" data-action="reset-progress">איפוס התקדמות</button>
+    </div>
+  `;
+  bindDelegatedEvents();
+}
+
+// ---------- סטטיסטיקות והתקדמות ----------
+function renderTopicStatRows(rows) {
+  return rows.map(t => `
+    <div class="topic-row">
+      <div class="tr-info">
+        <div class="tr-name">${t.topicName}</div>
+        <div class="tr-count">רמת ${t.levelName}</div>
+        <div class="progress-bar"><div class="progress-bar-fill" style="width:${t.completion}%; background:${t.levelColor}"></div></div>
+      </div>
+      <div style="font-weight:700;color:${t.levelColor}">${t.completion}%</div>
+    </div>`).join("");
+}
+
+function renderStats() {
+  breadcrumb.textContent = "סטטיסטיקות והתקדמות";
+  const learned = totalLearnedCount();
+  const total = totalWordCount();
+  const overallPct = overallCompletion();
+  const reviewCount = struggleWordCount();
+
+  const attempted = getAllTopicsWithCompletion().filter(t => t.completion > 0);
+  let topicsSection;
+  if (attempted.length === 0) {
+    topicsSection = `
+      <div class="section-title">נושאים חזקים וחלשים</div>
+      <div class="section-sub">עדיין אין מספיק נתונים להצגה. תרגלו נושא אחד לפחות כדי לראות כאן ניתוח של הנושאים החזקים והחלשים שלכם.</div>
+    `;
+  } else if (attempted.length >= 6) {
+    const sorted = [...attempted].sort((a, b) => b.completion - a.completion);
+    const strong = sorted.slice(0, 3);
+    const weak = sorted.slice(-3).reverse();
+    topicsSection = `
+      <div class="section-title">נושאים חזקים</div>
+      <div class="topic-list">${renderTopicStatRows(strong)}</div>
+      <div class="section-title" style="margin-top:24px;">נושאים לחיזוק</div>
+      <div class="topic-list">${renderTopicStatRows(weak)}</div>
+    `;
+  } else {
+    const sorted = [...attempted].sort((a, b) => b.completion - a.completion);
+    topicsSection = `
+      <div class="section-title">נושאים שתורגלו</div>
+      <div class="section-sub">כשתתרגלו יותר נושאים, כאן תופיע הפרדה בין נושאים חזקים לנושאים לחיזוק.</div>
+      <div class="topic-list">${renderTopicStatRows(sorted)}</div>
+    `;
+  }
+
+  app.innerHTML = `
+    <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
+    <div class="section-title">סטטיסטיקות והתקדמות</div>
+    <div class="section-sub">סיכום ההתקדמות שלכם בלימוד הספרדית</div>
+    <div class="stats-strip">
+      <div class="stat-box"><div class="num">${learned}/${total}</div><div class="lbl">מילים נלמדו</div></div>
+      <div class="stat-box"><div class="num">${overallPct}%</div><div class="lbl">התקדמות כוללת</div></div>
+      <div class="stat-box"><div class="num">${reviewCount}</div><div class="lbl">מילים קשות</div></div>
+    </div>
+    <div class="section-title" style="margin-top:28px;">התקדמות לפי רמה</div>
+    <div class="topic-list">
+      ${Object.values(LEVELS).map(level => {
+        const pct = getLevelCompletion(level.id);
+        return `
+        <div class="topic-row">
+          <div class="tr-info">
+            <div class="tr-name">${level.icon} ${level.name}</div>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${level.color}"></div></div>
+          </div>
+          <div style="font-weight:700;color:${level.color}">${pct}%</div>
+        </div>`;
+      }).join("")}
+    </div>
+    <div style="margin-top:28px;">
+      ${topicsSection}
     </div>
   `;
   bindDelegatedEvents();
@@ -538,6 +639,7 @@ function handleAction(el) {
     case "back-level": gotoLevel(level); break;
     case "back-topic": gotoTopic(level, topic); break;
     case "goto-review": gotoReview(); break;
+    case "goto-stats": gotoStats(); break;
     case "retry-exercise": {
       if (state.isReview) buildReviewExercise();
       else buildExercise(state.levelId, state.topicId, state.type);
