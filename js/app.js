@@ -21,6 +21,11 @@ const DISPLAY_EXERCISE_TYPES = [...EXERCISE_TYPES, RECALL_TYPE];
 // 3 רמות הקושי המוצגות ברשת דף הבית. "דקדוק בסיסי" (LEVELS.grammar) הוא אזור לימוד נפרד
 // מבחינת המשתמש - יש לו כפתור משלו בדף הבית, ובכוונה לא נכלל ברשימה הזו.
 const DIFFICULTY_LEVEL_IDS = ["beginner", "intermediate", "advanced"];
+// תווית מוצגת עבור רמה/אזור: "רמת X" עבור 3 רמות הקושי, אבל בלי המילה "רמת" עבור הדקדוק
+// (הוא לא רמת קושי מבחינת המשתמש, אלא אזור לימוד נפרד).
+function levelLabel(levelId, name) {
+  return DIFFICULTY_LEVEL_IDS.includes(levelId) ? `רמת ${name}` : name;
+}
 
 // ---------- שמירת התקדמות ----------
 function loadProgress() {
@@ -191,17 +196,53 @@ function normalizeAnswer(s) {
     .trim()
     .replace(/\s+/g, " ");
 }
+// מרחיב טוקן בודד שמכיל "/" מוטמע בלי רווחים סביבו (למשל "Él/Ella" או "Estimado/a") לשתי חלופות.
+// אם החלק שאחרי ה-"/" קצר מאוד (כמו "a" ב-"Estimado/a") מתייחסים אליו כסיומת מגדר שמוחלפת
+// בסוף המילה הראשונה; אחרת מתייחסים לשני הצדדים כמילים שלמות ועצמאיות (כמו "Él" ו-"Ella").
+function expandSlashToken(token) {
+  const parts = token.split("/");
+  if (parts.length !== 2 || !parts[0] || !parts[1]) return [token];
+  const [a, b] = parts;
+  if (b.length <= 2 && a.length > b.length) {
+    const stem = /[aeo]$/i.test(a) ? a.slice(0, -1) : a;
+    return [a, stem + b];
+  }
+  return [a, b];
+}
+// מרחיב ביטוי שלם לכל צירופי החלופות האפשריים, כשלכל מילה בביטוי שמכילה "/" מוטמע
+// יש להחליף באחת מהחלופות שלה, בעוד שאר הביטוי נשאר משותף (למשל "Él/Ella es" -> "Él es" / "Ella es")
+function expandPhrase(phrase) {
+  const words = phrase.split(" ");
+  let variants = [words];
+  words.forEach((word, i) => {
+    if (!word.includes("/")) return;
+    const alts = expandSlashToken(word);
+    const next = [];
+    for (const variant of variants) {
+      for (const alt of alts) {
+        const copy = [...variant];
+        copy[i] = alt;
+        next.push(copy);
+      }
+    }
+    variants = next;
+  });
+  return variants.map(v => v.join(" "));
+}
 // בונה את קבוצת התשובות הקבילות מתוך ערך ה-es הגולמי:
-// מסיר הבהרות בסוגריים ("(yo hablo)"), מפצל לפי "/" לחלופות, ומקבל כל חלופה גם בלי מילת יחס בהתחלה
+// מסיר הבהרות בסוגריים ("(yo hablo)"), מפצל ל"/" מרווח לחלופות ברמת הביטוי השלם (כמו "El jefe / La jefa"),
+// מרחיב "/" מוטמע ברמת המילה הבודדת (כמו "Él/Ella es"), ומקבל כל חלופה גם בלי מילת יחס בהתחלה
 function acceptableAnswers(es) {
   const cleaned = es.replace(/\([^)]*\)/g, "").trim();
   const answers = new Set();
-  for (const alt of cleaned.split("/")) {
-    const norm = normalizeAnswer(alt);
-    if (!norm) continue;
-    answers.add(norm);
-    const noArticle = norm.replace(/^(el|la|los|las)\s+/, "");
-    if (noArticle) answers.add(noArticle);
+  for (const phrase of cleaned.split(/\s+\/\s+/)) {
+    for (const expanded of expandPhrase(phrase.trim())) {
+      const norm = normalizeAnswer(expanded);
+      if (!norm) continue;
+      answers.add(norm);
+      const noArticle = norm.replace(/^(el|la|los|las)\s+/, "");
+      if (noArticle) answers.add(noArticle);
+    }
   }
   return answers;
 }
@@ -367,7 +408,7 @@ function renderTopicStatRows(rows) {
     <div class="topic-row">
       <div class="tr-info">
         <div class="tr-name">${t.topicName}</div>
-        <div class="tr-count">רמת ${t.levelName}</div>
+        <div class="tr-count">${levelLabel(t.levelId, t.levelName)}</div>
         <div class="progress-bar"><div class="progress-bar-fill" style="width:${t.completion}%; background:${t.levelColor}"></div></div>
       </div>
       <div style="font-weight:700;color:${t.levelColor}">${t.completion}%</div>
@@ -416,9 +457,9 @@ function renderStats() {
       <div class="stat-box"><div class="num">${overallPct}%</div><div class="lbl">התקדמות כוללת</div></div>
       <div class="stat-box"><div class="num">${reviewCount}</div><div class="lbl">מילים קשות</div></div>
     </div>
-    <div class="section-title" style="margin-top:28px;">התקדמות לפי רמה</div>
+    <div class="section-title" style="margin-top:28px;">התקדמות לפי רמת קושי</div>
     <div class="topic-list">
-      ${Object.values(LEVELS).map(level => {
+      ${DIFFICULTY_LEVEL_IDS.map(id => LEVELS[id]).map(level => {
         const pct = getLevelCompletion(level.id);
         return `
         <div class="topic-row">
@@ -429,6 +470,21 @@ function renderStats() {
           <div style="font-weight:700;color:${level.color}">${pct}%</div>
         </div>`;
       }).join("")}
+    </div>
+    <div class="section-title" style="margin-top:28px;">${LEVELS.grammar.name}</div>
+    <div class="topic-list">
+      ${(() => {
+        const level = LEVELS.grammar;
+        const pct = getLevelCompletion(level.id);
+        return `
+        <div class="topic-row">
+          <div class="tr-info">
+            <div class="tr-name">${level.icon} ${level.name}</div>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${level.color}"></div></div>
+          </div>
+          <div style="font-weight:700;color:${level.color}">${pct}%</div>
+        </div>`;
+      })()}
     </div>
     <div style="margin-top:28px;">
       ${topicsSection}
@@ -442,7 +498,7 @@ function renderLevel() {
   breadcrumb.textContent = `${level.name}`;
   app.innerHTML = `
     <button class="back-btn" data-action="back-home">→ חזרה לרמות</button>
-    <div class="section-title">${level.icon} רמת ${level.name}</div>
+    <div class="section-title">${level.icon} ${levelLabel(level.id, level.name)}</div>
     <div class="section-sub">בחר נושא כדי להתחיל לתרגל</div>
     <div class="topic-list">
       ${level.topics.map(topic => {
@@ -469,7 +525,7 @@ function renderTopic() {
   app.innerHTML = `
     <button class="back-btn" data-action="back-level" data-level="${level.id}">→ חזרה לנושאים</button>
     <div class="section-title">${topic.name}</div>
-    <div class="section-sub">רמת ${level.name} · בחר סוג תרגיל</div>
+    <div class="section-sub">${levelLabel(level.id, level.name)} · בחר סוג תרגיל</div>
     <div class="exercise-grid">
       ${DISPLAY_EXERCISE_TYPES.map(et => {
         const score = getTopicScore(level.id, topic.id, et.id);
