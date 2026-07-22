@@ -666,5 +666,95 @@ const LEVELS = {
         ]
       }
     ]
+  },
+
+  // "דקדוק בסיסי" אינו רמת קושי מבחינת המשתמש - הוא אזור לימוד נפרד (כפתור משלו בדף הבית),
+  // אך נשמר באותה צורת נתונים בדיוק כדי לעבוד עם כל מנוע התרגול הקיים ללא כל שינוי בו.
+  grammar: {
+    id: "grammar",
+    name: "דקדוק בסיסי",
+    icon: "📖",
+    color: "#f59e0b",
+    topics: [
+      {
+        id: "pronouns",
+        name: "כינויי גוף",
+        vocab: [
+          { es: "Yo", he: "אני", ex_es: "Yo hablo español.", ex_he: "אני מדבר ספרדית." },
+          { es: "Tú", he: "אתה / את", ex_es: "Tú eres muy amable.", ex_he: "אתה מאוד אדיב." },
+          { es: "Él", he: "הוא", ex_es: "Él vive en Madrid.", ex_he: "הוא גר במדריד." },
+          { es: "Ella", he: "היא", ex_es: "Ella trabaja mucho.", ex_he: "היא עובדת הרבה." },
+          { es: "Usted", he: "אתה / את (רשמי)", ex_es: "¿Cómo está usted?", ex_he: "מה שלומך? (רשמי)" },
+          { es: "Nosotros / Nosotras", he: "אנחנו", ex_es: "Nosotros somos amigos.", ex_he: "אנחנו חברים." },
+          { es: "Vosotros / Vosotras", he: "אתם / אתן (בספרד)", ex_es: "Vosotros sois estudiantes.", ex_he: "אתם תלמידים." },
+          { es: "Ellos", he: "הם", ex_es: "Ellos viven juntos.", ex_he: "הם גרים ביחד." },
+          { es: "Ellas", he: "הן", ex_es: "Ellas estudian medicina.", ex_he: "הן לומדות רפואה." },
+          { es: "Ustedes", he: "אתם / אתן (רשמי)", ex_es: "Ustedes son bienvenidos.", ex_he: "אתם מוזמנים בברכה." }
+        ],
+        sentences: [
+          { es: "Yo soy de Israel y tú eres de España.", he: "אני מישראל ואתה מספרד." },
+          { es: "Nosotros vamos al cine esta noche.", he: "אנחנו הולכים לקולנוע הלילה." },
+          { es: "¿Ustedes hablan inglés?", he: "אתם מדברים אנגלית?" },
+          { es: "Ella y él son hermanos.", he: "היא והוא אחים." },
+          { es: "Vosotros sois muy simpáticos.", he: "אתם מאוד נחמדים." }
+        ]
+      },
+      {
+        id: "common_verbs",
+        name: "פעלים נפוצים",
+        vocab: [
+          { es: "Ser", he: "להיות (זהות/תכונה)", ex_es: "Quiero ser médico.", ex_he: "אני רוצה להיות רופא." },
+          { es: "Estar", he: "להיות (מצב/מיקום)", ex_es: "Necesito estar tranquilo.", ex_he: "אני צריך להיות רגוע." },
+          { es: "Tener", he: "יש ל...", ex_es: "Voy a tener una reunión.", ex_he: "יהיה לי ישיבה." },
+          { es: "Hacer", he: "לעשות", ex_es: "Tengo que hacer la tarea.", ex_he: "אני צריך לעשות שיעורי בית." },
+          { es: "Ir", he: "ללכת", ex_es: "Vamos a ir a la playa.", ex_he: "אנחנו הולכים ללכת לחוף הים." },
+          { es: "Poder", he: "להיות מסוגל / יכול", ex_es: "No puedo venir mañana.", ex_he: "אני לא יכול לבוא מחר." },
+          { es: "Querer", he: "לרצות", ex_es: "Quiero aprender español.", ex_he: "אני רוצה ללמוד ספרדית." },
+          { es: "Decir", he: "לומר", ex_es: "Voy a decir la verdad.", ex_he: "אני הולך לומר את האמת." },
+          { es: "Ver", he: "לראות", ex_es: "Quiero ver esa película.", ex_he: "אני רוצה לראות את הסרט הזה." },
+          { es: "Dar", he: "לתת", ex_es: "Voy a dar un regalo.", ex_he: "אני הולך לתת מתנה." },
+          { es: "Saber", he: "לדעת", ex_es: "No sé la respuesta.", ex_he: "אני לא יודע את התשובה." },
+          { es: "Hablar", he: "לדבר", ex_es: "Me gusta hablar español.", ex_he: "אני אוהב לדבר ספרדית." }
+        ],
+        sentences: [
+          { es: "Quiero ser profesor de español algún día.", he: "אני רוצה להיות מורה לספרדית יום אחד." },
+          { es: "¿Puedes hacer esto por mí?", he: "אתה יכול לעשות את זה בשבילי?" },
+          { es: "Vamos a ver una película esta noche.", he: "אנחנו הולכים לראות סרט הלילה." },
+          { es: "No sé qué decir en esta situación.", he: "אני לא יודע מה לומר במצב הזה." },
+          { es: "Ellos van a dar una fiesta el sábado.", he: "הם הולכים לתת מסיבה בשבת." }
+        ]
+      },
+      {
+        id: "basic_conjugation",
+        name: "הטיות בסיסיות בהווה",
+        vocab: [
+          { es: "Yo hablo", he: "אני מדבר", ex_es: "Yo hablo con mi madre.", ex_he: "אני מדבר עם אמא שלי." },
+          { es: "Tú hablas", he: "אתה מדבר", ex_es: "Tú hablas muy rápido.", ex_he: "אתה מדבר מהר מאוד." },
+          { es: "Él/Ella habla", he: "הוא/היא מדבר/ת", ex_es: "Ella habla tres idiomas.", ex_he: "היא מדברת שלוש שפות." },
+          { es: "Nosotros hablamos", he: "אנחנו מדברים", ex_es: "Nosotros hablamos todos los días.", ex_he: "אנחנו מדברים כל יום." },
+          { es: "Vosotros habláis", he: "אתם מדברים (בספרד)", ex_es: "Vosotros habláis muy bien.", ex_he: "אתם מדברים טוב מאוד." },
+          { es: "Ellos hablan", he: "הם מדברים", ex_es: "Ellos hablan por teléfono.", ex_he: "הם מדברים בטלפון." },
+          { es: "Yo como", he: "אני אוכל", ex_es: "Yo como a las dos.", ex_he: "אני אוכל בשתיים." },
+          { es: "Tú comes", he: "אתה אוכל", ex_es: "Tú comes muy poco.", ex_he: "אתה אוכל מעט מאוד." },
+          { es: "Él/Ella come", he: "הוא/היא אוכל/ת", ex_es: "Él come mucha fruta.", ex_he: "הוא אוכל הרבה פרי." },
+          { es: "Nosotros comemos", he: "אנחנו אוכלים", ex_es: "Nosotros comemos juntos.", ex_he: "אנחנו אוכלים ביחד." },
+          { es: "Vosotros coméis", he: "אתם אוכלים (בספרד)", ex_es: "Vosotros coméis tarde.", ex_he: "אתם אוכלים מאוחר." },
+          { es: "Ellos comen", he: "הם אוכלים", ex_es: "Ellos comen en el restaurante.", ex_he: "הם אוכלים במסעדה." },
+          { es: "Yo vivo", he: "אני גר", ex_es: "Yo vivo en Tel Aviv.", ex_he: "אני גר בתל אביב." },
+          { es: "Tú vives", he: "אתה גר", ex_es: "Tú vives cerca de aquí.", ex_he: "אתה גר קרוב לכאן." },
+          { es: "Él/Ella vive", he: "הוא/היא גר/ה", ex_es: "Ella vive con su familia.", ex_he: "היא גרה עם המשפחה שלה." },
+          { es: "Nosotros vivimos", he: "אנחנו גרים", ex_es: "Nosotros vivimos en el centro.", ex_he: "אנחנו גרים במרכז." },
+          { es: "Vosotros vivís", he: "אתם גרים (בספרד)", ex_es: "Vosotros vivís en las afueras.", ex_he: "אתם גרים בפרברים." },
+          { es: "Ellos viven", he: "הם גרים", ex_es: "Ellos viven en Barcelona.", ex_he: "הם גרים בברצלונה." }
+        ],
+        sentences: [
+          { es: "Yo hablo español, como tapas y vivo en Madrid.", he: "אני מדבר ספרדית, אוכל טאפאס וגר במדריד." },
+          { es: "¿Tú hablas, comes o vives aquí?", he: "אתה מדבר, אוכל או גר כאן?" },
+          { es: "Nosotros hablamos, comemos y vivimos juntos.", he: "אנחנו מדברים, אוכלים וגרים ביחד." },
+          { es: "Ellos hablan inglés y viven en Londres.", he: "הם מדברים אנגלית וגרים בלונדון." },
+          { es: "Ella come temprano y luego habla con sus amigas.", he: "היא אוכלת מוקדם ואז מדברת עם החברות שלה." }
+        ]
+      }
+    ]
   }
 };

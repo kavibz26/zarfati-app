@@ -18,6 +18,10 @@ const EXERCISE_TYPES = [
 const RECALL_TYPE = { id: "recall", name: "שליפה פעילה", icon: "⌨️" };
 const DISPLAY_EXERCISE_TYPES = [...EXERCISE_TYPES, RECALL_TYPE];
 
+// 3 רמות הקושי המוצגות ברשת דף הבית. "דקדוק בסיסי" (LEVELS.grammar) הוא אזור לימוד נפרד
+// מבחינת המשתמש - יש לו כפתור משלו בדף הבית, ובכוונה לא נכלל ברשימה הזו.
+const DIFFICULTY_LEVEL_IDS = ["beginner", "intermediate", "advanced"];
+
 // ---------- שמירת התקדמות ----------
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {}; }
@@ -324,7 +328,7 @@ function renderHome() {
       <div class="stat-box"><div class="num">${getLevelCompletion("advanced")}%</div><div class="lbl">מקצועי</div></div>
     </div>
     <div class="level-grid">
-      ${Object.values(LEVELS).map(level => {
+      ${DIFFICULTY_LEVEL_IDS.map(id => LEVELS[id]).map(level => {
         const pct = getLevelCompletion(level.id);
         return `
         <button class="level-card" style="border-color:${level.color}22" data-action="goto-level" data-level="${level.id}">
@@ -336,7 +340,12 @@ function renderHome() {
         </button>`;
       }).join("")}
     </div>
-    <div style="text-align:center; margin-top:24px;">
+    <div style="text-align:center; margin-top:20px;">
+      <button class="ctrl-btn" style="background:${LEVELS.grammar.color}" data-action="goto-level" data-level="grammar">
+        ${LEVELS.grammar.icon} ${LEVELS.grammar.name}
+      </button>
+    </div>
+    <div style="text-align:center; margin-top:16px;">
       <button class="ctrl-btn secondary" data-action="goto-stats">📊 סטטיסטיקות והתקדמות</button>
     </div>
     <div style="text-align:center; margin-top:16px;">
