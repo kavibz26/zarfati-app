@@ -275,6 +275,24 @@ function gotoReview() {
 }
 function gotoStats() { state = { screen: "stats" }; render(); }
 
+// בונה שאלת חידון בודדת (כיוון אקראי + מסיחים) עבור מילה אחת. משמש גם לחידון רגיל וגם לתרגול חזרה,
+// שהיו זהים במלואם קודם לכן, כל אחד עם ההעתק שלו.
+function buildQuizQuestion(vocabItem, levelId, topicId, vocabIndex, allVocabInLevel) {
+  const direction = Math.random() < 0.5 ? "es2he" : "he2es";
+  const correctText = direction === "es2he" ? vocabItem.he : vocabItem.es;
+  const valueFn = o => direction === "es2he" ? o.he : o.es;
+  const options = shuffle([correctText, ...pickDistractors(allVocabInLevel, correctText, valueFn)]);
+  return {
+    vocabIndex,
+    levelId,
+    topicId,
+    direction,
+    prompt: direction === "es2he" ? vocabItem.es : vocabItem.he,
+    correct: correctText,
+    options
+  };
+}
+
 // ---------- בניית תרגיל ----------
 function buildExercise(levelId, topicId, type) {
   const level = LEVELS[levelId];
@@ -284,21 +302,8 @@ function buildExercise(levelId, topicId, type) {
   if (type === "flashcards") {
     ex = { type, index: 0, flipped: false, items: topic.vocab, finished: false };
   } else if (type === "quiz") {
-    const questions = shuffle(topic.vocab.map((v, i) => {
-      const direction = Math.random() < 0.5 ? "es2he" : "he2es";
-      const correctText = direction === "es2he" ? v.he : v.es;
-      const valueFn = o => direction === "es2he" ? o.he : o.es;
-      const options = shuffle([correctText, ...pickDistractors(allVocabInLevel, correctText, valueFn)]);
-      return {
-        vocabIndex: i,
-        levelId,
-        topicId,
-        direction,
-        prompt: direction === "es2he" ? v.es : v.he,
-        correct: correctText,
-        options
-      };
-    }));
+    const questions = shuffle(topic.vocab.map((v, i) =>
+      buildQuizQuestion(v, levelId, topicId, i, allVocabInLevel)));
     ex = { type, index: 0, score: 0, questions, answered: false, selected: null, finished: false };
   } else if (type === "listening") {
     const questions = shuffle(topic.vocab.map((v, i) => {
@@ -326,19 +331,7 @@ function buildReviewExercise() {
   const words = getStruggleWords(REVIEW_SESSION_SIZE);
   const questions = shuffle(words.map(w => {
     const allVocabInLevel = LEVELS[w.levelId].topics.flatMap(t => t.vocab);
-    const direction = Math.random() < 0.5 ? "es2he" : "he2es";
-    const correctText = direction === "es2he" ? w.vocab.he : w.vocab.es;
-    const valueFn = o => direction === "es2he" ? o.he : o.es;
-    const options = shuffle([correctText, ...pickDistractors(allVocabInLevel, correctText, valueFn)]);
-    return {
-      vocabIndex: w.vocabIndex,
-      levelId: w.levelId,
-      topicId: w.topicId,
-      direction,
-      prompt: direction === "es2he" ? w.vocab.es : w.vocab.he,
-      correct: correctText,
-      options
-    };
+    return buildQuizQuestion(w.vocab, w.levelId, w.topicId, w.vocabIndex, allVocabInLevel);
   }));
   ex = { type: "quiz", index: 0, score: 0, questions, answered: false, selected: null, finished: false, isReview: true };
 }
@@ -383,15 +376,15 @@ function renderHome() {
     </div>
     <div style="text-align:center; margin-top:20px;">
       <button class="ctrl-btn" style="background:${LEVELS.grammar.color}" data-action="goto-level" data-level="grammar">
-        ${LEVELS.grammar.icon} ${LEVELS.grammar.name}
+        <span aria-hidden="true">${LEVELS.grammar.icon}</span> ${LEVELS.grammar.name}
       </button>
     </div>
     <div style="text-align:center; margin-top:16px;">
-      <button class="ctrl-btn secondary" data-action="goto-stats">📊 סטטיסטיקות והתקדמות</button>
+      <button class="ctrl-btn secondary" data-action="goto-stats"><span aria-hidden="true">📊</span> סטטיסטיקות והתקדמות</button>
     </div>
     <div style="text-align:center; margin-top:16px;">
       <button class="ctrl-btn" data-action="goto-review" ${reviewCount === 0 ? "disabled" : ""}>
-        📝 תרגול מילים קשות${reviewCount > 0 ? ` (${reviewCount})` : ""}
+        <span aria-hidden="true">📝</span> תרגול מילים קשות${reviewCount > 0 ? ` (${reviewCount})` : ""}
       </button>
       ${reviewCount === 0 ? `<div class="section-sub" style="margin-top:8px;">אין עדיין מילים לחזרה - תרגלו קצת ונחזור לכאן!</div>` : ""}
     </div>
@@ -413,6 +406,18 @@ function renderTopicStatRows(rows) {
       </div>
       <div style="font-weight:700;color:${t.levelColor}">${t.completion}%</div>
     </div>`).join("");
+}
+// שורת "אחוז השלמה" עבור רמה/אזור שלם (משמש גם ל-3 רמות הקושי וגם לדקדוק במסך הסטטיסטיקות)
+function renderLevelProgressRow(level) {
+  const pct = getLevelCompletion(level.id);
+  return `
+    <div class="topic-row">
+      <div class="tr-info">
+        <div class="tr-name">${level.icon} ${level.name}</div>
+        <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${level.color}"></div></div>
+      </div>
+      <div style="font-weight:700;color:${level.color}">${pct}%</div>
+    </div>`;
 }
 
 function renderStats() {
@@ -459,32 +464,11 @@ function renderStats() {
     </div>
     <div class="section-title" style="margin-top:28px;">התקדמות לפי רמת קושי</div>
     <div class="topic-list">
-      ${DIFFICULTY_LEVEL_IDS.map(id => LEVELS[id]).map(level => {
-        const pct = getLevelCompletion(level.id);
-        return `
-        <div class="topic-row">
-          <div class="tr-info">
-            <div class="tr-name">${level.icon} ${level.name}</div>
-            <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${level.color}"></div></div>
-          </div>
-          <div style="font-weight:700;color:${level.color}">${pct}%</div>
-        </div>`;
-      }).join("")}
+      ${DIFFICULTY_LEVEL_IDS.map(id => renderLevelProgressRow(LEVELS[id])).join("")}
     </div>
     <div class="section-title" style="margin-top:28px;">${LEVELS.grammar.name}</div>
     <div class="topic-list">
-      ${(() => {
-        const level = LEVELS.grammar;
-        const pct = getLevelCompletion(level.id);
-        return `
-        <div class="topic-row">
-          <div class="tr-info">
-            <div class="tr-name">${level.icon} ${level.name}</div>
-            <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${level.color}"></div></div>
-          </div>
-          <div style="font-weight:700;color:${level.color}">${pct}%</div>
-        </div>`;
-      })()}
+      ${renderLevelProgressRow(LEVELS.grammar)}
     </div>
     <div style="margin-top:28px;">
       ${topicsSection}
@@ -752,6 +736,110 @@ function renderSummary({ correct, total, label }) {
   `;
 }
 
+// אם הגענו לסוף התרגיל ועדיין לא שמרנו עבורו ציון - שומר פעם אחת בדיוק.
+// סשן חזרה (isReview) אינו שייך לנושא אחד ולכן אינו כותב ציון נושא כלל.
+function finishExerciseIfDone(length, scoreType, percent) {
+  if (ex.index < length || ex.finished) return;
+  ex.finished = true;
+  if (!ex.isReview) setTopicScore(state.levelId, state.topicId, scoreType, percent);
+}
+
+// ---------- כרטיסיות ----------
+function handleFcNext() {
+  ex.index += 1;
+  ex.flipped = false;
+  finishExerciseIfDone(ex.items.length, "flashcards", 100);
+  render();
+}
+
+// ---------- חידון והאזנה (אותה צורת נתונים בדיוק) ----------
+function handleChoiceOption(index) {
+  if (ex.answered) return;
+  const q = ex.questions[ex.index];
+  ex.selected = q.options[index];
+  ex.answered = true;
+  const isCorrect = ex.selected === q.correct;
+  recordAnswer(q.levelId, q.topicId, q.vocabIndex, isCorrect);
+  if (isCorrect) {
+    ex.score += 1;
+    markLearned(q.levelId, q.topicId, q.vocabIndex);
+  }
+  render();
+}
+function handleChoiceNext() {
+  ex.index += 1;
+  ex.answered = false;
+  ex.selected = null;
+  finishExerciseIfDone(ex.questions.length, ex.type, Math.round((ex.score / ex.questions.length) * 100));
+  render();
+}
+
+// ---------- בניית משפטים ----------
+function handleSbAdd(index) {
+  const item = ex.items[ex.index];
+  if (ex.checked || item.usedIdx.has(index)) return;
+  item.usedIdx.add(index);
+  item.answer.push(item.bank[index]);
+  render();
+}
+function handleSbRemove(index) {
+  const item = ex.items[ex.index];
+  if (ex.checked) return;
+  const word = item.answer[index];
+  item.answer.splice(index, 1);
+  for (const bi of item.usedIdx) {
+    if (item.bank[bi] === word) { item.usedIdx.delete(bi); break; }
+  }
+  render();
+}
+function handleSbClear() {
+  const item = ex.items[ex.index];
+  item.answer = [];
+  item.usedIdx = new Set();
+  render();
+}
+function handleSbCheck() {
+  const item = ex.items[ex.index];
+  const built = item.answer.join(" ");
+  ex.correctFlag = built.toLowerCase() === item.es.toLowerCase();
+  if (ex.correctFlag) ex.score += 1;
+  ex.checked = true;
+  render();
+}
+function handleSbNext() {
+  ex.index += 1;
+  ex.checked = false;
+  ex.correctFlag = null;
+  finishExerciseIfDone(ex.items.length, "sentences", Math.round((ex.score / ex.items.length) * 100));
+  render();
+}
+
+// ---------- שליפה פעילה ----------
+function handleRecallCheck() {
+  if (ex.checked) return;
+  const item = ex.items[ex.index];
+  const inputEl = app.querySelector('[data-role="recall-input"]');
+  const typed = inputEl ? inputEl.value : "";
+  const isCorrect = isRecallCorrect(typed, item.answer);
+  ex.userAnswer = typed;
+  ex.correctFlag = isCorrect;
+  ex.checked = true;
+  recordAnswer(item.levelId, item.topicId, item.vocabIndex, isCorrect);
+  if (isCorrect) {
+    ex.score += 1;
+    markLearned(item.levelId, item.topicId, item.vocabIndex);
+  }
+  render();
+}
+function handleRecallNext() {
+  ex.index += 1;
+  ex.checked = false;
+  ex.correctFlag = null;
+  ex.userAnswer = "";
+  finishExerciseIfDone(ex.items.length, "recall", Math.round((ex.score / ex.items.length) * 100));
+  render();
+}
+
 // ---------- טיפול באירועים (event delegation) ----------
 function handleAction(el) {
   const action = el.dataset.action;
@@ -787,129 +875,27 @@ function handleAction(el) {
     case "flip-card": ex.flipped = !ex.flipped; render(); break;
     case "fc-speak": speak(ex.items[ex.index].es); break;
     case "fc-prev": ex.index = Math.max(0, ex.index - 1); ex.flipped = false; render(); break;
-    case "fc-next": {
-      ex.index += 1;
-      ex.flipped = false;
-      if (ex.index >= ex.items.length && !ex.finished) {
-        ex.finished = true;
-        setTopicScore(state.levelId, state.topicId, "flashcards", 100);
-      }
-      render();
-      break;
-    }
+    case "fc-next": handleFcNext(); break;
 
     // Quiz & Listening share the same runtime shape ({questions, index, score, answered, selected})
     case "quiz-option":
-    case "listen-option": {
-      if (ex.answered) break;
-      const q = ex.questions[ex.index];
-      ex.selected = q.options[index];
-      ex.answered = true;
-      const isCorrect = ex.selected === q.correct;
-      recordAnswer(q.levelId, q.topicId, q.vocabIndex, isCorrect);
-      if (isCorrect) {
-        ex.score += 1;
-        markLearned(q.levelId, q.topicId, q.vocabIndex);
-      }
-      render();
-      break;
-    }
+    case "listen-option": handleChoiceOption(index); break;
     case "quiz-next":
-    case "listen-next": {
-      ex.index += 1;
-      ex.answered = false;
-      ex.selected = null;
-      if (ex.index >= ex.questions.length && !ex.finished) {
-        ex.finished = true;
-        if (!ex.isReview) {
-          setTopicScore(state.levelId, state.topicId, ex.type, Math.round((ex.score / ex.questions.length) * 100));
-        }
-      }
-      render();
-      break;
-    }
+    case "listen-next": handleChoiceNext(); break;
     case "listen-play": speak(ex.questions[ex.index].es); break;
 
     // Sentence builder
-    case "sb-add": {
-      const item = ex.items[ex.index];
-      if (ex.checked || item.usedIdx.has(index)) break;
-      item.usedIdx.add(index);
-      item.answer.push(item.bank[index]);
-      render();
-      break;
-    }
-    case "sb-remove": {
-      const item = ex.items[ex.index];
-      if (ex.checked) break;
-      const word = item.answer[index];
-      item.answer.splice(index, 1);
-      for (const bi of item.usedIdx) {
-        if (item.bank[bi] === word) { item.usedIdx.delete(bi); break; }
-      }
-      render();
-      break;
-    }
-    case "sb-clear": {
-      const item = ex.items[ex.index];
-      item.answer = [];
-      item.usedIdx = new Set();
-      render();
-      break;
-    }
+    case "sb-add": handleSbAdd(index); break;
+    case "sb-remove": handleSbRemove(index); break;
+    case "sb-clear": handleSbClear(); break;
     case "sb-speak": speak(ex.items[ex.index].es); break;
-    case "sb-check": {
-      const item = ex.items[ex.index];
-      const built = item.answer.join(" ");
-      ex.correctFlag = built.toLowerCase() === item.es.toLowerCase();
-      if (ex.correctFlag) ex.score += 1;
-      ex.checked = true;
-      render();
-      break;
-    }
-    case "sb-next": {
-      ex.index += 1;
-      ex.checked = false;
-      ex.correctFlag = null;
-      if (ex.index >= ex.items.length && !ex.finished) {
-        ex.finished = true;
-        setTopicScore(state.levelId, state.topicId, "sentences", Math.round((ex.score / ex.items.length) * 100));
-      }
-      render();
-      break;
-    }
+    case "sb-check": handleSbCheck(); break;
+    case "sb-next": handleSbNext(); break;
 
     // שליפה פעילה
-    case "recall-check": {
-      if (ex.checked) break;
-      const item = ex.items[ex.index];
-      const inputEl = app.querySelector('[data-role="recall-input"]');
-      const typed = inputEl ? inputEl.value : "";
-      const isCorrect = isRecallCorrect(typed, item.answer);
-      ex.userAnswer = typed;
-      ex.correctFlag = isCorrect;
-      ex.checked = true;
-      recordAnswer(item.levelId, item.topicId, item.vocabIndex, isCorrect);
-      if (isCorrect) {
-        ex.score += 1;
-        markLearned(item.levelId, item.topicId, item.vocabIndex);
-      }
-      render();
-      break;
-    }
+    case "recall-check": handleRecallCheck(); break;
     case "recall-speak": speak(ex.items[ex.index].answer); break;
-    case "recall-next": {
-      ex.index += 1;
-      ex.checked = false;
-      ex.correctFlag = null;
-      ex.userAnswer = "";
-      if (ex.index >= ex.items.length && !ex.finished) {
-        ex.finished = true;
-        setTopicScore(state.levelId, state.topicId, "recall", Math.round((ex.score / ex.items.length) * 100));
-      }
-      render();
-      break;
-    }
+    case "recall-next": handleRecallNext(); break;
   }
 }
 
