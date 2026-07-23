@@ -7,7 +7,7 @@ const WORD_STATS_KEY = "habla_word_stats_v1";
 const REVIEW_SESSION_SIZE = 20;
 
 // EXERCISE_TYPES קובע את אחוז ההשלמה של נושא/רמה (ממוצע על פני המערך הזה).
-// "שליפה פעילה" מוצג למשתמש ונשמר באותו מנגנון התקדמות, אך במתכוון לא נכלל כאן -
+// "הקלדה מהזיכרון" מוצג למשתמש ונשמר באותו מנגנון התקדמות, אך במתכוון לא נכלל כאן -
 // כדי לא לשנות רטרואקטיבית אחוזי השלמה קיימים אצל מי שכבר תרגל לפני שהתרגול הזה נוסף.
 const EXERCISE_TYPES = [
   { id: "flashcards", name: "כרטיסיות", icon: "🗂️" },
@@ -15,7 +15,7 @@ const EXERCISE_TYPES = [
   { id: "listening", name: "האזנה", icon: "🎧" },
   { id: "sentences", name: "בניית משפטים", icon: "✍️" }
 ];
-const RECALL_TYPE = { id: "recall", name: "שליפה פעילה", icon: "⌨️" };
+const RECALL_TYPE = { id: "recall", name: "הקלדה מהזיכרון", icon: "⌨️" };
 const DISPLAY_EXERCISE_TYPES = [...EXERCISE_TYPES, RECALL_TYPE];
 
 // 3 רמות הקושי המוצגות ברשת דף הבית. "דקדוק בסיסי" (LEVELS.grammar) הוא אזור לימוד נפרד
@@ -149,6 +149,30 @@ function loadNav() {
   } catch { return null; }
 }
 
+// ---------- History API (כדי שכפתור החזרה של הדפדפן/אנדרואיד יתנהג טבעי) ----------
+// כל ניווט "קדימה" דוחף רשומת history חדשה; כפתורי ה"חזרה" הפנימיים קוראים ל-history.back()
+// בדיוק כמו כפתור החזרה של הדפדפן/מכשיר - שניהם מטופלים באותו מאזין popstate יחיד.
+function pushHistory() {
+  try { history.pushState(state, ""); } catch {}
+}
+// בטעינת הדף, loadNav() עשוי להחזיר ישר מסך "topic" או "level" (משיחה קודמת) - בלי בניית
+// המחסנית המלאה שמובילה לשם, כפתור "חזרה" (בין אם פנימי או של הדפדפן) היה קופץ ישר החוצה
+// מהאפליקציה במקום לעבור דרך ההיררכיה הטבעית. הפונקציה הזו בונה את המחסנית הנכונה מראש.
+function seedHistory(s) {
+  try {
+    if (s.screen === "level") {
+      history.replaceState({ screen: "home" }, "");
+      history.pushState(s, "");
+    } else if (s.screen === "topic") {
+      history.replaceState({ screen: "home" }, "");
+      history.pushState({ screen: "level", levelId: s.levelId }, "");
+      history.pushState(s, "");
+    } else {
+      history.replaceState(s, "");
+    }
+  } catch {}
+}
+
 // ---------- דיבור (Text-to-Speech) ----------
 let spanishVoice = null;
 function pickSpanishVoice() {
@@ -187,7 +211,7 @@ function pickDistractors(pool, correctValue, valueFn, n = 3) {
   return sample(pool.filter(o => valueFn(o) !== correctValue), n).map(valueFn);
 }
 
-// ---------- בדיקת תשובה בתרגול "שליפה פעילה" (הקלדה חופשית) ----------
+// ---------- בדיקת תשובה בתרגול "הקלדה מהזיכרון" (הקלדה חופשית) ----------
 function normalizeAnswer(s) {
   return s
     .normalize("NFD").replace(/[̀-ͯ]/g, "") // הסרת ניקוד (accents)
@@ -253,27 +277,42 @@ function isRecallCorrect(userInput, es) {
 // ---------- state ----------
 let state = loadNav() || { screen: "home" };
 let ex = null; // exercise runtime state
+seedHistory(state);
 
 const app = document.getElementById("app");
 const breadcrumb = document.getElementById("breadcrumb");
 document.getElementById("homeBtn").addEventListener("click", () => { goHome(); });
 
+// כפתור החזרה של הדפדפן/אנדרואיד (וגם history.back() שקוראים לו כפתורי ה"חזרה" הפנימיים)
+// מגיעים לכאן דרך אירוע popstate אחד ויחיד - בדיוק אותה לוגיקה לשני המקורות.
+window.addEventListener("popstate", (e) => {
+  state = e.state || { screen: "home" };
+  if (state.screen === "exercise") {
+    if (state.isReview) buildReviewExercise();
+    else buildExercise(state.levelId, state.topicId, state.type);
+  }
+  saveNav(state);
+  render();
+});
+
 // ---------- ניווט ----------
-function goHome() { state = { screen: "home" }; saveNav(state); render(); }
-function gotoLevel(levelId) { state = { screen: "level", levelId }; saveNav(state); render(); }
-function gotoTopic(levelId, topicId) { state = { screen: "topic", levelId, topicId }; saveNav(state); render(); }
+function goHome() { state = { screen: "home" }; saveNav(state); pushHistory(); render(); }
+function gotoLevel(levelId) { state = { screen: "level", levelId }; saveNav(state); pushHistory(); render(); }
+function gotoTopic(levelId, topicId) { state = { screen: "topic", levelId, topicId }; saveNav(state); pushHistory(); render(); }
 function gotoExercise(levelId, topicId, type) {
   state = { screen: "exercise", levelId, topicId, type };
   saveNav(state);
+  pushHistory();
   buildExercise(levelId, topicId, type);
   render();
 }
 function gotoReview() {
   state = { screen: "exercise", type: "quiz", isReview: true };
+  pushHistory();
   buildReviewExercise();
   render();
 }
-function gotoStats() { state = { screen: "stats" }; render(); }
+function gotoStats() { state = { screen: "stats" }; pushHistory(); render(); }
 
 // בונה שאלת חידון בודדת (כיוון אקראי + מסיחים) עבור מילה אחת. משמש גם לחידון רגיל וגם לתרגול חזרה,
 // שהיו זהים במלואם קודם לכן, כל אחד עם ההעתק שלו.
@@ -509,7 +548,8 @@ function renderTopic() {
   app.innerHTML = `
     <button class="back-btn" data-action="back-level" data-level="${level.id}">→ חזרה לנושאים</button>
     <div class="section-title">${topic.name}</div>
-    <div class="section-sub">${levelLabel(level.id, level.name)} · בחר סוג תרגיל</div>
+    <div class="section-sub" style="margin-bottom:4px;">${levelLabel(level.id, level.name)} · בחר סוג תרגיל</div>
+    <div class="section-sub">💡 מומלץ להתחיל מ"כרטיסיות" ולהתקדם לפי הסדר</div>
     <div class="exercise-grid">
       ${DISPLAY_EXERCISE_TYPES.map(et => {
         const score = getTopicScore(level.id, topic.id, et.id);
@@ -639,7 +679,7 @@ function renderListening() {
       <span>ניקוד: ${ex.score}</span>
     </div>
     <div class="listen-box">
-      <div class="section-sub">לחץ להשמעה והקשב למילה או המשפט בספרדית</div>
+      <div class="section-sub">לחץ להשמעה והקשב למילה בספרדית</div>
       <button class="listen-play" data-action="listen-play" aria-label="השמע הגייה בספרדית">🔊</button>
     </div>
     ${renderChoiceOptions(q, "listen-option", true)}
@@ -684,10 +724,10 @@ function renderSentenceBuilder() {
   `;
 }
 
-// ---------- שליפה פעילה (הקלדה חופשית מעברית לספרדית) ----------
+// ---------- הקלדה מהזיכרון (הקלדה חופשית מעברית לספרדית) ----------
 function renderRecall() {
   if (ex.index >= ex.items.length) {
-    return renderSummary({ correct: ex.score, total: ex.items.length, label: "סיכום שליפה פעילה" });
+    return renderSummary({ correct: ex.score, total: ex.items.length, label: "סיכום הקלדה מהזיכרון" });
   }
   const item = ex.items[ex.index];
   return `
@@ -814,7 +854,7 @@ function handleSbNext() {
   render();
 }
 
-// ---------- שליפה פעילה ----------
+// ---------- הקלדה מהזיכרון ----------
 function handleRecallCheck() {
   if (ex.checked) return;
   const item = ex.items[ex.index];
@@ -852,7 +892,6 @@ function handleAction(el) {
     case "goto-level": gotoLevel(level); break;
     case "goto-topic": gotoTopic(level, topic); break;
     case "goto-exercise": gotoExercise(level, topic, type); break;
-    case "back-home": goHome(); break;
     case "reset-progress": {
       if (confirm("לאפס את כל ההתקדמות שנשמרה? פעולה זו לא ניתנת לביטול.")) {
         resetProgress();
@@ -860,8 +899,13 @@ function handleAction(el) {
       }
       break;
     }
-    case "back-level": gotoLevel(level); break;
-    case "back-topic": gotoTopic(level, topic); break;
+    // "חזרה" הפנימי מתנהג בדיוק כמו כפתור החזרה של הדפדפן/אנדרואיד - שניהם עוברים
+    // דרך history.back() ומטופלים על ידי אותו מאזין popstate.
+    case "back-home":
+    case "back-level":
+    case "back-topic":
+      history.back();
+      break;
     case "goto-review": gotoReview(); break;
     case "goto-stats": gotoStats(); break;
     case "retry-exercise": {
@@ -892,7 +936,7 @@ function handleAction(el) {
     case "sb-check": handleSbCheck(); break;
     case "sb-next": handleSbNext(); break;
 
-    // שליפה פעילה
+    // הקלדה מהזיכרון
     case "recall-check": handleRecallCheck(); break;
     case "recall-speak": speak(ex.items[ex.index].answer); break;
     case "recall-next": handleRecallNext(); break;
@@ -913,7 +957,7 @@ function bindDelegatedEvents() {
     e.preventDefault();
     handleAction(el);
   };
-  // בתרגול "שליפה פעילה", לחיצת Enter בתוך שדה הטקסט שולחת את הטופס באופן טבעי - נתפוס את זה כאן
+  // בתרגול "הקלדה מהזיכרון", לחיצת Enter בתוך שדה הטקסט שולחת את הטופס באופן טבעי - נתפוס את זה כאן
   app.onsubmit = (e) => {
     if (!e.target.closest(".recall-form")) return;
     e.preventDefault();
