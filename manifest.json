@@ -1,6 +1,6 @@
 {
-  "name": "¡Habla! - לימוד ספרדית",
-  "short_name": "¡Habla!",
+  "name": "Zarfati App - לימוד ספרדית",
+  "short_name": "Zarfati App",
   "description": "אפליקציה ללימוד השפה הספרדית ב-3 רמות קושי, עם כרטיסיות, חידונים, האזנה, בניית משפטים ותרגול פעיל.",
   "start_url": "./index.html",
   "scope": "./",

@@ -1,10 +1,46 @@
 // ===== לימוד ספרדית - לוגיקת האפליקציה =====
 
-const PROGRESS_KEY = "habla_progress_v1";
-const LEARNED_KEY = "habla_learned_v1";
-const NAV_KEY = "habla_nav_v1";
-const WORD_STATS_KEY = "habla_word_stats_v1";
+// מפתחות ה-localStorage הם פר-משתמש (מבוססי uid מ-Firebase), כדי שכמה חשבונות על אותו
+// דפדפן לא ידרסו זה את הנתונים של זה. currentUid מוגדר אחרי שההתחברות מסתיימת (ראו boot למטה).
+let currentUid = null;
+let currentUsername = "";
+let currentGender = "m"; // "m" | "f" - לשוני הפניה (בחר/בחרי וכו')
+function progressKey() { return `habla_progress_v1__${currentUid}`; }
+function learnedKey() { return `habla_learned_v1__${currentUid}`; }
+function navKey() { return `habla_nav_v1__${currentUid}`; }
+function wordStatsKey() { return `habla_word_stats_v1__${currentUid}`; }
 const REVIEW_SESSION_SIZE = 20;
+
+// ---------- לשון פנייה (זכר/נקבה) ----------
+// כל מפתח מכיל שתי גרסאות; t() בוחר לפי currentGender. מחרוזות שזהות בשני המגדרים
+// לא צריכות להופיע כאן כלל - פשוט נכתבות ישירות בקוד הרינדור.
+const PHRASES = {
+  welcome: { m: "ברוך הבא", f: "ברוכה הבאה" },
+  chooseLevelIntro: { m: "בחר רמת קושי כדי להתחיל ללמוד אוצר מילים, דקדוק וביטויים", f: "בחרי רמת קושי כדי להתחיל ללמוד אוצר מילים, דקדוק וביטויים" },
+  chooseTopic: { m: "בחר נושא כדי להתחיל לתרגל", f: "בחרי נושא כדי להתחיל לתרגל" },
+  chooseExerciseType: { m: "בחר סוג תרגיל", f: "בחרי סוג תרגיל" },
+  reviewEmptyHint: { m: "אין עדיין מילים לחזרה - תרגל קצת ונחזור לכאן!", f: "אין עדיין מילים לחזרה - תרגלי קצת ונחזור לכאן!" },
+  flashcardHint: { m: "לחץ כדי לראות תרגום", f: "לחצי כדי לראות תרגום" },
+  flashcardAriaShowTranslation: { m: "הצג את התרגום לעברית", f: "הציגי את התרגום לעברית" },
+  flashcardAriaShowWord: { m: "הצג את המילה בספרדית", f: "הציגי את המילה בספרדית" },
+  listeningInstruction: { m: "לחץ להשמעה והקשב למילה בספרדית", f: "לחצי להשמעה והקשיבי למילה בספרדית" },
+  studyStageHint: { m: "לחץ להשמעה, ואז המשך הלאה", f: "לחצי להשמעה, ואז המשיכי הלאה" },
+  sentenceBuildPrefix: { m: "בנה את המשפט", f: "בני את המשפט" },
+  recallPlaceholder: { m: "הקלד בספרדית...", f: "הקלידי בספרדית..." },
+  recallIntroInstruction: {
+    m: "עכשיו תתבקש להקליד בספרדית את המילים הבאות, בלי לראות את הכתיב מראש - כדי לבדוק את הזיכרון שלך באמת.",
+    f: "עכשיו תתבקשי להקליד בספרדית את המילים הבאות, בלי לראות את הכתיב מראש - כדי לבדוק את הזיכרון שלך באמת."
+  },
+  recallIntroCta: { m: "בוא נתחיל", f: "בואי נתחיל" },
+  tryAgain: { m: "נסה שוב", f: "נסי שוב" }
+};
+function t(key) {
+  const entry = PHRASES[key];
+  return entry ? (entry[currentGender] || entry.m) : "";
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
 
 // EXERCISE_TYPES קובע את אחוז ההשלמה של נושא/רמה (ממוצע על פני המערך הזה).
 // "הקלדה מהזיכרון" מוצג למשתמש ונשמר באותו מנגנון התקדמות, אך במתכוון לא נכלל כאן -
@@ -27,18 +63,33 @@ function levelLabel(levelId, name) {
   return DIFFICULTY_LEVEL_IDS.includes(levelId) ? `רמת ${name}` : name;
 }
 
+// ---------- סנכרון לענן (Firestore) ----------
+// כתיבה מבוזרת (debounced) ברקע - לא חוסמת ולא משנה שום דבר בזרימת השמירה המקומית הקיימת.
+let cloudSyncTimer = null;
+function scheduleCloudSync() {
+  if (!currentUid || !window.HablaAuth) return;
+  clearTimeout(cloudSyncTimer);
+  cloudSyncTimer = setTimeout(() => {
+    window.HablaAuth.pushUserData(currentUid, {
+      progress: loadProgress(),
+      learned: [...loadLearned()],
+      wordStats: loadWordStats()
+    });
+  }, 1200);
+}
+
 // ---------- שמירת התקדמות ----------
 function loadProgress() {
-  try { return JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {}; }
+  try { return JSON.parse(localStorage.getItem(progressKey())) || {}; }
   catch { return {}; }
 }
-function saveProgress(p) { localStorage.setItem(PROGRESS_KEY, JSON.stringify(p)); }
+function saveProgress(p) { localStorage.setItem(progressKey(), JSON.stringify(p)); scheduleCloudSync(); }
 
 function loadLearned() {
-  try { return new Set(JSON.parse(localStorage.getItem(LEARNED_KEY)) || []); }
+  try { return new Set(JSON.parse(localStorage.getItem(learnedKey())) || []); }
   catch { return new Set(); }
 }
-function saveLearned(set) { localStorage.setItem(LEARNED_KEY, JSON.stringify([...set])); }
+function saveLearned(set) { localStorage.setItem(learnedKey(), JSON.stringify([...set])); scheduleCloudSync(); }
 
 function getTopicScore(levelId, topicId, type) {
   const p = loadProgress();
@@ -91,17 +142,18 @@ function totalWordCount() {
     sum + lvl.topics.reduce((s, t) => s + t.vocab.length, 0), 0);
 }
 function resetProgress() {
-  localStorage.removeItem(PROGRESS_KEY);
-  localStorage.removeItem(LEARNED_KEY);
-  localStorage.removeItem(WORD_STATS_KEY);
+  localStorage.removeItem(progressKey());
+  localStorage.removeItem(learnedKey());
+  localStorage.removeItem(wordStatsKey());
+  scheduleCloudSync();
 }
 
 // ---------- מעקב אחר מילים קשות (לצורך תרגול חוזר) ----------
 function loadWordStats() {
-  try { return JSON.parse(localStorage.getItem(WORD_STATS_KEY)) || {}; }
+  try { return JSON.parse(localStorage.getItem(wordStatsKey())) || {}; }
   catch { return {}; }
 }
-function saveWordStats(s) { localStorage.setItem(WORD_STATS_KEY, JSON.stringify(s)); }
+function saveWordStats(s) { localStorage.setItem(wordStatsKey(), JSON.stringify(s)); scheduleCloudSync(); }
 function recordAnswer(levelId, topicId, vocabIndex, isCorrect) {
   const stats = loadWordStats();
   const key = `${levelId}:${topicId}:${vocabIndex}`;
@@ -134,11 +186,11 @@ function saveNav(s) {
   const toSave = s.screen === "exercise"
     ? { screen: "topic", levelId: s.levelId, topicId: s.topicId }
     : s;
-  try { localStorage.setItem(NAV_KEY, JSON.stringify(toSave)); } catch {}
+  try { localStorage.setItem(navKey(), JSON.stringify(toSave)); } catch {}
 }
 function loadNav() {
   try {
-    const saved = JSON.parse(localStorage.getItem(NAV_KEY));
+    const saved = JSON.parse(localStorage.getItem(navKey()));
     if (!saved || !saved.screen) return null;
     if (saved.screen === "home") return saved;
     const level = LEVELS[saved.levelId];
@@ -275,25 +327,74 @@ function isRecallCorrect(userInput, es) {
 }
 
 // ---------- state ----------
-let state = loadNav() || { screen: "home" };
+// מתחילים במסך טעינה - עוד לא ידוע אם המשתמש מחובר, ממתינים לאירוע hablaAuthReady מ-js/auth.js.
+let state = { screen: "loading" };
 let ex = null; // exercise runtime state
-seedHistory(state);
 
 const app = document.getElementById("app");
 const breadcrumb = document.getElementById("breadcrumb");
-document.getElementById("homeBtn").addEventListener("click", () => { goHome(); });
+document.getElementById("homeBtn").addEventListener("click", () => { if (currentUid) goHome(); });
 
 // כפתור החזרה של הדפדפן/אנדרואיד (וגם history.back() שקוראים לו כפתורי ה"חזרה" הפנימיים)
 // מגיעים לכאן דרך אירוע popstate אחד ויחיד - בדיוק אותה לוגיקה לשני המקורות.
 window.addEventListener("popstate", (e) => {
-  state = e.state || { screen: "home" };
-  if (state.screen === "exercise") {
+  state = e.state || (currentUid ? { screen: "home" } : { screen: "auth", authMode: "login" });
+  if (state.screen === "exercise" && currentUid) {
     if (state.isReview) buildReviewExercise();
     else buildExercise(state.levelId, state.topicId, state.type);
   }
-  saveNav(state);
+  if (currentUid) saveNav(state);
   render();
 });
+
+// ---------- אימות (Firebase, דרך js/auth.js) ----------
+// js/auth.js הוא מודול ES שנטען בנפרד ושולח את האירוע הזה פעם אחת בטעינת הדף (ואז שוב בכל
+// login/logout). לעולם לא מכיל אימייל - רק uid ונתוני הפרופיל (username, gender, progress...).
+window.addEventListener("hablaAuthReady", (e) => {
+  const { user, profile } = e.detail || {};
+  if (user) {
+    bootLoggedIn(user.uid, profile);
+  } else {
+    currentUid = null;
+    currentUsername = "";
+    currentGender = "m";
+    state = { screen: "auth", authMode: "login" };
+    history.replaceState(state, "");
+    render();
+  }
+});
+
+// שומר עותק מקומי קטן של username/gender (לא רגיש) לפי uid, כדי שאם Firestore לא זמין
+// זמנית בהתחברות הבאה עדיין אפשר להציג את שם המשתמש הנכון ולא להשאיר מסך ריק/שגוי.
+function profileCacheKey(uid) { return `habla_profile_cache_v1__${uid}`; }
+function cacheProfileLocally(uid, username, gender) {
+  try { localStorage.setItem(profileCacheKey(uid), JSON.stringify({ username, gender })); } catch {}
+}
+function readCachedProfile(uid) {
+  try { return JSON.parse(localStorage.getItem(profileCacheKey(uid))) || null; }
+  catch { return null; }
+}
+
+function bootLoggedIn(uid, profile) {
+  currentUid = uid;
+  if (profile) {
+    currentUsername = profile.username || "";
+    currentGender = profile.gender === "f" ? "f" : "m";
+    saveProgress(profile.progress || {});
+    saveLearned(new Set(profile.learned || []));
+    saveWordStats(profile.wordStats || {});
+    cacheProfileLocally(uid, currentUsername, currentGender);
+  } else {
+    // Firestore לא הצליח להיטען (למשל בעיית רשת) - נופלים חזרה לעותק מקומי אם קיים,
+    // ומשתמשים במה שכבר נשמר ב-localStorage מהפעם הקודמת במקום לאבס הכל.
+    const cached = readCachedProfile(uid);
+    currentUsername = cached ? cached.username : "";
+    currentGender = cached ? cached.gender : "m";
+  }
+  state = loadNav() || { screen: "home" };
+  seedHistory(state);
+  render();
+}
 
 // ---------- ניווט ----------
 function goHome() { state = { screen: "home" }; saveNav(state); pushHistory(); render(); }
@@ -336,31 +437,26 @@ function buildQuizQuestion(vocabItem, levelId, topicId, vocabIndex, allVocabInLe
 function buildExercise(levelId, topicId, type) {
   const level = LEVELS[levelId];
   const topic = level.topics.find(t => t.id === topicId);
-  const allVocabInLevel = level.topics.flatMap(t => t.vocab);
 
   if (type === "flashcards") {
-    ex = { type, index: 0, flipped: false, items: topic.vocab, finished: false };
-  } else if (type === "quiz") {
-    const questions = shuffle(topic.vocab.map((v, i) =>
-      buildQuizQuestion(v, levelId, topicId, i, allVocabInLevel)));
-    ex = { type, index: 0, score: 0, questions, answered: false, selected: null, finished: false };
-  } else if (type === "listening") {
-    const questions = shuffle(topic.vocab.map((v, i) => {
-      const options = shuffle([v.he, ...pickDistractors(allVocabInLevel, v.he, o => o.he)]);
-      return { vocabIndex: i, levelId, topicId, es: v.es, correct: v.he, options };
-    }));
-    ex = { type, index: 0, score: 0, questions, answered: false, selected: null, finished: false };
+    // stage "cards" = מעבר על הכרטיסיות; אחרי הכרטיסיה האחרונה עוברים לשלב "quiz" (ראו
+    // startVocabQuiz) - ורק בסיום השלב הזה שומרים ציון ומסמנים את התרגיל כהושלם.
+    ex = { type, stage: "cards", index: 0, flipped: false, items: topic.vocab, finished: false };
+  } else if (type === "quiz" || type === "listening") {
+    // stage "study" = מעבר על המילים עם השמעה ותרגום, בלי בדיקה; אחרי המילה האחרונה עוברים
+    // לשלב "quiz" (ראו startQuizFromStudy/startListeningQuiz) על אותן מילים בדיוק - ורק בסיום
+    // השלב הזה שומרים ציון ומסמנים את התרגיל כהושלם. quiz ו-listening חולקים בדיוק אותו שלב
+    // למידה (renderStudyStage/handleStudyNext) כדי לא לשכפל שתי גרסאות כמעט זהות של אותו מסך.
+    ex = { type, stage: "study", index: 0, items: topic.vocab, finished: false };
   } else if (type === "sentences") {
-    const items = topic.sentences.map(s => {
-      const words = s.es.split(" ");
-      return { es: s.es, he: s.he, bank: shuffle(words), answer: [], usedIdx: new Set() };
-    });
-    ex = { type, index: 0, score: 0, items, checked: false, correctFlag: null, finished: false };
+    // stage "study" = מעבר על המשפטים המלאים (עם תרגום והשמעה) לפני חידת הגרירה; אותו רעיון
+    // בדיוק כמו quiz/listening למעלה, על topic.sentences במקום topic.vocab.
+    ex = { type, stage: "study", index: 0, items: topic.sentences, finished: false };
   } else if (type === "recall") {
-    const items = shuffle(topic.vocab.map((v, i) => ({
-      vocabIndex: i, levelId, topicId, prompt: v.he, answer: v.es
-    })));
-    ex = { type, index: 0, score: 0, items, userAnswer: "", checked: false, correctFlag: null, finished: false };
+    // stage "intro" = מסך הכנה בלבד: מציג אילו מילים (בעברית בלבד, בלי הספרדית) עומדות
+    // להיבדק, בלי לחשוף את התשובות - כדי לא להחליש את בדיקת הזיכרון. הבדיקה עצמה (stage
+    // "quiz", ראו startRecallTest) נשארת זהה לגמרי למה שהייתה קודם.
+    ex = { type, stage: "intro", index: 0, items: topic.vocab, finished: false };
   }
 }
 
@@ -375,13 +471,241 @@ function buildReviewExercise() {
   ex = { type: "quiz", index: 0, score: 0, questions, answered: false, selected: null, finished: false, isReview: true };
 }
 
+// לאחר שהמשתמש עבר על כל הפריטים בשלב הלמידה (כרטיסיות, או שלב "study" המשותף של
+// quiz/listening): הופך את ex לבוחן על בדיוק אותן מילים (ex.items), באותה צורת נתונים כמו
+// חידון רגיל (buildQuizQuestion, דו-כיווני). ex.type לא משתנה בכוונה - כך שהציון הסופי (מ-
+// handleChoiceNext/finishExerciseIfDone הקיימים, בלי לשנות אותם) יישמר תחת סוג התרגיל שכבר
+// היה (flashcards/quiz), ולא ידרוס ציון של תרגיל אחר באותו נושא. פונקציה גנרית אחת, כדי
+// לא לשכפל אותה עבור flashcards ועבור quiz בנפרד.
+function startVocabQuiz() {
+  const allVocabInLevel = LEVELS[state.levelId].topics.flatMap(t => t.vocab);
+  const questions = shuffle(ex.items.map((v, i) =>
+    buildQuizQuestion(v, state.levelId, state.topicId, i, allVocabInLevel)));
+  ex.stage = "quiz";
+  ex.questions = questions;
+  ex.index = 0;
+  ex.score = 0;
+  ex.answered = false;
+  ex.selected = null;
+}
+
+// לאחר שהמשתמש עבר על כל מילות ההאזנה בשלב הלמידה: הופך את ex לבוחן על בדיוק אותן מילים
+// (ex.items), בצורת השאלה הייחודית להאזנה (מילה בספרדית + 4 אפשרויות תרגום בעברית) - שונה
+// מ-startVocabQuiz כי שאלת האזנה היא חד-כיוונית (תמיד es->he) ולא דו-כיוונית כמו quiz.
+// ex.type נשאר "listening" בכוונה, כדי שהציון הסופי יישמר תחת אותו סוג תרגיל כמו קודם.
+function startListeningQuiz() {
+  const allVocabInLevel = LEVELS[state.levelId].topics.flatMap(t => t.vocab);
+  const questions = shuffle(ex.items.map((v, i) => {
+    const options = shuffle([v.he, ...pickDistractors(allVocabInLevel, v.he, o => o.he)]);
+    return { vocabIndex: i, levelId: state.levelId, topicId: state.topicId, es: v.es, correct: v.he, options };
+  }));
+  ex.stage = "quiz";
+  ex.questions = questions;
+  ex.index = 0;
+  ex.score = 0;
+  ex.answered = false;
+  ex.selected = null;
+}
+
+// לאחר שהמשתמש עבר על כל המשפטים בשלב הלמידה: הופך את ex.items מזוגות es/he גולמיים לצורת
+// חידת הגרירה הקיימת (bank/answer/usedIdx) - בדיוק מה ש-buildExercise בנה מיד בעבר, רק
+// שעכשיו זה קורה רק אחרי שלב הלמידה. renderSentenceBuilder/handleSb* נשארים ללא שינוי.
+function startSentenceQuiz() {
+  const items = ex.items.map(s => {
+    const words = s.es.split(" ");
+    return { es: s.es, he: s.he, bank: shuffle(words), answer: [], usedIdx: new Set() };
+  });
+  ex.stage = "quiz";
+  ex.items = items;
+  ex.index = 0;
+  ex.score = 0;
+  ex.checked = false;
+  ex.correctFlag = null;
+}
+
+// לאחר שהמשתמש אישר במסך ההכנה (stage "intro", בלי חשיפת תשובות) שהוא מוכן: בונה את פריטי
+// ההקלדה בדיוק כפי ש-buildExercise בנה אותם מיד בעבר. renderRecall/handleRecall* נשארים
+// ללא שינוי.
+function startRecallTest() {
+  const items = shuffle(ex.items.map((v, i) => ({
+    vocabIndex: i, levelId: state.levelId, topicId: state.topicId, prompt: v.he, answer: v.es
+  })));
+  ex.stage = "quiz";
+  ex.items = items;
+  ex.index = 0;
+  ex.score = 0;
+  ex.userAnswer = "";
+  ex.checked = false;
+  ex.correctFlag = null;
+}
+
 // ---------- רינדור ראשי ----------
 function render() {
+  if (state.screen === "loading") return renderLoading();
+  if (state.screen === "auth") return renderAuth();
+  if (state.screen === "about") return renderAbout();
   if (state.screen === "home") return renderHome();
   if (state.screen === "level") return renderLevel();
   if (state.screen === "topic") return renderTopic();
   if (state.screen === "exercise") return renderExercise();
   if (state.screen === "stats") return renderStats();
+}
+
+// ---------- טעינה ----------
+function renderLoading() {
+  breadcrumb.textContent = "";
+  app.innerHTML = `<div class="loading-box"><div class="spinner" aria-hidden="true"></div><div>טוען...</div></div>`;
+}
+
+// ---------- אודות ----------
+function renderAbout() {
+  breadcrumb.textContent = "אודות";
+  app.innerHTML = `
+    <button class="back-btn" data-action="back-home">→ חזרה</button>
+    <div class="section-title">אודות Zarfati App</div>
+    <div class="section-sub">נוצר על ידי Lavi Zarfati</div>
+  `;
+  bindDelegatedEvents();
+}
+function gotoAbout() { state = { screen: "about" }; pushHistory(); render(); }
+
+// ---------- אימות: הרשמה / התחברות ----------
+// חשוב: המסך הזה, כמו כל שאר האפליקציה, אף פעם לא מציג/מזכיר אימייל - רק שם משתמש.
+// כתובת המייל הפנימית (username@habla-app.local) קיימת רק בתוך js/auth.js ולא חוצה את הגבול הזה.
+function renderAuth() {
+  breadcrumb.textContent = "";
+  const mode = state.authMode === "signup" ? "signup" : "login";
+  const err = state.authError || "";
+  const busy = !!state.authBusy;
+  const genderChoice = state.genderChoice || null;
+
+  const signupExtra = mode === "signup" ? `
+    <label class="auth-label">אימות קוד סודי
+      <input type="password" inputmode="numeric" pattern="[0-9]*" name="pinConfirm" maxlength="6" autocomplete="off" required>
+    </label>
+    <div class="gender-choice">
+      <span class="gender-choice-label">איך לפנות אליך באפליקציה?</span>
+      <div class="gender-btns">
+        <button type="button" class="gender-btn ${genderChoice === "m" ? "selected" : ""}" data-action="pick-gender" data-gender="m">זכר</button>
+        <button type="button" class="gender-btn ${genderChoice === "f" ? "selected" : ""}" data-action="pick-gender" data-gender="f">נקבה</button>
+      </div>
+    </div>
+  ` : "";
+
+  app.innerHTML = `
+    <div class="hero">
+      <h1>Zarfati App 🇪🇸 לימוד ספרדית</h1>
+      <p>${mode === "signup" ? "יצירת חשבון חדש" : "התחברות לחשבון"}</p>
+    </div>
+    <form class="auth-form" data-auth-mode="${mode}">
+      <label class="auth-label">שם משתמש
+        <input type="text" name="username" maxlength="20" autocomplete="off" autocapitalize="off" spellcheck="false" dir="ltr" required>
+      </label>
+      <label class="auth-label">קוד סודי (4-6 ספרות)
+        <input type="password" inputmode="numeric" pattern="[0-9]*" name="pin" maxlength="6" autocomplete="off" required>
+      </label>
+      ${signupExtra}
+      ${err ? `<div class="auth-error">${escapeHtml(err)}</div>` : ""}
+      <button type="submit" class="ctrl-btn" ${busy ? "disabled" : ""}>
+        ${busy ? (mode === "signup" ? "יוצר חשבון..." : "מתחבר...") : (mode === "signup" ? "צור חשבון והתחל" : "התחבר")}
+      </button>
+    </form>
+    <div class="auth-switch">
+      ${mode === "signup"
+        ? `יש לך כבר חשבון? <button type="button" data-action="auth-switch-mode" data-mode="login">התחבר</button>`
+        : `אין לך חשבון? <button type="button" data-action="auth-switch-mode" data-mode="signup">צור חשבון</button>`}
+    </div>
+  `;
+  bindDelegatedEvents();
+}
+
+function validateUsername(username) {
+  if (!username) return "יש להזין שם משתמש";
+  if (username.length < 3 || username.length > 20) return "שם משתמש צריך להיות בין 3 ל-20 תווים";
+  if (!/^[a-zA-Z0-9_]+$/.test(username)) return "שם משתמש יכול להכיל רק אותיות באנגלית, ספרות וקו תחתון";
+  return null;
+}
+function validatePin(pin) {
+  if (!/^\d{4,6}$/.test(pin)) return "הקוד הסודי חייב להכיל 4 עד 6 ספרות";
+  return null;
+}
+// ממיר קוד שגיאה של Firebase להודעה בעברית שאף פעם לא מזכירה "אימייל" - רק שם משתמש/קוד סודי,
+// כדי לשמור על ההבטחה שכתובת המייל הפנימית לעולם לא נחשפת למשתמש.
+function translateAuthError(e) {
+  const code = e && e.code;
+  switch (code) {
+    case "auth/email-already-in-use": return "שם המשתמש הזה כבר תפוס. נסה שם משתמש אחר.";
+    case "auth/invalid-credential":
+    case "auth/wrong-password":
+    case "auth/user-not-found": return "שם משתמש או קוד סודי שגויים.";
+    case "auth/too-many-requests": return "יותר מדי ניסיונות. נסה שוב בעוד כמה דקות.";
+    case "auth/network-request-failed": return "בעיית חיבור לרשת. בדוק את החיבור ונסה שוב.";
+    case "auth/weak-password": return "הקוד הסודי קצר מדי.";
+    default: return "משהו השתבש. נסה שוב.";
+  }
+}
+
+// שולף נתונים ישנים שנשמרו לפני שהייתה מערכת חשבונות (מפתחות ללא uid), כדי שהרשמה ראשונה
+// תוכל להעביר אותם לחשבון החדש במקום לאבד אותם. לא נוגע בהם עד שההרשמה מצליחה בפועל.
+function collectLegacyLocalData() {
+  try {
+    const progress = JSON.parse(localStorage.getItem("habla_progress_v1"));
+    const learned = JSON.parse(localStorage.getItem("habla_learned_v1"));
+    const wordStats = JSON.parse(localStorage.getItem("habla_word_stats_v1"));
+    if (progress || learned || wordStats) {
+      return { progress: progress || {}, learned: learned || [], wordStats: wordStats || {} };
+    }
+  } catch {}
+  return null;
+}
+function clearLegacyLocalData() {
+  localStorage.removeItem("habla_progress_v1");
+  localStorage.removeItem("habla_learned_v1");
+  localStorage.removeItem("habla_word_stats_v1");
+  localStorage.removeItem("habla_nav_v1");
+}
+
+async function handleAuthSubmit(formEl) {
+  if (!window.HablaAuth) {
+    state.authError = "החיבור לשרת לא זמין כרגע. נסה שוב מאוחר יותר.";
+    render();
+    return;
+  }
+  const mode = formEl.dataset.authMode;
+  const username = formEl.username.value.trim();
+  const pin = formEl.pin.value.trim();
+
+  const usernameErr = validateUsername(username);
+  if (usernameErr) { state.authError = usernameErr; render(); return; }
+  const pinErr = validatePin(pin);
+  if (pinErr) { state.authError = pinErr; render(); return; }
+
+  if (mode === "signup") {
+    const pinConfirm = formEl.pinConfirm.value.trim();
+    if (pin !== pinConfirm) { state.authError = "הקודים הסודיים לא תואמים."; render(); return; }
+    if (!state.genderChoice) { state.authError = "יש לבחור פנייה בלשון זכר או נקבה."; render(); return; }
+    state.authBusy = true; state.authError = ""; render();
+    try {
+      const legacy = collectLegacyLocalData();
+      const result = await window.HablaAuth.signUp(username, pin, state.genderChoice, legacy);
+      if (legacy) clearLegacyLocalData();
+      bootLoggedIn(result.uid, result.profile || { username: result.username, gender: state.genderChoice });
+    } catch (e) {
+      state.authBusy = false;
+      state.authError = translateAuthError(e);
+      render();
+    }
+  } else {
+    state.authBusy = true; state.authError = ""; render();
+    try {
+      const result = await window.HablaAuth.logIn(username, pin);
+      bootLoggedIn(result.uid, result.profile || { username: result.username });
+    } catch (e) {
+      state.authBusy = false;
+      state.authError = translateAuthError(e);
+      render();
+    }
+  }
 }
 
 function renderHome() {
@@ -391,8 +715,9 @@ function renderHome() {
   const reviewCount = struggleWordCount();
   app.innerHTML = `
     <div class="hero">
-      <h1>¡Habla! 🇪🇸 לימוד ספרדית</h1>
-      <p>בחר רמת קושי כדי להתחיל ללמוד אוצר מילים, דקדוק וביטויים</p>
+      <h1>Zarfati App 🇪🇸 לימוד ספרדית</h1>
+      <p class="hero-greeting">${t("welcome")}, ${escapeHtml(currentUsername)}!</p>
+      <p>${t("chooseLevelIntro")}</p>
     </div>
     <div class="stats-strip">
       <div class="stat-box"><div class="num">${learned}/${total}</div><div class="lbl">מילים נלמדו</div></div>
@@ -425,13 +750,23 @@ function renderHome() {
       <button class="ctrl-btn" data-action="goto-review" ${reviewCount === 0 ? "disabled" : ""}>
         <span aria-hidden="true">📝</span> תרגול מילים קשות${reviewCount > 0 ? ` (${reviewCount})` : ""}
       </button>
-      ${reviewCount === 0 ? `<div class="section-sub" style="margin-top:8px;">אין עדיין מילים לחזרה - תרגלו קצת ונחזור לכאן!</div>` : ""}
+      ${reviewCount === 0 ? `<div class="section-sub" style="margin-top:8px;">${t("reviewEmptyHint")}</div>` : ""}
     </div>
     <div style="text-align:center; margin-top:16px;">
+      <a class="ctrl-btn secondary" href="${feedbackWhatsappUrl()}" target="_blank" rel="noopener noreferrer">
+        <span aria-hidden="true">💬</span> שלח משוב
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:24px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
       <button class="back-btn" data-action="reset-progress">איפוס התקדמות</button>
+      <button class="back-btn" data-action="logout">🚪 התנתק</button>
     </div>
   `;
   bindDelegatedEvents();
+}
+function feedbackWhatsappUrl() {
+  const msg = "היי! יש לי משוב על אפליקציית Zarfati App ללימוד ספרדית: ";
+  return `https://api.whatsapp.com/send?phone=972559651785&text=${encodeURIComponent(msg)}`;
 }
 
 // ---------- סטטיסטיקות והתקדמות ----------
@@ -471,7 +806,7 @@ function renderStats() {
   if (attempted.length === 0) {
     topicsSection = `
       <div class="section-title">נושאים חזקים וחלשים</div>
-      <div class="section-sub">עדיין אין מספיק נתונים להצגה. תרגלו נושא אחד לפחות כדי לראות כאן ניתוח של הנושאים החזקים והחלשים שלכם.</div>
+      <div class="section-sub">עדיין אין מספיק נתונים להצגה. תרגל/י נושא אחד לפחות כדי לראות כאן ניתוח של הנושאים החזקים והחלשים שלך.</div>
     `;
   } else if (attempted.length >= 6) {
     const sorted = [...attempted].sort((a, b) => b.completion - a.completion);
@@ -495,7 +830,7 @@ function renderStats() {
   app.innerHTML = `
     <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
     <div class="section-title">סטטיסטיקות והתקדמות</div>
-    <div class="section-sub">סיכום ההתקדמות שלכם בלימוד הספרדית</div>
+    <div class="section-sub">סיכום ההתקדמות שלך בלימוד הספרדית</div>
     <div class="stats-strip">
       <div class="stat-box"><div class="num">${learned}/${total}</div><div class="lbl">מילים נלמדו</div></div>
       <div class="stat-box"><div class="num">${overallPct}%</div><div class="lbl">התקדמות כוללת</div></div>
@@ -522,7 +857,7 @@ function renderLevel() {
   app.innerHTML = `
     <button class="back-btn" data-action="back-home">→ חזרה לרמות</button>
     <div class="section-title">${level.icon} ${levelLabel(level.id, level.name)}</div>
-    <div class="section-sub">בחר נושא כדי להתחיל לתרגל</div>
+    <div class="section-sub">${t("chooseTopic")}</div>
     <div class="topic-list">
       ${level.topics.map(topic => {
         const pct = getTopicCompletion(level.id, topic.id);
@@ -548,7 +883,7 @@ function renderTopic() {
   app.innerHTML = `
     <button class="back-btn" data-action="back-level" data-level="${level.id}">→ חזרה לנושאים</button>
     <div class="section-title">${topic.name}</div>
-    <div class="section-sub" style="margin-bottom:4px;">${levelLabel(level.id, level.name)} · בחר סוג תרגיל</div>
+    <div class="section-sub" style="margin-bottom:4px;">${levelLabel(level.id, level.name)} · ${t("chooseExerciseType")}</div>
     <div class="section-sub">💡 מומלץ להתחיל מ"כרטיסיות" ולהתקדם לפי הסדר</div>
     <div class="exercise-grid">
       ${DISPLAY_EXERCISE_TYPES.map(et => {
@@ -582,11 +917,11 @@ function renderExercise() {
   breadcrumb.textContent = `${level.name} › ${topic.name} › ${etMeta.name}`;
 
   let body = "";
-  if (ex.type === "flashcards") body = renderFlashcards();
-  else if (ex.type === "quiz") body = renderQuiz();
-  else if (ex.type === "listening") body = renderListening();
-  else if (ex.type === "sentences") body = renderSentenceBuilder();
-  else if (ex.type === "recall") body = renderRecall();
+  if (ex.type === "flashcards") body = ex.stage === "quiz" ? renderQuiz() : renderFlashcards();
+  else if (ex.type === "quiz") body = ex.stage === "quiz" ? renderQuiz() : renderStudyStage();
+  else if (ex.type === "listening") body = ex.stage === "quiz" ? renderListening() : renderStudyStage();
+  else if (ex.type === "sentences") body = ex.stage === "quiz" ? renderSentenceBuilder() : renderStudyStage();
+  else if (ex.type === "recall") body = ex.stage === "quiz" ? renderRecall() : renderRecallIntro();
 
   app.innerHTML = `
     <button class="back-btn" data-action="back-topic" data-level="${level.id}" data-topic="${topic.id}">→ חזרה לתרגילים</button>
@@ -597,9 +932,6 @@ function renderExercise() {
 
 // ---------- כרטיסיות ----------
 function renderFlashcards() {
-  if (ex.index >= ex.items.length) {
-    return renderSummary({ correct: ex.items.length, total: ex.items.length, label: "סיימת לעבור על כל הכרטיסיות!" });
-  }
   const item = ex.items[ex.index];
   return `
     <div class="runner-top">
@@ -608,10 +940,10 @@ function renderFlashcards() {
       <span>כרטיסיות</span>
     </div>
     <div class="flashcard ${ex.flipped ? "flipped" : ""}" data-action="flip-card" role="button" tabindex="0"
-         aria-label="${ex.flipped ? "הצג את המילה בספרדית" : "הצג את התרגום לעברית"}">
+         aria-label="${ex.flipped ? t("flashcardAriaShowWord") : t("flashcardAriaShowTranslation")}">
       <div class="fc-front">
         <div class="fc-word" lang="es">${item.es}</div>
-        <div class="fc-hint">לחץ כדי לראות תרגום</div>
+        <div class="fc-hint">${t("flashcardHint")}</div>
       </div>
       <div class="fc-back">
         <div class="fc-translation">${item.he}</div>
@@ -666,7 +998,30 @@ function renderQuiz() {
   `;
 }
 
-// ---------- האזנה ----------
+// ---------- שלב למידה משותף (Quiz / Listening / Sentences), לפני הבוחן ----------
+const STUDY_STAGE_LABELS = { quiz: "חידון - למידה", listening: "האזנה - למידה", sentences: "משפטים - למידה" };
+function renderStudyStage() {
+  const item = ex.items[ex.index];
+  return `
+    <div class="runner-top">
+      <span>${ex.index + 1} / ${ex.items.length}</span>
+      <div class="runner-progress"><div class="runner-progress-fill" style="width:${(ex.index / ex.items.length) * 100}%"></div></div>
+      <span>${STUDY_STAGE_LABELS[ex.type]}</span>
+    </div>
+    <div class="listen-box">
+      <div class="section-sub">${t("studyStageHint")}</div>
+      <button class="listen-play" data-action="study-play" aria-label="השמע הגייה בספרדית">🔊</button>
+      <div class="fc-word" lang="es" style="margin-top:14px;">${item.es}</div>
+      <div class="fc-translation">${item.he}</div>
+    </div>
+    <div class="runner-controls">
+      <button class="ctrl-btn secondary" data-action="study-prev" ${ex.index === 0 ? "disabled" : ""}>הקודם</button>
+      <button class="ctrl-btn" data-action="study-next">${ex.index === ex.items.length - 1 ? "לבוחן" : "הבא"}</button>
+    </div>
+  `;
+}
+
+// ---------- האזנה: שלב הבוחן ----------
 function renderListening() {
   if (ex.index >= ex.questions.length) {
     return renderSummary({ correct: ex.score, total: ex.questions.length, label: "סיכום תרגיל ההאזנה" });
@@ -679,7 +1034,7 @@ function renderListening() {
       <span>ניקוד: ${ex.score}</span>
     </div>
     <div class="listen-box">
-      <div class="section-sub">לחץ להשמעה והקשב למילה בספרדית</div>
+      <div class="section-sub">${t("listeningInstruction")}</div>
       <button class="listen-play" data-action="listen-play" aria-label="השמע הגייה בספרדית">🔊</button>
     </div>
     ${renderChoiceOptions(q, "listen-option", true)}
@@ -699,7 +1054,7 @@ function renderSentenceBuilder() {
       <div class="runner-progress"><div class="runner-progress-fill" style="width:${(ex.index / ex.items.length) * 100}%"></div></div>
       <span>ניקוד: ${ex.score}</span>
     </div>
-    <div class="sb-target-he">בנה את המשפט: "${item.he}"</div>
+    <div class="sb-target-he">${t("sentenceBuildPrefix")}: "${item.he}"</div>
     <div class="sb-answer">
       ${item.answer.map((w, i) => `<button type="button" class="sb-chip" lang="es" data-action="sb-remove" data-index="${i}">${w}</button>`).join("")}
     </div>
@@ -724,6 +1079,20 @@ function renderSentenceBuilder() {
   `;
 }
 
+// ---------- הקלדה מהזיכרון: מסך הכנה (stage "intro", בלי חשיפת תשובות) ----------
+function renderRecallIntro() {
+  return `
+    <div class="section-title" style="text-align:center;">הקלדה מהזיכרון</div>
+    <div class="section-sub" style="text-align:center;">${t("recallIntroInstruction")}</div>
+    <div class="topic-list">
+      ${ex.items.map(v => `<div class="topic-row"><div class="tr-info"><div class="tr-name">${v.he}</div></div></div>`).join("")}
+    </div>
+    <div class="runner-controls">
+      <button class="ctrl-btn" data-action="recall-start">${t("recallIntroCta")}</button>
+    </div>
+  `;
+}
+
 // ---------- הקלדה מהזיכרון (הקלדה חופשית מעברית לספרדית) ----------
 function renderRecall() {
   if (ex.index >= ex.items.length) {
@@ -742,7 +1111,7 @@ function renderRecall() {
       <input type="text" class="recall-input ${ex.checked ? (ex.correctFlag ? "correct" : "incorrect") : ""}"
              dir="ltr" lang="es" autocomplete="off" autocapitalize="off" spellcheck="false"
              value="${ex.checked ? (ex.userAnswer || "") : ""}" ${ex.checked ? "disabled" : ""}
-             placeholder="הקלד/י בספרדית..." data-role="recall-input">
+             placeholder="${t("recallPlaceholder")}" data-role="recall-input">
       ${!ex.checked ? `<button type="submit" class="ctrl-btn">בדוק</button>` : ""}
     </form>
     ${ex.checked ? `
@@ -769,7 +1138,7 @@ function renderSummary({ correct, total, label }) {
       <div class="score-num">${pct}%</div>
       <div class="score-lbl">${correct} מתוך ${total} נכונים</div>
       <div class="runner-controls">
-        <button class="ctrl-btn secondary" data-action="retry-exercise">נסה שוב</button>
+        <button class="ctrl-btn secondary" data-action="retry-exercise">${t("tryAgain")}</button>
         ${continueBtn}
       </div>
     </div>
@@ -788,7 +1157,25 @@ function finishExerciseIfDone(length, scoreType, percent) {
 function handleFcNext() {
   ex.index += 1;
   ex.flipped = false;
-  finishExerciseIfDone(ex.items.length, "flashcards", 100);
+  if (ex.index >= ex.items.length) startVocabQuiz();
+  render();
+}
+
+// ---------- שלב הלמידה המשותף (Quiz / Listening / Sentences) ----------
+// שלושת התרגילים האלה מתחילים ב-stage:"study" על ex.items בצורת {es, he} (מילים או משפטים
+// מלאים), ונע"רים ל-render/handler משותפים במקום שלוש גרסאות כמעט זהות. ex.type קובע איזו
+// פונקציית start*Quiz/start*Test מתאימה לקרוא בסיום המעבר.
+function handleStudyNext() {
+  ex.index += 1;
+  if (ex.index >= ex.items.length) {
+    if (ex.type === "quiz") startVocabQuiz();
+    else if (ex.type === "listening") startListeningQuiz();
+    else if (ex.type === "sentences") startSentenceQuiz();
+  }
+  render();
+}
+function handleStudyPrev() {
+  ex.index = Math.max(0, ex.index - 1);
   render();
 }
 
@@ -908,6 +1295,13 @@ function handleAction(el) {
       break;
     case "goto-review": gotoReview(); break;
     case "goto-stats": gotoStats(); break;
+    case "goto-about": gotoAbout(); break;
+    case "pick-gender": state.genderChoice = el.dataset.gender; state.authError = ""; render(); break;
+    case "auth-switch-mode": state = { screen: "auth", authMode: el.dataset.mode }; history.replaceState(state, ""); render(); break;
+    case "logout": {
+      if (window.HablaAuth) window.HablaAuth.logOut();
+      break;
+    }
     case "retry-exercise": {
       if (state.isReview) buildReviewExercise();
       else buildExercise(state.levelId, state.topicId, state.type);
@@ -928,6 +1322,11 @@ function handleAction(el) {
     case "listen-next": handleChoiceNext(); break;
     case "listen-play": speak(ex.questions[ex.index].es); break;
 
+    // שלב הלמידה המשותף (Quiz / Listening / Sentences), לפני הבוחן
+    case "study-play": speak(ex.items[ex.index].es); break;
+    case "study-prev": handleStudyPrev(); break;
+    case "study-next": handleStudyNext(); break;
+
     // Sentence builder
     case "sb-add": handleSbAdd(index); break;
     case "sb-remove": handleSbRemove(index); break;
@@ -937,6 +1336,7 @@ function handleAction(el) {
     case "sb-next": handleSbNext(); break;
 
     // הקלדה מהזיכרון
+    case "recall-start": startRecallTest(); render(); break;
     case "recall-check": handleRecallCheck(); break;
     case "recall-speak": speak(ex.items[ex.index].answer); break;
     case "recall-next": handleRecallNext(); break;
@@ -959,9 +1359,16 @@ function bindDelegatedEvents() {
   };
   // בתרגול "הקלדה מהזיכרון", לחיצת Enter בתוך שדה הטקסט שולחת את הטופס באופן טבעי - נתפוס את זה כאן
   app.onsubmit = (e) => {
-    if (!e.target.closest(".recall-form")) return;
-    e.preventDefault();
-    handleAction({ dataset: { action: "recall-check" } });
+    if (e.target.closest(".recall-form")) {
+      e.preventDefault();
+      handleAction({ dataset: { action: "recall-check" } });
+      return;
+    }
+    const authForm = e.target.closest(".auth-form");
+    if (authForm) {
+      e.preventDefault();
+      handleAuthSubmit(authForm);
+    }
   };
 }
 

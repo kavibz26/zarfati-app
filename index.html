@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>¡Habla! - לימוד ספרדית</title>
+<title>Zarfati App - לימוד ספרדית</title>
 <link rel="stylesheet" href="css/style.css">
 
 <link rel="manifest" href="manifest.json">
@@ -15,7 +15,7 @@
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="¡Habla!">
+<meta name="apple-mobile-web-app-title" content="Zarfati App">
 
 <!-- Android / Chrome (legacy, לתאימות רחבה יותר) -->
 <meta name="mobile-web-app-capable" content="yes">
@@ -25,7 +25,7 @@
     <div class="topbar-inner">
       <button id="homeBtn" class="brand" title="חזרה לדף הבית">
         <span class="brand-icon">🇪🇸</span>
-        <span class="brand-name">¡Habla!</span>
+        <span class="brand-name">Zarfati App</span>
       </button>
       <div id="breadcrumb" class="breadcrumb"></div>
     </div>
@@ -34,11 +34,19 @@
   <main id="app" class="app"></main>
 
   <footer class="footer">
-    <p>אפליקציית לימוד ספרדית · 3 רמות קושי · ההתקדמות נשמרת אוטומטית במכשיר שלך</p>
+    <p>אפליקציית לימוד ספרדית · 3 רמות קושי · ההתקדמות נשמרת אוטומטית בחשבון שלך</p>
+    <p><button id="aboutBtn" class="footer-link">אודות</button></p>
   </footer>
 
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>
+  <script type="module" src="js/auth.js"></script>
+
+  <script>
+    document.getElementById("aboutBtn").addEventListener("click", () => {
+      if (typeof gotoAbout === "function") gotoAbout();
+    });
+  </script>
 
   <script>
     // רישום Service Worker לתמיכה אופליין - סקריפט נפרד, לא נוגע בלוגיקת הלמידה ב-app.js

@@ -308,6 +308,7 @@ button:focus-visible,
   margin-top: 20px;
 }
 .ctrl-btn {
+  display: inline-block;
   background: var(--accent);
   color: white;
   border: none;
@@ -315,6 +316,9 @@ button:focus-visible,
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
 .ctrl-btn.secondary {
   background: #eef0f5;
@@ -449,6 +453,125 @@ button:focus-visible,
 .summary .score-lbl {
   color: var(--muted);
   margin-bottom: 20px;
+}
+
+/* ---------- Home: greeting ---------- */
+.hero-greeting {
+  font-weight: 700;
+  color: var(--accent-dark);
+  margin-bottom: 4px !important;
+}
+
+/* ---------- Footer ---------- */
+.footer-link {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 2px;
+}
+.footer-link:hover { color: var(--text); }
+
+/* ---------- Loading ---------- */
+.loading-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  color: var(--muted);
+  padding: 80px 0;
+}
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- Auth (signup / login) ---------- */
+.auth-form {
+  max-width: 360px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.auth-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.auth-label input {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 12px 14px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  background: var(--card-bg);
+}
+.auth-label input:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+.auth-error {
+  background: #fef2f2;
+  border: 1px solid var(--danger);
+  color: var(--danger);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  text-align: center;
+}
+.auth-switch {
+  max-width: 360px;
+  margin: 16px auto 0;
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+}
+.auth-switch button {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.gender-choice {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.gender-choice-label { font-size: 14px; color: var(--muted); }
+.gender-btns {
+  display: flex;
+  gap: 10px;
+}
+.gender-btn {
+  flex: 1;
+  border: 2px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.gender-btn.selected {
+  border-color: var(--accent);
+  background: #fef2f2;
+  color: var(--accent-dark);
+  font-weight: 700;
 }
 
 @media (max-width: 480px) {
