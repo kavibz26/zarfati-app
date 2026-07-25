@@ -1,7 +1,7 @@
 // Service Worker לתמיכה אופליין - אסטרטגיית cache-first עם fallback לרשת.
 // לא נוגע ב-localStorage או במנגנון ההתקדמות של האפליקציה בשום צורה.
 
-const CACHE_NAME = "habla-cache-v7";
+const CACHE_NAME = "habla-cache-v14";
 const PRECACHE_URLS = [
   "./",
   "./index.html",

@@ -4,7 +4,7 @@
 const LEVELS = {
   beginner: {
     id: "beginner",
-    name: "מתחיל",
+    name: "מתחילים",
     icon: "🌱",
     color: "#4caf7d",
     topics: [
@@ -224,13 +224,79 @@ const LEVELS = {
           { es: "Perdí mi maleta en el aeropuerto.", he: "איבדתי את המזוודה שלי בשדה התעופה." },
           { es: "Estamos de vacaciones en la playa toda la semana.", he: "אנחנו בחופשה בחוף הים כל השבוע." }
         ]
+      },
+      {
+        id: "home",
+        name: "בית",
+        vocab: [
+          { es: "La casa", he: "הבית", ex_es: "Vivo en una casa grande.", ex_he: "אני גר בבית גדול." },
+          { es: "El apartamento", he: "הדירה", ex_es: "Mi apartamento está en el tercer piso.", ex_he: "הדירה שלי בקומה השלישית." },
+          { es: "La habitación / El cuarto", he: "החדר", ex_es: "Mi habitación es pequeña pero cómoda.", ex_he: "החדר שלי קטן אבל נוח." },
+          { es: "La cocina", he: "המטבח", ex_es: "Cocino todos los días en la cocina.", ex_he: "אני מבשל כל יום במטבח." },
+          { es: "El baño", he: "חדר האמבטיה", ex_es: "¿Dónde está el baño?", ex_he: "איפה חדר האמבטיה?" },
+          { es: "El dormitorio", he: "חדר השינה", ex_es: "Mi dormitorio tiene una cama grande.", ex_he: "בחדר השינה שלי יש מיטה גדולה." },
+          { es: "La sala / El salón", he: "הסלון", ex_es: "Vemos la televisión en la sala.", ex_he: "אנחנו צופים בטלוויזיה בסלון." },
+          { es: "La puerta", he: "הדלת", ex_es: "Cierra la puerta, por favor.", ex_he: "תסגור את הדלת, בבקשה." },
+          { es: "La ventana", he: "החלון", ex_es: "Abre la ventana, hace calor.", ex_he: "תפתח את החלון, חם." },
+          { es: "La mesa", he: "השולחן", ex_es: "La comida está en la mesa.", ex_he: "האוכל על השולחן." },
+          { es: "La silla", he: "הכיסא", ex_es: "Siéntate en esta silla.", ex_he: "שב על הכיסא הזה." },
+          { es: "La cama", he: "המיטה", ex_es: "Voy a dormir en mi cama.", ex_he: "אני הולך לישון במיטה שלי." },
+          { es: "La llave", he: "המפתח", ex_es: "No encuentro la llave de la casa.", ex_he: "אני לא מוצא את המפתח של הבית." },
+          { es: "El jardín", he: "הגינה", ex_es: "Los niños juegan en el jardín.", ex_he: "הילדים משחקים בגינה." },
+          { es: "La pared", he: "הקיר", ex_es: "Hay un cuadro en la pared.", ex_he: "יש תמונה על הקיר." },
+          { es: "El piso / El suelo", he: "הרצפה", ex_es: "El piso está muy limpio.", ex_he: "הרצפה מאוד נקייה." },
+          { es: "El techo", he: "התקרה / הגג", ex_es: "El techo de la casa es rojo.", ex_he: "הגג של הבית אדום." },
+          { es: "Vivir en...", he: "לגור ב...", ex_es: "¿Dónde vives?", ex_he: "איפה אתה גר?" }
+        ],
+        sentences: [
+          { es: "Mi casa tiene tres habitaciones y una cocina grande.", he: "בבית שלי יש שלושה חדרים ומטבח גדול." },
+          { es: "La cocina está al lado de la sala.", he: "המטבח נמצא ליד הסלון." },
+          { es: "¿Dónde está la llave de la puerta?", he: "איפה המפתח של הדלת?" },
+          { es: "Los niños duermen en el mismo dormitorio.", he: "הילדים ישנים באותו חדר שינה." },
+          { es: "Hay flores bonitas en el jardín.", he: "יש פרחים יפים בגינה." },
+          { es: "Por favor, cierra la ventana antes de salir.", he: "בבקשה, תסגור את החלון לפני שאתה יוצא." },
+          { es: "Vivimos en un apartamento pequeño en el centro.", he: "אנחנו גרים בדירה קטנה במרכז." }
+        ]
+      },
+      {
+        id: "days_time",
+        name: "ימים ושעות",
+        vocab: [
+          { es: "Lunes", he: "יום שני", ex_es: "El lunes empiezo a trabajar.", ex_he: "ביום שני אני מתחיל לעבוד." },
+          { es: "Martes", he: "יום שלישי", ex_es: "Tengo clase de español los martes.", ex_he: "יש לי שיעור ספרדית בימי שלישי." },
+          { es: "Miércoles", he: "יום רביעי", ex_es: "Nos vemos el miércoles.", ex_he: "נתראה ביום רביעי." },
+          { es: "Jueves", he: "יום חמישי", ex_es: "El jueves es mi día libre.", ex_he: "יום חמישי הוא היום החופשי שלי." },
+          { es: "Viernes", he: "יום שישי", ex_es: "Los viernes salimos con amigos.", ex_he: "בימי שישי אנחנו יוצאים עם חברים." },
+          { es: "Sábado", he: "שבת", ex_es: "El sábado no trabajamos.", ex_he: "בשבת אנחנו לא עובדים." },
+          { es: "Domingo", he: "יום ראשון", ex_es: "El domingo vamos a la playa.", ex_he: "ביום ראשון אנחנו הולכים לחוף הים." },
+          { es: "Hoy", he: "היום", ex_es: "Hoy es un buen día.", ex_he: "היום זה יום טוב." },
+          { es: "Mañana", he: "מחר", ex_es: "Mañana tengo un examen.", ex_he: "מחר יש לי מבחן." },
+          { es: "Ayer", he: "אתמול", ex_es: "Ayer llovió mucho.", ex_he: "אתמול ירד גשם חזק." },
+          { es: "La semana", he: "השבוע", ex_es: "Esta semana estoy muy ocupado.", ex_he: "השבוע אני מאוד עסוק." },
+          { es: "El mes", he: "החודש", ex_es: "El próximo mes viajo a España.", ex_he: "בחודש הבא אני נוסע לספרד." },
+          { es: "El año", he: "השנה", ex_es: "Este año voy a aprender español.", ex_he: "השנה אני הולך ללמוד ספרדית." },
+          { es: "La mañana", he: "הבוקר", ex_es: "Me levanto temprano por la mañana.", ex_he: "אני קם מוקדם בבוקר." },
+          { es: "La tarde", he: "אחר הצהריים", ex_es: "Nos vemos por la tarde.", ex_he: "נתראה אחר הצהריים." },
+          { es: "La noche", he: "הלילה", ex_es: "Trabajo por la noche.", ex_he: "אני עובד בלילה." },
+          { es: "¿Qué día es hoy?", he: "איזה יום היום?", ex_es: "¿Qué día es hoy, lunes o martes?", ex_he: "איזה יום היום, שני או שלישי?" },
+          { es: "Todos los días", he: "כל יום", ex_es: "Estudio español todos los días.", ex_he: "אני לומד ספרדית כל יום." }
+        ],
+        sentences: [
+          { es: "Hoy es lunes y mañana es martes.", he: "היום יום שני ומחר יום שלישי." },
+          { es: "Los sábados y domingos no trabajo.", he: "בשבתות ובימי ראשון אני לא עובד." },
+          { es: "Nos vemos el viernes por la tarde.", he: "נתראה ביום שישי אחר הצהריים." },
+          { es: "Ayer fue un día muy largo.", he: "אתמול היה יום מאוד ארוך." },
+          { es: "Estudio español todos los días por la mañana.", he: "אני לומד ספרדית כל יום בבוקר." },
+          { es: "El próximo mes empieza un nuevo año.", he: "בחודש הבא מתחילה שנה חדשה." },
+          { es: "¿Qué día es hoy?", he: "איזה יום היום?" }
+        ]
       }
     ]
   },
 
   intermediate: {
     id: "intermediate",
-    name: "מתקדם",
+    name: "בינוניים",
     icon: "🚀",
     color: "#3b82f6",
     topics: [
@@ -444,13 +510,112 @@ const LEVELS = {
           { es: "Alquilamos un coche para recorrer la costa.", he: "שכרנו רכב כדי לסייר לאורך החוף." },
           { es: "Cancelaron el vuelo debido a una tormenta.", he: "הם ביטלו את הטיסה בגלל סופה." }
         ]
+      },
+      {
+        id: "emotions",
+        name: "רגשות",
+        vocab: [
+          { es: "Feliz", he: "שמח", ex_es: "Estoy muy feliz hoy.", ex_he: "אני מאוד שמח היום." },
+          { es: "Triste", he: "עצוב", ex_es: "Se siente triste porque perdió el partido.", ex_he: "הוא מרגיש עצוב כי הוא הפסיד במשחק." },
+          { es: "Enojado / Enfadado", he: "כועס", ex_es: "Está enojado con su hermano.", ex_he: "הוא כועס על אחיו." },
+          { es: "Cansado", he: "עייף", ex_es: "Estoy muy cansado después del trabajo.", ex_he: "אני מאוד עייף אחרי העבודה." },
+          { es: "Emocionado", he: "נרגש", ex_es: "Estamos emocionados por el viaje.", ex_he: "אנחנו נרגשים לקראת הטיול." },
+          { es: "Preocupado", he: "מודאג", ex_es: "Mi madre está preocupada por mí.", ex_he: "אמא שלי מודאגת ממני." },
+          { es: "Asustado", he: "מפוחד", ex_es: "El niño está asustado de la oscuridad.", ex_he: "הילד מפוחד מהחושך." },
+          { es: "Sorprendido", he: "מופתע", ex_es: "Me quedé sorprendido con la noticia.", ex_he: "נשארתי מופתע מהחדשות." },
+          { es: "Enamorado", he: "מאוהב", ex_es: "Está enamorado de ella desde hace un año.", ex_he: "הוא מאוהב בה כבר שנה." },
+          { es: "Aburrido", he: "משועמם", ex_es: "Los niños están aburridos en casa.", ex_he: "הילדים משועממים בבית." },
+          { es: "Nervioso", he: "עצבני / לחוץ", ex_es: "Estoy nervioso antes del examen.", ex_he: "אני לחוץ לפני המבחן." },
+          { es: "Orgulloso", he: "גאה", ex_es: "Estoy orgulloso de mi hija.", ex_he: "אני גאה בבת שלי." },
+          { es: "Decepcionado", he: "מאוכזב", ex_es: "Quedé decepcionado con el resultado.", ex_he: "נשארתי מאוכזב מהתוצאה." },
+          { es: "Tranquilo / Relajado", he: "רגוע", ex_es: "Después de las vacaciones me siento tranquilo.", ex_he: "אחרי החופשה אני מרגיש רגוע." },
+          { es: "¿Cómo te sientes?", he: "איך אתה מרגיש?", ex_es: "¿Cómo te sientes hoy?", ex_he: "איך אתה מרגיש היום?" },
+          { es: "Me siento...", he: "אני מרגיש...", ex_es: "Me siento muy bien hoy.", ex_he: "אני מרגיש מאוד טוב היום." },
+          { es: "Tener miedo de", he: "לפחד מ...", ex_es: "Tengo miedo de las alturas.", ex_he: "אני מפחד מגבהים." },
+          { es: "Estar de buen/mal humor", he: "להיות במצב רוח טוב/רע", ex_es: "Hoy estoy de muy buen humor.", ex_he: "היום אני במצב רוח מאוד טוב." }
+        ],
+        sentences: [
+          { es: "Me siento muy feliz cuando estoy con mi familia.", he: "אני מרגיש מאוד שמח כשאני עם המשפחה שלי." },
+          { es: "Ella está triste porque su amigo se fue.", he: "היא עצובה כי החבר שלה עזב." },
+          { es: "¿Por qué estás tan nervioso hoy?", he: "למה אתה כל כך לחוץ היום?" },
+          { es: "Estamos emocionados por empezar el nuevo trabajo.", he: "אנחנו נרגשים להתחיל בעבודה החדשה." },
+          { es: "Mi padre está muy orgulloso de mis notas.", he: "אבא שלי מאוד גאה בציונים שלי." },
+          { es: "No tengas miedo, todo va a salir bien.", he: "אל תפחד, הכל יסתדר." },
+          { es: "Después de dormir bien, me siento tranquilo.", he: "אחרי שינה טובה, אני מרגיש רגוע." }
+        ]
+      },
+      {
+        id: "daily_conversations",
+        name: "שיחות יומיומיות",
+        vocab: [
+          { es: "No entiendo", he: "אני לא מבין", ex_es: "Perdón, no entiendo lo que dices.", ex_he: "סליחה, אני לא מבין מה שאתה אומר." },
+          { es: "¿Puedes repetir, por favor?", he: "אתה יכול לחזור, בבקשה?", ex_es: "¿Puedes repetir la pregunta, por favor?", ex_he: "אתה יכול לחזור על השאלה, בבקשה?" },
+          { es: "¿Cómo se dice...?", he: "איך אומרים...?", ex_es: "¿Cómo se dice 'gato' en inglés?", ex_he: "איך אומרים 'חתול' באנגלית?" },
+          { es: "Estoy de acuerdo", he: "אני מסכים", ex_es: "Estoy de acuerdo contigo.", ex_he: "אני מסכים איתך." },
+          { es: "No estoy de acuerdo", he: "אני לא מסכים", ex_es: "No estoy de acuerdo con esa idea.", ex_he: "אני לא מסכים עם הרעיון הזה." },
+          { es: "Vamos", he: "בוא נלך / קדימה", ex_es: "Vamos, se hace tarde.", ex_he: "בוא נלך, נהיה מאוחר." },
+          { es: "Espera un momento", he: "חכה רגע", ex_es: "Espera un momento, ya vuelvo.", ex_he: "חכה רגע, אני כבר חוזר." },
+          { es: "No hay problema", he: "אין בעיה", ex_es: "No hay problema, puedo ayudarte.", ex_he: "אין בעיה, אני יכול לעזור לך." },
+          { es: "Claro que sí", he: "בטח שכן / כמובן", ex_es: "¿Puedes venir? Claro que sí.", ex_he: "אתה יכול לבוא? בטח שכן." },
+          { es: "Creo que...", he: "אני חושב ש...", ex_es: "Creo que va a llover hoy.", ex_he: "אני חושב שירד גשם היום." },
+          { es: "En mi opinión", he: "לדעתי", ex_es: "En mi opinión, es una buena idea.", ex_he: "לדעתי, זה רעיון טוב." },
+          { es: "¿Me puedes ayudar?", he: "אתה יכול לעזור לי?", ex_es: "¿Me puedes ayudar con esto?", ex_he: "אתה יכול לעזור לי עם זה?" },
+          { es: "Tienes razón", he: "אתה צודק", ex_es: "Tienes razón, fue mi error.", ex_he: "אתה צודק, זו הייתה הטעות שלי." },
+          { es: "No pasa nada", he: "זה בסדר / לא קרה כלום", ex_es: "No pasa nada, no te preocupes.", ex_he: "זה בסדר, אל תדאג." },
+          { es: "¡Qué bien!", he: "כמה נחמד! / איזה כיף!", ex_es: "¡Qué bien que viniste!", ex_he: "איזה כיף שבאת!" },
+          { es: "¡Qué lástima!", he: "איזה חבל!", ex_es: "¡Qué lástima que no puedas venir!", ex_he: "איזה חבל שאתה לא יכול לבוא!" },
+          { es: "Depende", he: "זה תלוי", ex_es: "¿Vienes mañana? Depende del clima.", ex_he: "אתה בא מחר? זה תלוי במזג האוויר." },
+          { es: "Por cierto", he: "דרך אגב", ex_es: "Por cierto, ¿cómo está tu hermana?", ex_he: "דרך אגב, מה שלום אחותך?" }
+        ],
+        sentences: [
+          { es: "Perdón, ¿puedes repetir la pregunta?", he: "סליחה, אתה יכול לחזור על השאלה?" },
+          { es: "Estoy de acuerdo contigo, es una buena idea.", he: "אני מסכים איתך, זה רעיון טוב." },
+          { es: "No hay problema, podemos hacerlo mañana.", he: "אין בעיה, נוכל לעשות את זה מחר." },
+          { es: "En mi opinión, deberíamos esperar un poco más.", he: "לדעתי, כדאי שנחכה עוד קצת." },
+          { es: "¿Me puedes ayudar a entender esto?", he: "אתה יכול לעזור לי להבין את זה?" },
+          { es: "Tienes razón, no pensé en eso.", he: "אתה צודק, לא חשבתי על זה." },
+          { es: "Por cierto, ¿sabes cómo se dice esto en español?", he: "דרך אגב, אתה יודע איך אומרים את זה בספרדית?" }
+        ]
+      },
+      {
+        id: "common_verbs_2",
+        name: "פעלים נפוצים יותר",
+        vocab: [
+          { es: "Querer", he: "לרצות", ex_es: "Quiero aprender español.", ex_he: "אני רוצה ללמוד ספרדית." },
+          { es: "Poder", he: "להיות מסוגל / יכול", ex_es: "No puedo venir hoy.", ex_he: "אני לא יכול לבוא היום." },
+          { es: "Saber", he: "לדעת", ex_es: "No sé la respuesta.", ex_he: "אני לא יודע את התשובה." },
+          { es: "Conocer", he: "להכיר", ex_es: "Conozco a tu hermana.", ex_he: "אני מכיר את אחותך." },
+          { es: "Pensar", he: "לחשוב", ex_es: "Pienso que tienes razón.", ex_he: "אני חושב שאתה צודק." },
+          { es: "Sentir", he: "להרגיש", ex_es: "Siento mucho dolor en la pierna.", ex_he: "אני מרגיש הרבה כאב ברגל." },
+          { es: "Buscar", he: "לחפש", ex_es: "Estoy buscando mis llaves.", ex_he: "אני מחפש את המפתחות שלי." },
+          { es: "Encontrar", he: "למצוא", ex_es: "Encontré mi teléfono en el sofá.", ex_he: "מצאתי את הטלפון שלי בספה." },
+          { es: "Llevar", he: "לשאת / ללבוש", ex_es: "Llevo una chaqueta roja.", ex_he: "אני לובש ז'קט אדום." },
+          { es: "Dejar", he: "להשאיר / לעזוב", ex_es: "Dejé mis libros en la escuela.", ex_he: "השארתי את הספרים שלי בבית ספר." },
+          { es: "Preguntar", he: "לשאול", ex_es: "Voy a preguntar al profesor.", ex_he: "אני הולך לשאול את המורה." },
+          { es: "Responder / Contestar", he: "לענות", ex_es: "No respondió a mi mensaje.", ex_he: "הוא לא ענה להודעה שלי." },
+          { es: "Necesitar", he: "להזדקק / לצטרך", ex_es: "Necesito más tiempo.", ex_he: "אני צריך יותר זמן." },
+          { es: "Dar", he: "לתת", ex_es: "Voy a dar un regalo a mi madre.", ex_he: "אני הולך לתת מתנה לאמא שלי." },
+          { es: "Tomar", he: "לקחת / לשתות", ex_es: "Voy a tomar un café.", ex_he: "אני הולך לשתות קפה." },
+          { es: "Ayudar", he: "לעזור", ex_es: "¿Puedes ayudarme con la tarea?", ex_he: "אתה יכול לעזור לי עם שיעורי הבית?" },
+          { es: "Empezar", he: "להתחיל", ex_es: "La clase empieza a las nueve.", ex_he: "השיעור מתחיל בתשע." },
+          { es: "Terminar", he: "לסיים", ex_es: "Terminé mi trabajo temprano.", ex_he: "סיימתי את העבודה שלי מוקדם." }
+        ],
+        sentences: [
+          { es: "Quiero aprender a cocinar comida española.", he: "אני רוצה ללמוד לבשל אוכל ספרדי." },
+          { es: "No puedo encontrar mis llaves esta mañana.", he: "אני לא יכול למצוא את המפתחות שלי הבוקר." },
+          { es: "¿Conoces un buen restaurante cerca de aquí?", he: "אתה מכיר מסעדה טובה קרוב לכאן?" },
+          { es: "Necesito ayuda para terminar este proyecto.", he: "אני צריך עזרה כדי לסיים את הפרויקט הזה." },
+          { es: "Ella siempre pregunta muchas cosas en clase.", he: "היא תמיד שואלת הרבה דברים בשיעור." },
+          { es: "Vamos a empezar la reunión a las diez.", he: "אנחנו הולכים להתחיל את הפגישה בעשר." },
+          { es: "¿Me puedes dar tu número de teléfono?", he: "אתה יכול לתת לי את מספר הטלפון שלך?" }
+        ]
       }
     ]
   },
 
   advanced: {
     id: "advanced",
-    name: "מקצועי",
+    name: "מתקדמים",
     icon: "🏆",
     color: "#a855f7",
     topics: [
@@ -663,6 +828,69 @@ const LEVELS = {
           { es: "Todavía siento el jet lag después de cruzar tantos husos horarios.", he: "אני עדיין מרגיש ג'ט לג אחרי שחציתי כל כך הרבה אזורי זמן." },
           { es: "La empresa cubre el alojamiento y las dietas del viaje.", he: "החברה מכסה את הלינה ואת דמי האש\"ל של הנסיעה." },
           { es: "Necesitas un visado y seguro médico para este país.", he: "אתה צריך ויזה וביטוח בריאות למדינה הזו." }
+        ]
+      },
+      {
+        id: "advanced_vocab",
+        name: "אוצר מילים מתקדם ומופשט",
+        vocab: [
+          { es: "La libertad", he: "החירות", ex_es: "La libertad es un derecho fundamental.", ex_he: "החירות היא זכות יסודית." },
+          { es: "La justicia", he: "הצדק", ex_es: "Luchan por la justicia social.", ex_he: "הם נלחמים למען הצדק החברתי." },
+          { es: "La oportunidad", he: "ההזדמנות", ex_es: "Esta es una gran oportunidad para ti.", ex_he: "זו הזדמנות גדולה בשבילך." },
+          { es: "El desafío", he: "האתגר", ex_es: "Superar este desafío no será fácil.", ex_he: "להתגבר על האתגר הזה לא יהיה קל." },
+          { es: "El logro", he: "ההישג", ex_es: "Graduarse fue su mayor logro.", ex_he: "סיום התואר היה ההישג הגדול ביותר שלו." },
+          { es: "La conciencia", he: "המודעות", ex_es: "Necesitamos más conciencia ambiental.", ex_he: "אנחנו צריכים יותר מודעות סביבתית." },
+          { es: "La responsabilidad", he: "האחריות", ex_es: "Asumir la responsabilidad no es fácil.", ex_he: "לקחת אחריות זה לא קל." },
+          { es: "La perspectiva", he: "נקודת המבט", ex_es: "Cambió mi perspectiva sobre la vida.", ex_he: "זה שינה את נקודת המבט שלי על החיים." },
+          { es: "La incertidumbre", he: "חוסר הוודאות", ex_es: "Vivimos en una época de incertidumbre.", ex_he: "אנחנו חיים בתקופה של חוסר וודאות." },
+          { es: "La ambición", he: "השאיפה / השאפתנות", ex_es: "Tiene mucha ambición profesional.", ex_he: "יש לו הרבה שאפתנות מקצועית." },
+          { es: "La empatía", he: "האמפתיה", ex_es: "La empatía es esencial en este trabajo.", ex_he: "האמפתיה חיונית בעבודה הזו." },
+          { es: "La integridad", he: "היושרה", ex_es: "Es conocido por su integridad.", ex_he: "הוא ידוע ביושרה שלו." },
+          { es: "La sostenibilidad", he: "הקיימות", ex_es: "La sostenibilidad es clave para el futuro.", ex_he: "הקיימות היא מפתח לעתיד." },
+          { es: "La identidad", he: "הזהות", ex_es: "Buscaba su identidad desde joven.", ex_he: "הוא חיפש את זהותו מגיל צעיר." },
+          { es: "La influencia", he: "ההשפעה", ex_es: "Tiene mucha influencia en la empresa.", ex_he: "יש לו הרבה השפעה בחברה." },
+          { es: "La sabiduría", he: "החוכמה", ex_es: "La sabiduría viene con la experiencia.", ex_he: "החוכמה מגיעה עם הניסיון." },
+          { es: "El compromiso", he: "המחויבות", ex_es: "Su compromiso con el proyecto es total.", ex_he: "המחויבות שלו לפרויקט מלאה." },
+          { es: "La resiliencia", he: "החוסן / העמידות הנפשית", ex_es: "Mostró mucha resiliencia durante la crisis.", ex_he: "הוא הראה הרבה חוסן במהלך המשבר." }
+        ],
+        sentences: [
+          { es: "La libertad y la justicia son valores fundamentales.", he: "החירות והצדק הם ערכים יסודיים." },
+          { es: "Esta oportunidad representa un gran desafío para nosotros.", he: "ההזדמנות הזו מייצגת אתגר גדול בשבילנו." },
+          { es: "Su mayor logro fue superar la incertidumbre del momento.", he: "ההישג הגדול ביותר שלו היה להתגבר על אי הוודאות של הרגע." },
+          { es: "La empatía y la responsabilidad son clave en el liderazgo.", he: "האמפתיה והאחריות הן מפתח במנהיגות." },
+          { es: "Cambiar de perspectiva ayuda a entender mejor la situación.", he: "שינוי נקודת מבט עוזר להבין טוב יותר את המצב." },
+          { es: "La sostenibilidad se ha convertido en una prioridad global.", he: "הקיימות הפכה לעדיפות עולמית." },
+          { es: "Su integridad y sabiduría lo hacen un gran líder.", he: "היושרה והחוכמה שלו הופכים אותו למנהיג גדול." }
+        ]
+      },
+      {
+        id: "natural_expressions",
+        name: "ביטויים טבעיים של דוברי ספרדית",
+        vocab: [
+          { es: "Ni hablar", he: "בשום אופן / אין מצב", ex_es: "¿Ir sin ti? ¡Ni hablar!", ex_he: "ללכת בלעדיך? אין מצב!" },
+          { es: "Qué va", he: "ממש לא / בכלל לא", ex_es: "¿Estás enojado? ¡Qué va!", ex_he: "אתה כועס? ממש לא!" },
+          { es: "Está chupado", he: "זה קלי קלות", ex_es: "El examen está chupado.", ex_he: "המבחן קלי קלות." },
+          { es: "Estar sin blanca", he: "להיות בלי פרוטה", ex_es: "Este mes estoy sin blanca.", ex_he: "החודש אני בלי פרוטה." },
+          { es: "Así así", he: "ככה ככה", ex_es: "¿Cómo estás? Así así.", ex_he: "מה שלומך? ככה ככה." },
+          { es: "No es para tanto", he: "זה לא כזה נורא", ex_es: "Tranquilo, no es para tanto.", ex_he: "תירגע, זה לא כזה נורא." },
+          { es: "Al fin y al cabo", he: "בסופו של דבר", ex_es: "Al fin y al cabo, todo salió bien.", ex_he: "בסופו של דבר, הכל יצא טוב." },
+          { es: "Ponerse las pilas", he: "להתאמץ / לזוז", ex_es: "Tienes que ponerte las pilas con el trabajo.", ex_he: "אתה צריך להתאמץ עם העבודה." },
+          { es: "Meter la pata", he: "לעשות טעות מביכה", ex_es: "Metí la pata en la reunión.", ex_he: "עשיתי טעות מביכה בפגישה." },
+          { es: "Costar un ojo de la cara", he: "לעלות הון", ex_es: "Ese coche cuesta un ojo de la cara.", ex_he: "הרכב הזה עולה הון." },
+          { es: "Dar en el clavo", he: "לפגוע בול / לצדוק לגמרי", ex_es: "Diste en el clavo con esa idea.", ex_he: "פגעת בול עם הרעיון הזה." },
+          { es: "Tomar el pelo", he: "לעבוד על מישהו", ex_es: "¿Me estás tomando el pelo?", ex_he: "אתה עובד עליי?" },
+          { es: "Estar en las nubes", he: "להיות מרוחק בראש", ex_es: "Perdón, estaba en las nubes.", ex_he: "סליחה, הייתי מרוחק בראש." },
+          { es: "Echar una mano", he: "לתת יד / לעזור", ex_es: "¿Me echas una mano con esto?", ex_he: "אתה יכול לתת לי יד עם זה?" },
+          { es: "Ser pan comido", he: "להיות עניין של מה בכך", ex_es: "Este trabajo es pan comido.", ex_he: "העבודה הזו היא עניין של מה בכך." },
+          { es: "Hacerse el tonto", he: "להעמיד פני טיפש", ex_es: "No te hagas el tonto, sabes la respuesta.", ex_he: "אל תעמיד פני טיפש, אתה יודע את התשובה." }
+        ],
+        sentences: [
+          { es: "Al fin y al cabo, decidimos ponernos las pilas y terminar el proyecto.", he: "בסופו של דבר, החלטנו להתאמץ ולסיים את הפרויקט." },
+          { es: "No te hagas el tonto, sé que metiste la pata.", he: "אל תעמיד פני טיפש, אני יודע שעשית טעות מביכה." },
+          { es: "Este examen está chupado, va a ser pan comido.", he: "המבחן הזה קלי קלות, זה יהיה עניין של מה בכך." },
+          { es: "¿Me puedes echar una mano? Estoy sin blanca este mes.", he: "אתה יכול לתת לי יד? אני בלי פרוטה החודש." },
+          { es: "Diste en el clavo, esa es exactamente la solución.", he: "פגעת בול, זה בדיוק הפתרון." },
+          { es: "Perdón, estaba en las nubes, ¿qué decías?", he: "סליחה, הייתי מרוחק בראש, מה אמרת?" }
         ]
       }
     ]

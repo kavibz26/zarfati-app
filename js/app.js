@@ -20,6 +20,7 @@ const PHRASES = {
   chooseTopic: { m: "בחר נושא כדי להתחיל לתרגל", f: "בחרי נושא כדי להתחיל לתרגל" },
   chooseExerciseType: { m: "בחר סוג תרגיל", f: "בחרי סוג תרגיל" },
   reviewEmptyHint: { m: "אין עדיין מילים לחזרה - תרגל קצת ונחזור לכאן!", f: "אין עדיין מילים לחזרה - תרגלי קצת ונחזור לכאן!" },
+  smartReviewEmptyHint: { m: "אין כרגע מילים שהגיע זמנן לחזרה - תרגל קצת ונחזור לכאן!", f: "אין כרגע מילים שהגיע זמנן לחזרה - תרגלי קצת ונחזור לכאן!" },
   flashcardHint: { m: "לחץ כדי לראות תרגום", f: "לחצי כדי לראות תרגום" },
   flashcardAriaShowTranslation: { m: "הצג את התרגום לעברית", f: "הציגי את התרגום לעברית" },
   flashcardAriaShowWord: { m: "הצג את המילה בספרדית", f: "הציגי את המילה בספרדית" },
@@ -131,6 +132,21 @@ function getAllTopicsWithCompletion() {
   }
   return rows;
 }
+// סופר נושאים "הושלמו" - אותו מדד השלמה בדיוק כמו בכל שאר האפליקציה (getTopicCompletion),
+// רק סופר כמה מגיעים ל-100% במקום להציג את האחוז של כל אחד בנפרד.
+function completedTopicsCount() {
+  const rows = getAllTopicsWithCompletion();
+  return { count: rows.filter(r => r.completion === 100).length, total: rows.length };
+}
+// ציון ממוצע לסוג תרגיל נתון על פני כל הנושאים בכל הרמות (כולל נושאים שטרם נוסו, בהם הציון 0) -
+// אותה שיטת חישוב בדיוק כמו getLevelCompletion/overallCompletion הקיימים, רק פר סוג תרגיל.
+function avgScoreForType(typeId) {
+  const scores = [];
+  for (const level of Object.values(LEVELS)) {
+    for (const topic of level.topics) scores.push(getTopicScore(level.id, topic.id, typeId));
+  }
+  return scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0;
+}
 function markLearned(levelId, topicId, vocabIndex) {
   const s = loadLearned();
   s.add(`${levelId}:${topicId}:${vocabIndex}`);
@@ -154,15 +170,29 @@ function loadWordStats() {
   catch { return {}; }
 }
 function saveWordStats(s) { localStorage.setItem(wordStatsKey(), JSON.stringify(s)); scheduleCloudSync(); }
+// חזרה מרווחת (Spaced Repetition): כל תשובה נכונה מקדמת את המילה ל"קופסה" (box) גבוהה יותר -
+// ומרחיקה את מועד החזרה הבא (dueAt); תשובה שגויה מחזירה אותה מיד לקופסה 0 (חוזרת בקרוב).
+// שדות חדשים בלבד (streak/box/dueAt) לצד correct/incorrect הקיימים - לא מוחקים ולא משנים אותם,
+// כדי לא לפגוע בנתונים קיימים. רשומות ישנות בלי השדות החדשים מקבלות ברירת מחדל safe (0/דחוף עכשיו).
+const SRS_BOX_INTERVAL_DAYS = [0, 1, 2, 4, 8, 16];
 function recordAnswer(levelId, topicId, vocabIndex, isCorrect) {
   const stats = loadWordStats();
   const key = `${levelId}:${topicId}:${vocabIndex}`;
   const entry = stats[key] || { correct: 0, incorrect: 0 };
-  if (isCorrect) entry.correct += 1; else entry.incorrect += 1;
+  if (isCorrect) {
+    entry.correct += 1;
+    entry.streak = (entry.streak || 0) + 1;
+    entry.box = Math.min((entry.box || 0) + 1, SRS_BOX_INTERVAL_DAYS.length - 1);
+  } else {
+    entry.incorrect += 1;
+    entry.streak = 0;
+    entry.box = 0;
+  }
+  entry.dueAt = Date.now() + SRS_BOX_INTERVAL_DAYS[entry.box] * 86400000;
   stats[key] = entry;
   saveWordStats(stats);
 }
-// מילה נחשבת "קשה" כשהמשתמש טועה בה יותר משהוא מצליח בה
+// מילה נחשבת "קשה" כשהמשתמש טועה בה יותר משהוא מצליח בה (מונה מצטבר, כל החיים - ללא שינוי)
 function getStruggleWords(limit = REVIEW_SESSION_SIZE) {
   const stats = loadWordStats();
   const candidates = [];
@@ -179,6 +209,26 @@ function getStruggleWords(limit = REVIEW_SESSION_SIZE) {
   return candidates.slice(0, limit);
 }
 function struggleWordCount() { return getStruggleWords(Infinity).length; }
+// מילים "שהגיע זמנן" לפי מערכת החזרה המרווחת: קופסה נמוכה קודם (פחות מוכרות), ואז הכי מאחרות
+// בזמן קודם. רשומות ישנות בלי dueAt (מלפני התכונה הזו) נחשבות דחופות מיד - תאימות לאחור בטוחה.
+function getDueWords(limit = REVIEW_SESSION_SIZE) {
+  const stats = loadWordStats();
+  const now = Date.now();
+  const candidates = [];
+  for (const [key, entry] of Object.entries(stats)) {
+    const dueAt = entry.dueAt || 0;
+    if (dueAt > now) continue;
+    const [levelId, topicId, idxStr] = key.split(":");
+    const level = LEVELS[levelId];
+    const topic = level && level.topics.find(t => t.id === topicId);
+    const vocab = topic && topic.vocab[parseInt(idxStr, 10)];
+    if (!vocab) continue;
+    candidates.push({ levelId, topicId, vocabIndex: parseInt(idxStr, 10), vocab, box: entry.box || 0, overdueMs: now - dueAt });
+  }
+  candidates.sort((a, b) => a.box - b.box || b.overdueMs - a.overdueMs);
+  return candidates.slice(0, limit);
+}
+function dueWordCount() { return getDueWords(Infinity).length; }
 
 // ---------- שמירת מיקום ניווט (כדי לשרוד רענון דף) ----------
 function saveNav(s) {
@@ -340,7 +390,8 @@ document.getElementById("homeBtn").addEventListener("click", () => { if (current
 window.addEventListener("popstate", (e) => {
   state = e.state || (currentUid ? { screen: "home" } : { screen: "auth", authMode: "login" });
   if (state.screen === "exercise" && currentUid) {
-    if (state.isReview) buildReviewExercise();
+    if (state.isSmartReview) buildSmartReviewExercise();
+    else if (state.isReview) buildReviewExercise();
     else buildExercise(state.levelId, state.topicId, state.type);
   }
   if (currentUid) saveNav(state);
@@ -413,6 +464,12 @@ function gotoReview() {
   buildReviewExercise();
   render();
 }
+function gotoSmartReview() {
+  state = { screen: "exercise", type: "quiz", isReview: true, isSmartReview: true };
+  pushHistory();
+  buildSmartReviewExercise();
+  render();
+}
 function gotoStats() { state = { screen: "stats" }; pushHistory(); render(); }
 
 // בונה שאלת חידון בודדת (כיוון אקראי + מסיחים) עבור מילה אחת. משמש גם לחידון רגיל וגם לתרגול חזרה,
@@ -469,6 +526,16 @@ function buildReviewExercise() {
     return buildQuizQuestion(w.vocab, w.levelId, w.topicId, w.vocabIndex, allVocabInLevel);
   }));
   ex = { type: "quiz", index: 0, score: 0, questions, answered: false, selected: null, finished: false, isReview: true };
+}
+// תרגיל חזרה חכם (Spaced Repetition): אותה צורת נתונים בדיוק כמו buildReviewExercise למעלה,
+// רק שהמילים נבחרות לפי getDueWords (קופסה+מועד חזרה) במקום getStruggleWords (מונה מצטבר).
+function buildSmartReviewExercise() {
+  const words = getDueWords(REVIEW_SESSION_SIZE);
+  const questions = shuffle(words.map(w => {
+    const allVocabInLevel = LEVELS[w.levelId].topics.flatMap(t => t.vocab);
+    return buildQuizQuestion(w.vocab, w.levelId, w.topicId, w.vocabIndex, allVocabInLevel);
+  }));
+  ex = { type: "quiz", index: 0, score: 0, questions, answered: false, selected: null, finished: false, isReview: true, isSmartReview: true };
 }
 
 // לאחר שהמשתמש עבר על כל הפריטים בשלב הלמידה (כרטיסיות, או שלב "study" המשותף של
@@ -713,6 +780,7 @@ function renderHome() {
   const learned = totalLearnedCount();
   const total = totalWordCount();
   const reviewCount = struggleWordCount();
+  const dueCount = dueWordCount();
   app.innerHTML = `
     <div class="hero">
       <h1>Zarfati App 🇪🇸 לימוד ספרדית</h1>
@@ -721,9 +789,9 @@ function renderHome() {
     </div>
     <div class="stats-strip">
       <div class="stat-box"><div class="num">${learned}/${total}</div><div class="lbl">מילים נלמדו</div></div>
-      <div class="stat-box"><div class="num">${getLevelCompletion("beginner")}%</div><div class="lbl">מתחיל</div></div>
-      <div class="stat-box"><div class="num">${getLevelCompletion("intermediate")}%</div><div class="lbl">מתקדם</div></div>
-      <div class="stat-box"><div class="num">${getLevelCompletion("advanced")}%</div><div class="lbl">מקצועי</div></div>
+      <div class="stat-box"><div class="num">${getLevelCompletion("beginner")}%</div><div class="lbl">${LEVELS.beginner.name}</div></div>
+      <div class="stat-box"><div class="num">${getLevelCompletion("intermediate")}%</div><div class="lbl">${LEVELS.intermediate.name}</div></div>
+      <div class="stat-box"><div class="num">${getLevelCompletion("advanced")}%</div><div class="lbl">${LEVELS.advanced.name}</div></div>
     </div>
     <div class="level-grid">
       ${DIFFICULTY_LEVEL_IDS.map(id => LEVELS[id]).map(level => {
@@ -753,6 +821,12 @@ function renderHome() {
       ${reviewCount === 0 ? `<div class="section-sub" style="margin-top:8px;">${t("reviewEmptyHint")}</div>` : ""}
     </div>
     <div style="text-align:center; margin-top:16px;">
+      <button class="ctrl-btn" data-action="goto-smart-review" ${dueCount === 0 ? "disabled" : ""}>
+        <span aria-hidden="true">🎯</span> תרגל מילים קשות${dueCount > 0 ? ` (${dueCount})` : ""}
+      </button>
+      ${dueCount === 0 ? `<div class="section-sub" style="margin-top:8px;">${t("smartReviewEmptyHint")}</div>` : ""}
+    </div>
+    <div style="text-align:center; margin-top:16px;">
       <a class="ctrl-btn secondary" href="${feedbackWhatsappUrl()}" target="_blank" rel="noopener noreferrer">
         <span aria-hidden="true">💬</span> שלח משוב
       </a>
@@ -765,7 +839,7 @@ function renderHome() {
   bindDelegatedEvents();
 }
 function feedbackWhatsappUrl() {
-  const msg = "היי! יש לי משוב על אפליקציית Zarfati App ללימוד ספרדית: ";
+  const msg = "היי, אני רוצה לתת משוב על Zarfati App";
   return `https://api.whatsapp.com/send?phone=972559651785&text=${encodeURIComponent(msg)}`;
 }
 
@@ -793,6 +867,18 @@ function renderLevelProgressRow(level) {
       <div style="font-weight:700;color:${level.color}">${pct}%</div>
     </div>`;
 }
+// שורת "ציון ממוצע" עבור סוג תרגיל נתון על פני כל הנושאים (משמש במסך הסטטיסטיקות)
+function renderExerciseTypeRow(type) {
+  const avg = avgScoreForType(type.id);
+  return `
+    <div class="topic-row">
+      <div class="tr-info">
+        <div class="tr-name">${type.icon} ${type.name}</div>
+        <div class="progress-bar"><div class="progress-bar-fill" style="width:${avg}%; background:var(--accent)"></div></div>
+      </div>
+      <div style="font-weight:700;color:var(--accent-dark)">${avg}%</div>
+    </div>`;
+}
 
 function renderStats() {
   breadcrumb.textContent = "סטטיסטיקות והתקדמות";
@@ -800,6 +886,7 @@ function renderStats() {
   const total = totalWordCount();
   const overallPct = overallCompletion();
   const reviewCount = struggleWordCount();
+  const topicsCompleted = completedTopicsCount();
 
   const attempted = getAllTopicsWithCompletion().filter(t => t.completion > 0);
   let topicsSection;
@@ -833,6 +920,7 @@ function renderStats() {
     <div class="section-sub">סיכום ההתקדמות שלך בלימוד הספרדית</div>
     <div class="stats-strip">
       <div class="stat-box"><div class="num">${learned}/${total}</div><div class="lbl">מילים נלמדו</div></div>
+      <div class="stat-box"><div class="num">${topicsCompleted.count}/${topicsCompleted.total}</div><div class="lbl">נושאים הושלמו</div></div>
       <div class="stat-box"><div class="num">${overallPct}%</div><div class="lbl">התקדמות כוללת</div></div>
       <div class="stat-box"><div class="num">${reviewCount}</div><div class="lbl">מילים קשות</div></div>
     </div>
@@ -843,6 +931,10 @@ function renderStats() {
     <div class="section-title" style="margin-top:28px;">${LEVELS.grammar.name}</div>
     <div class="topic-list">
       ${renderLevelProgressRow(LEVELS.grammar)}
+    </div>
+    <div class="section-title" style="margin-top:28px;">ציונים ממוצעים לפי סוג תרגיל</div>
+    <div class="topic-list">
+      ${DISPLAY_EXERCISE_TYPES.map(renderExerciseTypeRow).join("")}
     </div>
     <div style="margin-top:28px;">
       ${topicsSection}
@@ -902,7 +994,7 @@ function renderTopic() {
 
 function renderExercise() {
   if (state.isReview) {
-    breadcrumb.textContent = "תרגול מילים קשות";
+    breadcrumb.textContent = state.isSmartReview ? "תרגול חכם - מילים לחזרה" : "תרגול מילים קשות";
     app.innerHTML = `
       <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
       <div class="runner">${renderQuiz()}</div>
@@ -947,8 +1039,11 @@ function renderFlashcards() {
       </div>
       <div class="fc-back">
         <div class="fc-translation">${item.he}</div>
-        <div class="fc-example" lang="es">${item.ex_es}</div>
-        <div class="fc-example-he">${item.ex_he}</div>
+        ${item.ex_es ? `
+          <div class="fc-example" lang="es">${item.ex_es}</div>
+          <div class="fc-example-he">${item.ex_he}</div>
+          <button class="speak-btn" data-action="fc-example-speak" aria-label="השמע את המשפט המלא">🔊</button>
+        ` : ""}
       </div>
     </div>
     <div class="runner-controls">
@@ -979,7 +1074,7 @@ function renderChoiceOptions(q, action, optionsAreHebrew) {
 // ---------- חידון ----------
 function renderQuiz() {
   if (ex.index >= ex.questions.length) {
-    const label = ex.isReview ? "סיכום תרגול המילים הקשות" : "סיכום החידון";
+    const label = ex.isSmartReview ? "סיכום התרגול החכם" : ex.isReview ? "סיכום תרגול המילים הקשות" : "סיכום החידון";
     return renderSummary({ correct: ex.score, total: ex.questions.length, label });
   }
   const q = ex.questions[ex.index];
@@ -1014,6 +1109,13 @@ function renderStudyStage() {
       <div class="fc-word" lang="es" style="margin-top:14px;">${item.es}</div>
       <div class="fc-translation">${item.he}</div>
     </div>
+    ${item.ex_es ? `
+      <div style="text-align:center; margin-top:14px;">
+        <div class="fc-example" lang="es">${item.ex_es}</div>
+        <div class="fc-example-he">${item.ex_he}</div>
+        <button class="speak-btn" data-action="study-example-play" aria-label="השמע את המשפט המלא" style="margin-top:8px;">🔊</button>
+      </div>
+    ` : ""}
     <div class="runner-controls">
       <button class="ctrl-btn secondary" data-action="study-prev" ${ex.index === 0 ? "disabled" : ""}>הקודם</button>
       <button class="ctrl-btn" data-action="study-next">${ex.index === ex.items.length - 1 ? "לבוחן" : "הבא"}</button>
@@ -1294,6 +1396,7 @@ function handleAction(el) {
       history.back();
       break;
     case "goto-review": gotoReview(); break;
+    case "goto-smart-review": gotoSmartReview(); break;
     case "goto-stats": gotoStats(); break;
     case "goto-about": gotoAbout(); break;
     case "pick-gender": state.genderChoice = el.dataset.gender; state.authError = ""; render(); break;
@@ -1303,7 +1406,8 @@ function handleAction(el) {
       break;
     }
     case "retry-exercise": {
-      if (state.isReview) buildReviewExercise();
+      if (state.isSmartReview) buildSmartReviewExercise();
+      else if (state.isReview) buildReviewExercise();
       else buildExercise(state.levelId, state.topicId, state.type);
       render();
       break;
@@ -1312,6 +1416,7 @@ function handleAction(el) {
     // Flashcards
     case "flip-card": ex.flipped = !ex.flipped; render(); break;
     case "fc-speak": speak(ex.items[ex.index].es); break;
+    case "fc-example-speak": speak(ex.items[ex.index].ex_es); break;
     case "fc-prev": ex.index = Math.max(0, ex.index - 1); ex.flipped = false; render(); break;
     case "fc-next": handleFcNext(); break;
 
@@ -1324,6 +1429,7 @@ function handleAction(el) {
 
     // שלב הלמידה המשותף (Quiz / Listening / Sentences), לפני הבוחן
     case "study-play": speak(ex.items[ex.index].es); break;
+    case "study-example-play": speak(ex.items[ex.index].ex_es); break;
     case "study-prev": handleStudyPrev(); break;
     case "study-next": handleStudyNext(); break;
 
