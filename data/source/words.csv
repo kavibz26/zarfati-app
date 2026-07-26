@@ -1,0 +1,477 @@
+id,es,he,ex_es,ex_he,levelId,topicId,topicName
+w000001,Hola,שלום,"Hola, ¿cómo estás?","שלום, מה שלומך?",beginner,greetings,ברכות והיכרות
+w000002,Buenos días,בוקר טוב,"Buenos días, profesor.","בוקר טוב, מורה.",beginner,greetings,ברכות והיכרות
+w000003,Buenas tardes,צהריים טובים,Buenas tardes a todos.,צהריים טובים לכולם.,beginner,greetings,ברכות והיכרות
+w000004,Buenas noches,לילה טוב,"Buenas noches, hasta mañana.","לילה טוב, עד מחר.",beginner,greetings,ברכות והיכרות
+w000005,Adiós,להתראות,"Adiós, nos vemos pronto.","להתראות, נתראה בקרוב.",beginner,greetings,ברכות והיכרות
+w000006,Por favor,בבקשה,"Ayúdame, por favor.","עזור לי, בבקשה.",beginner,greetings,ברכות והיכרות
+w000007,Gracias,תודה,Muchas gracias por todo.,תודה רבה על הכל.,beginner,greetings,ברכות והיכרות
+w000008,De nada,על לא דבר,"De nada, fue un placer.","על לא דבר, זה היה תענוג.",beginner,greetings,ברכות והיכרות
+w000009,¿Cómo te llamas?,איך קוראים לך?,"¿Cómo te llamas, chico?","איך קוראים לך, ילד?",beginner,greetings,ברכות והיכרות
+w000010,Me llamo...,קוראים לי...,Me llamo Ana.,קוראים לי אנה.,beginner,greetings,ברכות והיכרות
+w000011,Mucho gusto,נעים מאוד,Mucho gusto en conocerte.,נעים מאוד להכיר אותך.,beginner,greetings,ברכות והיכרות
+w000012,¿Y tú?,ואתה/ואת?,"Estoy bien, ¿y tú?","אני בסדר, ואתה?",beginner,greetings,ברכות והיכרות
+w000013,¿Qué tal?,מה נשמע?,"¿Qué tal, amigo?","מה נשמע, חבר?",beginner,greetings,ברכות והיכרות
+w000014,Hasta luego,להתראות (בקרוב),"Hasta luego, nos vemos mañana.","להתראות, נתראה מחר.",beginner,greetings,ברכות והיכרות
+w000015,Bienvenido / Bienvenida,ברוך הבא / ברוכה הבאה,Bienvenido a mi casa.,ברוך הבא לביתי.,beginner,greetings,ברכות והיכרות
+w000016,Perdón / Disculpe,סליחה,"Perdón, ¿dónde está el baño?","סליחה, איפה השירותים?",beginner,greetings,ברכות והיכרות
+w000017,Hasta mañana,להתראות מחר,"Hasta mañana, que descanses.","להתראות מחר, שתנוח טוב.",beginner,greetings,ברכות והיכרות
+w000018,Cero,אפס,Empezamos desde cero.,אנחנו מתחילים מאפס.,beginner,numbers,מספרים ושעה
+w000019,Uno,אחת,Tengo un hermano.,יש לי אח אחד.,beginner,numbers,מספרים ושעה
+w000020,Dos,שתיים,"Dos cafés, por favor.","שני קפה, בבקשה.",beginner,numbers,מספרים ושעה
+w000021,Cinco,חמש,Son las cinco.,השעה חמש.,beginner,numbers,מספרים ושעה
+w000022,Diez,עשר,Tengo diez años.,אני בן עשר.,beginner,numbers,מספרים ושעה
+w000023,Veinte,עשרים,Veinte estudiantes.,עשרים תלמידים.,beginner,numbers,מספרים ושעה
+w000024,Treinta,שלושים,Treinta minutos.,שלושים דקות.,beginner,numbers,מספרים ושעה
+w000025,Cien,מאה,Cuesta cien euros.,זה עולה מאה יורו.,beginner,numbers,מספרים ושעה
+w000026,¿Qué hora es?,מה השעה?,¿Qué hora es ahora?,מה השעה עכשיו?,beginner,numbers,מספרים ושעה
+w000027,La hora,השעה,Llegó a la hora.,הוא הגיע בזמן.,beginner,numbers,מספרים ושעה
+w000028,El minuto,הדקה,Espera un minuto.,חכה דקה.,beginner,numbers,מספרים ושעה
+w000029,Media hora,חצי שעה,Falta media hora.,נשארה חצי שעה.,beginner,numbers,מספרים ושעה
+w000030,Seis,שש,Tengo seis libros.,יש לי שישה ספרים.,beginner,numbers,מספרים ושעה
+w000031,Siete,שבע,Son las siete y media.,השעה שבע וחצי.,beginner,numbers,מספרים ושעה
+w000032,Ocho,שמונה,Hay ocho personas aquí.,יש כאן שמונה אנשים.,beginner,numbers,מספרים ושעה
+w000033,Cuarenta,ארבעים,Mi madre tiene cuarenta años.,אמא שלי בת ארבעים.,beginner,numbers,מספרים ושעה
+w000034,Un cuarto de hora,רבע שעה,Llego en un cuarto de hora.,אני מגיע בעוד רבע שעה.,beginner,numbers,מספרים ושעה
+w000035,Rojo,אדום,El coche es rojo.,המכונית אדומה.,beginner,colors,צבעים וצורות
+w000036,Azul,כחול,El cielo es azul.,השמיים כחולים.,beginner,colors,צבעים וצורות
+w000037,Verde,ירוק,La planta es verde.,הצמח ירוק.,beginner,colors,צבעים וצורות
+w000038,Amarillo,צהוב,El sol es amarillo.,השמש צהובה.,beginner,colors,צבעים וצורות
+w000039,Negro,שחור,El gato es negro.,החתול שחור.,beginner,colors,צבעים וצורות
+w000040,Blanco,לבן,La nieve es blanca.,השלג לבן.,beginner,colors,צבעים וצורות
+w000041,Naranja,כתום,La naranja es naranja.,התפוז הוא כתום.,beginner,colors,צבעים וצורות
+w000042,Círculo,עיגול,Dibuja un círculo.,צייר עיגול.,beginner,colors,צבעים וצורות
+w000043,Cuadrado,ריבוע,La caja es cuadrada.,הקופסה מרובעת.,beginner,colors,צבעים וצורות
+w000044,Triángulo,משולש,El triángulo tiene tres lados.,למשולש יש שלוש צלעות.,beginner,colors,צבעים וצורות
+w000045,Rosa,ורוד,La camisa rosa es bonita.,החולצה הוורודה יפה.,beginner,colors,צבעים וצורות
+w000046,Gris,אפור,El cielo está gris hoy.,השמיים אפורים היום.,beginner,colors,צבעים וצורות
+w000047,Marrón,חום,Tengo botas marrones.,יש לי מגפיים חומים.,beginner,colors,צבעים וצורות
+w000048,Claro / Clara,בהיר / בהירה (גוון),Prefiero el azul claro.,אני מעדיף כחול בהיר.,beginner,colors,צבעים וצורות
+w000049,Oscuro / Oscura,כהה (גוון),Su pelo es negro oscuro.,השיער שלה שחור כהה.,beginner,colors,צבעים וצורות
+w000050,La familia,המשפחה,Mi familia es grande.,המשפחה שלי גדולה.,beginner,family,משפחה
+w000051,La madre,האמא,Mi madre cocina bien.,אמא שלי מבשלת טוב.,beginner,family,משפחה
+w000052,El padre,האבא,Mi padre trabaja mucho.,אבא שלי עובד הרבה.,beginner,family,משפחה
+w000053,El hermano,האח,Tengo un hermano mayor.,יש לי אח גדול.,beginner,family,משפחה
+w000054,La hermana,האחות,Mi hermana estudia medicina.,אחותי לומדת רפואה.,beginner,family,משפחה
+w000055,El hijo,הבן,Su hijo es pequeño.,הבן שלו קטן.,beginner,family,משפחה
+w000056,La hija,הבת,Su hija canta muy bien.,הבת שלה שרה מאוד יפה.,beginner,family,משפחה
+w000057,El abuelo,הסבא,Mi abuelo tiene ochenta años.,סבא שלי בן שמונים.,beginner,family,משפחה
+w000058,La abuela,הסבתא,Mi abuela vive en Madrid.,סבתא שלי גרה במדריד.,beginner,family,משפחה
+w000059,El esposo / La esposa,הבעל / האישה,Mi esposa es doctora.,אשתי היא רופאה.,beginner,family,משפחה
+w000060,El primo / La prima,בן דוד / בת דודה,Mi primo vive en Chile.,בן דודי גר בצ'ילה.,beginner,family,משפחה
+w000061,El tío / La tía,הדוד / הדודה,Mi tía es muy simpática.,הדודה שלי מאוד נחמדה.,beginner,family,משפחה
+w000062,El sobrino / La sobrina,האחיין / האחיינית,Tengo dos sobrinas.,יש לי שתי אחייניות.,beginner,family,משפחה
+w000063,Los padres,ההורים,Mis padres se conocieron en la universidad.,ההורים שלי הכירו באוניברסיטה.,beginner,family,משפחה
+w000064,El bebé,התינוק,El bebé duerme mucho.,התינוק ישן הרבה.,beginner,family,משפחה
+w000065,El agua,מים,Bebo mucha agua.,אני שותה הרבה מים.,beginner,food,אוכל ומשקאות
+w000066,El pan,לחם,Me gusta el pan caliente.,אני אוהב לחם חם.,beginner,food,אוכל ומשקאות
+w000067,La leche,חלב,Bebo leche por la mañana.,אני שותה חלב בבוקר.,beginner,food,אוכל ומשקאות
+w000068,El café,קפה,"Quiero un café, por favor.","אני רוצה קפה, בבקשה.",beginner,food,אוכל ומשקאות
+w000069,La fruta,פרי,Como fruta todos los días.,אני אוכל פרי כל יום.,beginner,food,אוכל ומשקאות
+w000070,La manzana,תפוח,La manzana es roja.,התפוח אדום.,beginner,food,אוכל ומשקאות
+w000071,El arroz,אורז,El arroz con pollo es rico.,האורז עם עוף טעים.,beginner,food,אוכל ומשקאות
+w000072,La carne,בשר,No como carne.,אני לא אוכל בשר.,beginner,food,אוכל ומשקאות
+w000073,La verdura,ירק,Las verduras son saludables.,הירקות בריאים.,beginner,food,אוכל ומשקאות
+w000074,El restaurante,מסעדה,Cenamos en un restaurante.,אכלנו ארוחת ערב במסעדה.,beginner,food,אוכל ומשקאות
+w000075,Tengo hambre,אני רעב,"Tengo hambre, ¿comemos?","אני רעב, נאכל?",beginner,food,אוכל ומשקאות
+w000076,Tengo sed,אני צמא,"Tengo sed, quiero agua.","אני צמא, אני רוצה מים.",beginner,food,אוכל ומשקאות
+w000077,El huevo,ביצה,Como un huevo por la mañana.,אני אוכל ביצה בבוקר.,beginner,food,אוכל ומשקאות
+w000078,El pescado,דג,El pescado con limón es delicioso.,הדג עם לימון טעים.,beginner,food,אוכל ומשקאות
+w000079,El postre,קינוח,¿Quieres postre?,אתה רוצה קינוח?,beginner,food,אוכל ומשקאות
+w000080,Delicioso / Deliciosa,טעים / טעימה,Esta sopa está deliciosa.,המרק הזה טעים.,beginner,food,אוכל ומשקאות
+w000081,La cuenta,החשבון (במסעדה),"La cuenta, por favor.","החשבון, בבקשה.",beginner,food,אוכל ומשקאות
+w000082,Yo soy,אני (תכונה קבועה),Yo soy alto.,אני גבוה.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000083,Tú eres,אתה/את (תכונה קבועה),Tú eres inteligente.,אתה חכם.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000084,Él/Ella es,הוא/היא (תכונה קבועה),Ella es doctora.,היא רופאה.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000085,Yo estoy,אני (מצב זמני),Yo estoy cansado.,אני עייף.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000086,Tú estás,אתה/את (מצב זמני),Tú estás feliz.,אתה שמח.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000087,Él/Ella está,הוא/היא (מצב זמני),Ella está en casa.,היא בבית.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000088,Yo tengo,יש לי,Yo tengo un perro.,יש לי כלב.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000089,Tú tienes,יש לך,Tú tienes razón.,אתה צודק.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000090,Él/Ella tiene,יש לו/לה,Ella tiene veinte años.,היא בת עשרים.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000091,Nosotros somos,אנחנו (תכונה קבועה),Nosotros somos amigos.,אנחנו חברים.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000092,Ellos son,הם (תכונה קבועה),Ellos son hermanos.,הם אחים.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000093,Nosotros estamos,אנחנו (מצב זמני),Nosotros estamos listos.,אנחנו מוכנים.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000094,Ellos tienen,יש להם,Ellos tienen mucho trabajo.,יש להם הרבה עבודה.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000095,Hay,יש (ישנם),Hay un problema.,יש בעיה.,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000096,¿Cuántos años tienes?,בן/בת כמה אתה/את?,¿Cuántos años tienes?,בן כמה אתה?,beginner,basic_verbs,"פעלים בסיסיים: Ser, Estar, Tener"
+w000097,El aeropuerto,שדה התעופה,Llegamos al aeropuerto temprano.,הגענו לשדה התעופה מוקדם.,beginner,travel,נסיעות
+w000098,El pasaporte,הדרכון,No olvides tu pasaporte.,אל תשכח את הדרכון שלך.,beginner,travel,נסיעות
+w000099,El billete / El boleto,הכרטיס,Compré el billete de avión.,קניתי את כרטיס הטיסה.,beginner,travel,נסיעות
+w000100,La maleta,המזוודה,Mi maleta es muy pesada.,המזוודה שלי מאוד כבדה.,beginner,travel,נסיעות
+w000101,El hotel,המלון,Reservé una habitación en el hotel.,הזמנתי חדר במלון.,beginner,travel,נסיעות
+w000102,La habitación,החדר,La habitación tiene vista al mar.,לחדר יש נוף לים.,beginner,travel,נסיעות
+w000103,El taxi,המונית,Tomamos un taxi al hotel.,לקחנו מונית למלון.,beginner,travel,נסיעות
+w000104,El vuelo,הטיסה,Nuestro vuelo sale a las nueve.,הטיסה שלנו יוצאת בתשע.,beginner,travel,נסיעות
+w000105,La playa,חוף הים,Vamos a la playa mañana.,אנחנו הולכים לחוף הים מחר.,beginner,travel,נסיעות
+w000106,El mapa,המפה,Necesito un mapa de la ciudad.,אני צריך מפה של העיר.,beginner,travel,נסיעות
+w000107,¿Dónde está...?,איפה נמצא...?,¿Dónde está el hotel?,איפה נמצא המלון?,beginner,travel,נסיעות
+w000108,De vacaciones,בחופשה,Estamos de vacaciones en México.,אנחנו בחופשה במקסיקו.,beginner,travel,נסיעות
+w000109,La casa,הבית,Vivo en una casa grande.,אני גר בבית גדול.,beginner,home,בית
+w000110,El apartamento,הדירה,Mi apartamento está en el tercer piso.,הדירה שלי בקומה השלישית.,beginner,home,בית
+w000111,La habitación / El cuarto,החדר,Mi habitación es pequeña pero cómoda.,החדר שלי קטן אבל נוח.,beginner,home,בית
+w000112,La cocina,המטבח,Cocino todos los días en la cocina.,אני מבשל כל יום במטבח.,beginner,home,בית
+w000113,El baño,חדר האמבטיה,¿Dónde está el baño?,איפה חדר האמבטיה?,beginner,home,בית
+w000114,El dormitorio,חדר השינה,Mi dormitorio tiene una cama grande.,בחדר השינה שלי יש מיטה גדולה.,beginner,home,בית
+w000115,La sala / El salón,הסלון,Vemos la televisión en la sala.,אנחנו צופים בטלוויזיה בסלון.,beginner,home,בית
+w000116,La puerta,הדלת,"Cierra la puerta, por favor.","תסגור את הדלת, בבקשה.",beginner,home,בית
+w000117,La ventana,החלון,"Abre la ventana, hace calor.","תפתח את החלון, חם.",beginner,home,בית
+w000118,La mesa,השולחן,La comida está en la mesa.,האוכל על השולחן.,beginner,home,בית
+w000119,La silla,הכיסא,Siéntate en esta silla.,שב על הכיסא הזה.,beginner,home,בית
+w000120,La cama,המיטה,Voy a dormir en mi cama.,אני הולך לישון במיטה שלי.,beginner,home,בית
+w000121,La llave,המפתח,No encuentro la llave de la casa.,אני לא מוצא את המפתח של הבית.,beginner,home,בית
+w000122,El jardín,הגינה,Los niños juegan en el jardín.,הילדים משחקים בגינה.,beginner,home,בית
+w000123,La pared,הקיר,Hay un cuadro en la pared.,יש תמונה על הקיר.,beginner,home,בית
+w000124,El piso / El suelo,הרצפה,El piso está muy limpio.,הרצפה מאוד נקייה.,beginner,home,בית
+w000125,El techo,התקרה / הגג,El techo de la casa es rojo.,הגג של הבית אדום.,beginner,home,בית
+w000126,Vivir en...,לגור ב...,¿Dónde vives?,איפה אתה גר?,beginner,home,בית
+w000127,Lunes,יום שני,El lunes empiezo a trabajar.,ביום שני אני מתחיל לעבוד.,beginner,days_time,ימים ושעות
+w000128,Martes,יום שלישי,Tengo clase de español los martes.,יש לי שיעור ספרדית בימי שלישי.,beginner,days_time,ימים ושעות
+w000129,Miércoles,יום רביעי,Nos vemos el miércoles.,נתראה ביום רביעי.,beginner,days_time,ימים ושעות
+w000130,Jueves,יום חמישי,El jueves es mi día libre.,יום חמישי הוא היום החופשי שלי.,beginner,days_time,ימים ושעות
+w000131,Viernes,יום שישי,Los viernes salimos con amigos.,בימי שישי אנחנו יוצאים עם חברים.,beginner,days_time,ימים ושעות
+w000132,Sábado,שבת,El sábado no trabajamos.,בשבת אנחנו לא עובדים.,beginner,days_time,ימים ושעות
+w000133,Domingo,יום ראשון,El domingo vamos a la playa.,ביום ראשון אנחנו הולכים לחוף הים.,beginner,days_time,ימים ושעות
+w000134,Hoy,היום,Hoy es un buen día.,היום זה יום טוב.,beginner,days_time,ימים ושעות
+w000135,Mañana,מחר,Mañana tengo un examen.,מחר יש לי מבחן.,beginner,days_time,ימים ושעות
+w000136,Ayer,אתמול,Ayer llovió mucho.,אתמול ירד גשם חזק.,beginner,days_time,ימים ושעות
+w000137,La semana,השבוע,Esta semana estoy muy ocupado.,השבוע אני מאוד עסוק.,beginner,days_time,ימים ושעות
+w000138,El mes,החודש,El próximo mes viajo a España.,בחודש הבא אני נוסע לספרד.,beginner,days_time,ימים ושעות
+w000139,El año,השנה,Este año voy a aprender español.,השנה אני הולך ללמוד ספרדית.,beginner,days_time,ימים ושעות
+w000140,La mañana,הבוקר,Me levanto temprano por la mañana.,אני קם מוקדם בבוקר.,beginner,days_time,ימים ושעות
+w000141,La tarde,אחר הצהריים,Nos vemos por la tarde.,נתראה אחר הצהריים.,beginner,days_time,ימים ושעות
+w000142,La noche,הלילה,Trabajo por la noche.,אני עובד בלילה.,beginner,days_time,ימים ושעות
+w000143,¿Qué día es hoy?,איזה יום היום?,"¿Qué día es hoy, lunes o martes?","איזה יום היום, שני או שלישי?",beginner,days_time,ימים ושעות
+w000144,Todos los días,כל יום,Estudio español todos los días.,אני לומד ספרדית כל יום.,beginner,days_time,ימים ושעות
+w000145,Hablar (yo hablo),לדבר (אני מדבר),Yo hablo español.,אני מדבר ספרדית.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000146,Comer (yo como),לאכול (אני אוכל),Yo como a las dos.,אני אוכל בשתיים.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000147,Vivir (yo vivo),לגור (אני גר),Yo vivo en Madrid.,אני גר במדריד.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000148,Trabajar (tú trabajas),לעבוד (אתה עובד),Tú trabajas mucho.,אתה עובד הרבה.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000149,Estudiar (ella estudia),ללמוד (היא לומדת),Ella estudia inglés.,היא לומדת אנגלית.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000150,Leer (nosotros leemos),לקרוא (אנחנו קוראים),Nosotros leemos un libro.,אנחנו קוראים ספר.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000151,Escribir (ellos escriben),לכתוב (הם כותבים),Ellos escriben cartas.,הם כותבים מכתבים.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000152,Abrir (yo abro),לפתוח (אני פותח),Yo abro la puerta.,אני פותח את הדלת.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000153,Beber (tú bebes),לשתות (אתה שותה),Tú bebes agua.,אתה שותה מים.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000154,Correr (él corre),לרוץ (הוא רץ),Él corre por la mañana.,הוא רץ בבוקר.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000155,Entender (yo entiendo),להבין (אני מבין),Yo entiendo un poco de español.,אני מבין קצת ספרדית.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000156,Poder (yo puedo),להיות מסוגל (אני יכול),Yo puedo ayudarte.,אני יכול לעזור לך.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000157,Querer (tú quieres),לרצות (אתה רוצה),¿Qué quieres comer?,מה אתה רוצה לאכול?,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000158,Salir (yo salgo),לצאת (אני יוצא),Yo salgo de casa a las ocho.,אני יוצא מהבית בשמונה.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000159,Empezar (nosotros empezamos),להתחיל (אנחנו מתחילים),Nosotros empezamos la clase a las nueve.,אנחנו מתחילים את השיעור בתשע.,intermediate,present_regular,פעלים רגילים בהווה (AR/ER/IR)
+w000160,Yo hablé,אני דיברתי,Ayer yo hablé con ella.,אתמול דיברתי איתה.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000161,Tú comiste,אתה אכלת,Tú comiste pizza anoche.,אכלת פיצה אתמול בלילה.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000162,Él vivió,הוא גר (בעבר),Él vivió en Francia.,הוא גר בצרפת.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000163,Nosotros fuimos,אנחנו היינו/הלכנו,Nosotros fuimos al cine.,הלכנו לקולנוע.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000164,Ellos hicieron,הם עשו,Ellos hicieron la tarea.,הם עשו את שיעורי הבית.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000165,Yo tuve,היה לי,Yo tuve un examen difícil.,היה לי מבחן קשה.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000166,Ella dijo,היא אמרה,Ella dijo la verdad.,היא אמרה את האמת.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000167,Nosotros vimos,ראינו,Nosotros vimos una película.,ראינו סרט.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000168,Ayer,אתמול,Ayer llovió mucho.,אתמול ירד הרבה גשם.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000169,La semana pasada,השבוע שעבר,La semana pasada viajé a Roma.,השבוע שעבר טסתי לרומא.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000170,Yo fui,הייתי / הלכתי,Yo fui al mercado ayer.,הלכתי לשוק אתמול.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000171,Ella pudo,היא הצליחה/יכלה,Ella pudo terminar el proyecto.,היא הצליחה לסיים את הפרויקט.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000172,Nosotros llegamos,הגענו,Nosotros llegamos tarde a la fiesta.,הגענו מאוחר למסיבה.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000173,Ellos vinieron,הם באו,Ellos vinieron de visita el sábado.,הם באו לביקור בשבת.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000174,Anoche,אמש,Anoche cenamos en un restaurante nuevo.,אמש אכלנו ארוחת ערב במסעדה חדשה.,intermediate,preterito,עבר פשוט - Pretérito Indefinido
+w000175,Alto / Alta,גבוה / גבוהה,Mi hermano es muy alto.,אחי גבוה מאוד.,intermediate,adjectives,תארים ותיאור אנשים
+w000176,Bajo / Baja,נמוך / נמוכה,La mesa es baja.,השולחן נמוך.,intermediate,adjectives,תארים ותיאור אנשים
+w000177,Simpático / Simpática,נחמד / נחמדה,Ella es muy simpática.,היא מאוד נחמדה.,intermediate,adjectives,תארים ותיאור אנשים
+w000178,Inteligente,חכם/ה,Es un chico inteligente.,הוא ילד חכם.,intermediate,adjectives,תארים ותיאור אנשים
+w000179,Divertido / Divertida,מצחיק / מצחיקה,La película fue divertida.,הסרט היה מצחיק.,intermediate,adjectives,תארים ותיאור אנשים
+w000180,Aburrido / Aburrida,משעמם / משעממת,El libro es aburrido.,הספר משעמם.,intermediate,adjectives,תארים ותיאור אנשים
+w000181,Trabajador / Trabajadora,חרוץ / חרוצה,Es una mujer trabajadora.,היא אישה חרוצה.,intermediate,adjectives,תארים ותיאור אנשים
+w000182,Perezoso / Perezosa,עצלן / עצלנית,El gato es muy perezoso.,החתול מאוד עצלן.,intermediate,adjectives,תארים ותיאור אנשים
+w000183,Amable,אדיב/ה,El profesor es amable.,המורה אדיב.,intermediate,adjectives,תארים ותיאור אנשים
+w000184,Generoso / Generosa,נדיב / נדיבה,Su tío es muy generoso.,הדוד שלו מאוד נדיב.,intermediate,adjectives,תארים ותיאור אנשים
+w000185,Cariñoso / Cariñosa,חם / חמה (במזג),Mi abuela es muy cariñosa.,סבתא שלי מאוד חמה.,intermediate,adjectives,תארים ותיאור אנשים
+w000186,Tímido / Tímida,ביישן / ביישנית,El niño es tímido con extraños.,הילד ביישן מול זרים.,intermediate,adjectives,תארים ותיאור אנשים
+w000187,Curioso / Curiosa,סקרן / סקרנית,Los gatos son muy curiosos.,חתולים מאוד סקרנים.,intermediate,adjectives,תארים ותיאור אנשים
+w000188,Paciente,סבלני/ת,El profesor es muy paciente.,המורה מאוד סבלני.,intermediate,adjectives,תארים ותיאור אנשים
+w000189,Honesto / Honesta,"כן / כנה, ישר / ישרה",Necesitamos un empleado honesto.,אנחנו צריכים עובד ישר.,intermediate,adjectives,תארים ותיאור אנשים
+w000190,Levantarse,לקום (מהמיטה),Me levanto a las siete.,אני קם בשבע.,intermediate,home_routine,הבית והיומיום
+w000191,Ducharse,להתקלח,Me ducho por la mañana.,אני מתקלח בבוקר.,intermediate,home_routine,הבית והיומיום
+w000192,Desayunar,לאכול ארוחת בוקר,Desayuno café y pan.,אני אוכל ארוחת בוקר קפה ולחם.,intermediate,home_routine,הבית והיומיום
+w000193,La cocina,המטבח,Cocino en la cocina.,אני מבשל במטבח.,intermediate,home_routine,הבית והיומיום
+w000194,El dormitorio,חדר השינה,Mi dormitorio es pequeño.,חדר השינה שלי קטן.,intermediate,home_routine,הבית והיומיום
+w000195,Limpiar,לנקות,Limpio la casa los sábados.,אני מנקה את הבית בימי שבת.,intermediate,home_routine,הבית והיומיום
+w000196,Acostarse,ללכת לישון,Me acuesto a las once.,אני הולך לישון באחת עשרה.,intermediate,home_routine,הבית והיומיום
+w000197,El horario,לוח הזמנים,Mi horario es complicado.,לוח הזמנים שלי מסובך.,intermediate,home_routine,הבית והיומיום
+w000198,Todos los días,כל יום,Hago ejercicio todos los días.,אני מתאמן כל יום.,intermediate,home_routine,הבית והיומיום
+w000199,Normalmente,בדרך כלל,Normalmente ceno a las ocho.,בדרך כלל אני אוכל ארוחת ערב בשמונה.,intermediate,home_routine,הבית והיומיום
+w000200,Vestirse,להתלבש,Me visto rápido por la mañana.,אני מתלבש מהר בבוקר.,intermediate,home_routine,הבית והיומיום
+w000201,El baño,חדר האמבטיה,El baño está al final del pasillo.,חדר האמבטיה נמצא בסוף המסדרון.,intermediate,home_routine,הבית והיומיום
+w000202,Lavar los platos,לשטוף כלים,Lavo los platos después de cenar.,אני שוטף כלים אחרי ארוחת הערב.,intermediate,home_routine,הבית והיומיום
+w000203,Salir de casa,לצאת מהבית,Salgo de casa a las siete y media.,אני יוצא מהבית בשבע וחצי.,intermediate,home_routine,הבית והיומיום
+w000204,Descansar,לנוח,Los domingos descanso todo el día.,בימי ראשון אני נח כל היום.,intermediate,home_routine,הבית והיומיום
+w000205,El trabajo,העבודה,Me gusta mi trabajo.,אני אוהב את העבודה שלי.,intermediate,work_professions,עבודה ומקצועות
+w000206,La empresa,החברה (עסקית),Trabajo en una empresa grande.,אני עובד בחברה גדולה.,intermediate,work_professions,עבודה ומקצועות
+w000207,El jefe / La jefa,הבוס,Mi jefe es muy exigente.,הבוס שלי מאוד דרשני.,intermediate,work_professions,עבודה ומקצועות
+w000208,El médico / La médica,הרופא/ה,El médico revisa al paciente.,הרופא בודק את המטופל.,intermediate,work_professions,עבודה ומקצועות
+w000209,El abogado / La abogada,עורך/ת דין,La abogada ganó el caso.,עורכת הדין ניצחה בתיק.,intermediate,work_professions,עבודה ומקצועות
+w000210,El ingeniero / La ingeniera,מהנדס/ת,El ingeniero diseña puentes.,המהנדס מתכנן גשרים.,intermediate,work_professions,עבודה ומקצועות
+w000211,La reunión,הישיבה,Tenemos una reunión mañana.,יש לנו ישיבה מחר.,intermediate,work_professions,עבודה ומקצועות
+w000212,El sueldo,המשכורת,El sueldo es bueno.,המשכורת טובה.,intermediate,work_professions,עבודה ומקצועות
+w000213,Contratar,להעסיק/לגייס,La empresa va a contratar más gente.,החברה הולכת לגייס עוד אנשים.,intermediate,work_professions,עבודה ומקצועות
+w000214,Renunciar,להתפטר,Ella decidió renunciar al trabajo.,היא החליטה להתפטר מהעבודה.,intermediate,work_professions,עבודה ומקצועות
+w000215,El profesor / La profesora,המורה,La profesora explica muy bien.,המורה מסבירה מאוד טוב.,intermediate,work_professions,עבודה ומקצועות
+w000216,El vendedor / La vendedora,המוכר / המוכרת,El vendedor fue muy amable.,המוכר היה מאוד אדיב.,intermediate,work_professions,עבודה ומקצועות
+w000217,La entrevista,הראיון (עבודה),Tengo una entrevista de trabajo mañana.,יש לי ראיון עבודה מחר.,intermediate,work_professions,עבודה ומקצועות
+w000218,El currículum,קורות החיים,Envié mi currículum ayer.,שלחתי את קורות החיים שלי אתמול.,intermediate,work_professions,עבודה ומקצועות
+w000219,Ganar dinero,להרוויח כסף,Trabajo duro para ganar dinero.,אני עובד קשה כדי להרוויח כסף.,intermediate,work_professions,עבודה ומקצועות
+w000220,A la derecha,ימינה,Gira a la derecha.,פנה ימינה.,intermediate,directions,כיוונים ותחבורה
+w000221,A la izquierda,שמאלה,El banco está a la izquierda.,הבנק נמצא משמאל.,intermediate,directions,כיוונים ותחבורה
+w000222,Todo recto,ישר,Sigue todo recto.,המשך ישר.,intermediate,directions,כיוונים ותחבורה
+w000223,La estación,התחנה,La estación está cerca.,התחנה קרובה.,intermediate,directions,כיוונים ותחבורה
+w000224,El autobús,האוטובוס,Tomo el autobús cada día.,אני נוסע באוטובוס כל יום.,intermediate,directions,כיוונים ותחבורה
+w000225,El metro,הרכבת התחתית,El metro es rápido.,הרכבת התחתית מהירה.,intermediate,directions,כיוונים ותחבורה
+w000226,El semáforo,הרמזור,Para en el semáforo.,עצור ברמזור.,intermediate,directions,כיוונים ותחבורה
+w000227,La esquina,הפינה,Está en la esquina.,זה נמצא בפינה.,intermediate,directions,כיוונים ותחבורה
+w000228,¿Cómo llego a...?,איך אני מגיע ל...?,¿Cómo llego al museo?,איך אני מגיע למוזיאון?,intermediate,directions,כיוונים ותחבורה
+w000229,Cerca / Lejos,קרוב / רחוק,El hotel está lejos de aquí.,המלון רחוק מכאן.,intermediate,directions,כיוונים ותחבורה
+w000230,La parada de autobús,תחנת האוטובוס,Espero en la parada de autobús.,אני מחכה בתחנת האוטובוס.,intermediate,directions,כיוונים ותחבורה
+w000231,El billete de tren,כרטיס הרכבת,Compré el billete de tren en línea.,קניתי את כרטיס הרכבת באינטרנט.,intermediate,directions,כיוונים ותחבורה
+w000232,Cruzar la calle,לחצות את הרחוב,Cruza la calle con cuidado.,חצה את הרחוב בזהירות.,intermediate,directions,כיוונים ותחבורה
+w000233,Perderse,ללכת לאיבוד,Nos perdimos en el centro.,הלכנו לאיבוד במרכז העיר.,intermediate,directions,כיוונים ותחבורה
+w000234,Al lado de,ליד,El banco está al lado de la farmacia.,הבנק נמצא ליד בית המרקחת.,intermediate,directions,כיוונים ותחבורה
+w000235,La reserva,ההזמנה (מלון/מסעדה),Hice la reserva por internet.,עשיתי את ההזמנה באינטרנט.,intermediate,travel,נסיעות
+w000236,El vuelo con escala,טיסה עם עצירת ביניים,Tomamos un vuelo con escala en Madrid.,טסנו בטיסה עם עצירת ביניים במדריד.,intermediate,travel,נסיעות
+w000237,El retraso,העיכוב / האיחור,Hubo un retraso de dos horas.,היה עיכוב של שעתיים.,intermediate,travel,נסיעות
+w000238,La tarjeta de embarque,כרטיס העלייה למטוס,No encuentro mi tarjeta de embarque.,אני לא מוצא את כרטיס העלייה שלי למטוס.,intermediate,travel,נסיעות
+w000239,El equipaje,המטען / הכבודה,Perdimos el equipaje en el aeropuerto.,איבדנו את הכבודה שלנו בשדה התעופה.,intermediate,travel,נסיעות
+w000240,La recepción,הקבלה (במלון),Pregunta en la recepción del hotel.,שאל בקבלה של המלון.,intermediate,travel,נסיעות
+w000241,Alquilar un coche,לשכור רכב,Vamos a alquilar un coche en el aeropuerto.,אנחנו הולכים לשכור רכב בשדה התעופה.,intermediate,travel,נסיעות
+w000242,El seguro de viaje,ביטוח נסיעות,Compré un seguro de viaje antes del viaje.,קניתי ביטוח נסיעות לפני הטיול.,intermediate,travel,נסיעות
+w000243,Facturar el equipaje,לרשום את הכבודה,Tienes que facturar el equipaje antes de las ocho.,אתה צריך לרשום את הכבודה לפני שמונה.,intermediate,travel,נסיעות
+w000244,Quejarse,להתלונן,Quiero quejarme sobre la habitación.,אני רוצה להתלונן על החדר.,intermediate,travel,נסיעות
+w000245,El itinerario,מסלול הטיול,Nuestro itinerario incluye tres ciudades.,מסלול הטיול שלנו כולל שלוש ערים.,intermediate,travel,נסיעות
+w000246,Cancelar el vuelo,לבטל את הטיסה,Cancelaron el vuelo por el clima.,הם ביטלו את הטיסה בגלל מזג האוויר.,intermediate,travel,נסיעות
+w000247,Feliz,שמח,Estoy muy feliz hoy.,אני מאוד שמח היום.,intermediate,emotions,רגשות
+w000248,Triste,עצוב,Se siente triste porque perdió el partido.,הוא מרגיש עצוב כי הוא הפסיד במשחק.,intermediate,emotions,רגשות
+w000249,Enojado / Enfadado,כועס,Está enojado con su hermano.,הוא כועס על אחיו.,intermediate,emotions,רגשות
+w000250,Cansado,עייף,Estoy muy cansado después del trabajo.,אני מאוד עייף אחרי העבודה.,intermediate,emotions,רגשות
+w000251,Emocionado,נרגש,Estamos emocionados por el viaje.,אנחנו נרגשים לקראת הטיול.,intermediate,emotions,רגשות
+w000252,Preocupado,מודאג,Mi madre está preocupada por mí.,אמא שלי מודאגת ממני.,intermediate,emotions,רגשות
+w000253,Asustado,מפוחד,El niño está asustado de la oscuridad.,הילד מפוחד מהחושך.,intermediate,emotions,רגשות
+w000254,Sorprendido,מופתע,Me quedé sorprendido con la noticia.,נשארתי מופתע מהחדשות.,intermediate,emotions,רגשות
+w000255,Enamorado,מאוהב,Está enamorado de ella desde hace un año.,הוא מאוהב בה כבר שנה.,intermediate,emotions,רגשות
+w000256,Aburrido,משועמם,Los niños están aburridos en casa.,הילדים משועממים בבית.,intermediate,emotions,רגשות
+w000257,Nervioso,עצבני / לחוץ,Estoy nervioso antes del examen.,אני לחוץ לפני המבחן.,intermediate,emotions,רגשות
+w000258,Orgulloso,גאה,Estoy orgulloso de mi hija.,אני גאה בבת שלי.,intermediate,emotions,רגשות
+w000259,Decepcionado,מאוכזב,Quedé decepcionado con el resultado.,נשארתי מאוכזב מהתוצאה.,intermediate,emotions,רגשות
+w000260,Tranquilo / Relajado,רגוע,Después de las vacaciones me siento tranquilo.,אחרי החופשה אני מרגיש רגוע.,intermediate,emotions,רגשות
+w000261,¿Cómo te sientes?,איך אתה מרגיש?,¿Cómo te sientes hoy?,איך אתה מרגיש היום?,intermediate,emotions,רגשות
+w000262,Me siento...,אני מרגיש...,Me siento muy bien hoy.,אני מרגיש מאוד טוב היום.,intermediate,emotions,רגשות
+w000263,Tener miedo de,לפחד מ...,Tengo miedo de las alturas.,אני מפחד מגבהים.,intermediate,emotions,רגשות
+w000264,Estar de buen/mal humor,להיות במצב רוח טוב/רע,Hoy estoy de muy buen humor.,היום אני במצב רוח מאוד טוב.,intermediate,emotions,רגשות
+w000265,No entiendo,אני לא מבין,"Perdón, no entiendo lo que dices.","סליחה, אני לא מבין מה שאתה אומר.",intermediate,daily_conversations,שיחות יומיומיות
+w000266,"¿Puedes repetir, por favor?","אתה יכול לחזור, בבקשה?","¿Puedes repetir la pregunta, por favor?","אתה יכול לחזור על השאלה, בבקשה?",intermediate,daily_conversations,שיחות יומיומיות
+w000267,¿Cómo se dice...?,איך אומרים...?,¿Cómo se dice 'gato' en inglés?,איך אומרים 'חתול' באנגלית?,intermediate,daily_conversations,שיחות יומיומיות
+w000268,Estoy de acuerdo,אני מסכים,Estoy de acuerdo contigo.,אני מסכים איתך.,intermediate,daily_conversations,שיחות יומיומיות
+w000269,No estoy de acuerdo,אני לא מסכים,No estoy de acuerdo con esa idea.,אני לא מסכים עם הרעיון הזה.,intermediate,daily_conversations,שיחות יומיומיות
+w000270,Vamos,בוא נלך / קדימה,"Vamos, se hace tarde.","בוא נלך, נהיה מאוחר.",intermediate,daily_conversations,שיחות יומיומיות
+w000271,Espera un momento,חכה רגע,"Espera un momento, ya vuelvo.","חכה רגע, אני כבר חוזר.",intermediate,daily_conversations,שיחות יומיומיות
+w000272,No hay problema,אין בעיה,"No hay problema, puedo ayudarte.","אין בעיה, אני יכול לעזור לך.",intermediate,daily_conversations,שיחות יומיומיות
+w000273,Claro que sí,בטח שכן / כמובן,¿Puedes venir? Claro que sí.,אתה יכול לבוא? בטח שכן.,intermediate,daily_conversations,שיחות יומיומיות
+w000274,Creo que...,אני חושב ש...,Creo que va a llover hoy.,אני חושב שירד גשם היום.,intermediate,daily_conversations,שיחות יומיומיות
+w000275,En mi opinión,לדעתי,"En mi opinión, es una buena idea.","לדעתי, זה רעיון טוב.",intermediate,daily_conversations,שיחות יומיומיות
+w000276,¿Me puedes ayudar?,אתה יכול לעזור לי?,¿Me puedes ayudar con esto?,אתה יכול לעזור לי עם זה?,intermediate,daily_conversations,שיחות יומיומיות
+w000277,Tienes razón,אתה צודק,"Tienes razón, fue mi error.","אתה צודק, זו הייתה הטעות שלי.",intermediate,daily_conversations,שיחות יומיומיות
+w000278,No pasa nada,זה בסדר / לא קרה כלום,"No pasa nada, no te preocupes.","זה בסדר, אל תדאג.",intermediate,daily_conversations,שיחות יומיומיות
+w000279,¡Qué bien!,כמה נחמד! / איזה כיף!,¡Qué bien que viniste!,איזה כיף שבאת!,intermediate,daily_conversations,שיחות יומיומיות
+w000280,¡Qué lástima!,איזה חבל!,¡Qué lástima que no puedas venir!,איזה חבל שאתה לא יכול לבוא!,intermediate,daily_conversations,שיחות יומיומיות
+w000281,Depende,זה תלוי,¿Vienes mañana? Depende del clima.,אתה בא מחר? זה תלוי במזג האוויר.,intermediate,daily_conversations,שיחות יומיומיות
+w000282,Por cierto,דרך אגב,"Por cierto, ¿cómo está tu hermana?","דרך אגב, מה שלום אחותך?",intermediate,daily_conversations,שיחות יומיומיות
+w000283,Querer,לרצות,Quiero aprender español.,אני רוצה ללמוד ספרדית.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000284,Poder,להיות מסוגל / יכול,No puedo venir hoy.,אני לא יכול לבוא היום.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000285,Saber,לדעת,No sé la respuesta.,אני לא יודע את התשובה.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000286,Conocer,להכיר,Conozco a tu hermana.,אני מכיר את אחותך.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000287,Pensar,לחשוב,Pienso que tienes razón.,אני חושב שאתה צודק.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000288,Sentir,להרגיש,Siento mucho dolor en la pierna.,אני מרגיש הרבה כאב ברגל.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000289,Buscar,לחפש,Estoy buscando mis llaves.,אני מחפש את המפתחות שלי.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000290,Encontrar,למצוא,Encontré mi teléfono en el sofá.,מצאתי את הטלפון שלי בספה.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000291,Llevar,לשאת / ללבוש,Llevo una chaqueta roja.,אני לובש ז'קט אדום.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000292,Dejar,להשאיר / לעזוב,Dejé mis libros en la escuela.,השארתי את הספרים שלי בבית ספר.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000293,Preguntar,לשאול,Voy a preguntar al profesor.,אני הולך לשאול את המורה.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000294,Responder / Contestar,לענות,No respondió a mi mensaje.,הוא לא ענה להודעה שלי.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000295,Necesitar,להזדקק / לצטרך,Necesito más tiempo.,אני צריך יותר זמן.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000296,Dar,לתת,Voy a dar un regalo a mi madre.,אני הולך לתת מתנה לאמא שלי.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000297,Tomar,לקחת / לשתות,Voy a tomar un café.,אני הולך לשתות קפה.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000298,Ayudar,לעזור,¿Puedes ayudarme con la tarea?,אתה יכול לעזור לי עם שיעורי הבית?,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000299,Empezar,להתחיל,La clase empieza a las nueve.,השיעור מתחיל בתשע.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000300,Terminar,לסיים,Terminé mi trabajo temprano.,סיימתי את העבודה שלי מוקדם.,intermediate,common_verbs_2,פעלים נפוצים יותר
+w000301,La negociación,המשא ומתן,La negociación duró horas.,המשא ומתן נמשך שעות.,advanced,business_vocab,אוצר מילים עסקי
+w000302,El presupuesto,התקציב,El presupuesto es limitado.,התקציב מוגבל.,advanced,business_vocab,אוצר מילים עסקי
+w000303,La inversión,ההשקעה,Hicieron una gran inversión.,הם ביצעו השקעה גדולה.,advanced,business_vocab,אוצר מילים עסקי
+w000304,Los beneficios,הרווחים,Los beneficios aumentaron este año.,הרווחים גדלו השנה.,advanced,business_vocab,אוצר מילים עסקי
+w000305,La junta directiva,דירקטוריון,La junta directiva se reunió ayer.,הדירקטוריון התכנס אתמול.,advanced,business_vocab,אוצר מילים עסקי
+w000306,El contrato,החוזה,Firmamos el contrato hoy.,חתמנו על החוזה היום.,advanced,business_vocab,אוצר מילים עסקי
+w000307,La estrategia,האסטרטגיה,Necesitamos una nueva estrategia.,אנחנו צריכים אסטרטגיה חדשה.,advanced,business_vocab,אוצר מילים עסקי
+w000308,El competidor,המתחרה,Nuestro competidor bajó los precios.,המתחרה שלנו הוריד מחירים.,advanced,business_vocab,אוצר מילים עסקי
+w000309,La fusión,המיזוג,La fusión de empresas fue exitosa.,מיזוג החברות הצליח.,advanced,business_vocab,אוצר מילים עסקי
+w000310,Los accionistas,בעלי המניות,Los accionistas votaron a favor.,בעלי המניות הצביעו בעד.,advanced,business_vocab,אוצר מילים עסקי
+w000311,El margen de beneficio,שולי הרווח,El margen de beneficio bajó este trimestre.,שולי הרווח ירדו ברבעון הזה.,advanced,business_vocab,אוצר מילים עסקי
+w000312,La cadena de suministro,שרשרת האספקה,La cadena de suministro se vio afectada.,שרשרת האספקה נפגעה.,advanced,business_vocab,אוצר מילים עסקי
+w000313,El informe trimestral,הדוח הרבעוני,Presentamos el informe trimestral mañana.,נציג את הדוח הרבעוני מחר.,advanced,business_vocab,אוצר מילים עסקי
+w000314,Escalar el negocio,להרחיב את העסק,Queremos escalar el negocio a nivel internacional.,אנחנו רוצים להרחיב את העסק ברמה בינלאומית.,advanced,business_vocab,אוצר מילים עסקי
+w000315,El plazo de entrega,מועד האספקה,El plazo de entrega es muy ajustado.,מועד האספקה מאוד צפוף.,advanced,business_vocab,אוצר מילים עסקי
+w000316,Espero que vengas,אני מקווה שתבוא,Espero que vengas a la fiesta.,אני מקווה שתבוא למסיבה.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000317,Quiero que sepas,אני רוצה שתדע,Quiero que sepas la verdad.,אני רוצה שתדע את האמת.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000318,Es importante que estudies,חשוב שתלמד,Es importante que estudies para el examen.,חשוב שתלמד למבחן.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000319,Dudo que sea verdad,אני מסופק שזה נכון,Dudo que sea verdad.,אני מסופק שזה נכון.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000320,Ojalá que llueva,הלוואי וירד גשם,Ojalá que llueva mañana.,הלוואי וירד גשם מחר.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000321,No creo que pueda,אני לא חושב שהוא/היא יכול/ה,No creo que pueda venir.,אני לא חושב שהוא יכול לבוא.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000322,Antes de que llegues,לפני שתגיע,Terminaré antes de que llegues.,אני אסיים לפני שתגיע.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000323,Aunque sea difícil,למרות שזה קשה,"Aunque sea difícil, lo lograremos.","למרות שזה קשה, נצליח.",advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000324,Para que entiendas,כדי שתבין,Te lo explico para que entiendas.,אני מסביר לך כדי שתבין.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000325,Si tuviera tiempo,אם היה לי זמן,"Si tuviera tiempo, viajaría más.","אם היה לי זמן, הייתי נוסע יותר.",advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000326,Me alegra que vengas,אני שמח שאתה בא,Me alegra que vengas a la boda.,אני שמח שאתה בא לחתונה.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000327,Es posible que llueva,ייתכן וירד גשם,Es posible que llueva esta tarde.,ייתכן וירד גשם אחר הצהריים.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000328,Recomiendo que estudies más,אני ממליץ שתלמד יותר,Te recomiendo que estudies más para el examen.,אני ממליץ לך שתלמד יותר למבחן.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000329,No pienso que sea fácil,אני לא חושב שזה קל,No pienso que sea fácil este trabajo.,אני לא חושב שהעבודה הזו קלה.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000330,Hasta que termines,עד שתסיים,No saldremos hasta que termines la tarea.,לא נצא עד שתסיים את המטלה.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000331,Costar un ojo de la cara,לעלות הון תועפות,Este coche cuesta un ojo de la cara.,המכונית הזו עולה הון תועפות.,advanced,idioms,ניבים וביטויים (Modismos)
+w000332,Estar en las nubes,להיות מפוזר/בעננים,Hoy estás en las nubes.,היום אתה בעננים.,advanced,idioms,ניבים וביטויים (Modismos)
+w000333,Tomar el pelo,לעבוד על מישהו/להתל,¿Me estás tomando el pelo?,אתה עובד עליי?,advanced,idioms,ניבים וביטויים (Modismos)
+w000334,Ser pan comido,להיות קלי קלות (משימה),El examen fue pan comido.,המבחן היה קלי קלות.,advanced,idioms,ניבים וביטויים (Modismos)
+w000335,Meter la pata,לעשות טעות מביכה,Metí la pata en la reunión.,עשיתי טעות מביכה בישיבה.,advanced,idioms,ניבים וביטויים (Modismos)
+w000336,No tener pelos en la lengua,"לומר דברים כפי שהם, בלי לעטוף",Ella no tiene pelos en la lengua.,היא אומרת הכל בלי כחל וסרק.,advanced,idioms,ניבים וביטויים (Modismos)
+w000337,Dar en el clavo,לפגוע בול,Con esa idea diste en el clavo.,עם הרעיון הזה פגעת בול.,advanced,idioms,ניבים וביטויים (Modismos)
+w000338,Estar como una cabra,להיות משוגע/מוזר,Mi vecino está como una cabra.,השכן שלי משוגע.,advanced,idioms,ניבים וביטויים (Modismos)
+w000339,Ponerse las pilas,להתאמץ/להתעורר לפעולה,¡Ponte las pilas y trabaja!,תתעורר ותעבוד!,advanced,idioms,ניבים וביטויים (Modismos)
+w000340,A otro perro con ese hueso,ספר לזה עוד סיפור (ביטוי ספקנות),"No te creo, a otro perro con ese hueso.","אני לא מאמין לך, ספר את זה למישהו אחר.",advanced,idioms,ניבים וביטויים (Modismos)
+w000341,Echar una mano,לעזור (להושיט יד),¿Puedes echarme una mano con esto?,אתה יכול לעזור לי עם זה?,advanced,idioms,ניבים וביטויים (Modismos)
+w000342,Estar hasta las narices,להיות נמאס לגמרי,Estoy hasta las narices de este proyecto.,נמאס לי מהפרויקט הזה.,advanced,idioms,ניבים וביטויים (Modismos)
+w000343,Ser la gota que colma el vaso,להיות הקש ששבר את גב הגמל,Este error fue la gota que colmó el vaso.,הטעות הזו הייתה הקש ששבר את גב הגמל.,advanced,idioms,ניבים וביטויים (Modismos)
+w000344,Hablar por los codos,לדבר בלי הפסקה,Mi vecina habla por los codos.,השכנה שלי מדברת בלי הפסקה.,advanced,idioms,ניבים וביטויים (Modismos)
+w000345,Írsele el santo al cielo,לשכוח משהו לגמרי,Se me fue el santo al cielo y olvidé la reunión.,שכחתי לגמרי ונשכחה לי הישיבה.,advanced,idioms,ניבים וביטויים (Modismos)
+w000346,Yo era (imperfecto),הייתי (מצב מתמשך בעבר),"Cuando era niño, jugaba fútbol.","כשהייתי ילד, שיחקתי כדורגל.",advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000347,Yo fui (indefinido),הייתי/הלכתי (פעולה חד-פעמית),Ayer fui al médico.,אתמול הלכתי לרופא.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000348,Mientras,בזמן ש...,"Mientras cocinaba, sonó el teléfono.","בזמן שבישלתי, הטלפון צלצל.",advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000349,De repente,לפתע,De repente empezó a llover.,לפתע התחיל לרדת גשם.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000350,Siempre (con imperfecto),תמיד (הרגל בעבר),Siempre visitábamos a mi abuela.,תמיד ביקרנו את סבתא שלי.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000351,Una vez,פעם אחת,Una vez viajé a Perú.,פעם אחת טסתי לפרו.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000352,Cuando + imperfecto,כש... (רקע),"Cuando vivía en Chile, aprendí español.","כשגרתי בצ'ילה, למדתי ספרדית.",advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000353,Interrumpir,להפריע/לקטוע,La llamada interrumpió la reunión.,השיחה קטעה את הישיבה.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000354,Se rompió,זה נשבר,El vaso se rompió.,הכוס נשברה.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000355,Estaba lloviendo,היה יורד גשם,Estaba lloviendo cuando salí.,היה יורד גשם כשיצאתי.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000356,Yo había terminado,כבר הייתי סיימתי,"Cuando llegaste, yo ya había terminado.","כשהגעת, כבר סיימתי.",advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000357,Solía + infinitivo,נהגתי ל...,"De niño, solía jugar en el parque.","כשהייתי ילד, נהגתי לשחק בפארק.",advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000358,Acababa de llegar,בדיוק הגעתי,Acababa de llegar cuando empezó a llover.,בדיוק הגעתי כשהתחיל לרדת גשם.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000359,Llevaba + tiempo + gerundio,כבר זמן מסוים ש...(עושה),Llevaba dos horas esperando.,כבר חיכיתי שעתיים.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000360,Nada más llegar,מיד עם ההגעה,"Nada más llegar, se puso a trabajar.","מיד עם ההגעה, הוא התחיל לעבוד.",advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
+w000361,Estimado/a señor/a,לכבוד אדון/גברת (פתיחה רשמית),Estimada señora García:,לכבוד גברת גרסיה:,advanced,formal_writing,כתיבה רשמית ומיילים
+w000362,Le escribo para...,אני כותב לך כדי...,Le escribo para solicitar información.,אני כותב לך כדי לבקש מידע.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000363,Adjunto encontrará,מצורף בזאת,Adjunto encontrará el informe.,מצורף בזאת הדוח.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000364,Quedo a la espera de su respuesta,אני ממתין לתשובתך,Quedo a la espera de su respuesta.,אני ממתין לתשובתך.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000365,Atentamente,בברכה,"Atentamente, Juan Pérez.","בברכה, חואן פרס.",advanced,formal_writing,כתיבה רשמית ומיילים
+w000366,Solicitar,לבקש (רשמית),Quiero solicitar una reunión.,אני רוצה לבקש פגישה.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000367,Confirmar,לאשר,Quiero confirmar la cita.,אני רוצה לאשר את הפגישה.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000368,Lamento informarle,אני מצטער להודיע לך,Lamento informarle que el vuelo se canceló.,אני מצטער להודיע שהטיסה בוטלה.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000369,En referencia a,בהתייחס ל...,En referencia a su correo anterior...,בהתייחס למייל הקודם שלך...,advanced,formal_writing,כתיבה רשמית ומיילים
+w000370,Un cordial saludo,בברכה חמה,"Un cordial saludo, el equipo.","בברכה חמה, הצוות.",advanced,formal_writing,כתיבה רשמית ומיילים
+w000371,Le agradezco de antemano,תודה מראש,Le agradezco de antemano su atención.,תודה מראש על תשומת ליבך.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000372,Sin más por el momento,אין עוד מה להוסיף כרגע,"Sin más por el momento, quedo a su disposición.","אין עוד מה להוסיף כרגע, אני לרשותך.",advanced,formal_writing,כתיבה רשמית ומיילים
+w000373,Rogamos disculpe las molestias,אנא סלח על אי הנוחות,Rogamos disculpe las molestias ocasionadas.,אנא סלח על אי הנוחות שנגרמה.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000374,Le informo que,אני מודיע לך ש...,Le informo que la reunión se pospuso.,אני מודיע לך שהישיבה נדחתה.,advanced,formal_writing,כתיבה רשמית ומיילים
+w000375,Con relación a su correo,בהתייחס למייל שלך,Con relación a su correo del día 5...,בהתייחס למייל שלך מהתאריך 5...,advanced,formal_writing,כתיבה רשמית ומיילים
+w000376,En mi opinión,לדעתי,"En mi opinión, es una buena idea.","לדעתי, זה רעיון טוב.",advanced,news_opinions,"חדשות, דעות ודיונים"
+w000377,Por un lado... por otro lado,מצד אחד... מצד שני,"Por un lado es caro, por otro lado es útil.","מצד אחד זה יקר, מצד שני זה שימושי.",advanced,news_opinions,"חדשות, דעות ודיונים"
+w000378,Estoy de acuerdo,אני מסכים,Estoy de acuerdo contigo.,אני מסכים איתך.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000379,No estoy de acuerdo,אני לא מסכים,No estoy de acuerdo con esa política.,אני לא מסכים עם המדיניות הזו.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000380,El titular,הכותרת (בעיתון),El titular fue muy impactante.,הכותרת הייתה מאוד מדהימה.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000381,La polémica,המחלוקת,El tema generó mucha polémica.,הנושא יצר הרבה מחלוקת.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000382,Según los expertos,לפי המומחים,"Según los expertos, la economía crecerá.","לפי המומחים, הכלכלה תצמח.",advanced,news_opinions,"חדשות, דעות ודיונים"
+w000383,El punto de vista,נקודת המבט,Respeto tu punto de vista.,אני מכבד את נקודת המבט שלך.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000384,Debatir,להתווכח/לדון,Vamos a debatir el tema mañana.,אנחנו נדון בנושא מחר.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000385,Al fin y al cabo,בסופו של דבר,"Al fin y al cabo, todos ganamos.","בסופו של דבר, כולנו ניצחנו.",advanced,news_opinions,"חדשות, דעות ודיונים"
+w000386,Desde mi punto de vista,מנקודת מבטי,"Desde mi punto de vista, la decisión fue correcta.","מנקודת מבטי, ההחלטה הייתה נכונה.",advanced,news_opinions,"חדשות, דעות ודיונים"
+w000387,Cabe destacar que,ראוי לציין ש...,Cabe destacar que la economía mejoró.,ראוי לציין שהכלכלה השתפרה.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000388,Sin lugar a dudas,ללא ספק,"Sin lugar a dudas, es la mejor opción.","ללא ספק, זו האפשרות הטובה ביותר.",advanced,news_opinions,"חדשות, דעות ודיונים"
+w000389,Está por verse,עוד ייראה / טרם ידוע,El resultado está por verse.,התוצאה עוד תיראה.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000390,Plantear una cuestión,להעלות סוגיה,Quiero plantear una cuestión importante.,אני רוצה להעלות סוגיה חשובה.,advanced,news_opinions,"חדשות, דעות ודיונים"
+w000391,El viaje de negocios,נסיעת עסקים,Tengo un viaje de negocios la próxima semana.,יש לי נסיעת עסקים בשבוע הבא.,advanced,travel,נסיעות
+w000392,La escala,עצירת ביניים (טיסה),Tenemos una escala de tres horas en Lisboa.,יש לנו עצירת ביניים של שלוש שעות בליסבון.,advanced,travel,נסיעות
+w000393,El visado,הוויזה,Necesito un visado para entrar al país.,אני צריך ויזה כדי להיכנס למדינה.,advanced,travel,נסיעות
+w000394,La aduana,המכס,Pasamos por la aduana sin problemas.,עברנו את המכס בלי בעיות.,advanced,travel,נסיעות
+w000395,El alojamiento,הלינה,La empresa paga el alojamiento durante el viaje.,החברה משלמת על הלינה במהלך הנסיעה.,advanced,travel,נסיעות
+w000396,Las dietas,"דמי אש""ל (הוצאות נסיעה)",La empresa cubre las dietas de viaje.,"החברה מכסה את דמי האש""ל של הנסיעה.",advanced,travel,נסיעות
+w000397,El huso horario,אזור הזמן,Todavía no me acostumbro al huso horario.,אני עדיין לא רגיל לאזור הזמן.,advanced,travel,נסיעות
+w000398,El jet lag,עייפות מטיסה ארוכה (ג'ט לג),Tengo jet lag después del vuelo largo.,יש לי ג'ט לג אחרי הטיסה הארוכה.,advanced,travel,נסיעות
+w000399,Reprogramar el vuelo,לתזמן מחדש את הטיסה,Tuvimos que reprogramar el vuelo por la huelga.,היינו צריכים לתזמן מחדש את הטיסה בגלל השביתה.,advanced,travel,נסיעות
+w000400,La sala VIP,חדר ה-VIP (בשדה תעופה),Esperamos en la sala VIP del aeropuerto.,חיכינו בחדר ה-VIP של שדה התעופה.,advanced,travel,נסיעות
+w000401,Hacer escala en,לעצור בדרך ב...,El vuelo hace escala en Nueva York.,הטיסה עוצרת בדרך בניו יורק.,advanced,travel,נסיעות
+w000402,El seguro médico de viaje,ביטוח בריאות לנסיעות,Es obligatorio tener seguro médico de viaje.,חובה שיהיה ביטוח בריאות לנסיעות.,advanced,travel,נסיעות
+w000403,La libertad,החירות,La libertad es un derecho fundamental.,החירות היא זכות יסודית.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000404,La justicia,הצדק,Luchan por la justicia social.,הם נלחמים למען הצדק החברתי.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000405,La oportunidad,ההזדמנות,Esta es una gran oportunidad para ti.,זו הזדמנות גדולה בשבילך.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000406,El desafío,האתגר,Superar este desafío no será fácil.,להתגבר על האתגר הזה לא יהיה קל.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000407,El logro,ההישג,Graduarse fue su mayor logro.,סיום התואר היה ההישג הגדול ביותר שלו.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000408,La conciencia,המודעות,Necesitamos más conciencia ambiental.,אנחנו צריכים יותר מודעות סביבתית.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000409,La responsabilidad,האחריות,Asumir la responsabilidad no es fácil.,לקחת אחריות זה לא קל.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000410,La perspectiva,נקודת המבט,Cambió mi perspectiva sobre la vida.,זה שינה את נקודת המבט שלי על החיים.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000411,La incertidumbre,חוסר הוודאות,Vivimos en una época de incertidumbre.,אנחנו חיים בתקופה של חוסר וודאות.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000412,La ambición,השאיפה / השאפתנות,Tiene mucha ambición profesional.,יש לו הרבה שאפתנות מקצועית.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000413,La empatía,האמפתיה,La empatía es esencial en este trabajo.,האמפתיה חיונית בעבודה הזו.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000414,La integridad,היושרה,Es conocido por su integridad.,הוא ידוע ביושרה שלו.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000415,La sostenibilidad,הקיימות,La sostenibilidad es clave para el futuro.,הקיימות היא מפתח לעתיד.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000416,La identidad,הזהות,Buscaba su identidad desde joven.,הוא חיפש את זהותו מגיל צעיר.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000417,La influencia,ההשפעה,Tiene mucha influencia en la empresa.,יש לו הרבה השפעה בחברה.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000418,La sabiduría,החוכמה,La sabiduría viene con la experiencia.,החוכמה מגיעה עם הניסיון.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000419,El compromiso,המחויבות,Su compromiso con el proyecto es total.,המחויבות שלו לפרויקט מלאה.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000420,La resiliencia,החוסן / העמידות הנפשית,Mostró mucha resiliencia durante la crisis.,הוא הראה הרבה חוסן במהלך המשבר.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000421,Ni hablar,בשום אופן / אין מצב,¿Ir sin ti? ¡Ni hablar!,ללכת בלעדיך? אין מצב!,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000422,Qué va,ממש לא / בכלל לא,¿Estás enojado? ¡Qué va!,אתה כועס? ממש לא!,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000423,Está chupado,זה קלי קלות,El examen está chupado.,המבחן קלי קלות.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000424,Estar sin blanca,להיות בלי פרוטה,Este mes estoy sin blanca.,החודש אני בלי פרוטה.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000425,Así así,ככה ככה,¿Cómo estás? Así así.,מה שלומך? ככה ככה.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000426,No es para tanto,זה לא כזה נורא,"Tranquilo, no es para tanto.","תירגע, זה לא כזה נורא.",advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000427,Al fin y al cabo,בסופו של דבר,"Al fin y al cabo, todo salió bien.","בסופו של דבר, הכל יצא טוב.",advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000428,Ponerse las pilas,להתאמץ / לזוז,Tienes que ponerte las pilas con el trabajo.,אתה צריך להתאמץ עם העבודה.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000429,Meter la pata,לעשות טעות מביכה,Metí la pata en la reunión.,עשיתי טעות מביכה בפגישה.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000430,Costar un ojo de la cara,לעלות הון,Ese coche cuesta un ojo de la cara.,הרכב הזה עולה הון.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000431,Dar en el clavo,לפגוע בול / לצדוק לגמרי,Diste en el clavo con esa idea.,פגעת בול עם הרעיון הזה.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000432,Tomar el pelo,לעבוד על מישהו,¿Me estás tomando el pelo?,אתה עובד עליי?,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000433,Estar en las nubes,להיות מרוחק בראש,"Perdón, estaba en las nubes.","סליחה, הייתי מרוחק בראש.",advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000434,Echar una mano,לתת יד / לעזור,¿Me echas una mano con esto?,אתה יכול לתת לי יד עם זה?,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000435,Ser pan comido,להיות עניין של מה בכך,Este trabajo es pan comido.,העבודה הזו היא עניין של מה בכך.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000436,Hacerse el tonto,להעמיד פני טיפש,"No te hagas el tonto, sabes la respuesta.","אל תעמיד פני טיפש, אתה יודע את התשובה.",advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000437,Yo,אני,Yo hablo español.,אני מדבר ספרדית.,grammar,pronouns,כינויי גוף
+w000438,Tú,אתה / את,Tú eres muy amable.,אתה מאוד אדיב.,grammar,pronouns,כינויי גוף
+w000439,Él,הוא,Él vive en Madrid.,הוא גר במדריד.,grammar,pronouns,כינויי גוף
+w000440,Ella,היא,Ella trabaja mucho.,היא עובדת הרבה.,grammar,pronouns,כינויי גוף
+w000441,Usted,אתה / את (רשמי),¿Cómo está usted?,מה שלומך? (רשמי),grammar,pronouns,כינויי גוף
+w000442,Nosotros / Nosotras,אנחנו,Nosotros somos amigos.,אנחנו חברים.,grammar,pronouns,כינויי גוף
+w000443,Vosotros / Vosotras,אתם / אתן (בספרד),Vosotros sois estudiantes.,אתם תלמידים.,grammar,pronouns,כינויי גוף
+w000444,Ellos,הם,Ellos viven juntos.,הם גרים ביחד.,grammar,pronouns,כינויי גוף
+w000445,Ellas,הן,Ellas estudian medicina.,הן לומדות רפואה.,grammar,pronouns,כינויי גוף
+w000446,Ustedes,אתם / אתן (רשמי),Ustedes son bienvenidos.,אתם מוזמנים בברכה.,grammar,pronouns,כינויי גוף
+w000447,Ser,להיות (זהות/תכונה),Quiero ser médico.,אני רוצה להיות רופא.,grammar,common_verbs,פעלים נפוצים
+w000448,Estar,להיות (מצב/מיקום),Necesito estar tranquilo.,אני צריך להיות רגוע.,grammar,common_verbs,פעלים נפוצים
+w000449,Tener,יש ל...,Voy a tener una reunión.,יהיה לי ישיבה.,grammar,common_verbs,פעלים נפוצים
+w000450,Hacer,לעשות,Tengo que hacer la tarea.,אני צריך לעשות שיעורי בית.,grammar,common_verbs,פעלים נפוצים
+w000451,Ir,ללכת,Vamos a ir a la playa.,אנחנו הולכים ללכת לחוף הים.,grammar,common_verbs,פעלים נפוצים
+w000452,Poder,להיות מסוגל / יכול,No puedo venir mañana.,אני לא יכול לבוא מחר.,grammar,common_verbs,פעלים נפוצים
+w000453,Querer,לרצות,Quiero aprender español.,אני רוצה ללמוד ספרדית.,grammar,common_verbs,פעלים נפוצים
+w000454,Decir,לומר,Voy a decir la verdad.,אני הולך לומר את האמת.,grammar,common_verbs,פעלים נפוצים
+w000455,Ver,לראות,Quiero ver esa película.,אני רוצה לראות את הסרט הזה.,grammar,common_verbs,פעלים נפוצים
+w000456,Dar,לתת,Voy a dar un regalo.,אני הולך לתת מתנה.,grammar,common_verbs,פעלים נפוצים
+w000457,Saber,לדעת,No sé la respuesta.,אני לא יודע את התשובה.,grammar,common_verbs,פעלים נפוצים
+w000458,Hablar,לדבר,Me gusta hablar español.,אני אוהב לדבר ספרדית.,grammar,common_verbs,פעלים נפוצים
+w000459,Yo hablo,אני מדבר,Yo hablo con mi madre.,אני מדבר עם אמא שלי.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000460,Tú hablas,אתה מדבר,Tú hablas muy rápido.,אתה מדבר מהר מאוד.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000461,Él/Ella habla,הוא/היא מדבר/ת,Ella habla tres idiomas.,היא מדברת שלוש שפות.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000462,Nosotros hablamos,אנחנו מדברים,Nosotros hablamos todos los días.,אנחנו מדברים כל יום.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000463,Vosotros habláis,אתם מדברים (בספרד),Vosotros habláis muy bien.,אתם מדברים טוב מאוד.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000464,Ellos hablan,הם מדברים,Ellos hablan por teléfono.,הם מדברים בטלפון.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000465,Yo como,אני אוכל,Yo como a las dos.,אני אוכל בשתיים.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000466,Tú comes,אתה אוכל,Tú comes muy poco.,אתה אוכל מעט מאוד.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000467,Él/Ella come,הוא/היא אוכל/ת,Él come mucha fruta.,הוא אוכל הרבה פרי.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000468,Nosotros comemos,אנחנו אוכלים,Nosotros comemos juntos.,אנחנו אוכלים ביחד.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000469,Vosotros coméis,אתם אוכלים (בספרד),Vosotros coméis tarde.,אתם אוכלים מאוחר.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000470,Ellos comen,הם אוכלים,Ellos comen en el restaurante.,הם אוכלים במסעדה.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000471,Yo vivo,אני גר,Yo vivo en Tel Aviv.,אני גר בתל אביב.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000472,Tú vives,אתה גר,Tú vives cerca de aquí.,אתה גר קרוב לכאן.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000473,Él/Ella vive,הוא/היא גר/ה,Ella vive con su familia.,היא גרה עם המשפחה שלה.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000474,Nosotros vivimos,אנחנו גרים,Nosotros vivimos en el centro.,אנחנו גרים במרכז.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000475,Vosotros vivís,אתם גרים (בספרד),Vosotros vivís en las afueras.,אתם גרים בפרברים.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000476,Ellos viven,הם גרים,Ellos viven en Barcelona.,הם גרים בברצלונה.,grammar,basic_conjugation,הטיות בסיסיות בהווה

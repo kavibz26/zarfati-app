@@ -1,0 +1,153 @@
+{
+  "levelId": "intermediate",
+  "topicId": "work_professions",
+  "vocab": [
+    {
+      "id": "w000205",
+      "es": "El trabajo",
+      "he": "העבודה",
+      "ex_es": "Me gusta mi trabajo.",
+      "ex_he": "אני אוהב את העבודה שלי."
+    },
+    {
+      "id": "w000206",
+      "es": "La empresa",
+      "he": "החברה (עסקית)",
+      "ex_es": "Trabajo en una empresa grande.",
+      "ex_he": "אני עובד בחברה גדולה."
+    },
+    {
+      "id": "w000207",
+      "es": "El jefe / La jefa",
+      "he": "הבוס",
+      "ex_es": "Mi jefe es muy exigente.",
+      "ex_he": "הבוס שלי מאוד דרשני."
+    },
+    {
+      "id": "w000208",
+      "es": "El médico / La médica",
+      "he": "הרופא/ה",
+      "ex_es": "El médico revisa al paciente.",
+      "ex_he": "הרופא בודק את המטופל."
+    },
+    {
+      "id": "w000209",
+      "es": "El abogado / La abogada",
+      "he": "עורך/ת דין",
+      "ex_es": "La abogada ganó el caso.",
+      "ex_he": "עורכת הדין ניצחה בתיק."
+    },
+    {
+      "id": "w000210",
+      "es": "El ingeniero / La ingeniera",
+      "he": "מהנדס/ת",
+      "ex_es": "El ingeniero diseña puentes.",
+      "ex_he": "המהנדס מתכנן גשרים."
+    },
+    {
+      "id": "w000211",
+      "es": "La reunión",
+      "he": "הישיבה",
+      "ex_es": "Tenemos una reunión mañana.",
+      "ex_he": "יש לנו ישיבה מחר."
+    },
+    {
+      "id": "w000212",
+      "es": "El sueldo",
+      "he": "המשכורת",
+      "ex_es": "El sueldo es bueno.",
+      "ex_he": "המשכורת טובה."
+    },
+    {
+      "id": "w000213",
+      "es": "Contratar",
+      "he": "להעסיק/לגייס",
+      "ex_es": "La empresa va a contratar más gente.",
+      "ex_he": "החברה הולכת לגייס עוד אנשים."
+    },
+    {
+      "id": "w000214",
+      "es": "Renunciar",
+      "he": "להתפטר",
+      "ex_es": "Ella decidió renunciar al trabajo.",
+      "ex_he": "היא החליטה להתפטר מהעבודה."
+    },
+    {
+      "id": "w000215",
+      "es": "El profesor / La profesora",
+      "he": "המורה",
+      "ex_es": "La profesora explica muy bien.",
+      "ex_he": "המורה מסבירה מאוד טוב."
+    },
+    {
+      "id": "w000216",
+      "es": "El vendedor / La vendedora",
+      "he": "המוכר / המוכרת",
+      "ex_es": "El vendedor fue muy amable.",
+      "ex_he": "המוכר היה מאוד אדיב."
+    },
+    {
+      "id": "w000217",
+      "es": "La entrevista",
+      "he": "הראיון (עבודה)",
+      "ex_es": "Tengo una entrevista de trabajo mañana.",
+      "ex_he": "יש לי ראיון עבודה מחר."
+    },
+    {
+      "id": "w000218",
+      "es": "El currículum",
+      "he": "קורות החיים",
+      "ex_es": "Envié mi currículum ayer.",
+      "ex_he": "שלחתי את קורות החיים שלי אתמול."
+    },
+    {
+      "id": "w000219",
+      "es": "Ganar dinero",
+      "he": "להרוויח כסף",
+      "ex_es": "Trabajo duro para ganar dinero.",
+      "ex_he": "אני עובד קשה כדי להרוויח כסף."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000100",
+      "es": "Mi jefe convocó una reunión urgente.",
+      "he": "הבוס שלי כינס ישיבה דחופה."
+    },
+    {
+      "id": "s000101",
+      "es": "La empresa quiere contratar dos ingenieros.",
+      "he": "החברה רוצה לגייס שני מהנדסים."
+    },
+    {
+      "id": "s000102",
+      "es": "El médico trabaja doce horas al día.",
+      "he": "הרופא עובד שתים עשרה שעות ביום."
+    },
+    {
+      "id": "s000103",
+      "es": "Ella renunció porque encontró otro trabajo.",
+      "he": "היא התפטרה כי מצאה עבודה אחרת."
+    },
+    {
+      "id": "s000104",
+      "es": "El sueldo no es suficiente para vivir aquí.",
+      "he": "המשכורת לא מספיקה כדי לחיות כאן."
+    },
+    {
+      "id": "s000105",
+      "es": "Tengo una entrevista de trabajo el lunes.",
+      "he": "יש לי ראיון עבודה ביום שני."
+    },
+    {
+      "id": "s000106",
+      "es": "El vendedor me ayudó a elegir el regalo.",
+      "he": "המוכר עזר לי לבחור את המתנה."
+    },
+    {
+      "id": "s000107",
+      "es": "Envié mi currículum a varias empresas.",
+      "he": "שלחתי את קורות החיים שלי לכמה חברות."
+    }
+  ]
+}

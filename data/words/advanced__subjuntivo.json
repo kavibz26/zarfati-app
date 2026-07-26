@@ -1,0 +1,153 @@
+{
+  "levelId": "advanced",
+  "topicId": "subjuntivo",
+  "vocab": [
+    {
+      "id": "w000316",
+      "es": "Espero que vengas",
+      "he": "אני מקווה שתבוא",
+      "ex_es": "Espero que vengas a la fiesta.",
+      "ex_he": "אני מקווה שתבוא למסיבה."
+    },
+    {
+      "id": "w000317",
+      "es": "Quiero que sepas",
+      "he": "אני רוצה שתדע",
+      "ex_es": "Quiero que sepas la verdad.",
+      "ex_he": "אני רוצה שתדע את האמת."
+    },
+    {
+      "id": "w000318",
+      "es": "Es importante que estudies",
+      "he": "חשוב שתלמד",
+      "ex_es": "Es importante que estudies para el examen.",
+      "ex_he": "חשוב שתלמד למבחן."
+    },
+    {
+      "id": "w000319",
+      "es": "Dudo que sea verdad",
+      "he": "אני מסופק שזה נכון",
+      "ex_es": "Dudo que sea verdad.",
+      "ex_he": "אני מסופק שזה נכון."
+    },
+    {
+      "id": "w000320",
+      "es": "Ojalá que llueva",
+      "he": "הלוואי וירד גשם",
+      "ex_es": "Ojalá que llueva mañana.",
+      "ex_he": "הלוואי וירד גשם מחר."
+    },
+    {
+      "id": "w000321",
+      "es": "No creo que pueda",
+      "he": "אני לא חושב שהוא/היא יכול/ה",
+      "ex_es": "No creo que pueda venir.",
+      "ex_he": "אני לא חושב שהוא יכול לבוא."
+    },
+    {
+      "id": "w000322",
+      "es": "Antes de que llegues",
+      "he": "לפני שתגיע",
+      "ex_es": "Terminaré antes de que llegues.",
+      "ex_he": "אני אסיים לפני שתגיע."
+    },
+    {
+      "id": "w000323",
+      "es": "Aunque sea difícil",
+      "he": "למרות שזה קשה",
+      "ex_es": "Aunque sea difícil, lo lograremos.",
+      "ex_he": "למרות שזה קשה, נצליח."
+    },
+    {
+      "id": "w000324",
+      "es": "Para que entiendas",
+      "he": "כדי שתבין",
+      "ex_es": "Te lo explico para que entiendas.",
+      "ex_he": "אני מסביר לך כדי שתבין."
+    },
+    {
+      "id": "w000325",
+      "es": "Si tuviera tiempo",
+      "he": "אם היה לי זמן",
+      "ex_es": "Si tuviera tiempo, viajaría más.",
+      "ex_he": "אם היה לי זמן, הייתי נוסע יותר."
+    },
+    {
+      "id": "w000326",
+      "es": "Me alegra que vengas",
+      "he": "אני שמח שאתה בא",
+      "ex_es": "Me alegra que vengas a la boda.",
+      "ex_he": "אני שמח שאתה בא לחתונה."
+    },
+    {
+      "id": "w000327",
+      "es": "Es posible que llueva",
+      "he": "ייתכן וירד גשם",
+      "ex_es": "Es posible que llueva esta tarde.",
+      "ex_he": "ייתכן וירד גשם אחר הצהריים."
+    },
+    {
+      "id": "w000328",
+      "es": "Recomiendo que estudies más",
+      "he": "אני ממליץ שתלמד יותר",
+      "ex_es": "Te recomiendo que estudies más para el examen.",
+      "ex_he": "אני ממליץ לך שתלמד יותר למבחן."
+    },
+    {
+      "id": "w000329",
+      "es": "No pienso que sea fácil",
+      "he": "אני לא חושב שזה קל",
+      "ex_es": "No pienso que sea fácil este trabajo.",
+      "ex_he": "אני לא חושב שהעבודה הזו קלה."
+    },
+    {
+      "id": "w000330",
+      "es": "Hasta que termines",
+      "he": "עד שתסיים",
+      "ex_es": "No saldremos hasta que termines la tarea.",
+      "ex_he": "לא נצא עד שתסיים את המטלה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000150",
+      "es": "Espero que tengas un buen día.",
+      "he": "אני מקווה שיהיה לך יום טוב."
+    },
+    {
+      "id": "s000151",
+      "es": "Es importante que lleguemos a tiempo.",
+      "he": "חשוב שנגיע בזמן."
+    },
+    {
+      "id": "s000152",
+      "es": "Dudo que el proyecto termine este mes.",
+      "he": "אני מסופק שהפרויקט יסתיים החודש."
+    },
+    {
+      "id": "s000153",
+      "es": "Aunque sea complicado, vamos a intentarlo.",
+      "he": "למרות שזה מסובך, אנחנו הולכים לנסות."
+    },
+    {
+      "id": "s000154",
+      "es": "Si tuviera más dinero, compraría una casa.",
+      "he": "אם היה לי יותר כסף, הייתי קונה בית."
+    },
+    {
+      "id": "s000155",
+      "es": "Me alegra que hayas venido a la reunión.",
+      "he": "אני שמח שבאת לישיבה."
+    },
+    {
+      "id": "s000156",
+      "es": "Es posible que el vuelo se retrase.",
+      "he": "ייתכן והטיסה תתעכב."
+    },
+    {
+      "id": "s000157",
+      "es": "No saldremos hasta que termines de estudiar.",
+      "he": "לא נצא עד שתסיים ללמוד."
+    }
+  ]
+}

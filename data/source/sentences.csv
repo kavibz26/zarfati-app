@@ -1,0 +1,223 @@
+id,es,he,levelId,topicId
+s000001,"Hola, me llamo Pedro.","שלום, קוראים לי פדרו.",beginner,greetings
+s000002,¿Cómo estás hoy?,מה שלומך היום?,beginner,greetings
+s000003,Mucho gusto en conocerte.,נעים מאוד להכיר אותך.,beginner,greetings
+s000004,"Buenos días, ¿cómo te llamas?","בוקר טוב, איך קוראים לך?",beginner,greetings
+s000005,"Adiós, hasta luego.","להתראות, נתראה אחר כך.",beginner,greetings
+s000006,¿Qué tal estás hoy?,מה שלומך היום?,beginner,greetings
+s000007,"Perdón, no entendí tu nombre.","סליחה, לא הבנתי את השם שלך.",beginner,greetings
+s000008,Bienvenida a la clase de español.,ברוכה הבאה לשיעור הספרדית.,beginner,greetings
+s000009,Son las diez de la mañana.,השעה עשר בבוקר.,beginner,numbers
+s000010,Tengo veinte años.,אני בת עשרים.,beginner,numbers
+s000011,"Espera cinco minutos, por favor.","חכה חמש דקות, בבקשה.",beginner,numbers
+s000012,¿Qué hora es ahora?,מה השעה עכשיו?,beginner,numbers
+s000013,Cuesta treinta euros.,זה עולה שלושים יורו.,beginner,numbers
+s000014,Tengo cuarenta euros en el bolsillo.,יש לי ארבעים יורו בכיס.,beginner,numbers
+s000015,La reunión empieza en un cuarto de hora.,הישיבה מתחילה בעוד רבע שעה.,beginner,numbers
+s000016,Son las ocho y cinco.,השעה שמונה וחמש.,beginner,numbers
+s000017,Me gusta el color azul.,אני אוהב את הצבע כחול.,beginner,colors
+s000018,El coche rojo es rápido.,המכונית האדומה מהירה.,beginner,colors
+s000019,La flor amarilla es bonita.,הפרח הצהוב יפה.,beginner,colors
+s000020,Dibuja un cuadrado verde.,צייר ריבוע ירוק.,beginner,colors
+s000021,El cielo está azul hoy.,השמיים כחולים היום.,beginner,colors
+s000022,Me gusta más el azul oscuro que el claro.,אני אוהב יותר את הכחול הכהה מהבהיר.,beginner,colors
+s000023,Ella lleva una falda rosa.,היא לובשת חצאית ורודה.,beginner,colors
+s000024,El perro tiene manchas marrones y blancas.,לכלב יש כתמים חומים ולבנים.,beginner,colors
+s000025,Tengo dos hermanos y una hermana.,יש לי שני אחים ואחות אחת.,beginner,family
+s000026,Mi madre y mi padre viven en Barcelona.,אמא שלי ואבא שלי גרים בברצלונה.,beginner,family
+s000027,Mi abuela cocina para toda la familia.,סבתא שלי מבשלת לכל המשפחה.,beginner,family
+s000028,Su hijo estudia en la universidad.,הבן שלו לומד באוניברסיטה.,beginner,family
+s000029,Toda mi familia se reúne los domingos.,כל המשפחה שלי נפגשת בימי ראשון.,beginner,family
+s000030,Mi tío y mi tía vienen a cenar hoy.,הדוד והדודה שלי באים לארוחת ערב היום.,beginner,family
+s000031,El bebé de mi prima es muy lindo.,התינוק של בת דודתי מאוד חמוד.,beginner,family
+s000032,Mis padres celebran su aniversario mañana.,ההורים שלי חוגגים את יום הנישואין שלהם מחר.,beginner,family
+s000033,"Quiero un café con leche, por favor.","אני רוצה קפה עם חלב, בבקשה.",beginner,food
+s000034,Como fruta y verdura todos los días.,אני אוכל פרי וירק כל יום.,beginner,food
+s000035,"Tengo hambre, vamos al restaurante.","אני רעב, בוא נלך למסעדה.",beginner,food
+s000036,El pan con queso es delicioso.,הלחם עם גבינה טעים.,beginner,food
+s000037,¿Quieres agua o café?,אתה רוצה מים או קפה?,beginner,food
+s000038,El pescado con arroz estaba delicioso.,הדג עם אורז היה טעים.,beginner,food
+s000039,"¿Nos trae la cuenta, por favor?","תביא לנו את החשבון, בבקשה?",beginner,food
+s000040,De postre quiero un helado de chocolate.,לקינוח אני רוצה גלידת שוקולד.,beginner,food
+s000041,Yo soy de España.,אני מספרד.,beginner,basic_verbs
+s000042,Ella está muy cansada hoy.,היא מאוד עייפה היום.,beginner,basic_verbs
+s000043,Tengo veinte años y soy estudiante.,אני בת עשרים ואני סטודנטית.,beginner,basic_verbs
+s000044,¿Dónde estás ahora?,איפה אתה עכשיו?,beginner,basic_verbs
+s000045,Nosotros tenemos una casa grande.,יש לנו בית גדול.,beginner,basic_verbs
+s000046,Hay muchas personas en la fiesta.,יש הרבה אנשים במסיבה.,beginner,basic_verbs
+s000047,"¿Cuántos años tienes, Marta?","בת כמה את, מרתה?",beginner,basic_verbs
+s000048,"Ellos son de Argentina, pero viven en España.","הם מארגנטינה, אבל גרים בספרד.",beginner,basic_verbs
+s000049,Llegamos al aeropuerto dos horas antes del vuelo.,הגענו לשדה התעופה שעתיים לפני הטיסה.,beginner,travel
+s000050,¿Dónde está la parada del taxi?,איפה נמצאת תחנת המוניות?,beginner,travel
+s000051,Reservamos una habitación con vista al mar.,הזמנו חדר עם נוף לים.,beginner,travel
+s000052,Perdí mi maleta en el aeropuerto.,איבדתי את המזוודה שלי בשדה התעופה.,beginner,travel
+s000053,Estamos de vacaciones en la playa toda la semana.,אנחנו בחופשה בחוף הים כל השבוע.,beginner,travel
+s000054,Mi casa tiene tres habitaciones y una cocina grande.,בבית שלי יש שלושה חדרים ומטבח גדול.,beginner,home
+s000055,La cocina está al lado de la sala.,המטבח נמצא ליד הסלון.,beginner,home
+s000056,¿Dónde está la llave de la puerta?,איפה המפתח של הדלת?,beginner,home
+s000057,Los niños duermen en el mismo dormitorio.,הילדים ישנים באותו חדר שינה.,beginner,home
+s000058,Hay flores bonitas en el jardín.,יש פרחים יפים בגינה.,beginner,home
+s000059,"Por favor, cierra la ventana antes de salir.","בבקשה, תסגור את החלון לפני שאתה יוצא.",beginner,home
+s000060,Vivimos en un apartamento pequeño en el centro.,אנחנו גרים בדירה קטנה במרכז.,beginner,home
+s000061,Hoy es lunes y mañana es martes.,היום יום שני ומחר יום שלישי.,beginner,days_time
+s000062,Los sábados y domingos no trabajo.,בשבתות ובימי ראשון אני לא עובד.,beginner,days_time
+s000063,Nos vemos el viernes por la tarde.,נתראה ביום שישי אחר הצהריים.,beginner,days_time
+s000064,Ayer fue un día muy largo.,אתמול היה יום מאוד ארוך.,beginner,days_time
+s000065,Estudio español todos los días por la mañana.,אני לומד ספרדית כל יום בבוקר.,beginner,days_time
+s000066,El próximo mes empieza un nuevo año.,בחודש הבא מתחילה שנה חדשה.,beginner,days_time
+s000067,¿Qué día es hoy?,איזה יום היום?,beginner,days_time
+s000068,Yo hablo español todos los días.,אני מדבר ספרדית כל יום.,intermediate,present_regular
+s000069,Ella vive cerca de la playa.,היא גרה קרוב לחוף הים.,intermediate,present_regular
+s000070,Nosotros comemos juntos los viernes.,אנחנו אוכלים ביחד בימי שישי.,intermediate,present_regular
+s000071,Ellos escriben un correo electrónico.,הם כותבים אימייל.,intermediate,present_regular
+s000072,Tú trabajas en una oficina grande.,אתה עובד במשרד גדול.,intermediate,present_regular
+s000073,¿Puedes ayudarme con esta tarea?,אתה יכול לעזור לי עם המטלה הזו?,intermediate,present_regular
+s000074,Ella no entiende la pregunta.,היא לא מבינה את השאלה.,intermediate,present_regular
+s000075,Empezamos a trabajar temprano los lunes.,אנחנו מתחילים לעבוד מוקדם בימי שני.,intermediate,present_regular
+s000076,Ayer hablé con mi jefe.,אתמול דיברתי עם הבוס שלי.,intermediate,preterito
+s000077,Ellos hicieron un viaje increíble.,הם עשו טיול מדהים.,intermediate,preterito
+s000078,Nosotros fuimos al concierto anoche.,הלכנו להופעה אתמול בלילה.,intermediate,preterito
+s000079,Ella dijo que llegó tarde.,היא אמרה שהיא הגיעה מאוחר.,intermediate,preterito
+s000080,La semana pasada tuve mucho trabajo.,השבוע שעבר היה לי הרבה עבודה.,intermediate,preterito
+s000081,Anoche vimos una película muy interesante.,אמש ראינו סרט מאוד מעניין.,intermediate,preterito
+s000082,Ellos vinieron a visitarnos la semana pasada.,הם באו לבקר אותנו בשבוע שעבר.,intermediate,preterito
+s000083,¿A qué hora llegaste a casa?,באיזו שעה הגעת הביתה?,intermediate,preterito
+s000084,Mi amiga es alta e inteligente.,החברה שלי גבוהה וחכמה.,intermediate,adjectives
+s000085,El nuevo empleado parece muy trabajador.,העובד החדש נראה חרוץ מאוד.,intermediate,adjectives
+s000086,Este programa de televisión es aburrido.,התוכנית טלוויזיה הזו משעממת.,intermediate,adjectives
+s000087,Mis padres son muy generosos.,ההורים שלי מאוד נדיבים.,intermediate,adjectives
+s000088,El perro es divertido y simpático.,הכלב מצחיק ונחמד.,intermediate,adjectives
+s000089,Mi hermana es tímida pero muy curiosa.,אחותי ביישנית אבל מאוד סקרנית.,intermediate,adjectives
+s000090,Necesitamos ser pacientes con los nuevos estudiantes.,אנחנו צריכים להיות סבלניים עם התלמידים החדשים.,intermediate,adjectives
+s000091,Es una persona honesta y cariñosa.,היא אדם ישר וחם.,intermediate,adjectives
+s000092,Normalmente me levanto a las seis y media.,בדרך כלל אני קם בשש וחצי.,intermediate,home_routine
+s000093,"Después de desayunar, voy al trabajo.","אחרי ארוחת הבוקר, אני הולך לעבודה.",intermediate,home_routine
+s000094,Limpio la cocina todos los días.,אני מנקה את המטבח כל יום.,intermediate,home_routine
+s000095,Me acuesto tarde los fines de semana.,אני הולך לישון מאוחר בסופי שבוע.,intermediate,home_routine
+s000096,Mi horario de trabajo es muy flexible.,לוח הזמנים שלי בעבודה מאוד גמיש.,intermediate,home_routine
+s000097,Me visto y desayuno antes de salir de casa.,אני מתלבש ואוכל ארוחת בוקר לפני שאני יוצא מהבית.,intermediate,home_routine
+s000098,¿Quién lava los platos hoy?,מי שוטף כלים היום?,intermediate,home_routine
+s000099,Los fines de semana me gusta descansar en casa.,בסופי השבוע אני אוהב לנוח בבית.,intermediate,home_routine
+s000100,Mi jefe convocó una reunión urgente.,הבוס שלי כינס ישיבה דחופה.,intermediate,work_professions
+s000101,La empresa quiere contratar dos ingenieros.,החברה רוצה לגייס שני מהנדסים.,intermediate,work_professions
+s000102,El médico trabaja doce horas al día.,הרופא עובד שתים עשרה שעות ביום.,intermediate,work_professions
+s000103,Ella renunció porque encontró otro trabajo.,היא התפטרה כי מצאה עבודה אחרת.,intermediate,work_professions
+s000104,El sueldo no es suficiente para vivir aquí.,המשכורת לא מספיקה כדי לחיות כאן.,intermediate,work_professions
+s000105,Tengo una entrevista de trabajo el lunes.,יש לי ראיון עבודה ביום שני.,intermediate,work_professions
+s000106,El vendedor me ayudó a elegir el regalo.,המוכר עזר לי לבחור את המתנה.,intermediate,work_professions
+s000107,Envié mi currículum a varias empresas.,שלחתי את קורות החיים שלי לכמה חברות.,intermediate,work_professions
+s000108,Gira a la izquierda en la esquina.,פנה שמאלה בפינה.,intermediate,directions
+s000109,¿Cómo llego a la estación de tren?,איך אני מגיע לתחנת הרכבת?,intermediate,directions
+s000110,Sigue todo recto y verás el semáforo.,המשך ישר ותראה את הרמזור.,intermediate,directions
+s000111,El metro está muy cerca de mi casa.,הרכבת התחתית מאוד קרובה לבית שלי.,intermediate,directions
+s000112,Tomamos el autobús para ir al centro.,אנחנו נוסעים באוטובוס למרכז העיר.,intermediate,directions
+s000113,Nos perdimos buscando la estación de tren.,הלכנו לאיבוד בחיפוש אחר תחנת הרכבת.,intermediate,directions
+s000114,El museo está al lado del parque.,המוזיאון נמצא ליד הפארק.,intermediate,directions
+s000115,Compré el billete de tren con antelación.,קניתי את כרטיס הרכבת מראש.,intermediate,directions
+s000116,Nuestro vuelo tuvo un retraso de tres horas.,לטיסה שלנו היה עיכוב של שלוש שעות.,intermediate,travel
+s000117,Perdimos la conexión por culpa del retraso.,פספסנו את טיסת ההמשך בגלל העיכוב.,intermediate,travel
+s000118,Voy a quejarme en la recepción del hotel.,אני הולך להתלונן בקבלה של המלון.,intermediate,travel
+s000119,Alquilamos un coche para recorrer la costa.,שכרנו רכב כדי לסייר לאורך החוף.,intermediate,travel
+s000120,Cancelaron el vuelo debido a una tormenta.,הם ביטלו את הטיסה בגלל סופה.,intermediate,travel
+s000121,Me siento muy feliz cuando estoy con mi familia.,אני מרגיש מאוד שמח כשאני עם המשפחה שלי.,intermediate,emotions
+s000122,Ella está triste porque su amigo se fue.,היא עצובה כי החבר שלה עזב.,intermediate,emotions
+s000123,¿Por qué estás tan nervioso hoy?,למה אתה כל כך לחוץ היום?,intermediate,emotions
+s000124,Estamos emocionados por empezar el nuevo trabajo.,אנחנו נרגשים להתחיל בעבודה החדשה.,intermediate,emotions
+s000125,Mi padre está muy orgulloso de mis notas.,אבא שלי מאוד גאה בציונים שלי.,intermediate,emotions
+s000126,"No tengas miedo, todo va a salir bien.","אל תפחד, הכל יסתדר.",intermediate,emotions
+s000127,"Después de dormir bien, me siento tranquilo.","אחרי שינה טובה, אני מרגיש רגוע.",intermediate,emotions
+s000128,"Perdón, ¿puedes repetir la pregunta?","סליחה, אתה יכול לחזור על השאלה?",intermediate,daily_conversations
+s000129,"Estoy de acuerdo contigo, es una buena idea.","אני מסכים איתך, זה רעיון טוב.",intermediate,daily_conversations
+s000130,"No hay problema, podemos hacerlo mañana.","אין בעיה, נוכל לעשות את זה מחר.",intermediate,daily_conversations
+s000131,"En mi opinión, deberíamos esperar un poco más.","לדעתי, כדאי שנחכה עוד קצת.",intermediate,daily_conversations
+s000132,¿Me puedes ayudar a entender esto?,אתה יכול לעזור לי להבין את זה?,intermediate,daily_conversations
+s000133,"Tienes razón, no pensé en eso.","אתה צודק, לא חשבתי על זה.",intermediate,daily_conversations
+s000134,"Por cierto, ¿sabes cómo se dice esto en español?","דרך אגב, אתה יודע איך אומרים את זה בספרדית?",intermediate,daily_conversations
+s000135,Quiero aprender a cocinar comida española.,אני רוצה ללמוד לבשל אוכל ספרדי.,intermediate,common_verbs_2
+s000136,No puedo encontrar mis llaves esta mañana.,אני לא יכול למצוא את המפתחות שלי הבוקר.,intermediate,common_verbs_2
+s000137,¿Conoces un buen restaurante cerca de aquí?,אתה מכיר מסעדה טובה קרוב לכאן?,intermediate,common_verbs_2
+s000138,Necesito ayuda para terminar este proyecto.,אני צריך עזרה כדי לסיים את הפרויקט הזה.,intermediate,common_verbs_2
+s000139,Ella siempre pregunta muchas cosas en clase.,היא תמיד שואלת הרבה דברים בשיעור.,intermediate,common_verbs_2
+s000140,Vamos a empezar la reunión a las diez.,אנחנו הולכים להתחיל את הפגישה בעשר.,intermediate,common_verbs_2
+s000141,¿Me puedes dar tu número de teléfono?,אתה יכול לתת לי את מספר הטלפון שלך?,intermediate,common_verbs_2
+s000142,La junta directiva aprobó el nuevo presupuesto.,הדירקטוריון אישר את התקציב החדש.,advanced,business_vocab
+s000143,Firmamos el contrato después de una larga negociación.,חתמנו על החוזה אחרי משא ומתן ארוך.,advanced,business_vocab
+s000144,Los accionistas exigen mayores beneficios.,בעלי המניות דורשים רווחים גדולים יותר.,advanced,business_vocab
+s000145,Nuestra estrategia debe considerar al competidor.,האסטרטגיה שלנו חייבת להתחשב במתחרה.,advanced,business_vocab
+s000146,La fusión creará la empresa más grande del sector.,המיזוג ייצור את החברה הגדולה ביותר בענף.,advanced,business_vocab
+s000147,El margen de beneficio mejoró gracias a la nueva estrategia.,שולי הרווח השתפרו הודות לאסטרטגיה החדשה.,advanced,business_vocab
+s000148,La cadena de suministro global sigue afectada por la crisis.,שרשרת האספקה הגלובלית עדיין מושפעת מהמשבר.,advanced,business_vocab
+s000149,Necesitamos cumplir con el plazo de entrega.,אנחנו צריכים לעמוד במועד האספקה.,advanced,business_vocab
+s000150,Espero que tengas un buen día.,אני מקווה שיהיה לך יום טוב.,advanced,subjuntivo
+s000151,Es importante que lleguemos a tiempo.,חשוב שנגיע בזמן.,advanced,subjuntivo
+s000152,Dudo que el proyecto termine este mes.,אני מסופק שהפרויקט יסתיים החודש.,advanced,subjuntivo
+s000153,"Aunque sea complicado, vamos a intentarlo.","למרות שזה מסובך, אנחנו הולכים לנסות.",advanced,subjuntivo
+s000154,"Si tuviera más dinero, compraría una casa.","אם היה לי יותר כסף, הייתי קונה בית.",advanced,subjuntivo
+s000155,Me alegra que hayas venido a la reunión.,אני שמח שבאת לישיבה.,advanced,subjuntivo
+s000156,Es posible que el vuelo se retrase.,ייתכן והטיסה תתעכב.,advanced,subjuntivo
+s000157,No saldremos hasta que termines de estudiar.,לא נצא עד שתסיים ללמוד.,advanced,subjuntivo
+s000158,El nuevo teléfono cuesta un ojo de la cara.,הטלפון החדש עולה הון תועפות.,advanced,idioms
+s000159,Metí la pata cuando llamé al cliente por otro nombre.,עשיתי טעות מביכה כשקראתי ללקוח בשם אחר.,advanced,idioms
+s000160,Tienes que ponerte las pilas antes del examen.,אתה צריך להתעורר לפעולה לפני המבחן.,advanced,idioms
+s000161,"Para ella, el proyecto fue pan comido.","בשבילה, הפרויקט היה קלי קלות.",advanced,idioms
+s000162,"Con su comentario, dio en el clavo.","עם ההערה שלו, הוא פגע בול.",advanced,idioms
+s000163,¿Puedes echarme una mano con las maletas?,אתה יכול לעזור לי עם המזוודות?,advanced,idioms
+s000164,Estoy hasta las narices de tantas reuniones.,נמאס לי מכל כך הרבה ישיבות.,advanced,idioms
+s000165,Se me fue el santo al cielo y no llamé al cliente.,שכחתי לגמרי ולא התקשרתי ללקוח.,advanced,idioms
+s000166,"Cuando era joven, viajaba mucho por Europa.","כשהייתי צעיר, נסעתי הרבה באירופה.",advanced,past_tenses
+s000167,Estaba durmiendo cuando sonó el teléfono.,ישנתי כשהטלפון צלצל.,advanced,past_tenses
+s000168,"De repente, todos empezaron a aplaudir.","לפתע, כולם התחילו למחוא כפיים.",advanced,past_tenses
+s000169,"Mientras trabajaba, recibí una llamada importante.","בזמן שעבדתי, קיבלתי שיחה חשובה.",advanced,past_tenses
+s000170,Una vez conocí a un actor famoso.,פעם אחת פגשתי שחקן מפורסם.,advanced,past_tenses
+s000171,"Cuando llegamos al cine, la película ya había empezado.","כשהגענו לקולנוע, הסרט כבר התחיל.",advanced,past_tenses
+s000172,"De pequeño, solía pasar los veranos con mis abuelos.","כשהייתי קטן, נהגתי לבלות את הקיץ עם הסבים שלי.",advanced,past_tenses
+s000173,Llevaba media hora esperando el autobús.,כבר חיכיתי חצי שעה לאוטובוס.,advanced,past_tenses
+s000174,"Estimado señor López, le escribo para confirmar la reunión.","לכבוד מר לופז, אני כותב כדי לאשר את הפגישה.",advanced,formal_writing
+s000175,Adjunto encontrará el contrato firmado.,מצורף בזאת החוזה החתום.,advanced,formal_writing
+s000176,Lamento informarle que el proyecto se retrasó.,אני מצטער להודיע שהפרויקט התעכב.,advanced,formal_writing
+s000177,Quedo a la espera de su respuesta. Atentamente.,אני ממתין לתשובתך. בברכה.,advanced,formal_writing
+s000178,"En referencia a su solicitud, adjunto el informe.","בהתייחס לבקשתך, מצורף הדוח.",advanced,formal_writing
+s000179,Le agradezco de antemano su pronta respuesta.,תודה מראש על תשובתך המהירה.,advanced,formal_writing
+s000180,Rogamos disculpe las molestias que esto pueda causar.,אנא סלח על אי הנוחות שזה עלול לגרום.,advanced,formal_writing
+s000181,Le informo que el pedido llegará la próxima semana.,אני מודיע לך שההזמנה תגיע בשבוע הבא.,advanced,formal_writing
+s000182,"En mi opinión, deberíamos cambiar la estrategia.","לדעתי, כדאי שנשנה את האסטרטגיה.",advanced,news_opinions
+s000183,"Según los expertos, la situación va a mejorar.","לפי המומחים, המצב הולך להשתפר.",advanced,news_opinions
+s000184,"Por un lado quiero viajar, por otro lado necesito ahorrar.","מצד אחד אני רוצה לטייל, מצד שני אני צריך לחסוך.",advanced,news_opinions
+s000185,El titular de la noticia generó mucha polémica.,כותרת החדשות יצרה הרבה מחלוקת.,advanced,news_opinions
+s000186,"Al fin y al cabo, decidimos no debatir más.","בסופו של דבר, החלטנו לא להתווכח יותר.",advanced,news_opinions
+s000187,"Desde mi punto de vista, deberíamos esperar más información.","מנקודת מבטי, כדאי שנחכה למידע נוסף.",advanced,news_opinions
+s000188,Cabe destacar que las cifras mejoraron este año.,ראוי לציין שהנתונים השתפרו השנה.,advanced,news_opinions
+s000189,"Sin lugar a dudas, este cambio afectará a todos.","ללא ספק, השינוי הזה ישפיע על כולם.",advanced,news_opinions
+s000190,Mi viaje de negocios incluye una escala en Lisboa.,נסיעת העסקים שלי כוללת עצירת ביניים בליסבון.,advanced,travel
+s000191,Tuvimos que reprogramar el vuelo debido a una huelga.,היינו צריכים לתזמן מחדש את הטיסה בגלל שביתה.,advanced,travel
+s000192,Todavía siento el jet lag después de cruzar tantos husos horarios.,אני עדיין מרגיש ג'ט לג אחרי שחציתי כל כך הרבה אזורי זמן.,advanced,travel
+s000193,La empresa cubre el alojamiento y las dietas del viaje.,"החברה מכסה את הלינה ואת דמי האש""ל של הנסיעה.",advanced,travel
+s000194,Necesitas un visado y seguro médico para este país.,אתה צריך ויזה וביטוח בריאות למדינה הזו.,advanced,travel
+s000195,La libertad y la justicia son valores fundamentales.,החירות והצדק הם ערכים יסודיים.,advanced,advanced_vocab
+s000196,Esta oportunidad representa un gran desafío para nosotros.,ההזדמנות הזו מייצגת אתגר גדול בשבילנו.,advanced,advanced_vocab
+s000197,Su mayor logro fue superar la incertidumbre del momento.,ההישג הגדול ביותר שלו היה להתגבר על אי הוודאות של הרגע.,advanced,advanced_vocab
+s000198,La empatía y la responsabilidad son clave en el liderazgo.,האמפתיה והאחריות הן מפתח במנהיגות.,advanced,advanced_vocab
+s000199,Cambiar de perspectiva ayuda a entender mejor la situación.,שינוי נקודת מבט עוזר להבין טוב יותר את המצב.,advanced,advanced_vocab
+s000200,La sostenibilidad se ha convertido en una prioridad global.,הקיימות הפכה לעדיפות עולמית.,advanced,advanced_vocab
+s000201,Su integridad y sabiduría lo hacen un gran líder.,היושרה והחוכמה שלו הופכים אותו למנהיג גדול.,advanced,advanced_vocab
+s000202,"Al fin y al cabo, decidimos ponernos las pilas y terminar el proyecto.","בסופו של דבר, החלטנו להתאמץ ולסיים את הפרויקט.",advanced,natural_expressions
+s000203,"No te hagas el tonto, sé que metiste la pata.","אל תעמיד פני טיפש, אני יודע שעשית טעות מביכה.",advanced,natural_expressions
+s000204,"Este examen está chupado, va a ser pan comido.","המבחן הזה קלי קלות, זה יהיה עניין של מה בכך.",advanced,natural_expressions
+s000205,¿Me puedes echar una mano? Estoy sin blanca este mes.,אתה יכול לתת לי יד? אני בלי פרוטה החודש.,advanced,natural_expressions
+s000206,"Diste en el clavo, esa es exactamente la solución.","פגעת בול, זה בדיוק הפתרון.",advanced,natural_expressions
+s000207,"Perdón, estaba en las nubes, ¿qué decías?","סליחה, הייתי מרוחק בראש, מה אמרת?",advanced,natural_expressions
+s000208,Yo soy de Israel y tú eres de España.,אני מישראל ואתה מספרד.,grammar,pronouns
+s000209,Nosotros vamos al cine esta noche.,אנחנו הולכים לקולנוע הלילה.,grammar,pronouns
+s000210,¿Ustedes hablan inglés?,אתם מדברים אנגלית?,grammar,pronouns
+s000211,Ella y él son hermanos.,היא והוא אחים.,grammar,pronouns
+s000212,Vosotros sois muy simpáticos.,אתם מאוד נחמדים.,grammar,pronouns
+s000213,Quiero ser profesor de español algún día.,אני רוצה להיות מורה לספרדית יום אחד.,grammar,common_verbs
+s000214,¿Puedes hacer esto por mí?,אתה יכול לעשות את זה בשבילי?,grammar,common_verbs
+s000215,Vamos a ver una película esta noche.,אנחנו הולכים לראות סרט הלילה.,grammar,common_verbs
+s000216,No sé qué decir en esta situación.,אני לא יודע מה לומר במצב הזה.,grammar,common_verbs
+s000217,Ellos van a dar una fiesta el sábado.,הם הולכים לתת מסיבה בשבת.,grammar,common_verbs
+s000218,"Yo hablo español, como tapas y vivo en Madrid.","אני מדבר ספרדית, אוכל טאפאס וגר במדריד.",grammar,basic_conjugation
+s000219,"¿Tú hablas, comes o vives aquí?","אתה מדבר, אוכל או גר כאן?",grammar,basic_conjugation
+s000220,"Nosotros hablamos, comemos y vivimos juntos.","אנחנו מדברים, אוכלים וגרים ביחד.",grammar,basic_conjugation
+s000221,Ellos hablan inglés y viven en Londres.,הם מדברים אנגלית וגרים בלונדון.,grammar,basic_conjugation
+s000222,Ella come temprano y luego habla con sus amigas.,היא אוכלת מוקדם ואז מדברת עם החברות שלה.,grammar,basic_conjugation

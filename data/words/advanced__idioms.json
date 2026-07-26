@@ -1,0 +1,153 @@
+{
+  "levelId": "advanced",
+  "topicId": "idioms",
+  "vocab": [
+    {
+      "id": "w000331",
+      "es": "Costar un ojo de la cara",
+      "he": "לעלות הון תועפות",
+      "ex_es": "Este coche cuesta un ojo de la cara.",
+      "ex_he": "המכונית הזו עולה הון תועפות."
+    },
+    {
+      "id": "w000332",
+      "es": "Estar en las nubes",
+      "he": "להיות מפוזר/בעננים",
+      "ex_es": "Hoy estás en las nubes.",
+      "ex_he": "היום אתה בעננים."
+    },
+    {
+      "id": "w000333",
+      "es": "Tomar el pelo",
+      "he": "לעבוד על מישהו/להתל",
+      "ex_es": "¿Me estás tomando el pelo?",
+      "ex_he": "אתה עובד עליי?"
+    },
+    {
+      "id": "w000334",
+      "es": "Ser pan comido",
+      "he": "להיות קלי קלות (משימה)",
+      "ex_es": "El examen fue pan comido.",
+      "ex_he": "המבחן היה קלי קלות."
+    },
+    {
+      "id": "w000335",
+      "es": "Meter la pata",
+      "he": "לעשות טעות מביכה",
+      "ex_es": "Metí la pata en la reunión.",
+      "ex_he": "עשיתי טעות מביכה בישיבה."
+    },
+    {
+      "id": "w000336",
+      "es": "No tener pelos en la lengua",
+      "he": "לומר דברים כפי שהם, בלי לעטוף",
+      "ex_es": "Ella no tiene pelos en la lengua.",
+      "ex_he": "היא אומרת הכל בלי כחל וסרק."
+    },
+    {
+      "id": "w000337",
+      "es": "Dar en el clavo",
+      "he": "לפגוע בול",
+      "ex_es": "Con esa idea diste en el clavo.",
+      "ex_he": "עם הרעיון הזה פגעת בול."
+    },
+    {
+      "id": "w000338",
+      "es": "Estar como una cabra",
+      "he": "להיות משוגע/מוזר",
+      "ex_es": "Mi vecino está como una cabra.",
+      "ex_he": "השכן שלי משוגע."
+    },
+    {
+      "id": "w000339",
+      "es": "Ponerse las pilas",
+      "he": "להתאמץ/להתעורר לפעולה",
+      "ex_es": "¡Ponte las pilas y trabaja!",
+      "ex_he": "תתעורר ותעבוד!"
+    },
+    {
+      "id": "w000340",
+      "es": "A otro perro con ese hueso",
+      "he": "ספר לזה עוד סיפור (ביטוי ספקנות)",
+      "ex_es": "No te creo, a otro perro con ese hueso.",
+      "ex_he": "אני לא מאמין לך, ספר את זה למישהו אחר."
+    },
+    {
+      "id": "w000341",
+      "es": "Echar una mano",
+      "he": "לעזור (להושיט יד)",
+      "ex_es": "¿Puedes echarme una mano con esto?",
+      "ex_he": "אתה יכול לעזור לי עם זה?"
+    },
+    {
+      "id": "w000342",
+      "es": "Estar hasta las narices",
+      "he": "להיות נמאס לגמרי",
+      "ex_es": "Estoy hasta las narices de este proyecto.",
+      "ex_he": "נמאס לי מהפרויקט הזה."
+    },
+    {
+      "id": "w000343",
+      "es": "Ser la gota que colma el vaso",
+      "he": "להיות הקש ששבר את גב הגמל",
+      "ex_es": "Este error fue la gota que colmó el vaso.",
+      "ex_he": "הטעות הזו הייתה הקש ששבר את גב הגמל."
+    },
+    {
+      "id": "w000344",
+      "es": "Hablar por los codos",
+      "he": "לדבר בלי הפסקה",
+      "ex_es": "Mi vecina habla por los codos.",
+      "ex_he": "השכנה שלי מדברת בלי הפסקה."
+    },
+    {
+      "id": "w000345",
+      "es": "Írsele el santo al cielo",
+      "he": "לשכוח משהו לגמרי",
+      "ex_es": "Se me fue el santo al cielo y olvidé la reunión.",
+      "ex_he": "שכחתי לגמרי ונשכחה לי הישיבה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000158",
+      "es": "El nuevo teléfono cuesta un ojo de la cara.",
+      "he": "הטלפון החדש עולה הון תועפות."
+    },
+    {
+      "id": "s000159",
+      "es": "Metí la pata cuando llamé al cliente por otro nombre.",
+      "he": "עשיתי טעות מביכה כשקראתי ללקוח בשם אחר."
+    },
+    {
+      "id": "s000160",
+      "es": "Tienes que ponerte las pilas antes del examen.",
+      "he": "אתה צריך להתעורר לפעולה לפני המבחן."
+    },
+    {
+      "id": "s000161",
+      "es": "Para ella, el proyecto fue pan comido.",
+      "he": "בשבילה, הפרויקט היה קלי קלות."
+    },
+    {
+      "id": "s000162",
+      "es": "Con su comentario, dio en el clavo.",
+      "he": "עם ההערה שלו, הוא פגע בול."
+    },
+    {
+      "id": "s000163",
+      "es": "¿Puedes echarme una mano con las maletas?",
+      "he": "אתה יכול לעזור לי עם המזוודות?"
+    },
+    {
+      "id": "s000164",
+      "es": "Estoy hasta las narices de tantas reuniones.",
+      "he": "נמאס לי מכל כך הרבה ישיבות."
+    },
+    {
+      "id": "s000165",
+      "es": "Se me fue el santo al cielo y no llamé al cliente.",
+      "he": "שכחתי לגמרי ולא התקשרתי ללקוח."
+    }
+  ]
+}

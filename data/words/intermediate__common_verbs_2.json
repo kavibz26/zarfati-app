@@ -1,0 +1,169 @@
+{
+  "levelId": "intermediate",
+  "topicId": "common_verbs_2",
+  "vocab": [
+    {
+      "id": "w000283",
+      "es": "Querer",
+      "he": "לרצות",
+      "ex_es": "Quiero aprender español.",
+      "ex_he": "אני רוצה ללמוד ספרדית."
+    },
+    {
+      "id": "w000284",
+      "es": "Poder",
+      "he": "להיות מסוגל / יכול",
+      "ex_es": "No puedo venir hoy.",
+      "ex_he": "אני לא יכול לבוא היום."
+    },
+    {
+      "id": "w000285",
+      "es": "Saber",
+      "he": "לדעת",
+      "ex_es": "No sé la respuesta.",
+      "ex_he": "אני לא יודע את התשובה."
+    },
+    {
+      "id": "w000286",
+      "es": "Conocer",
+      "he": "להכיר",
+      "ex_es": "Conozco a tu hermana.",
+      "ex_he": "אני מכיר את אחותך."
+    },
+    {
+      "id": "w000287",
+      "es": "Pensar",
+      "he": "לחשוב",
+      "ex_es": "Pienso que tienes razón.",
+      "ex_he": "אני חושב שאתה צודק."
+    },
+    {
+      "id": "w000288",
+      "es": "Sentir",
+      "he": "להרגיש",
+      "ex_es": "Siento mucho dolor en la pierna.",
+      "ex_he": "אני מרגיש הרבה כאב ברגל."
+    },
+    {
+      "id": "w000289",
+      "es": "Buscar",
+      "he": "לחפש",
+      "ex_es": "Estoy buscando mis llaves.",
+      "ex_he": "אני מחפש את המפתחות שלי."
+    },
+    {
+      "id": "w000290",
+      "es": "Encontrar",
+      "he": "למצוא",
+      "ex_es": "Encontré mi teléfono en el sofá.",
+      "ex_he": "מצאתי את הטלפון שלי בספה."
+    },
+    {
+      "id": "w000291",
+      "es": "Llevar",
+      "he": "לשאת / ללבוש",
+      "ex_es": "Llevo una chaqueta roja.",
+      "ex_he": "אני לובש ז'קט אדום."
+    },
+    {
+      "id": "w000292",
+      "es": "Dejar",
+      "he": "להשאיר / לעזוב",
+      "ex_es": "Dejé mis libros en la escuela.",
+      "ex_he": "השארתי את הספרים שלי בבית ספר."
+    },
+    {
+      "id": "w000293",
+      "es": "Preguntar",
+      "he": "לשאול",
+      "ex_es": "Voy a preguntar al profesor.",
+      "ex_he": "אני הולך לשאול את המורה."
+    },
+    {
+      "id": "w000294",
+      "es": "Responder / Contestar",
+      "he": "לענות",
+      "ex_es": "No respondió a mi mensaje.",
+      "ex_he": "הוא לא ענה להודעה שלי."
+    },
+    {
+      "id": "w000295",
+      "es": "Necesitar",
+      "he": "להזדקק / לצטרך",
+      "ex_es": "Necesito más tiempo.",
+      "ex_he": "אני צריך יותר זמן."
+    },
+    {
+      "id": "w000296",
+      "es": "Dar",
+      "he": "לתת",
+      "ex_es": "Voy a dar un regalo a mi madre.",
+      "ex_he": "אני הולך לתת מתנה לאמא שלי."
+    },
+    {
+      "id": "w000297",
+      "es": "Tomar",
+      "he": "לקחת / לשתות",
+      "ex_es": "Voy a tomar un café.",
+      "ex_he": "אני הולך לשתות קפה."
+    },
+    {
+      "id": "w000298",
+      "es": "Ayudar",
+      "he": "לעזור",
+      "ex_es": "¿Puedes ayudarme con la tarea?",
+      "ex_he": "אתה יכול לעזור לי עם שיעורי הבית?"
+    },
+    {
+      "id": "w000299",
+      "es": "Empezar",
+      "he": "להתחיל",
+      "ex_es": "La clase empieza a las nueve.",
+      "ex_he": "השיעור מתחיל בתשע."
+    },
+    {
+      "id": "w000300",
+      "es": "Terminar",
+      "he": "לסיים",
+      "ex_es": "Terminé mi trabajo temprano.",
+      "ex_he": "סיימתי את העבודה שלי מוקדם."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000135",
+      "es": "Quiero aprender a cocinar comida española.",
+      "he": "אני רוצה ללמוד לבשל אוכל ספרדי."
+    },
+    {
+      "id": "s000136",
+      "es": "No puedo encontrar mis llaves esta mañana.",
+      "he": "אני לא יכול למצוא את המפתחות שלי הבוקר."
+    },
+    {
+      "id": "s000137",
+      "es": "¿Conoces un buen restaurante cerca de aquí?",
+      "he": "אתה מכיר מסעדה טובה קרוב לכאן?"
+    },
+    {
+      "id": "s000138",
+      "es": "Necesito ayuda para terminar este proyecto.",
+      "he": "אני צריך עזרה כדי לסיים את הפרויקט הזה."
+    },
+    {
+      "id": "s000139",
+      "es": "Ella siempre pregunta muchas cosas en clase.",
+      "he": "היא תמיד שואלת הרבה דברים בשיעור."
+    },
+    {
+      "id": "s000140",
+      "es": "Vamos a empezar la reunión a las diez.",
+      "he": "אנחנו הולכים להתחיל את הפגישה בעשר."
+    },
+    {
+      "id": "s000141",
+      "es": "¿Me puedes dar tu número de teléfono?",
+      "he": "אתה יכול לתת לי את מספר הטלפון שלך?"
+    }
+  ]
+}

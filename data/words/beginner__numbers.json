@@ -1,0 +1,167 @@
+{
+  "levelId": "beginner",
+  "topicId": "numbers",
+  "vocab": [
+    {
+      "id": "w000018",
+      "es": "Cero",
+      "he": "אפס",
+      "ex_es": "Empezamos desde cero.",
+      "ex_he": "אנחנו מתחילים מאפס."
+    },
+    {
+      "id": "w000019",
+      "es": "Uno",
+      "he": "אחת",
+      "ex_es": "Tengo un hermano.",
+      "ex_he": "יש לי אח אחד."
+    },
+    {
+      "id": "w000020",
+      "es": "Dos",
+      "he": "שתיים",
+      "ex_es": "Dos cafés, por favor.",
+      "ex_he": "שני קפה, בבקשה."
+    },
+    {
+      "id": "w000021",
+      "es": "Cinco",
+      "he": "חמש",
+      "ex_es": "Son las cinco.",
+      "ex_he": "השעה חמש."
+    },
+    {
+      "id": "w000022",
+      "es": "Diez",
+      "he": "עשר",
+      "ex_es": "Tengo diez años.",
+      "ex_he": "אני בן עשר."
+    },
+    {
+      "id": "w000023",
+      "es": "Veinte",
+      "he": "עשרים",
+      "ex_es": "Veinte estudiantes.",
+      "ex_he": "עשרים תלמידים."
+    },
+    {
+      "id": "w000024",
+      "es": "Treinta",
+      "he": "שלושים",
+      "ex_es": "Treinta minutos.",
+      "ex_he": "שלושים דקות."
+    },
+    {
+      "id": "w000025",
+      "es": "Cien",
+      "he": "מאה",
+      "ex_es": "Cuesta cien euros.",
+      "ex_he": "זה עולה מאה יורו."
+    },
+    {
+      "id": "w000026",
+      "es": "¿Qué hora es?",
+      "he": "מה השעה?",
+      "ex_es": "¿Qué hora es ahora?",
+      "ex_he": "מה השעה עכשיו?"
+    },
+    {
+      "id": "w000027",
+      "es": "La hora",
+      "he": "השעה",
+      "ex_es": "Llegó a la hora.",
+      "ex_he": "הוא הגיע בזמן."
+    },
+    {
+      "id": "w000028",
+      "es": "El minuto",
+      "he": "הדקה",
+      "ex_es": "Espera un minuto.",
+      "ex_he": "חכה דקה."
+    },
+    {
+      "id": "w000029",
+      "es": "Media hora",
+      "he": "חצי שעה",
+      "ex_es": "Falta media hora.",
+      "ex_he": "נשארה חצי שעה."
+    },
+    {
+      "id": "w000030",
+      "es": "Seis",
+      "he": "שש",
+      "ex_es": "Tengo seis libros.",
+      "ex_he": "יש לי שישה ספרים."
+    },
+    {
+      "id": "w000031",
+      "es": "Siete",
+      "he": "שבע",
+      "ex_es": "Son las siete y media.",
+      "ex_he": "השעה שבע וחצי."
+    },
+    {
+      "id": "w000032",
+      "es": "Ocho",
+      "he": "שמונה",
+      "ex_es": "Hay ocho personas aquí.",
+      "ex_he": "יש כאן שמונה אנשים."
+    },
+    {
+      "id": "w000033",
+      "es": "Cuarenta",
+      "he": "ארבעים",
+      "ex_es": "Mi madre tiene cuarenta años.",
+      "ex_he": "אמא שלי בת ארבעים."
+    },
+    {
+      "id": "w000034",
+      "es": "Un cuarto de hora",
+      "he": "רבע שעה",
+      "ex_es": "Llego en un cuarto de hora.",
+      "ex_he": "אני מגיע בעוד רבע שעה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000009",
+      "es": "Son las diez de la mañana.",
+      "he": "השעה עשר בבוקר."
+    },
+    {
+      "id": "s000010",
+      "es": "Tengo veinte años.",
+      "he": "אני בת עשרים."
+    },
+    {
+      "id": "s000011",
+      "es": "Espera cinco minutos, por favor.",
+      "he": "חכה חמש דקות, בבקשה."
+    },
+    {
+      "id": "s000012",
+      "es": "¿Qué hora es ahora?",
+      "he": "מה השעה עכשיו?"
+    },
+    {
+      "id": "s000013",
+      "es": "Cuesta treinta euros.",
+      "he": "זה עולה שלושים יורו."
+    },
+    {
+      "id": "s000014",
+      "es": "Tengo cuarenta euros en el bolsillo.",
+      "he": "יש לי ארבעים יורו בכיס."
+    },
+    {
+      "id": "s000015",
+      "es": "La reunión empieza en un cuarto de hora.",
+      "he": "הישיבה מתחילה בעוד רבע שעה."
+    },
+    {
+      "id": "s000016",
+      "es": "Son las ocho y cinco.",
+      "he": "השעה שמונה וחמש."
+    }
+  ]
+}

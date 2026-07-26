@@ -1,0 +1,117 @@
+{
+  "levelId": "grammar",
+  "topicId": "common_verbs",
+  "vocab": [
+    {
+      "id": "w000447",
+      "es": "Ser",
+      "he": "להיות (זהות/תכונה)",
+      "ex_es": "Quiero ser médico.",
+      "ex_he": "אני רוצה להיות רופא."
+    },
+    {
+      "id": "w000448",
+      "es": "Estar",
+      "he": "להיות (מצב/מיקום)",
+      "ex_es": "Necesito estar tranquilo.",
+      "ex_he": "אני צריך להיות רגוע."
+    },
+    {
+      "id": "w000449",
+      "es": "Tener",
+      "he": "יש ל...",
+      "ex_es": "Voy a tener una reunión.",
+      "ex_he": "יהיה לי ישיבה."
+    },
+    {
+      "id": "w000450",
+      "es": "Hacer",
+      "he": "לעשות",
+      "ex_es": "Tengo que hacer la tarea.",
+      "ex_he": "אני צריך לעשות שיעורי בית."
+    },
+    {
+      "id": "w000451",
+      "es": "Ir",
+      "he": "ללכת",
+      "ex_es": "Vamos a ir a la playa.",
+      "ex_he": "אנחנו הולכים ללכת לחוף הים."
+    },
+    {
+      "id": "w000452",
+      "es": "Poder",
+      "he": "להיות מסוגל / יכול",
+      "ex_es": "No puedo venir mañana.",
+      "ex_he": "אני לא יכול לבוא מחר."
+    },
+    {
+      "id": "w000453",
+      "es": "Querer",
+      "he": "לרצות",
+      "ex_es": "Quiero aprender español.",
+      "ex_he": "אני רוצה ללמוד ספרדית."
+    },
+    {
+      "id": "w000454",
+      "es": "Decir",
+      "he": "לומר",
+      "ex_es": "Voy a decir la verdad.",
+      "ex_he": "אני הולך לומר את האמת."
+    },
+    {
+      "id": "w000455",
+      "es": "Ver",
+      "he": "לראות",
+      "ex_es": "Quiero ver esa película.",
+      "ex_he": "אני רוצה לראות את הסרט הזה."
+    },
+    {
+      "id": "w000456",
+      "es": "Dar",
+      "he": "לתת",
+      "ex_es": "Voy a dar un regalo.",
+      "ex_he": "אני הולך לתת מתנה."
+    },
+    {
+      "id": "w000457",
+      "es": "Saber",
+      "he": "לדעת",
+      "ex_es": "No sé la respuesta.",
+      "ex_he": "אני לא יודע את התשובה."
+    },
+    {
+      "id": "w000458",
+      "es": "Hablar",
+      "he": "לדבר",
+      "ex_es": "Me gusta hablar español.",
+      "ex_he": "אני אוהב לדבר ספרדית."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000213",
+      "es": "Quiero ser profesor de español algún día.",
+      "he": "אני רוצה להיות מורה לספרדית יום אחד."
+    },
+    {
+      "id": "s000214",
+      "es": "¿Puedes hacer esto por mí?",
+      "he": "אתה יכול לעשות את זה בשבילי?"
+    },
+    {
+      "id": "s000215",
+      "es": "Vamos a ver una película esta noche.",
+      "he": "אנחנו הולכים לראות סרט הלילה."
+    },
+    {
+      "id": "s000216",
+      "es": "No sé qué decir en esta situación.",
+      "he": "אני לא יודע מה לומר במצב הזה."
+    },
+    {
+      "id": "s000217",
+      "es": "Ellos van a dar una fiesta el sábado.",
+      "he": "הם הולכים לתת מסיבה בשבת."
+    }
+  ]
+}

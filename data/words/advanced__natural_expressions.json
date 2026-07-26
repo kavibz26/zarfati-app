@@ -1,0 +1,150 @@
+{
+  "levelId": "advanced",
+  "topicId": "natural_expressions",
+  "vocab": [
+    {
+      "id": "w000421",
+      "es": "Ni hablar",
+      "he": "בשום אופן / אין מצב",
+      "ex_es": "¿Ir sin ti? ¡Ni hablar!",
+      "ex_he": "ללכת בלעדיך? אין מצב!"
+    },
+    {
+      "id": "w000422",
+      "es": "Qué va",
+      "he": "ממש לא / בכלל לא",
+      "ex_es": "¿Estás enojado? ¡Qué va!",
+      "ex_he": "אתה כועס? ממש לא!"
+    },
+    {
+      "id": "w000423",
+      "es": "Está chupado",
+      "he": "זה קלי קלות",
+      "ex_es": "El examen está chupado.",
+      "ex_he": "המבחן קלי קלות."
+    },
+    {
+      "id": "w000424",
+      "es": "Estar sin blanca",
+      "he": "להיות בלי פרוטה",
+      "ex_es": "Este mes estoy sin blanca.",
+      "ex_he": "החודש אני בלי פרוטה."
+    },
+    {
+      "id": "w000425",
+      "es": "Así así",
+      "he": "ככה ככה",
+      "ex_es": "¿Cómo estás? Así así.",
+      "ex_he": "מה שלומך? ככה ככה."
+    },
+    {
+      "id": "w000426",
+      "es": "No es para tanto",
+      "he": "זה לא כזה נורא",
+      "ex_es": "Tranquilo, no es para tanto.",
+      "ex_he": "תירגע, זה לא כזה נורא."
+    },
+    {
+      "id": "w000427",
+      "es": "Al fin y al cabo",
+      "he": "בסופו של דבר",
+      "ex_es": "Al fin y al cabo, todo salió bien.",
+      "ex_he": "בסופו של דבר, הכל יצא טוב."
+    },
+    {
+      "id": "w000428",
+      "es": "Ponerse las pilas",
+      "he": "להתאמץ / לזוז",
+      "ex_es": "Tienes que ponerte las pilas con el trabajo.",
+      "ex_he": "אתה צריך להתאמץ עם העבודה."
+    },
+    {
+      "id": "w000429",
+      "es": "Meter la pata",
+      "he": "לעשות טעות מביכה",
+      "ex_es": "Metí la pata en la reunión.",
+      "ex_he": "עשיתי טעות מביכה בפגישה."
+    },
+    {
+      "id": "w000430",
+      "es": "Costar un ojo de la cara",
+      "he": "לעלות הון",
+      "ex_es": "Ese coche cuesta un ojo de la cara.",
+      "ex_he": "הרכב הזה עולה הון."
+    },
+    {
+      "id": "w000431",
+      "es": "Dar en el clavo",
+      "he": "לפגוע בול / לצדוק לגמרי",
+      "ex_es": "Diste en el clavo con esa idea.",
+      "ex_he": "פגעת בול עם הרעיון הזה."
+    },
+    {
+      "id": "w000432",
+      "es": "Tomar el pelo",
+      "he": "לעבוד על מישהו",
+      "ex_es": "¿Me estás tomando el pelo?",
+      "ex_he": "אתה עובד עליי?"
+    },
+    {
+      "id": "w000433",
+      "es": "Estar en las nubes",
+      "he": "להיות מרוחק בראש",
+      "ex_es": "Perdón, estaba en las nubes.",
+      "ex_he": "סליחה, הייתי מרוחק בראש."
+    },
+    {
+      "id": "w000434",
+      "es": "Echar una mano",
+      "he": "לתת יד / לעזור",
+      "ex_es": "¿Me echas una mano con esto?",
+      "ex_he": "אתה יכול לתת לי יד עם זה?"
+    },
+    {
+      "id": "w000435",
+      "es": "Ser pan comido",
+      "he": "להיות עניין של מה בכך",
+      "ex_es": "Este trabajo es pan comido.",
+      "ex_he": "העבודה הזו היא עניין של מה בכך."
+    },
+    {
+      "id": "w000436",
+      "es": "Hacerse el tonto",
+      "he": "להעמיד פני טיפש",
+      "ex_es": "No te hagas el tonto, sabes la respuesta.",
+      "ex_he": "אל תעמיד פני טיפש, אתה יודע את התשובה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000202",
+      "es": "Al fin y al cabo, decidimos ponernos las pilas y terminar el proyecto.",
+      "he": "בסופו של דבר, החלטנו להתאמץ ולסיים את הפרויקט."
+    },
+    {
+      "id": "s000203",
+      "es": "No te hagas el tonto, sé que metiste la pata.",
+      "he": "אל תעמיד פני טיפש, אני יודע שעשית טעות מביכה."
+    },
+    {
+      "id": "s000204",
+      "es": "Este examen está chupado, va a ser pan comido.",
+      "he": "המבחן הזה קלי קלות, זה יהיה עניין של מה בכך."
+    },
+    {
+      "id": "s000205",
+      "es": "¿Me puedes echar una mano? Estoy sin blanca este mes.",
+      "he": "אתה יכול לתת לי יד? אני בלי פרוטה החודש."
+    },
+    {
+      "id": "s000206",
+      "es": "Diste en el clavo, esa es exactamente la solución.",
+      "he": "פגעת בול, זה בדיוק הפתרון."
+    },
+    {
+      "id": "s000207",
+      "es": "Perdón, estaba en las nubes, ¿qué decías?",
+      "he": "סליחה, הייתי מרוחק בראש, מה אמרת?"
+    }
+  ]
+}

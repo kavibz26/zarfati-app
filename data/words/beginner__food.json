@@ -1,0 +1,167 @@
+{
+  "levelId": "beginner",
+  "topicId": "food",
+  "vocab": [
+    {
+      "id": "w000065",
+      "es": "El agua",
+      "he": "מים",
+      "ex_es": "Bebo mucha agua.",
+      "ex_he": "אני שותה הרבה מים."
+    },
+    {
+      "id": "w000066",
+      "es": "El pan",
+      "he": "לחם",
+      "ex_es": "Me gusta el pan caliente.",
+      "ex_he": "אני אוהב לחם חם."
+    },
+    {
+      "id": "w000067",
+      "es": "La leche",
+      "he": "חלב",
+      "ex_es": "Bebo leche por la mañana.",
+      "ex_he": "אני שותה חלב בבוקר."
+    },
+    {
+      "id": "w000068",
+      "es": "El café",
+      "he": "קפה",
+      "ex_es": "Quiero un café, por favor.",
+      "ex_he": "אני רוצה קפה, בבקשה."
+    },
+    {
+      "id": "w000069",
+      "es": "La fruta",
+      "he": "פרי",
+      "ex_es": "Como fruta todos los días.",
+      "ex_he": "אני אוכל פרי כל יום."
+    },
+    {
+      "id": "w000070",
+      "es": "La manzana",
+      "he": "תפוח",
+      "ex_es": "La manzana es roja.",
+      "ex_he": "התפוח אדום."
+    },
+    {
+      "id": "w000071",
+      "es": "El arroz",
+      "he": "אורז",
+      "ex_es": "El arroz con pollo es rico.",
+      "ex_he": "האורז עם עוף טעים."
+    },
+    {
+      "id": "w000072",
+      "es": "La carne",
+      "he": "בשר",
+      "ex_es": "No como carne.",
+      "ex_he": "אני לא אוכל בשר."
+    },
+    {
+      "id": "w000073",
+      "es": "La verdura",
+      "he": "ירק",
+      "ex_es": "Las verduras son saludables.",
+      "ex_he": "הירקות בריאים."
+    },
+    {
+      "id": "w000074",
+      "es": "El restaurante",
+      "he": "מסעדה",
+      "ex_es": "Cenamos en un restaurante.",
+      "ex_he": "אכלנו ארוחת ערב במסעדה."
+    },
+    {
+      "id": "w000075",
+      "es": "Tengo hambre",
+      "he": "אני רעב",
+      "ex_es": "Tengo hambre, ¿comemos?",
+      "ex_he": "אני רעב, נאכל?"
+    },
+    {
+      "id": "w000076",
+      "es": "Tengo sed",
+      "he": "אני צמא",
+      "ex_es": "Tengo sed, quiero agua.",
+      "ex_he": "אני צמא, אני רוצה מים."
+    },
+    {
+      "id": "w000077",
+      "es": "El huevo",
+      "he": "ביצה",
+      "ex_es": "Como un huevo por la mañana.",
+      "ex_he": "אני אוכל ביצה בבוקר."
+    },
+    {
+      "id": "w000078",
+      "es": "El pescado",
+      "he": "דג",
+      "ex_es": "El pescado con limón es delicioso.",
+      "ex_he": "הדג עם לימון טעים."
+    },
+    {
+      "id": "w000079",
+      "es": "El postre",
+      "he": "קינוח",
+      "ex_es": "¿Quieres postre?",
+      "ex_he": "אתה רוצה קינוח?"
+    },
+    {
+      "id": "w000080",
+      "es": "Delicioso / Deliciosa",
+      "he": "טעים / טעימה",
+      "ex_es": "Esta sopa está deliciosa.",
+      "ex_he": "המרק הזה טעים."
+    },
+    {
+      "id": "w000081",
+      "es": "La cuenta",
+      "he": "החשבון (במסעדה)",
+      "ex_es": "La cuenta, por favor.",
+      "ex_he": "החשבון, בבקשה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000033",
+      "es": "Quiero un café con leche, por favor.",
+      "he": "אני רוצה קפה עם חלב, בבקשה."
+    },
+    {
+      "id": "s000034",
+      "es": "Como fruta y verdura todos los días.",
+      "he": "אני אוכל פרי וירק כל יום."
+    },
+    {
+      "id": "s000035",
+      "es": "Tengo hambre, vamos al restaurante.",
+      "he": "אני רעב, בוא נלך למסעדה."
+    },
+    {
+      "id": "s000036",
+      "es": "El pan con queso es delicioso.",
+      "he": "הלחם עם גבינה טעים."
+    },
+    {
+      "id": "s000037",
+      "es": "¿Quieres agua o café?",
+      "he": "אתה רוצה מים או קפה?"
+    },
+    {
+      "id": "s000038",
+      "es": "El pescado con arroz estaba delicioso.",
+      "he": "הדג עם אורז היה טעים."
+    },
+    {
+      "id": "s000039",
+      "es": "¿Nos trae la cuenta, por favor?",
+      "he": "תביא לנו את החשבון, בבקשה?"
+    },
+    {
+      "id": "s000040",
+      "es": "De postre quiero un helado de chocolate.",
+      "he": "לקינוח אני רוצה גלידת שוקולד."
+    }
+  ]
+}

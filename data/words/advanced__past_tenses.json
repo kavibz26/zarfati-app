@@ -1,0 +1,153 @@
+{
+  "levelId": "advanced",
+  "topicId": "past_tenses",
+  "vocab": [
+    {
+      "id": "w000346",
+      "es": "Yo era (imperfecto)",
+      "he": "הייתי (מצב מתמשך בעבר)",
+      "ex_es": "Cuando era niño, jugaba fútbol.",
+      "ex_he": "כשהייתי ילד, שיחקתי כדורגל."
+    },
+    {
+      "id": "w000347",
+      "es": "Yo fui (indefinido)",
+      "he": "הייתי/הלכתי (פעולה חד-פעמית)",
+      "ex_es": "Ayer fui al médico.",
+      "ex_he": "אתמול הלכתי לרופא."
+    },
+    {
+      "id": "w000348",
+      "es": "Mientras",
+      "he": "בזמן ש...",
+      "ex_es": "Mientras cocinaba, sonó el teléfono.",
+      "ex_he": "בזמן שבישלתי, הטלפון צלצל."
+    },
+    {
+      "id": "w000349",
+      "es": "De repente",
+      "he": "לפתע",
+      "ex_es": "De repente empezó a llover.",
+      "ex_he": "לפתע התחיל לרדת גשם."
+    },
+    {
+      "id": "w000350",
+      "es": "Siempre (con imperfecto)",
+      "he": "תמיד (הרגל בעבר)",
+      "ex_es": "Siempre visitábamos a mi abuela.",
+      "ex_he": "תמיד ביקרנו את סבתא שלי."
+    },
+    {
+      "id": "w000351",
+      "es": "Una vez",
+      "he": "פעם אחת",
+      "ex_es": "Una vez viajé a Perú.",
+      "ex_he": "פעם אחת טסתי לפרו."
+    },
+    {
+      "id": "w000352",
+      "es": "Cuando + imperfecto",
+      "he": "כש... (רקע)",
+      "ex_es": "Cuando vivía en Chile, aprendí español.",
+      "ex_he": "כשגרתי בצ'ילה, למדתי ספרדית."
+    },
+    {
+      "id": "w000353",
+      "es": "Interrumpir",
+      "he": "להפריע/לקטוע",
+      "ex_es": "La llamada interrumpió la reunión.",
+      "ex_he": "השיחה קטעה את הישיבה."
+    },
+    {
+      "id": "w000354",
+      "es": "Se rompió",
+      "he": "זה נשבר",
+      "ex_es": "El vaso se rompió.",
+      "ex_he": "הכוס נשברה."
+    },
+    {
+      "id": "w000355",
+      "es": "Estaba lloviendo",
+      "he": "היה יורד גשם",
+      "ex_es": "Estaba lloviendo cuando salí.",
+      "ex_he": "היה יורד גשם כשיצאתי."
+    },
+    {
+      "id": "w000356",
+      "es": "Yo había terminado",
+      "he": "כבר הייתי סיימתי",
+      "ex_es": "Cuando llegaste, yo ya había terminado.",
+      "ex_he": "כשהגעת, כבר סיימתי."
+    },
+    {
+      "id": "w000357",
+      "es": "Solía + infinitivo",
+      "he": "נהגתי ל...",
+      "ex_es": "De niño, solía jugar en el parque.",
+      "ex_he": "כשהייתי ילד, נהגתי לשחק בפארק."
+    },
+    {
+      "id": "w000358",
+      "es": "Acababa de llegar",
+      "he": "בדיוק הגעתי",
+      "ex_es": "Acababa de llegar cuando empezó a llover.",
+      "ex_he": "בדיוק הגעתי כשהתחיל לרדת גשם."
+    },
+    {
+      "id": "w000359",
+      "es": "Llevaba + tiempo + gerundio",
+      "he": "כבר זמן מסוים ש...(עושה)",
+      "ex_es": "Llevaba dos horas esperando.",
+      "ex_he": "כבר חיכיתי שעתיים."
+    },
+    {
+      "id": "w000360",
+      "es": "Nada más llegar",
+      "he": "מיד עם ההגעה",
+      "ex_es": "Nada más llegar, se puso a trabajar.",
+      "ex_he": "מיד עם ההגעה, הוא התחיל לעבוד."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000166",
+      "es": "Cuando era joven, viajaba mucho por Europa.",
+      "he": "כשהייתי צעיר, נסעתי הרבה באירופה."
+    },
+    {
+      "id": "s000167",
+      "es": "Estaba durmiendo cuando sonó el teléfono.",
+      "he": "ישנתי כשהטלפון צלצל."
+    },
+    {
+      "id": "s000168",
+      "es": "De repente, todos empezaron a aplaudir.",
+      "he": "לפתע, כולם התחילו למחוא כפיים."
+    },
+    {
+      "id": "s000169",
+      "es": "Mientras trabajaba, recibí una llamada importante.",
+      "he": "בזמן שעבדתי, קיבלתי שיחה חשובה."
+    },
+    {
+      "id": "s000170",
+      "es": "Una vez conocí a un actor famoso.",
+      "he": "פעם אחת פגשתי שחקן מפורסם."
+    },
+    {
+      "id": "s000171",
+      "es": "Cuando llegamos al cine, la película ya había empezado.",
+      "he": "כשהגענו לקולנוע, הסרט כבר התחיל."
+    },
+    {
+      "id": "s000172",
+      "es": "De pequeño, solía pasar los veranos con mis abuelos.",
+      "he": "כשהייתי קטן, נהגתי לבלות את הקיץ עם הסבים שלי."
+    },
+    {
+      "id": "s000173",
+      "es": "Llevaba media hora esperando el autobús.",
+      "he": "כבר חיכיתי חצי שעה לאוטובוס."
+    }
+  ]
+}

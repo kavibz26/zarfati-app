@@ -1,0 +1,169 @@
+{
+  "levelId": "beginner",
+  "topicId": "days_time",
+  "vocab": [
+    {
+      "id": "w000127",
+      "es": "Lunes",
+      "he": "יום שני",
+      "ex_es": "El lunes empiezo a trabajar.",
+      "ex_he": "ביום שני אני מתחיל לעבוד."
+    },
+    {
+      "id": "w000128",
+      "es": "Martes",
+      "he": "יום שלישי",
+      "ex_es": "Tengo clase de español los martes.",
+      "ex_he": "יש לי שיעור ספרדית בימי שלישי."
+    },
+    {
+      "id": "w000129",
+      "es": "Miércoles",
+      "he": "יום רביעי",
+      "ex_es": "Nos vemos el miércoles.",
+      "ex_he": "נתראה ביום רביעי."
+    },
+    {
+      "id": "w000130",
+      "es": "Jueves",
+      "he": "יום חמישי",
+      "ex_es": "El jueves es mi día libre.",
+      "ex_he": "יום חמישי הוא היום החופשי שלי."
+    },
+    {
+      "id": "w000131",
+      "es": "Viernes",
+      "he": "יום שישי",
+      "ex_es": "Los viernes salimos con amigos.",
+      "ex_he": "בימי שישי אנחנו יוצאים עם חברים."
+    },
+    {
+      "id": "w000132",
+      "es": "Sábado",
+      "he": "שבת",
+      "ex_es": "El sábado no trabajamos.",
+      "ex_he": "בשבת אנחנו לא עובדים."
+    },
+    {
+      "id": "w000133",
+      "es": "Domingo",
+      "he": "יום ראשון",
+      "ex_es": "El domingo vamos a la playa.",
+      "ex_he": "ביום ראשון אנחנו הולכים לחוף הים."
+    },
+    {
+      "id": "w000134",
+      "es": "Hoy",
+      "he": "היום",
+      "ex_es": "Hoy es un buen día.",
+      "ex_he": "היום זה יום טוב."
+    },
+    {
+      "id": "w000135",
+      "es": "Mañana",
+      "he": "מחר",
+      "ex_es": "Mañana tengo un examen.",
+      "ex_he": "מחר יש לי מבחן."
+    },
+    {
+      "id": "w000136",
+      "es": "Ayer",
+      "he": "אתמול",
+      "ex_es": "Ayer llovió mucho.",
+      "ex_he": "אתמול ירד גשם חזק."
+    },
+    {
+      "id": "w000137",
+      "es": "La semana",
+      "he": "השבוע",
+      "ex_es": "Esta semana estoy muy ocupado.",
+      "ex_he": "השבוע אני מאוד עסוק."
+    },
+    {
+      "id": "w000138",
+      "es": "El mes",
+      "he": "החודש",
+      "ex_es": "El próximo mes viajo a España.",
+      "ex_he": "בחודש הבא אני נוסע לספרד."
+    },
+    {
+      "id": "w000139",
+      "es": "El año",
+      "he": "השנה",
+      "ex_es": "Este año voy a aprender español.",
+      "ex_he": "השנה אני הולך ללמוד ספרדית."
+    },
+    {
+      "id": "w000140",
+      "es": "La mañana",
+      "he": "הבוקר",
+      "ex_es": "Me levanto temprano por la mañana.",
+      "ex_he": "אני קם מוקדם בבוקר."
+    },
+    {
+      "id": "w000141",
+      "es": "La tarde",
+      "he": "אחר הצהריים",
+      "ex_es": "Nos vemos por la tarde.",
+      "ex_he": "נתראה אחר הצהריים."
+    },
+    {
+      "id": "w000142",
+      "es": "La noche",
+      "he": "הלילה",
+      "ex_es": "Trabajo por la noche.",
+      "ex_he": "אני עובד בלילה."
+    },
+    {
+      "id": "w000143",
+      "es": "¿Qué día es hoy?",
+      "he": "איזה יום היום?",
+      "ex_es": "¿Qué día es hoy, lunes o martes?",
+      "ex_he": "איזה יום היום, שני או שלישי?"
+    },
+    {
+      "id": "w000144",
+      "es": "Todos los días",
+      "he": "כל יום",
+      "ex_es": "Estudio español todos los días.",
+      "ex_he": "אני לומד ספרדית כל יום."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000061",
+      "es": "Hoy es lunes y mañana es martes.",
+      "he": "היום יום שני ומחר יום שלישי."
+    },
+    {
+      "id": "s000062",
+      "es": "Los sábados y domingos no trabajo.",
+      "he": "בשבתות ובימי ראשון אני לא עובד."
+    },
+    {
+      "id": "s000063",
+      "es": "Nos vemos el viernes por la tarde.",
+      "he": "נתראה ביום שישי אחר הצהריים."
+    },
+    {
+      "id": "s000064",
+      "es": "Ayer fue un día muy largo.",
+      "he": "אתמול היה יום מאוד ארוך."
+    },
+    {
+      "id": "s000065",
+      "es": "Estudio español todos los días por la mañana.",
+      "he": "אני לומד ספרדית כל יום בבוקר."
+    },
+    {
+      "id": "s000066",
+      "es": "El próximo mes empieza un nuevo año.",
+      "he": "בחודש הבא מתחילה שנה חדשה."
+    },
+    {
+      "id": "s000067",
+      "es": "¿Qué día es hoy?",
+      "he": "איזה יום היום?"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "levelId": "beginner",
+  "topicId": "greetings",
+  "vocab": [
+    {
+      "id": "w000001",
+      "es": "Hola",
+      "he": "שלום",
+      "ex_es": "Hola, ¿cómo estás?",
+      "ex_he": "שלום, מה שלומך?"
+    },
+    {
+      "id": "w000002",
+      "es": "Buenos días",
+      "he": "בוקר טוב",
+      "ex_es": "Buenos días, profesor.",
+      "ex_he": "בוקר טוב, מורה."
+    },
+    {
+      "id": "w000003",
+      "es": "Buenas tardes",
+      "he": "צהריים טובים",
+      "ex_es": "Buenas tardes a todos.",
+      "ex_he": "צהריים טובים לכולם."
+    },
+    {
+      "id": "w000004",
+      "es": "Buenas noches",
+      "he": "לילה טוב",
+      "ex_es": "Buenas noches, hasta mañana.",
+      "ex_he": "לילה טוב, עד מחר."
+    },
+    {
+      "id": "w000005",
+      "es": "Adiós",
+      "he": "להתראות",
+      "ex_es": "Adiós, nos vemos pronto.",
+      "ex_he": "להתראות, נתראה בקרוב."
+    },
+    {
+      "id": "w000006",
+      "es": "Por favor",
+      "he": "בבקשה",
+      "ex_es": "Ayúdame, por favor.",
+      "ex_he": "עזור לי, בבקשה."
+    },
+    {
+      "id": "w000007",
+      "es": "Gracias",
+      "he": "תודה",
+      "ex_es": "Muchas gracias por todo.",
+      "ex_he": "תודה רבה על הכל."
+    },
+    {
+      "id": "w000008",
+      "es": "De nada",
+      "he": "על לא דבר",
+      "ex_es": "De nada, fue un placer.",
+      "ex_he": "על לא דבר, זה היה תענוג."
+    },
+    {
+      "id": "w000009",
+      "es": "¿Cómo te llamas?",
+      "he": "איך קוראים לך?",
+      "ex_es": "¿Cómo te llamas, chico?",
+      "ex_he": "איך קוראים לך, ילד?"
+    },
+    {
+      "id": "w000010",
+      "es": "Me llamo...",
+      "he": "קוראים לי...",
+      "ex_es": "Me llamo Ana.",
+      "ex_he": "קוראים לי אנה."
+    },
+    {
+      "id": "w000011",
+      "es": "Mucho gusto",
+      "he": "נעים מאוד",
+      "ex_es": "Mucho gusto en conocerte.",
+      "ex_he": "נעים מאוד להכיר אותך."
+    },
+    {
+      "id": "w000012",
+      "es": "¿Y tú?",
+      "he": "ואתה/ואת?",
+      "ex_es": "Estoy bien, ¿y tú?",
+      "ex_he": "אני בסדר, ואתה?"
+    },
+    {
+      "id": "w000013",
+      "es": "¿Qué tal?",
+      "he": "מה נשמע?",
+      "ex_es": "¿Qué tal, amigo?",
+      "ex_he": "מה נשמע, חבר?"
+    },
+    {
+      "id": "w000014",
+      "es": "Hasta luego",
+      "he": "להתראות (בקרוב)",
+      "ex_es": "Hasta luego, nos vemos mañana.",
+      "ex_he": "להתראות, נתראה מחר."
+    },
+    {
+      "id": "w000015",
+      "es": "Bienvenido / Bienvenida",
+      "he": "ברוך הבא / ברוכה הבאה",
+      "ex_es": "Bienvenido a mi casa.",
+      "ex_he": "ברוך הבא לביתי."
+    },
+    {
+      "id": "w000016",
+      "es": "Perdón / Disculpe",
+      "he": "סליחה",
+      "ex_es": "Perdón, ¿dónde está el baño?",
+      "ex_he": "סליחה, איפה השירותים?"
+    },
+    {
+      "id": "w000017",
+      "es": "Hasta mañana",
+      "he": "להתראות מחר",
+      "ex_es": "Hasta mañana, que descanses.",
+      "ex_he": "להתראות מחר, שתנוח טוב."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000001",
+      "es": "Hola, me llamo Pedro.",
+      "he": "שלום, קוראים לי פדרו."
+    },
+    {
+      "id": "s000002",
+      "es": "¿Cómo estás hoy?",
+      "he": "מה שלומך היום?"
+    },
+    {
+      "id": "s000003",
+      "es": "Mucho gusto en conocerte.",
+      "he": "נעים מאוד להכיר אותך."
+    },
+    {
+      "id": "s000004",
+      "es": "Buenos días, ¿cómo te llamas?",
+      "he": "בוקר טוב, איך קוראים לך?"
+    },
+    {
+      "id": "s000005",
+      "es": "Adiós, hasta luego.",
+      "he": "להתראות, נתראה אחר כך."
+    },
+    {
+      "id": "s000006",
+      "es": "¿Qué tal estás hoy?",
+      "he": "מה שלומך היום?"
+    },
+    {
+      "id": "s000007",
+      "es": "Perdón, no entendí tu nombre.",
+      "he": "סליחה, לא הבנתי את השם שלך."
+    },
+    {
+      "id": "s000008",
+      "es": "Bienvenida a la clase de español.",
+      "he": "ברוכה הבאה לשיעור הספרדית."
+    }
+  ]
+}

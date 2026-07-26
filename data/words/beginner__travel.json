@@ -1,0 +1,117 @@
+{
+  "levelId": "beginner",
+  "topicId": "travel",
+  "vocab": [
+    {
+      "id": "w000097",
+      "es": "El aeropuerto",
+      "he": "שדה התעופה",
+      "ex_es": "Llegamos al aeropuerto temprano.",
+      "ex_he": "הגענו לשדה התעופה מוקדם."
+    },
+    {
+      "id": "w000098",
+      "es": "El pasaporte",
+      "he": "הדרכון",
+      "ex_es": "No olvides tu pasaporte.",
+      "ex_he": "אל תשכח את הדרכון שלך."
+    },
+    {
+      "id": "w000099",
+      "es": "El billete / El boleto",
+      "he": "הכרטיס",
+      "ex_es": "Compré el billete de avión.",
+      "ex_he": "קניתי את כרטיס הטיסה."
+    },
+    {
+      "id": "w000100",
+      "es": "La maleta",
+      "he": "המזוודה",
+      "ex_es": "Mi maleta es muy pesada.",
+      "ex_he": "המזוודה שלי מאוד כבדה."
+    },
+    {
+      "id": "w000101",
+      "es": "El hotel",
+      "he": "המלון",
+      "ex_es": "Reservé una habitación en el hotel.",
+      "ex_he": "הזמנתי חדר במלון."
+    },
+    {
+      "id": "w000102",
+      "es": "La habitación",
+      "he": "החדר",
+      "ex_es": "La habitación tiene vista al mar.",
+      "ex_he": "לחדר יש נוף לים."
+    },
+    {
+      "id": "w000103",
+      "es": "El taxi",
+      "he": "המונית",
+      "ex_es": "Tomamos un taxi al hotel.",
+      "ex_he": "לקחנו מונית למלון."
+    },
+    {
+      "id": "w000104",
+      "es": "El vuelo",
+      "he": "הטיסה",
+      "ex_es": "Nuestro vuelo sale a las nueve.",
+      "ex_he": "הטיסה שלנו יוצאת בתשע."
+    },
+    {
+      "id": "w000105",
+      "es": "La playa",
+      "he": "חוף הים",
+      "ex_es": "Vamos a la playa mañana.",
+      "ex_he": "אנחנו הולכים לחוף הים מחר."
+    },
+    {
+      "id": "w000106",
+      "es": "El mapa",
+      "he": "המפה",
+      "ex_es": "Necesito un mapa de la ciudad.",
+      "ex_he": "אני צריך מפה של העיר."
+    },
+    {
+      "id": "w000107",
+      "es": "¿Dónde está...?",
+      "he": "איפה נמצא...?",
+      "ex_es": "¿Dónde está el hotel?",
+      "ex_he": "איפה נמצא המלון?"
+    },
+    {
+      "id": "w000108",
+      "es": "De vacaciones",
+      "he": "בחופשה",
+      "ex_es": "Estamos de vacaciones en México.",
+      "ex_he": "אנחנו בחופשה במקסיקו."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000049",
+      "es": "Llegamos al aeropuerto dos horas antes del vuelo.",
+      "he": "הגענו לשדה התעופה שעתיים לפני הטיסה."
+    },
+    {
+      "id": "s000050",
+      "es": "¿Dónde está la parada del taxi?",
+      "he": "איפה נמצאת תחנת המוניות?"
+    },
+    {
+      "id": "s000051",
+      "es": "Reservamos una habitación con vista al mar.",
+      "he": "הזמנו חדר עם נוף לים."
+    },
+    {
+      "id": "s000052",
+      "es": "Perdí mi maleta en el aeropuerto.",
+      "he": "איבדתי את המזוודה שלי בשדה התעופה."
+    },
+    {
+      "id": "s000053",
+      "es": "Estamos de vacaciones en la playa toda la semana.",
+      "he": "אנחנו בחופשה בחוף הים כל השבוע."
+    }
+  ]
+}

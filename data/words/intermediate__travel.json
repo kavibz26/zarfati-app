@@ -1,0 +1,117 @@
+{
+  "levelId": "intermediate",
+  "topicId": "travel",
+  "vocab": [
+    {
+      "id": "w000235",
+      "es": "La reserva",
+      "he": "ההזמנה (מלון/מסעדה)",
+      "ex_es": "Hice la reserva por internet.",
+      "ex_he": "עשיתי את ההזמנה באינטרנט."
+    },
+    {
+      "id": "w000236",
+      "es": "El vuelo con escala",
+      "he": "טיסה עם עצירת ביניים",
+      "ex_es": "Tomamos un vuelo con escala en Madrid.",
+      "ex_he": "טסנו בטיסה עם עצירת ביניים במדריד."
+    },
+    {
+      "id": "w000237",
+      "es": "El retraso",
+      "he": "העיכוב / האיחור",
+      "ex_es": "Hubo un retraso de dos horas.",
+      "ex_he": "היה עיכוב של שעתיים."
+    },
+    {
+      "id": "w000238",
+      "es": "La tarjeta de embarque",
+      "he": "כרטיס העלייה למטוס",
+      "ex_es": "No encuentro mi tarjeta de embarque.",
+      "ex_he": "אני לא מוצא את כרטיס העלייה שלי למטוס."
+    },
+    {
+      "id": "w000239",
+      "es": "El equipaje",
+      "he": "המטען / הכבודה",
+      "ex_es": "Perdimos el equipaje en el aeropuerto.",
+      "ex_he": "איבדנו את הכבודה שלנו בשדה התעופה."
+    },
+    {
+      "id": "w000240",
+      "es": "La recepción",
+      "he": "הקבלה (במלון)",
+      "ex_es": "Pregunta en la recepción del hotel.",
+      "ex_he": "שאל בקבלה של המלון."
+    },
+    {
+      "id": "w000241",
+      "es": "Alquilar un coche",
+      "he": "לשכור רכב",
+      "ex_es": "Vamos a alquilar un coche en el aeropuerto.",
+      "ex_he": "אנחנו הולכים לשכור רכב בשדה התעופה."
+    },
+    {
+      "id": "w000242",
+      "es": "El seguro de viaje",
+      "he": "ביטוח נסיעות",
+      "ex_es": "Compré un seguro de viaje antes del viaje.",
+      "ex_he": "קניתי ביטוח נסיעות לפני הטיול."
+    },
+    {
+      "id": "w000243",
+      "es": "Facturar el equipaje",
+      "he": "לרשום את הכבודה",
+      "ex_es": "Tienes que facturar el equipaje antes de las ocho.",
+      "ex_he": "אתה צריך לרשום את הכבודה לפני שמונה."
+    },
+    {
+      "id": "w000244",
+      "es": "Quejarse",
+      "he": "להתלונן",
+      "ex_es": "Quiero quejarme sobre la habitación.",
+      "ex_he": "אני רוצה להתלונן על החדר."
+    },
+    {
+      "id": "w000245",
+      "es": "El itinerario",
+      "he": "מסלול הטיול",
+      "ex_es": "Nuestro itinerario incluye tres ciudades.",
+      "ex_he": "מסלול הטיול שלנו כולל שלוש ערים."
+    },
+    {
+      "id": "w000246",
+      "es": "Cancelar el vuelo",
+      "he": "לבטל את הטיסה",
+      "ex_es": "Cancelaron el vuelo por el clima.",
+      "ex_he": "הם ביטלו את הטיסה בגלל מזג האוויר."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000116",
+      "es": "Nuestro vuelo tuvo un retraso de tres horas.",
+      "he": "לטיסה שלנו היה עיכוב של שלוש שעות."
+    },
+    {
+      "id": "s000117",
+      "es": "Perdimos la conexión por culpa del retraso.",
+      "he": "פספסנו את טיסת ההמשך בגלל העיכוב."
+    },
+    {
+      "id": "s000118",
+      "es": "Voy a quejarme en la recepción del hotel.",
+      "he": "אני הולך להתלונן בקבלה של המלון."
+    },
+    {
+      "id": "s000119",
+      "es": "Alquilamos un coche para recorrer la costa.",
+      "he": "שכרנו רכב כדי לסייר לאורך החוף."
+    },
+    {
+      "id": "s000120",
+      "es": "Cancelaron el vuelo debido a una tormenta.",
+      "he": "הם ביטלו את הטיסה בגלל סופה."
+    }
+  ]
+}

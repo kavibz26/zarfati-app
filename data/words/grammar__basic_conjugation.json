@@ -1,0 +1,159 @@
+{
+  "levelId": "grammar",
+  "topicId": "basic_conjugation",
+  "vocab": [
+    {
+      "id": "w000459",
+      "es": "Yo hablo",
+      "he": "אני מדבר",
+      "ex_es": "Yo hablo con mi madre.",
+      "ex_he": "אני מדבר עם אמא שלי."
+    },
+    {
+      "id": "w000460",
+      "es": "Tú hablas",
+      "he": "אתה מדבר",
+      "ex_es": "Tú hablas muy rápido.",
+      "ex_he": "אתה מדבר מהר מאוד."
+    },
+    {
+      "id": "w000461",
+      "es": "Él/Ella habla",
+      "he": "הוא/היא מדבר/ת",
+      "ex_es": "Ella habla tres idiomas.",
+      "ex_he": "היא מדברת שלוש שפות."
+    },
+    {
+      "id": "w000462",
+      "es": "Nosotros hablamos",
+      "he": "אנחנו מדברים",
+      "ex_es": "Nosotros hablamos todos los días.",
+      "ex_he": "אנחנו מדברים כל יום."
+    },
+    {
+      "id": "w000463",
+      "es": "Vosotros habláis",
+      "he": "אתם מדברים (בספרד)",
+      "ex_es": "Vosotros habláis muy bien.",
+      "ex_he": "אתם מדברים טוב מאוד."
+    },
+    {
+      "id": "w000464",
+      "es": "Ellos hablan",
+      "he": "הם מדברים",
+      "ex_es": "Ellos hablan por teléfono.",
+      "ex_he": "הם מדברים בטלפון."
+    },
+    {
+      "id": "w000465",
+      "es": "Yo como",
+      "he": "אני אוכל",
+      "ex_es": "Yo como a las dos.",
+      "ex_he": "אני אוכל בשתיים."
+    },
+    {
+      "id": "w000466",
+      "es": "Tú comes",
+      "he": "אתה אוכל",
+      "ex_es": "Tú comes muy poco.",
+      "ex_he": "אתה אוכל מעט מאוד."
+    },
+    {
+      "id": "w000467",
+      "es": "Él/Ella come",
+      "he": "הוא/היא אוכל/ת",
+      "ex_es": "Él come mucha fruta.",
+      "ex_he": "הוא אוכל הרבה פרי."
+    },
+    {
+      "id": "w000468",
+      "es": "Nosotros comemos",
+      "he": "אנחנו אוכלים",
+      "ex_es": "Nosotros comemos juntos.",
+      "ex_he": "אנחנו אוכלים ביחד."
+    },
+    {
+      "id": "w000469",
+      "es": "Vosotros coméis",
+      "he": "אתם אוכלים (בספרד)",
+      "ex_es": "Vosotros coméis tarde.",
+      "ex_he": "אתם אוכלים מאוחר."
+    },
+    {
+      "id": "w000470",
+      "es": "Ellos comen",
+      "he": "הם אוכלים",
+      "ex_es": "Ellos comen en el restaurante.",
+      "ex_he": "הם אוכלים במסעדה."
+    },
+    {
+      "id": "w000471",
+      "es": "Yo vivo",
+      "he": "אני גר",
+      "ex_es": "Yo vivo en Tel Aviv.",
+      "ex_he": "אני גר בתל אביב."
+    },
+    {
+      "id": "w000472",
+      "es": "Tú vives",
+      "he": "אתה גר",
+      "ex_es": "Tú vives cerca de aquí.",
+      "ex_he": "אתה גר קרוב לכאן."
+    },
+    {
+      "id": "w000473",
+      "es": "Él/Ella vive",
+      "he": "הוא/היא גר/ה",
+      "ex_es": "Ella vive con su familia.",
+      "ex_he": "היא גרה עם המשפחה שלה."
+    },
+    {
+      "id": "w000474",
+      "es": "Nosotros vivimos",
+      "he": "אנחנו גרים",
+      "ex_es": "Nosotros vivimos en el centro.",
+      "ex_he": "אנחנו גרים במרכז."
+    },
+    {
+      "id": "w000475",
+      "es": "Vosotros vivís",
+      "he": "אתם גרים (בספרד)",
+      "ex_es": "Vosotros vivís en las afueras.",
+      "ex_he": "אתם גרים בפרברים."
+    },
+    {
+      "id": "w000476",
+      "es": "Ellos viven",
+      "he": "הם גרים",
+      "ex_es": "Ellos viven en Barcelona.",
+      "ex_he": "הם גרים בברצלונה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000218",
+      "es": "Yo hablo español, como tapas y vivo en Madrid.",
+      "he": "אני מדבר ספרדית, אוכל טאפאס וגר במדריד."
+    },
+    {
+      "id": "s000219",
+      "es": "¿Tú hablas, comes o vives aquí?",
+      "he": "אתה מדבר, אוכל או גר כאן?"
+    },
+    {
+      "id": "s000220",
+      "es": "Nosotros hablamos, comemos y vivimos juntos.",
+      "he": "אנחנו מדברים, אוכלים וגרים ביחד."
+    },
+    {
+      "id": "s000221",
+      "es": "Ellos hablan inglés y viven en Londres.",
+      "he": "הם מדברים אנגלית וגרים בלונדון."
+    },
+    {
+      "id": "s000222",
+      "es": "Ella come temprano y luego habla con sus amigas.",
+      "he": "היא אוכלת מוקדם ואז מדברת עם החברות שלה."
+    }
+  ]
+}

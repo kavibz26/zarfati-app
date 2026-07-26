@@ -1,0 +1,169 @@
+{
+  "levelId": "intermediate",
+  "topicId": "daily_conversations",
+  "vocab": [
+    {
+      "id": "w000265",
+      "es": "No entiendo",
+      "he": "אני לא מבין",
+      "ex_es": "Perdón, no entiendo lo que dices.",
+      "ex_he": "סליחה, אני לא מבין מה שאתה אומר."
+    },
+    {
+      "id": "w000266",
+      "es": "¿Puedes repetir, por favor?",
+      "he": "אתה יכול לחזור, בבקשה?",
+      "ex_es": "¿Puedes repetir la pregunta, por favor?",
+      "ex_he": "אתה יכול לחזור על השאלה, בבקשה?"
+    },
+    {
+      "id": "w000267",
+      "es": "¿Cómo se dice...?",
+      "he": "איך אומרים...?",
+      "ex_es": "¿Cómo se dice 'gato' en inglés?",
+      "ex_he": "איך אומרים 'חתול' באנגלית?"
+    },
+    {
+      "id": "w000268",
+      "es": "Estoy de acuerdo",
+      "he": "אני מסכים",
+      "ex_es": "Estoy de acuerdo contigo.",
+      "ex_he": "אני מסכים איתך."
+    },
+    {
+      "id": "w000269",
+      "es": "No estoy de acuerdo",
+      "he": "אני לא מסכים",
+      "ex_es": "No estoy de acuerdo con esa idea.",
+      "ex_he": "אני לא מסכים עם הרעיון הזה."
+    },
+    {
+      "id": "w000270",
+      "es": "Vamos",
+      "he": "בוא נלך / קדימה",
+      "ex_es": "Vamos, se hace tarde.",
+      "ex_he": "בוא נלך, נהיה מאוחר."
+    },
+    {
+      "id": "w000271",
+      "es": "Espera un momento",
+      "he": "חכה רגע",
+      "ex_es": "Espera un momento, ya vuelvo.",
+      "ex_he": "חכה רגע, אני כבר חוזר."
+    },
+    {
+      "id": "w000272",
+      "es": "No hay problema",
+      "he": "אין בעיה",
+      "ex_es": "No hay problema, puedo ayudarte.",
+      "ex_he": "אין בעיה, אני יכול לעזור לך."
+    },
+    {
+      "id": "w000273",
+      "es": "Claro que sí",
+      "he": "בטח שכן / כמובן",
+      "ex_es": "¿Puedes venir? Claro que sí.",
+      "ex_he": "אתה יכול לבוא? בטח שכן."
+    },
+    {
+      "id": "w000274",
+      "es": "Creo que...",
+      "he": "אני חושב ש...",
+      "ex_es": "Creo que va a llover hoy.",
+      "ex_he": "אני חושב שירד גשם היום."
+    },
+    {
+      "id": "w000275",
+      "es": "En mi opinión",
+      "he": "לדעתי",
+      "ex_es": "En mi opinión, es una buena idea.",
+      "ex_he": "לדעתי, זה רעיון טוב."
+    },
+    {
+      "id": "w000276",
+      "es": "¿Me puedes ayudar?",
+      "he": "אתה יכול לעזור לי?",
+      "ex_es": "¿Me puedes ayudar con esto?",
+      "ex_he": "אתה יכול לעזור לי עם זה?"
+    },
+    {
+      "id": "w000277",
+      "es": "Tienes razón",
+      "he": "אתה צודק",
+      "ex_es": "Tienes razón, fue mi error.",
+      "ex_he": "אתה צודק, זו הייתה הטעות שלי."
+    },
+    {
+      "id": "w000278",
+      "es": "No pasa nada",
+      "he": "זה בסדר / לא קרה כלום",
+      "ex_es": "No pasa nada, no te preocupes.",
+      "ex_he": "זה בסדר, אל תדאג."
+    },
+    {
+      "id": "w000279",
+      "es": "¡Qué bien!",
+      "he": "כמה נחמד! / איזה כיף!",
+      "ex_es": "¡Qué bien que viniste!",
+      "ex_he": "איזה כיף שבאת!"
+    },
+    {
+      "id": "w000280",
+      "es": "¡Qué lástima!",
+      "he": "איזה חבל!",
+      "ex_es": "¡Qué lástima que no puedas venir!",
+      "ex_he": "איזה חבל שאתה לא יכול לבוא!"
+    },
+    {
+      "id": "w000281",
+      "es": "Depende",
+      "he": "זה תלוי",
+      "ex_es": "¿Vienes mañana? Depende del clima.",
+      "ex_he": "אתה בא מחר? זה תלוי במזג האוויר."
+    },
+    {
+      "id": "w000282",
+      "es": "Por cierto",
+      "he": "דרך אגב",
+      "ex_es": "Por cierto, ¿cómo está tu hermana?",
+      "ex_he": "דרך אגב, מה שלום אחותך?"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000128",
+      "es": "Perdón, ¿puedes repetir la pregunta?",
+      "he": "סליחה, אתה יכול לחזור על השאלה?"
+    },
+    {
+      "id": "s000129",
+      "es": "Estoy de acuerdo contigo, es una buena idea.",
+      "he": "אני מסכים איתך, זה רעיון טוב."
+    },
+    {
+      "id": "s000130",
+      "es": "No hay problema, podemos hacerlo mañana.",
+      "he": "אין בעיה, נוכל לעשות את זה מחר."
+    },
+    {
+      "id": "s000131",
+      "es": "En mi opinión, deberíamos esperar un poco más.",
+      "he": "לדעתי, כדאי שנחכה עוד קצת."
+    },
+    {
+      "id": "s000132",
+      "es": "¿Me puedes ayudar a entender esto?",
+      "he": "אתה יכול לעזור לי להבין את זה?"
+    },
+    {
+      "id": "s000133",
+      "es": "Tienes razón, no pensé en eso.",
+      "he": "אתה צודק, לא חשבתי על זה."
+    },
+    {
+      "id": "s000134",
+      "es": "Por cierto, ¿sabes cómo se dice esto en español?",
+      "he": "דרך אגב, אתה יודע איך אומרים את זה בספרדית?"
+    }
+  ]
+}

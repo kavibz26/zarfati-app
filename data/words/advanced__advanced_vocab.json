@@ -1,0 +1,169 @@
+{
+  "levelId": "advanced",
+  "topicId": "advanced_vocab",
+  "vocab": [
+    {
+      "id": "w000403",
+      "es": "La libertad",
+      "he": "החירות",
+      "ex_es": "La libertad es un derecho fundamental.",
+      "ex_he": "החירות היא זכות יסודית."
+    },
+    {
+      "id": "w000404",
+      "es": "La justicia",
+      "he": "הצדק",
+      "ex_es": "Luchan por la justicia social.",
+      "ex_he": "הם נלחמים למען הצדק החברתי."
+    },
+    {
+      "id": "w000405",
+      "es": "La oportunidad",
+      "he": "ההזדמנות",
+      "ex_es": "Esta es una gran oportunidad para ti.",
+      "ex_he": "זו הזדמנות גדולה בשבילך."
+    },
+    {
+      "id": "w000406",
+      "es": "El desafío",
+      "he": "האתגר",
+      "ex_es": "Superar este desafío no será fácil.",
+      "ex_he": "להתגבר על האתגר הזה לא יהיה קל."
+    },
+    {
+      "id": "w000407",
+      "es": "El logro",
+      "he": "ההישג",
+      "ex_es": "Graduarse fue su mayor logro.",
+      "ex_he": "סיום התואר היה ההישג הגדול ביותר שלו."
+    },
+    {
+      "id": "w000408",
+      "es": "La conciencia",
+      "he": "המודעות",
+      "ex_es": "Necesitamos más conciencia ambiental.",
+      "ex_he": "אנחנו צריכים יותר מודעות סביבתית."
+    },
+    {
+      "id": "w000409",
+      "es": "La responsabilidad",
+      "he": "האחריות",
+      "ex_es": "Asumir la responsabilidad no es fácil.",
+      "ex_he": "לקחת אחריות זה לא קל."
+    },
+    {
+      "id": "w000410",
+      "es": "La perspectiva",
+      "he": "נקודת המבט",
+      "ex_es": "Cambió mi perspectiva sobre la vida.",
+      "ex_he": "זה שינה את נקודת המבט שלי על החיים."
+    },
+    {
+      "id": "w000411",
+      "es": "La incertidumbre",
+      "he": "חוסר הוודאות",
+      "ex_es": "Vivimos en una época de incertidumbre.",
+      "ex_he": "אנחנו חיים בתקופה של חוסר וודאות."
+    },
+    {
+      "id": "w000412",
+      "es": "La ambición",
+      "he": "השאיפה / השאפתנות",
+      "ex_es": "Tiene mucha ambición profesional.",
+      "ex_he": "יש לו הרבה שאפתנות מקצועית."
+    },
+    {
+      "id": "w000413",
+      "es": "La empatía",
+      "he": "האמפתיה",
+      "ex_es": "La empatía es esencial en este trabajo.",
+      "ex_he": "האמפתיה חיונית בעבודה הזו."
+    },
+    {
+      "id": "w000414",
+      "es": "La integridad",
+      "he": "היושרה",
+      "ex_es": "Es conocido por su integridad.",
+      "ex_he": "הוא ידוע ביושרה שלו."
+    },
+    {
+      "id": "w000415",
+      "es": "La sostenibilidad",
+      "he": "הקיימות",
+      "ex_es": "La sostenibilidad es clave para el futuro.",
+      "ex_he": "הקיימות היא מפתח לעתיד."
+    },
+    {
+      "id": "w000416",
+      "es": "La identidad",
+      "he": "הזהות",
+      "ex_es": "Buscaba su identidad desde joven.",
+      "ex_he": "הוא חיפש את זהותו מגיל צעיר."
+    },
+    {
+      "id": "w000417",
+      "es": "La influencia",
+      "he": "ההשפעה",
+      "ex_es": "Tiene mucha influencia en la empresa.",
+      "ex_he": "יש לו הרבה השפעה בחברה."
+    },
+    {
+      "id": "w000418",
+      "es": "La sabiduría",
+      "he": "החוכמה",
+      "ex_es": "La sabiduría viene con la experiencia.",
+      "ex_he": "החוכמה מגיעה עם הניסיון."
+    },
+    {
+      "id": "w000419",
+      "es": "El compromiso",
+      "he": "המחויבות",
+      "ex_es": "Su compromiso con el proyecto es total.",
+      "ex_he": "המחויבות שלו לפרויקט מלאה."
+    },
+    {
+      "id": "w000420",
+      "es": "La resiliencia",
+      "he": "החוסן / העמידות הנפשית",
+      "ex_es": "Mostró mucha resiliencia durante la crisis.",
+      "ex_he": "הוא הראה הרבה חוסן במהלך המשבר."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000195",
+      "es": "La libertad y la justicia son valores fundamentales.",
+      "he": "החירות והצדק הם ערכים יסודיים."
+    },
+    {
+      "id": "s000196",
+      "es": "Esta oportunidad representa un gran desafío para nosotros.",
+      "he": "ההזדמנות הזו מייצגת אתגר גדול בשבילנו."
+    },
+    {
+      "id": "s000197",
+      "es": "Su mayor logro fue superar la incertidumbre del momento.",
+      "he": "ההישג הגדול ביותר שלו היה להתגבר על אי הוודאות של הרגע."
+    },
+    {
+      "id": "s000198",
+      "es": "La empatía y la responsabilidad son clave en el liderazgo.",
+      "he": "האמפתיה והאחריות הן מפתח במנהיגות."
+    },
+    {
+      "id": "s000199",
+      "es": "Cambiar de perspectiva ayuda a entender mejor la situación.",
+      "he": "שינוי נקודת מבט עוזר להבין טוב יותר את המצב."
+    },
+    {
+      "id": "s000200",
+      "es": "La sostenibilidad se ha convertido en una prioridad global.",
+      "he": "הקיימות הפכה לעדיפות עולמית."
+    },
+    {
+      "id": "s000201",
+      "es": "Su integridad y sabiduría lo hacen un gran líder.",
+      "he": "היושרה והחוכמה שלו הופכים אותו למנהיג גדול."
+    }
+  ]
+}

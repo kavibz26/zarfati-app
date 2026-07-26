@@ -1,0 +1,153 @@
+{
+  "levelId": "beginner",
+  "topicId": "basic_verbs",
+  "vocab": [
+    {
+      "id": "w000082",
+      "es": "Yo soy",
+      "he": "אני (תכונה קבועה)",
+      "ex_es": "Yo soy alto.",
+      "ex_he": "אני גבוה."
+    },
+    {
+      "id": "w000083",
+      "es": "Tú eres",
+      "he": "אתה/את (תכונה קבועה)",
+      "ex_es": "Tú eres inteligente.",
+      "ex_he": "אתה חכם."
+    },
+    {
+      "id": "w000084",
+      "es": "Él/Ella es",
+      "he": "הוא/היא (תכונה קבועה)",
+      "ex_es": "Ella es doctora.",
+      "ex_he": "היא רופאה."
+    },
+    {
+      "id": "w000085",
+      "es": "Yo estoy",
+      "he": "אני (מצב זמני)",
+      "ex_es": "Yo estoy cansado.",
+      "ex_he": "אני עייף."
+    },
+    {
+      "id": "w000086",
+      "es": "Tú estás",
+      "he": "אתה/את (מצב זמני)",
+      "ex_es": "Tú estás feliz.",
+      "ex_he": "אתה שמח."
+    },
+    {
+      "id": "w000087",
+      "es": "Él/Ella está",
+      "he": "הוא/היא (מצב זמני)",
+      "ex_es": "Ella está en casa.",
+      "ex_he": "היא בבית."
+    },
+    {
+      "id": "w000088",
+      "es": "Yo tengo",
+      "he": "יש לי",
+      "ex_es": "Yo tengo un perro.",
+      "ex_he": "יש לי כלב."
+    },
+    {
+      "id": "w000089",
+      "es": "Tú tienes",
+      "he": "יש לך",
+      "ex_es": "Tú tienes razón.",
+      "ex_he": "אתה צודק."
+    },
+    {
+      "id": "w000090",
+      "es": "Él/Ella tiene",
+      "he": "יש לו/לה",
+      "ex_es": "Ella tiene veinte años.",
+      "ex_he": "היא בת עשרים."
+    },
+    {
+      "id": "w000091",
+      "es": "Nosotros somos",
+      "he": "אנחנו (תכונה קבועה)",
+      "ex_es": "Nosotros somos amigos.",
+      "ex_he": "אנחנו חברים."
+    },
+    {
+      "id": "w000092",
+      "es": "Ellos son",
+      "he": "הם (תכונה קבועה)",
+      "ex_es": "Ellos son hermanos.",
+      "ex_he": "הם אחים."
+    },
+    {
+      "id": "w000093",
+      "es": "Nosotros estamos",
+      "he": "אנחנו (מצב זמני)",
+      "ex_es": "Nosotros estamos listos.",
+      "ex_he": "אנחנו מוכנים."
+    },
+    {
+      "id": "w000094",
+      "es": "Ellos tienen",
+      "he": "יש להם",
+      "ex_es": "Ellos tienen mucho trabajo.",
+      "ex_he": "יש להם הרבה עבודה."
+    },
+    {
+      "id": "w000095",
+      "es": "Hay",
+      "he": "יש (ישנם)",
+      "ex_es": "Hay un problema.",
+      "ex_he": "יש בעיה."
+    },
+    {
+      "id": "w000096",
+      "es": "¿Cuántos años tienes?",
+      "he": "בן/בת כמה אתה/את?",
+      "ex_es": "¿Cuántos años tienes?",
+      "ex_he": "בן כמה אתה?"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000041",
+      "es": "Yo soy de España.",
+      "he": "אני מספרד."
+    },
+    {
+      "id": "s000042",
+      "es": "Ella está muy cansada hoy.",
+      "he": "היא מאוד עייפה היום."
+    },
+    {
+      "id": "s000043",
+      "es": "Tengo veinte años y soy estudiante.",
+      "he": "אני בת עשרים ואני סטודנטית."
+    },
+    {
+      "id": "s000044",
+      "es": "¿Dónde estás ahora?",
+      "he": "איפה אתה עכשיו?"
+    },
+    {
+      "id": "s000045",
+      "es": "Nosotros tenemos una casa grande.",
+      "he": "יש לנו בית גדול."
+    },
+    {
+      "id": "s000046",
+      "es": "Hay muchas personas en la fiesta.",
+      "he": "יש הרבה אנשים במסיבה."
+    },
+    {
+      "id": "s000047",
+      "es": "¿Cuántos años tienes, Marta?",
+      "he": "בת כמה את, מרתה?"
+    },
+    {
+      "id": "s000048",
+      "es": "Ellos son de Argentina, pero viven en España.",
+      "he": "הם מארגנטינה, אבל גרים בספרד."
+    }
+  ]
+}

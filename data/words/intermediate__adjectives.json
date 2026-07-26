@@ -1,0 +1,153 @@
+{
+  "levelId": "intermediate",
+  "topicId": "adjectives",
+  "vocab": [
+    {
+      "id": "w000175",
+      "es": "Alto / Alta",
+      "he": "גבוה / גבוהה",
+      "ex_es": "Mi hermano es muy alto.",
+      "ex_he": "אחי גבוה מאוד."
+    },
+    {
+      "id": "w000176",
+      "es": "Bajo / Baja",
+      "he": "נמוך / נמוכה",
+      "ex_es": "La mesa es baja.",
+      "ex_he": "השולחן נמוך."
+    },
+    {
+      "id": "w000177",
+      "es": "Simpático / Simpática",
+      "he": "נחמד / נחמדה",
+      "ex_es": "Ella es muy simpática.",
+      "ex_he": "היא מאוד נחמדה."
+    },
+    {
+      "id": "w000178",
+      "es": "Inteligente",
+      "he": "חכם/ה",
+      "ex_es": "Es un chico inteligente.",
+      "ex_he": "הוא ילד חכם."
+    },
+    {
+      "id": "w000179",
+      "es": "Divertido / Divertida",
+      "he": "מצחיק / מצחיקה",
+      "ex_es": "La película fue divertida.",
+      "ex_he": "הסרט היה מצחיק."
+    },
+    {
+      "id": "w000180",
+      "es": "Aburrido / Aburrida",
+      "he": "משעמם / משעממת",
+      "ex_es": "El libro es aburrido.",
+      "ex_he": "הספר משעמם."
+    },
+    {
+      "id": "w000181",
+      "es": "Trabajador / Trabajadora",
+      "he": "חרוץ / חרוצה",
+      "ex_es": "Es una mujer trabajadora.",
+      "ex_he": "היא אישה חרוצה."
+    },
+    {
+      "id": "w000182",
+      "es": "Perezoso / Perezosa",
+      "he": "עצלן / עצלנית",
+      "ex_es": "El gato es muy perezoso.",
+      "ex_he": "החתול מאוד עצלן."
+    },
+    {
+      "id": "w000183",
+      "es": "Amable",
+      "he": "אדיב/ה",
+      "ex_es": "El profesor es amable.",
+      "ex_he": "המורה אדיב."
+    },
+    {
+      "id": "w000184",
+      "es": "Generoso / Generosa",
+      "he": "נדיב / נדיבה",
+      "ex_es": "Su tío es muy generoso.",
+      "ex_he": "הדוד שלו מאוד נדיב."
+    },
+    {
+      "id": "w000185",
+      "es": "Cariñoso / Cariñosa",
+      "he": "חם / חמה (במזג)",
+      "ex_es": "Mi abuela es muy cariñosa.",
+      "ex_he": "סבתא שלי מאוד חמה."
+    },
+    {
+      "id": "w000186",
+      "es": "Tímido / Tímida",
+      "he": "ביישן / ביישנית",
+      "ex_es": "El niño es tímido con extraños.",
+      "ex_he": "הילד ביישן מול זרים."
+    },
+    {
+      "id": "w000187",
+      "es": "Curioso / Curiosa",
+      "he": "סקרן / סקרנית",
+      "ex_es": "Los gatos son muy curiosos.",
+      "ex_he": "חתולים מאוד סקרנים."
+    },
+    {
+      "id": "w000188",
+      "es": "Paciente",
+      "he": "סבלני/ת",
+      "ex_es": "El profesor es muy paciente.",
+      "ex_he": "המורה מאוד סבלני."
+    },
+    {
+      "id": "w000189",
+      "es": "Honesto / Honesta",
+      "he": "כן / כנה, ישר / ישרה",
+      "ex_es": "Necesitamos un empleado honesto.",
+      "ex_he": "אנחנו צריכים עובד ישר."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000084",
+      "es": "Mi amiga es alta e inteligente.",
+      "he": "החברה שלי גבוהה וחכמה."
+    },
+    {
+      "id": "s000085",
+      "es": "El nuevo empleado parece muy trabajador.",
+      "he": "העובד החדש נראה חרוץ מאוד."
+    },
+    {
+      "id": "s000086",
+      "es": "Este programa de televisión es aburrido.",
+      "he": "התוכנית טלוויזיה הזו משעממת."
+    },
+    {
+      "id": "s000087",
+      "es": "Mis padres son muy generosos.",
+      "he": "ההורים שלי מאוד נדיבים."
+    },
+    {
+      "id": "s000088",
+      "es": "El perro es divertido y simpático.",
+      "he": "הכלב מצחיק ונחמד."
+    },
+    {
+      "id": "s000089",
+      "es": "Mi hermana es tímida pero muy curiosa.",
+      "he": "אחותי ביישנית אבל מאוד סקרנית."
+    },
+    {
+      "id": "s000090",
+      "es": "Necesitamos ser pacientes con los nuevos estudiantes.",
+      "he": "אנחנו צריכים להיות סבלניים עם התלמידים החדשים."
+    },
+    {
+      "id": "s000091",
+      "es": "Es una persona honesta y cariñosa.",
+      "he": "היא אדם ישר וחם."
+    }
+  ]
+}

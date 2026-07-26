@@ -1,0 +1,153 @@
+{
+  "levelId": "intermediate",
+  "topicId": "preterito",
+  "vocab": [
+    {
+      "id": "w000160",
+      "es": "Yo hablé",
+      "he": "אני דיברתי",
+      "ex_es": "Ayer yo hablé con ella.",
+      "ex_he": "אתמול דיברתי איתה."
+    },
+    {
+      "id": "w000161",
+      "es": "Tú comiste",
+      "he": "אתה אכלת",
+      "ex_es": "Tú comiste pizza anoche.",
+      "ex_he": "אכלת פיצה אתמול בלילה."
+    },
+    {
+      "id": "w000162",
+      "es": "Él vivió",
+      "he": "הוא גר (בעבר)",
+      "ex_es": "Él vivió en Francia.",
+      "ex_he": "הוא גר בצרפת."
+    },
+    {
+      "id": "w000163",
+      "es": "Nosotros fuimos",
+      "he": "אנחנו היינו/הלכנו",
+      "ex_es": "Nosotros fuimos al cine.",
+      "ex_he": "הלכנו לקולנוע."
+    },
+    {
+      "id": "w000164",
+      "es": "Ellos hicieron",
+      "he": "הם עשו",
+      "ex_es": "Ellos hicieron la tarea.",
+      "ex_he": "הם עשו את שיעורי הבית."
+    },
+    {
+      "id": "w000165",
+      "es": "Yo tuve",
+      "he": "היה לי",
+      "ex_es": "Yo tuve un examen difícil.",
+      "ex_he": "היה לי מבחן קשה."
+    },
+    {
+      "id": "w000166",
+      "es": "Ella dijo",
+      "he": "היא אמרה",
+      "ex_es": "Ella dijo la verdad.",
+      "ex_he": "היא אמרה את האמת."
+    },
+    {
+      "id": "w000167",
+      "es": "Nosotros vimos",
+      "he": "ראינו",
+      "ex_es": "Nosotros vimos una película.",
+      "ex_he": "ראינו סרט."
+    },
+    {
+      "id": "w000168",
+      "es": "Ayer",
+      "he": "אתמול",
+      "ex_es": "Ayer llovió mucho.",
+      "ex_he": "אתמול ירד הרבה גשם."
+    },
+    {
+      "id": "w000169",
+      "es": "La semana pasada",
+      "he": "השבוע שעבר",
+      "ex_es": "La semana pasada viajé a Roma.",
+      "ex_he": "השבוע שעבר טסתי לרומא."
+    },
+    {
+      "id": "w000170",
+      "es": "Yo fui",
+      "he": "הייתי / הלכתי",
+      "ex_es": "Yo fui al mercado ayer.",
+      "ex_he": "הלכתי לשוק אתמול."
+    },
+    {
+      "id": "w000171",
+      "es": "Ella pudo",
+      "he": "היא הצליחה/יכלה",
+      "ex_es": "Ella pudo terminar el proyecto.",
+      "ex_he": "היא הצליחה לסיים את הפרויקט."
+    },
+    {
+      "id": "w000172",
+      "es": "Nosotros llegamos",
+      "he": "הגענו",
+      "ex_es": "Nosotros llegamos tarde a la fiesta.",
+      "ex_he": "הגענו מאוחר למסיבה."
+    },
+    {
+      "id": "w000173",
+      "es": "Ellos vinieron",
+      "he": "הם באו",
+      "ex_es": "Ellos vinieron de visita el sábado.",
+      "ex_he": "הם באו לביקור בשבת."
+    },
+    {
+      "id": "w000174",
+      "es": "Anoche",
+      "he": "אמש",
+      "ex_es": "Anoche cenamos en un restaurante nuevo.",
+      "ex_he": "אמש אכלנו ארוחת ערב במסעדה חדשה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000076",
+      "es": "Ayer hablé con mi jefe.",
+      "he": "אתמול דיברתי עם הבוס שלי."
+    },
+    {
+      "id": "s000077",
+      "es": "Ellos hicieron un viaje increíble.",
+      "he": "הם עשו טיול מדהים."
+    },
+    {
+      "id": "s000078",
+      "es": "Nosotros fuimos al concierto anoche.",
+      "he": "הלכנו להופעה אתמול בלילה."
+    },
+    {
+      "id": "s000079",
+      "es": "Ella dijo que llegó tarde.",
+      "he": "היא אמרה שהיא הגיעה מאוחר."
+    },
+    {
+      "id": "s000080",
+      "es": "La semana pasada tuve mucho trabajo.",
+      "he": "השבוע שעבר היה לי הרבה עבודה."
+    },
+    {
+      "id": "s000081",
+      "es": "Anoche vimos una película muy interesante.",
+      "he": "אמש ראינו סרט מאוד מעניין."
+    },
+    {
+      "id": "s000082",
+      "es": "Ellos vinieron a visitarnos la semana pasada.",
+      "he": "הם באו לבקר אותנו בשבוע שעבר."
+    },
+    {
+      "id": "s000083",
+      "es": "¿A qué hora llegaste a casa?",
+      "he": "באיזו שעה הגעת הביתה?"
+    }
+  ]
+}

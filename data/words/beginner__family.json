@@ -1,0 +1,153 @@
+{
+  "levelId": "beginner",
+  "topicId": "family",
+  "vocab": [
+    {
+      "id": "w000050",
+      "es": "La familia",
+      "he": "המשפחה",
+      "ex_es": "Mi familia es grande.",
+      "ex_he": "המשפחה שלי גדולה."
+    },
+    {
+      "id": "w000051",
+      "es": "La madre",
+      "he": "האמא",
+      "ex_es": "Mi madre cocina bien.",
+      "ex_he": "אמא שלי מבשלת טוב."
+    },
+    {
+      "id": "w000052",
+      "es": "El padre",
+      "he": "האבא",
+      "ex_es": "Mi padre trabaja mucho.",
+      "ex_he": "אבא שלי עובד הרבה."
+    },
+    {
+      "id": "w000053",
+      "es": "El hermano",
+      "he": "האח",
+      "ex_es": "Tengo un hermano mayor.",
+      "ex_he": "יש לי אח גדול."
+    },
+    {
+      "id": "w000054",
+      "es": "La hermana",
+      "he": "האחות",
+      "ex_es": "Mi hermana estudia medicina.",
+      "ex_he": "אחותי לומדת רפואה."
+    },
+    {
+      "id": "w000055",
+      "es": "El hijo",
+      "he": "הבן",
+      "ex_es": "Su hijo es pequeño.",
+      "ex_he": "הבן שלו קטן."
+    },
+    {
+      "id": "w000056",
+      "es": "La hija",
+      "he": "הבת",
+      "ex_es": "Su hija canta muy bien.",
+      "ex_he": "הבת שלה שרה מאוד יפה."
+    },
+    {
+      "id": "w000057",
+      "es": "El abuelo",
+      "he": "הסבא",
+      "ex_es": "Mi abuelo tiene ochenta años.",
+      "ex_he": "סבא שלי בן שמונים."
+    },
+    {
+      "id": "w000058",
+      "es": "La abuela",
+      "he": "הסבתא",
+      "ex_es": "Mi abuela vive en Madrid.",
+      "ex_he": "סבתא שלי גרה במדריד."
+    },
+    {
+      "id": "w000059",
+      "es": "El esposo / La esposa",
+      "he": "הבעל / האישה",
+      "ex_es": "Mi esposa es doctora.",
+      "ex_he": "אשתי היא רופאה."
+    },
+    {
+      "id": "w000060",
+      "es": "El primo / La prima",
+      "he": "בן דוד / בת דודה",
+      "ex_es": "Mi primo vive en Chile.",
+      "ex_he": "בן דודי גר בצ'ילה."
+    },
+    {
+      "id": "w000061",
+      "es": "El tío / La tía",
+      "he": "הדוד / הדודה",
+      "ex_es": "Mi tía es muy simpática.",
+      "ex_he": "הדודה שלי מאוד נחמדה."
+    },
+    {
+      "id": "w000062",
+      "es": "El sobrino / La sobrina",
+      "he": "האחיין / האחיינית",
+      "ex_es": "Tengo dos sobrinas.",
+      "ex_he": "יש לי שתי אחייניות."
+    },
+    {
+      "id": "w000063",
+      "es": "Los padres",
+      "he": "ההורים",
+      "ex_es": "Mis padres se conocieron en la universidad.",
+      "ex_he": "ההורים שלי הכירו באוניברסיטה."
+    },
+    {
+      "id": "w000064",
+      "es": "El bebé",
+      "he": "התינוק",
+      "ex_es": "El bebé duerme mucho.",
+      "ex_he": "התינוק ישן הרבה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000025",
+      "es": "Tengo dos hermanos y una hermana.",
+      "he": "יש לי שני אחים ואחות אחת."
+    },
+    {
+      "id": "s000026",
+      "es": "Mi madre y mi padre viven en Barcelona.",
+      "he": "אמא שלי ואבא שלי גרים בברצלונה."
+    },
+    {
+      "id": "s000027",
+      "es": "Mi abuela cocina para toda la familia.",
+      "he": "סבתא שלי מבשלת לכל המשפחה."
+    },
+    {
+      "id": "s000028",
+      "es": "Su hijo estudia en la universidad.",
+      "he": "הבן שלו לומד באוניברסיטה."
+    },
+    {
+      "id": "s000029",
+      "es": "Toda mi familia se reúne los domingos.",
+      "he": "כל המשפחה שלי נפגשת בימי ראשון."
+    },
+    {
+      "id": "s000030",
+      "es": "Mi tío y mi tía vienen a cenar hoy.",
+      "he": "הדוד והדודה שלי באים לארוחת ערב היום."
+    },
+    {
+      "id": "s000031",
+      "es": "El bebé de mi prima es muy lindo.",
+      "he": "התינוק של בת דודתי מאוד חמוד."
+    },
+    {
+      "id": "s000032",
+      "es": "Mis padres celebran su aniversario mañana.",
+      "he": "ההורים שלי חוגגים את יום הנישואין שלהם מחר."
+    }
+  ]
+}

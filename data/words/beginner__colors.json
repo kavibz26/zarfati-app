@@ -1,0 +1,153 @@
+{
+  "levelId": "beginner",
+  "topicId": "colors",
+  "vocab": [
+    {
+      "id": "w000035",
+      "es": "Rojo",
+      "he": "אדום",
+      "ex_es": "El coche es rojo.",
+      "ex_he": "המכונית אדומה."
+    },
+    {
+      "id": "w000036",
+      "es": "Azul",
+      "he": "כחול",
+      "ex_es": "El cielo es azul.",
+      "ex_he": "השמיים כחולים."
+    },
+    {
+      "id": "w000037",
+      "es": "Verde",
+      "he": "ירוק",
+      "ex_es": "La planta es verde.",
+      "ex_he": "הצמח ירוק."
+    },
+    {
+      "id": "w000038",
+      "es": "Amarillo",
+      "he": "צהוב",
+      "ex_es": "El sol es amarillo.",
+      "ex_he": "השמש צהובה."
+    },
+    {
+      "id": "w000039",
+      "es": "Negro",
+      "he": "שחור",
+      "ex_es": "El gato es negro.",
+      "ex_he": "החתול שחור."
+    },
+    {
+      "id": "w000040",
+      "es": "Blanco",
+      "he": "לבן",
+      "ex_es": "La nieve es blanca.",
+      "ex_he": "השלג לבן."
+    },
+    {
+      "id": "w000041",
+      "es": "Naranja",
+      "he": "כתום",
+      "ex_es": "La naranja es naranja.",
+      "ex_he": "התפוז הוא כתום."
+    },
+    {
+      "id": "w000042",
+      "es": "Círculo",
+      "he": "עיגול",
+      "ex_es": "Dibuja un círculo.",
+      "ex_he": "צייר עיגול."
+    },
+    {
+      "id": "w000043",
+      "es": "Cuadrado",
+      "he": "ריבוע",
+      "ex_es": "La caja es cuadrada.",
+      "ex_he": "הקופסה מרובעת."
+    },
+    {
+      "id": "w000044",
+      "es": "Triángulo",
+      "he": "משולש",
+      "ex_es": "El triángulo tiene tres lados.",
+      "ex_he": "למשולש יש שלוש צלעות."
+    },
+    {
+      "id": "w000045",
+      "es": "Rosa",
+      "he": "ורוד",
+      "ex_es": "La camisa rosa es bonita.",
+      "ex_he": "החולצה הוורודה יפה."
+    },
+    {
+      "id": "w000046",
+      "es": "Gris",
+      "he": "אפור",
+      "ex_es": "El cielo está gris hoy.",
+      "ex_he": "השמיים אפורים היום."
+    },
+    {
+      "id": "w000047",
+      "es": "Marrón",
+      "he": "חום",
+      "ex_es": "Tengo botas marrones.",
+      "ex_he": "יש לי מגפיים חומים."
+    },
+    {
+      "id": "w000048",
+      "es": "Claro / Clara",
+      "he": "בהיר / בהירה (גוון)",
+      "ex_es": "Prefiero el azul claro.",
+      "ex_he": "אני מעדיף כחול בהיר."
+    },
+    {
+      "id": "w000049",
+      "es": "Oscuro / Oscura",
+      "he": "כהה (גוון)",
+      "ex_es": "Su pelo es negro oscuro.",
+      "ex_he": "השיער שלה שחור כהה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000017",
+      "es": "Me gusta el color azul.",
+      "he": "אני אוהב את הצבע כחול."
+    },
+    {
+      "id": "s000018",
+      "es": "El coche rojo es rápido.",
+      "he": "המכונית האדומה מהירה."
+    },
+    {
+      "id": "s000019",
+      "es": "La flor amarilla es bonita.",
+      "he": "הפרח הצהוב יפה."
+    },
+    {
+      "id": "s000020",
+      "es": "Dibuja un cuadrado verde.",
+      "he": "צייר ריבוע ירוק."
+    },
+    {
+      "id": "s000021",
+      "es": "El cielo está azul hoy.",
+      "he": "השמיים כחולים היום."
+    },
+    {
+      "id": "s000022",
+      "es": "Me gusta más el azul oscuro que el claro.",
+      "he": "אני אוהב יותר את הכחול הכהה מהבהיר."
+    },
+    {
+      "id": "s000023",
+      "es": "Ella lleva una falda rosa.",
+      "he": "היא לובשת חצאית ורודה."
+    },
+    {
+      "id": "s000024",
+      "es": "El perro tiene manchas marrones y blancas.",
+      "he": "לכלב יש כתמים חומים ולבנים."
+    }
+  ]
+}

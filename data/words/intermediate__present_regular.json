@@ -1,0 +1,153 @@
+{
+  "levelId": "intermediate",
+  "topicId": "present_regular",
+  "vocab": [
+    {
+      "id": "w000145",
+      "es": "Hablar (yo hablo)",
+      "he": "לדבר (אני מדבר)",
+      "ex_es": "Yo hablo español.",
+      "ex_he": "אני מדבר ספרדית."
+    },
+    {
+      "id": "w000146",
+      "es": "Comer (yo como)",
+      "he": "לאכול (אני אוכל)",
+      "ex_es": "Yo como a las dos.",
+      "ex_he": "אני אוכל בשתיים."
+    },
+    {
+      "id": "w000147",
+      "es": "Vivir (yo vivo)",
+      "he": "לגור (אני גר)",
+      "ex_es": "Yo vivo en Madrid.",
+      "ex_he": "אני גר במדריד."
+    },
+    {
+      "id": "w000148",
+      "es": "Trabajar (tú trabajas)",
+      "he": "לעבוד (אתה עובד)",
+      "ex_es": "Tú trabajas mucho.",
+      "ex_he": "אתה עובד הרבה."
+    },
+    {
+      "id": "w000149",
+      "es": "Estudiar (ella estudia)",
+      "he": "ללמוד (היא לומדת)",
+      "ex_es": "Ella estudia inglés.",
+      "ex_he": "היא לומדת אנגלית."
+    },
+    {
+      "id": "w000150",
+      "es": "Leer (nosotros leemos)",
+      "he": "לקרוא (אנחנו קוראים)",
+      "ex_es": "Nosotros leemos un libro.",
+      "ex_he": "אנחנו קוראים ספר."
+    },
+    {
+      "id": "w000151",
+      "es": "Escribir (ellos escriben)",
+      "he": "לכתוב (הם כותבים)",
+      "ex_es": "Ellos escriben cartas.",
+      "ex_he": "הם כותבים מכתבים."
+    },
+    {
+      "id": "w000152",
+      "es": "Abrir (yo abro)",
+      "he": "לפתוח (אני פותח)",
+      "ex_es": "Yo abro la puerta.",
+      "ex_he": "אני פותח את הדלת."
+    },
+    {
+      "id": "w000153",
+      "es": "Beber (tú bebes)",
+      "he": "לשתות (אתה שותה)",
+      "ex_es": "Tú bebes agua.",
+      "ex_he": "אתה שותה מים."
+    },
+    {
+      "id": "w000154",
+      "es": "Correr (él corre)",
+      "he": "לרוץ (הוא רץ)",
+      "ex_es": "Él corre por la mañana.",
+      "ex_he": "הוא רץ בבוקר."
+    },
+    {
+      "id": "w000155",
+      "es": "Entender (yo entiendo)",
+      "he": "להבין (אני מבין)",
+      "ex_es": "Yo entiendo un poco de español.",
+      "ex_he": "אני מבין קצת ספרדית."
+    },
+    {
+      "id": "w000156",
+      "es": "Poder (yo puedo)",
+      "he": "להיות מסוגל (אני יכול)",
+      "ex_es": "Yo puedo ayudarte.",
+      "ex_he": "אני יכול לעזור לך."
+    },
+    {
+      "id": "w000157",
+      "es": "Querer (tú quieres)",
+      "he": "לרצות (אתה רוצה)",
+      "ex_es": "¿Qué quieres comer?",
+      "ex_he": "מה אתה רוצה לאכול?"
+    },
+    {
+      "id": "w000158",
+      "es": "Salir (yo salgo)",
+      "he": "לצאת (אני יוצא)",
+      "ex_es": "Yo salgo de casa a las ocho.",
+      "ex_he": "אני יוצא מהבית בשמונה."
+    },
+    {
+      "id": "w000159",
+      "es": "Empezar (nosotros empezamos)",
+      "he": "להתחיל (אנחנו מתחילים)",
+      "ex_es": "Nosotros empezamos la clase a las nueve.",
+      "ex_he": "אנחנו מתחילים את השיעור בתשע."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000068",
+      "es": "Yo hablo español todos los días.",
+      "he": "אני מדבר ספרדית כל יום."
+    },
+    {
+      "id": "s000069",
+      "es": "Ella vive cerca de la playa.",
+      "he": "היא גרה קרוב לחוף הים."
+    },
+    {
+      "id": "s000070",
+      "es": "Nosotros comemos juntos los viernes.",
+      "he": "אנחנו אוכלים ביחד בימי שישי."
+    },
+    {
+      "id": "s000071",
+      "es": "Ellos escriben un correo electrónico.",
+      "he": "הם כותבים אימייל."
+    },
+    {
+      "id": "s000072",
+      "es": "Tú trabajas en una oficina grande.",
+      "he": "אתה עובד במשרד גדול."
+    },
+    {
+      "id": "s000073",
+      "es": "¿Puedes ayudarme con esta tarea?",
+      "he": "אתה יכול לעזור לי עם המטלה הזו?"
+    },
+    {
+      "id": "s000074",
+      "es": "Ella no entiende la pregunta.",
+      "he": "היא לא מבינה את השאלה."
+    },
+    {
+      "id": "s000075",
+      "es": "Empezamos a trabajar temprano los lunes.",
+      "he": "אנחנו מתחילים לעבוד מוקדם בימי שני."
+    }
+  ]
+}

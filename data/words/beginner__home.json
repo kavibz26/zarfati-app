@@ -1,0 +1,169 @@
+{
+  "levelId": "beginner",
+  "topicId": "home",
+  "vocab": [
+    {
+      "id": "w000109",
+      "es": "La casa",
+      "he": "הבית",
+      "ex_es": "Vivo en una casa grande.",
+      "ex_he": "אני גר בבית גדול."
+    },
+    {
+      "id": "w000110",
+      "es": "El apartamento",
+      "he": "הדירה",
+      "ex_es": "Mi apartamento está en el tercer piso.",
+      "ex_he": "הדירה שלי בקומה השלישית."
+    },
+    {
+      "id": "w000111",
+      "es": "La habitación / El cuarto",
+      "he": "החדר",
+      "ex_es": "Mi habitación es pequeña pero cómoda.",
+      "ex_he": "החדר שלי קטן אבל נוח."
+    },
+    {
+      "id": "w000112",
+      "es": "La cocina",
+      "he": "המטבח",
+      "ex_es": "Cocino todos los días en la cocina.",
+      "ex_he": "אני מבשל כל יום במטבח."
+    },
+    {
+      "id": "w000113",
+      "es": "El baño",
+      "he": "חדר האמבטיה",
+      "ex_es": "¿Dónde está el baño?",
+      "ex_he": "איפה חדר האמבטיה?"
+    },
+    {
+      "id": "w000114",
+      "es": "El dormitorio",
+      "he": "חדר השינה",
+      "ex_es": "Mi dormitorio tiene una cama grande.",
+      "ex_he": "בחדר השינה שלי יש מיטה גדולה."
+    },
+    {
+      "id": "w000115",
+      "es": "La sala / El salón",
+      "he": "הסלון",
+      "ex_es": "Vemos la televisión en la sala.",
+      "ex_he": "אנחנו צופים בטלוויזיה בסלון."
+    },
+    {
+      "id": "w000116",
+      "es": "La puerta",
+      "he": "הדלת",
+      "ex_es": "Cierra la puerta, por favor.",
+      "ex_he": "תסגור את הדלת, בבקשה."
+    },
+    {
+      "id": "w000117",
+      "es": "La ventana",
+      "he": "החלון",
+      "ex_es": "Abre la ventana, hace calor.",
+      "ex_he": "תפתח את החלון, חם."
+    },
+    {
+      "id": "w000118",
+      "es": "La mesa",
+      "he": "השולחן",
+      "ex_es": "La comida está en la mesa.",
+      "ex_he": "האוכל על השולחן."
+    },
+    {
+      "id": "w000119",
+      "es": "La silla",
+      "he": "הכיסא",
+      "ex_es": "Siéntate en esta silla.",
+      "ex_he": "שב על הכיסא הזה."
+    },
+    {
+      "id": "w000120",
+      "es": "La cama",
+      "he": "המיטה",
+      "ex_es": "Voy a dormir en mi cama.",
+      "ex_he": "אני הולך לישון במיטה שלי."
+    },
+    {
+      "id": "w000121",
+      "es": "La llave",
+      "he": "המפתח",
+      "ex_es": "No encuentro la llave de la casa.",
+      "ex_he": "אני לא מוצא את המפתח של הבית."
+    },
+    {
+      "id": "w000122",
+      "es": "El jardín",
+      "he": "הגינה",
+      "ex_es": "Los niños juegan en el jardín.",
+      "ex_he": "הילדים משחקים בגינה."
+    },
+    {
+      "id": "w000123",
+      "es": "La pared",
+      "he": "הקיר",
+      "ex_es": "Hay un cuadro en la pared.",
+      "ex_he": "יש תמונה על הקיר."
+    },
+    {
+      "id": "w000124",
+      "es": "El piso / El suelo",
+      "he": "הרצפה",
+      "ex_es": "El piso está muy limpio.",
+      "ex_he": "הרצפה מאוד נקייה."
+    },
+    {
+      "id": "w000125",
+      "es": "El techo",
+      "he": "התקרה / הגג",
+      "ex_es": "El techo de la casa es rojo.",
+      "ex_he": "הגג של הבית אדום."
+    },
+    {
+      "id": "w000126",
+      "es": "Vivir en...",
+      "he": "לגור ב...",
+      "ex_es": "¿Dónde vives?",
+      "ex_he": "איפה אתה גר?"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000054",
+      "es": "Mi casa tiene tres habitaciones y una cocina grande.",
+      "he": "בבית שלי יש שלושה חדרים ומטבח גדול."
+    },
+    {
+      "id": "s000055",
+      "es": "La cocina está al lado de la sala.",
+      "he": "המטבח נמצא ליד הסלון."
+    },
+    {
+      "id": "s000056",
+      "es": "¿Dónde está la llave de la puerta?",
+      "he": "איפה המפתח של הדלת?"
+    },
+    {
+      "id": "s000057",
+      "es": "Los niños duermen en el mismo dormitorio.",
+      "he": "הילדים ישנים באותו חדר שינה."
+    },
+    {
+      "id": "s000058",
+      "es": "Hay flores bonitas en el jardín.",
+      "he": "יש פרחים יפים בגינה."
+    },
+    {
+      "id": "s000059",
+      "es": "Por favor, cierra la ventana antes de salir.",
+      "he": "בבקשה, תסגור את החלון לפני שאתה יוצא."
+    },
+    {
+      "id": "s000060",
+      "es": "Vivimos en un apartamento pequeño en el centro.",
+      "he": "אנחנו גרים בדירה קטנה במרכז."
+    }
+  ]
+}

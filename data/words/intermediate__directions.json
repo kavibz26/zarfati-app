@@ -1,0 +1,153 @@
+{
+  "levelId": "intermediate",
+  "topicId": "directions",
+  "vocab": [
+    {
+      "id": "w000220",
+      "es": "A la derecha",
+      "he": "ימינה",
+      "ex_es": "Gira a la derecha.",
+      "ex_he": "פנה ימינה."
+    },
+    {
+      "id": "w000221",
+      "es": "A la izquierda",
+      "he": "שמאלה",
+      "ex_es": "El banco está a la izquierda.",
+      "ex_he": "הבנק נמצא משמאל."
+    },
+    {
+      "id": "w000222",
+      "es": "Todo recto",
+      "he": "ישר",
+      "ex_es": "Sigue todo recto.",
+      "ex_he": "המשך ישר."
+    },
+    {
+      "id": "w000223",
+      "es": "La estación",
+      "he": "התחנה",
+      "ex_es": "La estación está cerca.",
+      "ex_he": "התחנה קרובה."
+    },
+    {
+      "id": "w000224",
+      "es": "El autobús",
+      "he": "האוטובוס",
+      "ex_es": "Tomo el autobús cada día.",
+      "ex_he": "אני נוסע באוטובוס כל יום."
+    },
+    {
+      "id": "w000225",
+      "es": "El metro",
+      "he": "הרכבת התחתית",
+      "ex_es": "El metro es rápido.",
+      "ex_he": "הרכבת התחתית מהירה."
+    },
+    {
+      "id": "w000226",
+      "es": "El semáforo",
+      "he": "הרמזור",
+      "ex_es": "Para en el semáforo.",
+      "ex_he": "עצור ברמזור."
+    },
+    {
+      "id": "w000227",
+      "es": "La esquina",
+      "he": "הפינה",
+      "ex_es": "Está en la esquina.",
+      "ex_he": "זה נמצא בפינה."
+    },
+    {
+      "id": "w000228",
+      "es": "¿Cómo llego a...?",
+      "he": "איך אני מגיע ל...?",
+      "ex_es": "¿Cómo llego al museo?",
+      "ex_he": "איך אני מגיע למוזיאון?"
+    },
+    {
+      "id": "w000229",
+      "es": "Cerca / Lejos",
+      "he": "קרוב / רחוק",
+      "ex_es": "El hotel está lejos de aquí.",
+      "ex_he": "המלון רחוק מכאן."
+    },
+    {
+      "id": "w000230",
+      "es": "La parada de autobús",
+      "he": "תחנת האוטובוס",
+      "ex_es": "Espero en la parada de autobús.",
+      "ex_he": "אני מחכה בתחנת האוטובוס."
+    },
+    {
+      "id": "w000231",
+      "es": "El billete de tren",
+      "he": "כרטיס הרכבת",
+      "ex_es": "Compré el billete de tren en línea.",
+      "ex_he": "קניתי את כרטיס הרכבת באינטרנט."
+    },
+    {
+      "id": "w000232",
+      "es": "Cruzar la calle",
+      "he": "לחצות את הרחוב",
+      "ex_es": "Cruza la calle con cuidado.",
+      "ex_he": "חצה את הרחוב בזהירות."
+    },
+    {
+      "id": "w000233",
+      "es": "Perderse",
+      "he": "ללכת לאיבוד",
+      "ex_es": "Nos perdimos en el centro.",
+      "ex_he": "הלכנו לאיבוד במרכז העיר."
+    },
+    {
+      "id": "w000234",
+      "es": "Al lado de",
+      "he": "ליד",
+      "ex_es": "El banco está al lado de la farmacia.",
+      "ex_he": "הבנק נמצא ליד בית המרקחת."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000108",
+      "es": "Gira a la izquierda en la esquina.",
+      "he": "פנה שמאלה בפינה."
+    },
+    {
+      "id": "s000109",
+      "es": "¿Cómo llego a la estación de tren?",
+      "he": "איך אני מגיע לתחנת הרכבת?"
+    },
+    {
+      "id": "s000110",
+      "es": "Sigue todo recto y verás el semáforo.",
+      "he": "המשך ישר ותראה את הרמזור."
+    },
+    {
+      "id": "s000111",
+      "es": "El metro está muy cerca de mi casa.",
+      "he": "הרכבת התחתית מאוד קרובה לבית שלי."
+    },
+    {
+      "id": "s000112",
+      "es": "Tomamos el autobús para ir al centro.",
+      "he": "אנחנו נוסעים באוטובוס למרכז העיר."
+    },
+    {
+      "id": "s000113",
+      "es": "Nos perdimos buscando la estación de tren.",
+      "he": "הלכנו לאיבוד בחיפוש אחר תחנת הרכבת."
+    },
+    {
+      "id": "s000114",
+      "es": "El museo está al lado del parque.",
+      "he": "המוזיאון נמצא ליד הפארק."
+    },
+    {
+      "id": "s000115",
+      "es": "Compré el billete de tren con antelación.",
+      "he": "קניתי את כרטיס הרכבת מראש."
+    }
+  ]
+}

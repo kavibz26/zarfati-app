@@ -1,0 +1,3972 @@
+{
+  "words": {
+    "w000001": {
+      "es": "Hola",
+      "he": "שלום",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000002": {
+      "es": "Buenos días",
+      "he": "בוקר טוב",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000003": {
+      "es": "Buenas tardes",
+      "he": "צהריים טובים",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000004": {
+      "es": "Buenas noches",
+      "he": "לילה טוב",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000005": {
+      "es": "Adiós",
+      "he": "להתראות",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000006": {
+      "es": "Por favor",
+      "he": "בבקשה",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000007": {
+      "es": "Gracias",
+      "he": "תודה",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000008": {
+      "es": "De nada",
+      "he": "על לא דבר",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000009": {
+      "es": "¿Cómo te llamas?",
+      "he": "איך קוראים לך?",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000010": {
+      "es": "Me llamo...",
+      "he": "קוראים לי...",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000011": {
+      "es": "Mucho gusto",
+      "he": "נעים מאוד",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000012": {
+      "es": "¿Y tú?",
+      "he": "ואתה/ואת?",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000013": {
+      "es": "¿Qué tal?",
+      "he": "מה נשמע?",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000014": {
+      "es": "Hasta luego",
+      "he": "להתראות (בקרוב)",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000015": {
+      "es": "Bienvenido / Bienvenida",
+      "he": "ברוך הבא / ברוכה הבאה",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000016": {
+      "es": "Perdón / Disculpe",
+      "he": "סליחה",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000017": {
+      "es": "Hasta mañana",
+      "he": "להתראות מחר",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "w000018": {
+      "es": "Cero",
+      "he": "אפס",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000019": {
+      "es": "Uno",
+      "he": "אחת",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000020": {
+      "es": "Dos",
+      "he": "שתיים",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000021": {
+      "es": "Cinco",
+      "he": "חמש",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000022": {
+      "es": "Diez",
+      "he": "עשר",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000023": {
+      "es": "Veinte",
+      "he": "עשרים",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000024": {
+      "es": "Treinta",
+      "he": "שלושים",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000025": {
+      "es": "Cien",
+      "he": "מאה",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000026": {
+      "es": "¿Qué hora es?",
+      "he": "מה השעה?",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000027": {
+      "es": "La hora",
+      "he": "השעה",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000028": {
+      "es": "El minuto",
+      "he": "הדקה",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000029": {
+      "es": "Media hora",
+      "he": "חצי שעה",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000030": {
+      "es": "Seis",
+      "he": "שש",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000031": {
+      "es": "Siete",
+      "he": "שבע",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000032": {
+      "es": "Ocho",
+      "he": "שמונה",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000033": {
+      "es": "Cuarenta",
+      "he": "ארבעים",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000034": {
+      "es": "Un cuarto de hora",
+      "he": "רבע שעה",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "w000035": {
+      "es": "Rojo",
+      "he": "אדום",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000036": {
+      "es": "Azul",
+      "he": "כחול",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000037": {
+      "es": "Verde",
+      "he": "ירוק",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000038": {
+      "es": "Amarillo",
+      "he": "צהוב",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000039": {
+      "es": "Negro",
+      "he": "שחור",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000040": {
+      "es": "Blanco",
+      "he": "לבן",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000041": {
+      "es": "Naranja",
+      "he": "כתום",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000042": {
+      "es": "Círculo",
+      "he": "עיגול",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000043": {
+      "es": "Cuadrado",
+      "he": "ריבוע",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000044": {
+      "es": "Triángulo",
+      "he": "משולש",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000045": {
+      "es": "Rosa",
+      "he": "ורוד",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000046": {
+      "es": "Gris",
+      "he": "אפור",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000047": {
+      "es": "Marrón",
+      "he": "חום",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000048": {
+      "es": "Claro / Clara",
+      "he": "בהיר / בהירה (גוון)",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000049": {
+      "es": "Oscuro / Oscura",
+      "he": "כהה (גוון)",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "w000050": {
+      "es": "La familia",
+      "he": "המשפחה",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000051": {
+      "es": "La madre",
+      "he": "האמא",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000052": {
+      "es": "El padre",
+      "he": "האבא",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000053": {
+      "es": "El hermano",
+      "he": "האח",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000054": {
+      "es": "La hermana",
+      "he": "האחות",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000055": {
+      "es": "El hijo",
+      "he": "הבן",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000056": {
+      "es": "La hija",
+      "he": "הבת",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000057": {
+      "es": "El abuelo",
+      "he": "הסבא",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000058": {
+      "es": "La abuela",
+      "he": "הסבתא",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000059": {
+      "es": "El esposo / La esposa",
+      "he": "הבעל / האישה",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000060": {
+      "es": "El primo / La prima",
+      "he": "בן דוד / בת דודה",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000061": {
+      "es": "El tío / La tía",
+      "he": "הדוד / הדודה",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000062": {
+      "es": "El sobrino / La sobrina",
+      "he": "האחיין / האחיינית",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000063": {
+      "es": "Los padres",
+      "he": "ההורים",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000064": {
+      "es": "El bebé",
+      "he": "התינוק",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "w000065": {
+      "es": "El agua",
+      "he": "מים",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000066": {
+      "es": "El pan",
+      "he": "לחם",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000067": {
+      "es": "La leche",
+      "he": "חלב",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000068": {
+      "es": "El café",
+      "he": "קפה",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000069": {
+      "es": "La fruta",
+      "he": "פרי",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000070": {
+      "es": "La manzana",
+      "he": "תפוח",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000071": {
+      "es": "El arroz",
+      "he": "אורז",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000072": {
+      "es": "La carne",
+      "he": "בשר",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000073": {
+      "es": "La verdura",
+      "he": "ירק",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000074": {
+      "es": "El restaurante",
+      "he": "מסעדה",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000075": {
+      "es": "Tengo hambre",
+      "he": "אני רעב",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000076": {
+      "es": "Tengo sed",
+      "he": "אני צמא",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000077": {
+      "es": "El huevo",
+      "he": "ביצה",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000078": {
+      "es": "El pescado",
+      "he": "דג",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000079": {
+      "es": "El postre",
+      "he": "קינוח",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000080": {
+      "es": "Delicioso / Deliciosa",
+      "he": "טעים / טעימה",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000081": {
+      "es": "La cuenta",
+      "he": "החשבון (במסעדה)",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "w000082": {
+      "es": "Yo soy",
+      "he": "אני (תכונה קבועה)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000083": {
+      "es": "Tú eres",
+      "he": "אתה/את (תכונה קבועה)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000084": {
+      "es": "Él/Ella es",
+      "he": "הוא/היא (תכונה קבועה)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000085": {
+      "es": "Yo estoy",
+      "he": "אני (מצב זמני)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000086": {
+      "es": "Tú estás",
+      "he": "אתה/את (מצב זמני)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000087": {
+      "es": "Él/Ella está",
+      "he": "הוא/היא (מצב זמני)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000088": {
+      "es": "Yo tengo",
+      "he": "יש לי",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000089": {
+      "es": "Tú tienes",
+      "he": "יש לך",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000090": {
+      "es": "Él/Ella tiene",
+      "he": "יש לו/לה",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000091": {
+      "es": "Nosotros somos",
+      "he": "אנחנו (תכונה קבועה)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000092": {
+      "es": "Ellos son",
+      "he": "הם (תכונה קבועה)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000093": {
+      "es": "Nosotros estamos",
+      "he": "אנחנו (מצב זמני)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000094": {
+      "es": "Ellos tienen",
+      "he": "יש להם",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000095": {
+      "es": "Hay",
+      "he": "יש (ישנם)",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000096": {
+      "es": "¿Cuántos años tienes?",
+      "he": "בן/בת כמה אתה/את?",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "w000097": {
+      "es": "El aeropuerto",
+      "he": "שדה התעופה",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000098": {
+      "es": "El pasaporte",
+      "he": "הדרכון",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000099": {
+      "es": "El billete / El boleto",
+      "he": "הכרטיס",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000100": {
+      "es": "La maleta",
+      "he": "המזוודה",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000101": {
+      "es": "El hotel",
+      "he": "המלון",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000102": {
+      "es": "La habitación",
+      "he": "החדר",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000103": {
+      "es": "El taxi",
+      "he": "המונית",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000104": {
+      "es": "El vuelo",
+      "he": "הטיסה",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000105": {
+      "es": "La playa",
+      "he": "חוף הים",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000106": {
+      "es": "El mapa",
+      "he": "המפה",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000107": {
+      "es": "¿Dónde está...?",
+      "he": "איפה נמצא...?",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000108": {
+      "es": "De vacaciones",
+      "he": "בחופשה",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "w000109": {
+      "es": "La casa",
+      "he": "הבית",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000110": {
+      "es": "El apartamento",
+      "he": "הדירה",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000111": {
+      "es": "La habitación / El cuarto",
+      "he": "החדר",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000112": {
+      "es": "La cocina",
+      "he": "המטבח",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000113": {
+      "es": "El baño",
+      "he": "חדר האמבטיה",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000114": {
+      "es": "El dormitorio",
+      "he": "חדר השינה",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000115": {
+      "es": "La sala / El salón",
+      "he": "הסלון",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000116": {
+      "es": "La puerta",
+      "he": "הדלת",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000117": {
+      "es": "La ventana",
+      "he": "החלון",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000118": {
+      "es": "La mesa",
+      "he": "השולחן",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000119": {
+      "es": "La silla",
+      "he": "הכיסא",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000120": {
+      "es": "La cama",
+      "he": "המיטה",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000121": {
+      "es": "La llave",
+      "he": "המפתח",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000122": {
+      "es": "El jardín",
+      "he": "הגינה",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000123": {
+      "es": "La pared",
+      "he": "הקיר",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000124": {
+      "es": "El piso / El suelo",
+      "he": "הרצפה",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000125": {
+      "es": "El techo",
+      "he": "התקרה / הגג",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000126": {
+      "es": "Vivir en...",
+      "he": "לגור ב...",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "w000127": {
+      "es": "Lunes",
+      "he": "יום שני",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000128": {
+      "es": "Martes",
+      "he": "יום שלישי",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000129": {
+      "es": "Miércoles",
+      "he": "יום רביעי",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000130": {
+      "es": "Jueves",
+      "he": "יום חמישי",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000131": {
+      "es": "Viernes",
+      "he": "יום שישי",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000132": {
+      "es": "Sábado",
+      "he": "שבת",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000133": {
+      "es": "Domingo",
+      "he": "יום ראשון",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000134": {
+      "es": "Hoy",
+      "he": "היום",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000135": {
+      "es": "Mañana",
+      "he": "מחר",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000136": {
+      "es": "Ayer",
+      "he": "אתמול",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000137": {
+      "es": "La semana",
+      "he": "השבוע",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000138": {
+      "es": "El mes",
+      "he": "החודש",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000139": {
+      "es": "El año",
+      "he": "השנה",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000140": {
+      "es": "La mañana",
+      "he": "הבוקר",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000141": {
+      "es": "La tarde",
+      "he": "אחר הצהריים",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000142": {
+      "es": "La noche",
+      "he": "הלילה",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000143": {
+      "es": "¿Qué día es hoy?",
+      "he": "איזה יום היום?",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000144": {
+      "es": "Todos los días",
+      "he": "כל יום",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "w000145": {
+      "es": "Hablar (yo hablo)",
+      "he": "לדבר (אני מדבר)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000146": {
+      "es": "Comer (yo como)",
+      "he": "לאכול (אני אוכל)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000147": {
+      "es": "Vivir (yo vivo)",
+      "he": "לגור (אני גר)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000148": {
+      "es": "Trabajar (tú trabajas)",
+      "he": "לעבוד (אתה עובד)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000149": {
+      "es": "Estudiar (ella estudia)",
+      "he": "ללמוד (היא לומדת)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000150": {
+      "es": "Leer (nosotros leemos)",
+      "he": "לקרוא (אנחנו קוראים)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000151": {
+      "es": "Escribir (ellos escriben)",
+      "he": "לכתוב (הם כותבים)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000152": {
+      "es": "Abrir (yo abro)",
+      "he": "לפתוח (אני פותח)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000153": {
+      "es": "Beber (tú bebes)",
+      "he": "לשתות (אתה שותה)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000154": {
+      "es": "Correr (él corre)",
+      "he": "לרוץ (הוא רץ)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000155": {
+      "es": "Entender (yo entiendo)",
+      "he": "להבין (אני מבין)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000156": {
+      "es": "Poder (yo puedo)",
+      "he": "להיות מסוגל (אני יכול)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000157": {
+      "es": "Querer (tú quieres)",
+      "he": "לרצות (אתה רוצה)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000158": {
+      "es": "Salir (yo salgo)",
+      "he": "לצאת (אני יוצא)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000159": {
+      "es": "Empezar (nosotros empezamos)",
+      "he": "להתחיל (אנחנו מתחילים)",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "w000160": {
+      "es": "Yo hablé",
+      "he": "אני דיברתי",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000161": {
+      "es": "Tú comiste",
+      "he": "אתה אכלת",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000162": {
+      "es": "Él vivió",
+      "he": "הוא גר (בעבר)",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000163": {
+      "es": "Nosotros fuimos",
+      "he": "אנחנו היינו/הלכנו",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000164": {
+      "es": "Ellos hicieron",
+      "he": "הם עשו",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000165": {
+      "es": "Yo tuve",
+      "he": "היה לי",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000166": {
+      "es": "Ella dijo",
+      "he": "היא אמרה",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000167": {
+      "es": "Nosotros vimos",
+      "he": "ראינו",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000168": {
+      "es": "Ayer",
+      "he": "אתמול",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000169": {
+      "es": "La semana pasada",
+      "he": "השבוע שעבר",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000170": {
+      "es": "Yo fui",
+      "he": "הייתי / הלכתי",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000171": {
+      "es": "Ella pudo",
+      "he": "היא הצליחה/יכלה",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000172": {
+      "es": "Nosotros llegamos",
+      "he": "הגענו",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000173": {
+      "es": "Ellos vinieron",
+      "he": "הם באו",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000174": {
+      "es": "Anoche",
+      "he": "אמש",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "w000175": {
+      "es": "Alto / Alta",
+      "he": "גבוה / גבוהה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000176": {
+      "es": "Bajo / Baja",
+      "he": "נמוך / נמוכה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000177": {
+      "es": "Simpático / Simpática",
+      "he": "נחמד / נחמדה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000178": {
+      "es": "Inteligente",
+      "he": "חכם/ה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000179": {
+      "es": "Divertido / Divertida",
+      "he": "מצחיק / מצחיקה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000180": {
+      "es": "Aburrido / Aburrida",
+      "he": "משעמם / משעממת",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000181": {
+      "es": "Trabajador / Trabajadora",
+      "he": "חרוץ / חרוצה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000182": {
+      "es": "Perezoso / Perezosa",
+      "he": "עצלן / עצלנית",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000183": {
+      "es": "Amable",
+      "he": "אדיב/ה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000184": {
+      "es": "Generoso / Generosa",
+      "he": "נדיב / נדיבה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000185": {
+      "es": "Cariñoso / Cariñosa",
+      "he": "חם / חמה (במזג)",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000186": {
+      "es": "Tímido / Tímida",
+      "he": "ביישן / ביישנית",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000187": {
+      "es": "Curioso / Curiosa",
+      "he": "סקרן / סקרנית",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000188": {
+      "es": "Paciente",
+      "he": "סבלני/ת",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000189": {
+      "es": "Honesto / Honesta",
+      "he": "כן / כנה, ישר / ישרה",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "w000190": {
+      "es": "Levantarse",
+      "he": "לקום (מהמיטה)",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000191": {
+      "es": "Ducharse",
+      "he": "להתקלח",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000192": {
+      "es": "Desayunar",
+      "he": "לאכול ארוחת בוקר",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000193": {
+      "es": "La cocina",
+      "he": "המטבח",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000194": {
+      "es": "El dormitorio",
+      "he": "חדר השינה",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000195": {
+      "es": "Limpiar",
+      "he": "לנקות",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000196": {
+      "es": "Acostarse",
+      "he": "ללכת לישון",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000197": {
+      "es": "El horario",
+      "he": "לוח הזמנים",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000198": {
+      "es": "Todos los días",
+      "he": "כל יום",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000199": {
+      "es": "Normalmente",
+      "he": "בדרך כלל",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000200": {
+      "es": "Vestirse",
+      "he": "להתלבש",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000201": {
+      "es": "El baño",
+      "he": "חדר האמבטיה",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000202": {
+      "es": "Lavar los platos",
+      "he": "לשטוף כלים",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000203": {
+      "es": "Salir de casa",
+      "he": "לצאת מהבית",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000204": {
+      "es": "Descansar",
+      "he": "לנוח",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "w000205": {
+      "es": "El trabajo",
+      "he": "העבודה",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000206": {
+      "es": "La empresa",
+      "he": "החברה (עסקית)",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000207": {
+      "es": "El jefe / La jefa",
+      "he": "הבוס",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000208": {
+      "es": "El médico / La médica",
+      "he": "הרופא/ה",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000209": {
+      "es": "El abogado / La abogada",
+      "he": "עורך/ת דין",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000210": {
+      "es": "El ingeniero / La ingeniera",
+      "he": "מהנדס/ת",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000211": {
+      "es": "La reunión",
+      "he": "הישיבה",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000212": {
+      "es": "El sueldo",
+      "he": "המשכורת",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000213": {
+      "es": "Contratar",
+      "he": "להעסיק/לגייס",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000214": {
+      "es": "Renunciar",
+      "he": "להתפטר",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000215": {
+      "es": "El profesor / La profesora",
+      "he": "המורה",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000216": {
+      "es": "El vendedor / La vendedora",
+      "he": "המוכר / המוכרת",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000217": {
+      "es": "La entrevista",
+      "he": "הראיון (עבודה)",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000218": {
+      "es": "El currículum",
+      "he": "קורות החיים",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000219": {
+      "es": "Ganar dinero",
+      "he": "להרוויח כסף",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "w000220": {
+      "es": "A la derecha",
+      "he": "ימינה",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000221": {
+      "es": "A la izquierda",
+      "he": "שמאלה",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000222": {
+      "es": "Todo recto",
+      "he": "ישר",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000223": {
+      "es": "La estación",
+      "he": "התחנה",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000224": {
+      "es": "El autobús",
+      "he": "האוטובוס",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000225": {
+      "es": "El metro",
+      "he": "הרכבת התחתית",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000226": {
+      "es": "El semáforo",
+      "he": "הרמזור",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000227": {
+      "es": "La esquina",
+      "he": "הפינה",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000228": {
+      "es": "¿Cómo llego a...?",
+      "he": "איך אני מגיע ל...?",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000229": {
+      "es": "Cerca / Lejos",
+      "he": "קרוב / רחוק",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000230": {
+      "es": "La parada de autobús",
+      "he": "תחנת האוטובוס",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000231": {
+      "es": "El billete de tren",
+      "he": "כרטיס הרכבת",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000232": {
+      "es": "Cruzar la calle",
+      "he": "לחצות את הרחוב",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000233": {
+      "es": "Perderse",
+      "he": "ללכת לאיבוד",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000234": {
+      "es": "Al lado de",
+      "he": "ליד",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "w000235": {
+      "es": "La reserva",
+      "he": "ההזמנה (מלון/מסעדה)",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000236": {
+      "es": "El vuelo con escala",
+      "he": "טיסה עם עצירת ביניים",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000237": {
+      "es": "El retraso",
+      "he": "העיכוב / האיחור",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000238": {
+      "es": "La tarjeta de embarque",
+      "he": "כרטיס העלייה למטוס",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000239": {
+      "es": "El equipaje",
+      "he": "המטען / הכבודה",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000240": {
+      "es": "La recepción",
+      "he": "הקבלה (במלון)",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000241": {
+      "es": "Alquilar un coche",
+      "he": "לשכור רכב",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000242": {
+      "es": "El seguro de viaje",
+      "he": "ביטוח נסיעות",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000243": {
+      "es": "Facturar el equipaje",
+      "he": "לרשום את הכבודה",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000244": {
+      "es": "Quejarse",
+      "he": "להתלונן",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000245": {
+      "es": "El itinerario",
+      "he": "מסלול הטיול",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000246": {
+      "es": "Cancelar el vuelo",
+      "he": "לבטל את הטיסה",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "w000247": {
+      "es": "Feliz",
+      "he": "שמח",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000248": {
+      "es": "Triste",
+      "he": "עצוב",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000249": {
+      "es": "Enojado / Enfadado",
+      "he": "כועס",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000250": {
+      "es": "Cansado",
+      "he": "עייף",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000251": {
+      "es": "Emocionado",
+      "he": "נרגש",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000252": {
+      "es": "Preocupado",
+      "he": "מודאג",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000253": {
+      "es": "Asustado",
+      "he": "מפוחד",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000254": {
+      "es": "Sorprendido",
+      "he": "מופתע",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000255": {
+      "es": "Enamorado",
+      "he": "מאוהב",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000256": {
+      "es": "Aburrido",
+      "he": "משועמם",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000257": {
+      "es": "Nervioso",
+      "he": "עצבני / לחוץ",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000258": {
+      "es": "Orgulloso",
+      "he": "גאה",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000259": {
+      "es": "Decepcionado",
+      "he": "מאוכזב",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000260": {
+      "es": "Tranquilo / Relajado",
+      "he": "רגוע",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000261": {
+      "es": "¿Cómo te sientes?",
+      "he": "איך אתה מרגיש?",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000262": {
+      "es": "Me siento...",
+      "he": "אני מרגיש...",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000263": {
+      "es": "Tener miedo de",
+      "he": "לפחד מ...",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000264": {
+      "es": "Estar de buen/mal humor",
+      "he": "להיות במצב רוח טוב/רע",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "w000265": {
+      "es": "No entiendo",
+      "he": "אני לא מבין",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000266": {
+      "es": "¿Puedes repetir, por favor?",
+      "he": "אתה יכול לחזור, בבקשה?",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000267": {
+      "es": "¿Cómo se dice...?",
+      "he": "איך אומרים...?",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000268": {
+      "es": "Estoy de acuerdo",
+      "he": "אני מסכים",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000269": {
+      "es": "No estoy de acuerdo",
+      "he": "אני לא מסכים",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000270": {
+      "es": "Vamos",
+      "he": "בוא נלך / קדימה",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000271": {
+      "es": "Espera un momento",
+      "he": "חכה רגע",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000272": {
+      "es": "No hay problema",
+      "he": "אין בעיה",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000273": {
+      "es": "Claro que sí",
+      "he": "בטח שכן / כמובן",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000274": {
+      "es": "Creo que...",
+      "he": "אני חושב ש...",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000275": {
+      "es": "En mi opinión",
+      "he": "לדעתי",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000276": {
+      "es": "¿Me puedes ayudar?",
+      "he": "אתה יכול לעזור לי?",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000277": {
+      "es": "Tienes razón",
+      "he": "אתה צודק",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000278": {
+      "es": "No pasa nada",
+      "he": "זה בסדר / לא קרה כלום",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000279": {
+      "es": "¡Qué bien!",
+      "he": "כמה נחמד! / איזה כיף!",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000280": {
+      "es": "¡Qué lástima!",
+      "he": "איזה חבל!",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000281": {
+      "es": "Depende",
+      "he": "זה תלוי",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000282": {
+      "es": "Por cierto",
+      "he": "דרך אגב",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "w000283": {
+      "es": "Querer",
+      "he": "לרצות",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000284": {
+      "es": "Poder",
+      "he": "להיות מסוגל / יכול",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000285": {
+      "es": "Saber",
+      "he": "לדעת",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000286": {
+      "es": "Conocer",
+      "he": "להכיר",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000287": {
+      "es": "Pensar",
+      "he": "לחשוב",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000288": {
+      "es": "Sentir",
+      "he": "להרגיש",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000289": {
+      "es": "Buscar",
+      "he": "לחפש",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000290": {
+      "es": "Encontrar",
+      "he": "למצוא",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000291": {
+      "es": "Llevar",
+      "he": "לשאת / ללבוש",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000292": {
+      "es": "Dejar",
+      "he": "להשאיר / לעזוב",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000293": {
+      "es": "Preguntar",
+      "he": "לשאול",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000294": {
+      "es": "Responder / Contestar",
+      "he": "לענות",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000295": {
+      "es": "Necesitar",
+      "he": "להזדקק / לצטרך",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000296": {
+      "es": "Dar",
+      "he": "לתת",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000297": {
+      "es": "Tomar",
+      "he": "לקחת / לשתות",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000298": {
+      "es": "Ayudar",
+      "he": "לעזור",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000299": {
+      "es": "Empezar",
+      "he": "להתחיל",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000300": {
+      "es": "Terminar",
+      "he": "לסיים",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "w000301": {
+      "es": "La negociación",
+      "he": "המשא ומתן",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000302": {
+      "es": "El presupuesto",
+      "he": "התקציב",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000303": {
+      "es": "La inversión",
+      "he": "ההשקעה",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000304": {
+      "es": "Los beneficios",
+      "he": "הרווחים",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000305": {
+      "es": "La junta directiva",
+      "he": "דירקטוריון",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000306": {
+      "es": "El contrato",
+      "he": "החוזה",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000307": {
+      "es": "La estrategia",
+      "he": "האסטרטגיה",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000308": {
+      "es": "El competidor",
+      "he": "המתחרה",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000309": {
+      "es": "La fusión",
+      "he": "המיזוג",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000310": {
+      "es": "Los accionistas",
+      "he": "בעלי המניות",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000311": {
+      "es": "El margen de beneficio",
+      "he": "שולי הרווח",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000312": {
+      "es": "La cadena de suministro",
+      "he": "שרשרת האספקה",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000313": {
+      "es": "El informe trimestral",
+      "he": "הדוח הרבעוני",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000314": {
+      "es": "Escalar el negocio",
+      "he": "להרחיב את העסק",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000315": {
+      "es": "El plazo de entrega",
+      "he": "מועד האספקה",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "w000316": {
+      "es": "Espero que vengas",
+      "he": "אני מקווה שתבוא",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000317": {
+      "es": "Quiero que sepas",
+      "he": "אני רוצה שתדע",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000318": {
+      "es": "Es importante que estudies",
+      "he": "חשוב שתלמד",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000319": {
+      "es": "Dudo que sea verdad",
+      "he": "אני מסופק שזה נכון",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000320": {
+      "es": "Ojalá que llueva",
+      "he": "הלוואי וירד גשם",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000321": {
+      "es": "No creo que pueda",
+      "he": "אני לא חושב שהוא/היא יכול/ה",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000322": {
+      "es": "Antes de que llegues",
+      "he": "לפני שתגיע",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000323": {
+      "es": "Aunque sea difícil",
+      "he": "למרות שזה קשה",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000324": {
+      "es": "Para que entiendas",
+      "he": "כדי שתבין",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000325": {
+      "es": "Si tuviera tiempo",
+      "he": "אם היה לי זמן",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000326": {
+      "es": "Me alegra que vengas",
+      "he": "אני שמח שאתה בא",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000327": {
+      "es": "Es posible que llueva",
+      "he": "ייתכן וירד גשם",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000328": {
+      "es": "Recomiendo que estudies más",
+      "he": "אני ממליץ שתלמד יותר",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000329": {
+      "es": "No pienso que sea fácil",
+      "he": "אני לא חושב שזה קל",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000330": {
+      "es": "Hasta que termines",
+      "he": "עד שתסיים",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "w000331": {
+      "es": "Costar un ojo de la cara",
+      "he": "לעלות הון תועפות",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000332": {
+      "es": "Estar en las nubes",
+      "he": "להיות מפוזר/בעננים",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000333": {
+      "es": "Tomar el pelo",
+      "he": "לעבוד על מישהו/להתל",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000334": {
+      "es": "Ser pan comido",
+      "he": "להיות קלי קלות (משימה)",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000335": {
+      "es": "Meter la pata",
+      "he": "לעשות טעות מביכה",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000336": {
+      "es": "No tener pelos en la lengua",
+      "he": "לומר דברים כפי שהם, בלי לעטוף",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000337": {
+      "es": "Dar en el clavo",
+      "he": "לפגוע בול",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000338": {
+      "es": "Estar como una cabra",
+      "he": "להיות משוגע/מוזר",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000339": {
+      "es": "Ponerse las pilas",
+      "he": "להתאמץ/להתעורר לפעולה",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000340": {
+      "es": "A otro perro con ese hueso",
+      "he": "ספר לזה עוד סיפור (ביטוי ספקנות)",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000341": {
+      "es": "Echar una mano",
+      "he": "לעזור (להושיט יד)",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000342": {
+      "es": "Estar hasta las narices",
+      "he": "להיות נמאס לגמרי",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000343": {
+      "es": "Ser la gota que colma el vaso",
+      "he": "להיות הקש ששבר את גב הגמל",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000344": {
+      "es": "Hablar por los codos",
+      "he": "לדבר בלי הפסקה",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000345": {
+      "es": "Írsele el santo al cielo",
+      "he": "לשכוח משהו לגמרי",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "w000346": {
+      "es": "Yo era (imperfecto)",
+      "he": "הייתי (מצב מתמשך בעבר)",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000347": {
+      "es": "Yo fui (indefinido)",
+      "he": "הייתי/הלכתי (פעולה חד-פעמית)",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000348": {
+      "es": "Mientras",
+      "he": "בזמן ש...",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000349": {
+      "es": "De repente",
+      "he": "לפתע",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000350": {
+      "es": "Siempre (con imperfecto)",
+      "he": "תמיד (הרגל בעבר)",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000351": {
+      "es": "Una vez",
+      "he": "פעם אחת",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000352": {
+      "es": "Cuando + imperfecto",
+      "he": "כש... (רקע)",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000353": {
+      "es": "Interrumpir",
+      "he": "להפריע/לקטוע",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000354": {
+      "es": "Se rompió",
+      "he": "זה נשבר",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000355": {
+      "es": "Estaba lloviendo",
+      "he": "היה יורד גשם",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000356": {
+      "es": "Yo había terminado",
+      "he": "כבר הייתי סיימתי",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000357": {
+      "es": "Solía + infinitivo",
+      "he": "נהגתי ל...",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000358": {
+      "es": "Acababa de llegar",
+      "he": "בדיוק הגעתי",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000359": {
+      "es": "Llevaba + tiempo + gerundio",
+      "he": "כבר זמן מסוים ש...(עושה)",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000360": {
+      "es": "Nada más llegar",
+      "he": "מיד עם ההגעה",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "w000361": {
+      "es": "Estimado/a señor/a",
+      "he": "לכבוד אדון/גברת (פתיחה רשמית)",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000362": {
+      "es": "Le escribo para...",
+      "he": "אני כותב לך כדי...",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000363": {
+      "es": "Adjunto encontrará",
+      "he": "מצורף בזאת",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000364": {
+      "es": "Quedo a la espera de su respuesta",
+      "he": "אני ממתין לתשובתך",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000365": {
+      "es": "Atentamente",
+      "he": "בברכה",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000366": {
+      "es": "Solicitar",
+      "he": "לבקש (רשמית)",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000367": {
+      "es": "Confirmar",
+      "he": "לאשר",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000368": {
+      "es": "Lamento informarle",
+      "he": "אני מצטער להודיע לך",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000369": {
+      "es": "En referencia a",
+      "he": "בהתייחס ל...",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000370": {
+      "es": "Un cordial saludo",
+      "he": "בברכה חמה",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000371": {
+      "es": "Le agradezco de antemano",
+      "he": "תודה מראש",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000372": {
+      "es": "Sin más por el momento",
+      "he": "אין עוד מה להוסיף כרגע",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000373": {
+      "es": "Rogamos disculpe las molestias",
+      "he": "אנא סלח על אי הנוחות",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000374": {
+      "es": "Le informo que",
+      "he": "אני מודיע לך ש...",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000375": {
+      "es": "Con relación a su correo",
+      "he": "בהתייחס למייל שלך",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "w000376": {
+      "es": "En mi opinión",
+      "he": "לדעתי",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000377": {
+      "es": "Por un lado... por otro lado",
+      "he": "מצד אחד... מצד שני",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000378": {
+      "es": "Estoy de acuerdo",
+      "he": "אני מסכים",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000379": {
+      "es": "No estoy de acuerdo",
+      "he": "אני לא מסכים",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000380": {
+      "es": "El titular",
+      "he": "הכותרת (בעיתון)",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000381": {
+      "es": "La polémica",
+      "he": "המחלוקת",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000382": {
+      "es": "Según los expertos",
+      "he": "לפי המומחים",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000383": {
+      "es": "El punto de vista",
+      "he": "נקודת המבט",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000384": {
+      "es": "Debatir",
+      "he": "להתווכח/לדון",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000385": {
+      "es": "Al fin y al cabo",
+      "he": "בסופו של דבר",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000386": {
+      "es": "Desde mi punto de vista",
+      "he": "מנקודת מבטי",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000387": {
+      "es": "Cabe destacar que",
+      "he": "ראוי לציין ש...",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000388": {
+      "es": "Sin lugar a dudas",
+      "he": "ללא ספק",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000389": {
+      "es": "Está por verse",
+      "he": "עוד ייראה / טרם ידוע",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000390": {
+      "es": "Plantear una cuestión",
+      "he": "להעלות סוגיה",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "w000391": {
+      "es": "El viaje de negocios",
+      "he": "נסיעת עסקים",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000392": {
+      "es": "La escala",
+      "he": "עצירת ביניים (טיסה)",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000393": {
+      "es": "El visado",
+      "he": "הוויזה",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000394": {
+      "es": "La aduana",
+      "he": "המכס",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000395": {
+      "es": "El alojamiento",
+      "he": "הלינה",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000396": {
+      "es": "Las dietas",
+      "he": "דמי אש\"ל (הוצאות נסיעה)",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000397": {
+      "es": "El huso horario",
+      "he": "אזור הזמן",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000398": {
+      "es": "El jet lag",
+      "he": "עייפות מטיסה ארוכה (ג'ט לג)",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000399": {
+      "es": "Reprogramar el vuelo",
+      "he": "לתזמן מחדש את הטיסה",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000400": {
+      "es": "La sala VIP",
+      "he": "חדר ה-VIP (בשדה תעופה)",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000401": {
+      "es": "Hacer escala en",
+      "he": "לעצור בדרך ב...",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000402": {
+      "es": "El seguro médico de viaje",
+      "he": "ביטוח בריאות לנסיעות",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "w000403": {
+      "es": "La libertad",
+      "he": "החירות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000404": {
+      "es": "La justicia",
+      "he": "הצדק",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000405": {
+      "es": "La oportunidad",
+      "he": "ההזדמנות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000406": {
+      "es": "El desafío",
+      "he": "האתגר",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000407": {
+      "es": "El logro",
+      "he": "ההישג",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000408": {
+      "es": "La conciencia",
+      "he": "המודעות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000409": {
+      "es": "La responsabilidad",
+      "he": "האחריות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000410": {
+      "es": "La perspectiva",
+      "he": "נקודת המבט",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000411": {
+      "es": "La incertidumbre",
+      "he": "חוסר הוודאות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000412": {
+      "es": "La ambición",
+      "he": "השאיפה / השאפתנות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000413": {
+      "es": "La empatía",
+      "he": "האמפתיה",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000414": {
+      "es": "La integridad",
+      "he": "היושרה",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000415": {
+      "es": "La sostenibilidad",
+      "he": "הקיימות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000416": {
+      "es": "La identidad",
+      "he": "הזהות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000417": {
+      "es": "La influencia",
+      "he": "ההשפעה",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000418": {
+      "es": "La sabiduría",
+      "he": "החוכמה",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000419": {
+      "es": "El compromiso",
+      "he": "המחויבות",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000420": {
+      "es": "La resiliencia",
+      "he": "החוסן / העמידות הנפשית",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "w000421": {
+      "es": "Ni hablar",
+      "he": "בשום אופן / אין מצב",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000422": {
+      "es": "Qué va",
+      "he": "ממש לא / בכלל לא",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000423": {
+      "es": "Está chupado",
+      "he": "זה קלי קלות",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000424": {
+      "es": "Estar sin blanca",
+      "he": "להיות בלי פרוטה",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000425": {
+      "es": "Así así",
+      "he": "ככה ככה",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000426": {
+      "es": "No es para tanto",
+      "he": "זה לא כזה נורא",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000427": {
+      "es": "Al fin y al cabo",
+      "he": "בסופו של דבר",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000428": {
+      "es": "Ponerse las pilas",
+      "he": "להתאמץ / לזוז",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000429": {
+      "es": "Meter la pata",
+      "he": "לעשות טעות מביכה",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000430": {
+      "es": "Costar un ojo de la cara",
+      "he": "לעלות הון",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000431": {
+      "es": "Dar en el clavo",
+      "he": "לפגוע בול / לצדוק לגמרי",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000432": {
+      "es": "Tomar el pelo",
+      "he": "לעבוד על מישהו",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000433": {
+      "es": "Estar en las nubes",
+      "he": "להיות מרוחק בראש",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000434": {
+      "es": "Echar una mano",
+      "he": "לתת יד / לעזור",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000435": {
+      "es": "Ser pan comido",
+      "he": "להיות עניין של מה בכך",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000436": {
+      "es": "Hacerse el tonto",
+      "he": "להעמיד פני טיפש",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "w000437": {
+      "es": "Yo",
+      "he": "אני",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000438": {
+      "es": "Tú",
+      "he": "אתה / את",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000439": {
+      "es": "Él",
+      "he": "הוא",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000440": {
+      "es": "Ella",
+      "he": "היא",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000441": {
+      "es": "Usted",
+      "he": "אתה / את (רשמי)",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000442": {
+      "es": "Nosotros / Nosotras",
+      "he": "אנחנו",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000443": {
+      "es": "Vosotros / Vosotras",
+      "he": "אתם / אתן (בספרד)",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000444": {
+      "es": "Ellos",
+      "he": "הם",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000445": {
+      "es": "Ellas",
+      "he": "הן",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000446": {
+      "es": "Ustedes",
+      "he": "אתם / אתן (רשמי)",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "w000447": {
+      "es": "Ser",
+      "he": "להיות (זהות/תכונה)",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000448": {
+      "es": "Estar",
+      "he": "להיות (מצב/מיקום)",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000449": {
+      "es": "Tener",
+      "he": "יש ל...",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000450": {
+      "es": "Hacer",
+      "he": "לעשות",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000451": {
+      "es": "Ir",
+      "he": "ללכת",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000452": {
+      "es": "Poder",
+      "he": "להיות מסוגל / יכול",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000453": {
+      "es": "Querer",
+      "he": "לרצות",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000454": {
+      "es": "Decir",
+      "he": "לומר",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000455": {
+      "es": "Ver",
+      "he": "לראות",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000456": {
+      "es": "Dar",
+      "he": "לתת",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000457": {
+      "es": "Saber",
+      "he": "לדעת",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000458": {
+      "es": "Hablar",
+      "he": "לדבר",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "w000459": {
+      "es": "Yo hablo",
+      "he": "אני מדבר",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000460": {
+      "es": "Tú hablas",
+      "he": "אתה מדבר",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000461": {
+      "es": "Él/Ella habla",
+      "he": "הוא/היא מדבר/ת",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000462": {
+      "es": "Nosotros hablamos",
+      "he": "אנחנו מדברים",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000463": {
+      "es": "Vosotros habláis",
+      "he": "אתם מדברים (בספרד)",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000464": {
+      "es": "Ellos hablan",
+      "he": "הם מדברים",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000465": {
+      "es": "Yo como",
+      "he": "אני אוכל",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000466": {
+      "es": "Tú comes",
+      "he": "אתה אוכל",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000467": {
+      "es": "Él/Ella come",
+      "he": "הוא/היא אוכל/ת",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000468": {
+      "es": "Nosotros comemos",
+      "he": "אנחנו אוכלים",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000469": {
+      "es": "Vosotros coméis",
+      "he": "אתם אוכלים (בספרד)",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000470": {
+      "es": "Ellos comen",
+      "he": "הם אוכלים",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000471": {
+      "es": "Yo vivo",
+      "he": "אני גר",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000472": {
+      "es": "Tú vives",
+      "he": "אתה גר",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000473": {
+      "es": "Él/Ella vive",
+      "he": "הוא/היא גר/ה",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000474": {
+      "es": "Nosotros vivimos",
+      "he": "אנחנו גרים",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000475": {
+      "es": "Vosotros vivís",
+      "he": "אתם גרים (בספרד)",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "w000476": {
+      "es": "Ellos viven",
+      "he": "הם גרים",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    }
+  },
+  "sentences": {
+    "s000001": {
+      "es": "Hola, me llamo Pedro.",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "s000002": {
+      "es": "¿Cómo estás hoy?",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "s000003": {
+      "es": "Mucho gusto en conocerte.",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "s000004": {
+      "es": "Buenos días, ¿cómo te llamas?",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "s000005": {
+      "es": "Adiós, hasta luego.",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "s000006": {
+      "es": "¿Qué tal estás hoy?",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "s000007": {
+      "es": "Perdón, no entendí tu nombre.",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "s000008": {
+      "es": "Bienvenida a la clase de español.",
+      "levelId": "beginner",
+      "topicId": "greetings"
+    },
+    "s000009": {
+      "es": "Son las diez de la mañana.",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "s000010": {
+      "es": "Tengo veinte años.",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "s000011": {
+      "es": "Espera cinco minutos, por favor.",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "s000012": {
+      "es": "¿Qué hora es ahora?",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "s000013": {
+      "es": "Cuesta treinta euros.",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "s000014": {
+      "es": "Tengo cuarenta euros en el bolsillo.",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "s000015": {
+      "es": "La reunión empieza en un cuarto de hora.",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "s000016": {
+      "es": "Son las ocho y cinco.",
+      "levelId": "beginner",
+      "topicId": "numbers"
+    },
+    "s000017": {
+      "es": "Me gusta el color azul.",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "s000018": {
+      "es": "El coche rojo es rápido.",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "s000019": {
+      "es": "La flor amarilla es bonita.",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "s000020": {
+      "es": "Dibuja un cuadrado verde.",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "s000021": {
+      "es": "El cielo está azul hoy.",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "s000022": {
+      "es": "Me gusta más el azul oscuro que el claro.",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "s000023": {
+      "es": "Ella lleva una falda rosa.",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "s000024": {
+      "es": "El perro tiene manchas marrones y blancas.",
+      "levelId": "beginner",
+      "topicId": "colors"
+    },
+    "s000025": {
+      "es": "Tengo dos hermanos y una hermana.",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "s000026": {
+      "es": "Mi madre y mi padre viven en Barcelona.",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "s000027": {
+      "es": "Mi abuela cocina para toda la familia.",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "s000028": {
+      "es": "Su hijo estudia en la universidad.",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "s000029": {
+      "es": "Toda mi familia se reúne los domingos.",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "s000030": {
+      "es": "Mi tío y mi tía vienen a cenar hoy.",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "s000031": {
+      "es": "El bebé de mi prima es muy lindo.",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "s000032": {
+      "es": "Mis padres celebran su aniversario mañana.",
+      "levelId": "beginner",
+      "topicId": "family"
+    },
+    "s000033": {
+      "es": "Quiero un café con leche, por favor.",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "s000034": {
+      "es": "Como fruta y verdura todos los días.",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "s000035": {
+      "es": "Tengo hambre, vamos al restaurante.",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "s000036": {
+      "es": "El pan con queso es delicioso.",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "s000037": {
+      "es": "¿Quieres agua o café?",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "s000038": {
+      "es": "El pescado con arroz estaba delicioso.",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "s000039": {
+      "es": "¿Nos trae la cuenta, por favor?",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "s000040": {
+      "es": "De postre quiero un helado de chocolate.",
+      "levelId": "beginner",
+      "topicId": "food"
+    },
+    "s000041": {
+      "es": "Yo soy de España.",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "s000042": {
+      "es": "Ella está muy cansada hoy.",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "s000043": {
+      "es": "Tengo veinte años y soy estudiante.",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "s000044": {
+      "es": "¿Dónde estás ahora?",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "s000045": {
+      "es": "Nosotros tenemos una casa grande.",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "s000046": {
+      "es": "Hay muchas personas en la fiesta.",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "s000047": {
+      "es": "¿Cuántos años tienes, Marta?",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "s000048": {
+      "es": "Ellos son de Argentina, pero viven en España.",
+      "levelId": "beginner",
+      "topicId": "basic_verbs"
+    },
+    "s000049": {
+      "es": "Llegamos al aeropuerto dos horas antes del vuelo.",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "s000050": {
+      "es": "¿Dónde está la parada del taxi?",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "s000051": {
+      "es": "Reservamos una habitación con vista al mar.",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "s000052": {
+      "es": "Perdí mi maleta en el aeropuerto.",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "s000053": {
+      "es": "Estamos de vacaciones en la playa toda la semana.",
+      "levelId": "beginner",
+      "topicId": "travel"
+    },
+    "s000054": {
+      "es": "Mi casa tiene tres habitaciones y una cocina grande.",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "s000055": {
+      "es": "La cocina está al lado de la sala.",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "s000056": {
+      "es": "¿Dónde está la llave de la puerta?",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "s000057": {
+      "es": "Los niños duermen en el mismo dormitorio.",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "s000058": {
+      "es": "Hay flores bonitas en el jardín.",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "s000059": {
+      "es": "Por favor, cierra la ventana antes de salir.",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "s000060": {
+      "es": "Vivimos en un apartamento pequeño en el centro.",
+      "levelId": "beginner",
+      "topicId": "home"
+    },
+    "s000061": {
+      "es": "Hoy es lunes y mañana es martes.",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "s000062": {
+      "es": "Los sábados y domingos no trabajo.",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "s000063": {
+      "es": "Nos vemos el viernes por la tarde.",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "s000064": {
+      "es": "Ayer fue un día muy largo.",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "s000065": {
+      "es": "Estudio español todos los días por la mañana.",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "s000066": {
+      "es": "El próximo mes empieza un nuevo año.",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "s000067": {
+      "es": "¿Qué día es hoy?",
+      "levelId": "beginner",
+      "topicId": "days_time"
+    },
+    "s000068": {
+      "es": "Yo hablo español todos los días.",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "s000069": {
+      "es": "Ella vive cerca de la playa.",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "s000070": {
+      "es": "Nosotros comemos juntos los viernes.",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "s000071": {
+      "es": "Ellos escriben un correo electrónico.",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "s000072": {
+      "es": "Tú trabajas en una oficina grande.",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "s000073": {
+      "es": "¿Puedes ayudarme con esta tarea?",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "s000074": {
+      "es": "Ella no entiende la pregunta.",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "s000075": {
+      "es": "Empezamos a trabajar temprano los lunes.",
+      "levelId": "intermediate",
+      "topicId": "present_regular"
+    },
+    "s000076": {
+      "es": "Ayer hablé con mi jefe.",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "s000077": {
+      "es": "Ellos hicieron un viaje increíble.",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "s000078": {
+      "es": "Nosotros fuimos al concierto anoche.",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "s000079": {
+      "es": "Ella dijo que llegó tarde.",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "s000080": {
+      "es": "La semana pasada tuve mucho trabajo.",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "s000081": {
+      "es": "Anoche vimos una película muy interesante.",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "s000082": {
+      "es": "Ellos vinieron a visitarnos la semana pasada.",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "s000083": {
+      "es": "¿A qué hora llegaste a casa?",
+      "levelId": "intermediate",
+      "topicId": "preterito"
+    },
+    "s000084": {
+      "es": "Mi amiga es alta e inteligente.",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "s000085": {
+      "es": "El nuevo empleado parece muy trabajador.",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "s000086": {
+      "es": "Este programa de televisión es aburrido.",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "s000087": {
+      "es": "Mis padres son muy generosos.",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "s000088": {
+      "es": "El perro es divertido y simpático.",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "s000089": {
+      "es": "Mi hermana es tímida pero muy curiosa.",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "s000090": {
+      "es": "Necesitamos ser pacientes con los nuevos estudiantes.",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "s000091": {
+      "es": "Es una persona honesta y cariñosa.",
+      "levelId": "intermediate",
+      "topicId": "adjectives"
+    },
+    "s000092": {
+      "es": "Normalmente me levanto a las seis y media.",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "s000093": {
+      "es": "Después de desayunar, voy al trabajo.",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "s000094": {
+      "es": "Limpio la cocina todos los días.",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "s000095": {
+      "es": "Me acuesto tarde los fines de semana.",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "s000096": {
+      "es": "Mi horario de trabajo es muy flexible.",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "s000097": {
+      "es": "Me visto y desayuno antes de salir de casa.",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "s000098": {
+      "es": "¿Quién lava los platos hoy?",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "s000099": {
+      "es": "Los fines de semana me gusta descansar en casa.",
+      "levelId": "intermediate",
+      "topicId": "home_routine"
+    },
+    "s000100": {
+      "es": "Mi jefe convocó una reunión urgente.",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "s000101": {
+      "es": "La empresa quiere contratar dos ingenieros.",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "s000102": {
+      "es": "El médico trabaja doce horas al día.",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "s000103": {
+      "es": "Ella renunció porque encontró otro trabajo.",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "s000104": {
+      "es": "El sueldo no es suficiente para vivir aquí.",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "s000105": {
+      "es": "Tengo una entrevista de trabajo el lunes.",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "s000106": {
+      "es": "El vendedor me ayudó a elegir el regalo.",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "s000107": {
+      "es": "Envié mi currículum a varias empresas.",
+      "levelId": "intermediate",
+      "topicId": "work_professions"
+    },
+    "s000108": {
+      "es": "Gira a la izquierda en la esquina.",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "s000109": {
+      "es": "¿Cómo llego a la estación de tren?",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "s000110": {
+      "es": "Sigue todo recto y verás el semáforo.",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "s000111": {
+      "es": "El metro está muy cerca de mi casa.",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "s000112": {
+      "es": "Tomamos el autobús para ir al centro.",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "s000113": {
+      "es": "Nos perdimos buscando la estación de tren.",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "s000114": {
+      "es": "El museo está al lado del parque.",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "s000115": {
+      "es": "Compré el billete de tren con antelación.",
+      "levelId": "intermediate",
+      "topicId": "directions"
+    },
+    "s000116": {
+      "es": "Nuestro vuelo tuvo un retraso de tres horas.",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "s000117": {
+      "es": "Perdimos la conexión por culpa del retraso.",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "s000118": {
+      "es": "Voy a quejarme en la recepción del hotel.",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "s000119": {
+      "es": "Alquilamos un coche para recorrer la costa.",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "s000120": {
+      "es": "Cancelaron el vuelo debido a una tormenta.",
+      "levelId": "intermediate",
+      "topicId": "travel"
+    },
+    "s000121": {
+      "es": "Me siento muy feliz cuando estoy con mi familia.",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "s000122": {
+      "es": "Ella está triste porque su amigo se fue.",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "s000123": {
+      "es": "¿Por qué estás tan nervioso hoy?",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "s000124": {
+      "es": "Estamos emocionados por empezar el nuevo trabajo.",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "s000125": {
+      "es": "Mi padre está muy orgulloso de mis notas.",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "s000126": {
+      "es": "No tengas miedo, todo va a salir bien.",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "s000127": {
+      "es": "Después de dormir bien, me siento tranquilo.",
+      "levelId": "intermediate",
+      "topicId": "emotions"
+    },
+    "s000128": {
+      "es": "Perdón, ¿puedes repetir la pregunta?",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "s000129": {
+      "es": "Estoy de acuerdo contigo, es una buena idea.",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "s000130": {
+      "es": "No hay problema, podemos hacerlo mañana.",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "s000131": {
+      "es": "En mi opinión, deberíamos esperar un poco más.",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "s000132": {
+      "es": "¿Me puedes ayudar a entender esto?",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "s000133": {
+      "es": "Tienes razón, no pensé en eso.",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "s000134": {
+      "es": "Por cierto, ¿sabes cómo se dice esto en español?",
+      "levelId": "intermediate",
+      "topicId": "daily_conversations"
+    },
+    "s000135": {
+      "es": "Quiero aprender a cocinar comida española.",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "s000136": {
+      "es": "No puedo encontrar mis llaves esta mañana.",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "s000137": {
+      "es": "¿Conoces un buen restaurante cerca de aquí?",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "s000138": {
+      "es": "Necesito ayuda para terminar este proyecto.",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "s000139": {
+      "es": "Ella siempre pregunta muchas cosas en clase.",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "s000140": {
+      "es": "Vamos a empezar la reunión a las diez.",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "s000141": {
+      "es": "¿Me puedes dar tu número de teléfono?",
+      "levelId": "intermediate",
+      "topicId": "common_verbs_2"
+    },
+    "s000142": {
+      "es": "La junta directiva aprobó el nuevo presupuesto.",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "s000143": {
+      "es": "Firmamos el contrato después de una larga negociación.",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "s000144": {
+      "es": "Los accionistas exigen mayores beneficios.",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "s000145": {
+      "es": "Nuestra estrategia debe considerar al competidor.",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "s000146": {
+      "es": "La fusión creará la empresa más grande del sector.",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "s000147": {
+      "es": "El margen de beneficio mejoró gracias a la nueva estrategia.",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "s000148": {
+      "es": "La cadena de suministro global sigue afectada por la crisis.",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "s000149": {
+      "es": "Necesitamos cumplir con el plazo de entrega.",
+      "levelId": "advanced",
+      "topicId": "business_vocab"
+    },
+    "s000150": {
+      "es": "Espero que tengas un buen día.",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "s000151": {
+      "es": "Es importante que lleguemos a tiempo.",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "s000152": {
+      "es": "Dudo que el proyecto termine este mes.",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "s000153": {
+      "es": "Aunque sea complicado, vamos a intentarlo.",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "s000154": {
+      "es": "Si tuviera más dinero, compraría una casa.",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "s000155": {
+      "es": "Me alegra que hayas venido a la reunión.",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "s000156": {
+      "es": "Es posible que el vuelo se retrase.",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "s000157": {
+      "es": "No saldremos hasta que termines de estudiar.",
+      "levelId": "advanced",
+      "topicId": "subjuntivo"
+    },
+    "s000158": {
+      "es": "El nuevo teléfono cuesta un ojo de la cara.",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "s000159": {
+      "es": "Metí la pata cuando llamé al cliente por otro nombre.",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "s000160": {
+      "es": "Tienes que ponerte las pilas antes del examen.",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "s000161": {
+      "es": "Para ella, el proyecto fue pan comido.",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "s000162": {
+      "es": "Con su comentario, dio en el clavo.",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "s000163": {
+      "es": "¿Puedes echarme una mano con las maletas?",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "s000164": {
+      "es": "Estoy hasta las narices de tantas reuniones.",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "s000165": {
+      "es": "Se me fue el santo al cielo y no llamé al cliente.",
+      "levelId": "advanced",
+      "topicId": "idioms"
+    },
+    "s000166": {
+      "es": "Cuando era joven, viajaba mucho por Europa.",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "s000167": {
+      "es": "Estaba durmiendo cuando sonó el teléfono.",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "s000168": {
+      "es": "De repente, todos empezaron a aplaudir.",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "s000169": {
+      "es": "Mientras trabajaba, recibí una llamada importante.",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "s000170": {
+      "es": "Una vez conocí a un actor famoso.",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "s000171": {
+      "es": "Cuando llegamos al cine, la película ya había empezado.",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "s000172": {
+      "es": "De pequeño, solía pasar los veranos con mis abuelos.",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "s000173": {
+      "es": "Llevaba media hora esperando el autobús.",
+      "levelId": "advanced",
+      "topicId": "past_tenses"
+    },
+    "s000174": {
+      "es": "Estimado señor López, le escribo para confirmar la reunión.",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "s000175": {
+      "es": "Adjunto encontrará el contrato firmado.",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "s000176": {
+      "es": "Lamento informarle que el proyecto se retrasó.",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "s000177": {
+      "es": "Quedo a la espera de su respuesta. Atentamente.",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "s000178": {
+      "es": "En referencia a su solicitud, adjunto el informe.",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "s000179": {
+      "es": "Le agradezco de antemano su pronta respuesta.",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "s000180": {
+      "es": "Rogamos disculpe las molestias que esto pueda causar.",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "s000181": {
+      "es": "Le informo que el pedido llegará la próxima semana.",
+      "levelId": "advanced",
+      "topicId": "formal_writing"
+    },
+    "s000182": {
+      "es": "En mi opinión, deberíamos cambiar la estrategia.",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "s000183": {
+      "es": "Según los expertos, la situación va a mejorar.",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "s000184": {
+      "es": "Por un lado quiero viajar, por otro lado necesito ahorrar.",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "s000185": {
+      "es": "El titular de la noticia generó mucha polémica.",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "s000186": {
+      "es": "Al fin y al cabo, decidimos no debatir más.",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "s000187": {
+      "es": "Desde mi punto de vista, deberíamos esperar más información.",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "s000188": {
+      "es": "Cabe destacar que las cifras mejoraron este año.",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "s000189": {
+      "es": "Sin lugar a dudas, este cambio afectará a todos.",
+      "levelId": "advanced",
+      "topicId": "news_opinions"
+    },
+    "s000190": {
+      "es": "Mi viaje de negocios incluye una escala en Lisboa.",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "s000191": {
+      "es": "Tuvimos que reprogramar el vuelo debido a una huelga.",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "s000192": {
+      "es": "Todavía siento el jet lag después de cruzar tantos husos horarios.",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "s000193": {
+      "es": "La empresa cubre el alojamiento y las dietas del viaje.",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "s000194": {
+      "es": "Necesitas un visado y seguro médico para este país.",
+      "levelId": "advanced",
+      "topicId": "travel"
+    },
+    "s000195": {
+      "es": "La libertad y la justicia son valores fundamentales.",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "s000196": {
+      "es": "Esta oportunidad representa un gran desafío para nosotros.",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "s000197": {
+      "es": "Su mayor logro fue superar la incertidumbre del momento.",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "s000198": {
+      "es": "La empatía y la responsabilidad son clave en el liderazgo.",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "s000199": {
+      "es": "Cambiar de perspectiva ayuda a entender mejor la situación.",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "s000200": {
+      "es": "La sostenibilidad se ha convertido en una prioridad global.",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "s000201": {
+      "es": "Su integridad y sabiduría lo hacen un gran líder.",
+      "levelId": "advanced",
+      "topicId": "advanced_vocab"
+    },
+    "s000202": {
+      "es": "Al fin y al cabo, decidimos ponernos las pilas y terminar el proyecto.",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "s000203": {
+      "es": "No te hagas el tonto, sé que metiste la pata.",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "s000204": {
+      "es": "Este examen está chupado, va a ser pan comido.",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "s000205": {
+      "es": "¿Me puedes echar una mano? Estoy sin blanca este mes.",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "s000206": {
+      "es": "Diste en el clavo, esa es exactamente la solución.",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "s000207": {
+      "es": "Perdón, estaba en las nubes, ¿qué decías?",
+      "levelId": "advanced",
+      "topicId": "natural_expressions"
+    },
+    "s000208": {
+      "es": "Yo soy de Israel y tú eres de España.",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "s000209": {
+      "es": "Nosotros vamos al cine esta noche.",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "s000210": {
+      "es": "¿Ustedes hablan inglés?",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "s000211": {
+      "es": "Ella y él son hermanos.",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "s000212": {
+      "es": "Vosotros sois muy simpáticos.",
+      "levelId": "grammar",
+      "topicId": "pronouns"
+    },
+    "s000213": {
+      "es": "Quiero ser profesor de español algún día.",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "s000214": {
+      "es": "¿Puedes hacer esto por mí?",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "s000215": {
+      "es": "Vamos a ver una película esta noche.",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "s000216": {
+      "es": "No sé qué decir en esta situación.",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "s000217": {
+      "es": "Ellos van a dar una fiesta el sábado.",
+      "levelId": "grammar",
+      "topicId": "common_verbs"
+    },
+    "s000218": {
+      "es": "Yo hablo español, como tapas y vivo en Madrid.",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "s000219": {
+      "es": "¿Tú hablas, comes o vives aquí?",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "s000220": {
+      "es": "Nosotros hablamos, comemos y vivimos juntos.",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "s000221": {
+      "es": "Ellos hablan inglés y viven en Londres.",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    },
+    "s000222": {
+      "es": "Ella come temprano y luego habla con sus amigas.",
+      "levelId": "grammar",
+      "topicId": "basic_conjugation"
+    }
+  }
+}

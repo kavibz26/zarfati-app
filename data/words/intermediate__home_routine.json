@@ -1,0 +1,153 @@
+{
+  "levelId": "intermediate",
+  "topicId": "home_routine",
+  "vocab": [
+    {
+      "id": "w000190",
+      "es": "Levantarse",
+      "he": "לקום (מהמיטה)",
+      "ex_es": "Me levanto a las siete.",
+      "ex_he": "אני קם בשבע."
+    },
+    {
+      "id": "w000191",
+      "es": "Ducharse",
+      "he": "להתקלח",
+      "ex_es": "Me ducho por la mañana.",
+      "ex_he": "אני מתקלח בבוקר."
+    },
+    {
+      "id": "w000192",
+      "es": "Desayunar",
+      "he": "לאכול ארוחת בוקר",
+      "ex_es": "Desayuno café y pan.",
+      "ex_he": "אני אוכל ארוחת בוקר קפה ולחם."
+    },
+    {
+      "id": "w000193",
+      "es": "La cocina",
+      "he": "המטבח",
+      "ex_es": "Cocino en la cocina.",
+      "ex_he": "אני מבשל במטבח."
+    },
+    {
+      "id": "w000194",
+      "es": "El dormitorio",
+      "he": "חדר השינה",
+      "ex_es": "Mi dormitorio es pequeño.",
+      "ex_he": "חדר השינה שלי קטן."
+    },
+    {
+      "id": "w000195",
+      "es": "Limpiar",
+      "he": "לנקות",
+      "ex_es": "Limpio la casa los sábados.",
+      "ex_he": "אני מנקה את הבית בימי שבת."
+    },
+    {
+      "id": "w000196",
+      "es": "Acostarse",
+      "he": "ללכת לישון",
+      "ex_es": "Me acuesto a las once.",
+      "ex_he": "אני הולך לישון באחת עשרה."
+    },
+    {
+      "id": "w000197",
+      "es": "El horario",
+      "he": "לוח הזמנים",
+      "ex_es": "Mi horario es complicado.",
+      "ex_he": "לוח הזמנים שלי מסובך."
+    },
+    {
+      "id": "w000198",
+      "es": "Todos los días",
+      "he": "כל יום",
+      "ex_es": "Hago ejercicio todos los días.",
+      "ex_he": "אני מתאמן כל יום."
+    },
+    {
+      "id": "w000199",
+      "es": "Normalmente",
+      "he": "בדרך כלל",
+      "ex_es": "Normalmente ceno a las ocho.",
+      "ex_he": "בדרך כלל אני אוכל ארוחת ערב בשמונה."
+    },
+    {
+      "id": "w000200",
+      "es": "Vestirse",
+      "he": "להתלבש",
+      "ex_es": "Me visto rápido por la mañana.",
+      "ex_he": "אני מתלבש מהר בבוקר."
+    },
+    {
+      "id": "w000201",
+      "es": "El baño",
+      "he": "חדר האמבטיה",
+      "ex_es": "El baño está al final del pasillo.",
+      "ex_he": "חדר האמבטיה נמצא בסוף המסדרון."
+    },
+    {
+      "id": "w000202",
+      "es": "Lavar los platos",
+      "he": "לשטוף כלים",
+      "ex_es": "Lavo los platos después de cenar.",
+      "ex_he": "אני שוטף כלים אחרי ארוחת הערב."
+    },
+    {
+      "id": "w000203",
+      "es": "Salir de casa",
+      "he": "לצאת מהבית",
+      "ex_es": "Salgo de casa a las siete y media.",
+      "ex_he": "אני יוצא מהבית בשבע וחצי."
+    },
+    {
+      "id": "w000204",
+      "es": "Descansar",
+      "he": "לנוח",
+      "ex_es": "Los domingos descanso todo el día.",
+      "ex_he": "בימי ראשון אני נח כל היום."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000092",
+      "es": "Normalmente me levanto a las seis y media.",
+      "he": "בדרך כלל אני קם בשש וחצי."
+    },
+    {
+      "id": "s000093",
+      "es": "Después de desayunar, voy al trabajo.",
+      "he": "אחרי ארוחת הבוקר, אני הולך לעבודה."
+    },
+    {
+      "id": "s000094",
+      "es": "Limpio la cocina todos los días.",
+      "he": "אני מנקה את המטבח כל יום."
+    },
+    {
+      "id": "s000095",
+      "es": "Me acuesto tarde los fines de semana.",
+      "he": "אני הולך לישון מאוחר בסופי שבוע."
+    },
+    {
+      "id": "s000096",
+      "es": "Mi horario de trabajo es muy flexible.",
+      "he": "לוח הזמנים שלי בעבודה מאוד גמיש."
+    },
+    {
+      "id": "s000097",
+      "es": "Me visto y desayuno antes de salir de casa.",
+      "he": "אני מתלבש ואוכל ארוחת בוקר לפני שאני יוצא מהבית."
+    },
+    {
+      "id": "s000098",
+      "es": "¿Quién lava los platos hoy?",
+      "he": "מי שוטף כלים היום?"
+    },
+    {
+      "id": "s000099",
+      "es": "Los fines de semana me gusta descansar en casa.",
+      "he": "בסופי השבוע אני אוהב לנוח בבית."
+    }
+  ]
+}

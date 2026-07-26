@@ -168,6 +168,95 @@ button:focus-visible,
 .stat-box .num { font-size: 22px; font-weight: 700; }
 .stat-box .lbl { font-size: 12px; color: var(--muted); }
 
+/* ---------- Dashboard: placeholders for future XP / achievements / streak ---------- */
+.dashboard-placeholders {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0 0;
+  flex-wrap: wrap;
+}
+.placeholder-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  background: var(--card-bg);
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  padding: 12px 20px;
+  min-width: 100px;
+  opacity: .65;
+}
+.placeholder-icon { font-size: 20px; }
+.placeholder-lbl { font-size: 13px; font-weight: 600; color: var(--text); }
+.placeholder-soon { font-size: 11px; color: var(--muted); }
+.placeholder-count { font-size: 12px; font-weight: 700; color: var(--accent-dark); }
+
+/* קופסת "הישגים" ב-Dashboard כבר לא placeholder - זה כפתור אמיתי, לכן ללא הגבלת עמעום/מקווקו */
+.achievement-box {
+  font-family: inherit;
+  cursor: pointer;
+  opacity: 1;
+  border-style: solid;
+}
+.achievement-box:hover { border-color: var(--accent); }
+
+.continue-btn {
+  font-size: 17px;
+  padding: 14px 36px;
+  box-shadow: var(--shadow-lg);
+}
+
+/* ---------- מסך הישגים ---------- */
+.achievement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.achievement-row {
+  background: var(--card-bg);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.achievement-row.locked { opacity: .55; }
+.achievement-icon { font-size: 26px; }
+.achievement-info { flex: 1; }
+.achievement-name { font-weight: 600; margin-bottom: 6px; }
+.achievement-progress-lbl { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.achievement-check { font-size: 20px; color: var(--success); font-weight: 700; }
+
+/* ---------- הודעת זכייה בהישג (Toast) ---------- */
+.achievement-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card-bg);
+  border: 2px solid var(--accent);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+  padding: 12px 20px;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity .3s ease, transform .3s ease;
+  max-width: 90vw;
+}
+.achievement-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.achievement-toast-icon { font-size: 30px; }
+.achievement-toast-label { font-size: 12px; color: var(--muted); }
+.achievement-toast-name { font-weight: 700; color: var(--accent-dark); }
+
 /* ---------- Level / Topic list ---------- */
 .section-title {
   font-size: 22px;

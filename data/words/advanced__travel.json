@@ -1,0 +1,117 @@
+{
+  "levelId": "advanced",
+  "topicId": "travel",
+  "vocab": [
+    {
+      "id": "w000391",
+      "es": "El viaje de negocios",
+      "he": "נסיעת עסקים",
+      "ex_es": "Tengo un viaje de negocios la próxima semana.",
+      "ex_he": "יש לי נסיעת עסקים בשבוע הבא."
+    },
+    {
+      "id": "w000392",
+      "es": "La escala",
+      "he": "עצירת ביניים (טיסה)",
+      "ex_es": "Tenemos una escala de tres horas en Lisboa.",
+      "ex_he": "יש לנו עצירת ביניים של שלוש שעות בליסבון."
+    },
+    {
+      "id": "w000393",
+      "es": "El visado",
+      "he": "הוויזה",
+      "ex_es": "Necesito un visado para entrar al país.",
+      "ex_he": "אני צריך ויזה כדי להיכנס למדינה."
+    },
+    {
+      "id": "w000394",
+      "es": "La aduana",
+      "he": "המכס",
+      "ex_es": "Pasamos por la aduana sin problemas.",
+      "ex_he": "עברנו את המכס בלי בעיות."
+    },
+    {
+      "id": "w000395",
+      "es": "El alojamiento",
+      "he": "הלינה",
+      "ex_es": "La empresa paga el alojamiento durante el viaje.",
+      "ex_he": "החברה משלמת על הלינה במהלך הנסיעה."
+    },
+    {
+      "id": "w000396",
+      "es": "Las dietas",
+      "he": "דמי אש\"ל (הוצאות נסיעה)",
+      "ex_es": "La empresa cubre las dietas de viaje.",
+      "ex_he": "החברה מכסה את דמי האש\"ל של הנסיעה."
+    },
+    {
+      "id": "w000397",
+      "es": "El huso horario",
+      "he": "אזור הזמן",
+      "ex_es": "Todavía no me acostumbro al huso horario.",
+      "ex_he": "אני עדיין לא רגיל לאזור הזמן."
+    },
+    {
+      "id": "w000398",
+      "es": "El jet lag",
+      "he": "עייפות מטיסה ארוכה (ג'ט לג)",
+      "ex_es": "Tengo jet lag después del vuelo largo.",
+      "ex_he": "יש לי ג'ט לג אחרי הטיסה הארוכה."
+    },
+    {
+      "id": "w000399",
+      "es": "Reprogramar el vuelo",
+      "he": "לתזמן מחדש את הטיסה",
+      "ex_es": "Tuvimos que reprogramar el vuelo por la huelga.",
+      "ex_he": "היינו צריכים לתזמן מחדש את הטיסה בגלל השביתה."
+    },
+    {
+      "id": "w000400",
+      "es": "La sala VIP",
+      "he": "חדר ה-VIP (בשדה תעופה)",
+      "ex_es": "Esperamos en la sala VIP del aeropuerto.",
+      "ex_he": "חיכינו בחדר ה-VIP של שדה התעופה."
+    },
+    {
+      "id": "w000401",
+      "es": "Hacer escala en",
+      "he": "לעצור בדרך ב...",
+      "ex_es": "El vuelo hace escala en Nueva York.",
+      "ex_he": "הטיסה עוצרת בדרך בניו יורק."
+    },
+    {
+      "id": "w000402",
+      "es": "El seguro médico de viaje",
+      "he": "ביטוח בריאות לנסיעות",
+      "ex_es": "Es obligatorio tener seguro médico de viaje.",
+      "ex_he": "חובה שיהיה ביטוח בריאות לנסיעות."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000190",
+      "es": "Mi viaje de negocios incluye una escala en Lisboa.",
+      "he": "נסיעת העסקים שלי כוללת עצירת ביניים בליסבון."
+    },
+    {
+      "id": "s000191",
+      "es": "Tuvimos que reprogramar el vuelo debido a una huelga.",
+      "he": "היינו צריכים לתזמן מחדש את הטיסה בגלל שביתה."
+    },
+    {
+      "id": "s000192",
+      "es": "Todavía siento el jet lag después de cruzar tantos husos horarios.",
+      "he": "אני עדיין מרגיש ג'ט לג אחרי שחציתי כל כך הרבה אזורי זמן."
+    },
+    {
+      "id": "s000193",
+      "es": "La empresa cubre el alojamiento y las dietas del viaje.",
+      "he": "החברה מכסה את הלינה ואת דמי האש\"ל של הנסיעה."
+    },
+    {
+      "id": "s000194",
+      "es": "Necesitas un visado y seguro médico para este país.",
+      "he": "אתה צריך ויזה וביטוח בריאות למדינה הזו."
+    }
+  ]
+}

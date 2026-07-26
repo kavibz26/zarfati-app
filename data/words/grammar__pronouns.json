@@ -1,0 +1,103 @@
+{
+  "levelId": "grammar",
+  "topicId": "pronouns",
+  "vocab": [
+    {
+      "id": "w000437",
+      "es": "Yo",
+      "he": "אני",
+      "ex_es": "Yo hablo español.",
+      "ex_he": "אני מדבר ספרדית."
+    },
+    {
+      "id": "w000438",
+      "es": "Tú",
+      "he": "אתה / את",
+      "ex_es": "Tú eres muy amable.",
+      "ex_he": "אתה מאוד אדיב."
+    },
+    {
+      "id": "w000439",
+      "es": "Él",
+      "he": "הוא",
+      "ex_es": "Él vive en Madrid.",
+      "ex_he": "הוא גר במדריד."
+    },
+    {
+      "id": "w000440",
+      "es": "Ella",
+      "he": "היא",
+      "ex_es": "Ella trabaja mucho.",
+      "ex_he": "היא עובדת הרבה."
+    },
+    {
+      "id": "w000441",
+      "es": "Usted",
+      "he": "אתה / את (רשמי)",
+      "ex_es": "¿Cómo está usted?",
+      "ex_he": "מה שלומך? (רשמי)"
+    },
+    {
+      "id": "w000442",
+      "es": "Nosotros / Nosotras",
+      "he": "אנחנו",
+      "ex_es": "Nosotros somos amigos.",
+      "ex_he": "אנחנו חברים."
+    },
+    {
+      "id": "w000443",
+      "es": "Vosotros / Vosotras",
+      "he": "אתם / אתן (בספרד)",
+      "ex_es": "Vosotros sois estudiantes.",
+      "ex_he": "אתם תלמידים."
+    },
+    {
+      "id": "w000444",
+      "es": "Ellos",
+      "he": "הם",
+      "ex_es": "Ellos viven juntos.",
+      "ex_he": "הם גרים ביחד."
+    },
+    {
+      "id": "w000445",
+      "es": "Ellas",
+      "he": "הן",
+      "ex_es": "Ellas estudian medicina.",
+      "ex_he": "הן לומדות רפואה."
+    },
+    {
+      "id": "w000446",
+      "es": "Ustedes",
+      "he": "אתם / אתן (רשמי)",
+      "ex_es": "Ustedes son bienvenidos.",
+      "ex_he": "אתם מוזמנים בברכה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000208",
+      "es": "Yo soy de Israel y tú eres de España.",
+      "he": "אני מישראל ואתה מספרד."
+    },
+    {
+      "id": "s000209",
+      "es": "Nosotros vamos al cine esta noche.",
+      "he": "אנחנו הולכים לקולנוע הלילה."
+    },
+    {
+      "id": "s000210",
+      "es": "¿Ustedes hablan inglés?",
+      "he": "אתם מדברים אנגלית?"
+    },
+    {
+      "id": "s000211",
+      "es": "Ella y él son hermanos.",
+      "he": "היא והוא אחים."
+    },
+    {
+      "id": "s000212",
+      "es": "Vosotros sois muy simpáticos.",
+      "he": "אתם מאוד נחמדים."
+    }
+  ]
+}

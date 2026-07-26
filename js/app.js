@@ -9,6 +9,8 @@ function progressKey() { return `habla_progress_v1__${currentUid}`; }
 function learnedKey() { return `habla_learned_v1__${currentUid}`; }
 function navKey() { return `habla_nav_v1__${currentUid}`; }
 function wordStatsKey() { return `habla_word_stats_v1__${currentUid}`; }
+function exercisesCompletedKey() { return `habla_exercises_completed_v1__${currentUid}`; }
+function achievementsKey() { return `habla_achievements_v1__${currentUid}`; }
 const REVIEW_SESSION_SIZE = 20;
 
 // ---------- לשון פנייה (זכר/נקבה) ----------
@@ -74,7 +76,9 @@ function scheduleCloudSync() {
     window.HablaAuth.pushUserData(currentUid, {
       progress: loadProgress(),
       learned: [...loadLearned()],
-      wordStats: loadWordStats()
+      wordStats: loadWordStats(),
+      exercisesCompleted: getExercisesCompletedCount(),
+      achievements: loadUnlockedAchievements()
     });
   }, 1200);
 }
@@ -97,11 +101,18 @@ function getTopicScore(levelId, topicId, type) {
   return p?.[levelId]?.[topicId]?.[type] || 0;
 }
 function setTopicScore(levelId, topicId, type, score) {
+  const wasComplete = getTopicCompletion(levelId, topicId) === 100;
   const p = loadProgress();
   p[levelId] = p[levelId] || {};
   p[levelId][topicId] = p[levelId][topicId] || {};
   p[levelId][topicId][type] = Math.max(p[levelId][topicId][type] || 0, Math.round(score));
   saveProgress(p);
+  // מונה סטטיסטיקה גלובלי (כל המשתמשים) - נספר רק ברגע המדויק שבו הנושא עובר ל-100% בפעם
+  // הראשונה, לא בכל שמירה חוזרת באותו ציון, כדי לא לספור את אותה השלמה כמה פעמים.
+  if (!wasComplete && getTopicCompletion(levelId, topicId) === 100) {
+    window.HablaAuth?.incrementCounter(["topicCompletions", levelId, topicId]);
+    window.HablaAuth?.logAnalyticsEvent("topic_complete", { level: levelId, topic: topicId });
+  }
 }
 function getTopicCompletion(levelId, topicId) {
   const total = EXERCISE_TYPES.reduce((sum, t) => sum + getTopicScore(levelId, topicId, t.id), 0);
@@ -230,6 +241,98 @@ function getDueWords(limit = REVIEW_SESSION_SIZE) {
 }
 function dueWordCount() { return getDueWords(Infinity).length; }
 
+// ---------- מונה תרגילים שהושלמו ----------
+function getExercisesCompletedCount() {
+  const n = parseInt(localStorage.getItem(exercisesCompletedKey()), 10);
+  return Number.isFinite(n) ? n : 0;
+}
+function incrementExercisesCompleted() {
+  const n = getExercisesCompletedCount() + 1;
+  localStorage.setItem(exercisesCompletedKey(), String(n));
+  scheduleCloudSync();
+  return n;
+}
+
+// ---------- הישגים (Achievements) ----------
+// מנוע גנרי: "מדד" (metric) הוא פונקציה שמחזירה מספר; "הישג" הוא רשומה דקלרטיבית בלבד -
+// שם, אייקון, איזה מדד ואיזה סף. checkAchievements() לא יודע כלום על אף הישג ספציפי - הוא
+// רק משווה מדד מול סף לכל רשומה. הוספת הישג חדש בעתיד = שורה אחת ב-ACHIEVEMENTS, בלי לגעת
+// כאן. מדדים עתידיים (רצף ימים, XP) יתווספו כאן כפונקציה אחת כל אחד, כשהתשתית שלהם תיבנה.
+const ACHIEVEMENT_METRICS = {
+  wordsLearned: () => totalLearnedCount(),
+  topicsCompleted: () => completedTopicsCount().count,
+  exercisesCompleted: () => getExercisesCompletedCount()
+};
+const ACHIEVEMENTS = [
+  { id: "words_10", name: "צעדים ראשונים", icon: "🌱", metric: "wordsLearned", threshold: 10 },
+  { id: "words_50", name: "אספן/ית מילים", icon: "📚", metric: "wordsLearned", threshold: 50 },
+  { id: "words_150", name: "חובב/ת שפות", icon: "🧠", metric: "wordsLearned", threshold: 150 },
+  { id: "words_300", name: "מומחה/ית אוצר מילים", icon: "🏆", metric: "wordsLearned", threshold: 300 },
+  { id: "topics_1", name: "נושא ראשון!", icon: "✅", metric: "topicsCompleted", threshold: 1 },
+  { id: "topics_5", name: "בדרך הנכונה", icon: "🎯", metric: "topicsCompleted", threshold: 5 },
+  { id: "topics_15", name: "מומחה/ית נושאים", icon: "🌟", metric: "topicsCompleted", threshold: 15 },
+  { id: "exercises_10", name: "מתאמן/ת", icon: "💪", metric: "exercisesCompleted", threshold: 10 },
+  { id: "exercises_50", name: "מתמיד/ה", icon: "🔥", metric: "exercisesCompleted", threshold: 50 },
+  { id: "exercises_150", name: "אלוף/ת תרגול", icon: "👑", metric: "exercisesCompleted", threshold: 150 }
+];
+function loadUnlockedAchievements() {
+  try { return JSON.parse(localStorage.getItem(achievementsKey())) || {}; }
+  catch { return {}; }
+}
+function saveUnlockedAchievements(map) {
+  localStorage.setItem(achievementsKey(), JSON.stringify(map));
+  scheduleCloudSync();
+}
+// עובר על כל ההישגים, פותח כל אחד שהמדד שלו הגיע לסף ועדיין לא נפתח, ומחזיר רק את אלה
+// שנפתחו הרגע (כדי שהקורא יחליט אם להציג הודעת זכייה - למשל לא בבדיקת "השלמה" הראשונה
+// אחרי התחברות, שבה משתמש ותיק עשוי "לפתוח" הרבה הישגים ישנים בבת אחת).
+function checkAchievements() {
+  const unlocked = loadUnlockedAchievements();
+  const newlyUnlocked = [];
+  for (const a of ACHIEVEMENTS) {
+    if (unlocked[a.id]) continue;
+    if (ACHIEVEMENT_METRICS[a.metric]() >= a.threshold) {
+      unlocked[a.id] = Date.now();
+      newlyUnlocked.push(a);
+    }
+  }
+  if (newlyUnlocked.length > 0) saveUnlockedAchievements(unlocked);
+  return newlyUnlocked;
+}
+function achievementsUnlockedCount() { return Object.keys(loadUnlockedAchievements()).length; }
+
+// ---------- הודעת זכייה בהישג (Toast) ----------
+let achievementToastQueue = [];
+let achievementToastShowing = false;
+function showAchievementToast(achievement) {
+  achievementToastQueue.push(achievement);
+  processAchievementToastQueue();
+}
+function processAchievementToastQueue() {
+  if (achievementToastShowing || achievementToastQueue.length === 0) return;
+  achievementToastShowing = true;
+  const a = achievementToastQueue.shift();
+  const toast = document.createElement("div");
+  toast.className = "achievement-toast";
+  toast.innerHTML = `
+    <div class="achievement-toast-icon" aria-hidden="true">${a.icon}</div>
+    <div class="achievement-toast-text">
+      <div class="achievement-toast-label">הישג חדש נפתח!</div>
+      <div class="achievement-toast-name">${escapeHtml(a.name)}</div>
+    </div>
+  `;
+  document.body.appendChild(toast);
+  requestAnimationFrame(() => toast.classList.add("show"));
+  setTimeout(() => {
+    toast.classList.remove("show");
+    setTimeout(() => {
+      toast.remove();
+      achievementToastShowing = false;
+      processAchievementToastQueue();
+    }, 300);
+  }, 3200);
+}
+
 // ---------- שמירת מיקום ניווט (כדי לשרוד רענון דף) ----------
 function saveNav(s) {
   // מסך תרגיל לא נשמר כמו שהוא (מצב התרגיל עצמו לא נשמר) - נשמר כמסך הנושא שמכיל אותו
@@ -276,18 +379,55 @@ function seedHistory(s) {
 }
 
 // ---------- דיבור (Text-to-Speech) ----------
+// spanishVoiceReady=true אחרי שהחיפוש הסתיים (בין אם נמצא קול ספרדי ובין אם לא) - כדי לחפש
+// פעם אחת בלבד ולא בכל השמעה. resolveSpanishVoice() ממתין לאירוע voiceschanged (הדפדפן טוען
+// קולות א-סינכרונית, וב-getVoices() הראשונה לרוב חוזר מערך ריק) ומנסה שוב עם polling קצר,
+// עד timeout מוגבל - ורק אז נכנע לברירת המחדל הקיימת (lang="es-ES" בלי voice מפורש).
 let spanishVoice = null;
-function pickSpanishVoice() {
+let spanishVoiceReady = false;
+let voiceResolutionPromise = null;
+
+function findSpanishVoice() {
   const voices = speechSynthesis.getVoices();
-  spanishVoice = voices.find(v => v.lang === "es-ES") ||
-                 voices.find(v => v.lang && v.lang.startsWith("es")) || null;
+  return voices.find(v => v.lang === "es-ES") ||
+         voices.find(v => v.lang && v.lang.startsWith("es")) || null;
+}
+function resolveSpanishVoice() {
+  if (voiceResolutionPromise) return voiceResolutionPromise;
+  voiceResolutionPromise = new Promise((resolve) => {
+    const immediate = findSpanishVoice();
+    if (immediate) {
+      spanishVoice = immediate;
+      spanishVoiceReady = true;
+      resolve(spanishVoice);
+      return;
+    }
+    const TIMEOUT_MS = 3000;
+    const POLL_MS = 100;
+    let settled = false;
+    const finish = () => {
+      if (settled) return;
+      settled = true;
+      spanishVoice = findSpanishVoice();
+      spanishVoiceReady = true;
+      speechSynthesis.removeEventListener("voiceschanged", onVoicesChanged);
+      clearInterval(pollId);
+      clearTimeout(timeoutId);
+      resolve(spanishVoice);
+    };
+    const onVoicesChanged = () => { if (speechSynthesis.getVoices().length > 0) finish(); };
+    speechSynthesis.addEventListener("voiceschanged", onVoicesChanged);
+    const pollId = setInterval(() => { if (speechSynthesis.getVoices().length > 0) finish(); }, POLL_MS);
+    const timeoutId = setTimeout(finish, TIMEOUT_MS);
+  });
+  return voiceResolutionPromise;
 }
 if (typeof speechSynthesis !== "undefined") {
-  pickSpanishVoice();
-  speechSynthesis.onvoiceschanged = pickSpanishVoice;
+  resolveSpanishVoice();
 }
-function speak(text) {
+async function speak(text) {
   if (typeof speechSynthesis === "undefined") return;
+  if (!spanishVoiceReady) await resolveSpanishVoice();
   speechSynthesis.cancel();
   const clean = text.replace(/\([^)]*\)/g, "").replace(/¿|¡/g, "").trim();
   const utter = new SpeechSynthesisUtterance(clean);
@@ -376,8 +516,22 @@ function isRecallCorrect(userInput, es) {
   return acceptableAnswers(es).has(normalizeAnswer(userInput));
 }
 
+// ---------- מאגר מילים ----------
+// LEVELS נבנה כאן בזמן ריצה מתוך data/levels.json + data/words/*.json (דרך js/dictionary-loader.js),
+// במקום מקבצי js/data/*.js סטטיים כמו קודם - אבל בדיוק באותה צורה בדיוק
+// (id/name/icon/color/topics[{id,name,vocab,sentences}]), כך שכל שאר app.js שקורא ל-LEVELS
+// ממשיך לעבוד בלי שום שינוי. js/data/*.js וסקריפטי הייבוא הישנים עדיין קיימים בדיסק (לא
+// נטענים יותר) - יוסרו בשלב נפרד לאחר שהמעבר הזה יאומת כיציב.
+let LEVELS = null;
+const dictionaryReady = Promise.all(
+  ["beginner", "intermediate", "advanced", "grammar"].map(id => window.DictionaryLoader.loadLevel(id))
+).then(([beginner, intermediate, advanced, grammar]) => {
+  LEVELS = { beginner, intermediate, advanced, grammar };
+});
+
 // ---------- state ----------
-// מתחילים במסך טעינה - עוד לא ידוע אם המשתמש מחובר, ממתינים לאירוע hablaAuthReady מ-js/auth.js.
+// מתחילים במסך טעינה - עוד לא ידוע אם המשתמש מחובר, וגם ממתינים לטעינת מאגר המילים
+// (dictionaryReady) לפני שאפשר לעבור לכל מסך אחר.
 let state = { screen: "loading" };
 let ex = null; // exercise runtime state
 
@@ -403,16 +557,22 @@ window.addEventListener("popstate", (e) => {
 // login/logout). לעולם לא מכיל אימייל - רק uid ונתוני הפרופיל (username, gender, progress...).
 window.addEventListener("hablaAuthReady", (e) => {
   const { user, profile } = e.detail || {};
-  if (user) {
-    bootLoggedIn(user.uid, profile);
-  } else {
-    currentUid = null;
-    currentUsername = "";
-    currentGender = "m";
-    state = { screen: "auth", authMode: "login" };
-    history.replaceState(state, "");
-    render();
-  }
+  dictionaryReady.then(() => {
+    if (user) {
+      bootLoggedIn(user.uid, profile);
+    } else {
+      currentUid = null;
+      currentUsername = "";
+      currentGender = "m";
+      state = { screen: "auth", authMode: "login" };
+      history.replaceState(state, "");
+      render();
+    }
+  }).catch((err) => {
+    console.error("שגיאה בטעינת מאגר המילים:", err);
+    breadcrumb.textContent = "";
+    app.innerHTML = `<div class="loading-box"><div>שגיאה בטעינת נתוני האפליקציה. נסה לרענן את הדף.</div></div>`;
+  });
 });
 
 // שומר עותק מקומי קטן של username/gender (לא רגיש) לפי uid, כדי שאם Firestore לא זמין
@@ -434,6 +594,8 @@ function bootLoggedIn(uid, profile) {
     saveProgress(profile.progress || {});
     saveLearned(new Set(profile.learned || []));
     saveWordStats(profile.wordStats || {});
+    localStorage.setItem(exercisesCompletedKey(), String(profile.exercisesCompleted || 0));
+    saveUnlockedAchievements(profile.achievements || {});
     cacheProfileLocally(uid, currentUsername, currentGender);
   } else {
     // Firestore לא הצליח להיטען (למשל בעיית רשת) - נופלים חזרה לעותק מקומי אם קיים,
@@ -442,6 +604,9 @@ function bootLoggedIn(uid, profile) {
     currentUsername = cached ? cached.username : "";
     currentGender = cached ? cached.gender : "m";
   }
+  // בדיקה שקטה (בלי הודעת זכייה) - כדי שמשתמש ותיק עם התקדמות שכבר עוברת סף כלשהו יראה
+  // את ההישג כבר פתוח, בלי "לחגוג" הישגים ישנים בכל התחברות.
+  checkAchievements();
   state = loadNav() || { screen: "home" };
   seedHistory(state);
   render();
@@ -449,14 +614,26 @@ function bootLoggedIn(uid, profile) {
 
 // ---------- ניווט ----------
 function goHome() { state = { screen: "home" }; saveNav(state); pushHistory(); render(); }
-function gotoLevel(levelId) { state = { screen: "level", levelId }; saveNav(state); pushHistory(); render(); }
-function gotoTopic(levelId, topicId) { state = { screen: "topic", levelId, topicId }; saveNav(state); pushHistory(); render(); }
+function gotoLevel(levelId) {
+  state = { screen: "level", levelId };
+  saveNav(state); pushHistory(); render();
+  window.HablaAuth?.incrementCounter(["levelViews", levelId]);
+  window.HablaAuth?.logAnalyticsEvent("level_view", { level: levelId });
+}
+function gotoTopic(levelId, topicId) {
+  state = { screen: "topic", levelId, topicId };
+  saveNav(state); pushHistory(); render();
+  window.HablaAuth?.incrementCounter(["topicViews", levelId, topicId]);
+  window.HablaAuth?.logAnalyticsEvent("topic_view", { level: levelId, topic: topicId });
+}
 function gotoExercise(levelId, topicId, type) {
   state = { screen: "exercise", levelId, topicId, type };
   saveNav(state);
   pushHistory();
   buildExercise(levelId, topicId, type);
   render();
+  window.HablaAuth?.incrementCounter(["exerciseStarts", type]);
+  window.HablaAuth?.logAnalyticsEvent("exercise_start", { exercise_type: type, level: levelId, topic: topicId });
 }
 function gotoReview() {
   state = { screen: "exercise", type: "quiz", isReview: true };
@@ -469,8 +646,35 @@ function gotoSmartReview() {
   pushHistory();
   buildSmartReviewExercise();
   render();
+  window.HablaAuth?.incrementCounter(["smartReviewUsage"]);
+  window.HablaAuth?.logAnalyticsEvent("smart_review_start", {});
 }
 function gotoStats() { state = { screen: "stats" }; pushHistory(); render(); }
+
+// "המשך ללמוד": מוצא את הנושא הכי הגיוני להמשיך ממנו, לפי getTopicCompletion הקיים בלבד -
+// בלי שום נתון חדש. סדר עדיפות: (1) נושא עם התקדמות חלקית (התחיל, לא סיים) - "ממשיך בדיוק
+// משם". (2) אם אין כזה, הנושא הבא שטרם התחיל בכלל, לפי סדר הרמות/נושאים ב-LEVELS - זה מכסה
+// גם "סיימתי נושא, עבור לבא" וגם "פעם ראשונה בכלל" (באותו קוד, בלי לשכפל לוגיקה).
+function findContinuePoint() {
+  const levels = DIFFICULTY_LEVEL_IDS.map(id => LEVELS[id]);
+  for (const level of levels) {
+    for (const topic of level.topics) {
+      const pct = getTopicCompletion(level.id, topic.id);
+      if (pct > 0 && pct < 100) return { levelId: level.id, topicId: topic.id };
+    }
+  }
+  for (const level of levels) {
+    for (const topic of level.topics) {
+      if (getTopicCompletion(level.id, topic.id) === 0) return { levelId: level.id, topicId: topic.id };
+    }
+  }
+  return null; // הכל כבר הושלם ב-100%
+}
+function continueLearning() {
+  const point = findContinuePoint();
+  if (point) gotoTopic(point.levelId, point.topicId);
+  else gotoLevel("beginner");
+}
 
 // בונה שאלת חידון בודדת (כיוון אקראי + מסיחים) עבור מילה אחת. משמש גם לחידון רגיל וגם לתרגול חזרה,
 // שהיו זהים במלואם קודם לכן, כל אחד עם ההעתק שלו.
@@ -616,6 +820,7 @@ function render() {
   if (state.screen === "topic") return renderTopic();
   if (state.screen === "exercise") return renderExercise();
   if (state.screen === "stats") return renderStats();
+  if (state.screen === "achievements") return renderAchievements();
 }
 
 // ---------- טעינה ----------
@@ -781,6 +986,7 @@ function renderHome() {
   const total = totalWordCount();
   const reviewCount = struggleWordCount();
   const dueCount = dueWordCount();
+  const topicsCompleted = completedTopicsCount();
   app.innerHTML = `
     <div class="hero">
       <h1>Zarfati App 🇪🇸 לימוד ספרדית</h1>
@@ -788,10 +994,21 @@ function renderHome() {
       <p>${t("chooseLevelIntro")}</p>
     </div>
     <div class="stats-strip">
+      <div class="stat-box"><div class="num">${overallCompletion()}%</div><div class="lbl">התקדמות כוללת</div></div>
       <div class="stat-box"><div class="num">${learned}/${total}</div><div class="lbl">מילים נלמדו</div></div>
-      <div class="stat-box"><div class="num">${getLevelCompletion("beginner")}%</div><div class="lbl">${LEVELS.beginner.name}</div></div>
-      <div class="stat-box"><div class="num">${getLevelCompletion("intermediate")}%</div><div class="lbl">${LEVELS.intermediate.name}</div></div>
-      <div class="stat-box"><div class="num">${getLevelCompletion("advanced")}%</div><div class="lbl">${LEVELS.advanced.name}</div></div>
+      <div class="stat-box"><div class="num">${topicsCompleted.count}/${topicsCompleted.total}</div><div class="lbl">נושאים הושלמו</div></div>
+    </div>
+    <div class="dashboard-placeholders">
+      <div class="placeholder-box"><span class="placeholder-icon" aria-hidden="true">⭐</span><span class="placeholder-lbl">XP</span><span class="placeholder-soon">בקרוב</span></div>
+      <button class="placeholder-box achievement-box" data-action="goto-achievements">
+        <span class="placeholder-icon" aria-hidden="true">🏆</span><span class="placeholder-lbl">הישגים</span><span class="placeholder-count">${achievementsUnlockedCount()}/${ACHIEVEMENTS.length}</span>
+      </button>
+      <div class="placeholder-box"><span class="placeholder-icon" aria-hidden="true">🔥</span><span class="placeholder-lbl">רצף ימים</span><span class="placeholder-soon">בקרוב</span></div>
+    </div>
+    <div style="text-align:center; margin: 22px 0;">
+      <button class="ctrl-btn continue-btn" data-action="continue-learning">
+        <span aria-hidden="true">▶️</span> המשך ללמוד
+      </button>
     </div>
     <div class="level-grid">
       ${DIFFICULTY_LEVEL_IDS.map(id => LEVELS[id]).map(level => {
@@ -827,7 +1044,7 @@ function renderHome() {
       ${dueCount === 0 ? `<div class="section-sub" style="margin-top:8px;">${t("smartReviewEmptyHint")}</div>` : ""}
     </div>
     <div style="text-align:center; margin-top:16px;">
-      <a class="ctrl-btn secondary" href="${feedbackWhatsappUrl()}" target="_blank" rel="noopener noreferrer">
+      <a class="ctrl-btn secondary" href="${feedbackWhatsappUrl()}" target="_blank" rel="noopener noreferrer" data-action="feedback-click">
         <span aria-hidden="true">💬</span> שלח משוב
       </a>
     </div>
@@ -942,6 +1159,35 @@ function renderStats() {
   `;
   bindDelegatedEvents();
 }
+
+// ---------- הישגים ----------
+function renderAchievements() {
+  breadcrumb.textContent = "הישגים";
+  const unlocked = loadUnlockedAchievements();
+  const rows = ACHIEVEMENTS.map(a => {
+    const current = ACHIEVEMENT_METRICS[a.metric]();
+    const isUnlocked = !!unlocked[a.id];
+    const pct = Math.min(100, Math.round((current / a.threshold) * 100));
+    return `
+      <div class="achievement-row ${isUnlocked ? "unlocked" : "locked"}">
+        <div class="achievement-icon" aria-hidden="true">${a.icon}</div>
+        <div class="achievement-info">
+          <div class="achievement-name">${escapeHtml(a.name)}</div>
+          <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${isUnlocked ? "var(--success)" : "var(--accent)"}"></div></div>
+          <div class="achievement-progress-lbl">${Math.min(current, a.threshold)}/${a.threshold}</div>
+        </div>
+        ${isUnlocked ? `<div class="achievement-check" aria-hidden="true">✓</div>` : ""}
+      </div>`;
+  }).join("");
+  app.innerHTML = `
+    <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
+    <div class="section-title">🏆 הישגים</div>
+    <div class="section-sub">${achievementsUnlockedCount()}/${ACHIEVEMENTS.length} הישגים נפתחו</div>
+    <div class="achievement-list">${rows}</div>
+  `;
+  bindDelegatedEvents();
+}
+function gotoAchievements() { state = { screen: "achievements" }; pushHistory(); render(); }
 
 function renderLevel() {
   const level = LEVELS[state.levelId];
@@ -1253,6 +1499,8 @@ function finishExerciseIfDone(length, scoreType, percent) {
   if (ex.index < length || ex.finished) return;
   ex.finished = true;
   if (!ex.isReview) setTopicScore(state.levelId, state.topicId, scoreType, percent);
+  incrementExercisesCompleted();
+  checkAchievements().forEach(showAchievementToast);
 }
 
 // ---------- כרטיסיות ----------
@@ -1397,7 +1645,14 @@ function handleAction(el) {
       break;
     case "goto-review": gotoReview(); break;
     case "goto-smart-review": gotoSmartReview(); break;
+    case "continue-learning": continueLearning(); break;
+    case "feedback-click": {
+      window.HablaAuth?.incrementCounter(["feedbackClicks"]);
+      window.HablaAuth?.logAnalyticsEvent("feedback_click", {});
+      break;
+    }
     case "goto-stats": gotoStats(); break;
+    case "goto-achievements": gotoAchievements(); break;
     case "goto-about": gotoAbout(); break;
     case "pick-gender": state.genderChoice = el.dataset.gender; state.authError = ""; render(); break;
     case "auth-switch-mode": state = { screen: "auth", authMode: el.dataset.mode }; history.replaceState(state, ""); render(); break;

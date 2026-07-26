@@ -1,0 +1,169 @@
+{
+  "levelId": "intermediate",
+  "topicId": "emotions",
+  "vocab": [
+    {
+      "id": "w000247",
+      "es": "Feliz",
+      "he": "שמח",
+      "ex_es": "Estoy muy feliz hoy.",
+      "ex_he": "אני מאוד שמח היום."
+    },
+    {
+      "id": "w000248",
+      "es": "Triste",
+      "he": "עצוב",
+      "ex_es": "Se siente triste porque perdió el partido.",
+      "ex_he": "הוא מרגיש עצוב כי הוא הפסיד במשחק."
+    },
+    {
+      "id": "w000249",
+      "es": "Enojado / Enfadado",
+      "he": "כועס",
+      "ex_es": "Está enojado con su hermano.",
+      "ex_he": "הוא כועס על אחיו."
+    },
+    {
+      "id": "w000250",
+      "es": "Cansado",
+      "he": "עייף",
+      "ex_es": "Estoy muy cansado después del trabajo.",
+      "ex_he": "אני מאוד עייף אחרי העבודה."
+    },
+    {
+      "id": "w000251",
+      "es": "Emocionado",
+      "he": "נרגש",
+      "ex_es": "Estamos emocionados por el viaje.",
+      "ex_he": "אנחנו נרגשים לקראת הטיול."
+    },
+    {
+      "id": "w000252",
+      "es": "Preocupado",
+      "he": "מודאג",
+      "ex_es": "Mi madre está preocupada por mí.",
+      "ex_he": "אמא שלי מודאגת ממני."
+    },
+    {
+      "id": "w000253",
+      "es": "Asustado",
+      "he": "מפוחד",
+      "ex_es": "El niño está asustado de la oscuridad.",
+      "ex_he": "הילד מפוחד מהחושך."
+    },
+    {
+      "id": "w000254",
+      "es": "Sorprendido",
+      "he": "מופתע",
+      "ex_es": "Me quedé sorprendido con la noticia.",
+      "ex_he": "נשארתי מופתע מהחדשות."
+    },
+    {
+      "id": "w000255",
+      "es": "Enamorado",
+      "he": "מאוהב",
+      "ex_es": "Está enamorado de ella desde hace un año.",
+      "ex_he": "הוא מאוהב בה כבר שנה."
+    },
+    {
+      "id": "w000256",
+      "es": "Aburrido",
+      "he": "משועמם",
+      "ex_es": "Los niños están aburridos en casa.",
+      "ex_he": "הילדים משועממים בבית."
+    },
+    {
+      "id": "w000257",
+      "es": "Nervioso",
+      "he": "עצבני / לחוץ",
+      "ex_es": "Estoy nervioso antes del examen.",
+      "ex_he": "אני לחוץ לפני המבחן."
+    },
+    {
+      "id": "w000258",
+      "es": "Orgulloso",
+      "he": "גאה",
+      "ex_es": "Estoy orgulloso de mi hija.",
+      "ex_he": "אני גאה בבת שלי."
+    },
+    {
+      "id": "w000259",
+      "es": "Decepcionado",
+      "he": "מאוכזב",
+      "ex_es": "Quedé decepcionado con el resultado.",
+      "ex_he": "נשארתי מאוכזב מהתוצאה."
+    },
+    {
+      "id": "w000260",
+      "es": "Tranquilo / Relajado",
+      "he": "רגוע",
+      "ex_es": "Después de las vacaciones me siento tranquilo.",
+      "ex_he": "אחרי החופשה אני מרגיש רגוע."
+    },
+    {
+      "id": "w000261",
+      "es": "¿Cómo te sientes?",
+      "he": "איך אתה מרגיש?",
+      "ex_es": "¿Cómo te sientes hoy?",
+      "ex_he": "איך אתה מרגיש היום?"
+    },
+    {
+      "id": "w000262",
+      "es": "Me siento...",
+      "he": "אני מרגיש...",
+      "ex_es": "Me siento muy bien hoy.",
+      "ex_he": "אני מרגיש מאוד טוב היום."
+    },
+    {
+      "id": "w000263",
+      "es": "Tener miedo de",
+      "he": "לפחד מ...",
+      "ex_es": "Tengo miedo de las alturas.",
+      "ex_he": "אני מפחד מגבהים."
+    },
+    {
+      "id": "w000264",
+      "es": "Estar de buen/mal humor",
+      "he": "להיות במצב רוח טוב/רע",
+      "ex_es": "Hoy estoy de muy buen humor.",
+      "ex_he": "היום אני במצב רוח מאוד טוב."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000121",
+      "es": "Me siento muy feliz cuando estoy con mi familia.",
+      "he": "אני מרגיש מאוד שמח כשאני עם המשפחה שלי."
+    },
+    {
+      "id": "s000122",
+      "es": "Ella está triste porque su amigo se fue.",
+      "he": "היא עצובה כי החבר שלה עזב."
+    },
+    {
+      "id": "s000123",
+      "es": "¿Por qué estás tan nervioso hoy?",
+      "he": "למה אתה כל כך לחוץ היום?"
+    },
+    {
+      "id": "s000124",
+      "es": "Estamos emocionados por empezar el nuevo trabajo.",
+      "he": "אנחנו נרגשים להתחיל בעבודה החדשה."
+    },
+    {
+      "id": "s000125",
+      "es": "Mi padre está muy orgulloso de mis notas.",
+      "he": "אבא שלי מאוד גאה בציונים שלי."
+    },
+    {
+      "id": "s000126",
+      "es": "No tengas miedo, todo va a salir bien.",
+      "he": "אל תפחד, הכל יסתדר."
+    },
+    {
+      "id": "s000127",
+      "es": "Después de dormir bien, me siento tranquilo.",
+      "he": "אחרי שינה טובה, אני מרגיש רגוע."
+    }
+  ]
+}

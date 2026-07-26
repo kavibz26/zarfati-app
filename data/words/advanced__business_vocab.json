@@ -1,0 +1,153 @@
+{
+  "levelId": "advanced",
+  "topicId": "business_vocab",
+  "vocab": [
+    {
+      "id": "w000301",
+      "es": "La negociación",
+      "he": "המשא ומתן",
+      "ex_es": "La negociación duró horas.",
+      "ex_he": "המשא ומתן נמשך שעות."
+    },
+    {
+      "id": "w000302",
+      "es": "El presupuesto",
+      "he": "התקציב",
+      "ex_es": "El presupuesto es limitado.",
+      "ex_he": "התקציב מוגבל."
+    },
+    {
+      "id": "w000303",
+      "es": "La inversión",
+      "he": "ההשקעה",
+      "ex_es": "Hicieron una gran inversión.",
+      "ex_he": "הם ביצעו השקעה גדולה."
+    },
+    {
+      "id": "w000304",
+      "es": "Los beneficios",
+      "he": "הרווחים",
+      "ex_es": "Los beneficios aumentaron este año.",
+      "ex_he": "הרווחים גדלו השנה."
+    },
+    {
+      "id": "w000305",
+      "es": "La junta directiva",
+      "he": "דירקטוריון",
+      "ex_es": "La junta directiva se reunió ayer.",
+      "ex_he": "הדירקטוריון התכנס אתמול."
+    },
+    {
+      "id": "w000306",
+      "es": "El contrato",
+      "he": "החוזה",
+      "ex_es": "Firmamos el contrato hoy.",
+      "ex_he": "חתמנו על החוזה היום."
+    },
+    {
+      "id": "w000307",
+      "es": "La estrategia",
+      "he": "האסטרטגיה",
+      "ex_es": "Necesitamos una nueva estrategia.",
+      "ex_he": "אנחנו צריכים אסטרטגיה חדשה."
+    },
+    {
+      "id": "w000308",
+      "es": "El competidor",
+      "he": "המתחרה",
+      "ex_es": "Nuestro competidor bajó los precios.",
+      "ex_he": "המתחרה שלנו הוריד מחירים."
+    },
+    {
+      "id": "w000309",
+      "es": "La fusión",
+      "he": "המיזוג",
+      "ex_es": "La fusión de empresas fue exitosa.",
+      "ex_he": "מיזוג החברות הצליח."
+    },
+    {
+      "id": "w000310",
+      "es": "Los accionistas",
+      "he": "בעלי המניות",
+      "ex_es": "Los accionistas votaron a favor.",
+      "ex_he": "בעלי המניות הצביעו בעד."
+    },
+    {
+      "id": "w000311",
+      "es": "El margen de beneficio",
+      "he": "שולי הרווח",
+      "ex_es": "El margen de beneficio bajó este trimestre.",
+      "ex_he": "שולי הרווח ירדו ברבעון הזה."
+    },
+    {
+      "id": "w000312",
+      "es": "La cadena de suministro",
+      "he": "שרשרת האספקה",
+      "ex_es": "La cadena de suministro se vio afectada.",
+      "ex_he": "שרשרת האספקה נפגעה."
+    },
+    {
+      "id": "w000313",
+      "es": "El informe trimestral",
+      "he": "הדוח הרבעוני",
+      "ex_es": "Presentamos el informe trimestral mañana.",
+      "ex_he": "נציג את הדוח הרבעוני מחר."
+    },
+    {
+      "id": "w000314",
+      "es": "Escalar el negocio",
+      "he": "להרחיב את העסק",
+      "ex_es": "Queremos escalar el negocio a nivel internacional.",
+      "ex_he": "אנחנו רוצים להרחיב את העסק ברמה בינלאומית."
+    },
+    {
+      "id": "w000315",
+      "es": "El plazo de entrega",
+      "he": "מועד האספקה",
+      "ex_es": "El plazo de entrega es muy ajustado.",
+      "ex_he": "מועד האספקה מאוד צפוף."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000142",
+      "es": "La junta directiva aprobó el nuevo presupuesto.",
+      "he": "הדירקטוריון אישר את התקציב החדש."
+    },
+    {
+      "id": "s000143",
+      "es": "Firmamos el contrato después de una larga negociación.",
+      "he": "חתמנו על החוזה אחרי משא ומתן ארוך."
+    },
+    {
+      "id": "s000144",
+      "es": "Los accionistas exigen mayores beneficios.",
+      "he": "בעלי המניות דורשים רווחים גדולים יותר."
+    },
+    {
+      "id": "s000145",
+      "es": "Nuestra estrategia debe considerar al competidor.",
+      "he": "האסטרטגיה שלנו חייבת להתחשב במתחרה."
+    },
+    {
+      "id": "s000146",
+      "es": "La fusión creará la empresa más grande del sector.",
+      "he": "המיזוג ייצור את החברה הגדולה ביותר בענף."
+    },
+    {
+      "id": "s000147",
+      "es": "El margen de beneficio mejoró gracias a la nueva estrategia.",
+      "he": "שולי הרווח השתפרו הודות לאסטרטגיה החדשה."
+    },
+    {
+      "id": "s000148",
+      "es": "La cadena de suministro global sigue afectada por la crisis.",
+      "he": "שרשרת האספקה הגלובלית עדיין מושפעת מהמשבר."
+    },
+    {
+      "id": "s000149",
+      "es": "Necesitamos cumplir con el plazo de entrega.",
+      "he": "אנחנו צריכים לעמוד במועד האספקה."
+    }
+  ]
+}

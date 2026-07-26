@@ -1,0 +1,220 @@
+{
+  "beginner": {
+    "id": "beginner",
+    "name": "מתחילים",
+    "icon": "🌱",
+    "color": "#4caf7d",
+    "topics": [
+      {
+        "id": "greetings",
+        "name": "ברכות והיכרות",
+        "vocabCount": 17,
+        "sentenceCount": 8
+      },
+      {
+        "id": "numbers",
+        "name": "מספרים ושעה",
+        "vocabCount": 17,
+        "sentenceCount": 8
+      },
+      {
+        "id": "colors",
+        "name": "צבעים וצורות",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "family",
+        "name": "משפחה",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "food",
+        "name": "אוכל ומשקאות",
+        "vocabCount": 17,
+        "sentenceCount": 8
+      },
+      {
+        "id": "basic_verbs",
+        "name": "פעלים בסיסיים: Ser, Estar, Tener",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "travel",
+        "name": "נסיעות",
+        "vocabCount": 12,
+        "sentenceCount": 5
+      },
+      {
+        "id": "home",
+        "name": "בית",
+        "vocabCount": 18,
+        "sentenceCount": 7
+      },
+      {
+        "id": "days_time",
+        "name": "ימים ושעות",
+        "vocabCount": 18,
+        "sentenceCount": 7
+      }
+    ]
+  },
+  "intermediate": {
+    "id": "intermediate",
+    "name": "בינוניים",
+    "icon": "🚀",
+    "color": "#3b82f6",
+    "topics": [
+      {
+        "id": "present_regular",
+        "name": "פעלים רגילים בהווה (AR/ER/IR)",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "preterito",
+        "name": "עבר פשוט - Pretérito Indefinido",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "adjectives",
+        "name": "תארים ותיאור אנשים",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "home_routine",
+        "name": "הבית והיומיום",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "work_professions",
+        "name": "עבודה ומקצועות",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "directions",
+        "name": "כיוונים ותחבורה",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "travel",
+        "name": "נסיעות",
+        "vocabCount": 12,
+        "sentenceCount": 5
+      },
+      {
+        "id": "emotions",
+        "name": "רגשות",
+        "vocabCount": 18,
+        "sentenceCount": 7
+      },
+      {
+        "id": "daily_conversations",
+        "name": "שיחות יומיומיות",
+        "vocabCount": 18,
+        "sentenceCount": 7
+      },
+      {
+        "id": "common_verbs_2",
+        "name": "פעלים נפוצים יותר",
+        "vocabCount": 18,
+        "sentenceCount": 7
+      }
+    ]
+  },
+  "advanced": {
+    "id": "advanced",
+    "name": "מתקדמים",
+    "icon": "🏆",
+    "color": "#a855f7",
+    "topics": [
+      {
+        "id": "business_vocab",
+        "name": "אוצר מילים עסקי",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "subjuntivo",
+        "name": "Subjuntivo - מצב רוח תלוי",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "idioms",
+        "name": "ניבים וביטויים (Modismos)",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "past_tenses",
+        "name": "עבר מורכב: Imperfecto מול Indefinido",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "formal_writing",
+        "name": "כתיבה רשמית ומיילים",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "news_opinions",
+        "name": "חדשות, דעות ודיונים",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "travel",
+        "name": "נסיעות",
+        "vocabCount": 12,
+        "sentenceCount": 5
+      },
+      {
+        "id": "advanced_vocab",
+        "name": "אוצר מילים מתקדם ומופשט",
+        "vocabCount": 18,
+        "sentenceCount": 7
+      },
+      {
+        "id": "natural_expressions",
+        "name": "ביטויים טבעיים של דוברי ספרדית",
+        "vocabCount": 16,
+        "sentenceCount": 6
+      }
+    ]
+  },
+  "grammar": {
+    "id": "grammar",
+    "name": "דקדוק בסיסי",
+    "icon": "📖",
+    "color": "#f59e0b",
+    "topics": [
+      {
+        "id": "pronouns",
+        "name": "כינויי גוף",
+        "vocabCount": 10,
+        "sentenceCount": 5
+      },
+      {
+        "id": "common_verbs",
+        "name": "פעלים נפוצים",
+        "vocabCount": 12,
+        "sentenceCount": 5
+      },
+      {
+        "id": "basic_conjugation",
+        "name": "הטיות בסיסיות בהווה",
+        "vocabCount": 18,
+        "sentenceCount": 5
+      }
+    ]
+  }
+}

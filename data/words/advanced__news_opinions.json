@@ -1,0 +1,153 @@
+{
+  "levelId": "advanced",
+  "topicId": "news_opinions",
+  "vocab": [
+    {
+      "id": "w000376",
+      "es": "En mi opinión",
+      "he": "לדעתי",
+      "ex_es": "En mi opinión, es una buena idea.",
+      "ex_he": "לדעתי, זה רעיון טוב."
+    },
+    {
+      "id": "w000377",
+      "es": "Por un lado... por otro lado",
+      "he": "מצד אחד... מצד שני",
+      "ex_es": "Por un lado es caro, por otro lado es útil.",
+      "ex_he": "מצד אחד זה יקר, מצד שני זה שימושי."
+    },
+    {
+      "id": "w000378",
+      "es": "Estoy de acuerdo",
+      "he": "אני מסכים",
+      "ex_es": "Estoy de acuerdo contigo.",
+      "ex_he": "אני מסכים איתך."
+    },
+    {
+      "id": "w000379",
+      "es": "No estoy de acuerdo",
+      "he": "אני לא מסכים",
+      "ex_es": "No estoy de acuerdo con esa política.",
+      "ex_he": "אני לא מסכים עם המדיניות הזו."
+    },
+    {
+      "id": "w000380",
+      "es": "El titular",
+      "he": "הכותרת (בעיתון)",
+      "ex_es": "El titular fue muy impactante.",
+      "ex_he": "הכותרת הייתה מאוד מדהימה."
+    },
+    {
+      "id": "w000381",
+      "es": "La polémica",
+      "he": "המחלוקת",
+      "ex_es": "El tema generó mucha polémica.",
+      "ex_he": "הנושא יצר הרבה מחלוקת."
+    },
+    {
+      "id": "w000382",
+      "es": "Según los expertos",
+      "he": "לפי המומחים",
+      "ex_es": "Según los expertos, la economía crecerá.",
+      "ex_he": "לפי המומחים, הכלכלה תצמח."
+    },
+    {
+      "id": "w000383",
+      "es": "El punto de vista",
+      "he": "נקודת המבט",
+      "ex_es": "Respeto tu punto de vista.",
+      "ex_he": "אני מכבד את נקודת המבט שלך."
+    },
+    {
+      "id": "w000384",
+      "es": "Debatir",
+      "he": "להתווכח/לדון",
+      "ex_es": "Vamos a debatir el tema mañana.",
+      "ex_he": "אנחנו נדון בנושא מחר."
+    },
+    {
+      "id": "w000385",
+      "es": "Al fin y al cabo",
+      "he": "בסופו של דבר",
+      "ex_es": "Al fin y al cabo, todos ganamos.",
+      "ex_he": "בסופו של דבר, כולנו ניצחנו."
+    },
+    {
+      "id": "w000386",
+      "es": "Desde mi punto de vista",
+      "he": "מנקודת מבטי",
+      "ex_es": "Desde mi punto de vista, la decisión fue correcta.",
+      "ex_he": "מנקודת מבטי, ההחלטה הייתה נכונה."
+    },
+    {
+      "id": "w000387",
+      "es": "Cabe destacar que",
+      "he": "ראוי לציין ש...",
+      "ex_es": "Cabe destacar que la economía mejoró.",
+      "ex_he": "ראוי לציין שהכלכלה השתפרה."
+    },
+    {
+      "id": "w000388",
+      "es": "Sin lugar a dudas",
+      "he": "ללא ספק",
+      "ex_es": "Sin lugar a dudas, es la mejor opción.",
+      "ex_he": "ללא ספק, זו האפשרות הטובה ביותר."
+    },
+    {
+      "id": "w000389",
+      "es": "Está por verse",
+      "he": "עוד ייראה / טרם ידוע",
+      "ex_es": "El resultado está por verse.",
+      "ex_he": "התוצאה עוד תיראה."
+    },
+    {
+      "id": "w000390",
+      "es": "Plantear una cuestión",
+      "he": "להעלות סוגיה",
+      "ex_es": "Quiero plantear una cuestión importante.",
+      "ex_he": "אני רוצה להעלות סוגיה חשובה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000182",
+      "es": "En mi opinión, deberíamos cambiar la estrategia.",
+      "he": "לדעתי, כדאי שנשנה את האסטרטגיה."
+    },
+    {
+      "id": "s000183",
+      "es": "Según los expertos, la situación va a mejorar.",
+      "he": "לפי המומחים, המצב הולך להשתפר."
+    },
+    {
+      "id": "s000184",
+      "es": "Por un lado quiero viajar, por otro lado necesito ahorrar.",
+      "he": "מצד אחד אני רוצה לטייל, מצד שני אני צריך לחסוך."
+    },
+    {
+      "id": "s000185",
+      "es": "El titular de la noticia generó mucha polémica.",
+      "he": "כותרת החדשות יצרה הרבה מחלוקת."
+    },
+    {
+      "id": "s000186",
+      "es": "Al fin y al cabo, decidimos no debatir más.",
+      "he": "בסופו של דבר, החלטנו לא להתווכח יותר."
+    },
+    {
+      "id": "s000187",
+      "es": "Desde mi punto de vista, deberíamos esperar más información.",
+      "he": "מנקודת מבטי, כדאי שנחכה למידע נוסף."
+    },
+    {
+      "id": "s000188",
+      "es": "Cabe destacar que las cifras mejoraron este año.",
+      "he": "ראוי לציין שהנתונים השתפרו השנה."
+    },
+    {
+      "id": "s000189",
+      "es": "Sin lugar a dudas, este cambio afectará a todos.",
+      "he": "ללא ספק, השינוי הזה ישפיע על כולם."
+    }
+  ]
+}

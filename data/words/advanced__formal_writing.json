@@ -1,0 +1,153 @@
+{
+  "levelId": "advanced",
+  "topicId": "formal_writing",
+  "vocab": [
+    {
+      "id": "w000361",
+      "es": "Estimado/a señor/a",
+      "he": "לכבוד אדון/גברת (פתיחה רשמית)",
+      "ex_es": "Estimada señora García:",
+      "ex_he": "לכבוד גברת גרסיה:"
+    },
+    {
+      "id": "w000362",
+      "es": "Le escribo para...",
+      "he": "אני כותב לך כדי...",
+      "ex_es": "Le escribo para solicitar información.",
+      "ex_he": "אני כותב לך כדי לבקש מידע."
+    },
+    {
+      "id": "w000363",
+      "es": "Adjunto encontrará",
+      "he": "מצורף בזאת",
+      "ex_es": "Adjunto encontrará el informe.",
+      "ex_he": "מצורף בזאת הדוח."
+    },
+    {
+      "id": "w000364",
+      "es": "Quedo a la espera de su respuesta",
+      "he": "אני ממתין לתשובתך",
+      "ex_es": "Quedo a la espera de su respuesta.",
+      "ex_he": "אני ממתין לתשובתך."
+    },
+    {
+      "id": "w000365",
+      "es": "Atentamente",
+      "he": "בברכה",
+      "ex_es": "Atentamente, Juan Pérez.",
+      "ex_he": "בברכה, חואן פרס."
+    },
+    {
+      "id": "w000366",
+      "es": "Solicitar",
+      "he": "לבקש (רשמית)",
+      "ex_es": "Quiero solicitar una reunión.",
+      "ex_he": "אני רוצה לבקש פגישה."
+    },
+    {
+      "id": "w000367",
+      "es": "Confirmar",
+      "he": "לאשר",
+      "ex_es": "Quiero confirmar la cita.",
+      "ex_he": "אני רוצה לאשר את הפגישה."
+    },
+    {
+      "id": "w000368",
+      "es": "Lamento informarle",
+      "he": "אני מצטער להודיע לך",
+      "ex_es": "Lamento informarle que el vuelo se canceló.",
+      "ex_he": "אני מצטער להודיע שהטיסה בוטלה."
+    },
+    {
+      "id": "w000369",
+      "es": "En referencia a",
+      "he": "בהתייחס ל...",
+      "ex_es": "En referencia a su correo anterior...",
+      "ex_he": "בהתייחס למייל הקודם שלך..."
+    },
+    {
+      "id": "w000370",
+      "es": "Un cordial saludo",
+      "he": "בברכה חמה",
+      "ex_es": "Un cordial saludo, el equipo.",
+      "ex_he": "בברכה חמה, הצוות."
+    },
+    {
+      "id": "w000371",
+      "es": "Le agradezco de antemano",
+      "he": "תודה מראש",
+      "ex_es": "Le agradezco de antemano su atención.",
+      "ex_he": "תודה מראש על תשומת ליבך."
+    },
+    {
+      "id": "w000372",
+      "es": "Sin más por el momento",
+      "he": "אין עוד מה להוסיף כרגע",
+      "ex_es": "Sin más por el momento, quedo a su disposición.",
+      "ex_he": "אין עוד מה להוסיף כרגע, אני לרשותך."
+    },
+    {
+      "id": "w000373",
+      "es": "Rogamos disculpe las molestias",
+      "he": "אנא סלח על אי הנוחות",
+      "ex_es": "Rogamos disculpe las molestias ocasionadas.",
+      "ex_he": "אנא סלח על אי הנוחות שנגרמה."
+    },
+    {
+      "id": "w000374",
+      "es": "Le informo que",
+      "he": "אני מודיע לך ש...",
+      "ex_es": "Le informo que la reunión se pospuso.",
+      "ex_he": "אני מודיע לך שהישיבה נדחתה."
+    },
+    {
+      "id": "w000375",
+      "es": "Con relación a su correo",
+      "he": "בהתייחס למייל שלך",
+      "ex_es": "Con relación a su correo del día 5...",
+      "ex_he": "בהתייחס למייל שלך מהתאריך 5..."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000174",
+      "es": "Estimado señor López, le escribo para confirmar la reunión.",
+      "he": "לכבוד מר לופז, אני כותב כדי לאשר את הפגישה."
+    },
+    {
+      "id": "s000175",
+      "es": "Adjunto encontrará el contrato firmado.",
+      "he": "מצורף בזאת החוזה החתום."
+    },
+    {
+      "id": "s000176",
+      "es": "Lamento informarle que el proyecto se retrasó.",
+      "he": "אני מצטער להודיע שהפרויקט התעכב."
+    },
+    {
+      "id": "s000177",
+      "es": "Quedo a la espera de su respuesta. Atentamente.",
+      "he": "אני ממתין לתשובתך. בברכה."
+    },
+    {
+      "id": "s000178",
+      "es": "En referencia a su solicitud, adjunto el informe.",
+      "he": "בהתייחס לבקשתך, מצורף הדוח."
+    },
+    {
+      "id": "s000179",
+      "es": "Le agradezco de antemano su pronta respuesta.",
+      "he": "תודה מראש על תשובתך המהירה."
+    },
+    {
+      "id": "s000180",
+      "es": "Rogamos disculpe las molestias que esto pueda causar.",
+      "he": "אנא סלח על אי הנוחות שזה עלול לגרום."
+    },
+    {
+      "id": "s000181",
+      "es": "Le informo que el pedido llegará la próxima semana.",
+      "he": "אני מודיע לך שההזמנה תגיע בשבוע הבא."
+    }
+  ]
+}

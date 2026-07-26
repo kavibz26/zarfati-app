@@ -1,0 +1,6 @@
+{
+  "beginner": { "id": "beginner", "name": "מתחילים", "icon": "🌱", "color": "#4caf7d" },
+  "intermediate": { "id": "intermediate", "name": "בינוניים", "icon": "🚀", "color": "#3b82f6" },
+  "advanced": { "id": "advanced", "name": "מתקדמים", "icon": "🏆", "color": "#a855f7" },
+  "grammar": { "id": "grammar", "name": "דקדוק בסיסי", "icon": "📖", "color": "#f59e0b" }
+}
