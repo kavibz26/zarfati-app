@@ -221,3 +221,35 @@ s000219,"¿Tú hablas, comes o vives aquí?","אתה מדבר, אוכל או ג�
 s000220,"Nosotros hablamos, comemos y vivimos juntos.","אנחנו מדברים, אוכלים וגרים ביחד.",grammar,basic_conjugation
 s000221,Ellos hablan inglés y viven en Londres.,הם מדברים אנגלית וגרים בלונדון.,grammar,basic_conjugation
 s000222,Ella come temprano y luego habla con sus amigas.,היא אוכלת מוקדם ואז מדברת עם החברות שלה.,grammar,basic_conjugation
+s000223,Hoy hace mucho calor.,היום חם מאוד.,beginner,weather
+s000224,Está lloviendo todo el día.,יורד גשם כל היום.,beginner,weather
+s000225,El cielo está nublado.,השמיים מעוננים.,beginner,weather
+s000226,Hace mucho frío en invierno.,קר מאוד בחורף.,beginner,weather
+s000227,El pronóstico dice que va a nevar.,התחזית אומרת שירד שלג.,beginner,weather
+s000228,Hace sol y no hay nubes.,יש שמש ואין עננים.,beginner,weather
+s000229,La temperatura baja por la noche.,הטמפרטורה יורדת בלילה.,beginner,weather
+s000230,Necesito un paraguas porque llueve.,אני צריך מטריה כי יורד גשם.,beginner,weather
+s000231,Me duele la cabeza.,כואב לי הראש.,beginner,body_parts
+s000232,Tengo que ir al médico.,אני צריך ללכת לרופא.,beginner,body_parts
+s000233,Ella tiene los ojos verdes.,יש לה עיניים ירוקות.,beginner,body_parts
+s000234,Necesito ir a la farmacia.,אני צריך ללכת לבית המרקחת.,beginner,body_parts
+s000235,Me caí y me lastimé la rodilla.,נפלתי ופצעתי את הברך.,beginner,body_parts
+s000236,El niño tiene mucha fiebre.,לילד יש הרבה חום.,beginner,body_parts
+s000237,Fuimos al hospital anoche.,הלכנו לבית החולים אתמול בלילה.,beginner,body_parts
+s000238,Estoy enfermo desde ayer.,אני חולה מאתמול.,beginner,body_parts
+s000239,Necesito ropa para el invierno.,אני צריך בגדים לחורף.,beginner,clothing
+s000240,Estos zapatos son muy cómodos.,הנעליים האלה מאוד נוחות.,beginner,clothing
+s000241,¿Puedo probarme este vestido?,אפשר למדוד את השמלה הזאת?,beginner,clothing
+s000242,Esta camisa te queda muy bien.,החולצה הזאת מתאימה לך מאוד.,beginner,clothing
+s000243,Busco un abrigo barato.,אני מחפש מעיל זול.,beginner,clothing
+s000244,El traje es demasiado caro.,החליפה יקרה מדי.,beginner,clothing
+s000245,Olvidé mis guantes en casa.,שכחתי את הכפפות שלי בבית.,beginner,clothing
+s000246,¿Qué vas a llevar a la fiesta?,מה תלבש למסיבה?,beginner,clothing
+s000247,¿Cuánto cuesta esto?,כמה זה עולה?,beginner,shopping_money
+s000248,No tengo suficiente dinero.,אין לי מספיק כסף.,beginner,shopping_money
+s000249,¿Puedo pagar con tarjeta?,אפשר לשלם בכרטיס?,beginner,shopping_money
+s000250,Hay un descuento en esta tienda.,יש הנחה בחנות הזאת.,beginner,shopping_money
+s000251,¿Me puede dar el recibo?,אפשר לקבל קבלה?,beginner,shopping_money
+s000252,Prefiero pagar en efectivo.,אני מעדיף לשלם במזומן.,beginner,shopping_money
+s000253,Las rebajas empiezan la próxima semana.,מבצעי סוף העונה מתחילים בשבוע הבא.,beginner,shopping_money
+s000254,Este mercado vende fruta fresca.,השוק הזה מוכר פירות טריים.,beginner,shopping_money

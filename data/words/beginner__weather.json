@@ -1,0 +1,188 @@
+{
+  "levelId": "beginner",
+  "topicId": "weather",
+  "vocab": [
+    {
+      "id": "w000477",
+      "es": "el tiempo",
+      "he": "מזג האוויר",
+      "ex_es": "¿Qué tiempo hace hoy?",
+      "ex_he": "איך מזג האוויר היום?"
+    },
+    {
+      "id": "w000478",
+      "es": "hace calor",
+      "he": "חם (בחוץ)",
+      "ex_es": "Hace mucho calor en verano.",
+      "ex_he": "חם מאוד בקיץ."
+    },
+    {
+      "id": "w000479",
+      "es": "hace frío",
+      "he": "קר (בחוץ)",
+      "ex_es": "Hace frío por la noche.",
+      "ex_he": "קר בלילה."
+    },
+    {
+      "id": "w000480",
+      "es": "hace sol",
+      "he": "יש שמש",
+      "ex_es": "Hoy hace sol, vamos a la playa.",
+      "ex_he": "היום יש שמש, בואו נלך לחוף."
+    },
+    {
+      "id": "w000481",
+      "es": "hace viento",
+      "he": "יש רוח",
+      "ex_es": "Hace mucho viento hoy.",
+      "ex_he": "יש הרבה רוח היום."
+    },
+    {
+      "id": "w000482",
+      "es": "está lloviendo",
+      "he": "יורד גשם",
+      "ex_es": "Está lloviendo, lleva un paraguas.",
+      "ex_he": "יורד גשם, קח מטריה."
+    },
+    {
+      "id": "w000483",
+      "es": "la lluvia",
+      "he": "גשם",
+      "ex_es": "Me encanta el olor de la lluvia.",
+      "ex_he": "אני אוהב את הריח של הגשם."
+    },
+    {
+      "id": "w000484",
+      "es": "el sol",
+      "he": "שמש",
+      "ex_es": "El sol brilla mucho hoy.",
+      "ex_he": "השמש זורחת חזק היום."
+    },
+    {
+      "id": "w000485",
+      "es": "el viento",
+      "he": "רוח",
+      "ex_es": "El viento es muy fuerte.",
+      "ex_he": "הרוח מאוד חזקה."
+    },
+    {
+      "id": "w000486",
+      "es": "nublado",
+      "he": "מעונן",
+      "ex_es": "Está nublado esta mañana.",
+      "ex_he": "מעונן הבוקר."
+    },
+    {
+      "id": "w000487",
+      "es": "las nubes",
+      "he": "עננים",
+      "ex_es": "Hay muchas nubes en el cielo.",
+      "ex_he": "יש הרבה עננים בשמיים."
+    },
+    {
+      "id": "w000488",
+      "es": "la nieve",
+      "he": "שלג",
+      "ex_es": "La nieve cubre las montañas.",
+      "ex_he": "השלג מכסה את ההרים."
+    },
+    {
+      "id": "w000489",
+      "es": "está nevando",
+      "he": "יורד שלג",
+      "ex_es": "Está nevando mucho en la montaña.",
+      "ex_he": "יורד הרבה שלג בהר."
+    },
+    {
+      "id": "w000490",
+      "es": "los grados",
+      "he": "מעלות",
+      "ex_es": "Hoy hay treinta grados.",
+      "ex_he": "היום יש שלושים מעלות."
+    },
+    {
+      "id": "w000491",
+      "es": "la temperatura",
+      "he": "הטמפרטורה",
+      "ex_es": "¿Cuál es la temperatura hoy?",
+      "ex_he": "מה הטמפרטורה היום?"
+    },
+    {
+      "id": "w000492",
+      "es": "el pronóstico",
+      "he": "תחזית מזג האוויר",
+      "ex_es": "Vi el pronóstico del tiempo.",
+      "ex_he": "ראיתי את תחזית מזג האוויר."
+    },
+    {
+      "id": "w000493",
+      "es": "¿Qué tiempo hace?",
+      "he": "איך מזג האוויר?",
+      "ex_es": "¿Qué tiempo hace en Madrid?",
+      "ex_he": "איך מזג האוויר במדריד?"
+    },
+    {
+      "id": "w000494",
+      "es": "templado",
+      "he": "נעים (מזג אוויר)",
+      "ex_es": "El clima aquí es templado.",
+      "ex_he": "האקלים כאן נעים."
+    },
+    {
+      "id": "w000495",
+      "es": "la tormenta",
+      "he": "סופה",
+      "ex_es": "Va a haber una tormenta esta noche.",
+      "ex_he": "תהיה סופה הלילה."
+    },
+    {
+      "id": "w000496",
+      "es": "húmedo",
+      "he": "לח",
+      "ex_es": "El aire está muy húmedo hoy.",
+      "ex_he": "האוויר מאוד לח היום."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000223",
+      "es": "Hoy hace mucho calor.",
+      "he": "היום חם מאוד."
+    },
+    {
+      "id": "s000224",
+      "es": "Está lloviendo todo el día.",
+      "he": "יורד גשם כל היום."
+    },
+    {
+      "id": "s000225",
+      "es": "El cielo está nublado.",
+      "he": "השמיים מעוננים."
+    },
+    {
+      "id": "s000226",
+      "es": "Hace mucho frío en invierno.",
+      "he": "קר מאוד בחורף."
+    },
+    {
+      "id": "s000227",
+      "es": "El pronóstico dice que va a nevar.",
+      "he": "התחזית אומרת שירד שלג."
+    },
+    {
+      "id": "s000228",
+      "es": "Hace sol y no hay nubes.",
+      "he": "יש שמש ואין עננים."
+    },
+    {
+      "id": "s000229",
+      "es": "La temperatura baja por la noche.",
+      "he": "הטמפרטורה יורדת בלילה."
+    },
+    {
+      "id": "s000230",
+      "es": "Necesito un paraguas porque llueve.",
+      "he": "אני צריך מטריה כי יורד גשם."
+    }
+  ]
+}

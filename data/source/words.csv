@@ -475,3 +475,79 @@ w000473,Él/Ella vive,הוא/היא גר/ה,Ella vive con su familia.,היא ג�
 w000474,Nosotros vivimos,אנחנו גרים,Nosotros vivimos en el centro.,אנחנו גרים במרכז.,grammar,basic_conjugation,הטיות בסיסיות בהווה
 w000475,Vosotros vivís,אתם גרים (בספרד),Vosotros vivís en las afueras.,אתם גרים בפרברים.,grammar,basic_conjugation,הטיות בסיסיות בהווה
 w000476,Ellos viven,הם גרים,Ellos viven en Barcelona.,הם גרים בברצלונה.,grammar,basic_conjugation,הטיות בסיסיות בהווה
+w000477,el tiempo,מזג האוויר,¿Qué tiempo hace hoy?,איך מזג האוויר היום?,beginner,weather,מזג אוויר
+w000478,hace calor,חם (בחוץ),Hace mucho calor en verano.,חם מאוד בקיץ.,beginner,weather,מזג אוויר
+w000479,hace frío,קר (בחוץ),Hace frío por la noche.,קר בלילה.,beginner,weather,מזג אוויר
+w000480,hace sol,יש שמש,"Hoy hace sol, vamos a la playa.","היום יש שמש, בואו נלך לחוף.",beginner,weather,מזג אוויר
+w000481,hace viento,יש רוח,Hace mucho viento hoy.,יש הרבה רוח היום.,beginner,weather,מזג אוויר
+w000482,está lloviendo,יורד גשם,"Está lloviendo, lleva un paraguas.","יורד גשם, קח מטריה.",beginner,weather,מזג אוויר
+w000483,la lluvia,גשם,Me encanta el olor de la lluvia.,אני אוהב את הריח של הגשם.,beginner,weather,מזג אוויר
+w000484,el sol,שמש,El sol brilla mucho hoy.,השמש זורחת חזק היום.,beginner,weather,מזג אוויר
+w000485,el viento,רוח,El viento es muy fuerte.,הרוח מאוד חזקה.,beginner,weather,מזג אוויר
+w000486,nublado,מעונן,Está nublado esta mañana.,מעונן הבוקר.,beginner,weather,מזג אוויר
+w000487,las nubes,עננים,Hay muchas nubes en el cielo.,יש הרבה עננים בשמיים.,beginner,weather,מזג אוויר
+w000488,la nieve,שלג,La nieve cubre las montañas.,השלג מכסה את ההרים.,beginner,weather,מזג אוויר
+w000489,está nevando,יורד שלג,Está nevando mucho en la montaña.,יורד הרבה שלג בהר.,beginner,weather,מזג אוויר
+w000490,los grados,מעלות,Hoy hay treinta grados.,היום יש שלושים מעלות.,beginner,weather,מזג אוויר
+w000491,la temperatura,הטמפרטורה,¿Cuál es la temperatura hoy?,מה הטמפרטורה היום?,beginner,weather,מזג אוויר
+w000492,el pronóstico,תחזית מזג האוויר,Vi el pronóstico del tiempo.,ראיתי את תחזית מזג האוויר.,beginner,weather,מזג אוויר
+w000493,¿Qué tiempo hace?,איך מזג האוויר?,¿Qué tiempo hace en Madrid?,איך מזג האוויר במדריד?,beginner,weather,מזג אוויר
+w000494,templado,נעים (מזג אוויר),El clima aquí es templado.,האקלים כאן נעים.,beginner,weather,מזג אוויר
+w000495,la tormenta,סופה,Va a haber una tormenta esta noche.,תהיה סופה הלילה.,beginner,weather,מזג אוויר
+w000496,húmedo,לח,El aire está muy húmedo hoy.,האוויר מאוד לח היום.,beginner,weather,מזג אוויר
+w000497,la cabeza,ראש,Me duele la cabeza.,כואב לי הראש.,beginner,body_parts,גוף האדם ובריאות
+w000498,los ojos,עיניים,Tiene los ojos azules.,יש לו עיניים כחולות.,beginner,body_parts,גוף האדם ובריאות
+w000499,la mano,יד (כף יד),Dame la mano.,תן לי את היד.,beginner,body_parts,גוף האדם ובריאות
+w000500,la pierna,רגל,Me duele la pierna.,כואבת לי הרגל.,beginner,body_parts,גוף האדם ובריאות
+w000501,el estómago,בטן,Me duele el estómago.,כואבת לי הבטן.,beginner,body_parts,גוף האדם ובריאות
+w000502,la boca,פה,"Abre la boca, por favor.","פתח את הפה, בבקשה.",beginner,body_parts,גוף האדם ובריאות
+w000503,la nariz,אף,Tiene la nariz pequeña.,יש לו אף קטן.,beginner,body_parts,גוף האדם ובריאות
+w000504,la oreja,אוזן,Me duele la oreja.,כואבת לי האוזן.,beginner,body_parts,גוף האדם ובריאות
+w000505,la espalda,גב,Me duele la espalda.,כואב לי הגב.,beginner,body_parts,גוף האדם ובריאות
+w000506,el brazo,זרוע,Me duele el brazo.,כואבת לי הזרוע.,beginner,body_parts,גוף האדם ובריאות
+w000507,me duele,כואב לי,Me duele mucho.,כואב לי מאוד.,beginner,body_parts,גוף האדם ובריאות
+w000508,estoy enfermo/a,אני חולה,"Estoy enfermo, no puedo ir.","אני חולה, אני לא יכול ללכת.",beginner,body_parts,גוף האדם ובריאות
+w000509,el médico,רופא,Necesito ver al médico.,אני צריך לראות רופא.,beginner,body_parts,גוף האדם ובריאות
+w000510,la farmacia,בית מרקחת,La farmacia está cerrada.,בית המרקחת סגור.,beginner,body_parts,גוף האדם ובריאות
+w000511,la medicina,תרופה,Tienes que tomar la medicina.,אתה צריך לקחת את התרופה.,beginner,body_parts,גוף האדם ובריאות
+w000512,el dedo,אצבע,Me corté el dedo.,חתכתי את האצבע.,beginner,body_parts,גוף האדם ובריאות
+w000513,el pie,כף רגל,Me duele el pie.,כואבת לי כף הרגל.,beginner,body_parts,גוף האדם ובריאות
+w000514,el hombro,כתף,Me duele el hombro.,כואבת לי הכתף.,beginner,body_parts,גוף האדם ובריאות
+w000515,la rodilla,ברך,Me caí y me lastimé la rodilla.,נפלתי ופצעתי את הברך.,beginner,body_parts,גוף האדם ובריאות
+w000516,estar sano/a,להיות בריא,Es importante estar sano.,חשוב להיות בריא.,beginner,body_parts,גוף האדם ובריאות
+w000517,el hospital,בית חולים,Fuimos al hospital.,הלכנו לבית החולים.,beginner,body_parts,גוף האדם ובריאות
+w000518,la ropa,בגדים,Necesito comprar ropa nueva.,אני צריך לקנות בגדים חדשים.,beginner,clothing,בגדים
+w000519,la camisa,חולצה,Me gusta esta camisa.,אני אוהב את החולצה הזאת.,beginner,clothing,בגדים
+w000520,los pantalones,מכנסיים,Estos pantalones son muy cómodos.,המכנסיים האלה נוחים מאוד.,beginner,clothing,בגדים
+w000521,los zapatos,נעליים,Estos zapatos son nuevos.,הנעליים האלה חדשות.,beginner,clothing,בגדים
+w000522,el vestido,שמלה,Ella lleva un vestido azul.,היא לובשת שמלה כחולה.,beginner,clothing,בגדים
+w000523,el abrigo,מעיל,Necesito un abrigo para el invierno.,אני צריך מעיל לחורף.,beginner,clothing,בגדים
+w000524,la talla,מידה,¿Qué talla usas?,איזו מידה אתה לובש?,beginner,clothing,בגדים
+w000525,quedar bien,להתאים/להחמיא,Esta camisa te queda bien.,החולצה הזאת מתאימה לך.,beginner,clothing,בגדים
+w000526,probarse,למדוד (בגד),¿Puedo probarme esto?,אפשר למדוד את זה?,beginner,clothing,בגדים
+w000527,caro,יקר,Este vestido es muy caro.,השמלה הזאת מאוד יקרה.,beginner,clothing,בגדים
+w000528,barato,זול,Busco algo más barato.,אני מחפש משהו יותר זול.,beginner,clothing,בגדים
+w000529,llevar,ללבוש,¿Qué vas a llevar hoy?,מה תלבש היום?,beginner,clothing,בגדים
+w000530,la falda,חצאית,Me gusta esa falda.,אני אוהבת את החצאית ההיא.,beginner,clothing,בגדים
+w000531,los calcetines,גרביים,Necesito calcetines limpios.,אני צריך גרביים נקיים.,beginner,clothing,בגדים
+w000532,el sombrero,כובע,Lleva un sombrero grande.,הוא לובש כובע גדול.,beginner,clothing,בגדים
+w000533,los guantes,כפפות,"Hace frío, ponte los guantes.","קר, שים כפפות.",beginner,clothing,בגדים
+w000534,la corbata,עניבה,Tiene que llevar corbata en la oficina.,הוא צריך ללבוש עניבה במשרד.,beginner,clothing,בגדים
+w000535,el traje,חליפה,Compró un traje nuevo para la boda.,הוא קנה חליפה חדשה לחתונה.,beginner,clothing,בגדים
+w000536,el dinero,כסף,No tengo suficiente dinero.,אין לי מספיק כסף.,beginner,shopping_money,קניות וכסף
+w000537,el precio,מחיר,¿Cuál es el precio?,מה המחיר?,beginner,shopping_money,קניות וכסף
+w000538,comprar,לקנות,Quiero comprar esto.,אני רוצה לקנות את זה.,beginner,shopping_money,קניות וכסף
+w000539,la tienda,חנות,Esta tienda es muy grande.,החנות הזאת מאוד גדולה.,beginner,shopping_money,קניות וכסף
+w000540,¿Cuánto cuesta?,כמה זה עולה?,¿Cuánto cuesta esta camisa?,כמה עולה החולצה הזאת?,beginner,shopping_money,קניות וכסף
+w000541,el efectivo,מזומן,Pago en efectivo.,אני משלם במזומן.,beginner,shopping_money,קניות וכסף
+w000542,la tarjeta,כרטיס,¿Aceptan tarjeta?,אתם מקבלים כרטיס אשראי?,beginner,shopping_money,קניות וכסף
+w000543,pagar,לשלם,¿Dónde puedo pagar?,איפה אני יכול לשלם?,beginner,shopping_money,קניות וכסף
+w000544,el descuento,הנחה,Hay un descuento del veinte por ciento.,יש הנחה של עשרים אחוז.,beginner,shopping_money,קניות וכסף
+w000545,la caja,קופה,La caja está cerca de la entrada.,הקופה קרובה לכניסה.,beginner,shopping_money,קניות וכסף
+w000546,el recibo,קבלה,"¿Me da el recibo, por favor?","תן לי קבלה, בבקשה?",beginner,shopping_money,קניות וכסף
+w000547,vender,למכור,Aquí venden ropa barata.,כאן מוכרים בגדים זולים.,beginner,shopping_money,קניות וכסף
+w000548,el cambio,עודף,Aquí tiene su cambio.,הנה העודף שלך.,beginner,shopping_money,קניות וכסף
+w000549,gratis,חינם,La entrada es gratis.,הכניסה חינם.,beginner,shopping_money,קניות וכסף
+w000550,la oferta,מבצע,Hay una oferta especial hoy.,יש מבצע מיוחד היום.,beginner,shopping_money,קניות וכסף
+w000551,el mercado,שוק,Vamos al mercado los domingos.,אנחנו הולכים לשוק בימי ראשון.,beginner,shopping_money,קניות וכסף
+w000552,las rebajas,מבצעי סוף עונה,Las rebajas empiezan mañana.,מבצעי סוף העונה מתחילים מחר.,beginner,shopping_money,קניות וכסף

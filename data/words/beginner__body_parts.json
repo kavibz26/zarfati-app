@@ -1,0 +1,195 @@
+{
+  "levelId": "beginner",
+  "topicId": "body_parts",
+  "vocab": [
+    {
+      "id": "w000497",
+      "es": "la cabeza",
+      "he": "ראש",
+      "ex_es": "Me duele la cabeza.",
+      "ex_he": "כואב לי הראש."
+    },
+    {
+      "id": "w000498",
+      "es": "los ojos",
+      "he": "עיניים",
+      "ex_es": "Tiene los ojos azules.",
+      "ex_he": "יש לו עיניים כחולות."
+    },
+    {
+      "id": "w000499",
+      "es": "la mano",
+      "he": "יד (כף יד)",
+      "ex_es": "Dame la mano.",
+      "ex_he": "תן לי את היד."
+    },
+    {
+      "id": "w000500",
+      "es": "la pierna",
+      "he": "רגל",
+      "ex_es": "Me duele la pierna.",
+      "ex_he": "כואבת לי הרגל."
+    },
+    {
+      "id": "w000501",
+      "es": "el estómago",
+      "he": "בטן",
+      "ex_es": "Me duele el estómago.",
+      "ex_he": "כואבת לי הבטן."
+    },
+    {
+      "id": "w000502",
+      "es": "la boca",
+      "he": "פה",
+      "ex_es": "Abre la boca, por favor.",
+      "ex_he": "פתח את הפה, בבקשה."
+    },
+    {
+      "id": "w000503",
+      "es": "la nariz",
+      "he": "אף",
+      "ex_es": "Tiene la nariz pequeña.",
+      "ex_he": "יש לו אף קטן."
+    },
+    {
+      "id": "w000504",
+      "es": "la oreja",
+      "he": "אוזן",
+      "ex_es": "Me duele la oreja.",
+      "ex_he": "כואבת לי האוזן."
+    },
+    {
+      "id": "w000505",
+      "es": "la espalda",
+      "he": "גב",
+      "ex_es": "Me duele la espalda.",
+      "ex_he": "כואב לי הגב."
+    },
+    {
+      "id": "w000506",
+      "es": "el brazo",
+      "he": "זרוע",
+      "ex_es": "Me duele el brazo.",
+      "ex_he": "כואבת לי הזרוע."
+    },
+    {
+      "id": "w000507",
+      "es": "me duele",
+      "he": "כואב לי",
+      "ex_es": "Me duele mucho.",
+      "ex_he": "כואב לי מאוד."
+    },
+    {
+      "id": "w000508",
+      "es": "estoy enfermo/a",
+      "he": "אני חולה",
+      "ex_es": "Estoy enfermo, no puedo ir.",
+      "ex_he": "אני חולה, אני לא יכול ללכת."
+    },
+    {
+      "id": "w000509",
+      "es": "el médico",
+      "he": "רופא",
+      "ex_es": "Necesito ver al médico.",
+      "ex_he": "אני צריך לראות רופא."
+    },
+    {
+      "id": "w000510",
+      "es": "la farmacia",
+      "he": "בית מרקחת",
+      "ex_es": "La farmacia está cerrada.",
+      "ex_he": "בית המרקחת סגור."
+    },
+    {
+      "id": "w000511",
+      "es": "la medicina",
+      "he": "תרופה",
+      "ex_es": "Tienes que tomar la medicina.",
+      "ex_he": "אתה צריך לקחת את התרופה."
+    },
+    {
+      "id": "w000512",
+      "es": "el dedo",
+      "he": "אצבע",
+      "ex_es": "Me corté el dedo.",
+      "ex_he": "חתכתי את האצבע."
+    },
+    {
+      "id": "w000513",
+      "es": "el pie",
+      "he": "כף רגל",
+      "ex_es": "Me duele el pie.",
+      "ex_he": "כואבת לי כף הרגל."
+    },
+    {
+      "id": "w000514",
+      "es": "el hombro",
+      "he": "כתף",
+      "ex_es": "Me duele el hombro.",
+      "ex_he": "כואבת לי הכתף."
+    },
+    {
+      "id": "w000515",
+      "es": "la rodilla",
+      "he": "ברך",
+      "ex_es": "Me caí y me lastimé la rodilla.",
+      "ex_he": "נפלתי ופצעתי את הברך."
+    },
+    {
+      "id": "w000516",
+      "es": "estar sano/a",
+      "he": "להיות בריא",
+      "ex_es": "Es importante estar sano.",
+      "ex_he": "חשוב להיות בריא."
+    },
+    {
+      "id": "w000517",
+      "es": "el hospital",
+      "he": "בית חולים",
+      "ex_es": "Fuimos al hospital.",
+      "ex_he": "הלכנו לבית החולים."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000231",
+      "es": "Me duele la cabeza.",
+      "he": "כואב לי הראש."
+    },
+    {
+      "id": "s000232",
+      "es": "Tengo que ir al médico.",
+      "he": "אני צריך ללכת לרופא."
+    },
+    {
+      "id": "s000233",
+      "es": "Ella tiene los ojos verdes.",
+      "he": "יש לה עיניים ירוקות."
+    },
+    {
+      "id": "s000234",
+      "es": "Necesito ir a la farmacia.",
+      "he": "אני צריך ללכת לבית המרקחת."
+    },
+    {
+      "id": "s000235",
+      "es": "Me caí y me lastimé la rodilla.",
+      "he": "נפלתי ופצעתי את הברך."
+    },
+    {
+      "id": "s000236",
+      "es": "El niño tiene mucha fiebre.",
+      "he": "לילד יש הרבה חום."
+    },
+    {
+      "id": "s000237",
+      "es": "Fuimos al hospital anoche.",
+      "he": "הלכנו לבית החולים אתמול בלילה."
+    },
+    {
+      "id": "s000238",
+      "es": "Estoy enfermo desde ayer.",
+      "he": "אני חולה מאתמול."
+    }
+  ]
+}

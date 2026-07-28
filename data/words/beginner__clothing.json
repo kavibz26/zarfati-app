@@ -1,0 +1,174 @@
+{
+  "levelId": "beginner",
+  "topicId": "clothing",
+  "vocab": [
+    {
+      "id": "w000518",
+      "es": "la ropa",
+      "he": "בגדים",
+      "ex_es": "Necesito comprar ropa nueva.",
+      "ex_he": "אני צריך לקנות בגדים חדשים."
+    },
+    {
+      "id": "w000519",
+      "es": "la camisa",
+      "he": "חולצה",
+      "ex_es": "Me gusta esta camisa.",
+      "ex_he": "אני אוהב את החולצה הזאת."
+    },
+    {
+      "id": "w000520",
+      "es": "los pantalones",
+      "he": "מכנסיים",
+      "ex_es": "Estos pantalones son muy cómodos.",
+      "ex_he": "המכנסיים האלה נוחים מאוד."
+    },
+    {
+      "id": "w000521",
+      "es": "los zapatos",
+      "he": "נעליים",
+      "ex_es": "Estos zapatos son nuevos.",
+      "ex_he": "הנעליים האלה חדשות."
+    },
+    {
+      "id": "w000522",
+      "es": "el vestido",
+      "he": "שמלה",
+      "ex_es": "Ella lleva un vestido azul.",
+      "ex_he": "היא לובשת שמלה כחולה."
+    },
+    {
+      "id": "w000523",
+      "es": "el abrigo",
+      "he": "מעיל",
+      "ex_es": "Necesito un abrigo para el invierno.",
+      "ex_he": "אני צריך מעיל לחורף."
+    },
+    {
+      "id": "w000524",
+      "es": "la talla",
+      "he": "מידה",
+      "ex_es": "¿Qué talla usas?",
+      "ex_he": "איזו מידה אתה לובש?"
+    },
+    {
+      "id": "w000525",
+      "es": "quedar bien",
+      "he": "להתאים/להחמיא",
+      "ex_es": "Esta camisa te queda bien.",
+      "ex_he": "החולצה הזאת מתאימה לך."
+    },
+    {
+      "id": "w000526",
+      "es": "probarse",
+      "he": "למדוד (בגד)",
+      "ex_es": "¿Puedo probarme esto?",
+      "ex_he": "אפשר למדוד את זה?"
+    },
+    {
+      "id": "w000527",
+      "es": "caro",
+      "he": "יקר",
+      "ex_es": "Este vestido es muy caro.",
+      "ex_he": "השמלה הזאת מאוד יקרה."
+    },
+    {
+      "id": "w000528",
+      "es": "barato",
+      "he": "זול",
+      "ex_es": "Busco algo más barato.",
+      "ex_he": "אני מחפש משהו יותר זול."
+    },
+    {
+      "id": "w000529",
+      "es": "llevar",
+      "he": "ללבוש",
+      "ex_es": "¿Qué vas a llevar hoy?",
+      "ex_he": "מה תלבש היום?"
+    },
+    {
+      "id": "w000530",
+      "es": "la falda",
+      "he": "חצאית",
+      "ex_es": "Me gusta esa falda.",
+      "ex_he": "אני אוהבת את החצאית ההיא."
+    },
+    {
+      "id": "w000531",
+      "es": "los calcetines",
+      "he": "גרביים",
+      "ex_es": "Necesito calcetines limpios.",
+      "ex_he": "אני צריך גרביים נקיים."
+    },
+    {
+      "id": "w000532",
+      "es": "el sombrero",
+      "he": "כובע",
+      "ex_es": "Lleva un sombrero grande.",
+      "ex_he": "הוא לובש כובע גדול."
+    },
+    {
+      "id": "w000533",
+      "es": "los guantes",
+      "he": "כפפות",
+      "ex_es": "Hace frío, ponte los guantes.",
+      "ex_he": "קר, שים כפפות."
+    },
+    {
+      "id": "w000534",
+      "es": "la corbata",
+      "he": "עניבה",
+      "ex_es": "Tiene que llevar corbata en la oficina.",
+      "ex_he": "הוא צריך ללבוש עניבה במשרד."
+    },
+    {
+      "id": "w000535",
+      "es": "el traje",
+      "he": "חליפה",
+      "ex_es": "Compró un traje nuevo para la boda.",
+      "ex_he": "הוא קנה חליפה חדשה לחתונה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000239",
+      "es": "Necesito ropa para el invierno.",
+      "he": "אני צריך בגדים לחורף."
+    },
+    {
+      "id": "s000240",
+      "es": "Estos zapatos son muy cómodos.",
+      "he": "הנעליים האלה מאוד נוחות."
+    },
+    {
+      "id": "s000241",
+      "es": "¿Puedo probarme este vestido?",
+      "he": "אפשר למדוד את השמלה הזאת?"
+    },
+    {
+      "id": "s000242",
+      "es": "Esta camisa te queda muy bien.",
+      "he": "החולצה הזאת מתאימה לך מאוד."
+    },
+    {
+      "id": "s000243",
+      "es": "Busco un abrigo barato.",
+      "he": "אני מחפש מעיל זול."
+    },
+    {
+      "id": "s000244",
+      "es": "El traje es demasiado caro.",
+      "he": "החליפה יקרה מדי."
+    },
+    {
+      "id": "s000245",
+      "es": "Olvidé mis guantes en casa.",
+      "he": "שכחתי את הכפפות שלי בבית."
+    },
+    {
+      "id": "s000246",
+      "es": "¿Qué vas a llevar a la fiesta?",
+      "he": "מה תלבש למסיבה?"
+    }
+  ]
+}

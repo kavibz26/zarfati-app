@@ -1,0 +1,167 @@
+{
+  "levelId": "beginner",
+  "topicId": "shopping_money",
+  "vocab": [
+    {
+      "id": "w000536",
+      "es": "el dinero",
+      "he": "כסף",
+      "ex_es": "No tengo suficiente dinero.",
+      "ex_he": "אין לי מספיק כסף."
+    },
+    {
+      "id": "w000537",
+      "es": "el precio",
+      "he": "מחיר",
+      "ex_es": "¿Cuál es el precio?",
+      "ex_he": "מה המחיר?"
+    },
+    {
+      "id": "w000538",
+      "es": "comprar",
+      "he": "לקנות",
+      "ex_es": "Quiero comprar esto.",
+      "ex_he": "אני רוצה לקנות את זה."
+    },
+    {
+      "id": "w000539",
+      "es": "la tienda",
+      "he": "חנות",
+      "ex_es": "Esta tienda es muy grande.",
+      "ex_he": "החנות הזאת מאוד גדולה."
+    },
+    {
+      "id": "w000540",
+      "es": "¿Cuánto cuesta?",
+      "he": "כמה זה עולה?",
+      "ex_es": "¿Cuánto cuesta esta camisa?",
+      "ex_he": "כמה עולה החולצה הזאת?"
+    },
+    {
+      "id": "w000541",
+      "es": "el efectivo",
+      "he": "מזומן",
+      "ex_es": "Pago en efectivo.",
+      "ex_he": "אני משלם במזומן."
+    },
+    {
+      "id": "w000542",
+      "es": "la tarjeta",
+      "he": "כרטיס",
+      "ex_es": "¿Aceptan tarjeta?",
+      "ex_he": "אתם מקבלים כרטיס אשראי?"
+    },
+    {
+      "id": "w000543",
+      "es": "pagar",
+      "he": "לשלם",
+      "ex_es": "¿Dónde puedo pagar?",
+      "ex_he": "איפה אני יכול לשלם?"
+    },
+    {
+      "id": "w000544",
+      "es": "el descuento",
+      "he": "הנחה",
+      "ex_es": "Hay un descuento del veinte por ciento.",
+      "ex_he": "יש הנחה של עשרים אחוז."
+    },
+    {
+      "id": "w000545",
+      "es": "la caja",
+      "he": "קופה",
+      "ex_es": "La caja está cerca de la entrada.",
+      "ex_he": "הקופה קרובה לכניסה."
+    },
+    {
+      "id": "w000546",
+      "es": "el recibo",
+      "he": "קבלה",
+      "ex_es": "¿Me da el recibo, por favor?",
+      "ex_he": "תן לי קבלה, בבקשה?"
+    },
+    {
+      "id": "w000547",
+      "es": "vender",
+      "he": "למכור",
+      "ex_es": "Aquí venden ropa barata.",
+      "ex_he": "כאן מוכרים בגדים זולים."
+    },
+    {
+      "id": "w000548",
+      "es": "el cambio",
+      "he": "עודף",
+      "ex_es": "Aquí tiene su cambio.",
+      "ex_he": "הנה העודף שלך."
+    },
+    {
+      "id": "w000549",
+      "es": "gratis",
+      "he": "חינם",
+      "ex_es": "La entrada es gratis.",
+      "ex_he": "הכניסה חינם."
+    },
+    {
+      "id": "w000550",
+      "es": "la oferta",
+      "he": "מבצע",
+      "ex_es": "Hay una oferta especial hoy.",
+      "ex_he": "יש מבצע מיוחד היום."
+    },
+    {
+      "id": "w000551",
+      "es": "el mercado",
+      "he": "שוק",
+      "ex_es": "Vamos al mercado los domingos.",
+      "ex_he": "אנחנו הולכים לשוק בימי ראשון."
+    },
+    {
+      "id": "w000552",
+      "es": "las rebajas",
+      "he": "מבצעי סוף עונה",
+      "ex_es": "Las rebajas empiezan mañana.",
+      "ex_he": "מבצעי סוף העונה מתחילים מחר."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000247",
+      "es": "¿Cuánto cuesta esto?",
+      "he": "כמה זה עולה?"
+    },
+    {
+      "id": "s000248",
+      "es": "No tengo suficiente dinero.",
+      "he": "אין לי מספיק כסף."
+    },
+    {
+      "id": "s000249",
+      "es": "¿Puedo pagar con tarjeta?",
+      "he": "אפשר לשלם בכרטיס?"
+    },
+    {
+      "id": "s000250",
+      "es": "Hay un descuento en esta tienda.",
+      "he": "יש הנחה בחנות הזאת."
+    },
+    {
+      "id": "s000251",
+      "es": "¿Me puede dar el recibo?",
+      "he": "אפשר לקבל קבלה?"
+    },
+    {
+      "id": "s000252",
+      "es": "Prefiero pagar en efectivo.",
+      "he": "אני מעדיף לשלם במזומן."
+    },
+    {
+      "id": "s000253",
+      "es": "Las rebajas empiezan la próxima semana.",
+      "he": "מבצעי סוף העונה מתחילים בשבוע הבא."
+    },
+    {
+      "id": "s000254",
+      "es": "Este mercado vende fruta fresca.",
+      "he": "השוק הזה מוכר פירות טריים."
+    }
+  ]
+}

@@ -2855,6 +2855,462 @@
       "he": "הם גרים",
       "levelId": "grammar",
       "topicId": "basic_conjugation"
+    },
+    "w000477": {
+      "es": "el tiempo",
+      "he": "מזג האוויר",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000478": {
+      "es": "hace calor",
+      "he": "חם (בחוץ)",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000479": {
+      "es": "hace frío",
+      "he": "קר (בחוץ)",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000480": {
+      "es": "hace sol",
+      "he": "יש שמש",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000481": {
+      "es": "hace viento",
+      "he": "יש רוח",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000482": {
+      "es": "está lloviendo",
+      "he": "יורד גשם",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000483": {
+      "es": "la lluvia",
+      "he": "גשם",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000484": {
+      "es": "el sol",
+      "he": "שמש",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000485": {
+      "es": "el viento",
+      "he": "רוח",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000486": {
+      "es": "nublado",
+      "he": "מעונן",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000487": {
+      "es": "las nubes",
+      "he": "עננים",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000488": {
+      "es": "la nieve",
+      "he": "שלג",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000489": {
+      "es": "está nevando",
+      "he": "יורד שלג",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000490": {
+      "es": "los grados",
+      "he": "מעלות",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000491": {
+      "es": "la temperatura",
+      "he": "הטמפרטורה",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000492": {
+      "es": "el pronóstico",
+      "he": "תחזית מזג האוויר",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000493": {
+      "es": "¿Qué tiempo hace?",
+      "he": "איך מזג האוויר?",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000494": {
+      "es": "templado",
+      "he": "נעים (מזג אוויר)",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000495": {
+      "es": "la tormenta",
+      "he": "סופה",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000496": {
+      "es": "húmedo",
+      "he": "לח",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "w000497": {
+      "es": "la cabeza",
+      "he": "ראש",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000498": {
+      "es": "los ojos",
+      "he": "עיניים",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000499": {
+      "es": "la mano",
+      "he": "יד (כף יד)",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000500": {
+      "es": "la pierna",
+      "he": "רגל",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000501": {
+      "es": "el estómago",
+      "he": "בטן",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000502": {
+      "es": "la boca",
+      "he": "פה",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000503": {
+      "es": "la nariz",
+      "he": "אף",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000504": {
+      "es": "la oreja",
+      "he": "אוזן",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000505": {
+      "es": "la espalda",
+      "he": "גב",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000506": {
+      "es": "el brazo",
+      "he": "זרוע",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000507": {
+      "es": "me duele",
+      "he": "כואב לי",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000508": {
+      "es": "estoy enfermo/a",
+      "he": "אני חולה",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000509": {
+      "es": "el médico",
+      "he": "רופא",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000510": {
+      "es": "la farmacia",
+      "he": "בית מרקחת",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000511": {
+      "es": "la medicina",
+      "he": "תרופה",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000512": {
+      "es": "el dedo",
+      "he": "אצבע",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000513": {
+      "es": "el pie",
+      "he": "כף רגל",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000514": {
+      "es": "el hombro",
+      "he": "כתף",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000515": {
+      "es": "la rodilla",
+      "he": "ברך",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000516": {
+      "es": "estar sano/a",
+      "he": "להיות בריא",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000517": {
+      "es": "el hospital",
+      "he": "בית חולים",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "w000518": {
+      "es": "la ropa",
+      "he": "בגדים",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000519": {
+      "es": "la camisa",
+      "he": "חולצה",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000520": {
+      "es": "los pantalones",
+      "he": "מכנסיים",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000521": {
+      "es": "los zapatos",
+      "he": "נעליים",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000522": {
+      "es": "el vestido",
+      "he": "שמלה",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000523": {
+      "es": "el abrigo",
+      "he": "מעיל",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000524": {
+      "es": "la talla",
+      "he": "מידה",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000525": {
+      "es": "quedar bien",
+      "he": "להתאים/להחמיא",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000526": {
+      "es": "probarse",
+      "he": "למדוד (בגד)",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000527": {
+      "es": "caro",
+      "he": "יקר",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000528": {
+      "es": "barato",
+      "he": "זול",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000529": {
+      "es": "llevar",
+      "he": "ללבוש",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000530": {
+      "es": "la falda",
+      "he": "חצאית",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000531": {
+      "es": "los calcetines",
+      "he": "גרביים",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000532": {
+      "es": "el sombrero",
+      "he": "כובע",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000533": {
+      "es": "los guantes",
+      "he": "כפפות",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000534": {
+      "es": "la corbata",
+      "he": "עניבה",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000535": {
+      "es": "el traje",
+      "he": "חליפה",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "w000536": {
+      "es": "el dinero",
+      "he": "כסף",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000537": {
+      "es": "el precio",
+      "he": "מחיר",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000538": {
+      "es": "comprar",
+      "he": "לקנות",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000539": {
+      "es": "la tienda",
+      "he": "חנות",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000540": {
+      "es": "¿Cuánto cuesta?",
+      "he": "כמה זה עולה?",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000541": {
+      "es": "el efectivo",
+      "he": "מזומן",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000542": {
+      "es": "la tarjeta",
+      "he": "כרטיס",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000543": {
+      "es": "pagar",
+      "he": "לשלם",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000544": {
+      "es": "el descuento",
+      "he": "הנחה",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000545": {
+      "es": "la caja",
+      "he": "קופה",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000546": {
+      "es": "el recibo",
+      "he": "קבלה",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000547": {
+      "es": "vender",
+      "he": "למכור",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000548": {
+      "es": "el cambio",
+      "he": "עודף",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000549": {
+      "es": "gratis",
+      "he": "חינם",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000550": {
+      "es": "la oferta",
+      "he": "מבצע",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000551": {
+      "es": "el mercado",
+      "he": "שוק",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "w000552": {
+      "es": "las rebajas",
+      "he": "מבצעי סוף עונה",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
     }
   },
   "sentences": {
@@ -3967,6 +4423,166 @@
       "es": "Ella come temprano y luego habla con sus amigas.",
       "levelId": "grammar",
       "topicId": "basic_conjugation"
+    },
+    "s000223": {
+      "es": "Hoy hace mucho calor.",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "s000224": {
+      "es": "Está lloviendo todo el día.",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "s000225": {
+      "es": "El cielo está nublado.",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "s000226": {
+      "es": "Hace mucho frío en invierno.",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "s000227": {
+      "es": "El pronóstico dice que va a nevar.",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "s000228": {
+      "es": "Hace sol y no hay nubes.",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "s000229": {
+      "es": "La temperatura baja por la noche.",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "s000230": {
+      "es": "Necesito un paraguas porque llueve.",
+      "levelId": "beginner",
+      "topicId": "weather"
+    },
+    "s000231": {
+      "es": "Me duele la cabeza.",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "s000232": {
+      "es": "Tengo que ir al médico.",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "s000233": {
+      "es": "Ella tiene los ojos verdes.",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "s000234": {
+      "es": "Necesito ir a la farmacia.",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "s000235": {
+      "es": "Me caí y me lastimé la rodilla.",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "s000236": {
+      "es": "El niño tiene mucha fiebre.",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "s000237": {
+      "es": "Fuimos al hospital anoche.",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "s000238": {
+      "es": "Estoy enfermo desde ayer.",
+      "levelId": "beginner",
+      "topicId": "body_parts"
+    },
+    "s000239": {
+      "es": "Necesito ropa para el invierno.",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "s000240": {
+      "es": "Estos zapatos son muy cómodos.",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "s000241": {
+      "es": "¿Puedo probarme este vestido?",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "s000242": {
+      "es": "Esta camisa te queda muy bien.",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "s000243": {
+      "es": "Busco un abrigo barato.",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "s000244": {
+      "es": "El traje es demasiado caro.",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "s000245": {
+      "es": "Olvidé mis guantes en casa.",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "s000246": {
+      "es": "¿Qué vas a llevar a la fiesta?",
+      "levelId": "beginner",
+      "topicId": "clothing"
+    },
+    "s000247": {
+      "es": "¿Cuánto cuesta esto?",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "s000248": {
+      "es": "No tengo suficiente dinero.",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "s000249": {
+      "es": "¿Puedo pagar con tarjeta?",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "s000250": {
+      "es": "Hay un descuento en esta tienda.",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "s000251": {
+      "es": "¿Me puede dar el recibo?",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "s000252": {
+      "es": "Prefiero pagar en efectivo.",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "s000253": {
+      "es": "Las rebajas empiezan la próxima semana.",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
+    },
+    "s000254": {
+      "es": "Este mercado vende fruta fresca.",
+      "levelId": "beginner",
+      "topicId": "shopping_money"
     }
   }
 }

@@ -58,6 +58,30 @@
         "name": "ימים ושעות",
         "vocabCount": 18,
         "sentenceCount": 7
+      },
+      {
+        "id": "weather",
+        "name": "מזג אוויר",
+        "vocabCount": 20,
+        "sentenceCount": 8
+      },
+      {
+        "id": "body_parts",
+        "name": "גוף האדם ובריאות",
+        "vocabCount": 21,
+        "sentenceCount": 8
+      },
+      {
+        "id": "clothing",
+        "name": "בגדים",
+        "vocabCount": 18,
+        "sentenceCount": 8
+      },
+      {
+        "id": "shopping_money",
+        "name": "קניות וכסף",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   },
