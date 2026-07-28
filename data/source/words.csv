@@ -551,20 +551,36 @@ w000549,gratis,חינם,La entrada es gratis.,הכניסה חינם.,beginner,sh
 w000550,la oferta,מבצע,Hay una oferta especial hoy.,יש מבצע מיוחד היום.,beginner,shopping_money,קניות וכסף
 w000551,el mercado,שוק,Vamos al mercado los domingos.,אנחנו הולכים לשוק בימי ראשון.,beginner,shopping_money,קניות וכסף
 w000552,las rebajas,מבצעי סוף עונה,Las rebajas empiezan mañana.,מבצעי סוף העונה מתחילים מחר.,beginner,shopping_money,קניות וכסף
-w000553,la música,מוזיקה,Me encanta escuchar música.,אני מאוד אוהב להקשיב למוזיקה.,intermediate,hobbies,תחביבים ופנאי
-w000554,leer,לקרוא,Me gusta leer antes de dormir.,אני אוהב לקרוא לפני השינה.,intermediate,hobbies,תחביבים ופנאי
-w000555,el libro,ספר,Estoy leyendo un libro interesante.,אני קורא ספר מעניין.,intermediate,hobbies,תחביבים ופנאי
-w000556,el deporte,ספורט,Practico deporte los fines de semana.,אני מתעמל בסופי שבוע.,intermediate,hobbies,תחביבים ופנאי
-w000557,jugar,לשחק,Los niños juegan en el parque.,הילדים משחקים בפארק.,intermediate,hobbies,תחביבים ופנאי
-w000558,ver la tele,לצפות בטלוויזיה,Por la noche veo la tele.,בערב אני צופה בטלוויזיה.,intermediate,hobbies,תחביבים ופנאי
-w000559,pasear,לטייל,Nos gusta pasear por el parque.,אנחנו אוהבים לטייל בפארק.,intermediate,hobbies,תחביבים ופנאי
-w000560,bailar,לרקוד,Ella baila muy bien.,היא רוקדת מאוד טוב.,intermediate,hobbies,תחביבים ופנאי
-w000561,cocinar,לבשל,Me gusta cocinar los domingos.,אני אוהב לבשל בימי ראשון.,intermediate,hobbies,תחביבים ופנאי
-w000562,el tiempo libre,זמן פנוי,¿Qué haces en tu tiempo libre?,מה אתה עושה בזמן הפנוי שלך?,intermediate,hobbies,תחביבים ופנאי
-w000563,divertido/a,כיף/מהנה,Este juego es muy divertido.,המשחק הזה מאוד כיפי.,intermediate,hobbies,תחביבים ופנאי
-w000564,el equipo,קבוצה / צוות,Juego en un equipo de fútbol.,אני משחק בקבוצת כדורגל.,intermediate,hobbies,תחביבים ופנאי
-w000565,pintar,לצייר,A ella le gusta pintar.,היא אוהבת לצייר.,intermediate,hobbies,תחביבים ופנאי
-w000566,tocar la guitarra,לנגן בגיטרה,Toco la guitarra.,אני מנגן בגיטרה.,intermediate,hobbies,תחביבים ופנאי
-w000567,coleccionar,לאסוף,Colecciono sellos.,אני אוסף בולים.,intermediate,hobbies,תחביבים ופנאי
-w000568,pescar,לדוג,Mi padre va a pescar los sábados.,אבא שלי הולך לדוג בשבתות.,intermediate,hobbies,תחביבים ופנאי
-w000569,la jardinería,גינון,La jardinería es mi hobby favorito.,גינון הוא התחביב האהוב עלי.,intermediate,hobbies,תחביבים ופנאי
+w000553,leer,לקרוא,Me gusta leer libros.,אני אוהב לקרוא ספרים.,beginner,hobbies,תחביבים ופנאי
+w000554,escuchar música,להאזין למוזיקה,Escucho música todos los días.,אני מאזין למוזיקה כל יום.,beginner,hobbies,תחביבים ופנאי
+w000555,ver películas,לצפות בסרטים,Nos gusta ver películas los fines de semana.,אנחנו אוהבים לצפות בסרטים בסופי שבוע.,beginner,hobbies,תחביבים ופנאי
+w000556,jugar,לשחק,Los niños juegan en el parque.,הילדים משחקים בפארק.,beginner,hobbies,תחביבים ופנאי
+w000557,el deporte,ספורט,Practico deporte tres veces por semana.,אני עוסק בספורט שלוש פעמים בשבוע.,beginner,hobbies,תחביבים ופנאי
+w000558,bailar,לרקוד,Me encanta bailar salsa.,אני מת/ה לרקוד סלסה.,beginner,hobbies,תחביבים ופנאי
+w000559,cocinar,לבשל,A él le gusta cocinar los domingos.,הוא אוהב לבשל בימי ראשון.,beginner,hobbies,תחביבים ופנאי
+w000560,cantar,לשיר,Ella canta muy bien.,היא שרה מאוד יפה.,beginner,hobbies,תחביבים ופנאי
+w000561,el tiempo libre,זמן פנוי,¿Qué haces en tu tiempo libre?,מה אתה עושה בזמן הפנוי שלך?,beginner,hobbies,תחביבים ופנאי
+w000562,pasear,לטייל (ברגל),Me gusta pasear por el parque.,אני אוהב לטייל בפארק.,beginner,hobbies,תחביבים ופנאי
+w000563,pintar,לצייר,Ella pinta cuadros muy bonitos.,היא מציירת ציורים מאוד יפים.,beginner,hobbies,תחביבים ופנאי
+w000564,tocar un instrumento,לנגן בכלי נגינה,Quiero aprender a tocar un instrumento.,אני רוצה ללמוד לנגן בכלי נגינה.,beginner,hobbies,תחביבים ופנאי
+w000565,la fotografía,צילום,La fotografía es su gran pasión.,הצילום הוא התשוקה הגדולה שלו.,beginner,hobbies,תחביבים ופנאי
+w000566,hacer ejercicio,להתאמן,Hago ejercicio por la mañana.,אני מתאמן בבוקר.,beginner,hobbies,תחביבים ופנאי
+w000567,el videojuego,משחק וידאו,Mi hermano juega videojuegos todo el día.,אחי משחק במשחקי וידאו כל היום.,beginner,hobbies,תחביבים ופנאי
+w000568,coleccionar,לאסוף (כתחביב),Colecciono monedas.,אני אוסף מטבעות.,beginner,hobbies,תחביבים ופנאי
+w000569,viajar,לטייל/לנסוע,Nos encanta viajar en el verano.,אנחנו מתים לנסוע בקיץ.,beginner,hobbies,תחביבים ופנאי
+w000570,el perro,כלב,Tengo un perro pequeño.,יש לי כלב קטן.,beginner,animals,חיות
+w000571,el gato,חתול,El gato duerme todo el día.,החתול ישן כל היום.,beginner,animals,חיות
+w000572,el pájaro,ציפור,El pájaro canta por la mañana.,הציפור שרה בבוקר.,beginner,animals,חיות
+w000573,el pez,דג,Tengo un pez en casa.,יש לי דג בבית.,beginner,animals,חיות
+w000574,el caballo,סוס,Me gusta montar a caballo.,אני אוהב לרכוב על סוס.,beginner,animals,חיות
+w000575,la vaca,פרה,La vaca da leche.,הפרה נותנת חלב.,beginner,animals,חיות
+w000576,el animal,חיה (כללי),Es un animal muy tranquilo.,זו חיה מאוד רגועה.,beginner,animals,חיות
+w000577,la mascota,חיית מחמד,¿Tienes alguna mascota?,יש לך חיית מחמד?,beginner,animals,חיות
+w000578,el conejo,ארנב,El conejo come zanahorias.,הארנב אוכל גזרים.,beginner,animals,חיות
+w000579,el ratón,עכבר,El ratón es pequeño.,העכבר קטן.,beginner,animals,חיות
+w000580,la gallina,תרנגולת,La gallina pone huevos.,התרנגולת מטילה ביצים.,beginner,animals,חיות
+w000581,la oveja,כבשה,Las ovejas están en el campo.,הכבשים בשדה.,beginner,animals,חיות
+w000582,el león,אריה,El león es el rey de la selva.,האריה הוא מלך הג'ונגל.,beginner,animals,חיות
+w000583,el elefante,פיל,El elefante es muy grande.,הפיל מאוד גדול.,beginner,animals,חיות
+w000584,la serpiente,נחש,Le tengo miedo a las serpientes.,אני מפחד מנחשים.,beginner,animals,חיות
+w000585,el mono,קוף,El mono sube al árbol.,הקוף מטפס על העץ.,beginner,animals,חיות

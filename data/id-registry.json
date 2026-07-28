@@ -3313,106 +3313,202 @@
       "topicId": "shopping_money"
     },
     "w000553": {
-      "es": "la música",
-      "he": "מוזיקה",
-      "levelId": "intermediate",
+      "es": "leer",
+      "he": "לקרוא",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000554": {
-      "es": "leer",
-      "he": "לקרוא",
-      "levelId": "intermediate",
+      "es": "escuchar música",
+      "he": "להאזין למוזיקה",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000555": {
-      "es": "el libro",
-      "he": "ספר",
-      "levelId": "intermediate",
+      "es": "ver películas",
+      "he": "לצפות בסרטים",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000556": {
-      "es": "el deporte",
-      "he": "ספורט",
-      "levelId": "intermediate",
+      "es": "jugar",
+      "he": "לשחק",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000557": {
-      "es": "jugar",
-      "he": "לשחק",
-      "levelId": "intermediate",
+      "es": "el deporte",
+      "he": "ספורט",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000558": {
-      "es": "ver la tele",
-      "he": "לצפות בטלוויזיה",
-      "levelId": "intermediate",
+      "es": "bailar",
+      "he": "לרקוד",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000559": {
-      "es": "pasear",
-      "he": "לטייל",
-      "levelId": "intermediate",
+      "es": "cocinar",
+      "he": "לבשל",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000560": {
-      "es": "bailar",
-      "he": "לרקוד",
-      "levelId": "intermediate",
+      "es": "cantar",
+      "he": "לשיר",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000561": {
-      "es": "cocinar",
-      "he": "לבשל",
-      "levelId": "intermediate",
+      "es": "el tiempo libre",
+      "he": "זמן פנוי",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000562": {
-      "es": "el tiempo libre",
-      "he": "זמן פנוי",
-      "levelId": "intermediate",
+      "es": "pasear",
+      "he": "לטייל (ברגל)",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000563": {
-      "es": "divertido/a",
-      "he": "כיף/מהנה",
-      "levelId": "intermediate",
+      "es": "pintar",
+      "he": "לצייר",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000564": {
-      "es": "el equipo",
-      "he": "קבוצה / צוות",
-      "levelId": "intermediate",
+      "es": "tocar un instrumento",
+      "he": "לנגן בכלי נגינה",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000565": {
-      "es": "pintar",
-      "he": "לצייר",
-      "levelId": "intermediate",
+      "es": "la fotografía",
+      "he": "צילום",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000566": {
-      "es": "tocar la guitarra",
-      "he": "לנגן בגיטרה",
-      "levelId": "intermediate",
+      "es": "hacer ejercicio",
+      "he": "להתאמן",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000567": {
-      "es": "coleccionar",
-      "he": "לאסוף",
-      "levelId": "intermediate",
+      "es": "el videojuego",
+      "he": "משחק וידאו",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000568": {
-      "es": "pescar",
-      "he": "לדוג",
-      "levelId": "intermediate",
+      "es": "coleccionar",
+      "he": "לאסוף (כתחביב)",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "w000569": {
-      "es": "la jardinería",
-      "he": "גינון",
-      "levelId": "intermediate",
+      "es": "viajar",
+      "he": "לטייל/לנסוע",
+      "levelId": "beginner",
       "topicId": "hobbies"
+    },
+    "w000570": {
+      "es": "el perro",
+      "he": "כלב",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000571": {
+      "es": "el gato",
+      "he": "חתול",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000572": {
+      "es": "el pájaro",
+      "he": "ציפור",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000573": {
+      "es": "el pez",
+      "he": "דג",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000574": {
+      "es": "el caballo",
+      "he": "סוס",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000575": {
+      "es": "la vaca",
+      "he": "פרה",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000576": {
+      "es": "el animal",
+      "he": "חיה (כללי)",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000577": {
+      "es": "la mascota",
+      "he": "חיית מחמד",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000578": {
+      "es": "el conejo",
+      "he": "ארנב",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000579": {
+      "es": "el ratón",
+      "he": "עכבר",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000580": {
+      "es": "la gallina",
+      "he": "תרנגולת",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000581": {
+      "es": "la oveja",
+      "he": "כבשה",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000582": {
+      "es": "el león",
+      "he": "אריה",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000583": {
+      "es": "el elefante",
+      "he": "פיל",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000584": {
+      "es": "la serpiente",
+      "he": "נחש",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "w000585": {
+      "es": "el mono",
+      "he": "קוף",
+      "levelId": "beginner",
+      "topicId": "animals"
     }
   },
   "sentences": {
@@ -4687,44 +4783,84 @@
       "topicId": "shopping_money"
     },
     "s000255": {
-      "es": "Me gusta escuchar música por la noche.",
-      "levelId": "intermediate",
+      "es": "Los fines de semana me gusta leer y escuchar música.",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "s000256": {
       "es": "¿Qué haces en tu tiempo libre?",
-      "levelId": "intermediate",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "s000257": {
-      "es": "Los fines de semana juego al fútbol.",
-      "levelId": "intermediate",
+      "es": "Mi hermana baila y canta muy bien.",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "s000258": {
-      "es": "Ella lee un libro nuevo cada mes.",
-      "levelId": "intermediate",
+      "es": "En mi tiempo libre me gusta cocinar y ver películas.",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "s000259": {
-      "es": "Nos gusta pasear por el parque los domingos.",
-      "levelId": "intermediate",
+      "es": "Los niños juegan y hacen ejercicio en el parque.",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "s000260": {
-      "es": "Mi hermano toca la guitarra muy bien.",
-      "levelId": "intermediate",
+      "es": "Quiero aprender a tocar un instrumento este año.",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "s000261": {
-      "es": "Cocinar es divertido para mí.",
-      "levelId": "intermediate",
+      "es": "Nos gusta viajar en verano.",
+      "levelId": "beginner",
       "topicId": "hobbies"
     },
     "s000262": {
-      "es": "Voy a pescar con mi padre este fin de semana.",
-      "levelId": "intermediate",
+      "es": "¿Practicas algún deporte en tu tiempo libre?",
+      "levelId": "beginner",
       "topicId": "hobbies"
+    },
+    "s000263": {
+      "es": "Tengo un perro y un gato.",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "s000264": {
+      "es": "El pájaro canta muy bonito.",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "s000265": {
+      "es": "¿Tienes alguna mascota en casa?",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "s000266": {
+      "es": "La vaca da leche fresca.",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "s000267": {
+      "es": "El león es el rey de la selva.",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "s000268": {
+      "es": "El conejo come zanahorias todos los días.",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "s000269": {
+      "es": "Me gusta montar a caballo los fines de semana.",
+      "levelId": "beginner",
+      "topicId": "animals"
+    },
+    "s000270": {
+      "es": "El elefante es el animal más grande.",
+      "levelId": "beginner",
+      "topicId": "animals"
     }
   }
 }

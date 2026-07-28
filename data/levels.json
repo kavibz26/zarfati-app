@@ -82,6 +82,18 @@
         "name": "קניות וכסף",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "hobbies",
+        "name": "תחביבים ופנאי",
+        "vocabCount": 17,
+        "sentenceCount": 8
+      },
+      {
+        "id": "animals",
+        "name": "חיות",
+        "vocabCount": 16,
+        "sentenceCount": 8
       }
     ]
   },
@@ -150,12 +162,6 @@
         "name": "פעלים נפוצים יותר",
         "vocabCount": 18,
         "sentenceCount": 7
-      },
-      {
-        "id": "hobbies",
-        "name": "תחביבים ופנאי",
-        "vocabCount": 17,
-        "sentenceCount": 8
       }
     ]
   },

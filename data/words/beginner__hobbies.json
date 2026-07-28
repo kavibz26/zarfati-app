@@ -1,0 +1,167 @@
+{
+  "levelId": "beginner",
+  "topicId": "hobbies",
+  "vocab": [
+    {
+      "id": "w000553",
+      "es": "leer",
+      "he": "לקרוא",
+      "ex_es": "Me gusta leer libros.",
+      "ex_he": "אני אוהב לקרוא ספרים."
+    },
+    {
+      "id": "w000554",
+      "es": "escuchar música",
+      "he": "להאזין למוזיקה",
+      "ex_es": "Escucho música todos los días.",
+      "ex_he": "אני מאזין למוזיקה כל יום."
+    },
+    {
+      "id": "w000555",
+      "es": "ver películas",
+      "he": "לצפות בסרטים",
+      "ex_es": "Nos gusta ver películas los fines de semana.",
+      "ex_he": "אנחנו אוהבים לצפות בסרטים בסופי שבוע."
+    },
+    {
+      "id": "w000556",
+      "es": "jugar",
+      "he": "לשחק",
+      "ex_es": "Los niños juegan en el parque.",
+      "ex_he": "הילדים משחקים בפארק."
+    },
+    {
+      "id": "w000557",
+      "es": "el deporte",
+      "he": "ספורט",
+      "ex_es": "Practico deporte tres veces por semana.",
+      "ex_he": "אני עוסק בספורט שלוש פעמים בשבוע."
+    },
+    {
+      "id": "w000558",
+      "es": "bailar",
+      "he": "לרקוד",
+      "ex_es": "Me encanta bailar salsa.",
+      "ex_he": "אני מת/ה לרקוד סלסה."
+    },
+    {
+      "id": "w000559",
+      "es": "cocinar",
+      "he": "לבשל",
+      "ex_es": "A él le gusta cocinar los domingos.",
+      "ex_he": "הוא אוהב לבשל בימי ראשון."
+    },
+    {
+      "id": "w000560",
+      "es": "cantar",
+      "he": "לשיר",
+      "ex_es": "Ella canta muy bien.",
+      "ex_he": "היא שרה מאוד יפה."
+    },
+    {
+      "id": "w000561",
+      "es": "el tiempo libre",
+      "he": "זמן פנוי",
+      "ex_es": "¿Qué haces en tu tiempo libre?",
+      "ex_he": "מה אתה עושה בזמן הפנוי שלך?"
+    },
+    {
+      "id": "w000562",
+      "es": "pasear",
+      "he": "לטייל (ברגל)",
+      "ex_es": "Me gusta pasear por el parque.",
+      "ex_he": "אני אוהב לטייל בפארק."
+    },
+    {
+      "id": "w000563",
+      "es": "pintar",
+      "he": "לצייר",
+      "ex_es": "Ella pinta cuadros muy bonitos.",
+      "ex_he": "היא מציירת ציורים מאוד יפים."
+    },
+    {
+      "id": "w000564",
+      "es": "tocar un instrumento",
+      "he": "לנגן בכלי נגינה",
+      "ex_es": "Quiero aprender a tocar un instrumento.",
+      "ex_he": "אני רוצה ללמוד לנגן בכלי נגינה."
+    },
+    {
+      "id": "w000565",
+      "es": "la fotografía",
+      "he": "צילום",
+      "ex_es": "La fotografía es su gran pasión.",
+      "ex_he": "הצילום הוא התשוקה הגדולה שלו."
+    },
+    {
+      "id": "w000566",
+      "es": "hacer ejercicio",
+      "he": "להתאמן",
+      "ex_es": "Hago ejercicio por la mañana.",
+      "ex_he": "אני מתאמן בבוקר."
+    },
+    {
+      "id": "w000567",
+      "es": "el videojuego",
+      "he": "משחק וידאו",
+      "ex_es": "Mi hermano juega videojuegos todo el día.",
+      "ex_he": "אחי משחק במשחקי וידאו כל היום."
+    },
+    {
+      "id": "w000568",
+      "es": "coleccionar",
+      "he": "לאסוף (כתחביב)",
+      "ex_es": "Colecciono monedas.",
+      "ex_he": "אני אוסף מטבעות."
+    },
+    {
+      "id": "w000569",
+      "es": "viajar",
+      "he": "לטייל/לנסוע",
+      "ex_es": "Nos encanta viajar en el verano.",
+      "ex_he": "אנחנו מתים לנסוע בקיץ."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000255",
+      "es": "Los fines de semana me gusta leer y escuchar música.",
+      "he": "בסופי שבוע אני אוהב לקרוא ולהאזין למוזיקה."
+    },
+    {
+      "id": "s000256",
+      "es": "¿Qué haces en tu tiempo libre?",
+      "he": "מה אתה עושה בזמן הפנוי שלך?"
+    },
+    {
+      "id": "s000257",
+      "es": "Mi hermana baila y canta muy bien.",
+      "he": "אחותי רוקדת ושרה מאוד יפה."
+    },
+    {
+      "id": "s000258",
+      "es": "En mi tiempo libre me gusta cocinar y ver películas.",
+      "he": "בזמן הפנוי שלי אני אוהב לבשל ולצפות בסרטים."
+    },
+    {
+      "id": "s000259",
+      "es": "Los niños juegan y hacen ejercicio en el parque.",
+      "he": "הילדים משחקים ומתאמנים בפארק."
+    },
+    {
+      "id": "s000260",
+      "es": "Quiero aprender a tocar un instrumento este año.",
+      "he": "אני רוצה ללמוד לנגן בכלי נגינה השנה."
+    },
+    {
+      "id": "s000261",
+      "es": "Nos gusta viajar en verano.",
+      "he": "אנחנו אוהבים לטייל בקיץ."
+    },
+    {
+      "id": "s000262",
+      "es": "¿Practicas algún deporte en tu tiempo libre?",
+      "he": "האם אתה עוסק בספורט כלשהו בזמן הפנוי שלך?"
+    }
+  ]
+}

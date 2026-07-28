@@ -253,11 +253,19 @@ s000251,¿Me puede dar el recibo?,אפשר לקבל קבלה?,beginner,shopping_
 s000252,Prefiero pagar en efectivo.,אני מעדיף לשלם במזומן.,beginner,shopping_money
 s000253,Las rebajas empiezan la próxima semana.,מבצעי סוף העונה מתחילים בשבוע הבא.,beginner,shopping_money
 s000254,Este mercado vende fruta fresca.,השוק הזה מוכר פירות טריים.,beginner,shopping_money
-s000255,Me gusta escuchar música por la noche.,אני אוהב להקשיב למוזיקה בערב.,intermediate,hobbies
-s000256,¿Qué haces en tu tiempo libre?,מה אתה עושה בזמן הפנוי שלך?,intermediate,hobbies
-s000257,Los fines de semana juego al fútbol.,בסופי שבוע אני משחק כדורגל.,intermediate,hobbies
-s000258,Ella lee un libro nuevo cada mes.,היא קוראת ספר חדש כל חודש.,intermediate,hobbies
-s000259,Nos gusta pasear por el parque los domingos.,אנחנו אוהבים לטייל בפארק בימי ראשון.,intermediate,hobbies
-s000260,Mi hermano toca la guitarra muy bien.,אחי מנגן בגיטרה מאוד טוב.,intermediate,hobbies
-s000261,Cocinar es divertido para mí.,לבשל זה כיף בשבילי.,intermediate,hobbies
-s000262,Voy a pescar con mi padre este fin de semana.,אני הולך לדוג עם אבא שלי בסוף השבוע הזה.,intermediate,hobbies
+s000255,Los fines de semana me gusta leer y escuchar música.,בסופי שבוע אני אוהב לקרוא ולהאזין למוזיקה.,beginner,hobbies
+s000256,¿Qué haces en tu tiempo libre?,מה אתה עושה בזמן הפנוי שלך?,beginner,hobbies
+s000257,Mi hermana baila y canta muy bien.,אחותי רוקדת ושרה מאוד יפה.,beginner,hobbies
+s000258,En mi tiempo libre me gusta cocinar y ver películas.,בזמן הפנוי שלי אני אוהב לבשל ולצפות בסרטים.,beginner,hobbies
+s000259,Los niños juegan y hacen ejercicio en el parque.,הילדים משחקים ומתאמנים בפארק.,beginner,hobbies
+s000260,Quiero aprender a tocar un instrumento este año.,אני רוצה ללמוד לנגן בכלי נגינה השנה.,beginner,hobbies
+s000261,Nos gusta viajar en verano.,אנחנו אוהבים לטייל בקיץ.,beginner,hobbies
+s000262,¿Practicas algún deporte en tu tiempo libre?,האם אתה עוסק בספורט כלשהו בזמן הפנוי שלך?,beginner,hobbies
+s000263,Tengo un perro y un gato.,יש לי כלב וחתול.,beginner,animals
+s000264,El pájaro canta muy bonito.,הציפור שרה מאוד יפה.,beginner,animals
+s000265,¿Tienes alguna mascota en casa?,יש לך חיית מחמד בבית?,beginner,animals
+s000266,La vaca da leche fresca.,הפרה נותנת חלב טרי.,beginner,animals
+s000267,El león es el rey de la selva.,האריה הוא מלך הג'ונגל.,beginner,animals
+s000268,El conejo come zanahorias todos los días.,הארנב אוכל גזרים כל יום.,beginner,animals
+s000269,Me gusta montar a caballo los fines de semana.,אני אוהב לרכוב על סוס בסופי שבוע.,beginner,animals
+s000270,El elefante es el animal más grande.,הפיל הוא החיה הכי גדולה.,beginner,animals

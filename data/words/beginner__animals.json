@@ -1,0 +1,160 @@
+{
+  "levelId": "beginner",
+  "topicId": "animals",
+  "vocab": [
+    {
+      "id": "w000570",
+      "es": "el perro",
+      "he": "כלב",
+      "ex_es": "Tengo un perro pequeño.",
+      "ex_he": "יש לי כלב קטן."
+    },
+    {
+      "id": "w000571",
+      "es": "el gato",
+      "he": "חתול",
+      "ex_es": "El gato duerme todo el día.",
+      "ex_he": "החתול ישן כל היום."
+    },
+    {
+      "id": "w000572",
+      "es": "el pájaro",
+      "he": "ציפור",
+      "ex_es": "El pájaro canta por la mañana.",
+      "ex_he": "הציפור שרה בבוקר."
+    },
+    {
+      "id": "w000573",
+      "es": "el pez",
+      "he": "דג",
+      "ex_es": "Tengo un pez en casa.",
+      "ex_he": "יש לי דג בבית."
+    },
+    {
+      "id": "w000574",
+      "es": "el caballo",
+      "he": "סוס",
+      "ex_es": "Me gusta montar a caballo.",
+      "ex_he": "אני אוהב לרכוב על סוס."
+    },
+    {
+      "id": "w000575",
+      "es": "la vaca",
+      "he": "פרה",
+      "ex_es": "La vaca da leche.",
+      "ex_he": "הפרה נותנת חלב."
+    },
+    {
+      "id": "w000576",
+      "es": "el animal",
+      "he": "חיה (כללי)",
+      "ex_es": "Es un animal muy tranquilo.",
+      "ex_he": "זו חיה מאוד רגועה."
+    },
+    {
+      "id": "w000577",
+      "es": "la mascota",
+      "he": "חיית מחמד",
+      "ex_es": "¿Tienes alguna mascota?",
+      "ex_he": "יש לך חיית מחמד?"
+    },
+    {
+      "id": "w000578",
+      "es": "el conejo",
+      "he": "ארנב",
+      "ex_es": "El conejo come zanahorias.",
+      "ex_he": "הארנב אוכל גזרים."
+    },
+    {
+      "id": "w000579",
+      "es": "el ratón",
+      "he": "עכבר",
+      "ex_es": "El ratón es pequeño.",
+      "ex_he": "העכבר קטן."
+    },
+    {
+      "id": "w000580",
+      "es": "la gallina",
+      "he": "תרנגולת",
+      "ex_es": "La gallina pone huevos.",
+      "ex_he": "התרנגולת מטילה ביצים."
+    },
+    {
+      "id": "w000581",
+      "es": "la oveja",
+      "he": "כבשה",
+      "ex_es": "Las ovejas están en el campo.",
+      "ex_he": "הכבשים בשדה."
+    },
+    {
+      "id": "w000582",
+      "es": "el león",
+      "he": "אריה",
+      "ex_es": "El león es el rey de la selva.",
+      "ex_he": "האריה הוא מלך הג'ונגל."
+    },
+    {
+      "id": "w000583",
+      "es": "el elefante",
+      "he": "פיל",
+      "ex_es": "El elefante es muy grande.",
+      "ex_he": "הפיל מאוד גדול."
+    },
+    {
+      "id": "w000584",
+      "es": "la serpiente",
+      "he": "נחש",
+      "ex_es": "Le tengo miedo a las serpientes.",
+      "ex_he": "אני מפחד מנחשים."
+    },
+    {
+      "id": "w000585",
+      "es": "el mono",
+      "he": "קוף",
+      "ex_es": "El mono sube al árbol.",
+      "ex_he": "הקוף מטפס על העץ."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000263",
+      "es": "Tengo un perro y un gato.",
+      "he": "יש לי כלב וחתול."
+    },
+    {
+      "id": "s000264",
+      "es": "El pájaro canta muy bonito.",
+      "he": "הציפור שרה מאוד יפה."
+    },
+    {
+      "id": "s000265",
+      "es": "¿Tienes alguna mascota en casa?",
+      "he": "יש לך חיית מחמד בבית?"
+    },
+    {
+      "id": "s000266",
+      "es": "La vaca da leche fresca.",
+      "he": "הפרה נותנת חלב טרי."
+    },
+    {
+      "id": "s000267",
+      "es": "El león es el rey de la selva.",
+      "he": "האריה הוא מלך הג'ונגל."
+    },
+    {
+      "id": "s000268",
+      "es": "El conejo come zanahorias todos los días.",
+      "he": "הארנב אוכל גזרים כל יום."
+    },
+    {
+      "id": "s000269",
+      "es": "Me gusta montar a caballo los fines de semana.",
+      "he": "אני אוהב לרכוב על סוס בסופי שבוע."
+    },
+    {
+      "id": "s000270",
+      "es": "El elefante es el animal más grande.",
+      "he": "הפיל הוא החיה הכי גדולה."
+    }
+  ]
+}
