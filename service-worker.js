@@ -1,7 +1,15 @@
-// Service Worker לתמיכה אופליין - אסטרטגיית cache-first עם fallback לרשת.
+// Service Worker לתמיכה אופליין.
+// אסטרטגיה: cache-first לכל קבצי האפליקציה (HTML/CSS/JS/אייקונים) - כמו קודם, מתעדכן
+// כשמעלים CACHE_NAME. אבל data/** (מאגר המילים - levels.json, search-index.json,
+// id-registry.json, words/*.json) הוא network-first עם fallback ל-cache: תמיד מנסים רשת
+// קודם כדי לקבל תוכן מילון עדכני מיד (בלי לחכות ל-bump ידני של CACHE_NAME בכל הוספת
+// נושא/מילה), ורק אם אין רשת (אופליין) נופלים חזרה לעותק האחרון שהצליח להיטען. כל בקשת
+// data/** שמצליחה מעדכנת את ה-cache, כך שהעותק האופליין תמיד הוא הגרסה העדכנית ביותר
+// שנטענה בהצלחה - לא צריך למנות כל קובץ נושא ב-PRECACHE_URLS מראש; ה-cache נבנה בהדרגה
+// תוך כדי גלישה בפועל.
 // לא נוגע ב-localStorage או במנגנון ההתקדמות של האפליקציה בשום צורה.
 
-const CACHE_NAME = "habla-cache-v22";
+const CACHE_NAME = "habla-cache-v23";
 const PRECACHE_URLS = [
   "./",
   "./index.html",
@@ -10,38 +18,6 @@ const PRECACHE_URLS = [
   "./js/app.js",
   "./js/auth.js",
   "./manifest.json",
-  "./data/levels.json",
-  "./data/words/beginner__greetings.json",
-  "./data/words/beginner__numbers.json",
-  "./data/words/beginner__colors.json",
-  "./data/words/beginner__family.json",
-  "./data/words/beginner__food.json",
-  "./data/words/beginner__basic_verbs.json",
-  "./data/words/beginner__travel.json",
-  "./data/words/beginner__home.json",
-  "./data/words/beginner__days_time.json",
-  "./data/words/intermediate__present_regular.json",
-  "./data/words/intermediate__preterito.json",
-  "./data/words/intermediate__adjectives.json",
-  "./data/words/intermediate__home_routine.json",
-  "./data/words/intermediate__work_professions.json",
-  "./data/words/intermediate__directions.json",
-  "./data/words/intermediate__travel.json",
-  "./data/words/intermediate__emotions.json",
-  "./data/words/intermediate__daily_conversations.json",
-  "./data/words/intermediate__common_verbs_2.json",
-  "./data/words/advanced__business_vocab.json",
-  "./data/words/advanced__subjuntivo.json",
-  "./data/words/advanced__idioms.json",
-  "./data/words/advanced__past_tenses.json",
-  "./data/words/advanced__formal_writing.json",
-  "./data/words/advanced__news_opinions.json",
-  "./data/words/advanced__travel.json",
-  "./data/words/advanced__advanced_vocab.json",
-  "./data/words/advanced__natural_expressions.json",
-  "./data/words/grammar__pronouns.json",
-  "./data/words/grammar__common_verbs.json",
-  "./data/words/grammar__basic_conjugation.json",
   "./icons/icon-16.png",
   "./icons/icon-32.png",
   "./icons/icon-72.png",
@@ -73,20 +49,42 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+function isDictionaryDataRequest(request) {
+  return new URL(request.url).pathname.includes("/data/");
+}
+
+// network-first: תמיד מנסים רשת קודם (תוכן עדכני), מעדכנים cache בכל הצלחה, ורק בכשל
+// (אופליין) נופלים חזרה לעותק האחרון שהצליח להיטען.
+function networkFirst(event) {
+  return fetch(event.request)
+    .then((response) => {
+      if (response && response.ok) {
+        const clone = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+      }
+      return response;
+    })
+    .catch(() => caches.match(event.request));
+}
+
+// cache-first: כמו קודם - למשאבי האפליקציה (HTML/CSS/JS/אייקונים), שמתעדכנים דרך bump
+// ל-CACHE_NAME ולא צריכים בדיקת רשת בכל טעינה.
+function cacheFirst(event) {
+  return caches.match(event.request).then((cached) => {
+    if (cached) return cached;
+    return fetch(event.request)
+      .then((response) => {
+        if (response && response.ok) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+        }
+        return response;
+      })
+      .catch(() => cached);
+  });
+}
+
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request)
-        .then((response) => {
-          if (response && response.ok) {
-            const clone = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-          }
-          return response;
-        })
-        .catch(() => cached);
-    })
-  );
+  event.respondWith(isDictionaryDataRequest(event.request) ? networkFirst(event) : cacheFirst(event));
 });
