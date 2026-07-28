@@ -3509,6 +3509,204 @@
       "he": "קוף",
       "levelId": "beginner",
       "topicId": "animals"
+    },
+    "w000586": {
+      "es": "la escuela",
+      "he": "בית ספר",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000587": {
+      "es": "el profesor / la profesora",
+      "he": "מורה",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000588": {
+      "es": "el estudiante / la estudiante",
+      "he": "תלמיד/ה, סטודנט/ית",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000589": {
+      "es": "el examen",
+      "he": "מבחן",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000590": {
+      "es": "la tarea",
+      "he": "שיעורי בית",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000591": {
+      "es": "la clase",
+      "he": "שיעור/כיתה",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000592": {
+      "es": "aprender",
+      "he": "ללמוד",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000593": {
+      "es": "estudiar",
+      "he": "ללמוד/להתכונן",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000594": {
+      "es": "la pregunta",
+      "he": "שאלה",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000595": {
+      "es": "la respuesta",
+      "he": "תשובה",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000596": {
+      "es": "el cuaderno",
+      "he": "מחברת",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000597": {
+      "es": "el lápiz",
+      "he": "עיפרון",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000598": {
+      "es": "la pizarra",
+      "he": "לוח",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000599": {
+      "es": "la biblioteca",
+      "he": "ספרייה",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000600": {
+      "es": "la nota",
+      "he": "ציון",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000601": {
+      "es": "la universidad",
+      "he": "אוניברסיטה",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "w000602": {
+      "es": "el resfriado",
+      "he": "הצטננות",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000603": {
+      "es": "la gripe",
+      "he": "שפעת",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000604": {
+      "es": "la fiebre",
+      "he": "חום (מחלה)",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000605": {
+      "es": "la tos",
+      "he": "שיעול",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000606": {
+      "es": "el dolor de cabeza",
+      "he": "כאב ראש",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000607": {
+      "es": "la receta médica",
+      "he": "מרשם רופא",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000608": {
+      "es": "el análisis de sangre",
+      "he": "בדיקת דם",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000609": {
+      "es": "la cita médica",
+      "he": "תור לרופא",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000610": {
+      "es": "el seguro médico",
+      "he": "ביטוח בריאות",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000611": {
+      "es": "el medicamento",
+      "he": "תרופה",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000612": {
+      "es": "la alergia",
+      "he": "אלרגיה",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000613": {
+      "es": "el síntoma",
+      "he": "תסמין",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000614": {
+      "es": "la enfermedad",
+      "he": "מחלה",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000615": {
+      "es": "la vacuna",
+      "he": "חיסון",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000616": {
+      "es": "el tratamiento",
+      "he": "טיפול (רפואי)",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000617": {
+      "es": "la sala de urgencias",
+      "he": "חדר מיון",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "w000618": {
+      "es": "recuperarse",
+      "he": "להתאושש",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
     }
   },
   "sentences": {
@@ -4861,6 +5059,86 @@
       "es": "El elefante es el animal más grande.",
       "levelId": "beginner",
       "topicId": "animals"
+    },
+    "s000271": {
+      "es": "Voy a la escuela todos los días.",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "s000272": {
+      "es": "Tengo un examen la próxima semana.",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "s000273": {
+      "es": "Mi profesora explica muy bien.",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "s000274": {
+      "es": "Necesito hacer la tarea esta noche.",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "s000275": {
+      "es": "¿Tienes una pregunta?",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "s000276": {
+      "es": "Estudio en la biblioteca los sábados.",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "s000277": {
+      "es": "Saqué una buena nota en el examen.",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "s000278": {
+      "es": "Quiero estudiar en la universidad en España.",
+      "levelId": "beginner",
+      "topicId": "school"
+    },
+    "s000279": {
+      "es": "Tengo un resfriado y mucha tos.",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "s000280": {
+      "es": "¿Cuáles son tus síntomas?",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "s000281": {
+      "es": "Tengo una cita médica esta tarde.",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "s000282": {
+      "es": "El médico me dio un tratamiento nuevo.",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "s000283": {
+      "es": "Espero que te mejores pronto.",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "s000284": {
+      "es": "Mi hijo tiene alergia al polen.",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "s000285": {
+      "es": "Necesito hacerme un análisis de sangre mañana.",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
+    },
+    "s000286": {
+      "es": "Fuimos a la sala de urgencias anoche.",
+      "levelId": "intermediate",
+      "topicId": "health_illness"
     }
   }
 }

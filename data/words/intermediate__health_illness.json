@@ -1,0 +1,167 @@
+{
+  "levelId": "intermediate",
+  "topicId": "health_illness",
+  "vocab": [
+    {
+      "id": "w000602",
+      "es": "el resfriado",
+      "he": "הצטננות",
+      "ex_es": "Tengo un resfriado terrible.",
+      "ex_he": "יש לי הצטננות נוראית."
+    },
+    {
+      "id": "w000603",
+      "es": "la gripe",
+      "he": "שפעת",
+      "ex_es": "Creo que tengo gripe.",
+      "ex_he": "אני חושב שיש לי שפעת."
+    },
+    {
+      "id": "w000604",
+      "es": "la fiebre",
+      "he": "חום (מחלה)",
+      "ex_es": "El niño tiene fiebre alta.",
+      "ex_he": "לילד יש חום גבוה."
+    },
+    {
+      "id": "w000605",
+      "es": "la tos",
+      "he": "שיעול",
+      "ex_es": "Tengo mucha tos por las noches.",
+      "ex_he": "יש לי הרבה שיעול בלילות."
+    },
+    {
+      "id": "w000606",
+      "es": "el dolor de cabeza",
+      "he": "כאב ראש",
+      "ex_es": "Tengo un dolor de cabeza fuerte.",
+      "ex_he": "יש לי כאב ראש חזק."
+    },
+    {
+      "id": "w000607",
+      "es": "la receta médica",
+      "he": "מרשם רופא",
+      "ex_es": "El médico me dio una receta.",
+      "ex_he": "הרופא נתן לי מרשם."
+    },
+    {
+      "id": "w000608",
+      "es": "el análisis de sangre",
+      "he": "בדיקת דם",
+      "ex_es": "Necesito hacerme un análisis de sangre.",
+      "ex_he": "אני צריך לעשות בדיקת דם."
+    },
+    {
+      "id": "w000609",
+      "es": "la cita médica",
+      "he": "תור לרופא",
+      "ex_es": "Tengo una cita médica mañana.",
+      "ex_he": "יש לי תור לרופא מחר."
+    },
+    {
+      "id": "w000610",
+      "es": "el seguro médico",
+      "he": "ביטוח בריאות",
+      "ex_es": "No tengo seguro médico todavía.",
+      "ex_he": "עדיין אין לי ביטוח בריאות."
+    },
+    {
+      "id": "w000611",
+      "es": "el medicamento",
+      "he": "תרופה",
+      "ex_es": "El medicamento ayuda a reducir el dolor.",
+      "ex_he": "התרופה עוזרת להפחית את הכאב."
+    },
+    {
+      "id": "w000612",
+      "es": "la alergia",
+      "he": "אלרגיה",
+      "ex_es": "Tiene alergia a los gatos.",
+      "ex_he": "יש לו אלרגיה לחתולים."
+    },
+    {
+      "id": "w000613",
+      "es": "el síntoma",
+      "he": "תסמין",
+      "ex_es": "¿Cuáles son los síntomas?",
+      "ex_he": "מהם התסמינים?"
+    },
+    {
+      "id": "w000614",
+      "es": "la enfermedad",
+      "he": "מחלה",
+      "ex_es": "Es una enfermedad muy común.",
+      "ex_he": "זו מחלה מאוד נפוצה."
+    },
+    {
+      "id": "w000615",
+      "es": "la vacuna",
+      "he": "חיסון",
+      "ex_es": "Me puse la vacuna la semana pasada.",
+      "ex_he": "קיבלתי את החיסון בשבוע שעבר."
+    },
+    {
+      "id": "w000616",
+      "es": "el tratamiento",
+      "he": "טיפול (רפואי)",
+      "ex_es": "El tratamiento dura dos semanas.",
+      "ex_he": "הטיפול נמשך שבועיים."
+    },
+    {
+      "id": "w000617",
+      "es": "la sala de urgencias",
+      "he": "חדר מיון",
+      "ex_es": "Fuimos a la sala de urgencias.",
+      "ex_he": "הלכנו לחדר מיון."
+    },
+    {
+      "id": "w000618",
+      "es": "recuperarse",
+      "he": "להתאושש",
+      "ex_es": "Necesita tiempo para recuperarse.",
+      "ex_he": "הוא צריך זמן להתאושש."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000279",
+      "es": "Tengo un resfriado y mucha tos.",
+      "he": "יש לי הצטננות והרבה שיעול."
+    },
+    {
+      "id": "s000280",
+      "es": "¿Cuáles son tus síntomas?",
+      "he": "מה התסמינים שלך?"
+    },
+    {
+      "id": "s000281",
+      "es": "Tengo una cita médica esta tarde.",
+      "he": "יש לי תור לרופא אחר הצהריים."
+    },
+    {
+      "id": "s000282",
+      "es": "El médico me dio un tratamiento nuevo.",
+      "he": "הרופא נתן לי טיפול חדש."
+    },
+    {
+      "id": "s000283",
+      "es": "Espero que te mejores pronto.",
+      "he": "אני מקווה שתחלים בקרוב."
+    },
+    {
+      "id": "s000284",
+      "es": "Mi hijo tiene alergia al polen.",
+      "he": "לבן שלי יש אלרגיה לאבקנים."
+    },
+    {
+      "id": "s000285",
+      "es": "Necesito hacerme un análisis de sangre mañana.",
+      "he": "אני צריך לעשות בדיקת דם מחר."
+    },
+    {
+      "id": "s000286",
+      "es": "Fuimos a la sala de urgencias anoche.",
+      "he": "הלכנו לחדר מיון אתמול בלילה."
+    }
+  ]
+}

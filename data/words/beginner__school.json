@@ -1,0 +1,160 @@
+{
+  "levelId": "beginner",
+  "topicId": "school",
+  "vocab": [
+    {
+      "id": "w000586",
+      "es": "la escuela",
+      "he": "בית ספר",
+      "ex_es": "Voy a la escuela todos los días.",
+      "ex_he": "אני הולך לבית הספר כל יום."
+    },
+    {
+      "id": "w000587",
+      "es": "el profesor / la profesora",
+      "he": "מורה",
+      "ex_es": "Mi profesora es muy simpática.",
+      "ex_he": "המורה שלי מאוד נחמדה."
+    },
+    {
+      "id": "w000588",
+      "es": "el estudiante / la estudiante",
+      "he": "תלמיד/ה, סטודנט/ית",
+      "ex_es": "Soy estudiante de español.",
+      "ex_he": "אני תלמיד לספרדית."
+    },
+    {
+      "id": "w000589",
+      "es": "el examen",
+      "he": "מבחן",
+      "ex_es": "Tengo un examen mañana.",
+      "ex_he": "יש לי מבחן מחר."
+    },
+    {
+      "id": "w000590",
+      "es": "la tarea",
+      "he": "שיעורי בית",
+      "ex_es": "Tengo que hacer la tarea.",
+      "ex_he": "אני צריך לעשות שיעורי בית."
+    },
+    {
+      "id": "w000591",
+      "es": "la clase",
+      "he": "שיעור/כיתה",
+      "ex_es": "La clase empieza a las ocho.",
+      "ex_he": "השיעור מתחיל בשמונה."
+    },
+    {
+      "id": "w000592",
+      "es": "aprender",
+      "he": "ללמוד",
+      "ex_es": "Quiero aprender español.",
+      "ex_he": "אני רוצה ללמוד ספרדית."
+    },
+    {
+      "id": "w000593",
+      "es": "estudiar",
+      "he": "ללמוד/להתכונן",
+      "ex_es": "Estudio todos los días.",
+      "ex_he": "אני לומד כל יום."
+    },
+    {
+      "id": "w000594",
+      "es": "la pregunta",
+      "he": "שאלה",
+      "ex_es": "Tengo una pregunta.",
+      "ex_he": "יש לי שאלה."
+    },
+    {
+      "id": "w000595",
+      "es": "la respuesta",
+      "he": "תשובה",
+      "ex_es": "No sé la respuesta.",
+      "ex_he": "אני לא יודע את התשובה."
+    },
+    {
+      "id": "w000596",
+      "es": "el cuaderno",
+      "he": "מחברת",
+      "ex_es": "Escribo en mi cuaderno.",
+      "ex_he": "אני כותב במחברת שלי."
+    },
+    {
+      "id": "w000597",
+      "es": "el lápiz",
+      "he": "עיפרון",
+      "ex_es": "Necesito un lápiz.",
+      "ex_he": "אני צריך עיפרון."
+    },
+    {
+      "id": "w000598",
+      "es": "la pizarra",
+      "he": "לוח",
+      "ex_es": "El profesor escribe en la pizarra.",
+      "ex_he": "המורה כותב על הלוח."
+    },
+    {
+      "id": "w000599",
+      "es": "la biblioteca",
+      "he": "ספרייה",
+      "ex_es": "Estudio en la biblioteca.",
+      "ex_he": "אני לומד בספרייה."
+    },
+    {
+      "id": "w000600",
+      "es": "la nota",
+      "he": "ציון",
+      "ex_es": "Saqué una buena nota.",
+      "ex_he": "קיבלתי ציון טוב."
+    },
+    {
+      "id": "w000601",
+      "es": "la universidad",
+      "he": "אוניברסיטה",
+      "ex_es": "Voy a la universidad el próximo año.",
+      "ex_he": "אני הולך לאוניברסיטה בשנה הבאה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000271",
+      "es": "Voy a la escuela todos los días.",
+      "he": "אני הולך לבית הספר כל יום."
+    },
+    {
+      "id": "s000272",
+      "es": "Tengo un examen la próxima semana.",
+      "he": "יש לי מבחן בשבוע הבא."
+    },
+    {
+      "id": "s000273",
+      "es": "Mi profesora explica muy bien.",
+      "he": "המורה שלי מסבירה מאוד טוב."
+    },
+    {
+      "id": "s000274",
+      "es": "Necesito hacer la tarea esta noche.",
+      "he": "אני צריך לעשות שיעורי בית הערב."
+    },
+    {
+      "id": "s000275",
+      "es": "¿Tienes una pregunta?",
+      "he": "יש לך שאלה?"
+    },
+    {
+      "id": "s000276",
+      "es": "Estudio en la biblioteca los sábados.",
+      "he": "אני לומד בספרייה בשבתות."
+    },
+    {
+      "id": "s000277",
+      "es": "Saqué una buena nota en el examen.",
+      "he": "קיבלתי ציון טוב במבחן."
+    },
+    {
+      "id": "s000278",
+      "es": "Quiero estudiar en la universidad en España.",
+      "he": "אני רוצה ללמוד באוניברסיטה בספרד."
+    }
+  ]
+}

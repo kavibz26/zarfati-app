@@ -94,6 +94,12 @@
         "name": "חיות",
         "vocabCount": 16,
         "sentenceCount": 8
+      },
+      {
+        "id": "school",
+        "name": "בית ספר ולימודים",
+        "vocabCount": 16,
+        "sentenceCount": 8
       }
     ]
   },
@@ -162,6 +168,12 @@
         "name": "פעלים נפוצים יותר",
         "vocabCount": 18,
         "sentenceCount": 7
+      },
+      {
+        "id": "health_illness",
+        "name": "בריאות ומחלות",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   },

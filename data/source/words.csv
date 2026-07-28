@@ -584,3 +584,36 @@ w000582,el león,אריה,El león es el rey de la selva.,האריה הוא מל
 w000583,el elefante,פיל,El elefante es muy grande.,הפיל מאוד גדול.,beginner,animals,חיות
 w000584,la serpiente,נחש,Le tengo miedo a las serpientes.,אני מפחד מנחשים.,beginner,animals,חיות
 w000585,el mono,קוף,El mono sube al árbol.,הקוף מטפס על העץ.,beginner,animals,חיות
+w000586,la escuela,בית ספר,Voy a la escuela todos los días.,אני הולך לבית הספר כל יום.,beginner,school,בית ספר ולימודים
+w000587,el profesor / la profesora,מורה,Mi profesora es muy simpática.,המורה שלי מאוד נחמדה.,beginner,school,בית ספר ולימודים
+w000588,el estudiante / la estudiante,"תלמיד/ה, סטודנט/ית",Soy estudiante de español.,אני תלמיד לספרדית.,beginner,school,בית ספר ולימודים
+w000589,el examen,מבחן,Tengo un examen mañana.,יש לי מבחן מחר.,beginner,school,בית ספר ולימודים
+w000590,la tarea,שיעורי בית,Tengo que hacer la tarea.,אני צריך לעשות שיעורי בית.,beginner,school,בית ספר ולימודים
+w000591,la clase,שיעור/כיתה,La clase empieza a las ocho.,השיעור מתחיל בשמונה.,beginner,school,בית ספר ולימודים
+w000592,aprender,ללמוד,Quiero aprender español.,אני רוצה ללמוד ספרדית.,beginner,school,בית ספר ולימודים
+w000593,estudiar,ללמוד/להתכונן,Estudio todos los días.,אני לומד כל יום.,beginner,school,בית ספר ולימודים
+w000594,la pregunta,שאלה,Tengo una pregunta.,יש לי שאלה.,beginner,school,בית ספר ולימודים
+w000595,la respuesta,תשובה,No sé la respuesta.,אני לא יודע את התשובה.,beginner,school,בית ספר ולימודים
+w000596,el cuaderno,מחברת,Escribo en mi cuaderno.,אני כותב במחברת שלי.,beginner,school,בית ספר ולימודים
+w000597,el lápiz,עיפרון,Necesito un lápiz.,אני צריך עיפרון.,beginner,school,בית ספר ולימודים
+w000598,la pizarra,לוח,El profesor escribe en la pizarra.,המורה כותב על הלוח.,beginner,school,בית ספר ולימודים
+w000599,la biblioteca,ספרייה,Estudio en la biblioteca.,אני לומד בספרייה.,beginner,school,בית ספר ולימודים
+w000600,la nota,ציון,Saqué una buena nota.,קיבלתי ציון טוב.,beginner,school,בית ספר ולימודים
+w000601,la universidad,אוניברסיטה,Voy a la universidad el próximo año.,אני הולך לאוניברסיטה בשנה הבאה.,beginner,school,בית ספר ולימודים
+w000602,el resfriado,הצטננות,Tengo un resfriado terrible.,יש לי הצטננות נוראית.,intermediate,health_illness,בריאות ומחלות
+w000603,la gripe,שפעת,Creo que tengo gripe.,אני חושב שיש לי שפעת.,intermediate,health_illness,בריאות ומחלות
+w000604,la fiebre,חום (מחלה),El niño tiene fiebre alta.,לילד יש חום גבוה.,intermediate,health_illness,בריאות ומחלות
+w000605,la tos,שיעול,Tengo mucha tos por las noches.,יש לי הרבה שיעול בלילות.,intermediate,health_illness,בריאות ומחלות
+w000606,el dolor de cabeza,כאב ראש,Tengo un dolor de cabeza fuerte.,יש לי כאב ראש חזק.,intermediate,health_illness,בריאות ומחלות
+w000607,la receta médica,מרשם רופא,El médico me dio una receta.,הרופא נתן לי מרשם.,intermediate,health_illness,בריאות ומחלות
+w000608,el análisis de sangre,בדיקת דם,Necesito hacerme un análisis de sangre.,אני צריך לעשות בדיקת דם.,intermediate,health_illness,בריאות ומחלות
+w000609,la cita médica,תור לרופא,Tengo una cita médica mañana.,יש לי תור לרופא מחר.,intermediate,health_illness,בריאות ומחלות
+w000610,el seguro médico,ביטוח בריאות,No tengo seguro médico todavía.,עדיין אין לי ביטוח בריאות.,intermediate,health_illness,בריאות ומחלות
+w000611,el medicamento,תרופה,El medicamento ayuda a reducir el dolor.,התרופה עוזרת להפחית את הכאב.,intermediate,health_illness,בריאות ומחלות
+w000612,la alergia,אלרגיה,Tiene alergia a los gatos.,יש לו אלרגיה לחתולים.,intermediate,health_illness,בריאות ומחלות
+w000613,el síntoma,תסמין,¿Cuáles son los síntomas?,מהם התסמינים?,intermediate,health_illness,בריאות ומחלות
+w000614,la enfermedad,מחלה,Es una enfermedad muy común.,זו מחלה מאוד נפוצה.,intermediate,health_illness,בריאות ומחלות
+w000615,la vacuna,חיסון,Me puse la vacuna la semana pasada.,קיבלתי את החיסון בשבוע שעבר.,intermediate,health_illness,בריאות ומחלות
+w000616,el tratamiento,טיפול (רפואי),El tratamiento dura dos semanas.,הטיפול נמשך שבועיים.,intermediate,health_illness,בריאות ומחלות
+w000617,la sala de urgencias,חדר מיון,Fuimos a la sala de urgencias.,הלכנו לחדר מיון.,intermediate,health_illness,בריאות ומחלות
+w000618,recuperarse,להתאושש,Necesita tiempo para recuperarse.,הוא צריך זמן להתאושש.,intermediate,health_illness,בריאות ומחלות
