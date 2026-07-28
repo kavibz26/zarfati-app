@@ -150,6 +150,12 @@
         "name": "פעלים נפוצים יותר",
         "vocabCount": 18,
         "sentenceCount": 7
+      },
+      {
+        "id": "hobbies",
+        "name": "תחביבים ופנאי",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   },

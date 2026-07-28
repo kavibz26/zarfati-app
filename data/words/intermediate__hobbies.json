@@ -1,0 +1,167 @@
+{
+  "levelId": "intermediate",
+  "topicId": "hobbies",
+  "vocab": [
+    {
+      "id": "w000553",
+      "es": "la música",
+      "he": "מוזיקה",
+      "ex_es": "Me encanta escuchar música.",
+      "ex_he": "אני מאוד אוהב להקשיב למוזיקה."
+    },
+    {
+      "id": "w000554",
+      "es": "leer",
+      "he": "לקרוא",
+      "ex_es": "Me gusta leer antes de dormir.",
+      "ex_he": "אני אוהב לקרוא לפני השינה."
+    },
+    {
+      "id": "w000555",
+      "es": "el libro",
+      "he": "ספר",
+      "ex_es": "Estoy leyendo un libro interesante.",
+      "ex_he": "אני קורא ספר מעניין."
+    },
+    {
+      "id": "w000556",
+      "es": "el deporte",
+      "he": "ספורט",
+      "ex_es": "Practico deporte los fines de semana.",
+      "ex_he": "אני מתעמל בסופי שבוע."
+    },
+    {
+      "id": "w000557",
+      "es": "jugar",
+      "he": "לשחק",
+      "ex_es": "Los niños juegan en el parque.",
+      "ex_he": "הילדים משחקים בפארק."
+    },
+    {
+      "id": "w000558",
+      "es": "ver la tele",
+      "he": "לצפות בטלוויזיה",
+      "ex_es": "Por la noche veo la tele.",
+      "ex_he": "בערב אני צופה בטלוויזיה."
+    },
+    {
+      "id": "w000559",
+      "es": "pasear",
+      "he": "לטייל",
+      "ex_es": "Nos gusta pasear por el parque.",
+      "ex_he": "אנחנו אוהבים לטייל בפארק."
+    },
+    {
+      "id": "w000560",
+      "es": "bailar",
+      "he": "לרקוד",
+      "ex_es": "Ella baila muy bien.",
+      "ex_he": "היא רוקדת מאוד טוב."
+    },
+    {
+      "id": "w000561",
+      "es": "cocinar",
+      "he": "לבשל",
+      "ex_es": "Me gusta cocinar los domingos.",
+      "ex_he": "אני אוהב לבשל בימי ראשון."
+    },
+    {
+      "id": "w000562",
+      "es": "el tiempo libre",
+      "he": "זמן פנוי",
+      "ex_es": "¿Qué haces en tu tiempo libre?",
+      "ex_he": "מה אתה עושה בזמן הפנוי שלך?"
+    },
+    {
+      "id": "w000563",
+      "es": "divertido/a",
+      "he": "כיף/מהנה",
+      "ex_es": "Este juego es muy divertido.",
+      "ex_he": "המשחק הזה מאוד כיפי."
+    },
+    {
+      "id": "w000564",
+      "es": "el equipo",
+      "he": "קבוצה / צוות",
+      "ex_es": "Juego en un equipo de fútbol.",
+      "ex_he": "אני משחק בקבוצת כדורגל."
+    },
+    {
+      "id": "w000565",
+      "es": "pintar",
+      "he": "לצייר",
+      "ex_es": "A ella le gusta pintar.",
+      "ex_he": "היא אוהבת לצייר."
+    },
+    {
+      "id": "w000566",
+      "es": "tocar la guitarra",
+      "he": "לנגן בגיטרה",
+      "ex_es": "Toco la guitarra.",
+      "ex_he": "אני מנגן בגיטרה."
+    },
+    {
+      "id": "w000567",
+      "es": "coleccionar",
+      "he": "לאסוף",
+      "ex_es": "Colecciono sellos.",
+      "ex_he": "אני אוסף בולים."
+    },
+    {
+      "id": "w000568",
+      "es": "pescar",
+      "he": "לדוג",
+      "ex_es": "Mi padre va a pescar los sábados.",
+      "ex_he": "אבא שלי הולך לדוג בשבתות."
+    },
+    {
+      "id": "w000569",
+      "es": "la jardinería",
+      "he": "גינון",
+      "ex_es": "La jardinería es mi hobby favorito.",
+      "ex_he": "גינון הוא התחביב האהוב עלי."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000255",
+      "es": "Me gusta escuchar música por la noche.",
+      "he": "אני אוהב להקשיב למוזיקה בערב."
+    },
+    {
+      "id": "s000256",
+      "es": "¿Qué haces en tu tiempo libre?",
+      "he": "מה אתה עושה בזמן הפנוי שלך?"
+    },
+    {
+      "id": "s000257",
+      "es": "Los fines de semana juego al fútbol.",
+      "he": "בסופי שבוע אני משחק כדורגל."
+    },
+    {
+      "id": "s000258",
+      "es": "Ella lee un libro nuevo cada mes.",
+      "he": "היא קוראת ספר חדש כל חודש."
+    },
+    {
+      "id": "s000259",
+      "es": "Nos gusta pasear por el parque los domingos.",
+      "he": "אנחנו אוהבים לטייל בפארק בימי ראשון."
+    },
+    {
+      "id": "s000260",
+      "es": "Mi hermano toca la guitarra muy bien.",
+      "he": "אחי מנגן בגיטרה מאוד טוב."
+    },
+    {
+      "id": "s000261",
+      "es": "Cocinar es divertido para mí.",
+      "he": "לבשל זה כיף בשבילי."
+    },
+    {
+      "id": "s000262",
+      "es": "Voy a pescar con mi padre este fin de semana.",
+      "he": "אני הולך לדוג עם אבא שלי בסוף השבוע הזה."
+    }
+  ]
+}

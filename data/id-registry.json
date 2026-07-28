@@ -3311,6 +3311,108 @@
       "he": "מבצעי סוף עונה",
       "levelId": "beginner",
       "topicId": "shopping_money"
+    },
+    "w000553": {
+      "es": "la música",
+      "he": "מוזיקה",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000554": {
+      "es": "leer",
+      "he": "לקרוא",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000555": {
+      "es": "el libro",
+      "he": "ספר",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000556": {
+      "es": "el deporte",
+      "he": "ספורט",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000557": {
+      "es": "jugar",
+      "he": "לשחק",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000558": {
+      "es": "ver la tele",
+      "he": "לצפות בטלוויזיה",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000559": {
+      "es": "pasear",
+      "he": "לטייל",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000560": {
+      "es": "bailar",
+      "he": "לרקוד",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000561": {
+      "es": "cocinar",
+      "he": "לבשל",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000562": {
+      "es": "el tiempo libre",
+      "he": "זמן פנוי",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000563": {
+      "es": "divertido/a",
+      "he": "כיף/מהנה",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000564": {
+      "es": "el equipo",
+      "he": "קבוצה / צוות",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000565": {
+      "es": "pintar",
+      "he": "לצייר",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000566": {
+      "es": "tocar la guitarra",
+      "he": "לנגן בגיטרה",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000567": {
+      "es": "coleccionar",
+      "he": "לאסוף",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000568": {
+      "es": "pescar",
+      "he": "לדוג",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "w000569": {
+      "es": "la jardinería",
+      "he": "גינון",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
     }
   },
   "sentences": {
@@ -4583,6 +4685,46 @@
       "es": "Este mercado vende fruta fresca.",
       "levelId": "beginner",
       "topicId": "shopping_money"
+    },
+    "s000255": {
+      "es": "Me gusta escuchar música por la noche.",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "s000256": {
+      "es": "¿Qué haces en tu tiempo libre?",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "s000257": {
+      "es": "Los fines de semana juego al fútbol.",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "s000258": {
+      "es": "Ella lee un libro nuevo cada mes.",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "s000259": {
+      "es": "Nos gusta pasear por el parque los domingos.",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "s000260": {
+      "es": "Mi hermano toca la guitarra muy bien.",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "s000261": {
+      "es": "Cocinar es divertido para mí.",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
+    },
+    "s000262": {
+      "es": "Voy a pescar con mi padre este fin de semana.",
+      "levelId": "intermediate",
+      "topicId": "hobbies"
     }
   }
 }
