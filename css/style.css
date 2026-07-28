@@ -321,6 +321,8 @@ button:focus-visible,
 .exercise-card .ec-icon { font-size: 30px; }
 .exercise-card .ec-name { font-weight: 700; }
 .exercise-card .ec-score { font-size: 12px; color: var(--muted); }
+.exercise-card:disabled { opacity: .45; box-shadow: none; }
+.exercise-card:disabled:hover { transform: none; }
 
 /* ---------- Runner shared ---------- */
 .runner {

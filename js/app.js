@@ -50,8 +50,8 @@ function escapeHtml(s) {
 // כדי לא לשנות רטרואקטיבית אחוזי השלמה קיימים אצל מי שכבר תרגל לפני שהתרגול הזה נוסף.
 const EXERCISE_TYPES = [
   { id: "flashcards", name: "כרטיסיות", icon: "🗂️" },
-  { id: "quiz", name: "חידון", icon: "❓" },
   { id: "listening", name: "האזנה", icon: "🎧" },
+  { id: "quiz", name: "חידון", icon: "❓" },
   { id: "sentences", name: "בניית משפטים", icon: "✍️" }
 ];
 const RECALL_TYPE = { id: "recall", name: "הקלדה מהזיכרון", icon: "⌨️" };
@@ -117,6 +117,20 @@ function setTopicScore(levelId, topicId, type, score) {
 function getTopicCompletion(levelId, topicId) {
   const total = EXERCISE_TYPES.reduce((sum, t) => sum + getTopicScore(levelId, topicId, t.id), 0);
   return Math.round(total / EXERCISE_TYPES.length);
+}
+// כרטיסיות והאזנה פתוחים תמיד; חידון/משפטים/הקלדה מהזיכרון נפתחים ברגע שאחד מהשניים
+// הראשונים הושלם ב-100% - נגזר ישירות מהציונים הקיימים, בלי שדה/מבנה נתונים נוסף.
+function advancedExercisesUnlocked(levelId, topicId) {
+  return getTopicScore(levelId, topicId, "flashcards") === 100
+      || getTopicScore(levelId, topicId, "listening") === 100;
+}
+// נעילה בפועל היא פר-תרגיל: אם למשתמש כבר יש ציון קיים בתרגיל המתקדם הספציפי הזה (מלפני
+// שהנעילה נוספה), הוא נשאר פתוח - לא דורסים/מסתירים התקדמות קיימת. משתמש חדש בלי שום ציון
+// ב-quiz/sentences/recall נשאר נעול עד ש-advancedExercisesUnlocked מתקיים.
+function isExerciseTypeLocked(levelId, topicId, typeId) {
+  if (typeId !== "quiz" && typeId !== "sentences" && typeId !== "recall") return false;
+  if (advancedExercisesUnlocked(levelId, topicId)) return false;
+  return getTopicScore(levelId, topicId, typeId) === 0;
 }
 function getLevelCompletion(levelId) {
   const level = LEVELS[levelId];
@@ -627,6 +641,10 @@ function gotoTopic(levelId, topicId) {
   window.HablaAuth?.logAnalyticsEvent("topic_view", { level: levelId, topic: topicId });
 }
 function gotoExercise(levelId, topicId, type) {
+  // הגנה במקום המרכזי שפותח תרגיל בפועל - לא מסתמכים רק על disabled ב-UI, כדי שכניסה
+  // עתידית לתרגיל ממקום אחר בקוד לא תוכל לעקוף את הנעילה. אותה פונקציה בדיוק כמו ב-renderTopic,
+  // כדי לא לשכפל לוגיקה ולשמור על התנהגות זהה (כולל שימור התקדמות קיימת).
+  if (isExerciseTypeLocked(levelId, topicId, type)) return;
   state = { screen: "exercise", levelId, topicId, type };
   saveNav(state);
   pushHistory();
@@ -1222,15 +1240,16 @@ function renderTopic() {
     <button class="back-btn" data-action="back-level" data-level="${level.id}">→ חזרה לנושאים</button>
     <div class="section-title">${topic.name}</div>
     <div class="section-sub" style="margin-bottom:4px;">${levelLabel(level.id, level.name)} · ${t("chooseExerciseType")}</div>
-    <div class="section-sub">💡 מומלץ להתחיל מ"כרטיסיות" ולהתקדם לפי הסדר</div>
+    <div class="section-sub">💡 השלימו כרטיסיות או האזנה ב-100% כדי לפתוח את שאר התרגילים</div>
     <div class="exercise-grid">
       ${DISPLAY_EXERCISE_TYPES.map(et => {
         const score = getTopicScore(level.id, topic.id, et.id);
+        const locked = isExerciseTypeLocked(level.id, topic.id, et.id);
         return `
-        <button class="exercise-card" data-action="goto-exercise" data-level="${level.id}" data-topic="${topic.id}" data-type="${et.id}">
+        <button class="exercise-card" data-action="goto-exercise" data-level="${level.id}" data-topic="${topic.id}" data-type="${et.id}" ${locked ? "disabled" : ""}>
           <div class="ec-icon" aria-hidden="true">${et.icon}</div>
           <div class="ec-name">${et.name}</div>
-          <div class="ec-score">${score > 0 ? `הישג: ${score}%` : "טרם נוסה"}</div>
+          <div class="ec-score">${locked ? "🔒 נפתח בסיום כרטיסיות/האזנה" : (score > 0 ? `הישג: ${score}%` : "טרם נוסה")}</div>
         </button>`;
       }).join("")}
     </div>
