@@ -617,3 +617,19 @@ w000615,la vacuna,חיסון,Me puse la vacuna la semana pasada.,קיבלתי א
 w000616,el tratamiento,טיפול (רפואי),El tratamiento dura dos semanas.,הטיפול נמשך שבועיים.,intermediate,health_illness,בריאות ומחלות
 w000617,la sala de urgencias,חדר מיון,Fuimos a la sala de urgencias.,הלכנו לחדר מיון.,intermediate,health_illness,בריאות ומחלות
 w000618,recuperarse,להתאושש,Necesita tiempo para recuperarse.,הוא צריך זמן להתאושש.,intermediate,health_illness,בריאות ומחלות
+w000619,el banco,בנק,Necesito ir al banco.,אני צריך ללכת לבנק.,intermediate,city_places,מקומות בעיר
+w000620,el supermercado,סופרמרקט,Voy al supermercado los sábados.,אני הולך לסופרמרקט בשבתות.,intermediate,city_places,מקומות בעיר
+w000621,la oficina de correos,סניף דואר,Envié el paquete en la oficina de correos.,שלחתי את החבילה בסניף הדואר.,intermediate,city_places,מקומות בעיר
+w000622,la comisaría,תחנת משטרה,La comisaría está cerca de aquí.,תחנת המשטרה קרובה לכאן.,intermediate,city_places,מקומות בעיר
+w000623,el parque,פארק,Los niños juegan en el parque los domingos.,הילדים משחקים בפארק בימי ראשון.,intermediate,city_places,מקומות בעיר
+w000624,el ayuntamiento,עירייה,El ayuntamiento está en el centro.,העירייה נמצאת במרכז.,intermediate,city_places,מקומות בעיר
+w000625,la plaza,כיכר,Nos vemos en la plaza a las seis.,נתראה בכיכר בשש.,intermediate,city_places,מקומות בעיר
+w000626,el centro comercial,קניון,Fuimos al centro comercial el fin de semana.,הלכנו לקניון בסוף השבוע.,intermediate,city_places,מקומות בעיר
+w000627,la iglesia,כנסייה,La iglesia es muy antigua.,הכנסייה מאוד עתיקה.,intermediate,city_places,מקומות בעיר
+w000628,el aparcamiento,חניון,No hay aparcamiento cerca de aquí.,אין חניון בקרבת מקום.,intermediate,city_places,מקומות בעיר
+w000629,la gasolinera,תחנת דלק,Paramos en la gasolinera para echar gasolina.,עצרנו בתחנת הדלק כדי למלא דלק.,intermediate,city_places,מקומות בעיר
+w000630,el museo,מוזיאון,Visitamos el museo de arte.,ביקרנו במוזיאון האמנות.,intermediate,city_places,מקומות בעיר
+w000631,el teatro,תיאטרון,Vamos al teatro esta noche.,אנחנו הולכים לתיאטרון הערב.,intermediate,city_places,מקומות בעיר
+w000632,la estación de bomberos,תחנת כיבוי אש,La estación de bomberos está lejos de mi casa.,תחנת הכיבוי רחוקה מהבית שלי.,intermediate,city_places,מקומות בעיר
+w000633,el barrio,שכונה,Vivo en un barrio tranquilo.,אני גר בשכונה שקטה.,intermediate,city_places,מקומות בעיר
+w000634,la zona peatonal,אזור הולכי רגל,La zona peatonal está llena de tiendas.,אזור הולכי הרגל מלא בחנויות.,intermediate,city_places,מקומות בעיר

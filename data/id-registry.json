@@ -3707,6 +3707,102 @@
       "he": "להתאושש",
       "levelId": "intermediate",
       "topicId": "health_illness"
+    },
+    "w000619": {
+      "es": "el banco",
+      "he": "בנק",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000620": {
+      "es": "el supermercado",
+      "he": "סופרמרקט",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000621": {
+      "es": "la oficina de correos",
+      "he": "סניף דואר",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000622": {
+      "es": "la comisaría",
+      "he": "תחנת משטרה",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000623": {
+      "es": "el parque",
+      "he": "פארק",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000624": {
+      "es": "el ayuntamiento",
+      "he": "עירייה",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000625": {
+      "es": "la plaza",
+      "he": "כיכר",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000626": {
+      "es": "el centro comercial",
+      "he": "קניון",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000627": {
+      "es": "la iglesia",
+      "he": "כנסייה",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000628": {
+      "es": "el aparcamiento",
+      "he": "חניון",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000629": {
+      "es": "la gasolinera",
+      "he": "תחנת דלק",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000630": {
+      "es": "el museo",
+      "he": "מוזיאון",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000631": {
+      "es": "el teatro",
+      "he": "תיאטרון",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000632": {
+      "es": "la estación de bomberos",
+      "he": "תחנת כיבוי אש",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000633": {
+      "es": "el barrio",
+      "he": "שכונה",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "w000634": {
+      "es": "la zona peatonal",
+      "he": "אזור הולכי רגל",
+      "levelId": "intermediate",
+      "topicId": "city_places"
     }
   },
   "sentences": {
@@ -5139,6 +5235,46 @@
       "es": "Fuimos a la sala de urgencias anoche.",
       "levelId": "intermediate",
       "topicId": "health_illness"
+    },
+    "s000287": {
+      "es": "¿Dónde está el banco más cercano?",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "s000288": {
+      "es": "Voy al supermercado para comprar comida.",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "s000289": {
+      "es": "Nos vemos en la plaza a las seis.",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "s000290": {
+      "es": "El ayuntamiento está cerca del parque.",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "s000291": {
+      "es": "Fuimos al museo el sábado pasado.",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "s000292": {
+      "es": "No encuentro aparcamiento en el centro.",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "s000293": {
+      "es": "Envié una carta desde la oficina de correos.",
+      "levelId": "intermediate",
+      "topicId": "city_places"
+    },
+    "s000294": {
+      "es": "Esta noche vamos al teatro.",
+      "levelId": "intermediate",
+      "topicId": "city_places"
     }
   }
 }

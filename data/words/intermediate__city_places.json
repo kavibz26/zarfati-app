@@ -1,0 +1,160 @@
+{
+  "levelId": "intermediate",
+  "topicId": "city_places",
+  "vocab": [
+    {
+      "id": "w000619",
+      "es": "el banco",
+      "he": "בנק",
+      "ex_es": "Necesito ir al banco.",
+      "ex_he": "אני צריך ללכת לבנק."
+    },
+    {
+      "id": "w000620",
+      "es": "el supermercado",
+      "he": "סופרמרקט",
+      "ex_es": "Voy al supermercado los sábados.",
+      "ex_he": "אני הולך לסופרמרקט בשבתות."
+    },
+    {
+      "id": "w000621",
+      "es": "la oficina de correos",
+      "he": "סניף דואר",
+      "ex_es": "Envié el paquete en la oficina de correos.",
+      "ex_he": "שלחתי את החבילה בסניף הדואר."
+    },
+    {
+      "id": "w000622",
+      "es": "la comisaría",
+      "he": "תחנת משטרה",
+      "ex_es": "La comisaría está cerca de aquí.",
+      "ex_he": "תחנת המשטרה קרובה לכאן."
+    },
+    {
+      "id": "w000623",
+      "es": "el parque",
+      "he": "פארק",
+      "ex_es": "Los niños juegan en el parque los domingos.",
+      "ex_he": "הילדים משחקים בפארק בימי ראשון."
+    },
+    {
+      "id": "w000624",
+      "es": "el ayuntamiento",
+      "he": "עירייה",
+      "ex_es": "El ayuntamiento está en el centro.",
+      "ex_he": "העירייה נמצאת במרכז."
+    },
+    {
+      "id": "w000625",
+      "es": "la plaza",
+      "he": "כיכר",
+      "ex_es": "Nos vemos en la plaza a las seis.",
+      "ex_he": "נתראה בכיכר בשש."
+    },
+    {
+      "id": "w000626",
+      "es": "el centro comercial",
+      "he": "קניון",
+      "ex_es": "Fuimos al centro comercial el fin de semana.",
+      "ex_he": "הלכנו לקניון בסוף השבוע."
+    },
+    {
+      "id": "w000627",
+      "es": "la iglesia",
+      "he": "כנסייה",
+      "ex_es": "La iglesia es muy antigua.",
+      "ex_he": "הכנסייה מאוד עתיקה."
+    },
+    {
+      "id": "w000628",
+      "es": "el aparcamiento",
+      "he": "חניון",
+      "ex_es": "No hay aparcamiento cerca de aquí.",
+      "ex_he": "אין חניון בקרבת מקום."
+    },
+    {
+      "id": "w000629",
+      "es": "la gasolinera",
+      "he": "תחנת דלק",
+      "ex_es": "Paramos en la gasolinera para echar gasolina.",
+      "ex_he": "עצרנו בתחנת הדלק כדי למלא דלק."
+    },
+    {
+      "id": "w000630",
+      "es": "el museo",
+      "he": "מוזיאון",
+      "ex_es": "Visitamos el museo de arte.",
+      "ex_he": "ביקרנו במוזיאון האמנות."
+    },
+    {
+      "id": "w000631",
+      "es": "el teatro",
+      "he": "תיאטרון",
+      "ex_es": "Vamos al teatro esta noche.",
+      "ex_he": "אנחנו הולכים לתיאטרון הערב."
+    },
+    {
+      "id": "w000632",
+      "es": "la estación de bomberos",
+      "he": "תחנת כיבוי אש",
+      "ex_es": "La estación de bomberos está lejos de mi casa.",
+      "ex_he": "תחנת הכיבוי רחוקה מהבית שלי."
+    },
+    {
+      "id": "w000633",
+      "es": "el barrio",
+      "he": "שכונה",
+      "ex_es": "Vivo en un barrio tranquilo.",
+      "ex_he": "אני גר בשכונה שקטה."
+    },
+    {
+      "id": "w000634",
+      "es": "la zona peatonal",
+      "he": "אזור הולכי רגל",
+      "ex_es": "La zona peatonal está llena de tiendas.",
+      "ex_he": "אזור הולכי הרגל מלא בחנויות."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000287",
+      "es": "¿Dónde está el banco más cercano?",
+      "he": "איפה הבנק הכי קרוב?"
+    },
+    {
+      "id": "s000288",
+      "es": "Voy al supermercado para comprar comida.",
+      "he": "אני הולך לסופרמרקט לקנות אוכל."
+    },
+    {
+      "id": "s000289",
+      "es": "Nos vemos en la plaza a las seis.",
+      "he": "נתראה בכיכר בשש."
+    },
+    {
+      "id": "s000290",
+      "es": "El ayuntamiento está cerca del parque.",
+      "he": "העירייה קרובה לפארק."
+    },
+    {
+      "id": "s000291",
+      "es": "Fuimos al museo el sábado pasado.",
+      "he": "הלכנו למוזיאון בשבת שעברה."
+    },
+    {
+      "id": "s000292",
+      "es": "No encuentro aparcamiento en el centro.",
+      "he": "אני לא מוצא חניה במרכז."
+    },
+    {
+      "id": "s000293",
+      "es": "Envié una carta desde la oficina de correos.",
+      "he": "שלחתי מכתב מסניף הדואר."
+    },
+    {
+      "id": "s000294",
+      "es": "Esta noche vamos al teatro.",
+      "he": "הערב אנחנו הולכים לתיאטרון."
+    }
+  ]
+}
