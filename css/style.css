@@ -416,6 +416,37 @@ button:focus-visible,
   color: var(--text);
 }
 .ctrl-btn:disabled { opacity: .4; cursor: not-allowed; }
+.feedback-area {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.feedback-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.feedback-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+.feedback-icon { width: 20px; height: 20px; flex-shrink: 0; }
+.feedback-btn.whatsapp {
+  background: #25d366;
+  color: white;
+}
+.feedback-btn.whatsapp .feedback-icon { fill: white; }
+.feedback-btn.email {
+  background: white;
+  color: var(--text);
+  border: 1.5px solid var(--border);
+}
 .speak-btn {
   background: none;
   border: 1px solid var(--border);
