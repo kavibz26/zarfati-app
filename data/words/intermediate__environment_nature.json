@@ -1,0 +1,167 @@
+{
+  "levelId": "intermediate",
+  "topicId": "environment_nature",
+  "vocab": [
+    {
+      "id": "w000813",
+      "es": "el medio ambiente",
+      "he": "הסביבה",
+      "ex_es": "Debemos cuidar el medio ambiente.",
+      "ex_he": "אנחנו צריכים לשמור על הסביבה."
+    },
+    {
+      "id": "w000814",
+      "es": "la contaminación",
+      "he": "זיהום",
+      "ex_es": "La contaminación del aire es un problema grave.",
+      "ex_he": "זיהום האוויר הוא בעיה חמורה."
+    },
+    {
+      "id": "w000815",
+      "es": "el cambio climático",
+      "he": "שינוי אקלים",
+      "ex_es": "El cambio climático afecta a todo el planeta.",
+      "ex_he": "שינוי האקלים משפיע על כל כדור הארץ."
+    },
+    {
+      "id": "w000816",
+      "es": "reciclar",
+      "he": "למחזר",
+      "ex_es": "Es importante reciclar el plástico.",
+      "ex_he": "חשוב למחזר פלסטיק."
+    },
+    {
+      "id": "w000817",
+      "es": "el reciclaje",
+      "he": "מיחזור",
+      "ex_es": "El reciclaje ayuda a proteger el planeta.",
+      "ex_he": "המיחזור עוזר להגן על כדור הארץ."
+    },
+    {
+      "id": "w000818",
+      "es": "la energía renovable",
+      "he": "אנרגיה מתחדשת",
+      "ex_es": "Usamos energía renovable en casa.",
+      "ex_he": "אנחנו משתמשים באנרגיה מתחדשת בבית."
+    },
+    {
+      "id": "w000819",
+      "es": "el calentamiento global",
+      "he": "התחממות גלובלית",
+      "ex_es": "El calentamiento global preocupa a los científicos.",
+      "ex_he": "ההתחממות הגלובלית מדאיגה את המדענים."
+    },
+    {
+      "id": "w000820",
+      "es": "proteger",
+      "he": "להגן",
+      "ex_es": "Debemos proteger los animales en peligro.",
+      "ex_he": "אנחנו צריכים להגן על בעלי חיים בסכנה."
+    },
+    {
+      "id": "w000821",
+      "es": "en peligro de extinción",
+      "he": "בסכנת הכחדה",
+      "ex_es": "Muchas especies están en peligro de extinción.",
+      "ex_he": "מינים רבים נמצאים בסכנת הכחדה."
+    },
+    {
+      "id": "w000822",
+      "es": "los recursos naturales",
+      "he": "משאבי טבע",
+      "ex_es": "Necesitamos cuidar los recursos naturales.",
+      "ex_he": "אנחנו צריכים לשמור על משאבי הטבע."
+    },
+    {
+      "id": "w000823",
+      "es": "la basura",
+      "he": "זבל",
+      "ex_es": "Hay demasiada basura en las calles.",
+      "ex_he": "יש יותר מדי זבל ברחובות."
+    },
+    {
+      "id": "w000824",
+      "es": "la deforestación",
+      "he": "כריתת יערות",
+      "ex_es": "La deforestación destruye muchos hábitats.",
+      "ex_he": "כריתת היערות הורסת בתי גידול רבים."
+    },
+    {
+      "id": "w000825",
+      "es": "sostenible",
+      "he": "בר-קיימא",
+      "ex_es": "Buscamos un futuro más sostenible.",
+      "ex_he": "אנחנו מחפשים עתיד יותר בר-קיימא."
+    },
+    {
+      "id": "w000826",
+      "es": "el ecosistema",
+      "he": "מערכת אקולוגית",
+      "ex_es": "Cada ecosistema es único.",
+      "ex_he": "כל מערכת אקולוגית היא ייחודית."
+    },
+    {
+      "id": "w000827",
+      "es": "ahorrar agua",
+      "he": "לחסוך במים",
+      "ex_es": "Es necesario ahorrar agua todos los días.",
+      "ex_he": "צריך לחסוך במים כל יום."
+    },
+    {
+      "id": "w000828",
+      "es": "el aire puro",
+      "he": "אוויר נקי",
+      "ex_es": "Necesitamos respirar aire puro.",
+      "ex_he": "אנחנו צריכים לנשום אוויר נקי."
+    },
+    {
+      "id": "w000829",
+      "es": "cuidar el planeta",
+      "he": "לשמור על כדור הארץ",
+      "ex_es": "Todos debemos cuidar el planeta.",
+      "ex_he": "כולנו צריכים לשמור על כדור הארץ."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000391",
+      "es": "Debemos cuidar el medio ambiente para las próximas generaciones.",
+      "he": "אנחנו צריכים לשמור על הסביבה למען הדורות הבאים."
+    },
+    {
+      "id": "s000392",
+      "es": "La contaminación afecta la salud de las personas.",
+      "he": "הזיהום משפיע על בריאות האנשים."
+    },
+    {
+      "id": "s000393",
+      "es": "Reciclamos el papel y el plástico en casa.",
+      "he": "אנחנו ממחזרים נייר ופלסטיק בבית."
+    },
+    {
+      "id": "s000394",
+      "es": "El cambio climático es uno de los mayores desafíos actuales.",
+      "he": "שינוי האקלים הוא אחד האתגרים הגדולים ביותר של ימינו."
+    },
+    {
+      "id": "s000395",
+      "es": "Muchos animales están en peligro de extinción.",
+      "he": "הרבה בעלי חיים נמצאים בסכנת הכחדה."
+    },
+    {
+      "id": "s000396",
+      "es": "Es importante ahorrar agua y energía.",
+      "he": "חשוב לחסוך במים ובאנרגיה."
+    },
+    {
+      "id": "s000397",
+      "es": "La deforestación es un problema muy serio.",
+      "he": "כריתת היערות היא בעיה מאוד רצינית."
+    },
+    {
+      "id": "s000398",
+      "es": "Queremos vivir en un mundo más sostenible.",
+      "he": "אנחנו רוצים לחיות בעולם יותר בר-קיימא."
+    }
+  ]
+}

@@ -4871,6 +4871,108 @@
       "he": "לדוגמה",
       "levelId": "grammar",
       "topicId": "por_para"
+    },
+    "w000813": {
+      "es": "el medio ambiente",
+      "he": "הסביבה",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000814": {
+      "es": "la contaminación",
+      "he": "זיהום",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000815": {
+      "es": "el cambio climático",
+      "he": "שינוי אקלים",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000816": {
+      "es": "reciclar",
+      "he": "למחזר",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000817": {
+      "es": "el reciclaje",
+      "he": "מיחזור",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000818": {
+      "es": "la energía renovable",
+      "he": "אנרגיה מתחדשת",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000819": {
+      "es": "el calentamiento global",
+      "he": "התחממות גלובלית",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000820": {
+      "es": "proteger",
+      "he": "להגן",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000821": {
+      "es": "en peligro de extinción",
+      "he": "בסכנת הכחדה",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000822": {
+      "es": "los recursos naturales",
+      "he": "משאבי טבע",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000823": {
+      "es": "la basura",
+      "he": "זבל",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000824": {
+      "es": "la deforestación",
+      "he": "כריתת יערות",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000825": {
+      "es": "sostenible",
+      "he": "בר-קיימא",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000826": {
+      "es": "el ecosistema",
+      "he": "מערכת אקולוגית",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000827": {
+      "es": "ahorrar agua",
+      "he": "לחסוך במים",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000828": {
+      "es": "el aire puro",
+      "he": "אוויר נקי",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "w000829": {
+      "es": "cuidar el planeta",
+      "he": "לשמור על כדור הארץ",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
     }
   },
   "sentences": {
@@ -6823,6 +6925,46 @@
       "es": "Viajamos por tren hasta Valencia.",
       "levelId": "grammar",
       "topicId": "por_para"
+    },
+    "s000391": {
+      "es": "Debemos cuidar el medio ambiente para las próximas generaciones.",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "s000392": {
+      "es": "La contaminación afecta la salud de las personas.",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "s000393": {
+      "es": "Reciclamos el papel y el plástico en casa.",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "s000394": {
+      "es": "El cambio climático es uno de los mayores desafíos actuales.",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "s000395": {
+      "es": "Muchos animales están en peligro de extinción.",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "s000396": {
+      "es": "Es importante ahorrar agua y energía.",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "s000397": {
+      "es": "La deforestación es un problema muy serio.",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
+    },
+    "s000398": {
+      "es": "Queremos vivir en un mundo más sostenible.",
+      "levelId": "intermediate",
+      "topicId": "environment_nature"
     }
   }
 }

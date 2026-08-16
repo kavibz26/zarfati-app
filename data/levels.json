@@ -240,6 +240,12 @@
         "name": "טכנולוגיה ואינטרנט",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "environment_nature",
+        "name": "סביבה וטבע",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   },
