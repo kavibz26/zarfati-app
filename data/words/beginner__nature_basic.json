@@ -1,0 +1,160 @@
+{
+  "levelId": "beginner",
+  "topicId": "nature_basic",
+  "vocab": [
+    {
+      "id": "w000785",
+      "es": "el árbol",
+      "he": "עץ",
+      "ex_es": "Hay un árbol grande en el jardín.",
+      "ex_he": "יש עץ גדול בגינה."
+    },
+    {
+      "id": "w000786",
+      "es": "la montaña",
+      "he": "הר",
+      "ex_es": "Me gusta caminar en la montaña.",
+      "ex_he": "אני אוהב ללכת בהר."
+    },
+    {
+      "id": "w000787",
+      "es": "el río",
+      "he": "נהר",
+      "ex_es": "El río pasa por la ciudad.",
+      "ex_he": "הנהר עובר דרך העיר."
+    },
+    {
+      "id": "w000788",
+      "es": "el lago",
+      "he": "אגם",
+      "ex_es": "Nadamos en el lago.",
+      "ex_he": "שחינו באגם."
+    },
+    {
+      "id": "w000789",
+      "es": "el bosque",
+      "he": "יער",
+      "ex_es": "Caminamos por el bosque.",
+      "ex_he": "הלכנו ביער."
+    },
+    {
+      "id": "w000790",
+      "es": "la flor",
+      "he": "פרח",
+      "ex_es": "Le regalé flores.",
+      "ex_he": "נתתי לה פרחים במתנה."
+    },
+    {
+      "id": "w000791",
+      "es": "la planta",
+      "he": "צמח",
+      "ex_es": "Riego las plantas cada día.",
+      "ex_he": "אני משקה את הצמחים כל יום."
+    },
+    {
+      "id": "w000792",
+      "es": "la piedra",
+      "he": "אבן",
+      "ex_es": "Encontré una piedra bonita.",
+      "ex_he": "מצאתי אבן יפה."
+    },
+    {
+      "id": "w000793",
+      "es": "el cielo",
+      "he": "שמיים",
+      "ex_es": "El cielo está muy despejado.",
+      "ex_he": "השמיים מאוד בהירים."
+    },
+    {
+      "id": "w000794",
+      "es": "la tierra",
+      "he": "אדמה/כדור הארץ",
+      "ex_es": "La tierra es muy fértil aquí.",
+      "ex_he": "האדמה מאוד פורייה כאן."
+    },
+    {
+      "id": "w000795",
+      "es": "la isla",
+      "he": "אי",
+      "ex_es": "Fuimos a una isla pequeña.",
+      "ex_he": "הלכנו לאי קטן."
+    },
+    {
+      "id": "w000796",
+      "es": "la selva",
+      "he": "ג'ונגל",
+      "ex_es": "La selva tiene muchos animales.",
+      "ex_he": "בג'ונגל יש הרבה חיות."
+    },
+    {
+      "id": "w000797",
+      "es": "el desierto",
+      "he": "מדבר",
+      "ex_es": "El desierto es muy seco.",
+      "ex_he": "המדבר מאוד יבש."
+    },
+    {
+      "id": "w000798",
+      "es": "la arena",
+      "he": "חול",
+      "ex_es": "Los niños juegan en la arena.",
+      "ex_he": "הילדים משחקים בחול."
+    },
+    {
+      "id": "w000799",
+      "es": "la estrella",
+      "he": "כוכב",
+      "ex_es": "Las estrellas brillan por la noche.",
+      "ex_he": "הכוכבים זורחים בלילה."
+    },
+    {
+      "id": "w000800",
+      "es": "la luna",
+      "he": "ירח",
+      "ex_es": "La luna está llena esta noche.",
+      "ex_he": "הירח מלא הלילה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000375",
+      "es": "Hay un río cerca de mi pueblo.",
+      "he": "יש נהר קרוב לכפר שלי."
+    },
+    {
+      "id": "s000376",
+      "es": "Vamos a caminar por el bosque.",
+      "he": "אנחנו הולכים לטייל ביער."
+    },
+    {
+      "id": "s000377",
+      "es": "El cielo está lleno de estrellas.",
+      "he": "השמיים מלאים בכוכבים."
+    },
+    {
+      "id": "s000378",
+      "es": "Nadamos en el lago todo el verano.",
+      "he": "שחינו באגם כל הקיץ."
+    },
+    {
+      "id": "s000379",
+      "es": "Las flores del jardín son muy bonitas.",
+      "he": "הפרחים בגינה מאוד יפים."
+    },
+    {
+      "id": "s000380",
+      "es": "El desierto es muy caliente durante el día.",
+      "he": "המדבר מאוד חם במהלך היום."
+    },
+    {
+      "id": "s000381",
+      "es": "Subimos a la montaña más alta de la zona.",
+      "he": "טיפסנו על ההר הגבוה ביותר באזור."
+    },
+    {
+      "id": "s000382",
+      "es": "Los niños construyen castillos de arena.",
+      "he": "הילדים בונים ארמונות חול."
+    }
+  ]
+}

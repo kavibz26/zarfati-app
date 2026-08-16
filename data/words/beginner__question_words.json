@@ -1,0 +1,132 @@
+{
+  "levelId": "beginner",
+  "topicId": "question_words",
+  "vocab": [
+    {
+      "id": "w000680",
+      "es": "¿Qué?",
+      "he": "מה?",
+      "ex_es": "¿Qué es esto?",
+      "ex_he": "מה זה?"
+    },
+    {
+      "id": "w000681",
+      "es": "¿Quién?",
+      "he": "מי?",
+      "ex_es": "¿Quién es ella?",
+      "ex_he": "מי היא?"
+    },
+    {
+      "id": "w000682",
+      "es": "¿Cómo?",
+      "he": "איך?",
+      "ex_es": "¿Cómo se llama tu perro?",
+      "ex_he": "איך קוראים לכלב שלך?"
+    },
+    {
+      "id": "w000683",
+      "es": "¿Cuándo?",
+      "he": "מתי?",
+      "ex_es": "¿Cuándo es la fiesta?",
+      "ex_he": "מתי המסיבה?"
+    },
+    {
+      "id": "w000684",
+      "es": "¿Dónde?",
+      "he": "איפה?",
+      "ex_es": "¿Dónde trabajas?",
+      "ex_he": "איפה אתה עובד?"
+    },
+    {
+      "id": "w000685",
+      "es": "¿Por qué?",
+      "he": "למה?",
+      "ex_es": "¿Por qué no vienes?",
+      "ex_he": "למה אתה לא בא?"
+    },
+    {
+      "id": "w000686",
+      "es": "¿Cuánto/a?",
+      "he": "כמה?",
+      "ex_es": "¿Cuánta agua necesitas?",
+      "ex_he": "כמה מים אתה צריך?"
+    },
+    {
+      "id": "w000687",
+      "es": "¿Cuál?",
+      "he": "איזה/איזו?",
+      "ex_es": "¿Cuál prefieres?",
+      "ex_he": "איזה אתה מעדיף?"
+    },
+    {
+      "id": "w000688",
+      "es": "¿Cuántos/as?",
+      "he": "כמה (רבים)?",
+      "ex_es": "¿Cuántos libros tienes?",
+      "ex_he": "כמה ספרים יש לך?"
+    },
+    {
+      "id": "w000689",
+      "es": "¿Adónde?",
+      "he": "לאן?",
+      "ex_es": "¿Adónde vas?",
+      "ex_he": "לאן אתה הולך?"
+    },
+    {
+      "id": "w000690",
+      "es": "¿Para qué?",
+      "he": "בשביל מה?",
+      "ex_es": "¿Para qué sirve esto?",
+      "ex_he": "בשביל מה זה משמש?"
+    },
+    {
+      "id": "w000691",
+      "es": "¿De dónde?",
+      "he": "מאיפה?",
+      "ex_es": "¿De dónde eres?",
+      "ex_he": "מאיפה אתה?"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000319",
+      "es": "¿Qué es esto?",
+      "he": "מה זה?"
+    },
+    {
+      "id": "s000320",
+      "es": "¿Quién viene a la fiesta?",
+      "he": "מי בא למסיבה?"
+    },
+    {
+      "id": "s000321",
+      "es": "¿Dónde está la estación?",
+      "he": "איפה התחנה?"
+    },
+    {
+      "id": "s000322",
+      "es": "¿Cuándo empieza la película?",
+      "he": "מתי הסרט מתחיל?"
+    },
+    {
+      "id": "s000323",
+      "es": "¿Por qué estás triste?",
+      "he": "למה אתה עצוב?"
+    },
+    {
+      "id": "s000324",
+      "es": "¿Cuál es tu color favorito?",
+      "he": "מה הצבע האהוב עליך?"
+    },
+    {
+      "id": "s000325",
+      "es": "¿De dónde eres tú?",
+      "he": "מאיפה אתה?"
+    },
+    {
+      "id": "s000326",
+      "es": "¿Cuántos hermanos tienes?",
+      "he": "כמה אחים יש לך?"
+    }
+  ]
+}

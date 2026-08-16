@@ -1,0 +1,146 @@
+{
+  "levelId": "beginner",
+  "topicId": "adverbs_frequency",
+  "vocab": [
+    {
+      "id": "w000710",
+      "es": "siempre",
+      "he": "תמיד",
+      "ex_es": "Siempre desayuno a las ocho.",
+      "ex_he": "אני תמיד אוכל ארוחת בוקר בשמונה."
+    },
+    {
+      "id": "w000711",
+      "es": "nunca",
+      "he": "אף פעם לא",
+      "ex_es": "Nunca como carne.",
+      "ex_he": "אני אף פעם לא אוכל בשר."
+    },
+    {
+      "id": "w000712",
+      "es": "a veces",
+      "he": "לפעמים",
+      "ex_es": "A veces voy al cine.",
+      "ex_he": "לפעמים אני הולך לקולנוע."
+    },
+    {
+      "id": "w000713",
+      "es": "mucho",
+      "he": "הרבה",
+      "ex_es": "Trabajo mucho.",
+      "ex_he": "אני עובד הרבה."
+    },
+    {
+      "id": "w000714",
+      "es": "poco",
+      "he": "מעט",
+      "ex_es": "Duermo poco.",
+      "ex_he": "אני ישן מעט."
+    },
+    {
+      "id": "w000715",
+      "es": "también",
+      "he": "גם כן",
+      "ex_es": "Yo también quiero ir.",
+      "ex_he": "גם אני רוצה ללכת."
+    },
+    {
+      "id": "w000716",
+      "es": "tampoco",
+      "he": "גם לא",
+      "ex_es": "Yo tampoco lo sé.",
+      "ex_he": "גם אני לא יודע."
+    },
+    {
+      "id": "w000717",
+      "es": "más",
+      "he": "יותר",
+      "ex_es": "Quiero más café.",
+      "ex_he": "אני רוצה יותר קפה."
+    },
+    {
+      "id": "w000718",
+      "es": "menos",
+      "he": "פחות",
+      "ex_es": "Necesito menos estrés.",
+      "ex_he": "אני צריך פחות לחץ."
+    },
+    {
+      "id": "w000719",
+      "es": "bastante",
+      "he": "די/מספיק",
+      "ex_es": "Tengo bastante tiempo.",
+      "ex_he": "יש לי מספיק זמן."
+    },
+    {
+      "id": "w000720",
+      "es": "demasiado",
+      "he": "יותר מדי",
+      "ex_es": "Hay demasiada gente aquí.",
+      "ex_he": "יש יותר מדי אנשים כאן."
+    },
+    {
+      "id": "w000721",
+      "es": "casi",
+      "he": "כמעט",
+      "ex_es": "Ya casi terminamos.",
+      "ex_he": "כבר כמעט סיימנו."
+    },
+    {
+      "id": "w000722",
+      "es": "todavía",
+      "he": "עדיין",
+      "ex_es": "Todavía no he comido.",
+      "ex_he": "עדיין לא אכלתי."
+    },
+    {
+      "id": "w000723",
+      "es": "ya",
+      "he": "כבר",
+      "ex_es": "Ya llegué.",
+      "ex_he": "כבר הגעתי."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000335",
+      "es": "Siempre llego a tiempo.",
+      "he": "אני תמיד מגיע בזמן."
+    },
+    {
+      "id": "s000336",
+      "es": "Nunca bebo café por la noche.",
+      "he": "אני אף פעם לא שותה קפה בלילה."
+    },
+    {
+      "id": "s000337",
+      "es": "A veces trabajo los fines de semana.",
+      "he": "לפעמים אני עובד בסופי שבוע."
+    },
+    {
+      "id": "s000338",
+      "es": "Como demasiado los fines de semana.",
+      "he": "אני אוכל יותר מדי בסופי שבוע."
+    },
+    {
+      "id": "s000339",
+      "es": "Todavía no he terminado la tarea.",
+      "he": "עדיין לא סיימתי את שיעורי הבית."
+    },
+    {
+      "id": "s000340",
+      "es": "Ya son las diez.",
+      "he": "כבר השעה עשר."
+    },
+    {
+      "id": "s000341",
+      "es": "Tengo bastante trabajo esta semana.",
+      "he": "יש לי מספיק עבודה השבוע."
+    },
+    {
+      "id": "s000342",
+      "es": "Necesito más tiempo para terminar.",
+      "he": "אני צריך יותר זמן כדי לסיים."
+    }
+  ]
+}

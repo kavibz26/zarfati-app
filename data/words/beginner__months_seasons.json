@@ -1,0 +1,160 @@
+{
+  "levelId": "beginner",
+  "topicId": "months_seasons",
+  "vocab": [
+    {
+      "id": "w000724",
+      "es": "enero",
+      "he": "ינואר",
+      "ex_es": "Mi cumpleaños es en enero.",
+      "ex_he": "יום ההולדת שלי בינואר."
+    },
+    {
+      "id": "w000725",
+      "es": "febrero",
+      "he": "פברואר",
+      "ex_es": "Febrero es un mes corto.",
+      "ex_he": "פברואר הוא חודש קצר."
+    },
+    {
+      "id": "w000726",
+      "es": "marzo",
+      "he": "מרץ",
+      "ex_es": "La primavera empieza en marzo.",
+      "ex_he": "האביב מתחיל במרץ."
+    },
+    {
+      "id": "w000727",
+      "es": "abril",
+      "he": "אפריל",
+      "ex_es": "Llueve mucho en abril.",
+      "ex_he": "יורד הרבה גשם באפריל."
+    },
+    {
+      "id": "w000728",
+      "es": "mayo",
+      "he": "מאי",
+      "ex_es": "Nos casamos en mayo.",
+      "ex_he": "התחתנו במאי."
+    },
+    {
+      "id": "w000729",
+      "es": "junio",
+      "he": "יוני",
+      "ex_es": "Las clases terminan en junio.",
+      "ex_he": "השיעורים מסתיימים ביוני."
+    },
+    {
+      "id": "w000730",
+      "es": "julio",
+      "he": "יולי",
+      "ex_es": "En julio hace mucho calor.",
+      "ex_he": "ביולי חם מאוד."
+    },
+    {
+      "id": "w000731",
+      "es": "agosto",
+      "he": "אוגוסט",
+      "ex_es": "Vamos de vacaciones en agosto.",
+      "ex_he": "אנחנו יוצאים לחופשה באוגוסט."
+    },
+    {
+      "id": "w000732",
+      "es": "septiembre",
+      "he": "ספטמבר",
+      "ex_es": "La escuela empieza en septiembre.",
+      "ex_he": "בית הספר מתחיל בספטמבר."
+    },
+    {
+      "id": "w000733",
+      "es": "octubre",
+      "he": "אוקטובר",
+      "ex_es": "En octubre empieza el otoño.",
+      "ex_he": "באוקטובר מתחיל הסתיו."
+    },
+    {
+      "id": "w000734",
+      "es": "noviembre",
+      "he": "נובמבר",
+      "ex_es": "Hace frío en noviembre.",
+      "ex_he": "קר בנובמבר."
+    },
+    {
+      "id": "w000735",
+      "es": "diciembre",
+      "he": "דצמבר",
+      "ex_es": "El año termina en diciembre.",
+      "ex_he": "השנה מסתיימת בדצמבר."
+    },
+    {
+      "id": "w000736",
+      "es": "la primavera",
+      "he": "אביב",
+      "ex_es": "Me encanta la primavera.",
+      "ex_he": "אני מאוד אוהב את האביב."
+    },
+    {
+      "id": "w000737",
+      "es": "el verano",
+      "he": "קיץ",
+      "ex_es": "En verano vamos a la playa.",
+      "ex_he": "בקיץ אנחנו הולכים לחוף."
+    },
+    {
+      "id": "w000738",
+      "es": "el otoño",
+      "he": "סתיו",
+      "ex_es": "Las hojas caen en otoño.",
+      "ex_he": "העלים נופלים בסתיו."
+    },
+    {
+      "id": "w000739",
+      "es": "el invierno",
+      "he": "חורף",
+      "ex_es": "En invierno nieva mucho.",
+      "ex_he": "בחורף יורד הרבה שלג."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000343",
+      "es": "Mi cumpleaños es en marzo.",
+      "he": "יום ההולדת שלי במרץ."
+    },
+    {
+      "id": "s000344",
+      "es": "En verano hace mucho calor.",
+      "he": "בקיץ חם מאוד."
+    },
+    {
+      "id": "s000345",
+      "es": "La escuela empieza en septiembre.",
+      "he": "בית הספר מתחיל בספטמבר."
+    },
+    {
+      "id": "s000346",
+      "es": "Nieva mucho en invierno.",
+      "he": "יורד הרבה שלג בחורף."
+    },
+    {
+      "id": "s000347",
+      "es": "Las hojas cambian de color en otoño.",
+      "he": "העלים משנים צבע בסתיו."
+    },
+    {
+      "id": "s000348",
+      "es": "Vamos de vacaciones en julio.",
+      "he": "אנחנו יוצאים לחופשה ביולי."
+    },
+    {
+      "id": "s000349",
+      "es": "En abril llueve mucho.",
+      "he": "באפריל יורד הרבה גשם."
+    },
+    {
+      "id": "s000350",
+      "es": "El año nuevo empieza en enero.",
+      "he": "השנה החדשה מתחילה בינואר."
+    }
+  ]
+}

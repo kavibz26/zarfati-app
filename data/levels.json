@@ -100,6 +100,60 @@
         "name": "בית ספר ולימודים",
         "vocabCount": 16,
         "sentenceCount": 8
+      },
+      {
+        "id": "prepositions_location",
+        "name": "מילות יחס ומיקום",
+        "vocabCount": 16,
+        "sentenceCount": 8
+      },
+      {
+        "id": "question_words",
+        "name": "מילות שאלה",
+        "vocabCount": 12,
+        "sentenceCount": 8
+      },
+      {
+        "id": "common_adjectives",
+        "name": "תארים בסיסיים",
+        "vocabCount": 18,
+        "sentenceCount": 8
+      },
+      {
+        "id": "adverbs_frequency",
+        "name": "תדירות וכמות",
+        "vocabCount": 14,
+        "sentenceCount": 8
+      },
+      {
+        "id": "months_seasons",
+        "name": "חודשים ועונות",
+        "vocabCount": 16,
+        "sentenceCount": 8
+      },
+      {
+        "id": "nationalities_countries",
+        "name": "לאומים ומדינות",
+        "vocabCount": 14,
+        "sentenceCount": 8
+      },
+      {
+        "id": "sports",
+        "name": "ספורט",
+        "vocabCount": 16,
+        "sentenceCount": 8
+      },
+      {
+        "id": "restaurant_dining",
+        "name": "מסעדה והזמנה",
+        "vocabCount": 15,
+        "sentenceCount": 8
+      },
+      {
+        "id": "nature_basic",
+        "name": "טבע בסיסי",
+        "vocabCount": 16,
+        "sentenceCount": 8
       }
     ]
   },
@@ -179,6 +233,12 @@
         "id": "city_places",
         "name": "מקומות בעיר",
         "vocabCount": 16,
+        "sentenceCount": 8
+      },
+      {
+        "id": "technology",
+        "name": "טכנולוגיה ואינטרנט",
+        "vocabCount": 17,
         "sentenceCount": 8
       }
     ]
@@ -268,6 +328,18 @@
         "name": "הטיות בסיסיות בהווה",
         "vocabCount": 18,
         "sentenceCount": 5
+      },
+      {
+        "id": "ser_vs_estar",
+        "name": "Ser מול Estar",
+        "vocabCount": 12,
+        "sentenceCount": 8
+      },
+      {
+        "id": "por_para",
+        "name": "Por מול Para",
+        "vocabCount": 12,
+        "sentenceCount": 8
       }
     ]
   }

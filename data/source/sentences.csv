@@ -293,3 +293,99 @@ s000291,Fuimos al museo el sábado pasado.,הלכנו למוזיאון בשבת 
 s000292,No encuentro aparcamiento en el centro.,אני לא מוצא חניה במרכז.,intermediate,city_places
 s000293,Envié una carta desde la oficina de correos.,שלחתי מכתב מסניף הדואר.,intermediate,city_places
 s000294,Esta noche vamos al teatro.,הערב אנחנו הולכים לתיאטרון.,intermediate,city_places
+s000295,No tengo internet en casa.,אין לי אינטרנט בבית.,intermediate,technology
+s000296,¿Cuál es la contraseña del wifi?,מה הסיסמה של הוויפיי?,intermediate,technology
+s000297,Te envié un mensaje esta mañana.,שלחתי לך הודעה הבוקר.,intermediate,technology
+s000298,Mi teléfono necesita un cargador.,לטלפון שלי צריך מטען.,intermediate,technology
+s000299,Descargué una aplicación nueva ayer.,הורדתי אפליקציה חדשה אתמול.,intermediate,technology
+s000300,No encuentro el archivo que necesito.,אני לא מוצא את הקובץ שאני צריך.,intermediate,technology
+s000301,Paso demasiado tiempo en las redes sociales.,אני מבלה יותר מדי זמן ברשתות חברתיות.,intermediate,technology
+s000302,La pantalla de mi computadora está rota.,המסך של המחשב שלי שבור.,intermediate,technology
+s000303,Mi madre es profesora y está muy ocupada hoy.,אמא שלי מורה והיא מאוד עסוקה היום.,grammar,ser_vs_estar
+s000304,Mi abuela es de Marruecos.,סבתא שלי ממרוקו.,grammar,ser_vs_estar
+s000305,Estamos muy contentos con el resultado.,אנחנו מאוד מרוצים מהתוצאה.,grammar,ser_vs_estar
+s000306,La puerta está cerrada.,הדלת סגורה.,grammar,ser_vs_estar
+s000307,Somos estudiantes de español.,אנחנו תלמידים לספרדית.,grammar,ser_vs_estar
+s000308,Estoy muy ocupado esta semana.,אני מאוד עסוק השבוע.,grammar,ser_vs_estar
+s000309,El libro es muy interesante.,הספר מאוד מעניין.,grammar,ser_vs_estar
+s000310,Ellos están de vacaciones en México.,הם בחופשה במקסיקו.,grammar,ser_vs_estar
+s000311,El libro está sobre la mesa.,הספר על השולחן.,beginner,prepositions_location
+s000312,La tienda está al lado del banco.,החנות ליד הבנק.,beginner,prepositions_location
+s000313,Vivo cerca de la escuela.,אני גר קרוב לבית הספר.,beginner,prepositions_location
+s000314,El gato está debajo de la cama.,החתול מתחת למיטה.,beginner,prepositions_location
+s000315,Hay un parque detrás de mi casa.,יש פארק מאחורי הבית שלי.,beginner,prepositions_location
+s000316,Las llaves están dentro del bolso.,המפתחות בתוך התיק.,beginner,prepositions_location
+s000317,Mi habitación está arriba y la cocina abajo.,החדר שלי למעלה והמטבח למטה.,beginner,prepositions_location
+s000318,El restaurante está lejos de aquí.,המסעדה רחוקה מכאן.,beginner,prepositions_location
+s000319,¿Qué es esto?,מה זה?,beginner,question_words
+s000320,¿Quién viene a la fiesta?,מי בא למסיבה?,beginner,question_words
+s000321,¿Dónde está la estación?,איפה התחנה?,beginner,question_words
+s000322,¿Cuándo empieza la película?,מתי הסרט מתחיל?,beginner,question_words
+s000323,¿Por qué estás triste?,למה אתה עצוב?,beginner,question_words
+s000324,¿Cuál es tu color favorito?,מה הצבע האהוב עליך?,beginner,question_words
+s000325,¿De dónde eres tú?,מאיפה אתה?,beginner,question_words
+s000326,¿Cuántos hermanos tienes?,כמה אחים יש לך?,beginner,question_words
+s000327,Mi casa es grande pero mi coche es pequeño.,הבית שלי גדול אבל המכונית שלי קטנה.,beginner,common_adjectives
+s000328,Esta tarea es muy difícil para mí.,המשימה הזאת מאוד קשה בשבילי.,beginner,common_adjectives
+s000329,El tren es más rápido que el autobús.,הרכבת מהירה יותר מהאוטובוס.,beginner,common_adjectives
+s000330,Necesito una habitación limpia.,אני צריך חדר נקי.,beginner,common_adjectives
+s000331,Mi abuelo es muy fuerte para su edad.,סבא שלי מאוד חזק בשביל גילו.,beginner,common_adjectives
+s000332,Compré una camisa nueva ayer.,קניתי חולצה חדשה אתמול.,beginner,common_adjectives
+s000333,El edificio más alto de la ciudad es aquel.,הבניין הגבוה ביותר בעיר הוא ההוא.,beginner,common_adjectives
+s000334,El examen de hoy fue fácil.,המבחן של היום היה קל.,beginner,common_adjectives
+s000335,Siempre llego a tiempo.,אני תמיד מגיע בזמן.,beginner,adverbs_frequency
+s000336,Nunca bebo café por la noche.,אני אף פעם לא שותה קפה בלילה.,beginner,adverbs_frequency
+s000337,A veces trabajo los fines de semana.,לפעמים אני עובד בסופי שבוע.,beginner,adverbs_frequency
+s000338,Como demasiado los fines de semana.,אני אוכל יותר מדי בסופי שבוע.,beginner,adverbs_frequency
+s000339,Todavía no he terminado la tarea.,עדיין לא סיימתי את שיעורי הבית.,beginner,adverbs_frequency
+s000340,Ya son las diez.,כבר השעה עשר.,beginner,adverbs_frequency
+s000341,Tengo bastante trabajo esta semana.,יש לי מספיק עבודה השבוע.,beginner,adverbs_frequency
+s000342,Necesito más tiempo para terminar.,אני צריך יותר זמן כדי לסיים.,beginner,adverbs_frequency
+s000343,Mi cumpleaños es en marzo.,יום ההולדת שלי במרץ.,beginner,months_seasons
+s000344,En verano hace mucho calor.,בקיץ חם מאוד.,beginner,months_seasons
+s000345,La escuela empieza en septiembre.,בית הספר מתחיל בספטמבר.,beginner,months_seasons
+s000346,Nieva mucho en invierno.,יורד הרבה שלג בחורף.,beginner,months_seasons
+s000347,Las hojas cambian de color en otoño.,העלים משנים צבע בסתיו.,beginner,months_seasons
+s000348,Vamos de vacaciones en julio.,אנחנו יוצאים לחופשה ביולי.,beginner,months_seasons
+s000349,En abril llueve mucho.,באפריל יורד הרבה גשם.,beginner,months_seasons
+s000350,El año nuevo empieza en enero.,השנה החדשה מתחילה בינואר.,beginner,months_seasons
+s000351,Soy de España.,אני מספרד.,beginner,nationalities_countries
+s000352,Mi amigo es mexicano.,החבר שלי מקסיקני.,beginner,nationalities_countries
+s000353,¿De qué país eres?,מאיזו מדינה אתה?,beginner,nationalities_countries
+s000354,Ella habla francés y español.,היא מדברת צרפתית וספרדית.,beginner,nationalities_countries
+s000355,Nací en Israel.,נולדתי בישראל.,beginner,nationalities_countries
+s000356,Muchos turistas visitan Argentina.,הרבה תיירים מבקרים בארגנטינה.,beginner,nationalities_countries
+s000357,Vivo en Estados Unidos desde hace dos años.,אני גר בארצות הברית כבר שנתיים.,beginner,nationalities_countries
+s000358,¿Cuál es tu nacionalidad?,מה הלאום שלך?,beginner,nationalities_countries
+s000359,Me gusta jugar al fútbol los sábados.,אני אוהב לשחק כדורגל בשבתות.,beginner,sports
+s000360,Ella nada todas las mañanas.,היא שוחה כל בוקר.,beginner,sports
+s000361,Vamos a ver el partido en el estadio.,אנחנו הולכים לראות את המשחק באצטדיון.,beginner,sports
+s000362,Mi hermano juega muy bien al tenis.,אחי משחק טניס מאוד טוב.,beginner,sports
+s000363,El árbitro no vio la falta.,השופט לא ראה את העבירה.,beginner,sports
+s000364,En invierno practico esquí con mi familia.,בחורף אני עוסק בסקי עם המשפחה שלי.,beginner,sports
+s000365,Los niños juegan con la pelota en el parque.,הילדים משחקים עם הכדור בפארק.,beginner,sports
+s000366,Corremos en la cancha del colegio.,אנחנו רצים במגרש של בית הספר.,beginner,sports
+s000367,"¿Puedo ver el menú, por favor?","אפשר לראות את התפריט, בבקשה?",beginner,restaurant_dining
+s000368,Voy a pedir el plato del día.,אני הולך להזמין את מנת היום.,beginner,restaurant_dining
+s000369,Reservamos una mesa para las ocho.,הזמנו שולחן לשעה שמונה.,beginner,restaurant_dining
+s000370,"¿Qué bebida prefieres, agua o vino?","איזה משקה אתה מעדיף, מים או יין?",beginner,restaurant_dining
+s000371,Esta salsa es demasiado picante para mí.,הרוטב הזה חריף מדי בשבילי.,beginner,restaurant_dining
+s000372,Vamos a compartir la entrada.,אנחנו הולכים לחלוק את המנה הראשונה.,beginner,restaurant_dining
+s000373,El camarero recomendó la especialidad de la casa.,המלצר המליץ על מנת הדגל של הבית.,beginner,restaurant_dining
+s000374,Dejamos una propina generosa.,השארנו טיפ נדיב.,beginner,restaurant_dining
+s000375,Hay un río cerca de mi pueblo.,יש נהר קרוב לכפר שלי.,beginner,nature_basic
+s000376,Vamos a caminar por el bosque.,אנחנו הולכים לטייל ביער.,beginner,nature_basic
+s000377,El cielo está lleno de estrellas.,השמיים מלאים בכוכבים.,beginner,nature_basic
+s000378,Nadamos en el lago todo el verano.,שחינו באגם כל הקיץ.,beginner,nature_basic
+s000379,Las flores del jardín son muy bonitas.,הפרחים בגינה מאוד יפים.,beginner,nature_basic
+s000380,El desierto es muy caliente durante el día.,המדבר מאוד חם במהלך היום.,beginner,nature_basic
+s000381,Subimos a la montaña más alta de la zona.,טיפסנו על ההר הגבוה ביותר באזור.,beginner,nature_basic
+s000382,Los niños construyen castillos de arena.,הילדים בונים ארמונות חול.,beginner,nature_basic
+s000383,"Este regalo es para ti, no para él.","המתנה הזאת בשבילך, לא בשבילו.",grammar,por_para
+s000384,Gracias por todo tu apoyo.,תודה על כל התמיכה שלך.,grammar,por_para
+s000385,Salimos para el aeropuerto en una hora.,אנחנו יוצאים לשדה התעופה בעוד שעה.,grammar,por_para
+s000386,"Para mí, el español es un idioma bonito.","בשבילי, ספרדית היא שפה יפה.",grammar,por_para
+s000387,Caminamos por el centro de la ciudad.,אנחנו הולכים במרכז העיר.,grammar,por_para
+s000388,Estudio mucho para aprobar el examen.,אני לומד הרבה כדי לעבור את המבחן.,grammar,por_para
+s000389,Pagué mucho dinero por este coche.,שילמתי הרבה כסף על המכונית הזאת.,grammar,por_para
+s000390,Viajamos por tren hasta Valencia.,אנחנו נוסעים ברכבת עד ולנסיה.,grammar,por_para

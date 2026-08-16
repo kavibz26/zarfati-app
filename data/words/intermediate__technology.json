@@ -1,0 +1,167 @@
+{
+  "levelId": "intermediate",
+  "topicId": "technology",
+  "vocab": [
+    {
+      "id": "w000635",
+      "es": "el teléfono",
+      "he": "טלפון",
+      "ex_es": "Mi teléfono no tiene batería.",
+      "ex_he": "לטלפון שלי אין סוללה."
+    },
+    {
+      "id": "w000636",
+      "es": "la computadora",
+      "he": "מחשב",
+      "ex_es": "Trabajo en la computadora todo el día.",
+      "ex_he": "אני עובד עם המחשב כל היום."
+    },
+    {
+      "id": "w000637",
+      "es": "internet",
+      "he": "אינטרנט",
+      "ex_es": "No hay internet en casa.",
+      "ex_he": "אין אינטרנט בבית."
+    },
+    {
+      "id": "w000638",
+      "es": "la contraseña",
+      "he": "סיסמה",
+      "ex_es": "Olvidé mi contraseña.",
+      "ex_he": "שכחתי את הסיסמה שלי."
+    },
+    {
+      "id": "w000639",
+      "es": "el correo electrónico",
+      "he": "אימייל",
+      "ex_es": "Te envié un correo electrónico.",
+      "ex_he": "שלחתי לך אימייל."
+    },
+    {
+      "id": "w000640",
+      "es": "la aplicación",
+      "he": "אפליקציה",
+      "ex_es": "Descargué una aplicación nueva.",
+      "ex_he": "הורדתי אפליקציה חדשה."
+    },
+    {
+      "id": "w000641",
+      "es": "la pantalla",
+      "he": "מסך",
+      "ex_es": "La pantalla está rota.",
+      "ex_he": "המסך שבור."
+    },
+    {
+      "id": "w000642",
+      "es": "el wifi",
+      "he": "וויפיי",
+      "ex_es": "¿Cuál es la contraseña del wifi?",
+      "ex_he": "מה הסיסמה של הוויפיי?"
+    },
+    {
+      "id": "w000643",
+      "es": "el mensaje",
+      "he": "הודעה",
+      "ex_es": "Te mandé un mensaje ayer.",
+      "ex_he": "שלחתי לך הודעה אתמול."
+    },
+    {
+      "id": "w000644",
+      "es": "las redes sociales",
+      "he": "רשתות חברתיות",
+      "ex_es": "Paso mucho tiempo en las redes sociales.",
+      "ex_he": "אני מבלה הרבה זמן ברשתות חברתיות."
+    },
+    {
+      "id": "w000645",
+      "es": "descargar",
+      "he": "להוריד (קובץ)",
+      "ex_es": "Voy a descargar la aplicación.",
+      "ex_he": "אני הולך להוריד את האפליקציה."
+    },
+    {
+      "id": "w000646",
+      "es": "el cargador",
+      "he": "מטען",
+      "ex_es": "¿Tienes un cargador para mi teléfono?",
+      "ex_he": "יש לך מטען לטלפון שלי?"
+    },
+    {
+      "id": "w000647",
+      "es": "la cámara",
+      "he": "מצלמה",
+      "ex_es": "La cámara del teléfono es muy buena.",
+      "ex_he": "המצלמה של הטלפון מאוד טובה."
+    },
+    {
+      "id": "w000648",
+      "es": "subir una foto",
+      "he": "להעלות תמונה",
+      "ex_es": "Voy a subir esta foto.",
+      "ex_he": "אני הולך להעלות את התמונה הזאת."
+    },
+    {
+      "id": "w000649",
+      "es": "el archivo",
+      "he": "קובץ",
+      "ex_es": "No encuentro el archivo.",
+      "ex_he": "אני לא מוצא את הקובץ."
+    },
+    {
+      "id": "w000650",
+      "es": "la actualización",
+      "he": "עדכון",
+      "ex_es": "Hay una actualización nueva.",
+      "ex_he": "יש עדכון חדש."
+    },
+    {
+      "id": "w000651",
+      "es": "conectarse",
+      "he": "להתחבר (לרשת)",
+      "ex_es": "No puedo conectarme al wifi.",
+      "ex_he": "אני לא מצליח להתחבר לוויפיי."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000295",
+      "es": "No tengo internet en casa.",
+      "he": "אין לי אינטרנט בבית."
+    },
+    {
+      "id": "s000296",
+      "es": "¿Cuál es la contraseña del wifi?",
+      "he": "מה הסיסמה של הוויפיי?"
+    },
+    {
+      "id": "s000297",
+      "es": "Te envié un mensaje esta mañana.",
+      "he": "שלחתי לך הודעה הבוקר."
+    },
+    {
+      "id": "s000298",
+      "es": "Mi teléfono necesita un cargador.",
+      "he": "לטלפון שלי צריך מטען."
+    },
+    {
+      "id": "s000299",
+      "es": "Descargué una aplicación nueva ayer.",
+      "he": "הורדתי אפליקציה חדשה אתמול."
+    },
+    {
+      "id": "s000300",
+      "es": "No encuentro el archivo que necesito.",
+      "he": "אני לא מוצא את הקובץ שאני צריך."
+    },
+    {
+      "id": "s000301",
+      "es": "Paso demasiado tiempo en las redes sociales.",
+      "he": "אני מבלה יותר מדי זמן ברשתות חברתיות."
+    },
+    {
+      "id": "s000302",
+      "es": "La pantalla de mi computadora está rota.",
+      "he": "המסך של המחשב שלי שבור."
+    }
+  ]
+}

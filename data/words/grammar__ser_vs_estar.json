@@ -1,0 +1,132 @@
+{
+  "levelId": "grammar",
+  "topicId": "ser_vs_estar",
+  "vocab": [
+    {
+      "id": "w000652",
+      "es": "Soy profesor",
+      "he": "אני מורה",
+      "ex_es": "Soy profesor desde hace diez años.",
+      "ex_he": "אני מורה כבר עשר שנים."
+    },
+    {
+      "id": "w000653",
+      "es": "Estoy ocupado",
+      "he": "אני עסוק",
+      "ex_es": "Estoy muy ocupado hoy.",
+      "ex_he": "אני מאוד עסוק היום."
+    },
+    {
+      "id": "w000654",
+      "es": "Es de España",
+      "he": "הוא/היא מספרד",
+      "ex_es": "Ella es de España.",
+      "ex_he": "היא מספרד."
+    },
+    {
+      "id": "w000655",
+      "es": "Está en el trabajo",
+      "he": "הוא בעבודה",
+      "ex_es": "Él está en el trabajo ahora.",
+      "ex_he": "הוא בעבודה עכשיו."
+    },
+    {
+      "id": "w000656",
+      "es": "Es alto",
+      "he": "הוא גבוה",
+      "ex_es": "Mi hermano es alto.",
+      "ex_he": "אחי גבוה."
+    },
+    {
+      "id": "w000657",
+      "es": "Está enfermo",
+      "he": "הוא חולה",
+      "ex_es": "Mi hermano está enfermo hoy.",
+      "ex_he": "אחי חולה היום."
+    },
+    {
+      "id": "w000658",
+      "es": "Es la una",
+      "he": "השעה אחת",
+      "ex_es": "Es la una de la tarde.",
+      "ex_he": "השעה אחת אחר הצהריים."
+    },
+    {
+      "id": "w000659",
+      "es": "Estamos estudiando",
+      "he": "אנחנו לומדים",
+      "ex_es": "Estamos estudiando para el examen.",
+      "ex_he": "אנחנו לומדים למבחן."
+    },
+    {
+      "id": "w000660",
+      "es": "Es de madera",
+      "he": "זה עשוי מעץ",
+      "ex_es": "La mesa es de madera.",
+      "ex_he": "השולחן עשוי מעץ."
+    },
+    {
+      "id": "w000661",
+      "es": "Está abierto",
+      "he": "זה פתוח",
+      "ex_es": "El restaurante está abierto.",
+      "ex_he": "המסעדה פתוחה."
+    },
+    {
+      "id": "w000662",
+      "es": "Somos vecinos",
+      "he": "אנחנו שכנים",
+      "ex_es": "Somos vecinos desde hace años.",
+      "ex_he": "אנחנו שכנים כבר שנים."
+    },
+    {
+      "id": "w000663",
+      "es": "Está feliz",
+      "he": "הוא שמח",
+      "ex_es": "Está muy feliz con la noticia.",
+      "ex_he": "הוא מאוד שמח מהחדשות."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000303",
+      "es": "Mi madre es profesora y está muy ocupada hoy.",
+      "he": "אמא שלי מורה והיא מאוד עסוקה היום."
+    },
+    {
+      "id": "s000304",
+      "es": "Mi abuela es de Marruecos.",
+      "he": "סבתא שלי ממרוקו."
+    },
+    {
+      "id": "s000305",
+      "es": "Estamos muy contentos con el resultado.",
+      "he": "אנחנו מאוד מרוצים מהתוצאה."
+    },
+    {
+      "id": "s000306",
+      "es": "La puerta está cerrada.",
+      "he": "הדלת סגורה."
+    },
+    {
+      "id": "s000307",
+      "es": "Somos estudiantes de español.",
+      "he": "אנחנו תלמידים לספרדית."
+    },
+    {
+      "id": "s000308",
+      "es": "Estoy muy ocupado esta semana.",
+      "he": "אני מאוד עסוק השבוע."
+    },
+    {
+      "id": "s000309",
+      "es": "El libro es muy interesante.",
+      "he": "הספר מאוד מעניין."
+    },
+    {
+      "id": "s000310",
+      "es": "Ellos están de vacaciones en México.",
+      "he": "הם בחופשה במקסיקו."
+    }
+  ]
+}

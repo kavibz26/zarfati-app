@@ -1,0 +1,146 @@
+{
+  "levelId": "beginner",
+  "topicId": "nationalities_countries",
+  "vocab": [
+    {
+      "id": "w000740",
+      "es": "España",
+      "he": "ספרד",
+      "ex_es": "Vivo en España.",
+      "ex_he": "אני גר בספרד."
+    },
+    {
+      "id": "w000741",
+      "es": "español/a",
+      "he": "ספרדי/ספרדייה",
+      "ex_es": "Ella es española.",
+      "ex_he": "היא ספרדייה."
+    },
+    {
+      "id": "w000742",
+      "es": "México",
+      "he": "מקסיקו",
+      "ex_es": "Mi amigo es de México.",
+      "ex_he": "החבר שלי ממקסיקו."
+    },
+    {
+      "id": "w000743",
+      "es": "mexicano/a",
+      "he": "מקסיקני/מקסיקנית",
+      "ex_es": "La comida mexicana es deliciosa.",
+      "ex_he": "האוכל המקסיקני טעים."
+    },
+    {
+      "id": "w000744",
+      "es": "Argentina",
+      "he": "ארגנטינה",
+      "ex_es": "Argentina está en Sudamérica.",
+      "ex_he": "ארגנטינה נמצאת בדרום אמריקה."
+    },
+    {
+      "id": "w000745",
+      "es": "argentino/a",
+      "he": "ארגנטינאי/ארגנטינאית",
+      "ex_es": "Mi profesor es argentino.",
+      "ex_he": "המורה שלי ארגנטינאי."
+    },
+    {
+      "id": "w000746",
+      "es": "Estados Unidos",
+      "he": "ארצות הברית",
+      "ex_es": "Vivimos en Estados Unidos.",
+      "ex_he": "אנחנו גרים בארצות הברית."
+    },
+    {
+      "id": "w000747",
+      "es": "estadounidense",
+      "he": "אמריקאי (מארה\"ב)",
+      "ex_es": "Ella es estadounidense.",
+      "ex_he": "היא אמריקאית."
+    },
+    {
+      "id": "w000748",
+      "es": "Israel",
+      "he": "ישראל",
+      "ex_es": "Nací en Israel.",
+      "ex_he": "נולדתי בישראל."
+    },
+    {
+      "id": "w000749",
+      "es": "israelí",
+      "he": "ישראלי",
+      "ex_es": "Soy israelí.",
+      "ex_he": "אני ישראלי."
+    },
+    {
+      "id": "w000750",
+      "es": "Francia",
+      "he": "צרפת",
+      "ex_es": "Francia es un país bonito.",
+      "ex_he": "צרפת היא מדינה יפה."
+    },
+    {
+      "id": "w000751",
+      "es": "francés/francesa",
+      "he": "צרפתי/צרפתייה",
+      "ex_es": "Mi vecino es francés.",
+      "ex_he": "השכן שלי צרפתי."
+    },
+    {
+      "id": "w000752",
+      "es": "el país",
+      "he": "מדינה (כללי)",
+      "ex_es": "¿De qué país eres?",
+      "ex_he": "מאיזו מדינה אתה?"
+    },
+    {
+      "id": "w000753",
+      "es": "la nacionalidad",
+      "he": "לאום",
+      "ex_es": "¿Cuál es tu nacionalidad?",
+      "ex_he": "מה הלאום שלך?"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000351",
+      "es": "Soy de España.",
+      "he": "אני מספרד."
+    },
+    {
+      "id": "s000352",
+      "es": "Mi amigo es mexicano.",
+      "he": "החבר שלי מקסיקני."
+    },
+    {
+      "id": "s000353",
+      "es": "¿De qué país eres?",
+      "he": "מאיזו מדינה אתה?"
+    },
+    {
+      "id": "s000354",
+      "es": "Ella habla francés y español.",
+      "he": "היא מדברת צרפתית וספרדית."
+    },
+    {
+      "id": "s000355",
+      "es": "Nací en Israel.",
+      "he": "נולדתי בישראל."
+    },
+    {
+      "id": "s000356",
+      "es": "Muchos turistas visitan Argentina.",
+      "he": "הרבה תיירים מבקרים בארגנטינה."
+    },
+    {
+      "id": "s000357",
+      "es": "Vivo en Estados Unidos desde hace dos años.",
+      "he": "אני גר בארצות הברית כבר שנתיים."
+    },
+    {
+      "id": "s000358",
+      "es": "¿Cuál es tu nacionalidad?",
+      "he": "מה הלאום שלך?"
+    }
+  ]
+}

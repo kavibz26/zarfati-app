@@ -1,0 +1,160 @@
+{
+  "levelId": "beginner",
+  "topicId": "sports",
+  "vocab": [
+    {
+      "id": "w000754",
+      "es": "el fútbol",
+      "he": "כדורגל",
+      "ex_es": "Me gusta jugar al fútbol.",
+      "ex_he": "אני אוהב לשחק כדורגל."
+    },
+    {
+      "id": "w000755",
+      "es": "el baloncesto",
+      "he": "כדורסל",
+      "ex_es": "Juego al baloncesto los martes.",
+      "ex_he": "אני משחק כדורסל בימי שלישי."
+    },
+    {
+      "id": "w000756",
+      "es": "el tenis",
+      "he": "טניס",
+      "ex_es": "Ella juega muy bien al tenis.",
+      "ex_he": "היא משחקת טניס מאוד טוב."
+    },
+    {
+      "id": "w000757",
+      "es": "la natación",
+      "he": "שחייה",
+      "ex_es": "La natación es mi deporte favorito.",
+      "ex_he": "שחייה היא הספורט האהוב עלי."
+    },
+    {
+      "id": "w000758",
+      "es": "nadar",
+      "he": "לשחות",
+      "ex_es": "Nado todos los días.",
+      "ex_he": "אני שוחה כל יום."
+    },
+    {
+      "id": "w000759",
+      "es": "correr",
+      "he": "לרוץ",
+      "ex_es": "Corro por el parque cada mañana.",
+      "ex_he": "אני רץ בפארק כל בוקר."
+    },
+    {
+      "id": "w000760",
+      "es": "el ciclismo",
+      "he": "רכיבה על אופניים",
+      "ex_es": "Practico ciclismo los fines de semana.",
+      "ex_he": "אני עוסק ברכיבה על אופניים בסופי שבוע."
+    },
+    {
+      "id": "w000761",
+      "es": "el voleibol",
+      "he": "כדורעף",
+      "ex_es": "Jugamos voleibol en la playa.",
+      "ex_he": "אנחנו משחקים כדורעף בחוף."
+    },
+    {
+      "id": "w000762",
+      "es": "el golf",
+      "he": "גולף",
+      "ex_es": "Mi padre juega al golf.",
+      "ex_he": "אבא שלי משחק גולף."
+    },
+    {
+      "id": "w000763",
+      "es": "el boxeo",
+      "he": "איגרוף",
+      "ex_es": "El boxeo requiere mucha disciplina.",
+      "ex_he": "האיגרוף דורש הרבה משמעת."
+    },
+    {
+      "id": "w000764",
+      "es": "la pelota",
+      "he": "כדור",
+      "ex_es": "Lanza la pelota.",
+      "ex_he": "זרוק את הכדור."
+    },
+    {
+      "id": "w000765",
+      "es": "el gol",
+      "he": "גול (שער)",
+      "ex_es": "Marcó un gol increíble.",
+      "ex_he": "הוא כבש גול מדהים."
+    },
+    {
+      "id": "w000766",
+      "es": "el estadio",
+      "he": "אצטדיון",
+      "ex_es": "Fuimos al estadio a ver el partido.",
+      "ex_he": "הלכנו לאצטדיון לראות את המשחק."
+    },
+    {
+      "id": "w000767",
+      "es": "el esquí",
+      "he": "סקי",
+      "ex_es": "Practico esquí en las montañas.",
+      "ex_he": "אני עוסק בסקי בהרים."
+    },
+    {
+      "id": "w000768",
+      "es": "el árbitro",
+      "he": "שופט (ספורט)",
+      "ex_es": "El árbitro pitó el final del partido.",
+      "ex_he": "השופט שרק על סוף המשחק."
+    },
+    {
+      "id": "w000769",
+      "es": "la cancha",
+      "he": "מגרש (ספורט)",
+      "ex_es": "Jugamos en la cancha del colegio.",
+      "ex_he": "אנחנו משחקים במגרש של בית הספר."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000359",
+      "es": "Me gusta jugar al fútbol los sábados.",
+      "he": "אני אוהב לשחק כדורגל בשבתות."
+    },
+    {
+      "id": "s000360",
+      "es": "Ella nada todas las mañanas.",
+      "he": "היא שוחה כל בוקר."
+    },
+    {
+      "id": "s000361",
+      "es": "Vamos a ver el partido en el estadio.",
+      "he": "אנחנו הולכים לראות את המשחק באצטדיון."
+    },
+    {
+      "id": "s000362",
+      "es": "Mi hermano juega muy bien al tenis.",
+      "he": "אחי משחק טניס מאוד טוב."
+    },
+    {
+      "id": "s000363",
+      "es": "El árbitro no vio la falta.",
+      "he": "השופט לא ראה את העבירה."
+    },
+    {
+      "id": "s000364",
+      "es": "En invierno practico esquí con mi familia.",
+      "he": "בחורף אני עוסק בסקי עם המשפחה שלי."
+    },
+    {
+      "id": "s000365",
+      "es": "Los niños juegan con la pelota en el parque.",
+      "he": "הילדים משחקים עם הכדור בפארק."
+    },
+    {
+      "id": "s000366",
+      "es": "Corremos en la cancha del colegio.",
+      "he": "אנחנו רצים במגרש של בית הספר."
+    }
+  ]
+}

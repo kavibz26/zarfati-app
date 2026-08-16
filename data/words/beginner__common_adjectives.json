@@ -1,0 +1,174 @@
+{
+  "levelId": "beginner",
+  "topicId": "common_adjectives",
+  "vocab": [
+    {
+      "id": "w000692",
+      "es": "grande",
+      "he": "גדול",
+      "ex_es": "La casa es muy grande.",
+      "ex_he": "הבית מאוד גדול."
+    },
+    {
+      "id": "w000693",
+      "es": "pequeño/a",
+      "he": "קטן",
+      "ex_es": "Vivo en un apartamento pequeño.",
+      "ex_he": "אני גר בדירה קטנה."
+    },
+    {
+      "id": "w000694",
+      "es": "bueno/a",
+      "he": "טוב",
+      "ex_es": "Es una buena idea.",
+      "ex_he": "זה רעיון טוב."
+    },
+    {
+      "id": "w000695",
+      "es": "malo/a",
+      "he": "רע",
+      "ex_es": "Esta película es mala.",
+      "ex_he": "הסרט הזה רע."
+    },
+    {
+      "id": "w000696",
+      "es": "rápido/a",
+      "he": "מהיר",
+      "ex_es": "El tren es muy rápido.",
+      "ex_he": "הרכבת מאוד מהירה."
+    },
+    {
+      "id": "w000697",
+      "es": "lento/a",
+      "he": "איטי",
+      "ex_es": "El autobús es lento.",
+      "ex_he": "האוטובוס איטי."
+    },
+    {
+      "id": "w000698",
+      "es": "nuevo/a",
+      "he": "חדש",
+      "ex_es": "Compré unos zapatos nuevos.",
+      "ex_he": "קניתי נעליים חדשות."
+    },
+    {
+      "id": "w000699",
+      "es": "viejo/a",
+      "he": "ישן",
+      "ex_es": "Este edificio es muy viejo.",
+      "ex_he": "הבניין הזה מאוד ישן."
+    },
+    {
+      "id": "w000700",
+      "es": "fácil",
+      "he": "קל",
+      "ex_es": "El examen fue fácil.",
+      "ex_he": "המבחן היה קל."
+    },
+    {
+      "id": "w000701",
+      "es": "difícil",
+      "he": "קשה",
+      "ex_es": "Esta lección es difícil.",
+      "ex_he": "השיעור הזה קשה."
+    },
+    {
+      "id": "w000702",
+      "es": "alto/a",
+      "he": "גבוה",
+      "ex_es": "El árbol es muy alto.",
+      "ex_he": "העץ מאוד גבוה."
+    },
+    {
+      "id": "w000703",
+      "es": "bajo/a",
+      "he": "נמוך",
+      "ex_es": "El techo es bajo.",
+      "ex_he": "התקרה נמוכה."
+    },
+    {
+      "id": "w000704",
+      "es": "largo/a",
+      "he": "ארוך",
+      "ex_es": "El viaje fue muy largo.",
+      "ex_he": "הנסיעה הייתה מאוד ארוכה."
+    },
+    {
+      "id": "w000705",
+      "es": "corto/a",
+      "he": "קצר",
+      "ex_es": "Tengo el pelo corto.",
+      "ex_he": "יש לי שיער קצר."
+    },
+    {
+      "id": "w000706",
+      "es": "limpio/a",
+      "he": "נקי",
+      "ex_es": "La cocina está limpia.",
+      "ex_he": "המטבח נקי."
+    },
+    {
+      "id": "w000707",
+      "es": "sucio/a",
+      "he": "מלוכלך",
+      "ex_es": "Tienes las manos sucias.",
+      "ex_he": "יש לך ידיים מלוכלכות."
+    },
+    {
+      "id": "w000708",
+      "es": "fuerte",
+      "he": "חזק",
+      "ex_es": "Es un hombre muy fuerte.",
+      "ex_he": "הוא גבר מאוד חזק."
+    },
+    {
+      "id": "w000709",
+      "es": "débil",
+      "he": "חלש",
+      "ex_es": "Me siento débil hoy.",
+      "ex_he": "אני מרגיש חלש היום."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000327",
+      "es": "Mi casa es grande pero mi coche es pequeño.",
+      "he": "הבית שלי גדול אבל המכונית שלי קטנה."
+    },
+    {
+      "id": "s000328",
+      "es": "Esta tarea es muy difícil para mí.",
+      "he": "המשימה הזאת מאוד קשה בשבילי."
+    },
+    {
+      "id": "s000329",
+      "es": "El tren es más rápido que el autobús.",
+      "he": "הרכבת מהירה יותר מהאוטובוס."
+    },
+    {
+      "id": "s000330",
+      "es": "Necesito una habitación limpia.",
+      "he": "אני צריך חדר נקי."
+    },
+    {
+      "id": "s000331",
+      "es": "Mi abuelo es muy fuerte para su edad.",
+      "he": "סבא שלי מאוד חזק בשביל גילו."
+    },
+    {
+      "id": "s000332",
+      "es": "Compré una camisa nueva ayer.",
+      "he": "קניתי חולצה חדשה אתמול."
+    },
+    {
+      "id": "s000333",
+      "es": "El edificio más alto de la ciudad es aquel.",
+      "he": "הבניין הגבוה ביותר בעיר הוא ההוא."
+    },
+    {
+      "id": "s000334",
+      "es": "El examen de hoy fue fácil.",
+      "he": "המבחן של היום היה קל."
+    }
+  ]
+}

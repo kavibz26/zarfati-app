@@ -3803,6 +3803,1074 @@
       "he": "אזור הולכי רגל",
       "levelId": "intermediate",
       "topicId": "city_places"
+    },
+    "w000635": {
+      "es": "el teléfono",
+      "he": "טלפון",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000636": {
+      "es": "la computadora",
+      "he": "מחשב",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000637": {
+      "es": "internet",
+      "he": "אינטרנט",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000638": {
+      "es": "la contraseña",
+      "he": "סיסמה",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000639": {
+      "es": "el correo electrónico",
+      "he": "אימייל",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000640": {
+      "es": "la aplicación",
+      "he": "אפליקציה",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000641": {
+      "es": "la pantalla",
+      "he": "מסך",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000642": {
+      "es": "el wifi",
+      "he": "וויפיי",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000643": {
+      "es": "el mensaje",
+      "he": "הודעה",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000644": {
+      "es": "las redes sociales",
+      "he": "רשתות חברתיות",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000645": {
+      "es": "descargar",
+      "he": "להוריד (קובץ)",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000646": {
+      "es": "el cargador",
+      "he": "מטען",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000647": {
+      "es": "la cámara",
+      "he": "מצלמה",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000648": {
+      "es": "subir una foto",
+      "he": "להעלות תמונה",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000649": {
+      "es": "el archivo",
+      "he": "קובץ",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000650": {
+      "es": "la actualización",
+      "he": "עדכון",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000651": {
+      "es": "conectarse",
+      "he": "להתחבר (לרשת)",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "w000652": {
+      "es": "Soy profesor",
+      "he": "אני מורה",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000653": {
+      "es": "Estoy ocupado",
+      "he": "אני עסוק",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000654": {
+      "es": "Es de España",
+      "he": "הוא/היא מספרד",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000655": {
+      "es": "Está en el trabajo",
+      "he": "הוא בעבודה",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000656": {
+      "es": "Es alto",
+      "he": "הוא גבוה",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000657": {
+      "es": "Está enfermo",
+      "he": "הוא חולה",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000658": {
+      "es": "Es la una",
+      "he": "השעה אחת",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000659": {
+      "es": "Estamos estudiando",
+      "he": "אנחנו לומדים",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000660": {
+      "es": "Es de madera",
+      "he": "זה עשוי מעץ",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000661": {
+      "es": "Está abierto",
+      "he": "זה פתוח",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000662": {
+      "es": "Somos vecinos",
+      "he": "אנחנו שכנים",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000663": {
+      "es": "Está feliz",
+      "he": "הוא שמח",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "w000664": {
+      "es": "en",
+      "he": "ב/ב-",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000665": {
+      "es": "sobre",
+      "he": "על (מעל)",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000666": {
+      "es": "debajo de",
+      "he": "מתחת ל-",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000667": {
+      "es": "alrededor de",
+      "he": "מסביב ל-",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000668": {
+      "es": "entre",
+      "he": "בין",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000669": {
+      "es": "cerca de",
+      "he": "קרוב ל-",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000670": {
+      "es": "lejos de",
+      "he": "רחוק מ-",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000671": {
+      "es": "delante de",
+      "he": "לפני/מול",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000672": {
+      "es": "detrás de",
+      "he": "מאחורי",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000673": {
+      "es": "dentro de",
+      "he": "בתוך",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000674": {
+      "es": "fuera de",
+      "he": "מחוץ ל-",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000675": {
+      "es": "encima de",
+      "he": "מעל/על גבי",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000676": {
+      "es": "arriba",
+      "he": "למעלה",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000677": {
+      "es": "abajo",
+      "he": "למטה",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000678": {
+      "es": "aquí",
+      "he": "כאן",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000679": {
+      "es": "allí",
+      "he": "שם",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "w000680": {
+      "es": "¿Qué?",
+      "he": "מה?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000681": {
+      "es": "¿Quién?",
+      "he": "מי?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000682": {
+      "es": "¿Cómo?",
+      "he": "איך?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000683": {
+      "es": "¿Cuándo?",
+      "he": "מתי?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000684": {
+      "es": "¿Dónde?",
+      "he": "איפה?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000685": {
+      "es": "¿Por qué?",
+      "he": "למה?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000686": {
+      "es": "¿Cuánto/a?",
+      "he": "כמה?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000687": {
+      "es": "¿Cuál?",
+      "he": "איזה/איזו?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000688": {
+      "es": "¿Cuántos/as?",
+      "he": "כמה (רבים)?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000689": {
+      "es": "¿Adónde?",
+      "he": "לאן?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000690": {
+      "es": "¿Para qué?",
+      "he": "בשביל מה?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000691": {
+      "es": "¿De dónde?",
+      "he": "מאיפה?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "w000692": {
+      "es": "grande",
+      "he": "גדול",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000693": {
+      "es": "pequeño/a",
+      "he": "קטן",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000694": {
+      "es": "bueno/a",
+      "he": "טוב",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000695": {
+      "es": "malo/a",
+      "he": "רע",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000696": {
+      "es": "rápido/a",
+      "he": "מהיר",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000697": {
+      "es": "lento/a",
+      "he": "איטי",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000698": {
+      "es": "nuevo/a",
+      "he": "חדש",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000699": {
+      "es": "viejo/a",
+      "he": "ישן",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000700": {
+      "es": "fácil",
+      "he": "קל",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000701": {
+      "es": "difícil",
+      "he": "קשה",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000702": {
+      "es": "alto/a",
+      "he": "גבוה",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000703": {
+      "es": "bajo/a",
+      "he": "נמוך",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000704": {
+      "es": "largo/a",
+      "he": "ארוך",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000705": {
+      "es": "corto/a",
+      "he": "קצר",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000706": {
+      "es": "limpio/a",
+      "he": "נקי",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000707": {
+      "es": "sucio/a",
+      "he": "מלוכלך",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000708": {
+      "es": "fuerte",
+      "he": "חזק",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000709": {
+      "es": "débil",
+      "he": "חלש",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "w000710": {
+      "es": "siempre",
+      "he": "תמיד",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000711": {
+      "es": "nunca",
+      "he": "אף פעם לא",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000712": {
+      "es": "a veces",
+      "he": "לפעמים",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000713": {
+      "es": "mucho",
+      "he": "הרבה",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000714": {
+      "es": "poco",
+      "he": "מעט",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000715": {
+      "es": "también",
+      "he": "גם כן",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000716": {
+      "es": "tampoco",
+      "he": "גם לא",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000717": {
+      "es": "más",
+      "he": "יותר",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000718": {
+      "es": "menos",
+      "he": "פחות",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000719": {
+      "es": "bastante",
+      "he": "די/מספיק",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000720": {
+      "es": "demasiado",
+      "he": "יותר מדי",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000721": {
+      "es": "casi",
+      "he": "כמעט",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000722": {
+      "es": "todavía",
+      "he": "עדיין",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000723": {
+      "es": "ya",
+      "he": "כבר",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "w000724": {
+      "es": "enero",
+      "he": "ינואר",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000725": {
+      "es": "febrero",
+      "he": "פברואר",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000726": {
+      "es": "marzo",
+      "he": "מרץ",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000727": {
+      "es": "abril",
+      "he": "אפריל",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000728": {
+      "es": "mayo",
+      "he": "מאי",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000729": {
+      "es": "junio",
+      "he": "יוני",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000730": {
+      "es": "julio",
+      "he": "יולי",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000731": {
+      "es": "agosto",
+      "he": "אוגוסט",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000732": {
+      "es": "septiembre",
+      "he": "ספטמבר",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000733": {
+      "es": "octubre",
+      "he": "אוקטובר",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000734": {
+      "es": "noviembre",
+      "he": "נובמבר",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000735": {
+      "es": "diciembre",
+      "he": "דצמבר",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000736": {
+      "es": "la primavera",
+      "he": "אביב",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000737": {
+      "es": "el verano",
+      "he": "קיץ",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000738": {
+      "es": "el otoño",
+      "he": "סתיו",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000739": {
+      "es": "el invierno",
+      "he": "חורף",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "w000740": {
+      "es": "España",
+      "he": "ספרד",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000741": {
+      "es": "español/a",
+      "he": "ספרדי/ספרדייה",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000742": {
+      "es": "México",
+      "he": "מקסיקו",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000743": {
+      "es": "mexicano/a",
+      "he": "מקסיקני/מקסיקנית",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000744": {
+      "es": "Argentina",
+      "he": "ארגנטינה",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000745": {
+      "es": "argentino/a",
+      "he": "ארגנטינאי/ארגנטינאית",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000746": {
+      "es": "Estados Unidos",
+      "he": "ארצות הברית",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000747": {
+      "es": "estadounidense",
+      "he": "אמריקאי (מארה\"ב)",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000748": {
+      "es": "Israel",
+      "he": "ישראל",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000749": {
+      "es": "israelí",
+      "he": "ישראלי",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000750": {
+      "es": "Francia",
+      "he": "צרפת",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000751": {
+      "es": "francés/francesa",
+      "he": "צרפתי/צרפתייה",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000752": {
+      "es": "el país",
+      "he": "מדינה (כללי)",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000753": {
+      "es": "la nacionalidad",
+      "he": "לאום",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "w000754": {
+      "es": "el fútbol",
+      "he": "כדורגל",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000755": {
+      "es": "el baloncesto",
+      "he": "כדורסל",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000756": {
+      "es": "el tenis",
+      "he": "טניס",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000757": {
+      "es": "la natación",
+      "he": "שחייה",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000758": {
+      "es": "nadar",
+      "he": "לשחות",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000759": {
+      "es": "correr",
+      "he": "לרוץ",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000760": {
+      "es": "el ciclismo",
+      "he": "רכיבה על אופניים",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000761": {
+      "es": "el voleibol",
+      "he": "כדורעף",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000762": {
+      "es": "el golf",
+      "he": "גולף",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000763": {
+      "es": "el boxeo",
+      "he": "איגרוף",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000764": {
+      "es": "la pelota",
+      "he": "כדור",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000765": {
+      "es": "el gol",
+      "he": "גול (שער)",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000766": {
+      "es": "el estadio",
+      "he": "אצטדיון",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000767": {
+      "es": "el esquí",
+      "he": "סקי",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000768": {
+      "es": "el árbitro",
+      "he": "שופט (ספורט)",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000769": {
+      "es": "la cancha",
+      "he": "מגרש (ספורט)",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "w000770": {
+      "es": "el menú",
+      "he": "תפריט",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000771": {
+      "es": "el camarero / la camarera",
+      "he": "מלצר/ית",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000772": {
+      "es": "pedir",
+      "he": "להזמין (אוכל)",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000773": {
+      "es": "reservar",
+      "he": "להזמין מקום",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000774": {
+      "es": "la propina",
+      "he": "טיפ",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000775": {
+      "es": "la bebida",
+      "he": "משקה",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000776": {
+      "es": "el plato",
+      "he": "מנה/צלחת",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000777": {
+      "es": "la entrada",
+      "he": "מנה ראשונה",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000778": {
+      "es": "el plato principal",
+      "he": "מנה עיקרית",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000779": {
+      "es": "picante",
+      "he": "חריף",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000780": {
+      "es": "vegetariano/a",
+      "he": "צמחוני",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000781": {
+      "es": "el plato del día",
+      "he": "מנת היום",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000782": {
+      "es": "la especialidad",
+      "he": "מנת דגל/התמחות",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000783": {
+      "es": "compartir",
+      "he": "לחלוק (אוכל)",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000784": {
+      "es": "la salsa",
+      "he": "רוטב",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "w000785": {
+      "es": "el árbol",
+      "he": "עץ",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000786": {
+      "es": "la montaña",
+      "he": "הר",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000787": {
+      "es": "el río",
+      "he": "נהר",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000788": {
+      "es": "el lago",
+      "he": "אגם",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000789": {
+      "es": "el bosque",
+      "he": "יער",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000790": {
+      "es": "la flor",
+      "he": "פרח",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000791": {
+      "es": "la planta",
+      "he": "צמח",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000792": {
+      "es": "la piedra",
+      "he": "אבן",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000793": {
+      "es": "el cielo",
+      "he": "שמיים",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000794": {
+      "es": "la tierra",
+      "he": "אדמה/כדור הארץ",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000795": {
+      "es": "la isla",
+      "he": "אי",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000796": {
+      "es": "la selva",
+      "he": "ג'ונגל",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000797": {
+      "es": "el desierto",
+      "he": "מדבר",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000798": {
+      "es": "la arena",
+      "he": "חול",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000799": {
+      "es": "la estrella",
+      "he": "כוכב",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000800": {
+      "es": "la luna",
+      "he": "ירח",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "w000801": {
+      "es": "Es para ti",
+      "he": "זה בשבילך",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000802": {
+      "es": "Gracias por tu ayuda",
+      "he": "תודה על העזרה שלך",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000803": {
+      "es": "Salgo para Madrid",
+      "he": "אני יוצא למדריד",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000804": {
+      "es": "Trabajo por la mañana",
+      "he": "אני עובד בבוקר",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000805": {
+      "es": "La tarea es para mañana",
+      "he": "השיעורים צריכים להיות מוכנים למחר",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000806": {
+      "es": "Para mí, es fácil",
+      "he": "בשבילי, זה קל",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000807": {
+      "es": "Pagué diez euros por el libro",
+      "he": "שילמתי עשרה יורו על הספר",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000808": {
+      "es": "Caminamos por la playa",
+      "he": "אנחנו הולכים לאורך החוף",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000809": {
+      "es": "Lo hice por ti",
+      "he": "עשיתי את זה בשבילך",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000810": {
+      "es": "Viajamos por avión",
+      "he": "אנחנו נוסעים במטוס",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000811": {
+      "es": "Estudio para ser médico",
+      "he": "אני לומד כדי להיות רופא",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "w000812": {
+      "es": "Por ejemplo",
+      "he": "לדוגמה",
+      "levelId": "grammar",
+      "topicId": "por_para"
     }
   },
   "sentences": {
@@ -5275,6 +6343,486 @@
       "es": "Esta noche vamos al teatro.",
       "levelId": "intermediate",
       "topicId": "city_places"
+    },
+    "s000295": {
+      "es": "No tengo internet en casa.",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "s000296": {
+      "es": "¿Cuál es la contraseña del wifi?",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "s000297": {
+      "es": "Te envié un mensaje esta mañana.",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "s000298": {
+      "es": "Mi teléfono necesita un cargador.",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "s000299": {
+      "es": "Descargué una aplicación nueva ayer.",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "s000300": {
+      "es": "No encuentro el archivo que necesito.",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "s000301": {
+      "es": "Paso demasiado tiempo en las redes sociales.",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "s000302": {
+      "es": "La pantalla de mi computadora está rota.",
+      "levelId": "intermediate",
+      "topicId": "technology"
+    },
+    "s000303": {
+      "es": "Mi madre es profesora y está muy ocupada hoy.",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "s000304": {
+      "es": "Mi abuela es de Marruecos.",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "s000305": {
+      "es": "Estamos muy contentos con el resultado.",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "s000306": {
+      "es": "La puerta está cerrada.",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "s000307": {
+      "es": "Somos estudiantes de español.",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "s000308": {
+      "es": "Estoy muy ocupado esta semana.",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "s000309": {
+      "es": "El libro es muy interesante.",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "s000310": {
+      "es": "Ellos están de vacaciones en México.",
+      "levelId": "grammar",
+      "topicId": "ser_vs_estar"
+    },
+    "s000311": {
+      "es": "El libro está sobre la mesa.",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "s000312": {
+      "es": "La tienda está al lado del banco.",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "s000313": {
+      "es": "Vivo cerca de la escuela.",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "s000314": {
+      "es": "El gato está debajo de la cama.",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "s000315": {
+      "es": "Hay un parque detrás de mi casa.",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "s000316": {
+      "es": "Las llaves están dentro del bolso.",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "s000317": {
+      "es": "Mi habitación está arriba y la cocina abajo.",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "s000318": {
+      "es": "El restaurante está lejos de aquí.",
+      "levelId": "beginner",
+      "topicId": "prepositions_location"
+    },
+    "s000319": {
+      "es": "¿Qué es esto?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "s000320": {
+      "es": "¿Quién viene a la fiesta?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "s000321": {
+      "es": "¿Dónde está la estación?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "s000322": {
+      "es": "¿Cuándo empieza la película?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "s000323": {
+      "es": "¿Por qué estás triste?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "s000324": {
+      "es": "¿Cuál es tu color favorito?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "s000325": {
+      "es": "¿De dónde eres tú?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "s000326": {
+      "es": "¿Cuántos hermanos tienes?",
+      "levelId": "beginner",
+      "topicId": "question_words"
+    },
+    "s000327": {
+      "es": "Mi casa es grande pero mi coche es pequeño.",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "s000328": {
+      "es": "Esta tarea es muy difícil para mí.",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "s000329": {
+      "es": "El tren es más rápido que el autobús.",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "s000330": {
+      "es": "Necesito una habitación limpia.",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "s000331": {
+      "es": "Mi abuelo es muy fuerte para su edad.",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "s000332": {
+      "es": "Compré una camisa nueva ayer.",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "s000333": {
+      "es": "El edificio más alto de la ciudad es aquel.",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "s000334": {
+      "es": "El examen de hoy fue fácil.",
+      "levelId": "beginner",
+      "topicId": "common_adjectives"
+    },
+    "s000335": {
+      "es": "Siempre llego a tiempo.",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "s000336": {
+      "es": "Nunca bebo café por la noche.",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "s000337": {
+      "es": "A veces trabajo los fines de semana.",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "s000338": {
+      "es": "Como demasiado los fines de semana.",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "s000339": {
+      "es": "Todavía no he terminado la tarea.",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "s000340": {
+      "es": "Ya son las diez.",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "s000341": {
+      "es": "Tengo bastante trabajo esta semana.",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "s000342": {
+      "es": "Necesito más tiempo para terminar.",
+      "levelId": "beginner",
+      "topicId": "adverbs_frequency"
+    },
+    "s000343": {
+      "es": "Mi cumpleaños es en marzo.",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "s000344": {
+      "es": "En verano hace mucho calor.",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "s000345": {
+      "es": "La escuela empieza en septiembre.",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "s000346": {
+      "es": "Nieva mucho en invierno.",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "s000347": {
+      "es": "Las hojas cambian de color en otoño.",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "s000348": {
+      "es": "Vamos de vacaciones en julio.",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "s000349": {
+      "es": "En abril llueve mucho.",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "s000350": {
+      "es": "El año nuevo empieza en enero.",
+      "levelId": "beginner",
+      "topicId": "months_seasons"
+    },
+    "s000351": {
+      "es": "Soy de España.",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "s000352": {
+      "es": "Mi amigo es mexicano.",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "s000353": {
+      "es": "¿De qué país eres?",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "s000354": {
+      "es": "Ella habla francés y español.",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "s000355": {
+      "es": "Nací en Israel.",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "s000356": {
+      "es": "Muchos turistas visitan Argentina.",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "s000357": {
+      "es": "Vivo en Estados Unidos desde hace dos años.",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "s000358": {
+      "es": "¿Cuál es tu nacionalidad?",
+      "levelId": "beginner",
+      "topicId": "nationalities_countries"
+    },
+    "s000359": {
+      "es": "Me gusta jugar al fútbol los sábados.",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "s000360": {
+      "es": "Ella nada todas las mañanas.",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "s000361": {
+      "es": "Vamos a ver el partido en el estadio.",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "s000362": {
+      "es": "Mi hermano juega muy bien al tenis.",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "s000363": {
+      "es": "El árbitro no vio la falta.",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "s000364": {
+      "es": "En invierno practico esquí con mi familia.",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "s000365": {
+      "es": "Los niños juegan con la pelota en el parque.",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "s000366": {
+      "es": "Corremos en la cancha del colegio.",
+      "levelId": "beginner",
+      "topicId": "sports"
+    },
+    "s000367": {
+      "es": "¿Puedo ver el menú, por favor?",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "s000368": {
+      "es": "Voy a pedir el plato del día.",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "s000369": {
+      "es": "Reservamos una mesa para las ocho.",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "s000370": {
+      "es": "¿Qué bebida prefieres, agua o vino?",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "s000371": {
+      "es": "Esta salsa es demasiado picante para mí.",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "s000372": {
+      "es": "Vamos a compartir la entrada.",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "s000373": {
+      "es": "El camarero recomendó la especialidad de la casa.",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "s000374": {
+      "es": "Dejamos una propina generosa.",
+      "levelId": "beginner",
+      "topicId": "restaurant_dining"
+    },
+    "s000375": {
+      "es": "Hay un río cerca de mi pueblo.",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "s000376": {
+      "es": "Vamos a caminar por el bosque.",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "s000377": {
+      "es": "El cielo está lleno de estrellas.",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "s000378": {
+      "es": "Nadamos en el lago todo el verano.",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "s000379": {
+      "es": "Las flores del jardín son muy bonitas.",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "s000380": {
+      "es": "El desierto es muy caliente durante el día.",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "s000381": {
+      "es": "Subimos a la montaña más alta de la zona.",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "s000382": {
+      "es": "Los niños construyen castillos de arena.",
+      "levelId": "beginner",
+      "topicId": "nature_basic"
+    },
+    "s000383": {
+      "es": "Este regalo es para ti, no para él.",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "s000384": {
+      "es": "Gracias por todo tu apoyo.",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "s000385": {
+      "es": "Salimos para el aeropuerto en una hora.",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "s000386": {
+      "es": "Para mí, el español es un idioma bonito.",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "s000387": {
+      "es": "Caminamos por el centro de la ciudad.",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "s000388": {
+      "es": "Estudio mucho para aprobar el examen.",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "s000389": {
+      "es": "Pagué mucho dinero por este coche.",
+      "levelId": "grammar",
+      "topicId": "por_para"
+    },
+    "s000390": {
+      "es": "Viajamos por tren hasta Valencia.",
+      "levelId": "grammar",
+      "topicId": "por_para"
     }
   }
 }

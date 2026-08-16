@@ -1,0 +1,153 @@
+{
+  "levelId": "beginner",
+  "topicId": "restaurant_dining",
+  "vocab": [
+    {
+      "id": "w000770",
+      "es": "el menú",
+      "he": "תפריט",
+      "ex_es": "¿Puedo ver el menú?",
+      "ex_he": "אפשר לראות את התפריט?"
+    },
+    {
+      "id": "w000771",
+      "es": "el camarero / la camarera",
+      "he": "מלצר/ית",
+      "ex_es": "El camarero es muy amable.",
+      "ex_he": "המלצר מאוד נחמד."
+    },
+    {
+      "id": "w000772",
+      "es": "pedir",
+      "he": "להזמין (אוכל)",
+      "ex_es": "Voy a pedir la pasta.",
+      "ex_he": "אני הולך להזמין את הפסטה."
+    },
+    {
+      "id": "w000773",
+      "es": "reservar",
+      "he": "להזמין מקום",
+      "ex_es": "Reservé una mesa para dos.",
+      "ex_he": "הזמנתי שולחן לשניים."
+    },
+    {
+      "id": "w000774",
+      "es": "la propina",
+      "he": "טיפ",
+      "ex_es": "Dejamos una buena propina.",
+      "ex_he": "השארנו טיפ טוב."
+    },
+    {
+      "id": "w000775",
+      "es": "la bebida",
+      "he": "משקה",
+      "ex_es": "¿Qué bebida quieres?",
+      "ex_he": "איזה משקה אתה רוצה?"
+    },
+    {
+      "id": "w000776",
+      "es": "el plato",
+      "he": "מנה/צלחת",
+      "ex_es": "Este plato es mi favorito.",
+      "ex_he": "המנה הזאת האהובה עלי."
+    },
+    {
+      "id": "w000777",
+      "es": "la entrada",
+      "he": "מנה ראשונה",
+      "ex_es": "Pedimos una entrada para compartir.",
+      "ex_he": "הזמנו מנה ראשונה לשיתוף."
+    },
+    {
+      "id": "w000778",
+      "es": "el plato principal",
+      "he": "מנה עיקרית",
+      "ex_es": "El plato principal tarda veinte minutos.",
+      "ex_he": "המנה העיקרית לוקחת עשרים דקות."
+    },
+    {
+      "id": "w000779",
+      "es": "picante",
+      "he": "חריף",
+      "ex_es": "Esta salsa es muy picante.",
+      "ex_he": "הרוטב הזה מאוד חריף."
+    },
+    {
+      "id": "w000780",
+      "es": "vegetariano/a",
+      "he": "צמחוני",
+      "ex_es": "Soy vegetariana.",
+      "ex_he": "אני צמחונית."
+    },
+    {
+      "id": "w000781",
+      "es": "el plato del día",
+      "he": "מנת היום",
+      "ex_es": "¿Cuál es el plato del día?",
+      "ex_he": "מה מנת היום?"
+    },
+    {
+      "id": "w000782",
+      "es": "la especialidad",
+      "he": "מנת דגל/התמחות",
+      "ex_es": "La especialidad de la casa es la paella.",
+      "ex_he": "מנת הדגל של הבית היא פאייה."
+    },
+    {
+      "id": "w000783",
+      "es": "compartir",
+      "he": "לחלוק (אוכל)",
+      "ex_es": "Vamos a compartir este plato.",
+      "ex_he": "בואו נחלוק את המנה הזאת."
+    },
+    {
+      "id": "w000784",
+      "es": "la salsa",
+      "he": "רוטב",
+      "ex_es": "Esta salsa es muy rica.",
+      "ex_he": "הרוטב הזה מאוד טעים."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000367",
+      "es": "¿Puedo ver el menú, por favor?",
+      "he": "אפשר לראות את התפריט, בבקשה?"
+    },
+    {
+      "id": "s000368",
+      "es": "Voy a pedir el plato del día.",
+      "he": "אני הולך להזמין את מנת היום."
+    },
+    {
+      "id": "s000369",
+      "es": "Reservamos una mesa para las ocho.",
+      "he": "הזמנו שולחן לשעה שמונה."
+    },
+    {
+      "id": "s000370",
+      "es": "¿Qué bebida prefieres, agua o vino?",
+      "he": "איזה משקה אתה מעדיף, מים או יין?"
+    },
+    {
+      "id": "s000371",
+      "es": "Esta salsa es demasiado picante para mí.",
+      "he": "הרוטב הזה חריף מדי בשבילי."
+    },
+    {
+      "id": "s000372",
+      "es": "Vamos a compartir la entrada.",
+      "he": "אנחנו הולכים לחלוק את המנה הראשונה."
+    },
+    {
+      "id": "s000373",
+      "es": "El camarero recomendó la especialidad de la casa.",
+      "he": "המלצר המליץ על מנת הדגל של הבית."
+    },
+    {
+      "id": "s000374",
+      "es": "Dejamos una propina generosa.",
+      "he": "השארנו טיפ נדיב."
+    }
+  ]
+}

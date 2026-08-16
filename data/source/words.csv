@@ -633,3 +633,181 @@ w000631,el teatro,תיאטרון,Vamos al teatro esta noche.,אנחנו הולכ
 w000632,la estación de bomberos,תחנת כיבוי אש,La estación de bomberos está lejos de mi casa.,תחנת הכיבוי רחוקה מהבית שלי.,intermediate,city_places,מקומות בעיר
 w000633,el barrio,שכונה,Vivo en un barrio tranquilo.,אני גר בשכונה שקטה.,intermediate,city_places,מקומות בעיר
 w000634,la zona peatonal,אזור הולכי רגל,La zona peatonal está llena de tiendas.,אזור הולכי הרגל מלא בחנויות.,intermediate,city_places,מקומות בעיר
+w000635,el teléfono,טלפון,Mi teléfono no tiene batería.,לטלפון שלי אין סוללה.,intermediate,technology,טכנולוגיה ואינטרנט
+w000636,la computadora,מחשב,Trabajo en la computadora todo el día.,אני עובד עם המחשב כל היום.,intermediate,technology,טכנולוגיה ואינטרנט
+w000637,internet,אינטרנט,No hay internet en casa.,אין אינטרנט בבית.,intermediate,technology,טכנולוגיה ואינטרנט
+w000638,la contraseña,סיסמה,Olvidé mi contraseña.,שכחתי את הסיסמה שלי.,intermediate,technology,טכנולוגיה ואינטרנט
+w000639,el correo electrónico,אימייל,Te envié un correo electrónico.,שלחתי לך אימייל.,intermediate,technology,טכנולוגיה ואינטרנט
+w000640,la aplicación,אפליקציה,Descargué una aplicación nueva.,הורדתי אפליקציה חדשה.,intermediate,technology,טכנולוגיה ואינטרנט
+w000641,la pantalla,מסך,La pantalla está rota.,המסך שבור.,intermediate,technology,טכנולוגיה ואינטרנט
+w000642,el wifi,וויפיי,¿Cuál es la contraseña del wifi?,מה הסיסמה של הוויפיי?,intermediate,technology,טכנולוגיה ואינטרנט
+w000643,el mensaje,הודעה,Te mandé un mensaje ayer.,שלחתי לך הודעה אתמול.,intermediate,technology,טכנולוגיה ואינטרנט
+w000644,las redes sociales,רשתות חברתיות,Paso mucho tiempo en las redes sociales.,אני מבלה הרבה זמן ברשתות חברתיות.,intermediate,technology,טכנולוגיה ואינטרנט
+w000645,descargar,להוריד (קובץ),Voy a descargar la aplicación.,אני הולך להוריד את האפליקציה.,intermediate,technology,טכנולוגיה ואינטרנט
+w000646,el cargador,מטען,¿Tienes un cargador para mi teléfono?,יש לך מטען לטלפון שלי?,intermediate,technology,טכנולוגיה ואינטרנט
+w000647,la cámara,מצלמה,La cámara del teléfono es muy buena.,המצלמה של הטלפון מאוד טובה.,intermediate,technology,טכנולוגיה ואינטרנט
+w000648,subir una foto,להעלות תמונה,Voy a subir esta foto.,אני הולך להעלות את התמונה הזאת.,intermediate,technology,טכנולוגיה ואינטרנט
+w000649,el archivo,קובץ,No encuentro el archivo.,אני לא מוצא את הקובץ.,intermediate,technology,טכנולוגיה ואינטרנט
+w000650,la actualización,עדכון,Hay una actualización nueva.,יש עדכון חדש.,intermediate,technology,טכנולוגיה ואינטרנט
+w000651,conectarse,להתחבר (לרשת),No puedo conectarme al wifi.,אני לא מצליח להתחבר לוויפיי.,intermediate,technology,טכנולוגיה ואינטרנט
+w000652,Soy profesor,אני מורה,Soy profesor desde hace diez años.,אני מורה כבר עשר שנים.,grammar,ser_vs_estar,Ser מול Estar
+w000653,Estoy ocupado,אני עסוק,Estoy muy ocupado hoy.,אני מאוד עסוק היום.,grammar,ser_vs_estar,Ser מול Estar
+w000654,Es de España,הוא/היא מספרד,Ella es de España.,היא מספרד.,grammar,ser_vs_estar,Ser מול Estar
+w000655,Está en el trabajo,הוא בעבודה,Él está en el trabajo ahora.,הוא בעבודה עכשיו.,grammar,ser_vs_estar,Ser מול Estar
+w000656,Es alto,הוא גבוה,Mi hermano es alto.,אחי גבוה.,grammar,ser_vs_estar,Ser מול Estar
+w000657,Está enfermo,הוא חולה,Mi hermano está enfermo hoy.,אחי חולה היום.,grammar,ser_vs_estar,Ser מול Estar
+w000658,Es la una,השעה אחת,Es la una de la tarde.,השעה אחת אחר הצהריים.,grammar,ser_vs_estar,Ser מול Estar
+w000659,Estamos estudiando,אנחנו לומדים,Estamos estudiando para el examen.,אנחנו לומדים למבחן.,grammar,ser_vs_estar,Ser מול Estar
+w000660,Es de madera,זה עשוי מעץ,La mesa es de madera.,השולחן עשוי מעץ.,grammar,ser_vs_estar,Ser מול Estar
+w000661,Está abierto,זה פתוח,El restaurante está abierto.,המסעדה פתוחה.,grammar,ser_vs_estar,Ser מול Estar
+w000662,Somos vecinos,אנחנו שכנים,Somos vecinos desde hace años.,אנחנו שכנים כבר שנים.,grammar,ser_vs_estar,Ser מול Estar
+w000663,Está feliz,הוא שמח,Está muy feliz con la noticia.,הוא מאוד שמח מהחדשות.,grammar,ser_vs_estar,Ser מול Estar
+w000664,en,ב/ב-,Vivo en Madrid.,אני גר במדריד.,beginner,prepositions_location,מילות יחס ומיקום
+w000665,sobre,על (מעל),El libro está sobre la mesa.,הספר על השולחן.,beginner,prepositions_location,מילות יחס ומיקום
+w000666,debajo de,מתחת ל-,El gato está debajo de la cama.,החתול מתחת למיטה.,beginner,prepositions_location,מילות יחס ומיקום
+w000667,alrededor de,מסביב ל-,Hay muchas tiendas alrededor del parque.,יש הרבה חנויות מסביב לפארק.,beginner,prepositions_location,מילות יחס ומיקום
+w000668,entre,בין,El parque está entre las dos calles.,הפארק נמצא בין שני הרחובות.,beginner,prepositions_location,מילות יחס ומיקום
+w000669,cerca de,קרוב ל-,Vivo cerca de aquí.,אני גר קרוב לכאן.,beginner,prepositions_location,מילות יחס ומיקום
+w000670,lejos de,רחוק מ-,La escuela está lejos de mi casa.,בית הספר רחוק מהבית שלי.,beginner,prepositions_location,מילות יחס ומיקום
+w000671,delante de,לפני/מול,Hay un coche delante de la casa.,יש מכונית מול הבית.,beginner,prepositions_location,מילות יחס ומיקום
+w000672,detrás de,מאחורי,El jardín está detrás de la casa.,הגינה מאחורי הבית.,beginner,prepositions_location,מילות יחס ומיקום
+w000673,dentro de,בתוך,Las llaves están dentro del bolso.,המפתחות בתוך התיק.,beginner,prepositions_location,מילות יחס ומיקום
+w000674,fuera de,מחוץ ל-,El perro está fuera de la casa.,הכלב מחוץ לבית.,beginner,prepositions_location,מילות יחס ומיקום
+w000675,encima de,מעל/על גבי,Pon el libro encima de la mesa.,שים את הספר על השולחן.,beginner,prepositions_location,מילות יחס ומיקום
+w000676,arriba,למעלה,Mi habitación está arriba.,החדר שלי למעלה.,beginner,prepositions_location,מילות יחס ומיקום
+w000677,abajo,למטה,La cocina está abajo.,המטבח למטה.,beginner,prepositions_location,מילות יחס ומיקום
+w000678,aquí,כאן,"Ven aquí, por favor.","בוא הנה, בבקשה.",beginner,prepositions_location,מילות יחס ומיקום
+w000679,allí,שם,El coche está allí.,המכונית שם.,beginner,prepositions_location,מילות יחס ומיקום
+w000680,¿Qué?,מה?,¿Qué es esto?,מה זה?,beginner,question_words,מילות שאלה
+w000681,¿Quién?,מי?,¿Quién es ella?,מי היא?,beginner,question_words,מילות שאלה
+w000682,¿Cómo?,איך?,¿Cómo se llama tu perro?,איך קוראים לכלב שלך?,beginner,question_words,מילות שאלה
+w000683,¿Cuándo?,מתי?,¿Cuándo es la fiesta?,מתי המסיבה?,beginner,question_words,מילות שאלה
+w000684,¿Dónde?,איפה?,¿Dónde trabajas?,איפה אתה עובד?,beginner,question_words,מילות שאלה
+w000685,¿Por qué?,למה?,¿Por qué no vienes?,למה אתה לא בא?,beginner,question_words,מילות שאלה
+w000686,¿Cuánto/a?,כמה?,¿Cuánta agua necesitas?,כמה מים אתה צריך?,beginner,question_words,מילות שאלה
+w000687,¿Cuál?,איזה/איזו?,¿Cuál prefieres?,איזה אתה מעדיף?,beginner,question_words,מילות שאלה
+w000688,¿Cuántos/as?,כמה (רבים)?,¿Cuántos libros tienes?,כמה ספרים יש לך?,beginner,question_words,מילות שאלה
+w000689,¿Adónde?,לאן?,¿Adónde vas?,לאן אתה הולך?,beginner,question_words,מילות שאלה
+w000690,¿Para qué?,בשביל מה?,¿Para qué sirve esto?,בשביל מה זה משמש?,beginner,question_words,מילות שאלה
+w000691,¿De dónde?,מאיפה?,¿De dónde eres?,מאיפה אתה?,beginner,question_words,מילות שאלה
+w000692,grande,גדול,La casa es muy grande.,הבית מאוד גדול.,beginner,common_adjectives,תארים בסיסיים
+w000693,pequeño/a,קטן,Vivo en un apartamento pequeño.,אני גר בדירה קטנה.,beginner,common_adjectives,תארים בסיסיים
+w000694,bueno/a,טוב,Es una buena idea.,זה רעיון טוב.,beginner,common_adjectives,תארים בסיסיים
+w000695,malo/a,רע,Esta película es mala.,הסרט הזה רע.,beginner,common_adjectives,תארים בסיסיים
+w000696,rápido/a,מהיר,El tren es muy rápido.,הרכבת מאוד מהירה.,beginner,common_adjectives,תארים בסיסיים
+w000697,lento/a,איטי,El autobús es lento.,האוטובוס איטי.,beginner,common_adjectives,תארים בסיסיים
+w000698,nuevo/a,חדש,Compré unos zapatos nuevos.,קניתי נעליים חדשות.,beginner,common_adjectives,תארים בסיסיים
+w000699,viejo/a,ישן,Este edificio es muy viejo.,הבניין הזה מאוד ישן.,beginner,common_adjectives,תארים בסיסיים
+w000700,fácil,קל,El examen fue fácil.,המבחן היה קל.,beginner,common_adjectives,תארים בסיסיים
+w000701,difícil,קשה,Esta lección es difícil.,השיעור הזה קשה.,beginner,common_adjectives,תארים בסיסיים
+w000702,alto/a,גבוה,El árbol es muy alto.,העץ מאוד גבוה.,beginner,common_adjectives,תארים בסיסיים
+w000703,bajo/a,נמוך,El techo es bajo.,התקרה נמוכה.,beginner,common_adjectives,תארים בסיסיים
+w000704,largo/a,ארוך,El viaje fue muy largo.,הנסיעה הייתה מאוד ארוכה.,beginner,common_adjectives,תארים בסיסיים
+w000705,corto/a,קצר,Tengo el pelo corto.,יש לי שיער קצר.,beginner,common_adjectives,תארים בסיסיים
+w000706,limpio/a,נקי,La cocina está limpia.,המטבח נקי.,beginner,common_adjectives,תארים בסיסיים
+w000707,sucio/a,מלוכלך,Tienes las manos sucias.,יש לך ידיים מלוכלכות.,beginner,common_adjectives,תארים בסיסיים
+w000708,fuerte,חזק,Es un hombre muy fuerte.,הוא גבר מאוד חזק.,beginner,common_adjectives,תארים בסיסיים
+w000709,débil,חלש,Me siento débil hoy.,אני מרגיש חלש היום.,beginner,common_adjectives,תארים בסיסיים
+w000710,siempre,תמיד,Siempre desayuno a las ocho.,אני תמיד אוכל ארוחת בוקר בשמונה.,beginner,adverbs_frequency,תדירות וכמות
+w000711,nunca,אף פעם לא,Nunca como carne.,אני אף פעם לא אוכל בשר.,beginner,adverbs_frequency,תדירות וכמות
+w000712,a veces,לפעמים,A veces voy al cine.,לפעמים אני הולך לקולנוע.,beginner,adverbs_frequency,תדירות וכמות
+w000713,mucho,הרבה,Trabajo mucho.,אני עובד הרבה.,beginner,adverbs_frequency,תדירות וכמות
+w000714,poco,מעט,Duermo poco.,אני ישן מעט.,beginner,adverbs_frequency,תדירות וכמות
+w000715,también,גם כן,Yo también quiero ir.,גם אני רוצה ללכת.,beginner,adverbs_frequency,תדירות וכמות
+w000716,tampoco,גם לא,Yo tampoco lo sé.,גם אני לא יודע.,beginner,adverbs_frequency,תדירות וכמות
+w000717,más,יותר,Quiero más café.,אני רוצה יותר קפה.,beginner,adverbs_frequency,תדירות וכמות
+w000718,menos,פחות,Necesito menos estrés.,אני צריך פחות לחץ.,beginner,adverbs_frequency,תדירות וכמות
+w000719,bastante,די/מספיק,Tengo bastante tiempo.,יש לי מספיק זמן.,beginner,adverbs_frequency,תדירות וכמות
+w000720,demasiado,יותר מדי,Hay demasiada gente aquí.,יש יותר מדי אנשים כאן.,beginner,adverbs_frequency,תדירות וכמות
+w000721,casi,כמעט,Ya casi terminamos.,כבר כמעט סיימנו.,beginner,adverbs_frequency,תדירות וכמות
+w000722,todavía,עדיין,Todavía no he comido.,עדיין לא אכלתי.,beginner,adverbs_frequency,תדירות וכמות
+w000723,ya,כבר,Ya llegué.,כבר הגעתי.,beginner,adverbs_frequency,תדירות וכמות
+w000724,enero,ינואר,Mi cumpleaños es en enero.,יום ההולדת שלי בינואר.,beginner,months_seasons,חודשים ועונות
+w000725,febrero,פברואר,Febrero es un mes corto.,פברואר הוא חודש קצר.,beginner,months_seasons,חודשים ועונות
+w000726,marzo,מרץ,La primavera empieza en marzo.,האביב מתחיל במרץ.,beginner,months_seasons,חודשים ועונות
+w000727,abril,אפריל,Llueve mucho en abril.,יורד הרבה גשם באפריל.,beginner,months_seasons,חודשים ועונות
+w000728,mayo,מאי,Nos casamos en mayo.,התחתנו במאי.,beginner,months_seasons,חודשים ועונות
+w000729,junio,יוני,Las clases terminan en junio.,השיעורים מסתיימים ביוני.,beginner,months_seasons,חודשים ועונות
+w000730,julio,יולי,En julio hace mucho calor.,ביולי חם מאוד.,beginner,months_seasons,חודשים ועונות
+w000731,agosto,אוגוסט,Vamos de vacaciones en agosto.,אנחנו יוצאים לחופשה באוגוסט.,beginner,months_seasons,חודשים ועונות
+w000732,septiembre,ספטמבר,La escuela empieza en septiembre.,בית הספר מתחיל בספטמבר.,beginner,months_seasons,חודשים ועונות
+w000733,octubre,אוקטובר,En octubre empieza el otoño.,באוקטובר מתחיל הסתיו.,beginner,months_seasons,חודשים ועונות
+w000734,noviembre,נובמבר,Hace frío en noviembre.,קר בנובמבר.,beginner,months_seasons,חודשים ועונות
+w000735,diciembre,דצמבר,El año termina en diciembre.,השנה מסתיימת בדצמבר.,beginner,months_seasons,חודשים ועונות
+w000736,la primavera,אביב,Me encanta la primavera.,אני מאוד אוהב את האביב.,beginner,months_seasons,חודשים ועונות
+w000737,el verano,קיץ,En verano vamos a la playa.,בקיץ אנחנו הולכים לחוף.,beginner,months_seasons,חודשים ועונות
+w000738,el otoño,סתיו,Las hojas caen en otoño.,העלים נופלים בסתיו.,beginner,months_seasons,חודשים ועונות
+w000739,el invierno,חורף,En invierno nieva mucho.,בחורף יורד הרבה שלג.,beginner,months_seasons,חודשים ועונות
+w000740,España,ספרד,Vivo en España.,אני גר בספרד.,beginner,nationalities_countries,לאומים ומדינות
+w000741,español/a,ספרדי/ספרדייה,Ella es española.,היא ספרדייה.,beginner,nationalities_countries,לאומים ומדינות
+w000742,México,מקסיקו,Mi amigo es de México.,החבר שלי ממקסיקו.,beginner,nationalities_countries,לאומים ומדינות
+w000743,mexicano/a,מקסיקני/מקסיקנית,La comida mexicana es deliciosa.,האוכל המקסיקני טעים.,beginner,nationalities_countries,לאומים ומדינות
+w000744,Argentina,ארגנטינה,Argentina está en Sudamérica.,ארגנטינה נמצאת בדרום אמריקה.,beginner,nationalities_countries,לאומים ומדינות
+w000745,argentino/a,ארגנטינאי/ארגנטינאית,Mi profesor es argentino.,המורה שלי ארגנטינאי.,beginner,nationalities_countries,לאומים ומדינות
+w000746,Estados Unidos,ארצות הברית,Vivimos en Estados Unidos.,אנחנו גרים בארצות הברית.,beginner,nationalities_countries,לאומים ומדינות
+w000747,estadounidense,"אמריקאי (מארה""ב)",Ella es estadounidense.,היא אמריקאית.,beginner,nationalities_countries,לאומים ומדינות
+w000748,Israel,ישראל,Nací en Israel.,נולדתי בישראל.,beginner,nationalities_countries,לאומים ומדינות
+w000749,israelí,ישראלי,Soy israelí.,אני ישראלי.,beginner,nationalities_countries,לאומים ומדינות
+w000750,Francia,צרפת,Francia es un país bonito.,צרפת היא מדינה יפה.,beginner,nationalities_countries,לאומים ומדינות
+w000751,francés/francesa,צרפתי/צרפתייה,Mi vecino es francés.,השכן שלי צרפתי.,beginner,nationalities_countries,לאומים ומדינות
+w000752,el país,מדינה (כללי),¿De qué país eres?,מאיזו מדינה אתה?,beginner,nationalities_countries,לאומים ומדינות
+w000753,la nacionalidad,לאום,¿Cuál es tu nacionalidad?,מה הלאום שלך?,beginner,nationalities_countries,לאומים ומדינות
+w000754,el fútbol,כדורגל,Me gusta jugar al fútbol.,אני אוהב לשחק כדורגל.,beginner,sports,ספורט
+w000755,el baloncesto,כדורסל,Juego al baloncesto los martes.,אני משחק כדורסל בימי שלישי.,beginner,sports,ספורט
+w000756,el tenis,טניס,Ella juega muy bien al tenis.,היא משחקת טניס מאוד טוב.,beginner,sports,ספורט
+w000757,la natación,שחייה,La natación es mi deporte favorito.,שחייה היא הספורט האהוב עלי.,beginner,sports,ספורט
+w000758,nadar,לשחות,Nado todos los días.,אני שוחה כל יום.,beginner,sports,ספורט
+w000759,correr,לרוץ,Corro por el parque cada mañana.,אני רץ בפארק כל בוקר.,beginner,sports,ספורט
+w000760,el ciclismo,רכיבה על אופניים,Practico ciclismo los fines de semana.,אני עוסק ברכיבה על אופניים בסופי שבוע.,beginner,sports,ספורט
+w000761,el voleibol,כדורעף,Jugamos voleibol en la playa.,אנחנו משחקים כדורעף בחוף.,beginner,sports,ספורט
+w000762,el golf,גולף,Mi padre juega al golf.,אבא שלי משחק גולף.,beginner,sports,ספורט
+w000763,el boxeo,איגרוף,El boxeo requiere mucha disciplina.,האיגרוף דורש הרבה משמעת.,beginner,sports,ספורט
+w000764,la pelota,כדור,Lanza la pelota.,זרוק את הכדור.,beginner,sports,ספורט
+w000765,el gol,גול (שער),Marcó un gol increíble.,הוא כבש גול מדהים.,beginner,sports,ספורט
+w000766,el estadio,אצטדיון,Fuimos al estadio a ver el partido.,הלכנו לאצטדיון לראות את המשחק.,beginner,sports,ספורט
+w000767,el esquí,סקי,Practico esquí en las montañas.,אני עוסק בסקי בהרים.,beginner,sports,ספורט
+w000768,el árbitro,שופט (ספורט),El árbitro pitó el final del partido.,השופט שרק על סוף המשחק.,beginner,sports,ספורט
+w000769,la cancha,מגרש (ספורט),Jugamos en la cancha del colegio.,אנחנו משחקים במגרש של בית הספר.,beginner,sports,ספורט
+w000770,el menú,תפריט,¿Puedo ver el menú?,אפשר לראות את התפריט?,beginner,restaurant_dining,מסעדה והזמנה
+w000771,el camarero / la camarera,מלצר/ית,El camarero es muy amable.,המלצר מאוד נחמד.,beginner,restaurant_dining,מסעדה והזמנה
+w000772,pedir,להזמין (אוכל),Voy a pedir la pasta.,אני הולך להזמין את הפסטה.,beginner,restaurant_dining,מסעדה והזמנה
+w000773,reservar,להזמין מקום,Reservé una mesa para dos.,הזמנתי שולחן לשניים.,beginner,restaurant_dining,מסעדה והזמנה
+w000774,la propina,טיפ,Dejamos una buena propina.,השארנו טיפ טוב.,beginner,restaurant_dining,מסעדה והזמנה
+w000775,la bebida,משקה,¿Qué bebida quieres?,איזה משקה אתה רוצה?,beginner,restaurant_dining,מסעדה והזמנה
+w000776,el plato,מנה/צלחת,Este plato es mi favorito.,המנה הזאת האהובה עלי.,beginner,restaurant_dining,מסעדה והזמנה
+w000777,la entrada,מנה ראשונה,Pedimos una entrada para compartir.,הזמנו מנה ראשונה לשיתוף.,beginner,restaurant_dining,מסעדה והזמנה
+w000778,el plato principal,מנה עיקרית,El plato principal tarda veinte minutos.,המנה העיקרית לוקחת עשרים דקות.,beginner,restaurant_dining,מסעדה והזמנה
+w000779,picante,חריף,Esta salsa es muy picante.,הרוטב הזה מאוד חריף.,beginner,restaurant_dining,מסעדה והזמנה
+w000780,vegetariano/a,צמחוני,Soy vegetariana.,אני צמחונית.,beginner,restaurant_dining,מסעדה והזמנה
+w000781,el plato del día,מנת היום,¿Cuál es el plato del día?,מה מנת היום?,beginner,restaurant_dining,מסעדה והזמנה
+w000782,la especialidad,מנת דגל/התמחות,La especialidad de la casa es la paella.,מנת הדגל של הבית היא פאייה.,beginner,restaurant_dining,מסעדה והזמנה
+w000783,compartir,לחלוק (אוכל),Vamos a compartir este plato.,בואו נחלוק את המנה הזאת.,beginner,restaurant_dining,מסעדה והזמנה
+w000784,la salsa,רוטב,Esta salsa es muy rica.,הרוטב הזה מאוד טעים.,beginner,restaurant_dining,מסעדה והזמנה
+w000785,el árbol,עץ,Hay un árbol grande en el jardín.,יש עץ גדול בגינה.,beginner,nature_basic,טבע בסיסי
+w000786,la montaña,הר,Me gusta caminar en la montaña.,אני אוהב ללכת בהר.,beginner,nature_basic,טבע בסיסי
+w000787,el río,נהר,El río pasa por la ciudad.,הנהר עובר דרך העיר.,beginner,nature_basic,טבע בסיסי
+w000788,el lago,אגם,Nadamos en el lago.,שחינו באגם.,beginner,nature_basic,טבע בסיסי
+w000789,el bosque,יער,Caminamos por el bosque.,הלכנו ביער.,beginner,nature_basic,טבע בסיסי
+w000790,la flor,פרח,Le regalé flores.,נתתי לה פרחים במתנה.,beginner,nature_basic,טבע בסיסי
+w000791,la planta,צמח,Riego las plantas cada día.,אני משקה את הצמחים כל יום.,beginner,nature_basic,טבע בסיסי
+w000792,la piedra,אבן,Encontré una piedra bonita.,מצאתי אבן יפה.,beginner,nature_basic,טבע בסיסי
+w000793,el cielo,שמיים,El cielo está muy despejado.,השמיים מאוד בהירים.,beginner,nature_basic,טבע בסיסי
+w000794,la tierra,אדמה/כדור הארץ,La tierra es muy fértil aquí.,האדמה מאוד פורייה כאן.,beginner,nature_basic,טבע בסיסי
+w000795,la isla,אי,Fuimos a una isla pequeña.,הלכנו לאי קטן.,beginner,nature_basic,טבע בסיסי
+w000796,la selva,ג'ונגל,La selva tiene muchos animales.,בג'ונגל יש הרבה חיות.,beginner,nature_basic,טבע בסיסי
+w000797,el desierto,מדבר,El desierto es muy seco.,המדבר מאוד יבש.,beginner,nature_basic,טבע בסיסי
+w000798,la arena,חול,Los niños juegan en la arena.,הילדים משחקים בחול.,beginner,nature_basic,טבע בסיסי
+w000799,la estrella,כוכב,Las estrellas brillan por la noche.,הכוכבים זורחים בלילה.,beginner,nature_basic,טבע בסיסי
+w000800,la luna,ירח,La luna está llena esta noche.,הירח מלא הלילה.,beginner,nature_basic,טבע בסיסי
+w000801,Es para ti,זה בשבילך,Este regalo es para ti.,המתנה הזאת בשבילך.,grammar,por_para,Por מול Para
+w000802,Gracias por tu ayuda,תודה על העזרה שלך,Gracias por tu ayuda con la tarea.,תודה על העזרה שלך עם השיעורים.,grammar,por_para,Por מול Para
+w000803,Salgo para Madrid,אני יוצא למדריד,Salgo para Madrid mañana.,אני יוצא למדריד מחר.,grammar,por_para,Por מול Para
+w000804,Trabajo por la mañana,אני עובד בבוקר,Trabajo por la mañana y estudio por la tarde.,אני עובד בבוקר ולומד אחר הצהריים.,grammar,por_para,Por מול Para
+w000805,La tarea es para mañana,השיעורים צריכים להיות מוכנים למחר,La tarea es para mañana.,השיעורים צריכים להיות מוכנים למחר.,grammar,por_para,Por מול Para
+w000806,"Para mí, es fácil","בשבילי, זה קל","Para mí, este examen es fácil.","בשבילי, המבחן הזה קל.",grammar,por_para,Por מול Para
+w000807,Pagué diez euros por el libro,שילמתי עשרה יורו על הספר,Pagué diez euros por el libro.,שילמתי עשרה יורו על הספר.,grammar,por_para,Por מול Para
+w000808,Caminamos por la playa,אנחנו הולכים לאורך החוף,Caminamos por la playa todas las tardes.,אנחנו הולכים לאורך החוף כל אחר הצהריים.,grammar,por_para,Por מול Para
+w000809,Lo hice por ti,עשיתי את זה בשבילך,"Lo hice por ti, no por mí.","עשיתי את זה בשבילך, לא בשבילי.",grammar,por_para,Por מול Para
+w000810,Viajamos por avión,אנחנו נוסעים במטוס,Viajamos por avión a Barcelona.,אנחנו נוסעים במטוס לברצלונה.,grammar,por_para,Por מול Para
+w000811,Estudio para ser médico,אני לומד כדי להיות רופא,Estudio para ser médico.,אני לומד כדי להיות רופא.,grammar,por_para,Por מול Para
+w000812,Por ejemplo,לדוגמה,"Por ejemplo, me gusta el café.","לדוגמה, אני אוהב קפה.",grammar,por_para,Por מול Para

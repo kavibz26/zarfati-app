@@ -1,0 +1,132 @@
+{
+  "levelId": "grammar",
+  "topicId": "por_para",
+  "vocab": [
+    {
+      "id": "w000801",
+      "es": "Es para ti",
+      "he": "זה בשבילך",
+      "ex_es": "Este regalo es para ti.",
+      "ex_he": "המתנה הזאת בשבילך."
+    },
+    {
+      "id": "w000802",
+      "es": "Gracias por tu ayuda",
+      "he": "תודה על העזרה שלך",
+      "ex_es": "Gracias por tu ayuda con la tarea.",
+      "ex_he": "תודה על העזרה שלך עם השיעורים."
+    },
+    {
+      "id": "w000803",
+      "es": "Salgo para Madrid",
+      "he": "אני יוצא למדריד",
+      "ex_es": "Salgo para Madrid mañana.",
+      "ex_he": "אני יוצא למדריד מחר."
+    },
+    {
+      "id": "w000804",
+      "es": "Trabajo por la mañana",
+      "he": "אני עובד בבוקר",
+      "ex_es": "Trabajo por la mañana y estudio por la tarde.",
+      "ex_he": "אני עובד בבוקר ולומד אחר הצהריים."
+    },
+    {
+      "id": "w000805",
+      "es": "La tarea es para mañana",
+      "he": "השיעורים צריכים להיות מוכנים למחר",
+      "ex_es": "La tarea es para mañana.",
+      "ex_he": "השיעורים צריכים להיות מוכנים למחר."
+    },
+    {
+      "id": "w000806",
+      "es": "Para mí, es fácil",
+      "he": "בשבילי, זה קל",
+      "ex_es": "Para mí, este examen es fácil.",
+      "ex_he": "בשבילי, המבחן הזה קל."
+    },
+    {
+      "id": "w000807",
+      "es": "Pagué diez euros por el libro",
+      "he": "שילמתי עשרה יורו על הספר",
+      "ex_es": "Pagué diez euros por el libro.",
+      "ex_he": "שילמתי עשרה יורו על הספר."
+    },
+    {
+      "id": "w000808",
+      "es": "Caminamos por la playa",
+      "he": "אנחנו הולכים לאורך החוף",
+      "ex_es": "Caminamos por la playa todas las tardes.",
+      "ex_he": "אנחנו הולכים לאורך החוף כל אחר הצהריים."
+    },
+    {
+      "id": "w000809",
+      "es": "Lo hice por ti",
+      "he": "עשיתי את זה בשבילך",
+      "ex_es": "Lo hice por ti, no por mí.",
+      "ex_he": "עשיתי את זה בשבילך, לא בשבילי."
+    },
+    {
+      "id": "w000810",
+      "es": "Viajamos por avión",
+      "he": "אנחנו נוסעים במטוס",
+      "ex_es": "Viajamos por avión a Barcelona.",
+      "ex_he": "אנחנו נוסעים במטוס לברצלונה."
+    },
+    {
+      "id": "w000811",
+      "es": "Estudio para ser médico",
+      "he": "אני לומד כדי להיות רופא",
+      "ex_es": "Estudio para ser médico.",
+      "ex_he": "אני לומד כדי להיות רופא."
+    },
+    {
+      "id": "w000812",
+      "es": "Por ejemplo",
+      "he": "לדוגמה",
+      "ex_es": "Por ejemplo, me gusta el café.",
+      "ex_he": "לדוגמה, אני אוהב קפה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000383",
+      "es": "Este regalo es para ti, no para él.",
+      "he": "המתנה הזאת בשבילך, לא בשבילו."
+    },
+    {
+      "id": "s000384",
+      "es": "Gracias por todo tu apoyo.",
+      "he": "תודה על כל התמיכה שלך."
+    },
+    {
+      "id": "s000385",
+      "es": "Salimos para el aeropuerto en una hora.",
+      "he": "אנחנו יוצאים לשדה התעופה בעוד שעה."
+    },
+    {
+      "id": "s000386",
+      "es": "Para mí, el español es un idioma bonito.",
+      "he": "בשבילי, ספרדית היא שפה יפה."
+    },
+    {
+      "id": "s000387",
+      "es": "Caminamos por el centro de la ciudad.",
+      "he": "אנחנו הולכים במרכז העיר."
+    },
+    {
+      "id": "s000388",
+      "es": "Estudio mucho para aprobar el examen.",
+      "he": "אני לומד הרבה כדי לעבור את המבחן."
+    },
+    {
+      "id": "s000389",
+      "es": "Pagué mucho dinero por este coche.",
+      "he": "שילמתי הרבה כסף על המכונית הזאת."
+    },
+    {
+      "id": "s000390",
+      "es": "Viajamos por tren hasta Valencia.",
+      "he": "אנחנו נוסעים ברכבת עד ולנסיה."
+    }
+  ]
+}

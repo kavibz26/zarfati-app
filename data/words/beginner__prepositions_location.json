@@ -1,0 +1,160 @@
+{
+  "levelId": "beginner",
+  "topicId": "prepositions_location",
+  "vocab": [
+    {
+      "id": "w000664",
+      "es": "en",
+      "he": "ב/ב-",
+      "ex_es": "Vivo en Madrid.",
+      "ex_he": "אני גר במדריד."
+    },
+    {
+      "id": "w000665",
+      "es": "sobre",
+      "he": "על (מעל)",
+      "ex_es": "El libro está sobre la mesa.",
+      "ex_he": "הספר על השולחן."
+    },
+    {
+      "id": "w000666",
+      "es": "debajo de",
+      "he": "מתחת ל-",
+      "ex_es": "El gato está debajo de la cama.",
+      "ex_he": "החתול מתחת למיטה."
+    },
+    {
+      "id": "w000667",
+      "es": "alrededor de",
+      "he": "מסביב ל-",
+      "ex_es": "Hay muchas tiendas alrededor del parque.",
+      "ex_he": "יש הרבה חנויות מסביב לפארק."
+    },
+    {
+      "id": "w000668",
+      "es": "entre",
+      "he": "בין",
+      "ex_es": "El parque está entre las dos calles.",
+      "ex_he": "הפארק נמצא בין שני הרחובות."
+    },
+    {
+      "id": "w000669",
+      "es": "cerca de",
+      "he": "קרוב ל-",
+      "ex_es": "Vivo cerca de aquí.",
+      "ex_he": "אני גר קרוב לכאן."
+    },
+    {
+      "id": "w000670",
+      "es": "lejos de",
+      "he": "רחוק מ-",
+      "ex_es": "La escuela está lejos de mi casa.",
+      "ex_he": "בית הספר רחוק מהבית שלי."
+    },
+    {
+      "id": "w000671",
+      "es": "delante de",
+      "he": "לפני/מול",
+      "ex_es": "Hay un coche delante de la casa.",
+      "ex_he": "יש מכונית מול הבית."
+    },
+    {
+      "id": "w000672",
+      "es": "detrás de",
+      "he": "מאחורי",
+      "ex_es": "El jardín está detrás de la casa.",
+      "ex_he": "הגינה מאחורי הבית."
+    },
+    {
+      "id": "w000673",
+      "es": "dentro de",
+      "he": "בתוך",
+      "ex_es": "Las llaves están dentro del bolso.",
+      "ex_he": "המפתחות בתוך התיק."
+    },
+    {
+      "id": "w000674",
+      "es": "fuera de",
+      "he": "מחוץ ל-",
+      "ex_es": "El perro está fuera de la casa.",
+      "ex_he": "הכלב מחוץ לבית."
+    },
+    {
+      "id": "w000675",
+      "es": "encima de",
+      "he": "מעל/על גבי",
+      "ex_es": "Pon el libro encima de la mesa.",
+      "ex_he": "שים את הספר על השולחן."
+    },
+    {
+      "id": "w000676",
+      "es": "arriba",
+      "he": "למעלה",
+      "ex_es": "Mi habitación está arriba.",
+      "ex_he": "החדר שלי למעלה."
+    },
+    {
+      "id": "w000677",
+      "es": "abajo",
+      "he": "למטה",
+      "ex_es": "La cocina está abajo.",
+      "ex_he": "המטבח למטה."
+    },
+    {
+      "id": "w000678",
+      "es": "aquí",
+      "he": "כאן",
+      "ex_es": "Ven aquí, por favor.",
+      "ex_he": "בוא הנה, בבקשה."
+    },
+    {
+      "id": "w000679",
+      "es": "allí",
+      "he": "שם",
+      "ex_es": "El coche está allí.",
+      "ex_he": "המכונית שם."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000311",
+      "es": "El libro está sobre la mesa.",
+      "he": "הספר על השולחן."
+    },
+    {
+      "id": "s000312",
+      "es": "La tienda está al lado del banco.",
+      "he": "החנות ליד הבנק."
+    },
+    {
+      "id": "s000313",
+      "es": "Vivo cerca de la escuela.",
+      "he": "אני גר קרוב לבית הספר."
+    },
+    {
+      "id": "s000314",
+      "es": "El gato está debajo de la cama.",
+      "he": "החתול מתחת למיטה."
+    },
+    {
+      "id": "s000315",
+      "es": "Hay un parque detrás de mi casa.",
+      "he": "יש פארק מאחורי הבית שלי."
+    },
+    {
+      "id": "s000316",
+      "es": "Las llaves están dentro del bolso.",
+      "he": "המפתחות בתוך התיק."
+    },
+    {
+      "id": "s000317",
+      "es": "Mi habitación está arriba y la cocina abajo.",
+      "he": "החדר שלי למעלה והמטבח למטה."
+    },
+    {
+      "id": "s000318",
+      "es": "El restaurante está lejos de aquí.",
+      "he": "המסעדה רחוקה מכאן."
+    }
+  ]
+}
