@@ -1,0 +1,167 @@
+{
+  "levelId": "intermediate",
+  "topicId": "media_entertainment",
+  "vocab": [
+    {
+      "id": "w000830",
+      "es": "la película",
+      "he": "סרט",
+      "ex_es": "Vi una película muy buena anoche.",
+      "ex_he": "ראיתי סרט מאוד טוב אתמול בלילה."
+    },
+    {
+      "id": "w000831",
+      "es": "la serie",
+      "he": "סדרה",
+      "ex_es": "Estoy viendo una serie nueva.",
+      "ex_he": "אני צופה בסדרה חדשה."
+    },
+    {
+      "id": "w000832",
+      "es": "el actor / la actriz",
+      "he": "שחקן/שחקנית",
+      "ex_es": "Mi actor favorito es muy famoso.",
+      "ex_he": "השחקן האהוב עלי מאוד מפורסם."
+    },
+    {
+      "id": "w000833",
+      "es": "la noticia",
+      "he": "ידיעה חדשותית",
+      "ex_es": "Vi la noticia en la televisión.",
+      "ex_he": "ראיתי את הידיעה בטלוויזיה."
+    },
+    {
+      "id": "w000834",
+      "es": "el canal",
+      "he": "ערוץ",
+      "ex_es": "Cambié de canal.",
+      "ex_he": "החלפתי ערוץ."
+    },
+    {
+      "id": "w000835",
+      "es": "la emisora de radio",
+      "he": "תחנת רדיו",
+      "ex_es": "Escucho esta emisora de radio todos los días.",
+      "ex_he": "אני מאזין לתחנת הרדיו הזאת כל יום."
+    },
+    {
+      "id": "w000836",
+      "es": "el concierto",
+      "he": "הופעה/קונצרט",
+      "ex_es": "Fuimos a un concierto increíble.",
+      "ex_he": "הלכנו להופעה מדהימה."
+    },
+    {
+      "id": "w000837",
+      "es": "la banda",
+      "he": "להקה",
+      "ex_es": "Mi banda favorita toca esta noche.",
+      "ex_he": "הלהקה האהובה עלי מנגנת הערב."
+    },
+    {
+      "id": "w000838",
+      "es": "la canción",
+      "he": "שיר",
+      "ex_es": "Esta canción es muy popular.",
+      "ex_he": "השיר הזה מאוד פופולרי."
+    },
+    {
+      "id": "w000839",
+      "es": "el episodio",
+      "he": "פרק (בסדרה)",
+      "ex_es": "Vi el último episodio ayer.",
+      "ex_he": "ראיתי את הפרק האחרון אתמול."
+    },
+    {
+      "id": "w000840",
+      "es": "el cine",
+      "he": "קולנוע",
+      "ex_es": "Vamos al cine los viernes.",
+      "ex_he": "אנחנו הולכים לקולנוע בימי שישי."
+    },
+    {
+      "id": "w000841",
+      "es": "famoso/a",
+      "he": "מפורסם",
+      "ex_es": "Es un cantante muy famoso.",
+      "ex_he": "הוא זמר מאוד מפורסם."
+    },
+    {
+      "id": "w000842",
+      "es": "el streaming",
+      "he": "סטרימינג",
+      "ex_es": "Veo series por streaming.",
+      "ex_he": "אני צופה בסדרות בסטרימינג."
+    },
+    {
+      "id": "w000843",
+      "es": "la entrada de cine",
+      "he": "כרטיס קולנוע",
+      "ex_es": "Compré dos entradas de cine.",
+      "ex_he": "קניתי שני כרטיסי קולנוע."
+    },
+    {
+      "id": "w000844",
+      "es": "el crítico de cine",
+      "he": "מבקר קולנוע",
+      "ex_es": "El crítico de cine no recomienda esta película.",
+      "ex_he": "מבקר הקולנוע לא ממליץ על הסרט הזה."
+    },
+    {
+      "id": "w000845",
+      "es": "la trama",
+      "he": "עלילה",
+      "ex_es": "La trama de la película es muy interesante.",
+      "ex_he": "העלילה של הסרט מאוד מעניינת."
+    },
+    {
+      "id": "w000846",
+      "es": "el documental",
+      "he": "סרט תיעודי",
+      "ex_es": "Me gusta ver documentales sobre la naturaleza.",
+      "ex_he": "אני אוהב לצפות בסרטים תיעודיים על הטבע."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000399",
+      "es": "Vimos una película muy divertida el fin de semana.",
+      "he": "ראינו סרט מאוד מהנה בסוף השבוע."
+    },
+    {
+      "id": "s000400",
+      "es": "¿Cuál es tu serie favorita?",
+      "he": "מה הסדרה האהובה עליך?"
+    },
+    {
+      "id": "s000401",
+      "es": "El concierto empieza a las nueve de la noche.",
+      "he": "ההופעה מתחילה בתשע בערב."
+    },
+    {
+      "id": "s000402",
+      "es": "Esta canción me encanta.",
+      "he": "אני מת/ה על השיר הזה."
+    },
+    {
+      "id": "s000403",
+      "es": "El actor principal ganó un premio importante.",
+      "he": "השחקן הראשי זכה בפרס חשוב."
+    },
+    {
+      "id": "s000404",
+      "es": "Prefiero ver las noticias por la mañana.",
+      "he": "אני מעדיף לראות את החדשות בבוקר."
+    },
+    {
+      "id": "s000405",
+      "es": "Compramos las entradas de cine por internet.",
+      "he": "קנינו את כרטיסי הקולנוע באינטרנט."
+    },
+    {
+      "id": "s000406",
+      "es": "Ese documental fue muy interesante.",
+      "he": "הסרט התיעודי ההוא היה מאוד מעניין."
+    }
+  ]
+}

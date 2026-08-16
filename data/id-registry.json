@@ -4973,6 +4973,108 @@
       "he": "לשמור על כדור הארץ",
       "levelId": "intermediate",
       "topicId": "environment_nature"
+    },
+    "w000830": {
+      "es": "la película",
+      "he": "סרט",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000831": {
+      "es": "la serie",
+      "he": "סדרה",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000832": {
+      "es": "el actor / la actriz",
+      "he": "שחקן/שחקנית",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000833": {
+      "es": "la noticia",
+      "he": "ידיעה חדשותית",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000834": {
+      "es": "el canal",
+      "he": "ערוץ",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000835": {
+      "es": "la emisora de radio",
+      "he": "תחנת רדיו",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000836": {
+      "es": "el concierto",
+      "he": "הופעה/קונצרט",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000837": {
+      "es": "la banda",
+      "he": "להקה",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000838": {
+      "es": "la canción",
+      "he": "שיר",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000839": {
+      "es": "el episodio",
+      "he": "פרק (בסדרה)",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000840": {
+      "es": "el cine",
+      "he": "קולנוע",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000841": {
+      "es": "famoso/a",
+      "he": "מפורסם",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000842": {
+      "es": "el streaming",
+      "he": "סטרימינג",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000843": {
+      "es": "la entrada de cine",
+      "he": "כרטיס קולנוע",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000844": {
+      "es": "el crítico de cine",
+      "he": "מבקר קולנוע",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000845": {
+      "es": "la trama",
+      "he": "עלילה",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "w000846": {
+      "es": "el documental",
+      "he": "סרט תיעודי",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
     }
   },
   "sentences": {
@@ -6965,6 +7067,46 @@
       "es": "Queremos vivir en un mundo más sostenible.",
       "levelId": "intermediate",
       "topicId": "environment_nature"
+    },
+    "s000399": {
+      "es": "Vimos una película muy divertida el fin de semana.",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "s000400": {
+      "es": "¿Cuál es tu serie favorita?",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "s000401": {
+      "es": "El concierto empieza a las nueve de la noche.",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "s000402": {
+      "es": "Esta canción me encanta.",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "s000403": {
+      "es": "El actor principal ganó un premio importante.",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "s000404": {
+      "es": "Prefiero ver las noticias por la mañana.",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "s000405": {
+      "es": "Compramos las entradas de cine por internet.",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
+    },
+    "s000406": {
+      "es": "Ese documental fue muy interesante.",
+      "levelId": "intermediate",
+      "topicId": "media_entertainment"
     }
   }
 }

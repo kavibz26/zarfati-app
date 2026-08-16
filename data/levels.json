@@ -246,6 +246,12 @@
         "name": "סביבה וטבע",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "media_entertainment",
+        "name": "תקשורת ובידור",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   },
