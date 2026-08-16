@@ -5075,6 +5075,108 @@
       "he": "סרט תיעודי",
       "levelId": "intermediate",
       "topicId": "media_entertainment"
+    },
+    "w000847": {
+      "es": "la receta",
+      "he": "מתכון",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000848": {
+      "es": "cortar",
+      "he": "לחתוך",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000849": {
+      "es": "mezclar",
+      "he": "לערבב",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000850": {
+      "es": "hervir",
+      "he": "להרתיח",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000851": {
+      "es": "freír",
+      "he": "לטגן",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000852": {
+      "es": "hornear",
+      "he": "לאפות",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000853": {
+      "es": "la sartén",
+      "he": "מחבת",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000854": {
+      "es": "la olla",
+      "he": "סיר",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000855": {
+      "es": "el horno",
+      "he": "תנור",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000856": {
+      "es": "el cuchillo",
+      "he": "סכין",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000857": {
+      "es": "el tenedor",
+      "he": "מזלג",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000858": {
+      "es": "la cuchara",
+      "he": "כף",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000859": {
+      "es": "la sal",
+      "he": "מלח",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000860": {
+      "es": "el aceite",
+      "he": "שמן",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000861": {
+      "es": "el ingrediente",
+      "he": "מרכיב",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000862": {
+      "es": "pelar",
+      "he": "לקלף",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "w000863": {
+      "es": "añadir",
+      "he": "להוסיף",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
     }
   },
   "sentences": {
@@ -7107,6 +7209,46 @@
       "es": "Ese documental fue muy interesante.",
       "levelId": "intermediate",
       "topicId": "media_entertainment"
+    },
+    "s000407": {
+      "es": "Voy a seguir esta receta para la cena.",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "s000408": {
+      "es": "Corta las verduras en trozos pequeños.",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "s000409": {
+      "es": "Mezcla todos los ingredientes en un bol.",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "s000410": {
+      "es": "Añade sal y pimienta al gusto.",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "s000411": {
+      "es": "El agua ya está hirviendo.",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "s000412": {
+      "es": "Vamos a freír las patatas.",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "s000413": {
+      "es": "Precalienta el horno a doscientos grados.",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
+    },
+    "s000414": {
+      "es": "Pela las manzanas antes de cocinarlas.",
+      "levelId": "intermediate",
+      "topicId": "cooking_recipes"
     }
   }
 }

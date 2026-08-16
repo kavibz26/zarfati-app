@@ -845,3 +845,20 @@ w000843,la entrada de cine,כרטיס קולנוע,Compré dos entradas de cine.
 w000844,el crítico de cine,מבקר קולנוע,El crítico de cine no recomienda esta película.,מבקר הקולנוע לא ממליץ על הסרט הזה.,intermediate,media_entertainment,תקשורת ובידור
 w000845,la trama,עלילה,La trama de la película es muy interesante.,העלילה של הסרט מאוד מעניינת.,intermediate,media_entertainment,תקשורת ובידור
 w000846,el documental,סרט תיעודי,Me gusta ver documentales sobre la naturaleza.,אני אוהב לצפות בסרטים תיעודיים על הטבע.,intermediate,media_entertainment,תקשורת ובידור
+w000847,la receta,מתכון,Voy a seguir esta receta.,אני הולך לעקוב אחרי המתכון הזה.,intermediate,cooking_recipes,Cooking and Recipes
+w000848,cortar,לחתוך,Voy a cortar las verduras.,אני הולך לחתוך את הירקות.,intermediate,cooking_recipes,Cooking and Recipes
+w000849,mezclar,לערבב,Mezcla los ingredientes bien.,ערבב את המרכיבים היטב.,intermediate,cooking_recipes,Cooking and Recipes
+w000850,hervir,להרתיח,Hierve el agua primero.,הרתח את המים קודם.,intermediate,cooking_recipes,Cooking and Recipes
+w000851,freír,לטגן,Voy a freír el pescado.,אני הולך לטגן את הדג.,intermediate,cooking_recipes,Cooking and Recipes
+w000852,hornear,לאפות,Horneamos el pastel una hora.,אפינו את העוגה שעה.,intermediate,cooking_recipes,Cooking and Recipes
+w000853,la sartén,מחבת,Necesito una sartén grande.,אני צריך מחבת גדולה.,intermediate,cooking_recipes,Cooking and Recipes
+w000854,la olla,סיר,Pon la olla en el fuego.,שים את הסיר על האש.,intermediate,cooking_recipes,Cooking and Recipes
+w000855,el horno,תנור,El horno está muy caliente.,התנור מאוד חם.,intermediate,cooking_recipes,Cooking and Recipes
+w000856,el cuchillo,סכין,Ten cuidado con el cuchillo.,תיזהר עם הסכין.,intermediate,cooking_recipes,Cooking and Recipes
+w000857,el tenedor,מזלג,Necesito un tenedor limpio.,אני צריך מזלג נקי.,intermediate,cooking_recipes,Cooking and Recipes
+w000858,la cuchara,כף,Necesito una cuchara para mezclar.,אני צריך כף כדי לערבב.,intermediate,cooking_recipes,Cooking and Recipes
+w000859,la sal,מלח,Añade un poco de sal.,הוסף קצת מלח.,intermediate,cooking_recipes,Cooking and Recipes
+w000860,el aceite,שמן,Usa aceite de oliva.,תשתמש בשמן זית.,intermediate,cooking_recipes,Cooking and Recipes
+w000861,el ingrediente,מרכיב,Faltan dos ingredientes.,חסרים שני מרכיבים.,intermediate,cooking_recipes,Cooking and Recipes
+w000862,pelar,לקלף,Voy a pelar las patatas.,אני הולך לקלף את תפוחי האדמה.,intermediate,cooking_recipes,Cooking and Recipes
+w000863,añadir,להוסיף,Añade azúcar al café.,הוסף סוכר לקפה.,intermediate,cooking_recipes,Cooking and Recipes

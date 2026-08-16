@@ -1,0 +1,167 @@
+{
+  "levelId": "intermediate",
+  "topicId": "cooking_recipes",
+  "vocab": [
+    {
+      "id": "w000847",
+      "es": "la receta",
+      "he": "מתכון",
+      "ex_es": "Voy a seguir esta receta.",
+      "ex_he": "אני הולך לעקוב אחרי המתכון הזה."
+    },
+    {
+      "id": "w000848",
+      "es": "cortar",
+      "he": "לחתוך",
+      "ex_es": "Voy a cortar las verduras.",
+      "ex_he": "אני הולך לחתוך את הירקות."
+    },
+    {
+      "id": "w000849",
+      "es": "mezclar",
+      "he": "לערבב",
+      "ex_es": "Mezcla los ingredientes bien.",
+      "ex_he": "ערבב את המרכיבים היטב."
+    },
+    {
+      "id": "w000850",
+      "es": "hervir",
+      "he": "להרתיח",
+      "ex_es": "Hierve el agua primero.",
+      "ex_he": "הרתח את המים קודם."
+    },
+    {
+      "id": "w000851",
+      "es": "freír",
+      "he": "לטגן",
+      "ex_es": "Voy a freír el pescado.",
+      "ex_he": "אני הולך לטגן את הדג."
+    },
+    {
+      "id": "w000852",
+      "es": "hornear",
+      "he": "לאפות",
+      "ex_es": "Horneamos el pastel una hora.",
+      "ex_he": "אפינו את העוגה שעה."
+    },
+    {
+      "id": "w000853",
+      "es": "la sartén",
+      "he": "מחבת",
+      "ex_es": "Necesito una sartén grande.",
+      "ex_he": "אני צריך מחבת גדולה."
+    },
+    {
+      "id": "w000854",
+      "es": "la olla",
+      "he": "סיר",
+      "ex_es": "Pon la olla en el fuego.",
+      "ex_he": "שים את הסיר על האש."
+    },
+    {
+      "id": "w000855",
+      "es": "el horno",
+      "he": "תנור",
+      "ex_es": "El horno está muy caliente.",
+      "ex_he": "התנור מאוד חם."
+    },
+    {
+      "id": "w000856",
+      "es": "el cuchillo",
+      "he": "סכין",
+      "ex_es": "Ten cuidado con el cuchillo.",
+      "ex_he": "תיזהר עם הסכין."
+    },
+    {
+      "id": "w000857",
+      "es": "el tenedor",
+      "he": "מזלג",
+      "ex_es": "Necesito un tenedor limpio.",
+      "ex_he": "אני צריך מזלג נקי."
+    },
+    {
+      "id": "w000858",
+      "es": "la cuchara",
+      "he": "כף",
+      "ex_es": "Necesito una cuchara para mezclar.",
+      "ex_he": "אני צריך כף כדי לערבב."
+    },
+    {
+      "id": "w000859",
+      "es": "la sal",
+      "he": "מלח",
+      "ex_es": "Añade un poco de sal.",
+      "ex_he": "הוסף קצת מלח."
+    },
+    {
+      "id": "w000860",
+      "es": "el aceite",
+      "he": "שמן",
+      "ex_es": "Usa aceite de oliva.",
+      "ex_he": "תשתמש בשמן זית."
+    },
+    {
+      "id": "w000861",
+      "es": "el ingrediente",
+      "he": "מרכיב",
+      "ex_es": "Faltan dos ingredientes.",
+      "ex_he": "חסרים שני מרכיבים."
+    },
+    {
+      "id": "w000862",
+      "es": "pelar",
+      "he": "לקלף",
+      "ex_es": "Voy a pelar las patatas.",
+      "ex_he": "אני הולך לקלף את תפוחי האדמה."
+    },
+    {
+      "id": "w000863",
+      "es": "añadir",
+      "he": "להוסיף",
+      "ex_es": "Añade azúcar al café.",
+      "ex_he": "הוסף סוכר לקפה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000407",
+      "es": "Voy a seguir esta receta para la cena.",
+      "he": "אני הולך לעקוב אחרי המתכון הזה לארוחת הערב."
+    },
+    {
+      "id": "s000408",
+      "es": "Corta las verduras en trozos pequeños.",
+      "he": "חתוך את הירקות לחתיכות קטנות."
+    },
+    {
+      "id": "s000409",
+      "es": "Mezcla todos los ingredientes en un bol.",
+      "he": "ערבב את כל המרכיבים בקערה."
+    },
+    {
+      "id": "s000410",
+      "es": "Añade sal y pimienta al gusto.",
+      "he": "הוסף מלח ופלפל לפי הטעם."
+    },
+    {
+      "id": "s000411",
+      "es": "El agua ya está hirviendo.",
+      "he": "המים כבר רותחים."
+    },
+    {
+      "id": "s000412",
+      "es": "Vamos a freír las patatas.",
+      "he": "אנחנו הולכים לטגן את תפוחי האדמה."
+    },
+    {
+      "id": "s000413",
+      "es": "Precalienta el horno a doscientos grados.",
+      "he": "חמם מראש את התנור למאתיים מעלות."
+    },
+    {
+      "id": "s000414",
+      "es": "Pela las manzanas antes de cocinarlas.",
+      "he": "קלף את התפוחים לפני שמבשלים אותם."
+    }
+  ]
+}

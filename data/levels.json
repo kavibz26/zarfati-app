@@ -252,6 +252,12 @@
         "name": "תקשורת ובידור",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "cooking_recipes",
+        "name": "Cooking and Recipes",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   },
