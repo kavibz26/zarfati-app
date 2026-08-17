@@ -258,6 +258,12 @@
         "name": "בישול ומתכונים",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "relationships_lifeevents",
+        "name": "מערכות יחסים ואירועי חיים",
+        "vocabCount": 16,
+        "sentenceCount": 8
       }
     ]
   },

@@ -1,0 +1,160 @@
+{
+  "levelId": "intermediate",
+  "topicId": "relationships_lifeevents",
+  "vocab": [
+    {
+      "id": "w000864",
+      "es": "la boda",
+      "he": "חתונה",
+      "ex_es": "Vamos a la boda de mi prima.",
+      "ex_he": "אנחנו הולכים לחתונה של בת דודתי."
+    },
+    {
+      "id": "w000865",
+      "es": "casarse",
+      "he": "להתחתן",
+      "ex_es": "Se van a casar en junio.",
+      "ex_he": "הם הולכים להתחתן ביוני."
+    },
+    {
+      "id": "w000866",
+      "es": "el matrimonio",
+      "he": "נישואים",
+      "ex_es": "Su matrimonio dura veinte años.",
+      "ex_he": "הנישואים שלהם נמשכים עשרים שנה."
+    },
+    {
+      "id": "w000867",
+      "es": "divorciarse",
+      "he": "להתגרש",
+      "ex_es": "Decidieron divorciarse el año pasado.",
+      "ex_he": "הם החליטו להתגרש בשנה שעברה."
+    },
+    {
+      "id": "w000868",
+      "es": "el divorcio",
+      "he": "גירושים",
+      "ex_es": "El divorcio fue muy difícil para ellos.",
+      "ex_he": "הגירושים היו מאוד קשים בשבילם."
+    },
+    {
+      "id": "w000869",
+      "es": "el nacimiento",
+      "he": "לידה",
+      "ex_es": "Celebramos el nacimiento de mi sobrino.",
+      "ex_he": "חגגנו את הלידה של אחיינִי."
+    },
+    {
+      "id": "w000870",
+      "es": "nacer",
+      "he": "להיוולד",
+      "ex_es": "Mi hija nació en primavera.",
+      "ex_he": "הבת שלי נולדה באביב."
+    },
+    {
+      "id": "w000871",
+      "es": "la pareja",
+      "he": "בן/בת זוג",
+      "ex_es": "Mi pareja trabaja en un hospital.",
+      "ex_he": "בן הזוג שלי עובד בבית חולים."
+    },
+    {
+      "id": "w000872",
+      "es": "el novio / la novia",
+      "he": "חבר/חברה (זוגי)",
+      "ex_es": "Mi novia estudia medicina.",
+      "ex_he": "החברה שלי לומדת רפואה."
+    },
+    {
+      "id": "w000873",
+      "es": "comprometerse",
+      "he": "להתארס",
+      "ex_es": "Se comprometieron el mes pasado.",
+      "ex_he": "הם התארסו בחודש שעבר."
+    },
+    {
+      "id": "w000874",
+      "es": "el anillo de compromiso",
+      "he": "טבעת אירוסין",
+      "ex_es": "Le regaló un anillo de compromiso muy bonito.",
+      "ex_he": "הוא נתן לה טבעת אירוסין מאוד יפה."
+    },
+    {
+      "id": "w000875",
+      "es": "la mudanza",
+      "he": "מעבר דירה",
+      "ex_es": "La mudanza fue muy cansada.",
+      "ex_he": "מעבר הדירה היה מאוד מעייף."
+    },
+    {
+      "id": "w000876",
+      "es": "mudarse",
+      "he": "לעבור דירה",
+      "ex_es": "Nos mudamos el próximo mes.",
+      "ex_he": "אנחנו עוברים דירה בחודש הבא."
+    },
+    {
+      "id": "w000877",
+      "es": "jubilarse",
+      "he": "לפרוש לגמלאות",
+      "ex_es": "Mi padre se jubiló el año pasado.",
+      "ex_he": "אבא שלי פרש לגמלאות בשנה שעברה."
+    },
+    {
+      "id": "w000878",
+      "es": "graduarse",
+      "he": "לסיים תואר/לימודים",
+      "ex_es": "Me gradué de la universidad en 2020.",
+      "ex_he": "סיימתי את האוניברסיטה ב-2020."
+    },
+    {
+      "id": "w000879",
+      "es": "el funeral",
+      "he": "הלוויה",
+      "ex_es": "Fuimos al funeral de su abuelo.",
+      "ex_he": "הלכנו להלוויה של סבא שלו."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000415",
+      "es": "Nos vamos a casar el próximo verano.",
+      "he": "אנחנו הולכים להתחתן בקיץ הבא."
+    },
+    {
+      "id": "s000416",
+      "es": "Mis padres se divorciaron cuando yo era joven.",
+      "he": "ההורים שלי התגרשו כשהייתי צעיר."
+    },
+    {
+      "id": "s000417",
+      "es": "Mi hermana está comprometida desde hace un mes.",
+      "he": "אחותי מאורסת כבר חודש."
+    },
+    {
+      "id": "s000418",
+      "es": "Nació mi primer sobrino la semana pasada.",
+      "he": "נולד אחיינִי הראשון בשבוע שעבר."
+    },
+    {
+      "id": "s000419",
+      "es": "Vamos a mudarnos a una casa más grande.",
+      "he": "אנחנו הולכים לעבור לבית יותר גדול."
+    },
+    {
+      "id": "s000420",
+      "es": "Mi abuelo se jubiló a los sesenta y cinco años.",
+      "he": "סבא שלי פרש לגמלאות בגיל שישים וחמש."
+    },
+    {
+      "id": "s000421",
+      "es": "Me gradué de la escuela hace dos años.",
+      "he": "סיימתי את בית הספר לפני שנתיים."
+    },
+    {
+      "id": "s000422",
+      "es": "Todos estábamos muy tristes en el funeral.",
+      "he": "כולנו היינו מאוד עצובים בהלוויה."
+    }
+  ]
+}

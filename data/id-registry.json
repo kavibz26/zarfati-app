@@ -5177,6 +5177,102 @@
       "he": "להוסיף",
       "levelId": "intermediate",
       "topicId": "cooking_recipes"
+    },
+    "w000864": {
+      "es": "la boda",
+      "he": "חתונה",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000865": {
+      "es": "casarse",
+      "he": "להתחתן",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000866": {
+      "es": "el matrimonio",
+      "he": "נישואים",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000867": {
+      "es": "divorciarse",
+      "he": "להתגרש",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000868": {
+      "es": "el divorcio",
+      "he": "גירושים",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000869": {
+      "es": "el nacimiento",
+      "he": "לידה",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000870": {
+      "es": "nacer",
+      "he": "להיוולד",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000871": {
+      "es": "la pareja",
+      "he": "בן/בת זוג",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000872": {
+      "es": "el novio / la novia",
+      "he": "חבר/חברה (זוגי)",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000873": {
+      "es": "comprometerse",
+      "he": "להתארס",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000874": {
+      "es": "el anillo de compromiso",
+      "he": "טבעת אירוסין",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000875": {
+      "es": "la mudanza",
+      "he": "מעבר דירה",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000876": {
+      "es": "mudarse",
+      "he": "לעבור דירה",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000877": {
+      "es": "jubilarse",
+      "he": "לפרוש לגמלאות",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000878": {
+      "es": "graduarse",
+      "he": "לסיים תואר/לימודים",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "w000879": {
+      "es": "el funeral",
+      "he": "הלוויה",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
     }
   },
   "sentences": {
@@ -7249,6 +7345,46 @@
       "es": "Pela las manzanas antes de cocinarlas.",
       "levelId": "intermediate",
       "topicId": "cooking_recipes"
+    },
+    "s000415": {
+      "es": "Nos vamos a casar el próximo verano.",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "s000416": {
+      "es": "Mis padres se divorciaron cuando yo era joven.",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "s000417": {
+      "es": "Mi hermana está comprometida desde hace un mes.",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "s000418": {
+      "es": "Nació mi primer sobrino la semana pasada.",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "s000419": {
+      "es": "Vamos a mudarnos a una casa más grande.",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "s000420": {
+      "es": "Mi abuelo se jubiló a los sesenta y cinco años.",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "s000421": {
+      "es": "Me gradué de la escuela hace dos años.",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
+    },
+    "s000422": {
+      "es": "Todos estábamos muy tristes en el funeral.",
+      "levelId": "intermediate",
+      "topicId": "relationships_lifeevents"
     }
   }
 }

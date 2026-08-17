@@ -862,3 +862,19 @@ w000860,el aceite,שמן,Usa aceite de oliva.,תשתמש בשמן זית.,interm
 w000861,el ingrediente,מרכיב,Faltan dos ingredientes.,חסרים שני מרכיבים.,intermediate,cooking_recipes,בישול ומתכונים
 w000862,pelar,לקלף,Voy a pelar las patatas.,אני הולך לקלף את תפוחי האדמה.,intermediate,cooking_recipes,בישול ומתכונים
 w000863,añadir,להוסיף,Añade azúcar al café.,הוסף סוכר לקפה.,intermediate,cooking_recipes,בישול ומתכונים
+w000864,la boda,חתונה,Vamos a la boda de mi prima.,אנחנו הולכים לחתונה של בת דודתי.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000865,casarse,להתחתן,Se van a casar en junio.,הם הולכים להתחתן ביוני.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000866,el matrimonio,נישואים,Su matrimonio dura veinte años.,הנישואים שלהם נמשכים עשרים שנה.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000867,divorciarse,להתגרש,Decidieron divorciarse el año pasado.,הם החליטו להתגרש בשנה שעברה.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000868,el divorcio,גירושים,El divorcio fue muy difícil para ellos.,הגירושים היו מאוד קשים בשבילם.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000869,el nacimiento,לידה,Celebramos el nacimiento de mi sobrino.,חגגנו את הלידה של אחיינִי.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000870,nacer,להיוולד,Mi hija nació en primavera.,הבת שלי נולדה באביב.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000871,la pareja,בן/בת זוג,Mi pareja trabaja en un hospital.,בן הזוג שלי עובד בבית חולים.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000872,el novio / la novia,חבר/חברה (זוגי),Mi novia estudia medicina.,החברה שלי לומדת רפואה.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000873,comprometerse,להתארס,Se comprometieron el mes pasado.,הם התארסו בחודש שעבר.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000874,el anillo de compromiso,טבעת אירוסין,Le regaló un anillo de compromiso muy bonito.,הוא נתן לה טבעת אירוסין מאוד יפה.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000875,la mudanza,מעבר דירה,La mudanza fue muy cansada.,מעבר הדירה היה מאוד מעייף.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000876,mudarse,לעבור דירה,Nos mudamos el próximo mes.,אנחנו עוברים דירה בחודש הבא.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000877,jubilarse,לפרוש לגמלאות,Mi padre se jubiló el año pasado.,אבא שלי פרש לגמלאות בשנה שעברה.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000878,graduarse,לסיים תואר/לימודים,Me gradué de la universidad en 2020.,סיימתי את האוניברסיטה ב-2020.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000879,el funeral,הלוויה,Fuimos al funeral de su abuelo.,הלכנו להלוויה של סבא שלו.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
