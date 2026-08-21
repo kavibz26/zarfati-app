@@ -439,7 +439,9 @@ function resolveSpanishVoice() {
 if (typeof speechSynthesis !== "undefined") {
   resolveSpanishVoice();
 }
-async function speak(text) {
+const NORMAL_SPEECH_RATE = 0.9;
+const SLOW_SPEECH_RATE = 0.7; // "השמעה איטית" - כ-0.7x-0.75x, עדיין קול טבעי ולא מעוות
+async function speak(text, rate = NORMAL_SPEECH_RATE) {
   if (typeof speechSynthesis === "undefined") return;
   if (!spanishVoiceReady) await resolveSpanishVoice();
   speechSynthesis.cancel();
@@ -447,7 +449,7 @@ async function speak(text) {
   const utter = new SpeechSynthesisUtterance(clean);
   utter.lang = "es-ES";
   if (spanishVoice) utter.voice = spanishVoice;
-  utter.rate = 0.9;
+  utter.rate = rate;
   speechSynthesis.speak(utter);
 }
 
@@ -1310,12 +1312,16 @@ function renderFlashcards() {
         ${item.ex_es ? `
           <div class="fc-example" lang="es">${item.ex_es}</div>
           <div class="fc-example-he">${item.ex_he}</div>
-          <button class="speak-btn" data-action="fc-example-speak" aria-label="השמע את המשפט המלא">🔊</button>
+          <div class="speak-btn-row">
+            <button class="speak-btn" data-action="fc-example-speak" aria-label="השמע את המשפט המלא">🔊</button>
+            <button class="speak-btn slow" data-action="fc-example-speak-slow" aria-label="השמע את המשפט המלא לאט">🐢</button>
+          </div>
         ` : ""}
       </div>
     </div>
     <div class="runner-controls">
       <button class="speak-btn" data-action="fc-speak" aria-label="השמע הגייה בספרדית">🔊</button>
+      <button class="speak-btn slow" data-action="fc-speak-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
       <button class="ctrl-btn secondary" data-action="fc-prev" ${ex.index === 0 ? "disabled" : ""}>הקודם</button>
       <button class="ctrl-btn" data-action="fc-next">${ex.index === ex.items.length - 1 ? "סיום" : "הבא"}</button>
     </div>
@@ -1373,7 +1379,10 @@ function renderStudyStage() {
     </div>
     <div class="listen-box">
       <div class="section-sub">${t("studyStageHint")}</div>
-      <button class="listen-play" data-action="study-play" aria-label="השמע הגייה בספרדית">🔊</button>
+      <div class="listen-row">
+        <button class="listen-play" data-action="study-play" aria-label="השמע הגייה בספרדית">🔊</button>
+        <button class="listen-play-slow" data-action="study-play-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
+      </div>
       <div class="fc-word" lang="es" style="margin-top:14px;">${item.es}</div>
       <div class="fc-translation">${item.he}</div>
     </div>
@@ -1381,7 +1390,10 @@ function renderStudyStage() {
       <div style="text-align:center; margin-top:14px;">
         <div class="fc-example" lang="es">${item.ex_es}</div>
         <div class="fc-example-he">${item.ex_he}</div>
-        <button class="speak-btn" data-action="study-example-play" aria-label="השמע את המשפט המלא" style="margin-top:8px;">🔊</button>
+        <div class="speak-btn-row" style="margin-top:8px;">
+          <button class="speak-btn" data-action="study-example-play" aria-label="השמע את המשפט המלא">🔊</button>
+          <button class="speak-btn slow" data-action="study-example-play-slow" aria-label="השמע את המשפט המלא לאט">🐢</button>
+        </div>
       </div>
     ` : ""}
     <div class="runner-controls">
@@ -1405,7 +1417,10 @@ function renderListening() {
     </div>
     <div class="listen-box">
       <div class="section-sub">${t("listeningInstruction")}</div>
-      <button class="listen-play" data-action="listen-play" aria-label="השמע הגייה בספרדית">🔊</button>
+      <div class="listen-row">
+        <button class="listen-play" data-action="listen-play" aria-label="השמע הגייה בספרדית">🔊</button>
+        <button class="listen-play-slow" data-action="listen-play-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
+      </div>
     </div>
     ${renderChoiceOptions(q, "listen-option", true)}
     ${ex.answered ? `<div class="runner-controls"><button class="ctrl-btn" data-action="listen-next">המשך</button></div>` : ""}
@@ -1442,6 +1457,7 @@ function renderSentenceBuilder() {
     ` : `
       <div class="runner-controls">
         <button class="speak-btn" data-action="sb-speak" aria-label="השמע הגייה בספרדית">🔊</button>
+        <button class="speak-btn slow" data-action="sb-speak-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
         <button class="ctrl-btn secondary" data-action="sb-clear">נקה</button>
         <button class="ctrl-btn" data-action="sb-check" ${item.answer.length === 0 ? "disabled" : ""}>בדוק</button>
       </div>
@@ -1490,6 +1506,7 @@ function renderRecall() {
       </div>
       <div class="runner-controls">
         <button class="speak-btn" data-action="recall-speak" aria-label="השמע הגייה בספרדית">🔊</button>
+        <button class="speak-btn slow" data-action="recall-speak-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
         <button class="ctrl-btn" data-action="recall-next">המשך</button>
       </div>
     ` : ""}
@@ -1694,7 +1711,9 @@ function handleAction(el) {
     // Flashcards
     case "flip-card": ex.flipped = !ex.flipped; render(); break;
     case "fc-speak": speak(ex.items[ex.index].es); break;
+    case "fc-speak-slow": speak(ex.items[ex.index].es, SLOW_SPEECH_RATE); break;
     case "fc-example-speak": speak(ex.items[ex.index].ex_es); break;
+    case "fc-example-speak-slow": speak(ex.items[ex.index].ex_es, SLOW_SPEECH_RATE); break;
     case "fc-prev": ex.index = Math.max(0, ex.index - 1); ex.flipped = false; render(); break;
     case "fc-next": handleFcNext(); break;
 
@@ -1704,10 +1723,13 @@ function handleAction(el) {
     case "quiz-next":
     case "listen-next": handleChoiceNext(); break;
     case "listen-play": speak(ex.questions[ex.index].es); break;
+    case "listen-play-slow": speak(ex.questions[ex.index].es, SLOW_SPEECH_RATE); break;
 
     // שלב הלמידה המשותף (Quiz / Listening / Sentences), לפני הבוחן
     case "study-play": speak(ex.items[ex.index].es); break;
+    case "study-play-slow": speak(ex.items[ex.index].es, SLOW_SPEECH_RATE); break;
     case "study-example-play": speak(ex.items[ex.index].ex_es); break;
+    case "study-example-play-slow": speak(ex.items[ex.index].ex_es, SLOW_SPEECH_RATE); break;
     case "study-prev": handleStudyPrev(); break;
     case "study-next": handleStudyNext(); break;
 
@@ -1716,6 +1738,7 @@ function handleAction(el) {
     case "sb-remove": handleSbRemove(index); break;
     case "sb-clear": handleSbClear(); break;
     case "sb-speak": speak(ex.items[ex.index].es); break;
+    case "sb-speak-slow": speak(ex.items[ex.index].es, SLOW_SPEECH_RATE); break;
     case "sb-check": handleSbCheck(); break;
     case "sb-next": handleSbNext(); break;
 
@@ -1723,6 +1746,7 @@ function handleAction(el) {
     case "recall-start": startRecallTest(); render(); break;
     case "recall-check": handleRecallCheck(); break;
     case "recall-speak": speak(ex.items[ex.index].answer); break;
+    case "recall-speak-slow": speak(ex.items[ex.index].answer, SLOW_SPEECH_RATE); break;
     case "recall-next": handleRecallNext(); break;
   }
 }

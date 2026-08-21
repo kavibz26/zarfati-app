@@ -458,6 +458,14 @@ button:focus-visible,
   align-items: center;
   justify-content: center;
 }
+/* כפתור "השמע לאט" (Slow Speech) - אותה מנגנון speak() הקיים, רק rate נמוך יותר.
+   מוצג תמיד לצד כפתור ה-🔊 הרגיל, לא מחליף אותו. */
+.speak-btn.slow { color: var(--accent); border-color: var(--accent); }
+.speak-btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
 /* Quiz */
 .quiz-question {
@@ -501,6 +509,24 @@ button:focus-visible,
   width: 90px;
   height: 90px;
   font-size: 34px;
+  box-shadow: var(--shadow);
+}
+.listen-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+/* כפתור "השמע לאט" ליד ה-listen-play הגדול - אותו רעיון, קטן וסגנון משני כדי לא להתחרות
+   עם הכפתור הראשי (השמעה רגילה) */
+.listen-play-slow {
+  background: var(--card-bg);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  width: 56px;
+  height: 56px;
+  font-size: 22px;
   box-shadow: var(--shadow);
 }
 
