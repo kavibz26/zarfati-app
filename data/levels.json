@@ -326,6 +326,12 @@
         "name": "ביטויים טבעיים של דוברי ספרדית",
         "vocabCount": 16,
         "sentenceCount": 6
+      },
+      {
+        "id": "art_culture",
+        "name": "אמנות ותרבות",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   },

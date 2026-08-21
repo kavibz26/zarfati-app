@@ -878,3 +878,20 @@ w000876,mudarse,לעבור דירה,Nos mudamos el próximo mes.,אנחנו עו
 w000877,jubilarse,לפרוש לגמלאות,Mi padre se jubiló el año pasado.,אבא שלי פרש לגמלאות בשנה שעברה.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
 w000878,graduarse,לסיים תואר/לימודים,Me gradué de la universidad en 2020.,סיימתי את האוניברסיטה ב-2020.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
 w000879,el funeral,הלוויה,Fuimos al funeral de su abuelo.,הלכנו להלוויה של סבא שלו.,intermediate,relationships_lifeevents,מערכות יחסים ואירועי חיים
+w000880,la obra de arte,יצירת אמנות,Esta obra de arte es impresionante.,יצירת האמנות הזאת מרשימה.,advanced,art_culture,אמנות ותרבות
+w000881,el pintor / la pintora,צייר/ת,Es uno de los pintores más famosos del siglo.,הוא אחד הציירים המפורסמים ביותר של המאה.,advanced,art_culture,אמנות ותרבות
+w000882,la pintura,ציור,Esta pintura representa la guerra.,הציור הזה מייצג את המלחמה.,advanced,art_culture,אמנות ותרבות
+w000883,la escultura,פסל / יצירה פיסולית,La escultura está hecha de mármol.,הפסל עשוי משיש.,advanced,art_culture,אמנות ותרבות
+w000884,la galería de arte,גלריית אמנות,Visitamos varias galerías de arte en la ciudad.,ביקרנו בכמה גלריות אמנות בעיר.,advanced,art_culture,אמנות ותרבות
+w000885,la exposición,תערוכה,Fuimos a la exposición de arte moderno.,הלכנו לתערוכה לאמנות מודרנית.,advanced,art_culture,אמנות ותרבות
+w000886,la literatura,ספרות,Estudio literatura española.,אני לומד ספרות ספרדית.,advanced,art_culture,אמנות ותרבות
+w000887,el escritor / la escritora,סופר/ת,Es un escritor muy reconocido.,הוא סופר מוכר מאוד.,advanced,art_culture,אמנות ותרבות
+w000888,la novela,רומן (ספר),Leí una novela fascinante.,קראתי רומן מרתק.,advanced,art_culture,אמנות ותרבות
+w000889,el poema,שיר (שירה),Escribió un poema hermoso.,הוא כתב שיר יפה.,advanced,art_culture,אמנות ותרבות
+w000890,la cultura,תרבות,Me interesa mucho la cultura española.,אני מתעניין מאוד בתרבות הספרדית.,advanced,art_culture,אמנות ותרבות
+w000891,la tradición,מסורת,Es una tradición muy antigua.,זו מסורת מאוד עתיקה.,advanced,art_culture,אמנות ותרבות
+w000892,el patrimonio,מורשת,Este edificio es patrimonio de la humanidad.,הבניין הזה הוא מורשת האנושות.,advanced,art_culture,אמנות ותרבות
+w000893,la obra maestra,יצירת מופת,Esta película es una obra maestra.,הסרט הזה הוא יצירת מופת.,advanced,art_culture,אמנות ותרבות
+w000894,inspirarse,לשאוב השראה,Se inspiró en la naturaleza.,הוא שאב השראה מהטבע.,advanced,art_culture,אמנות ותרבות
+w000895,contemporáneo/a,בן/בת זמננו (עכשווי),Es un artista contemporáneo.,הוא אמן בן זמננו.,advanced,art_culture,אמנות ותרבות
+w000896,el artista,אמן/ית,El artista trabajó diez años en esta obra.,האמן עבד עשר שנים על היצירה הזאת.,advanced,art_culture,אמנות ותרבות

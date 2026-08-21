@@ -1,0 +1,167 @@
+{
+  "levelId": "advanced",
+  "topicId": "art_culture",
+  "vocab": [
+    {
+      "id": "w000880",
+      "es": "la obra de arte",
+      "he": "יצירת אמנות",
+      "ex_es": "Esta obra de arte es impresionante.",
+      "ex_he": "יצירת האמנות הזאת מרשימה."
+    },
+    {
+      "id": "w000881",
+      "es": "el pintor / la pintora",
+      "he": "צייר/ת",
+      "ex_es": "Es uno de los pintores más famosos del siglo.",
+      "ex_he": "הוא אחד הציירים המפורסמים ביותר של המאה."
+    },
+    {
+      "id": "w000882",
+      "es": "la pintura",
+      "he": "ציור",
+      "ex_es": "Esta pintura representa la guerra.",
+      "ex_he": "הציור הזה מייצג את המלחמה."
+    },
+    {
+      "id": "w000883",
+      "es": "la escultura",
+      "he": "פסל / יצירה פיסולית",
+      "ex_es": "La escultura está hecha de mármol.",
+      "ex_he": "הפסל עשוי משיש."
+    },
+    {
+      "id": "w000884",
+      "es": "la galería de arte",
+      "he": "גלריית אמנות",
+      "ex_es": "Visitamos varias galerías de arte en la ciudad.",
+      "ex_he": "ביקרנו בכמה גלריות אמנות בעיר."
+    },
+    {
+      "id": "w000885",
+      "es": "la exposición",
+      "he": "תערוכה",
+      "ex_es": "Fuimos a la exposición de arte moderno.",
+      "ex_he": "הלכנו לתערוכה לאמנות מודרנית."
+    },
+    {
+      "id": "w000886",
+      "es": "la literatura",
+      "he": "ספרות",
+      "ex_es": "Estudio literatura española.",
+      "ex_he": "אני לומד ספרות ספרדית."
+    },
+    {
+      "id": "w000887",
+      "es": "el escritor / la escritora",
+      "he": "סופר/ת",
+      "ex_es": "Es un escritor muy reconocido.",
+      "ex_he": "הוא סופר מוכר מאוד."
+    },
+    {
+      "id": "w000888",
+      "es": "la novela",
+      "he": "רומן (ספר)",
+      "ex_es": "Leí una novela fascinante.",
+      "ex_he": "קראתי רומן מרתק."
+    },
+    {
+      "id": "w000889",
+      "es": "el poema",
+      "he": "שיר (שירה)",
+      "ex_es": "Escribió un poema hermoso.",
+      "ex_he": "הוא כתב שיר יפה."
+    },
+    {
+      "id": "w000890",
+      "es": "la cultura",
+      "he": "תרבות",
+      "ex_es": "Me interesa mucho la cultura española.",
+      "ex_he": "אני מתעניין מאוד בתרבות הספרדית."
+    },
+    {
+      "id": "w000891",
+      "es": "la tradición",
+      "he": "מסורת",
+      "ex_es": "Es una tradición muy antigua.",
+      "ex_he": "זו מסורת מאוד עתיקה."
+    },
+    {
+      "id": "w000892",
+      "es": "el patrimonio",
+      "he": "מורשת",
+      "ex_es": "Este edificio es patrimonio de la humanidad.",
+      "ex_he": "הבניין הזה הוא מורשת האנושות."
+    },
+    {
+      "id": "w000893",
+      "es": "la obra maestra",
+      "he": "יצירת מופת",
+      "ex_es": "Esta película es una obra maestra.",
+      "ex_he": "הסרט הזה הוא יצירת מופת."
+    },
+    {
+      "id": "w000894",
+      "es": "inspirarse",
+      "he": "לשאוב השראה",
+      "ex_es": "Se inspiró en la naturaleza.",
+      "ex_he": "הוא שאב השראה מהטבע."
+    },
+    {
+      "id": "w000895",
+      "es": "contemporáneo/a",
+      "he": "בן/בת זמננו (עכשווי)",
+      "ex_es": "Es un artista contemporáneo.",
+      "ex_he": "הוא אמן בן זמננו."
+    },
+    {
+      "id": "w000896",
+      "es": "el artista",
+      "he": "אמן/ית",
+      "ex_es": "El artista trabajó diez años en esta obra.",
+      "ex_he": "האמן עבד עשר שנים על היצירה הזאת."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000423",
+      "es": "Este museo tiene obras de arte muy famosas.",
+      "he": "למוזיאון הזה יש יצירות אמנות מאוד מפורסמות."
+    },
+    {
+      "id": "s000424",
+      "es": "Mi escritor favorito ganó un premio importante.",
+      "he": "הסופר האהוב עלי זכה בפרס חשוב."
+    },
+    {
+      "id": "s000425",
+      "es": "Fuimos a una exposición de fotografía.",
+      "he": "הלכנו לתערוכת צילום."
+    },
+    {
+      "id": "s000426",
+      "es": "Esta escultura es una obra maestra.",
+      "he": "הפסל הזה הוא יצירת מופת."
+    },
+    {
+      "id": "s000427",
+      "es": "Me encanta la literatura latinoamericana.",
+      "he": "אני מת/ה על הספרות הלטינו-אמריקאית."
+    },
+    {
+      "id": "s000428",
+      "es": "Ese pintor se inspiró en su ciudad natal.",
+      "he": "הצייר ההוא שאב השראה מעיר הולדתו."
+    },
+    {
+      "id": "s000429",
+      "es": "La cultura española es muy rica.",
+      "he": "התרבות הספרדית מאוד עשירה."
+    },
+    {
+      "id": "s000430",
+      "es": "Es una tradición que se celebra cada año.",
+      "he": "זו מסורת שנחגגת כל שנה."
+    }
+  ]
+}

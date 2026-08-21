@@ -5273,6 +5273,108 @@
       "he": "הלוויה",
       "levelId": "intermediate",
       "topicId": "relationships_lifeevents"
+    },
+    "w000880": {
+      "es": "la obra de arte",
+      "he": "יצירת אמנות",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000881": {
+      "es": "el pintor / la pintora",
+      "he": "צייר/ת",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000882": {
+      "es": "la pintura",
+      "he": "ציור",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000883": {
+      "es": "la escultura",
+      "he": "פסל / יצירה פיסולית",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000884": {
+      "es": "la galería de arte",
+      "he": "גלריית אמנות",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000885": {
+      "es": "la exposición",
+      "he": "תערוכה",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000886": {
+      "es": "la literatura",
+      "he": "ספרות",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000887": {
+      "es": "el escritor / la escritora",
+      "he": "סופר/ת",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000888": {
+      "es": "la novela",
+      "he": "רומן (ספר)",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000889": {
+      "es": "el poema",
+      "he": "שיר (שירה)",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000890": {
+      "es": "la cultura",
+      "he": "תרבות",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000891": {
+      "es": "la tradición",
+      "he": "מסורת",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000892": {
+      "es": "el patrimonio",
+      "he": "מורשת",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000893": {
+      "es": "la obra maestra",
+      "he": "יצירת מופת",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000894": {
+      "es": "inspirarse",
+      "he": "לשאוב השראה",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000895": {
+      "es": "contemporáneo/a",
+      "he": "בן/בת זמננו (עכשווי)",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "w000896": {
+      "es": "el artista",
+      "he": "אמן/ית",
+      "levelId": "advanced",
+      "topicId": "art_culture"
     }
   },
   "sentences": {
@@ -7385,6 +7487,46 @@
       "es": "Todos estábamos muy tristes en el funeral.",
       "levelId": "intermediate",
       "topicId": "relationships_lifeevents"
+    },
+    "s000423": {
+      "es": "Este museo tiene obras de arte muy famosas.",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "s000424": {
+      "es": "Mi escritor favorito ganó un premio importante.",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "s000425": {
+      "es": "Fuimos a una exposición de fotografía.",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "s000426": {
+      "es": "Esta escultura es una obra maestra.",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "s000427": {
+      "es": "Me encanta la literatura latinoamericana.",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "s000428": {
+      "es": "Ese pintor se inspiró en su ciudad natal.",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "s000429": {
+      "es": "La cultura española es muy rica.",
+      "levelId": "advanced",
+      "topicId": "art_culture"
+    },
+    "s000430": {
+      "es": "Es una tradición que se celebra cada año.",
+      "levelId": "advanced",
+      "topicId": "art_culture"
     }
   }
 }
