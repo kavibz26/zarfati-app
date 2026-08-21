@@ -1,0 +1,167 @@
+{
+  "levelId": "advanced",
+  "topicId": "science",
+  "vocab": [
+    {
+      "id": "w000897",
+      "es": "la investigación",
+      "he": "מחקר",
+      "ex_es": "Necesitamos más investigación sobre este tema.",
+      "ex_he": "אנחנו צריכים עוד מחקר בנושא הזה."
+    },
+    {
+      "id": "w000898",
+      "es": "el experimento",
+      "he": "ניסוי",
+      "ex_es": "El experimento no salió como esperábamos.",
+      "ex_he": "הניסוי לא יצא כמו שציפינו."
+    },
+    {
+      "id": "w000899",
+      "es": "el laboratorio",
+      "he": "מעבדה",
+      "ex_es": "Trabajo en un laboratorio de química.",
+      "ex_he": "אני עובד במעבדה לכימיה."
+    },
+    {
+      "id": "w000900",
+      "es": "el científico / la científica",
+      "he": "מדען/ית",
+      "ex_es": "Es un científico muy respetado.",
+      "ex_he": "הוא מדען מאוד מכובד."
+    },
+    {
+      "id": "w000901",
+      "es": "la teoría",
+      "he": "תיאוריה",
+      "ex_es": "Esta teoría cambió la ciencia moderna.",
+      "ex_he": "התיאוריה הזאת שינתה את המדע המודרני."
+    },
+    {
+      "id": "w000902",
+      "es": "descubrir",
+      "he": "לגלות",
+      "ex_es": "Descubrieron una nueva especie.",
+      "ex_he": "הם גילו מין חדש."
+    },
+    {
+      "id": "w000903",
+      "es": "el descubrimiento",
+      "he": "תגלית",
+      "ex_es": "Los científicos hicieron un descubrimiento importante.",
+      "ex_he": "המדענים עשו תגלית חשובה."
+    },
+    {
+      "id": "w000904",
+      "es": "el universo",
+      "he": "היקום",
+      "ex_es": "El universo es infinito.",
+      "ex_he": "היקום הוא אינסופי."
+    },
+    {
+      "id": "w000905",
+      "es": "la molécula",
+      "he": "מולקולה",
+      "ex_es": "Cada molécula tiene una estructura única.",
+      "ex_he": "לכל מולקולה יש מבנה ייחודי."
+    },
+    {
+      "id": "w000906",
+      "es": "el átomo",
+      "he": "אטום",
+      "ex_es": "Cada átomo tiene una estructura diferente.",
+      "ex_he": "לכל אטום יש מבנה שונה."
+    },
+    {
+      "id": "w000907",
+      "es": "la evolución",
+      "he": "אבולוציה",
+      "ex_es": "La teoría de la evolución es fascinante.",
+      "ex_he": "תורת האבולוציה מרתקת."
+    },
+    {
+      "id": "w000908",
+      "es": "la genética",
+      "he": "גנטיקה",
+      "ex_es": "La genética explica muchas enfermedades.",
+      "ex_he": "הגנטיקה מסבירה מחלות רבות."
+    },
+    {
+      "id": "w000909",
+      "es": "el análisis",
+      "he": "ניתוח (מחקרי)",
+      "ex_es": "El análisis de los datos tomó varias semanas.",
+      "ex_he": "ניתוח הנתונים לקח כמה שבועות."
+    },
+    {
+      "id": "w000910",
+      "es": "la hipótesis",
+      "he": "השערה",
+      "ex_es": "Su hipótesis resultó ser correcta.",
+      "ex_he": "ההשערה שלו התבררה כנכונה."
+    },
+    {
+      "id": "w000911",
+      "es": "probar (una hipótesis)",
+      "he": "לבדוק (השערה)",
+      "ex_es": "Necesitamos probar esta hipótesis.",
+      "ex_he": "אנחנו צריכים לבדוק את ההשערה הזאת."
+    },
+    {
+      "id": "w000912",
+      "es": "el telescopio",
+      "he": "טלסקופ",
+      "ex_es": "Observamos las estrellas con un telescopio.",
+      "ex_he": "צפינו בכוכבים עם טלסקופ."
+    },
+    {
+      "id": "w000913",
+      "es": "el microscopio",
+      "he": "מיקרוסקופ",
+      "ex_es": "Vimos las células con un microscopio.",
+      "ex_he": "ראינו את התאים עם מיקרוסקופ."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000431",
+      "es": "Los científicos hicieron un descubrimiento importante.",
+      "he": "המדענים עשו תגלית חשובה."
+    },
+    {
+      "id": "s000432",
+      "es": "El experimento no salió como esperábamos.",
+      "he": "הניסוי לא יצא כמו שציפינו."
+    },
+    {
+      "id": "s000433",
+      "es": "Necesitamos más investigación sobre este tema.",
+      "he": "אנחנו צריכים עוד מחקר בנושא הזה."
+    },
+    {
+      "id": "s000434",
+      "es": "La teoría de la evolución es fascinante.",
+      "he": "תורת האבולוציה מרתקת."
+    },
+    {
+      "id": "s000435",
+      "es": "Observamos las estrellas con un telescopio.",
+      "he": "צפינו בכוכבים עם טלסקופ."
+    },
+    {
+      "id": "s000436",
+      "es": "Su hipótesis resultó ser correcta.",
+      "he": "ההשערה שלו התבררה כנכונה."
+    },
+    {
+      "id": "s000437",
+      "es": "El análisis de los datos tomó varias semanas.",
+      "he": "ניתוח הנתונים לקח כמה שבועות."
+    },
+    {
+      "id": "s000438",
+      "es": "Cada átomo tiene una estructura diferente.",
+      "he": "לכל אטום יש מבנה שונה."
+    }
+  ]
+}

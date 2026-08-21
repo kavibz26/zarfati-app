@@ -332,6 +332,12 @@
         "name": "אמנות ותרבות",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "science",
+        "name": "מדע",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   },

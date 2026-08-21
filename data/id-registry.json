@@ -5375,6 +5375,108 @@
       "he": "אמן/ית",
       "levelId": "advanced",
       "topicId": "art_culture"
+    },
+    "w000897": {
+      "es": "la investigación",
+      "he": "מחקר",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000898": {
+      "es": "el experimento",
+      "he": "ניסוי",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000899": {
+      "es": "el laboratorio",
+      "he": "מעבדה",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000900": {
+      "es": "el científico / la científica",
+      "he": "מדען/ית",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000901": {
+      "es": "la teoría",
+      "he": "תיאוריה",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000902": {
+      "es": "descubrir",
+      "he": "לגלות",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000903": {
+      "es": "el descubrimiento",
+      "he": "תגלית",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000904": {
+      "es": "el universo",
+      "he": "היקום",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000905": {
+      "es": "la molécula",
+      "he": "מולקולה",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000906": {
+      "es": "el átomo",
+      "he": "אטום",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000907": {
+      "es": "la evolución",
+      "he": "אבולוציה",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000908": {
+      "es": "la genética",
+      "he": "גנטיקה",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000909": {
+      "es": "el análisis",
+      "he": "ניתוח (מחקרי)",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000910": {
+      "es": "la hipótesis",
+      "he": "השערה",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000911": {
+      "es": "probar (una hipótesis)",
+      "he": "לבדוק (השערה)",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000912": {
+      "es": "el telescopio",
+      "he": "טלסקופ",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "w000913": {
+      "es": "el microscopio",
+      "he": "מיקרוסקופ",
+      "levelId": "advanced",
+      "topicId": "science"
     }
   },
   "sentences": {
@@ -7527,6 +7629,46 @@
       "es": "Es una tradición que se celebra cada año.",
       "levelId": "advanced",
       "topicId": "art_culture"
+    },
+    "s000431": {
+      "es": "Los científicos hicieron un descubrimiento importante.",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "s000432": {
+      "es": "El experimento no salió como esperábamos.",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "s000433": {
+      "es": "Necesitamos más investigación sobre este tema.",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "s000434": {
+      "es": "La teoría de la evolución es fascinante.",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "s000435": {
+      "es": "Observamos las estrellas con un telescopio.",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "s000436": {
+      "es": "Su hipótesis resultó ser correcta.",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "s000437": {
+      "es": "El análisis de los datos tomó varias semanas.",
+      "levelId": "advanced",
+      "topicId": "science"
+    },
+    "s000438": {
+      "es": "Cada átomo tiene una estructura diferente.",
+      "levelId": "advanced",
+      "topicId": "science"
     }
   }
 }
