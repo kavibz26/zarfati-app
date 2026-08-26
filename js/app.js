@@ -182,6 +182,19 @@ function totalWordCount() {
   return Object.values(LEVELS).reduce((sum, lvl) =>
     sum + lvl.topics.reduce((s, t) => s + t.vocab.length, 0), 0);
 }
+// שוטח את כל אוצר המילים (כל הרמות, כל הנושאים) לרשימה אחת פשוטה, לשימוש במסך "כל המילים".
+// נגזר מ-LEVELS הקיים בזיכרון בלבד - לא נטען שום דבר חדש ולא נוצר עותק קבוע של המילון.
+function getAllWordsFlat() {
+  const rows = [];
+  for (const level of Object.values(LEVELS)) {
+    for (const topic of level.topics) {
+      for (const w of topic.vocab) {
+        rows.push({ es: w.es, he: w.he, topicId: topic.id, topicName: topic.name, levelId: level.id, levelName: level.name });
+      }
+    }
+  }
+  return rows;
+}
 function resetProgress() {
   localStorage.removeItem(progressKey());
   localStorage.removeItem(learnedKey());
@@ -670,6 +683,7 @@ function gotoSmartReview() {
   window.HablaAuth?.logAnalyticsEvent("smart_review_start", {});
 }
 function gotoStats() { state = { screen: "stats" }; pushHistory(); render(); }
+function gotoAllWords() { state = { screen: "allwords", query: "" }; pushHistory(); render(); }
 
 // "המשך ללמוד": מוצא את הנושא הכי הגיוני להמשיך ממנו, לפי getTopicCompletion הקיים בלבד -
 // בלי שום נתון חדש. סדר עדיפות: (1) נושא עם התקדמות חלקית (התחיל, לא סיים) - "ממשיך בדיוק
@@ -841,6 +855,7 @@ function render() {
   if (state.screen === "exercise") return renderExercise();
   if (state.screen === "stats") return renderStats();
   if (state.screen === "achievements") return renderAchievements();
+  if (state.screen === "allwords") return renderAllWords();
 }
 
 // ---------- טעינה ----------
@@ -1052,6 +1067,9 @@ function renderHome() {
       <button class="ctrl-btn secondary" data-action="goto-stats"><span aria-hidden="true">📊</span> סטטיסטיקות והתקדמות</button>
     </div>
     <div style="text-align:center; margin-top:16px;">
+      <button class="ctrl-btn secondary" data-action="goto-allwords"><span aria-hidden="true">📚</span> כל המילים</button>
+    </div>
+    <div style="text-align:center; margin-top:16px;">
       <button class="ctrl-btn" data-action="goto-review" ${reviewCount === 0 ? "disabled" : ""}>
         <span aria-hidden="true">📝</span> תרגול מילים קשות${reviewCount > 0 ? ` (${reviewCount})` : ""}
       </button>
@@ -1180,6 +1198,58 @@ function renderStats() {
       ${topicsSection}
     </div>
   `;
+  bindDelegatedEvents();
+}
+
+// ---------- כל המילים ----------
+// מסנן את רשימת "כל המילים" לפי מחרוזת חיפוש (התאמה חלקית, לא תלוית רישיות) מול השדה הספרדי או העברי.
+function filterAllWords(allWords, query) {
+  const q = query.trim().toLowerCase();
+  if (!q) return allWords;
+  return allWords.filter(w => w.es.toLowerCase().includes(q) || w.he.toLowerCase().includes(q));
+}
+function renderAllWordsRows(list) {
+  if (list.length === 0) {
+    return `<div class="section-sub" style="text-align:center; margin-top:20px;">לא נמצאו מילים תואמות.</div>`;
+  }
+  return `<div class="topic-list">${list.map(w => `
+    <div class="topic-row">
+      <div class="tr-info">
+        <div class="tr-name">${escapeHtml(w.es)} <span dir="rtl">— ${escapeHtml(w.he)}</span></div>
+        <div class="tr-count">${escapeHtml(w.topicName)} · ${escapeHtml(levelLabel(w.levelId, w.levelName))}</div>
+      </div>
+    </div>`).join("")}</div>`;
+}
+function renderAllWords() {
+  breadcrumb.textContent = "כל המילים";
+  const allWords = getAllWordsFlat();
+  const query = state.query || "";
+  app.innerHTML = `
+    <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
+    <div class="section-title">📚 כל המילים</div>
+    <div class="section-sub">כל אוצר המילים של האפליקציה במקום אחד — ${allWords.length} מילים</div>
+    <input type="text" class="search-input" data-role="allwords-search" placeholder="חיפוש לפי ספרדית או עברית..." value="${escapeHtml(query)}" autocomplete="off">
+    <div class="section-sub" data-role="allwords-count" style="margin:10px 0;"></div>
+    <div data-role="allwords-results"></div>
+  `;
+  const resultsEl = app.querySelector('[data-role="allwords-results"]');
+  const countEl = app.querySelector('[data-role="allwords-count"]');
+  const searchInput = app.querySelector('[data-role="allwords-search"]');
+
+  function update(q) {
+    const filtered = filterAllWords(allWords, q);
+    countEl.textContent = q.trim() ? `נמצאו ${filtered.length} מילים` : `מציג את כל ${filtered.length} המילים`;
+    resultsEl.innerHTML = renderAllWordsRows(filtered);
+  }
+  update(query);
+
+  // מסננים ישירות מתוך מאזין ה-input על השדה עצמו, בלי לקרוא ל-render() המלא בכל הקשה -
+  // כך שדה החיפוש לא מאבד פוקוס/מיקום סמן תוך כדי הקלדה.
+  searchInput.addEventListener("input", () => {
+    state.query = searchInput.value;
+    update(searchInput.value);
+  });
+
   bindDelegatedEvents();
 }
 
@@ -1692,6 +1762,7 @@ function handleAction(el) {
       break;
     }
     case "goto-stats": gotoStats(); break;
+    case "goto-allwords": gotoAllWords(); break;
     case "goto-achievements": gotoAchievements(); break;
     case "goto-about": gotoAbout(); break;
     case "pick-gender": state.genderChoice = el.dataset.gender; state.authError = ""; render(); break;
