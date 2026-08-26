@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "future_tense",
+  "vocab": [
+    {
+      "id": "w000914",
+      "es": "Yo hablaré",
+      "he": "אני אדבר",
+      "ex_es": "Hablaré con ella mañana.",
+      "ex_he": "אני אדבר איתה מחר."
+    },
+    {
+      "id": "w000915",
+      "es": "Tú comerás",
+      "he": "אתה תאכל",
+      "ex_es": "Comerás con nosotros esta noche.",
+      "ex_he": "אתה תאכל איתנו הערב."
+    },
+    {
+      "id": "w000916",
+      "es": "Él vivirá",
+      "he": "הוא יגור",
+      "ex_es": "Él vivirá en Madrid el próximo año.",
+      "ex_he": "הוא יגור במדריד בשנה הבאה."
+    },
+    {
+      "id": "w000917",
+      "es": "Nosotros viajaremos",
+      "he": "אנחנו ניסע",
+      "ex_es": "Nosotros viajaremos a México en verano.",
+      "ex_he": "אנחנו ניסע למקסיקו בקיץ."
+    },
+    {
+      "id": "w000918",
+      "es": "Ellos estudiarán",
+      "he": "הם ילמדו",
+      "ex_es": "Ellos estudiarán medicina el año que viene.",
+      "ex_he": "הם ילמדו רפואה בשנה הבאה."
+    },
+    {
+      "id": "w000919",
+      "es": "Voy a hablar",
+      "he": "אני הולך לדבר",
+      "ex_es": "Voy a hablar con el jefe mañana.",
+      "ex_he": "אני הולך לדבר עם הבוס מחר."
+    },
+    {
+      "id": "w000920",
+      "es": "Vas a comer",
+      "he": "אתה הולך לאכול",
+      "ex_es": "¿Vas a comer con nosotros?",
+      "ex_he": "אתה הולך לאכול איתנו?"
+    },
+    {
+      "id": "w000921",
+      "es": "Va a llover",
+      "he": "הולך לרדת גשם",
+      "ex_es": "Va a llover esta tarde.",
+      "ex_he": "הולך לרדת גשם אחר הצהריים."
+    },
+    {
+      "id": "w000922",
+      "es": "Vamos a viajar",
+      "he": "אנחנו הולכים לנסוע",
+      "ex_es": "Vamos a viajar el mes que viene.",
+      "ex_he": "אנחנו הולכים לנסוע בחודש הבא."
+    },
+    {
+      "id": "w000923",
+      "es": "Van a mudarse",
+      "he": "הם הולכים לעבור דירה",
+      "ex_es": "Van a mudarse la próxima semana.",
+      "ex_he": "הם הולכים לעבור דירה בשבוע הבא."
+    },
+    {
+      "id": "w000924",
+      "es": "Yo tendré",
+      "he": "יהיה לי (בעתיד)",
+      "ex_es": "Tendré tiempo mañana por la tarde.",
+      "ex_he": "יהיה לי זמן מחר אחר הצהריים."
+    },
+    {
+      "id": "w000925",
+      "es": "Yo haré",
+      "he": "אני אעשה",
+      "ex_es": "Haré la tarea esta noche.",
+      "ex_he": "אני אעשה את השיעורים הערב."
+    },
+    {
+      "id": "w000926",
+      "es": "Yo podré",
+      "he": "אני אוכל (יכולת)",
+      "ex_es": "Podré ayudarte el viernes.",
+      "ex_he": "אני אוכל לעזור לך ביום שישי."
+    },
+    {
+      "id": "w000927",
+      "es": "Ellos vendrán",
+      "he": "הם יבואו",
+      "ex_es": "Mis amigos vendrán a la fiesta.",
+      "ex_he": "החברים שלי יבואו למסיבה."
+    },
+    {
+      "id": "w000928",
+      "es": "Yo diré",
+      "he": "אני אגיד",
+      "ex_es": "Le diré la verdad.",
+      "ex_he": "אני אגיד לו את האמת."
+    },
+    {
+      "id": "w000929",
+      "es": "Dentro de poco",
+      "he": "בקרוב",
+      "ex_es": "Dentro de poco terminaré el proyecto.",
+      "ex_he": "בקרוב אסיים את הפרויקט."
+    },
+    {
+      "id": "w000930",
+      "es": "El año que viene",
+      "he": "בשנה הבאה",
+      "ex_es": "El año que viene viajaré a México.",
+      "ex_he": "בשנה הבאה אטייל למקסיקו."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000439",
+      "es": "El próximo mes empezaré un nuevo trabajo.",
+      "he": "בחודש הבא אתחיל עבודה חדשה."
+    },
+    {
+      "id": "s000440",
+      "es": "¿Vendrás a mi cumpleaños?",
+      "he": "תבוא ליום ההולדת שלי?"
+    },
+    {
+      "id": "s000441",
+      "es": "Mañana lloverá todo el día.",
+      "he": "מחר ירד גשם כל היום."
+    },
+    {
+      "id": "s000442",
+      "es": "Vamos a viajar a Europa este verano.",
+      "he": "אנחנו הולכים לטייל לאירופה הקיץ הזה."
+    },
+    {
+      "id": "s000443",
+      "es": "Algún día hablaré español perfectamente.",
+      "he": "יום אחד אדבר ספרדית בשלמות."
+    },
+    {
+      "id": "s000444",
+      "es": "¿Qué vas a hacer esta noche?",
+      "he": "מה אתה הולך לעשות הערב?"
+    },
+    {
+      "id": "s000445",
+      "es": "Tendremos una reunión la próxima semana.",
+      "he": "תהיה לנו ישיבה בשבוע הבא."
+    },
+    {
+      "id": "s000446",
+      "es": "Ella terminará sus estudios en junio.",
+      "he": "היא תסיים את הלימודים שלה ביוני."
+    }
+  ]
+}

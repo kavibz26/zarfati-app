@@ -5477,6 +5477,108 @@
       "he": "מיקרוסקופ",
       "levelId": "advanced",
       "topicId": "science"
+    },
+    "w000914": {
+      "es": "Yo hablaré",
+      "he": "אני אדבר",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000915": {
+      "es": "Tú comerás",
+      "he": "אתה תאכל",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000916": {
+      "es": "Él vivirá",
+      "he": "הוא יגור",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000917": {
+      "es": "Nosotros viajaremos",
+      "he": "אנחנו ניסע",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000918": {
+      "es": "Ellos estudiarán",
+      "he": "הם ילמדו",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000919": {
+      "es": "Voy a hablar",
+      "he": "אני הולך לדבר",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000920": {
+      "es": "Vas a comer",
+      "he": "אתה הולך לאכול",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000921": {
+      "es": "Va a llover",
+      "he": "הולך לרדת גשם",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000922": {
+      "es": "Vamos a viajar",
+      "he": "אנחנו הולכים לנסוע",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000923": {
+      "es": "Van a mudarse",
+      "he": "הם הולכים לעבור דירה",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000924": {
+      "es": "Yo tendré",
+      "he": "יהיה לי (בעתיד)",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000925": {
+      "es": "Yo haré",
+      "he": "אני אעשה",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000926": {
+      "es": "Yo podré",
+      "he": "אני אוכל (יכולת)",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000927": {
+      "es": "Ellos vendrán",
+      "he": "הם יבואו",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000928": {
+      "es": "Yo diré",
+      "he": "אני אגיד",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000929": {
+      "es": "Dentro de poco",
+      "he": "בקרוב",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "w000930": {
+      "es": "El año que viene",
+      "he": "בשנה הבאה",
+      "levelId": "grammar",
+      "topicId": "future_tense"
     }
   },
   "sentences": {
@@ -7669,6 +7771,46 @@
       "es": "Cada átomo tiene una estructura diferente.",
       "levelId": "advanced",
       "topicId": "science"
+    },
+    "s000439": {
+      "es": "El próximo mes empezaré un nuevo trabajo.",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "s000440": {
+      "es": "¿Vendrás a mi cumpleaños?",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "s000441": {
+      "es": "Mañana lloverá todo el día.",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "s000442": {
+      "es": "Vamos a viajar a Europa este verano.",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "s000443": {
+      "es": "Algún día hablaré español perfectamente.",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "s000444": {
+      "es": "¿Qué vas a hacer esta noche?",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "s000445": {
+      "es": "Tendremos una reunión la próxima semana.",
+      "levelId": "grammar",
+      "topicId": "future_tense"
+    },
+    "s000446": {
+      "es": "Ella terminará sus estudios en junio.",
+      "levelId": "grammar",
+      "topicId": "future_tense"
     }
   }
 }

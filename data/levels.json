@@ -376,6 +376,12 @@
         "name": "Por מול Para",
         "vocabCount": 12,
         "sentenceCount": 8
+      },
+      {
+        "id": "future_tense",
+        "name": "עתיד",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }
