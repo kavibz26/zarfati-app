@@ -683,7 +683,7 @@ function gotoSmartReview() {
   window.HablaAuth?.logAnalyticsEvent("smart_review_start", {});
 }
 function gotoStats() { state = { screen: "stats" }; pushHistory(); render(); }
-function gotoAllWords() { state = { screen: "allwords", query: "" }; pushHistory(); render(); }
+function gotoAllWords() { state = { screen: "allwords", query: "", topicId: "", levelId: "" }; pushHistory(); render(); }
 
 // "המשך ללמוד": מוצא את הנושא הכי הגיוני להמשיך ממנו, לפי getTopicCompletion הקיים בלבד -
 // בלי שום נתון חדש. סדר עדיפות: (1) נושא עם התקדמות חלקית (התחיל, לא סיים) - "ממשיך בדיוק
@@ -1202,11 +1202,30 @@ function renderStats() {
 }
 
 // ---------- כל המילים ----------
-// מסנן את רשימת "כל המילים" לפי מחרוזת חיפוש (התאמה חלקית, לא תלוית רישיות) מול השדה הספרדי או העברי.
-function filterAllWords(allWords, query) {
+// רשימת נושאים ייחודית (topicId -> topicName) על פני כל הרמות, לתפריט הסינון לפי נושא.
+// topicId מסוים (כמו "travel") יכול להופיע ביותר מרמה אחת - כאן הוא מיוצג פעם אחת בלבד,
+// והסינון בפועל (filterAllWords) יתאים את כל המילים מכל הרמות שבהן הנושא הזה קיים.
+function getAllTopicsForFilter() {
+  const seen = new Map();
+  for (const level of Object.values(LEVELS)) {
+    for (const topic of level.topics) {
+      if (!seen.has(topic.id)) seen.set(topic.id, topic.name);
+    }
+  }
+  return [...seen.entries()]
+    .map(([id, name]) => ({ id, name }))
+    .sort((a, b) => a.name.localeCompare(b.name, "he"));
+}
+// מסנן את רשימת "כל המילים" לפי מחרוזת חיפוש (התאמה חלקית, לא תלוית רישיות, מול ספרדית/עברית),
+// נושא ורמה - שלושת התנאים משולבים (AND); ערך ריק בכל מסנן פירושו "הכול".
+function filterAllWords(allWords, { query = "", topicId = "", levelId = "" } = {}) {
   const q = query.trim().toLowerCase();
-  if (!q) return allWords;
-  return allWords.filter(w => w.es.toLowerCase().includes(q) || w.he.toLowerCase().includes(q));
+  return allWords.filter(w => {
+    if (topicId && w.topicId !== topicId) return false;
+    if (levelId && w.levelId !== levelId) return false;
+    if (q && !(w.es.toLowerCase().includes(q) || w.he.toLowerCase().includes(q))) return false;
+    return true;
+  });
 }
 function renderAllWordsRows(list) {
   if (list.length === 0) {
@@ -1223,32 +1242,47 @@ function renderAllWordsRows(list) {
 function renderAllWords() {
   breadcrumb.textContent = "כל המילים";
   const allWords = getAllWordsFlat();
+  const topics = getAllTopicsForFilter();
+  const levelOptions = [...DIFFICULTY_LEVEL_IDS, "grammar"].map(id => ({ id, label: levelLabel(id, LEVELS[id].name) }));
   const query = state.query || "";
+  const topicId = state.topicId || "";
+  const levelId = state.levelId || "";
   app.innerHTML = `
     <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
     <div class="section-title">📚 כל המילים</div>
     <div class="section-sub">כל אוצר המילים של האפליקציה במקום אחד — ${allWords.length} מילים</div>
     <input type="text" class="search-input" data-role="allwords-search" placeholder="חיפוש לפי ספרדית או עברית..." value="${escapeHtml(query)}" autocomplete="off">
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+      <select class="filter-select" style="flex:1; min-width:160px;" data-role="allwords-topic-filter">
+        <option value="">כל הנושאים</option>
+        ${topics.map(t => `<option value="${escapeHtml(t.id)}" ${t.id === topicId ? "selected" : ""}>${escapeHtml(t.name)}</option>`).join("")}
+      </select>
+      <select class="filter-select" style="flex:1; min-width:160px;" data-role="allwords-level-filter">
+        <option value="">כל הרמות</option>
+        ${levelOptions.map(l => `<option value="${escapeHtml(l.id)}" ${l.id === levelId ? "selected" : ""}>${escapeHtml(l.label)}</option>`).join("")}
+      </select>
+    </div>
     <div class="section-sub" data-role="allwords-count" style="margin:10px 0;"></div>
     <div data-role="allwords-results"></div>
   `;
   const resultsEl = app.querySelector('[data-role="allwords-results"]');
   const countEl = app.querySelector('[data-role="allwords-count"]');
   const searchInput = app.querySelector('[data-role="allwords-search"]');
+  const topicSelect = app.querySelector('[data-role="allwords-topic-filter"]');
+  const levelSelect = app.querySelector('[data-role="allwords-level-filter"]');
 
-  function update(q) {
-    const filtered = filterAllWords(allWords, q);
-    countEl.textContent = q.trim() ? `נמצאו ${filtered.length} מילים` : `מציג את כל ${filtered.length} המילים`;
+  function update() {
+    const filtered = filterAllWords(allWords, { query: searchInput.value, topicId: topicSelect.value, levelId: levelSelect.value });
+    countEl.textContent = `${filtered.length} מתוך ${allWords.length} מילים`;
     resultsEl.innerHTML = renderAllWordsRows(filtered);
   }
-  update(query);
+  update();
 
-  // מסננים ישירות מתוך מאזין ה-input על השדה עצמו, בלי לקרוא ל-render() המלא בכל הקשה -
-  // כך שדה החיפוש לא מאבד פוקוס/מיקום סמן תוך כדי הקלדה.
-  searchInput.addEventListener("input", () => {
-    state.query = searchInput.value;
-    update(searchInput.value);
-  });
+  // מסננים ישירות מתוך מאזיני האירועים על הפקדים עצמם, בלי לקרוא ל-render() המלא בכל שינוי -
+  // כך שדה החיפוש לא מאבד פוקוס/מיקום סמן תוך כדי הקלדה, ובחירת נושא/רמה משולבת איתו באותה רשימה.
+  searchInput.addEventListener("input", () => { state.query = searchInput.value; update(); });
+  topicSelect.addEventListener("change", () => { state.topicId = topicSelect.value; update(); });
+  levelSelect.addEventListener("change", () => { state.levelId = levelSelect.value; update(); });
 
   bindDelegatedEvents();
 }

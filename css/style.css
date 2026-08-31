@@ -604,6 +604,19 @@ button:focus-visible,
   outline-offset: 2px;
 }
 
+.filter-select {
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 13px 16px;
+  font-size: 16px;
+  background: var(--card-bg);
+  color: var(--text);
+}
+.filter-select:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
 /* Summary */
 .summary {
   text-align: center;
