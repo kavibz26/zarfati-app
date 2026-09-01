@@ -5783,6 +5783,108 @@
       "he": "שלנו (כינוי עצמאי)",
       "levelId": "grammar",
       "topicId": "possessive_adjectives"
+    },
+    "w000965": {
+      "es": "Más grande que",
+      "he": "יותר גדול מ-",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000966": {
+      "es": "Menos caro que",
+      "he": "פחות יקר מ-",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000967": {
+      "es": "Tan bueno como",
+      "he": "טוב כמו",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000968": {
+      "es": "Mejor que",
+      "he": "יותר טוב מ-",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000969": {
+      "es": "Peor que",
+      "he": "יותר גרוע מ-",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000970": {
+      "es": "Mayor que",
+      "he": "גדול / מבוגר יותר מ-",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000971": {
+      "es": "Menor que",
+      "he": "קטן / צעיר יותר מ-",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000972": {
+      "es": "El más alto",
+      "he": "הכי גבוה",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000973": {
+      "es": "La más inteligente",
+      "he": "הכי חכמה",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000974": {
+      "es": "El menos caro",
+      "he": "הכי לא יקר (הזול ביותר)",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000975": {
+      "es": "Tan rápido como",
+      "he": "מהיר כמו",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000976": {
+      "es": "Más rápido que",
+      "he": "מהיר יותר מ-",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000977": {
+      "es": "Menos difícil que",
+      "he": "פחות קשה מ-",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000978": {
+      "es": "El mejor",
+      "he": "הכי טוב / הטוב ביותר",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000979": {
+      "es": "La peor",
+      "he": "הכי גרועה / הגרועה ביותר",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000980": {
+      "es": "Buenísimo",
+      "he": "טוב מאוד",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "w000981": {
+      "es": "Facilísimo",
+      "he": "קל מאוד",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
     }
   },
   "sentences": {
@@ -8095,6 +8197,46 @@
       "es": "Vuestra opinión es importante para nosotros.",
       "levelId": "grammar",
       "topicId": "possessive_adjectives"
+    },
+    "s000463": {
+      "es": "Mi ciudad es más grande que la tuya.",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "s000464": {
+      "es": "Este coche es tan caro como el otro.",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "s000465": {
+      "es": "Juan es el más simpático de todos mis amigos.",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "s000466": {
+      "es": "Hoy hace menos frío que ayer.",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "s000467": {
+      "es": "Ella cocina mejor que su madre.",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "s000468": {
+      "es": "Este fue el peor día de mi vida.",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "s000469": {
+      "es": "La película fue buenísima.",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
+    },
+    "s000470": {
+      "es": "Mi hermano menor tiene diez años.",
+      "levelId": "grammar",
+      "topicId": "comparatives_superlatives"
     }
   }
 }

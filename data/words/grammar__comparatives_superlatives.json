@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "comparatives_superlatives",
+  "vocab": [
+    {
+      "id": "w000965",
+      "es": "Más grande que",
+      "he": "יותר גדול מ-",
+      "ex_es": "Mi casa es más grande que la tuya.",
+      "ex_he": "הבית שלי יותר גדול משלך."
+    },
+    {
+      "id": "w000966",
+      "es": "Menos caro que",
+      "he": "פחות יקר מ-",
+      "ex_es": "Este restaurante es menos caro que el otro.",
+      "ex_he": "המסעדה הזאת פחות יקרה מהאחרת."
+    },
+    {
+      "id": "w000967",
+      "es": "Tan bueno como",
+      "he": "טוב כמו",
+      "ex_es": "Este libro es tan bueno como el otro.",
+      "ex_he": "הספר הזה טוב כמו האחר."
+    },
+    {
+      "id": "w000968",
+      "es": "Mejor que",
+      "he": "יותר טוב מ-",
+      "ex_es": "Este plan es mejor que el anterior.",
+      "ex_he": "התוכנית הזאת יותר טובה מהקודמת."
+    },
+    {
+      "id": "w000969",
+      "es": "Peor que",
+      "he": "יותר גרוע מ-",
+      "ex_es": "El tráfico hoy es peor que ayer.",
+      "ex_he": "הפקקים היום גרועים יותר מאתמול."
+    },
+    {
+      "id": "w000970",
+      "es": "Mayor que",
+      "he": "גדול / מבוגר יותר מ-",
+      "ex_es": "Mi hermano es mayor que yo.",
+      "ex_he": "אחי מבוגר יותר ממני."
+    },
+    {
+      "id": "w000971",
+      "es": "Menor que",
+      "he": "קטן / צעיר יותר מ-",
+      "ex_es": "Ella es menor que su esposo.",
+      "ex_he": "היא צעירה יותר מבעלה."
+    },
+    {
+      "id": "w000972",
+      "es": "El más alto",
+      "he": "הכי גבוה",
+      "ex_es": "Él es el más alto de la clase.",
+      "ex_he": "הוא הכי גבוה בכיתה."
+    },
+    {
+      "id": "w000973",
+      "es": "La más inteligente",
+      "he": "הכי חכמה",
+      "ex_es": "Ana es la más inteligente del grupo.",
+      "ex_he": "אנה הכי חכמה בקבוצה."
+    },
+    {
+      "id": "w000974",
+      "es": "El menos caro",
+      "he": "הכי לא יקר (הזול ביותר)",
+      "ex_es": "Compramos el menos caro de todos.",
+      "ex_he": "קנינו את הזול ביותר מכולם."
+    },
+    {
+      "id": "w000975",
+      "es": "Tan rápido como",
+      "he": "מהיר כמו",
+      "ex_es": "Corre tan rápido como un atleta.",
+      "ex_he": "הוא רץ מהר כמו ספורטאי."
+    },
+    {
+      "id": "w000976",
+      "es": "Más rápido que",
+      "he": "מהיר יותר מ-",
+      "ex_es": "Mi coche es más rápido que el tuyo.",
+      "ex_he": "המכונית שלי מהירה יותר משלך."
+    },
+    {
+      "id": "w000977",
+      "es": "Menos difícil que",
+      "he": "פחות קשה מ-",
+      "ex_es": "El examen fue menos difícil que el anterior.",
+      "ex_he": "המבחן היה פחות קשה מהקודם."
+    },
+    {
+      "id": "w000978",
+      "es": "El mejor",
+      "he": "הכי טוב / הטוב ביותר",
+      "ex_es": "Este es el mejor restaurante de la ciudad.",
+      "ex_he": "זאת המסעדה הכי טובה בעיר."
+    },
+    {
+      "id": "w000979",
+      "es": "La peor",
+      "he": "הכי גרועה / הגרועה ביותר",
+      "ex_es": "Fue la peor película del año.",
+      "ex_he": "זה היה הסרט הכי גרוע של השנה."
+    },
+    {
+      "id": "w000980",
+      "es": "Buenísimo",
+      "he": "טוב מאוד",
+      "ex_es": "El postre estaba buenísimo.",
+      "ex_he": "הקינוח היה טעים מאוד."
+    },
+    {
+      "id": "w000981",
+      "es": "Facilísimo",
+      "he": "קל מאוד",
+      "ex_es": "El examen fue facilísimo.",
+      "ex_he": "המבחן היה קל מאוד."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000463",
+      "es": "Mi ciudad es más grande que la tuya.",
+      "he": "העיר שלי יותר גדולה משלך."
+    },
+    {
+      "id": "s000464",
+      "es": "Este coche es tan caro como el otro.",
+      "he": "המכונית הזאת יקרה כמו האחרת."
+    },
+    {
+      "id": "s000465",
+      "es": "Juan es el más simpático de todos mis amigos.",
+      "he": "חואן הכי נחמד מכל החברים שלי."
+    },
+    {
+      "id": "s000466",
+      "es": "Hoy hace menos frío que ayer.",
+      "he": "היום פחות קר מאתמול."
+    },
+    {
+      "id": "s000467",
+      "es": "Ella cocina mejor que su madre.",
+      "he": "היא מבשלת יותר טוב מאמא שלה."
+    },
+    {
+      "id": "s000468",
+      "es": "Este fue el peor día de mi vida.",
+      "he": "זה היה היום הכי גרוע בחיים שלי."
+    },
+    {
+      "id": "s000469",
+      "es": "La película fue buenísima.",
+      "he": "הסרט היה מצוין."
+    },
+    {
+      "id": "s000470",
+      "es": "Mi hermano menor tiene diez años.",
+      "he": "האח הצעיר שלי בן עשר."
+    }
+  ]
+}

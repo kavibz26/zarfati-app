@@ -394,6 +394,12 @@
         "name": "כינויי קניין",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "comparatives_superlatives",
+        "name": "דרגות השוואה",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }

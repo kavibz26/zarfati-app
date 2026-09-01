@@ -963,3 +963,20 @@ w000961,El mío / La mía,שלי (כינוי עצמאי),Este libro es el mío.,
 w000962,El tuyo / La tuya,שלך (כינוי עצמאי),Esta mochila no es la tuya.,התיק הזה לא שלך.,grammar,possessive_adjectives,כינויי קניין
 w000963,El suyo / La suya,שלו / שלה (כינוי עצמאי),El coche rojo es el suyo.,המכונית האדומה היא שלו/שלה.,grammar,possessive_adjectives,כינויי קניין
 w000964,El nuestro / La nuestra,שלנו (כינוי עצמאי),Esa mesa es la nuestra.,השולחן ההוא שלנו.,grammar,possessive_adjectives,כינויי קניין
+w000965,Más grande que,יותר גדול מ-,Mi casa es más grande que la tuya.,הבית שלי יותר גדול משלך.,grammar,comparatives_superlatives,דרגות השוואה
+w000966,Menos caro que,פחות יקר מ-,Este restaurante es menos caro que el otro.,המסעדה הזאת פחות יקרה מהאחרת.,grammar,comparatives_superlatives,דרגות השוואה
+w000967,Tan bueno como,טוב כמו,Este libro es tan bueno como el otro.,הספר הזה טוב כמו האחר.,grammar,comparatives_superlatives,דרגות השוואה
+w000968,Mejor que,יותר טוב מ-,Este plan es mejor que el anterior.,התוכנית הזאת יותר טובה מהקודמת.,grammar,comparatives_superlatives,דרגות השוואה
+w000969,Peor que,יותר גרוע מ-,El tráfico hoy es peor que ayer.,הפקקים היום גרועים יותר מאתמול.,grammar,comparatives_superlatives,דרגות השוואה
+w000970,Mayor que,גדול / מבוגר יותר מ-,Mi hermano es mayor que yo.,אחי מבוגר יותר ממני.,grammar,comparatives_superlatives,דרגות השוואה
+w000971,Menor que,קטן / צעיר יותר מ-,Ella es menor que su esposo.,היא צעירה יותר מבעלה.,grammar,comparatives_superlatives,דרגות השוואה
+w000972,El más alto,הכי גבוה,Él es el más alto de la clase.,הוא הכי גבוה בכיתה.,grammar,comparatives_superlatives,דרגות השוואה
+w000973,La más inteligente,הכי חכמה,Ana es la más inteligente del grupo.,אנה הכי חכמה בקבוצה.,grammar,comparatives_superlatives,דרגות השוואה
+w000974,El menos caro,הכי לא יקר (הזול ביותר),Compramos el menos caro de todos.,קנינו את הזול ביותר מכולם.,grammar,comparatives_superlatives,דרגות השוואה
+w000975,Tan rápido como,מהיר כמו,Corre tan rápido como un atleta.,הוא רץ מהר כמו ספורטאי.,grammar,comparatives_superlatives,דרגות השוואה
+w000976,Más rápido que,מהיר יותר מ-,Mi coche es más rápido que el tuyo.,המכונית שלי מהירה יותר משלך.,grammar,comparatives_superlatives,דרגות השוואה
+w000977,Menos difícil que,פחות קשה מ-,El examen fue menos difícil que el anterior.,המבחן היה פחות קשה מהקודם.,grammar,comparatives_superlatives,דרגות השוואה
+w000978,El mejor,הכי טוב / הטוב ביותר,Este es el mejor restaurante de la ciudad.,זאת המסעדה הכי טובה בעיר.,grammar,comparatives_superlatives,דרגות השוואה
+w000979,La peor,הכי גרועה / הגרועה ביותר,Fue la peor película del año.,זה היה הסרט הכי גרוע של השנה.,grammar,comparatives_superlatives,דרגות השוואה
+w000980,Buenísimo,טוב מאוד,El postre estaba buenísimo.,הקינוח היה טעים מאוד.,grammar,comparatives_superlatives,דרגות השוואה
+w000981,Facilísimo,קל מאוד,El examen fue facilísimo.,המבחן היה קל מאוד.,grammar,comparatives_superlatives,דרגות השוואה
