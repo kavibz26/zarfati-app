@@ -540,9 +540,57 @@ function shuffle(arr) {
 }
 function sample(arr, n) { return shuffle(arr).slice(0, n); }
 
-// picks up to n distinct-valued distractors from pool, excluding items equal to correctValue
-function pickDistractors(pool, correctValue, valueFn, n = 3) {
-  return sample(pool.filter(o => valueFn(o) !== correctValue), n).map(valueFn);
+// ---------- דיסטרקטורים חכמים (מנגנון משותף לכל תרגילי הבחירה-מתוך-אפשרויות) ----------
+// קיבוץ ידני של 57 ה-topicId הקיימים ל-15 אשכולות נושאיים קרובים סמנטית. זו טבלת עזר
+// לבחירת תרגילים בלבד - לא תוכן מילון, ולא נוגעת בשום קובץ נתונים. כל topicId מכוסה פעם אחת.
+const TOPIC_CLUSTERS = [
+  ["greetings", "daily_conversations", "question_words"],
+  ["family", "relationships_lifeevents"],
+  ["food", "restaurant_dining", "cooking_recipes"],
+  ["numbers", "days_time", "months_seasons", "adverbs_frequency"],
+  ["colors", "common_adjectives", "adjectives"],
+  ["body_parts", "health_illness"],
+  ["clothing", "shopping_money"],
+  ["home", "home_routine"],
+  ["nature_basic", "weather", "environment_nature", "animals"],
+  ["travel", "city_places", "directions", "nationalities_countries", "prepositions_location"],
+  ["school", "work_professions", "business_vocab"],
+  ["hobbies", "sports", "media_entertainment", "technology"],
+  ["emotions"],
+  ["basic_verbs", "present_regular", "common_verbs_2", "common_verbs", "preterito", "past_tenses",
+   "basic_conjugation", "future_tense", "subjuntivo", "ser_vs_estar", "por_para", "pronouns"],
+  ["advanced_vocab", "idioms", "natural_expressions", "news_opinions", "formal_writing", "art_culture", "science"]
+];
+// topicId -> Set של שאר חברי אותו אשכול (בלי הנושא עצמו - שלב 1 כבר מכסה אותו).
+const TOPIC_CLUSTER_LOOKUP = new Map();
+for (const cluster of TOPIC_CLUSTERS) {
+  for (const id of cluster) {
+    TOPIC_CLUSTER_LOOKUP.set(id, new Set(cluster.filter(other => other !== id)));
+  }
+}
+// בוחר עד n דיסטרקטורים לפי היררכיית קרבה, מתוך pool אחד משותף (רשומות כמו שמחזיר
+// getAllWordsFlat: {es, he, topicId, levelId, ...}) - בלי ליצור עותק נוסף של המילון:
+// 1) אותו topic + אותה רמה  2) topic מאותו אשכול סמנטי + אותה רמה
+// 3) כל המילים באותה רמה (כל נושא)  4) כל המילון, בלי הגבלת רמה - מוצא אחרון בלבד.
+// דדופ לפי הערך המוצג (used) מונע גם דיסטרקטור זהה לתשובה הנכונה וגם דיסטרקטור כפול.
+function pickSmartDistractors({ pool, correctValue, valueFn, levelId, topicId, n = 3 }) {
+  const cluster = TOPIC_CLUSTER_LOOKUP.get(topicId) || new Set();
+  const used = new Set([correctValue]);
+  const result = [];
+  function addFrom(candidates) {
+    for (const w of shuffle(candidates)) {
+      if (result.length >= n) return;
+      const val = valueFn(w);
+      if (used.has(val)) continue;
+      used.add(val);
+      result.push(val);
+    }
+  }
+  addFrom(pool.filter(w => w.levelId === levelId && w.topicId === topicId));
+  if (result.length < n) addFrom(pool.filter(w => w.levelId === levelId && cluster.has(w.topicId)));
+  if (result.length < n) addFrom(pool.filter(w => w.levelId === levelId));
+  if (result.length < n) addFrom(pool);
+  return result;
 }
 
 // ---------- בדיקת תשובה בתרגול "הקלדה מהזיכרון" (הקלדה חופשית) ----------
@@ -777,11 +825,11 @@ function continueLearning() {
 
 // בונה שאלת חידון בודדת (כיוון אקראי + מסיחים) עבור מילה אחת. משמש גם לחידון רגיל וגם לתרגול חזרה,
 // שהיו זהים במלואם קודם לכן, כל אחד עם ההעתק שלו.
-function buildQuizQuestion(vocabItem, levelId, topicId, vocabIndex, allVocabInLevel) {
+function buildQuizQuestion(vocabItem, levelId, topicId, vocabIndex, pool) {
   const direction = Math.random() < 0.5 ? "es2he" : "he2es";
   const correctText = direction === "es2he" ? vocabItem.he : vocabItem.es;
   const valueFn = o => direction === "es2he" ? o.he : o.es;
-  const options = shuffle([correctText, ...pickDistractors(allVocabInLevel, correctText, valueFn)]);
+  const options = shuffle([correctText, ...pickSmartDistractors({ pool, correctValue: correctText, valueFn, levelId, topicId })]);
   return {
     vocabIndex,
     levelId,
@@ -824,20 +872,16 @@ function buildExercise(levelId, topicId, type) {
 // רק שהשאלות נאספות מכמה נושאים/רמות שונות במקום נושא בודד
 function buildReviewExercise() {
   const words = getStruggleWords(REVIEW_SESSION_SIZE);
-  const questions = shuffle(words.map(w => {
-    const allVocabInLevel = LEVELS[w.levelId].topics.flatMap(t => t.vocab);
-    return buildQuizQuestion(w.vocab, w.levelId, w.topicId, w.vocabIndex, allVocabInLevel);
-  }));
+  const pool = getAllWordsFlat();
+  const questions = shuffle(words.map(w => buildQuizQuestion(w.vocab, w.levelId, w.topicId, w.vocabIndex, pool)));
   ex = { type: "quiz", index: 0, score: 0, questions, answered: false, selected: null, finished: false, isReview: true };
 }
 // תרגיל חזרה חכם (Spaced Repetition): אותה צורת נתונים בדיוק כמו buildReviewExercise למעלה,
 // רק שהמילים נבחרות לפי getDueWords (קופסה+מועד חזרה) במקום getStruggleWords (מונה מצטבר).
 function buildSmartReviewExercise() {
   const words = getDueWords(REVIEW_SESSION_SIZE);
-  const questions = shuffle(words.map(w => {
-    const allVocabInLevel = LEVELS[w.levelId].topics.flatMap(t => t.vocab);
-    return buildQuizQuestion(w.vocab, w.levelId, w.topicId, w.vocabIndex, allVocabInLevel);
-  }));
+  const pool = getAllWordsFlat();
+  const questions = shuffle(words.map(w => buildQuizQuestion(w.vocab, w.levelId, w.topicId, w.vocabIndex, pool)));
   ex = { type: "quiz", index: 0, score: 0, questions, answered: false, selected: null, finished: false, isReview: true, isSmartReview: true };
 }
 
@@ -848,9 +892,9 @@ function buildSmartReviewExercise() {
 // היה (flashcards/quiz), ולא ידרוס ציון של תרגיל אחר באותו נושא. פונקציה גנרית אחת, כדי
 // לא לשכפל אותה עבור flashcards ועבור quiz בנפרד.
 function startVocabQuiz() {
-  const allVocabInLevel = LEVELS[state.levelId].topics.flatMap(t => t.vocab);
+  const pool = getAllWordsFlat();
   const questions = shuffle(ex.items.map((v, i) =>
-    buildQuizQuestion(v, state.levelId, state.topicId, i, allVocabInLevel)));
+    buildQuizQuestion(v, state.levelId, state.topicId, i, pool)));
   ex.stage = "quiz";
   ex.questions = questions;
   ex.index = 0;
@@ -864,9 +908,9 @@ function startVocabQuiz() {
 // מ-startVocabQuiz כי שאלת האזנה היא חד-כיוונית (תמיד es->he) ולא דו-כיוונית כמו quiz.
 // ex.type נשאר "listening" בכוונה, כדי שהציון הסופי יישמר תחת אותו סוג תרגיל כמו קודם.
 function startListeningQuiz() {
-  const allVocabInLevel = LEVELS[state.levelId].topics.flatMap(t => t.vocab);
+  const pool = getAllWordsFlat();
   const questions = shuffle(ex.items.map((v, i) => {
-    const options = shuffle([v.he, ...pickDistractors(allVocabInLevel, v.he, o => o.he)]);
+    const options = shuffle([v.he, ...pickSmartDistractors({ pool, correctValue: v.he, valueFn: o => o.he, levelId: state.levelId, topicId: state.topicId })]);
     return { vocabIndex: i, levelId: state.levelId, topicId: state.topicId, es: v.es, correct: v.he, options };
   }));
   ex.stage = "quiz";
