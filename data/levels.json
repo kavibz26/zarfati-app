@@ -400,6 +400,12 @@
         "name": "דרגות השוואה",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "object_pronouns",
+        "name": "כינויי מושא",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }

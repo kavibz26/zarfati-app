@@ -5885,6 +5885,108 @@
       "he": "קל מאוד",
       "levelId": "grammar",
       "topicId": "comparatives_superlatives"
+    },
+    "w000982": {
+      "es": "Lo veo",
+      "he": "אני רואה אותו",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000983": {
+      "es": "La veo",
+      "he": "אני רואה אותה",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000984": {
+      "es": "Los veo",
+      "he": "אני רואה אותם",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000985": {
+      "es": "Las veo",
+      "he": "אני רואה אותן",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000986": {
+      "es": "Lo compro",
+      "he": "אני קונה אותו",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000987": {
+      "es": "La conozco",
+      "he": "אני מכיר / מכירה אותה",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000988": {
+      "es": "¿Lo tienes?",
+      "he": "יש לך את זה?",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000989": {
+      "es": "No lo sé",
+      "he": "אני לא יודע את זה",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000990": {
+      "es": "Le doy",
+      "he": "אני נותן לו / לה",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000991": {
+      "es": "Les doy",
+      "he": "אני נותן להם",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000992": {
+      "es": "Le escribo",
+      "he": "אני כותב לו / לה",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000993": {
+      "es": "Me llama",
+      "he": "הוא / היא קורא/ת לי",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000994": {
+      "es": "Te llama",
+      "he": "הוא / היא קורא/ת לך",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000995": {
+      "es": "Nos llama",
+      "he": "הוא / היא קורא/ת לנו",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000996": {
+      "es": "Te quiero",
+      "he": "אני אוהב / אוהבת אותך",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000997": {
+      "es": "¿Me entiendes?",
+      "he": "אתה מבין אותי?",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "w000998": {
+      "es": "Voy a llamarte",
+      "he": "אני הולך להתקשר אליך",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
     }
   },
   "sentences": {
@@ -8237,6 +8339,46 @@
       "es": "Mi hermano menor tiene diez años.",
       "levelId": "grammar",
       "topicId": "comparatives_superlatives"
+    },
+    "s000471": {
+      "es": "¿Puedes ayudarme con esto?",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "s000472": {
+      "es": "No la vi en la fiesta anoche.",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "s000473": {
+      "es": "Mi madre me llama todos los domingos.",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "s000474": {
+      "es": "Le regalé un libro a mi amigo.",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "s000475": {
+      "es": "¿Los has visto? Se fueron hace un rato.",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "s000476": {
+      "es": "Te extraño mucho cuando estás de viaje.",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "s000477": {
+      "es": "Nos invitaron a la boda de su hija.",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
+    },
+    "s000478": {
+      "es": "Ellos nos ayudaron mucho durante la mudanza.",
+      "levelId": "grammar",
+      "topicId": "object_pronouns"
     }
   }
 }

@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "object_pronouns",
+  "vocab": [
+    {
+      "id": "w000982",
+      "es": "Lo veo",
+      "he": "אני רואה אותו",
+      "ex_es": "Lo veo todos los días en el parque.",
+      "ex_he": "אני רואה אותו כל יום בפארק."
+    },
+    {
+      "id": "w000983",
+      "es": "La veo",
+      "he": "אני רואה אותה",
+      "ex_es": "La veo en la oficina cada mañana.",
+      "ex_he": "אני רואה אותה במשרד כל בוקר."
+    },
+    {
+      "id": "w000984",
+      "es": "Los veo",
+      "he": "אני רואה אותם",
+      "ex_es": "Los veo jugar en la calle.",
+      "ex_he": "אני רואה אותם משחקים ברחוב."
+    },
+    {
+      "id": "w000985",
+      "es": "Las veo",
+      "he": "אני רואה אותן",
+      "ex_es": "Las veo hablando en la cafetería.",
+      "ex_he": "אני רואה אותן מדברות בבית הקפה."
+    },
+    {
+      "id": "w000986",
+      "es": "Lo compro",
+      "he": "אני קונה אותו",
+      "ex_es": "Lo compro en el supermercado.",
+      "ex_he": "אני קונה אותו בסופרמרקט."
+    },
+    {
+      "id": "w000987",
+      "es": "La conozco",
+      "he": "אני מכיר / מכירה אותה",
+      "ex_es": "La conozco desde hace muchos años.",
+      "ex_he": "אני מכיר/ה אותה כבר הרבה שנים."
+    },
+    {
+      "id": "w000988",
+      "es": "¿Lo tienes?",
+      "he": "יש לך את זה?",
+      "ex_es": "¿Lo tienes en tu mochila?",
+      "ex_he": "יש לך את זה בתיק שלך?"
+    },
+    {
+      "id": "w000989",
+      "es": "No lo sé",
+      "he": "אני לא יודע את זה",
+      "ex_es": "No lo sé, pregúntale a él.",
+      "ex_he": "אני לא יודע, תשאל אותו."
+    },
+    {
+      "id": "w000990",
+      "es": "Le doy",
+      "he": "אני נותן לו / לה",
+      "ex_es": "Le doy un regalo por su cumpleaños.",
+      "ex_he": "אני נותן לו מתנה ליום ההולדת."
+    },
+    {
+      "id": "w000991",
+      "es": "Les doy",
+      "he": "אני נותן להם",
+      "ex_es": "Les doy las gracias por su ayuda.",
+      "ex_he": "אני מודה להם על העזרה."
+    },
+    {
+      "id": "w000992",
+      "es": "Le escribo",
+      "he": "אני כותב לו / לה",
+      "ex_es": "Le escribo un mensaje todos los días.",
+      "ex_he": "אני כותב לו הודעה כל יום."
+    },
+    {
+      "id": "w000993",
+      "es": "Me llama",
+      "he": "הוא / היא קורא/ת לי",
+      "ex_es": "Me llama por teléfono cada noche.",
+      "ex_he": "הוא מתקשר אליי בטלפון כל ערב."
+    },
+    {
+      "id": "w000994",
+      "es": "Te llama",
+      "he": "הוא / היא קורא/ת לך",
+      "ex_es": "Te llama cuando necesita ayuda.",
+      "ex_he": "היא מתקשרת אליך כשהיא צריכה עזרה."
+    },
+    {
+      "id": "w000995",
+      "es": "Nos llama",
+      "he": "הוא / היא קורא/ת לנו",
+      "ex_es": "Nos llama para invitarnos a cenar.",
+      "ex_he": "הוא מתקשר אלינו כדי להזמין אותנו לארוחת ערב."
+    },
+    {
+      "id": "w000996",
+      "es": "Te quiero",
+      "he": "אני אוהב / אוהבת אותך",
+      "ex_es": "Te quiero mucho, mi amor.",
+      "ex_he": "אני אוהב אותך מאוד, אהובתי."
+    },
+    {
+      "id": "w000997",
+      "es": "¿Me entiendes?",
+      "he": "אתה מבין אותי?",
+      "ex_es": "¿Me entiendes cuando hablo rápido?",
+      "ex_he": "אתה מבין אותי כשאני מדבר מהר?"
+    },
+    {
+      "id": "w000998",
+      "es": "Voy a llamarte",
+      "he": "אני הולך להתקשר אליך",
+      "ex_es": "Voy a llamarte mañana por la mañana.",
+      "ex_he": "אני הולך להתקשר אליך מחר בבוקר."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000471",
+      "es": "¿Puedes ayudarme con esto?",
+      "he": "אתה יכול לעזור לי עם זה?"
+    },
+    {
+      "id": "s000472",
+      "es": "No la vi en la fiesta anoche.",
+      "he": "לא ראיתי אותה במסיבה אתמול בלילה."
+    },
+    {
+      "id": "s000473",
+      "es": "Mi madre me llama todos los domingos.",
+      "he": "אמא שלי מתקשרת אליי כל יום ראשון."
+    },
+    {
+      "id": "s000474",
+      "es": "Le regalé un libro a mi amigo.",
+      "he": "נתתי לחבר שלי ספר במתנה."
+    },
+    {
+      "id": "s000475",
+      "es": "¿Los has visto? Se fueron hace un rato.",
+      "he": "ראית אותם? הם הלכו לפני רגע."
+    },
+    {
+      "id": "s000476",
+      "es": "Te extraño mucho cuando estás de viaje.",
+      "he": "אני מתגעגע אליך מאוד כשאתה בנסיעה."
+    },
+    {
+      "id": "s000477",
+      "es": "Nos invitaron a la boda de su hija.",
+      "he": "הזמינו אותנו לחתונה של הבת שלהם."
+    },
+    {
+      "id": "s000478",
+      "es": "Ellos nos ayudaron mucho durante la mudanza.",
+      "he": "הם עזרו לנו הרבה במהלך המעבר."
+    }
+  ]
+}

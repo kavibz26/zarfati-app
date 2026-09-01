@@ -980,3 +980,20 @@ w000978,El mejor,הכי טוב / הטוב ביותר,Este es el mejor restaurant
 w000979,La peor,הכי גרועה / הגרועה ביותר,Fue la peor película del año.,זה היה הסרט הכי גרוע של השנה.,grammar,comparatives_superlatives,דרגות השוואה
 w000980,Buenísimo,טוב מאוד,El postre estaba buenísimo.,הקינוח היה טעים מאוד.,grammar,comparatives_superlatives,דרגות השוואה
 w000981,Facilísimo,קל מאוד,El examen fue facilísimo.,המבחן היה קל מאוד.,grammar,comparatives_superlatives,דרגות השוואה
+w000982,Lo veo,אני רואה אותו,Lo veo todos los días en el parque.,אני רואה אותו כל יום בפארק.,grammar,object_pronouns,כינויי מושא
+w000983,La veo,אני רואה אותה,La veo en la oficina cada mañana.,אני רואה אותה במשרד כל בוקר.,grammar,object_pronouns,כינויי מושא
+w000984,Los veo,אני רואה אותם,Los veo jugar en la calle.,אני רואה אותם משחקים ברחוב.,grammar,object_pronouns,כינויי מושא
+w000985,Las veo,אני רואה אותן,Las veo hablando en la cafetería.,אני רואה אותן מדברות בבית הקפה.,grammar,object_pronouns,כינויי מושא
+w000986,Lo compro,אני קונה אותו,Lo compro en el supermercado.,אני קונה אותו בסופרמרקט.,grammar,object_pronouns,כינויי מושא
+w000987,La conozco,אני מכיר / מכירה אותה,La conozco desde hace muchos años.,אני מכיר/ה אותה כבר הרבה שנים.,grammar,object_pronouns,כינויי מושא
+w000988,¿Lo tienes?,יש לך את זה?,¿Lo tienes en tu mochila?,יש לך את זה בתיק שלך?,grammar,object_pronouns,כינויי מושא
+w000989,No lo sé,אני לא יודע את זה,"No lo sé, pregúntale a él.","אני לא יודע, תשאל אותו.",grammar,object_pronouns,כינויי מושא
+w000990,Le doy,אני נותן לו / לה,Le doy un regalo por su cumpleaños.,אני נותן לו מתנה ליום ההולדת.,grammar,object_pronouns,כינויי מושא
+w000991,Les doy,אני נותן להם,Les doy las gracias por su ayuda.,אני מודה להם על העזרה.,grammar,object_pronouns,כינויי מושא
+w000992,Le escribo,אני כותב לו / לה,Le escribo un mensaje todos los días.,אני כותב לו הודעה כל יום.,grammar,object_pronouns,כינויי מושא
+w000993,Me llama,הוא / היא קורא/ת לי,Me llama por teléfono cada noche.,הוא מתקשר אליי בטלפון כל ערב.,grammar,object_pronouns,כינויי מושא
+w000994,Te llama,הוא / היא קורא/ת לך,Te llama cuando necesita ayuda.,היא מתקשרת אליך כשהיא צריכה עזרה.,grammar,object_pronouns,כינויי מושא
+w000995,Nos llama,הוא / היא קורא/ת לנו,Nos llama para invitarnos a cenar.,הוא מתקשר אלינו כדי להזמין אותנו לארוחת ערב.,grammar,object_pronouns,כינויי מושא
+w000996,Te quiero,אני אוהב / אוהבת אותך,"Te quiero mucho, mi amor.","אני אוהב אותך מאוד, אהובתי.",grammar,object_pronouns,כינויי מושא
+w000997,¿Me entiendes?,אתה מבין אותי?,¿Me entiendes cuando hablo rápido?,אתה מבין אותי כשאני מדבר מהר?,grammar,object_pronouns,כינויי מושא
+w000998,Voy a llamarte,אני הולך להתקשר אליך,Voy a llamarte mañana por la mañana.,אני הולך להתקשר אליך מחר בבוקר.,grammar,object_pronouns,כינויי מושא
