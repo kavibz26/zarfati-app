@@ -997,3 +997,20 @@ w000995,Nos llama,הוא / היא קורא/ת לנו,Nos llama para invitarnos a
 w000996,Te quiero,אני אוהב / אוהבת אותך,"Te quiero mucho, mi amor.","אני אוהב אותך מאוד, אהובתי.",grammar,object_pronouns,כינויי מושא
 w000997,¿Me entiendes?,אתה מבין אותי?,¿Me entiendes cuando hablo rápido?,אתה מבין אותי כשאני מדבר מהר?,grammar,object_pronouns,כינויי מושא
 w000998,Voy a llamarte,אני הולך להתקשר אליך,Voy a llamarte mañana por la mañana.,אני הולך להתקשר אליך מחר בבוקר.,grammar,object_pronouns,כינויי מושא
+w000999,Habla,דבר,"Habla más despacio, por favor.","דבר לאט יותר, בבקשה.",grammar,imperative,ציווי
+w001000,Come,אכול,"Come toda la comida, por favor.","אכול את כל האוכל, בבקשה.",grammar,imperative,ציווי
+w001001,Escribe,כתוב,Escribe tu nombre aquí.,כתוב את השם שלך כאן.,grammar,imperative,ציווי
+w001002,Abre la puerta,פתח את הדלת,"Abre la puerta, por favor.","פתח את הדלת, בבקשה.",grammar,imperative,ציווי
+w001003,Cierra la ventana,סגור את החלון,"Cierra la ventana, hace frío.","סגור את החלון, קר.",grammar,imperative,ציווי
+w001004,Toma esto,קח את זה,"Toma esto, es para ti.","קח את זה, זה בשבילך.",grammar,imperative,ציווי
+w001005,Escúchame,תקשיב לי,"Escúchame bien, esto es importante.","תקשיב לי טוב, זה חשוב.",grammar,imperative,ציווי
+w001006,Ayúdame,תעזור לי,"Ayúdame con esta caja, por favor.","תעזור לי עם הקופסה הזאת, בבקשה.",grammar,imperative,ציווי
+w001007,Ven aquí,בוא הנה,Ven aquí un momento.,בוא הנה לרגע.,grammar,imperative,ציווי
+w001008,Ten cuidado,תיזהר,Ten cuidado con el perro.,תיזהר מהכלב.,grammar,imperative,ציווי
+w001009,Siéntate,שב,Siéntate y descansa un poco.,שב ותנוח קצת.,grammar,imperative,ציווי
+w001010,Cuéntame,ספר לי,Cuéntame qué pasó ayer.,ספר לי מה קרה אתמול.,grammar,imperative,ציווי
+w001011,No hables,אל תדבר,No hables durante la película.,אל תדבר במהלך הסרט.,grammar,imperative,ציווי
+w001012,No comas eso,אל תאכל את זה,"No comas eso, está muy caliente.","אל תאכל את זה, זה חם מאוד.",grammar,imperative,ציווי
+w001013,No corras,אל תרוץ,No corras en la piscina.,אל תרוץ בבריכה.,grammar,imperative,ציווי
+w001014,No llegues tarde,אל תגיע מאוחר,No llegues tarde a la reunión.,אל תגיע מאוחר לפגישה.,grammar,imperative,ציווי
+w001015,Dime la verdad,תגיד לי את האמת,"Dime la verdad, no importa qué pasó.","תגיד לי את האמת, לא משנה מה קרה.",grammar,imperative,ציווי

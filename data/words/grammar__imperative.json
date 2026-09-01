@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "imperative",
+  "vocab": [
+    {
+      "id": "w000999",
+      "es": "Habla",
+      "he": "דבר",
+      "ex_es": "Habla más despacio, por favor.",
+      "ex_he": "דבר לאט יותר, בבקשה."
+    },
+    {
+      "id": "w001000",
+      "es": "Come",
+      "he": "אכול",
+      "ex_es": "Come toda la comida, por favor.",
+      "ex_he": "אכול את כל האוכל, בבקשה."
+    },
+    {
+      "id": "w001001",
+      "es": "Escribe",
+      "he": "כתוב",
+      "ex_es": "Escribe tu nombre aquí.",
+      "ex_he": "כתוב את השם שלך כאן."
+    },
+    {
+      "id": "w001002",
+      "es": "Abre la puerta",
+      "he": "פתח את הדלת",
+      "ex_es": "Abre la puerta, por favor.",
+      "ex_he": "פתח את הדלת, בבקשה."
+    },
+    {
+      "id": "w001003",
+      "es": "Cierra la ventana",
+      "he": "סגור את החלון",
+      "ex_es": "Cierra la ventana, hace frío.",
+      "ex_he": "סגור את החלון, קר."
+    },
+    {
+      "id": "w001004",
+      "es": "Toma esto",
+      "he": "קח את זה",
+      "ex_es": "Toma esto, es para ti.",
+      "ex_he": "קח את זה, זה בשבילך."
+    },
+    {
+      "id": "w001005",
+      "es": "Escúchame",
+      "he": "תקשיב לי",
+      "ex_es": "Escúchame bien, esto es importante.",
+      "ex_he": "תקשיב לי טוב, זה חשוב."
+    },
+    {
+      "id": "w001006",
+      "es": "Ayúdame",
+      "he": "תעזור לי",
+      "ex_es": "Ayúdame con esta caja, por favor.",
+      "ex_he": "תעזור לי עם הקופסה הזאת, בבקשה."
+    },
+    {
+      "id": "w001007",
+      "es": "Ven aquí",
+      "he": "בוא הנה",
+      "ex_es": "Ven aquí un momento.",
+      "ex_he": "בוא הנה לרגע."
+    },
+    {
+      "id": "w001008",
+      "es": "Ten cuidado",
+      "he": "תיזהר",
+      "ex_es": "Ten cuidado con el perro.",
+      "ex_he": "תיזהר מהכלב."
+    },
+    {
+      "id": "w001009",
+      "es": "Siéntate",
+      "he": "שב",
+      "ex_es": "Siéntate y descansa un poco.",
+      "ex_he": "שב ותנוח קצת."
+    },
+    {
+      "id": "w001010",
+      "es": "Cuéntame",
+      "he": "ספר לי",
+      "ex_es": "Cuéntame qué pasó ayer.",
+      "ex_he": "ספר לי מה קרה אתמול."
+    },
+    {
+      "id": "w001011",
+      "es": "No hables",
+      "he": "אל תדבר",
+      "ex_es": "No hables durante la película.",
+      "ex_he": "אל תדבר במהלך הסרט."
+    },
+    {
+      "id": "w001012",
+      "es": "No comas eso",
+      "he": "אל תאכל את זה",
+      "ex_es": "No comas eso, está muy caliente.",
+      "ex_he": "אל תאכל את זה, זה חם מאוד."
+    },
+    {
+      "id": "w001013",
+      "es": "No corras",
+      "he": "אל תרוץ",
+      "ex_es": "No corras en la piscina.",
+      "ex_he": "אל תרוץ בבריכה."
+    },
+    {
+      "id": "w001014",
+      "es": "No llegues tarde",
+      "he": "אל תגיע מאוחר",
+      "ex_es": "No llegues tarde a la reunión.",
+      "ex_he": "אל תגיע מאוחר לפגישה."
+    },
+    {
+      "id": "w001015",
+      "es": "Dime la verdad",
+      "he": "תגיד לי את האמת",
+      "ex_es": "Dime la verdad, no importa qué pasó.",
+      "ex_he": "תגיד לי את האמת, לא משנה מה קרה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000479",
+      "es": "Por favor, cierra la puerta cuando salgas.",
+      "he": "בבקשה, סגור את הדלת כשאתה יוצא."
+    },
+    {
+      "id": "s000480",
+      "es": "No hables tan rápido, no te entiendo.",
+      "he": "אל תדבר כל כך מהר, אני לא מבין אותך."
+    },
+    {
+      "id": "s000481",
+      "es": "Ven a mi casa esta tarde.",
+      "he": "בוא לבית שלי אחר הצהריים היום."
+    },
+    {
+      "id": "s000482",
+      "es": "Ten paciencia, todo llegará a su tiempo.",
+      "he": "תהיה סבלני, הכל יגיע בזמנו."
+    },
+    {
+      "id": "s000483",
+      "es": "Escríbeme cuando llegues a casa.",
+      "he": "תכתוב לי כשתגיע הביתה."
+    },
+    {
+      "id": "s000484",
+      "es": "No te olvides de llamar a tu madre.",
+      "he": "אל תשכח להתקשר לאמא שלך."
+    },
+    {
+      "id": "s000485",
+      "es": "Siéntense todos, por favor.",
+      "he": "שבו כולם, בבקשה."
+    },
+    {
+      "id": "s000486",
+      "es": "Dile la verdad a tu hermano.",
+      "he": "תגיד לאח שלך את האמת."
+    }
+  ]
+}

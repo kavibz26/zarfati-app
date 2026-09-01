@@ -5987,6 +5987,108 @@
       "he": "אני הולך להתקשר אליך",
       "levelId": "grammar",
       "topicId": "object_pronouns"
+    },
+    "w000999": {
+      "es": "Habla",
+      "he": "דבר",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001000": {
+      "es": "Come",
+      "he": "אכול",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001001": {
+      "es": "Escribe",
+      "he": "כתוב",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001002": {
+      "es": "Abre la puerta",
+      "he": "פתח את הדלת",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001003": {
+      "es": "Cierra la ventana",
+      "he": "סגור את החלון",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001004": {
+      "es": "Toma esto",
+      "he": "קח את זה",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001005": {
+      "es": "Escúchame",
+      "he": "תקשיב לי",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001006": {
+      "es": "Ayúdame",
+      "he": "תעזור לי",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001007": {
+      "es": "Ven aquí",
+      "he": "בוא הנה",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001008": {
+      "es": "Ten cuidado",
+      "he": "תיזהר",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001009": {
+      "es": "Siéntate",
+      "he": "שב",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001010": {
+      "es": "Cuéntame",
+      "he": "ספר לי",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001011": {
+      "es": "No hables",
+      "he": "אל תדבר",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001012": {
+      "es": "No comas eso",
+      "he": "אל תאכל את זה",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001013": {
+      "es": "No corras",
+      "he": "אל תרוץ",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001014": {
+      "es": "No llegues tarde",
+      "he": "אל תגיע מאוחר",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "w001015": {
+      "es": "Dime la verdad",
+      "he": "תגיד לי את האמת",
+      "levelId": "grammar",
+      "topicId": "imperative"
     }
   },
   "sentences": {
@@ -8379,6 +8481,46 @@
       "es": "Ellos nos ayudaron mucho durante la mudanza.",
       "levelId": "grammar",
       "topicId": "object_pronouns"
+    },
+    "s000479": {
+      "es": "Por favor, cierra la puerta cuando salgas.",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "s000480": {
+      "es": "No hables tan rápido, no te entiendo.",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "s000481": {
+      "es": "Ven a mi casa esta tarde.",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "s000482": {
+      "es": "Ten paciencia, todo llegará a su tiempo.",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "s000483": {
+      "es": "Escríbeme cuando llegues a casa.",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "s000484": {
+      "es": "No te olvides de llamar a tu madre.",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "s000485": {
+      "es": "Siéntense todos, por favor.",
+      "levelId": "grammar",
+      "topicId": "imperative"
+    },
+    "s000486": {
+      "es": "Dile la verdad a tu hermano.",
+      "levelId": "grammar",
+      "topicId": "imperative"
     }
   }
 }
