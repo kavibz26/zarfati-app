@@ -11,6 +11,8 @@ function navKey() { return `habla_nav_v1__${currentUid}`; }
 function wordStatsKey() { return `habla_word_stats_v1__${currentUid}`; }
 function exercisesCompletedKey() { return `habla_exercises_completed_v1__${currentUid}`; }
 function achievementsKey() { return `habla_achievements_v1__${currentUid}`; }
+function xpKey() { return `habla_xp_v1__${currentUid}`; }
+function streakKey() { return `habla_streak_v1__${currentUid}`; }
 const REVIEW_SESSION_SIZE = 20;
 
 // ---------- לשון פנייה (זכר/נקבה) ----------
@@ -78,7 +80,9 @@ function scheduleCloudSync() {
       learned: [...loadLearned()],
       wordStats: loadWordStats(),
       exercisesCompleted: getExercisesCompletedCount(),
-      achievements: loadUnlockedAchievements()
+      achievements: loadUnlockedAchievements(),
+      xp: getXP(),
+      streak: loadStreak()
     });
   }, 1200);
 }
@@ -279,6 +283,65 @@ function incrementExercisesCompleted() {
   scheduleCloudSync();
   return n;
 }
+
+// ---------- תאריך מקומי (ללא UTC) - לרצף ימי לימוד ----------
+// "YYYY-MM-DD" לפי הרכיבים המקומיים (getFullYear/getMonth/getDate), לא toISOString()/new
+// Date("YYYY-MM-DD") שמפרשים כ-UTC ועלולים "להזיז" את התאריך ליום אחר ליד חצות, תלוי אזור זמן.
+function localDateString(d) {
+  const y = d.getFullYear(), m = String(d.getMonth() + 1).padStart(2, "0"), day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+function todayLocalDateString() { return localDateString(new Date()); }
+// הפרש בימי-לוח מקומיים (לא שעות) בין שני מחרוזות "YYYY-MM-DD" - בונה כל תאריך בחצות מקומית
+// ומעגל, כדי שמעבר לשעון קיץ/חורף (יום של 23/25 שעות) עדיין ייתן בדיוק 1 בין שני ימים עוקבים.
+function daysBetweenLocalDates(a, b) {
+  const [ay, am, ad] = a.split("-").map(Number);
+  const [by, bm, bd] = b.split("-").map(Number);
+  return Math.round((new Date(by, bm - 1, bd) - new Date(ay, am - 1, ad)) / 86400000);
+}
+
+// ---------- XP ----------
+// נקודות ניסיון: מוענקות אך ורק מנקודת הסיום היחידה של תרגיל (finishExerciseIfDone) - אותה
+// הגנה קיימת נגד ספירה כפולה (ex.finished) חלה גם כאן, בלי צורך בהגנה נפרדת.
+const XP_PER_EXERCISE = 10;
+const XP_PERFECT_BONUS = 5; // בונוס על ציון 100% באותו תרגיל
+function getXP() {
+  const n = parseInt(localStorage.getItem(xpKey()), 10);
+  return Number.isFinite(n) ? n : 0;
+}
+function awardXP(amount) {
+  const n = getXP() + amount;
+  localStorage.setItem(xpKey(), String(n));
+  scheduleCloudSync();
+  return n;
+}
+
+// ---------- רצף ימי לימוד (Streak) ----------
+// { count, lastDate } - lastDate הוא "YYYY-MM-DD" מקומי של הפעילות הלימודית האחרונה שנספרה.
+// recordLearningDay() היא היחידה שכותבת (נקראת רק מ-finishExerciseIfDone, לא מפתיחת האפליקציה
+// גרידא): אם כבר נספר היום - לא עושה כלום (פעילות נוספת באותו יום לא מכפילה); אם אתמול בדיוק -
+// מגדילה ב-1; אחרת (פער של יותר מיום, או ריצה ראשונה) - מתחילה רצף חדש מ-1.
+function loadStreak() {
+  try { return JSON.parse(localStorage.getItem(streakKey())) || { count: 0, lastDate: "" }; }
+  catch { return { count: 0, lastDate: "" }; }
+}
+function saveStreak(s) { localStorage.setItem(streakKey(), JSON.stringify(s)); scheduleCloudSync(); }
+function recordLearningDay() {
+  const s = loadStreak();
+  const today = todayLocalDateString();
+  if (s.lastDate === today) return;
+  const diff = s.lastDate ? daysBetweenLocalDates(s.lastDate, today) : null;
+  saveStreak({ count: diff === 1 ? s.count + 1 : 1, lastDate: today });
+}
+// לצורך תצוגה בלבד - לא כותבת/משנה כלום. אם lastDate הוא היום או אתמול הרצף עדיין "חי" ומוצג
+// כרגיל; אחרת (פספוס של יום שלם או יותר) מוצג 0, גם בלי פעילות חדשה - "מתאפס כשחוזרים".
+function getCurrentStreak() {
+  const s = loadStreak();
+  if (!s.lastDate) return 0;
+  const diff = daysBetweenLocalDates(s.lastDate, todayLocalDateString());
+  return (diff === 0 || diff === 1) ? s.count : 0;
+}
+function formatStreakLabel(n) { return n === 1 ? "1 יום" : `${n} ימים`; }
 
 // ---------- הישגים (Achievements) ----------
 // מנוע גנרי: "מדד" (metric) הוא פונקציה שמחזירה מספר; "הישג" הוא רשומה דקלרטיבית בלבד -
@@ -625,6 +688,8 @@ function bootLoggedIn(uid, profile) {
     saveWordStats(profile.wordStats || {});
     localStorage.setItem(exercisesCompletedKey(), String(profile.exercisesCompleted || 0));
     saveUnlockedAchievements(profile.achievements || {});
+    localStorage.setItem(xpKey(), String(profile.xp || 0));
+    localStorage.setItem(streakKey(), JSON.stringify(profile.streak || { count: 0, lastDate: "" }));
     cacheProfileLocally(uid, currentUsername, currentGender);
   } else {
     // Firestore לא הצליח להיטען (למשל בעיית רשת) - נופלים חזרה לעותק מקומי אם קיים,
@@ -1034,11 +1099,11 @@ function renderHome() {
       <div class="stat-box"><div class="num">${topicsCompleted.count}/${topicsCompleted.total}</div><div class="lbl">נושאים הושלמו</div></div>
     </div>
     <div class="dashboard-placeholders">
-      <div class="placeholder-box"><span class="placeholder-icon" aria-hidden="true">⭐</span><span class="placeholder-lbl">XP</span><span class="placeholder-soon">בקרוב</span></div>
+      <div class="placeholder-box stat-ready"><span class="placeholder-icon" aria-hidden="true">⭐</span><span class="placeholder-lbl">XP</span><span class="placeholder-count">${getXP()}</span></div>
       <button class="placeholder-box achievement-box" data-action="goto-achievements">
         <span class="placeholder-icon" aria-hidden="true">🏆</span><span class="placeholder-lbl">הישגים</span><span class="placeholder-count">${achievementsUnlockedCount()}/${ACHIEVEMENTS.length}</span>
       </button>
-      <div class="placeholder-box"><span class="placeholder-icon" aria-hidden="true">🔥</span><span class="placeholder-lbl">רצף ימים</span><span class="placeholder-soon">בקרוב</span></div>
+      <div class="placeholder-box stat-ready"><span class="placeholder-icon" aria-hidden="true">🔥</span><span class="placeholder-lbl">רצף ימים</span><span class="placeholder-count">${formatStreakLabel(getCurrentStreak())}</span></div>
     </div>
     <div style="text-align:center; margin: 22px 0;">
       <button class="ctrl-btn continue-btn" data-action="continue-learning">
@@ -1643,6 +1708,8 @@ function finishExerciseIfDone(length, scoreType, percent) {
   ex.finished = true;
   if (!ex.isReview) setTopicScore(state.levelId, state.topicId, scoreType, percent);
   incrementExercisesCompleted();
+  awardXP(percent === 100 ? XP_PER_EXERCISE + XP_PERFECT_BONUS : XP_PER_EXERCISE);
+  recordLearningDay();
   checkAchievements().forEach(showAchievementToast);
 }
 

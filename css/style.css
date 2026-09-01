@@ -193,6 +193,9 @@ button:focus-visible,
 .placeholder-soon { font-size: 11px; color: var(--muted); }
 .placeholder-count { font-size: 12px; font-weight: 700; color: var(--accent-dark); }
 
+/* XP ורצף ימים כבר לא placeholder - כמו קופסת ההישגים, ללא הגבלת עמעום/מקווקו (אבל לא כפתור) */
+.placeholder-box.stat-ready { opacity: 1; border-style: solid; }
+
 /* קופסת "הישגים" ב-Dashboard כבר לא placeholder - זה כפתור אמיתי, לכן ללא הגבלת עמעום/מקווקו */
 .achievement-box {
   font-family: inherit;
