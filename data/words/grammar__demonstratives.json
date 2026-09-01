@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "demonstratives",
+  "vocab": [
+    {
+      "id": "w001016",
+      "es": "Este libro",
+      "he": "הספר הזה",
+      "ex_es": "Este libro es muy interesante.",
+      "ex_he": "הספר הזה מאוד מעניין."
+    },
+    {
+      "id": "w001017",
+      "es": "Esta mesa",
+      "he": "השולחן הזה",
+      "ex_es": "Esta mesa es de madera.",
+      "ex_he": "השולחן הזה עשוי מעץ."
+    },
+    {
+      "id": "w001018",
+      "es": "Estos zapatos",
+      "he": "הנעליים האלה",
+      "ex_es": "Estos zapatos me quedan perfectos.",
+      "ex_he": "הנעליים האלה מתאימות לי בול."
+    },
+    {
+      "id": "w001019",
+      "es": "Estas flores",
+      "he": "הפרחים האלה",
+      "ex_es": "Estas flores huelen muy bien.",
+      "ex_he": "הפרחים האלה מריחים טוב מאוד."
+    },
+    {
+      "id": "w001020",
+      "es": "Ese coche",
+      "he": "המכונית ההיא",
+      "ex_es": "Ese coche es de mi vecino.",
+      "ex_he": "המכונית ההיא של השכן שלי."
+    },
+    {
+      "id": "w001021",
+      "es": "Esa casa",
+      "he": "הבית ההוא",
+      "ex_es": "Esa casa tiene un jardín grande.",
+      "ex_he": "לבית ההוא יש גינה גדולה."
+    },
+    {
+      "id": "w001022",
+      "es": "Esos niños",
+      "he": "הילדים ההם",
+      "ex_es": "Esos niños juegan en el parque.",
+      "ex_he": "הילדים ההם משחקים בפארק."
+    },
+    {
+      "id": "w001023",
+      "es": "Esas chicas",
+      "he": "הבנות ההן",
+      "ex_es": "Esas chicas estudian en mi universidad.",
+      "ex_he": "הבנות ההן לומדות באוניברסיטה שלי."
+    },
+    {
+      "id": "w001024",
+      "es": "Aquel edificio",
+      "he": "הבניין ההוא (רחוק)",
+      "ex_es": "Aquel edificio tiene cien años.",
+      "ex_he": "הבניין ההוא בן מאה שנה."
+    },
+    {
+      "id": "w001025",
+      "es": "Aquella montaña",
+      "he": "ההר ההוא (רחוק)",
+      "ex_es": "Aquella montaña es la más alta de la región.",
+      "ex_he": "ההר ההוא הגבוה ביותר באזור."
+    },
+    {
+      "id": "w001026",
+      "es": "Aquellos años",
+      "he": "השנים ההן (רחוקות)",
+      "ex_es": "Aquellos años fueron muy felices.",
+      "ex_he": "השנים ההן היו מאושרות מאוד."
+    },
+    {
+      "id": "w001027",
+      "es": "Aquellas personas",
+      "he": "האנשים ההם (רחוקים)",
+      "ex_es": "Aquellas personas vinieron desde muy lejos.",
+      "ex_he": "האנשים ההם באו ממרחק רב."
+    },
+    {
+      "id": "w001028",
+      "es": "Esto es importante",
+      "he": "זה חשוב",
+      "ex_es": "Esto es importante para tu futuro.",
+      "ex_he": "זה חשוב לעתיד שלך."
+    },
+    {
+      "id": "w001029",
+      "es": "Eso es verdad",
+      "he": "זה נכון",
+      "ex_es": "Eso es verdad, no lo dudes.",
+      "ex_he": "זה נכון, אל תפקפק בזה."
+    },
+    {
+      "id": "w001030",
+      "es": "Aquello fue increíble",
+      "he": "זה היה מדהים",
+      "ex_es": "Aquello fue increíble, nunca lo olvidaré.",
+      "ex_he": "זה היה מדהים, לעולם לא אשכח את זה."
+    },
+    {
+      "id": "w001031",
+      "es": "¿Qué es esto?",
+      "he": "מה זה?",
+      "ex_es": "¿Qué es esto que tienes en la mano?",
+      "ex_he": "מה זה מה שיש לך ביד?"
+    },
+    {
+      "id": "w001032",
+      "es": "Esto o eso",
+      "he": "זה או זה",
+      "ex_es": "Tienes que elegir entre esto o eso.",
+      "ex_he": "אתה צריך לבחור בין זה לזה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000487",
+      "es": "Este restaurante tiene la mejor comida de la ciudad.",
+      "he": "למסעדה הזאת יש את האוכל הכי טוב בעיר."
+    },
+    {
+      "id": "s000488",
+      "es": "¿De quién es esa mochila?",
+      "he": "של מי התיק ההוא?"
+    },
+    {
+      "id": "s000489",
+      "es": "Aquellos días en la playa fueron inolvidables.",
+      "he": "הימים ההם בחוף היו בלתי נשכחים."
+    },
+    {
+      "id": "s000490",
+      "es": "No entiendo esto, ¿puedes explicármelo?",
+      "he": "אני לא מבין את זה, אתה יכול להסביר לי?"
+    },
+    {
+      "id": "s000491",
+      "es": "Esas fotos son de mi viaje a España.",
+      "he": "התמונות ההן הן מהטיול שלי לספרד."
+    },
+    {
+      "id": "s000492",
+      "es": "Este problema es más difícil de lo que pensaba.",
+      "he": "הבעיה הזאת קשה יותר ממה שחשבתי."
+    },
+    {
+      "id": "s000493",
+      "es": "Aquel profesor me enseñó mucho.",
+      "he": "המורה ההוא לימד אותי הרבה."
+    },
+    {
+      "id": "s000494",
+      "es": "Eso no tiene sentido para mí.",
+      "he": "זה לא הגיוני בשבילי."
+    }
+  ]
+}

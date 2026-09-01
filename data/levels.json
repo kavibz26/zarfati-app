@@ -412,6 +412,12 @@
         "name": "ציווי",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "demonstratives",
+        "name": "כינויי רמז",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }

@@ -6089,6 +6089,108 @@
       "he": "תגיד לי את האמת",
       "levelId": "grammar",
       "topicId": "imperative"
+    },
+    "w001016": {
+      "es": "Este libro",
+      "he": "הספר הזה",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001017": {
+      "es": "Esta mesa",
+      "he": "השולחן הזה",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001018": {
+      "es": "Estos zapatos",
+      "he": "הנעליים האלה",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001019": {
+      "es": "Estas flores",
+      "he": "הפרחים האלה",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001020": {
+      "es": "Ese coche",
+      "he": "המכונית ההיא",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001021": {
+      "es": "Esa casa",
+      "he": "הבית ההוא",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001022": {
+      "es": "Esos niños",
+      "he": "הילדים ההם",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001023": {
+      "es": "Esas chicas",
+      "he": "הבנות ההן",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001024": {
+      "es": "Aquel edificio",
+      "he": "הבניין ההוא (רחוק)",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001025": {
+      "es": "Aquella montaña",
+      "he": "ההר ההוא (רחוק)",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001026": {
+      "es": "Aquellos años",
+      "he": "השנים ההן (רחוקות)",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001027": {
+      "es": "Aquellas personas",
+      "he": "האנשים ההם (רחוקים)",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001028": {
+      "es": "Esto es importante",
+      "he": "זה חשוב",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001029": {
+      "es": "Eso es verdad",
+      "he": "זה נכון",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001030": {
+      "es": "Aquello fue increíble",
+      "he": "זה היה מדהים",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001031": {
+      "es": "¿Qué es esto?",
+      "he": "מה זה?",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "w001032": {
+      "es": "Esto o eso",
+      "he": "זה או זה",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
     }
   },
   "sentences": {
@@ -8521,6 +8623,46 @@
       "es": "Dile la verdad a tu hermano.",
       "levelId": "grammar",
       "topicId": "imperative"
+    },
+    "s000487": {
+      "es": "Este restaurante tiene la mejor comida de la ciudad.",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "s000488": {
+      "es": "¿De quién es esa mochila?",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "s000489": {
+      "es": "Aquellos días en la playa fueron inolvidables.",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "s000490": {
+      "es": "No entiendo esto, ¿puedes explicármelo?",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "s000491": {
+      "es": "Esas fotos son de mi viaje a España.",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "s000492": {
+      "es": "Este problema es más difícil de lo que pensaba.",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "s000493": {
+      "es": "Aquel profesor me enseñó mucho.",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
+    },
+    "s000494": {
+      "es": "Eso no tiene sentido para mí.",
+      "levelId": "grammar",
+      "topicId": "demonstratives"
     }
   }
 }
