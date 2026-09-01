@@ -5579,6 +5579,108 @@
       "he": "בשנה הבאה",
       "levelId": "grammar",
       "topicId": "future_tense"
+    },
+    "w000931": {
+      "es": "Yo me baño",
+      "he": "אני מתרחץ / מתרחצת",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000932": {
+      "es": "Tú te ríes",
+      "he": "אתה צוחק / את צוחקת",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000933": {
+      "es": "Él se equivoca",
+      "he": "הוא טועה",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000934": {
+      "es": "Ella se maquilla",
+      "he": "היא מתאפרת",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000935": {
+      "es": "Nosotros nos lavamos",
+      "he": "אנחנו מתרחצים",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000936": {
+      "es": "Ellos se relajan",
+      "he": "הם נרגעים / נינוחים",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000937": {
+      "es": "Yo me despierto",
+      "he": "אני מתעורר / מתעוררת",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000938": {
+      "es": "Tú te sientas",
+      "he": "אתה יושב / את יושבת",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000939": {
+      "es": "Él se afeita",
+      "he": "הוא מתגלח",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000940": {
+      "es": "Ella se peina",
+      "he": "היא מסרקת את השיער",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000941": {
+      "es": "Nosotros nos vamos",
+      "he": "אנחנו הולכים / עוזבים",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000942": {
+      "es": "Él se aburre",
+      "he": "הוא משתעמם",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000943": {
+      "es": "Tú te preocupas",
+      "he": "אתה דואג / את דואגת",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000944": {
+      "es": "Él se enoja",
+      "he": "הוא כועס",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000945": {
+      "es": "Ellos se divierten",
+      "he": "הם נהנים",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000946": {
+      "es": "Yo me quedo",
+      "he": "אני נשאר / נשארת",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "w000947": {
+      "es": "Ellos se duermen",
+      "he": "הם נרדמים",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
     }
   },
   "sentences": {
@@ -7811,6 +7913,46 @@
       "es": "Ella terminará sus estudios en junio.",
       "levelId": "grammar",
       "topicId": "future_tense"
+    },
+    "s000447": {
+      "es": "¿A qué hora te despiertas los fines de semana?",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "s000448": {
+      "es": "Ella se viste elegante para la fiesta.",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "s000449": {
+      "es": "Nos reímos mucho durante la película.",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "s000450": {
+      "es": "Mi hermano se relaja escuchando música.",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "s000451": {
+      "es": "No te preocupes, todo va a salir bien.",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "s000452": {
+      "es": "Los niños se aburren cuando llueve todo el día.",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "s000453": {
+      "es": "Nos vamos de vacaciones la próxima semana.",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
+    },
+    "s000454": {
+      "es": "Se duerme siempre viendo la televisión.",
+      "levelId": "grammar",
+      "topicId": "reflexive_verbs"
     }
   }
 }

@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "reflexive_verbs",
+  "vocab": [
+    {
+      "id": "w000931",
+      "es": "Yo me baño",
+      "he": "אני מתרחץ / מתרחצת",
+      "ex_es": "Me baño todas las noches antes de dormir.",
+      "ex_he": "אני מתרחץ/ת כל ערב לפני השינה."
+    },
+    {
+      "id": "w000932",
+      "es": "Tú te ríes",
+      "he": "אתה צוחק / את צוחקת",
+      "ex_es": "Te ríes mucho con sus chistes.",
+      "ex_he": "אתה צוחק הרבה מהבדיחות שלו."
+    },
+    {
+      "id": "w000933",
+      "es": "Él se equivoca",
+      "he": "הוא טועה",
+      "ex_es": "Él se equivoca a veces en los exámenes.",
+      "ex_he": "הוא טועה לפעמים במבחנים."
+    },
+    {
+      "id": "w000934",
+      "es": "Ella se maquilla",
+      "he": "היא מתאפרת",
+      "ex_es": "Ella se maquilla antes de salir de casa.",
+      "ex_he": "היא מתאפרת לפני שהיא יוצאת מהבית."
+    },
+    {
+      "id": "w000935",
+      "es": "Nosotros nos lavamos",
+      "he": "אנחנו מתרחצים",
+      "ex_es": "Nos lavamos las manos antes de comer.",
+      "ex_he": "אנחנו רוחצים ידיים לפני האוכל."
+    },
+    {
+      "id": "w000936",
+      "es": "Ellos se relajan",
+      "he": "הם נרגעים / נינוחים",
+      "ex_es": "Ellos se relajan en la playa los domingos.",
+      "ex_he": "הם נרגעים בחוף בימי ראשון."
+    },
+    {
+      "id": "w000937",
+      "es": "Yo me despierto",
+      "he": "אני מתעורר / מתעוררת",
+      "ex_es": "Me despierto temprano cada mañana.",
+      "ex_he": "אני מתעורר/ת מוקדם כל בוקר."
+    },
+    {
+      "id": "w000938",
+      "es": "Tú te sientas",
+      "he": "אתה יושב / את יושבת",
+      "ex_es": "Te sientas aquí, por favor.",
+      "ex_he": "שב/י כאן, בבקשה."
+    },
+    {
+      "id": "w000939",
+      "es": "Él se afeita",
+      "he": "הוא מתגלח",
+      "ex_es": "Él se afeita todas las mañanas.",
+      "ex_he": "הוא מתגלח כל בוקר."
+    },
+    {
+      "id": "w000940",
+      "es": "Ella se peina",
+      "he": "היא מסרקת את השיער",
+      "ex_es": "Ella se peina frente al espejo.",
+      "ex_he": "היא מסרקת את השיער מול המראה."
+    },
+    {
+      "id": "w000941",
+      "es": "Nosotros nos vamos",
+      "he": "אנחנו הולכים / עוזבים",
+      "ex_es": "Nos vamos temprano de la fiesta.",
+      "ex_he": "אנחנו עוזבים מוקדם מהמסיבה."
+    },
+    {
+      "id": "w000942",
+      "es": "Él se aburre",
+      "he": "הוא משתעמם",
+      "ex_es": "Él se aburre en las clases largas.",
+      "ex_he": "הוא משתעמם בשיעורים ארוכים."
+    },
+    {
+      "id": "w000943",
+      "es": "Tú te preocupas",
+      "he": "אתה דואג / את דואגת",
+      "ex_es": "Te preocupas demasiado por todo.",
+      "ex_he": "אתה דואג יותר מדי לגבי הכל."
+    },
+    {
+      "id": "w000944",
+      "es": "Él se enoja",
+      "he": "הוא כועס",
+      "ex_es": "Él se enoja cuando pierde.",
+      "ex_he": "הוא כועס כשהוא מפסיד."
+    },
+    {
+      "id": "w000945",
+      "es": "Ellos se divierten",
+      "he": "הם נהנים",
+      "ex_es": "Ellos se divierten en la fiesta.",
+      "ex_he": "הם נהנים במסיבה."
+    },
+    {
+      "id": "w000946",
+      "es": "Yo me quedo",
+      "he": "אני נשאר / נשארת",
+      "ex_es": "Me quedo en casa los domingos.",
+      "ex_he": "אני נשאר/ת בבית בימי ראשון."
+    },
+    {
+      "id": "w000947",
+      "es": "Ellos se duermen",
+      "he": "הם נרדמים",
+      "ex_es": "Ellos se duermen viendo la televisión.",
+      "ex_he": "הם נרדמים תוך כדי צפייה בטלוויזיה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000447",
+      "es": "¿A qué hora te despiertas los fines de semana?",
+      "he": "באיזו שעה אתה מתעורר בסופי שבוע?"
+    },
+    {
+      "id": "s000448",
+      "es": "Ella se viste elegante para la fiesta.",
+      "he": "היא מתלבשת בהידור למסיבה."
+    },
+    {
+      "id": "s000449",
+      "es": "Nos reímos mucho durante la película.",
+      "he": "צחקנו הרבה במהלך הסרט."
+    },
+    {
+      "id": "s000450",
+      "es": "Mi hermano se relaja escuchando música.",
+      "he": "אחי נרגע כשהוא מקשיב למוזיקה."
+    },
+    {
+      "id": "s000451",
+      "es": "No te preocupes, todo va a salir bien.",
+      "he": "אל תדאג, הכל יסתדר."
+    },
+    {
+      "id": "s000452",
+      "es": "Los niños se aburren cuando llueve todo el día.",
+      "he": "הילדים משתעממים כשיורד גשם כל היום."
+    },
+    {
+      "id": "s000453",
+      "es": "Nos vamos de vacaciones la próxima semana.",
+      "he": "אנחנו נוסעים לחופשה בשבוע הבא."
+    },
+    {
+      "id": "s000454",
+      "es": "Se duerme siempre viendo la televisión.",
+      "he": "הוא תמיד נרדם תוך כדי צפייה בטלוויזיה."
+    }
+  ]
+}

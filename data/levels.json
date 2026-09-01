@@ -382,6 +382,12 @@
         "name": "עתיד",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "reflexive_verbs",
+        "name": "פעלים חוזרים",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }
