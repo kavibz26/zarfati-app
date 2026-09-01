@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "possessive_adjectives",
+  "vocab": [
+    {
+      "id": "w000948",
+      "es": "Mi casa",
+      "he": "הבית שלי",
+      "ex_es": "Mi casa está cerca del centro.",
+      "ex_he": "הבית שלי קרוב למרכז."
+    },
+    {
+      "id": "w000949",
+      "es": "Mi hermano",
+      "he": "אחי (האח שלי)",
+      "ex_es": "Mi hermano vive en Madrid.",
+      "ex_he": "אחי גר במדריד."
+    },
+    {
+      "id": "w000950",
+      "es": "Tu perro",
+      "he": "הכלב שלך",
+      "ex_es": "Tu perro es muy simpático.",
+      "ex_he": "הכלב שלך חמוד מאוד."
+    },
+    {
+      "id": "w000951",
+      "es": "Tu amiga",
+      "he": "החברה שלך",
+      "ex_es": "Tu amiga llegó tarde a la fiesta.",
+      "ex_he": "החברה שלך הגיעה מאוחר למסיבה."
+    },
+    {
+      "id": "w000952",
+      "es": "Su libro",
+      "he": "הספר שלו / שלה",
+      "ex_es": "Su libro está sobre la mesa.",
+      "ex_he": "הספר שלו/שלה נמצא על השולחן."
+    },
+    {
+      "id": "w000953",
+      "es": "Su coche",
+      "he": "המכונית שלו / שלה",
+      "ex_es": "Su coche es nuevo.",
+      "ex_he": "המכונית שלו/שלה חדשה."
+    },
+    {
+      "id": "w000954",
+      "es": "Nuestra familia",
+      "he": "המשפחה שלנו",
+      "ex_es": "Nuestra familia es muy grande.",
+      "ex_he": "המשפחה שלנו גדולה מאוד."
+    },
+    {
+      "id": "w000955",
+      "es": "Nuestro trabajo",
+      "he": "העבודה שלנו",
+      "ex_es": "Nuestro trabajo termina a las cinco.",
+      "ex_he": "העבודה שלנו מסתיימת בחמש."
+    },
+    {
+      "id": "w000956",
+      "es": "Sus padres",
+      "he": "ההורים שלהם",
+      "ex_es": "Sus padres viven en Barcelona.",
+      "ex_he": "ההורים שלהם גרים בברצלונה."
+    },
+    {
+      "id": "w000957",
+      "es": "Mis llaves",
+      "he": "המפתחות שלי",
+      "ex_es": "No encuentro mis llaves.",
+      "ex_he": "אני לא מוצא את המפתחות שלי."
+    },
+    {
+      "id": "w000958",
+      "es": "Tus zapatos",
+      "he": "הנעליים שלך",
+      "ex_es": "Tus zapatos están debajo de la cama.",
+      "ex_he": "הנעליים שלך מתחת למיטה."
+    },
+    {
+      "id": "w000959",
+      "es": "Nuestros amigos",
+      "he": "החברים שלנו",
+      "ex_es": "Nuestros amigos vienen a cenar hoy.",
+      "ex_he": "החברים שלנו באים לארוחת ערב היום."
+    },
+    {
+      "id": "w000960",
+      "es": "Vuestra casa",
+      "he": "הבית שלכם (בספרד)",
+      "ex_es": "Vuestra casa es muy bonita.",
+      "ex_he": "הבית שלכם יפה מאוד."
+    },
+    {
+      "id": "w000961",
+      "es": "El mío / La mía",
+      "he": "שלי (כינוי עצמאי)",
+      "ex_es": "Este libro es el mío.",
+      "ex_he": "הספר הזה הוא שלי."
+    },
+    {
+      "id": "w000962",
+      "es": "El tuyo / La tuya",
+      "he": "שלך (כינוי עצמאי)",
+      "ex_es": "Esta mochila no es la tuya.",
+      "ex_he": "התיק הזה לא שלך."
+    },
+    {
+      "id": "w000963",
+      "es": "El suyo / La suya",
+      "he": "שלו / שלה (כינוי עצמאי)",
+      "ex_es": "El coche rojo es el suyo.",
+      "ex_he": "המכונית האדומה היא שלו/שלה."
+    },
+    {
+      "id": "w000964",
+      "es": "El nuestro / La nuestra",
+      "he": "שלנו (כינוי עצמאי)",
+      "ex_es": "Esa mesa es la nuestra.",
+      "ex_he": "השולחן ההוא שלנו."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000455",
+      "es": "¿Dónde está tu casa?",
+      "he": "איפה הבית שלך?"
+    },
+    {
+      "id": "s000456",
+      "es": "Mi madre y mi padre viven en Valencia.",
+      "he": "אמא ואבא שלי גרים בוולנסיה."
+    },
+    {
+      "id": "s000457",
+      "es": "Su perro se llama Rex.",
+      "he": "הכלב שלו/שלה נקרא רקס."
+    },
+    {
+      "id": "s000458",
+      "es": "Nuestra profesora es muy paciente.",
+      "he": "המורה שלנו מאוד סבלנית."
+    },
+    {
+      "id": "s000459",
+      "es": "¿Son estas tus llaves?",
+      "he": "אלה המפתחות שלך?"
+    },
+    {
+      "id": "s000460",
+      "es": "Sus hijos estudian en la universidad.",
+      "he": "הילדים שלהם לומדים באוניברסיטה."
+    },
+    {
+      "id": "s000461",
+      "es": "Este asiento es el mío, no el tuyo.",
+      "he": "המושב הזה שלי, לא שלך."
+    },
+    {
+      "id": "s000462",
+      "es": "Vuestra opinión es importante para nosotros.",
+      "he": "הדעה שלכם חשובה לנו."
+    }
+  ]
+}

@@ -388,6 +388,12 @@
         "name": "פעלים חוזרים",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "possessive_adjectives",
+        "name": "כינויי קניין",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }

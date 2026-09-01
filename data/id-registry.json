@@ -5681,6 +5681,108 @@
       "he": "הם נרדמים",
       "levelId": "grammar",
       "topicId": "reflexive_verbs"
+    },
+    "w000948": {
+      "es": "Mi casa",
+      "he": "הבית שלי",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000949": {
+      "es": "Mi hermano",
+      "he": "אחי (האח שלי)",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000950": {
+      "es": "Tu perro",
+      "he": "הכלב שלך",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000951": {
+      "es": "Tu amiga",
+      "he": "החברה שלך",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000952": {
+      "es": "Su libro",
+      "he": "הספר שלו / שלה",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000953": {
+      "es": "Su coche",
+      "he": "המכונית שלו / שלה",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000954": {
+      "es": "Nuestra familia",
+      "he": "המשפחה שלנו",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000955": {
+      "es": "Nuestro trabajo",
+      "he": "העבודה שלנו",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000956": {
+      "es": "Sus padres",
+      "he": "ההורים שלהם",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000957": {
+      "es": "Mis llaves",
+      "he": "המפתחות שלי",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000958": {
+      "es": "Tus zapatos",
+      "he": "הנעליים שלך",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000959": {
+      "es": "Nuestros amigos",
+      "he": "החברים שלנו",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000960": {
+      "es": "Vuestra casa",
+      "he": "הבית שלכם (בספרד)",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000961": {
+      "es": "El mío / La mía",
+      "he": "שלי (כינוי עצמאי)",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000962": {
+      "es": "El tuyo / La tuya",
+      "he": "שלך (כינוי עצמאי)",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000963": {
+      "es": "El suyo / La suya",
+      "he": "שלו / שלה (כינוי עצמאי)",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "w000964": {
+      "es": "El nuestro / La nuestra",
+      "he": "שלנו (כינוי עצמאי)",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
     }
   },
   "sentences": {
@@ -7953,6 +8055,46 @@
       "es": "Se duerme siempre viendo la televisión.",
       "levelId": "grammar",
       "topicId": "reflexive_verbs"
+    },
+    "s000455": {
+      "es": "¿Dónde está tu casa?",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "s000456": {
+      "es": "Mi madre y mi padre viven en Valencia.",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "s000457": {
+      "es": "Su perro se llama Rex.",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "s000458": {
+      "es": "Nuestra profesora es muy paciente.",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "s000459": {
+      "es": "¿Son estas tus llaves?",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "s000460": {
+      "es": "Sus hijos estudian en la universidad.",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "s000461": {
+      "es": "Este asiento es el mío, no el tuyo.",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
+    },
+    "s000462": {
+      "es": "Vuestra opinión es importante para nosotros.",
+      "levelId": "grammar",
+      "topicId": "possessive_adjectives"
     }
   }
 }
