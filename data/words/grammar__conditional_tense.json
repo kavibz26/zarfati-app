@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "conditional_tense",
+  "vocab": [
+    {
+      "id": "w001033",
+      "es": "Yo hablaría",
+      "he": "אני הייתי מדבר",
+      "ex_es": "Yo hablaría con ella si pudiera.",
+      "ex_he": "הייתי מדבר איתה אם הייתי יכול."
+    },
+    {
+      "id": "w001034",
+      "es": "Tú comerías",
+      "he": "אתה היית אוכל",
+      "ex_es": "Tú comerías más si tuvieras hambre.",
+      "ex_he": "היית אוכל יותר אם היית רעב."
+    },
+    {
+      "id": "w001035",
+      "es": "Él viviría",
+      "he": "הוא היה גר",
+      "ex_es": "Él viviría en la playa si pudiera.",
+      "ex_he": "הוא היה גר בחוף אם הוא היה יכול."
+    },
+    {
+      "id": "w001036",
+      "es": "Nosotros viajaríamos",
+      "he": "אנחנו היינו נוסעים",
+      "ex_es": "Nosotros viajaríamos más si tuviéramos dinero.",
+      "ex_he": "היינו נוסעים יותר אם היה לנו כסף."
+    },
+    {
+      "id": "w001037",
+      "es": "Ellos estudiarían",
+      "he": "הם היו לומדים",
+      "ex_es": "Ellos estudiarían medicina si pudieran.",
+      "ex_he": "הם היו לומדים רפואה אם הם היו יכולים."
+    },
+    {
+      "id": "w001038",
+      "es": "Yo tendría",
+      "he": "היה לי (בתנאי)",
+      "ex_es": "Yo tendría más tiempo sin trabajo.",
+      "ex_he": "היה לי יותר זמן בלי עבודה."
+    },
+    {
+      "id": "w001039",
+      "es": "Yo haría",
+      "he": "אני הייתי עושה",
+      "ex_es": "Yo haría lo mismo en tu situación.",
+      "ex_he": "הייתי עושה את אותו הדבר במקומך."
+    },
+    {
+      "id": "w001040",
+      "es": "Yo podría",
+      "he": "אני הייתי יכול",
+      "ex_es": "Yo podría ayudarte mañana.",
+      "ex_he": "הייתי יכול לעזור לך מחר."
+    },
+    {
+      "id": "w001041",
+      "es": "Ellos vendrían",
+      "he": "הם היו באים",
+      "ex_es": "Ellos vendrían si los invitáramos.",
+      "ex_he": "הם היו באים אם היינו מזמינים אותם."
+    },
+    {
+      "id": "w001042",
+      "es": "Yo diría",
+      "he": "אני הייתי אומר",
+      "ex_es": "Yo diría que es una buena idea.",
+      "ex_he": "הייתי אומר שזה רעיון טוב."
+    },
+    {
+      "id": "w001043",
+      "es": "Me gustaría",
+      "he": "הייתי רוצה",
+      "ex_es": "Me gustaría viajar a Japón algún día.",
+      "ex_he": "הייתי רוצה לטייל ליפן יום אחד."
+    },
+    {
+      "id": "w001044",
+      "es": "¿Podrías ayudarme?",
+      "he": "תוכל לעזור לי?",
+      "ex_es": "¿Podrías ayudarme con las maletas?",
+      "ex_he": "תוכל לעזור לי עם המזוודות?"
+    },
+    {
+      "id": "w001045",
+      "es": "Deberías descansar",
+      "he": "כדאי לך לנוח",
+      "ex_es": "Deberías descansar un poco hoy.",
+      "ex_he": "כדאי לך לנוח קצת היום."
+    },
+    {
+      "id": "w001046",
+      "es": "Yo querría",
+      "he": "הייתי רוצה (רשמי יותר)",
+      "ex_es": "Yo querría hablar con el gerente.",
+      "ex_he": "הייתי רוצה לדבר עם המנהל."
+    },
+    {
+      "id": "w001047",
+      "es": "Sería mejor",
+      "he": "זה היה יותר טוב",
+      "ex_es": "Sería mejor salir temprano.",
+      "ex_he": "זה היה יותר טוב לצאת מוקדם."
+    },
+    {
+      "id": "w001048",
+      "es": "En tu lugar",
+      "he": "במקומך",
+      "ex_es": "En tu lugar, yo aceptaría la oferta.",
+      "ex_he": "במקומך, הייתי מקבל את ההצעה."
+    },
+    {
+      "id": "w001049",
+      "es": "Si pudiera",
+      "he": "אם הייתי יכול",
+      "ex_es": "Si pudiera, cambiaría de trabajo.",
+      "ex_he": "אם הייתי יכול, הייתי מחליף עבודה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000495",
+      "es": "Me encantaría conocer España algún día.",
+      "he": "הייתי מת לבקר בספרד יום אחד."
+    },
+    {
+      "id": "s000496",
+      "es": "¿Qué harías tú en mi situación?",
+      "he": "מה היית עושה במקומי?"
+    },
+    {
+      "id": "s000497",
+      "es": "Deberíamos llamar al médico ahora mismo.",
+      "he": "כדאי לנו להתקשר לרופא עכשיו."
+    },
+    {
+      "id": "s000498",
+      "es": "Sin tu ayuda, no podríamos terminar el proyecto.",
+      "he": "בלי העזרה שלך, לא היינו יכולים לסיים את הפרויקט."
+    },
+    {
+      "id": "s000499",
+      "es": "Ella dijo que vendría a la fiesta.",
+      "he": "היא אמרה שהיא תבוא למסיבה."
+    },
+    {
+      "id": "s000500",
+      "es": "Me gustaría pedir la cuenta, por favor.",
+      "he": "הייתי רוצה לבקש את החשבון, בבקשה."
+    },
+    {
+      "id": "s000501",
+      "es": "¿Te importaría cerrar la ventana?",
+      "he": "אכפת לך לסגור את החלון?"
+    },
+    {
+      "id": "s000502",
+      "es": "Con más tiempo, aprenderíamos mucho más.",
+      "he": "עם יותר זמן, היינו לומדים הרבה יותר."
+    }
+  ]
+}

@@ -6191,6 +6191,108 @@
       "he": "זה או זה",
       "levelId": "grammar",
       "topicId": "demonstratives"
+    },
+    "w001033": {
+      "es": "Yo hablaría",
+      "he": "אני הייתי מדבר",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001034": {
+      "es": "Tú comerías",
+      "he": "אתה היית אוכל",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001035": {
+      "es": "Él viviría",
+      "he": "הוא היה גר",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001036": {
+      "es": "Nosotros viajaríamos",
+      "he": "אנחנו היינו נוסעים",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001037": {
+      "es": "Ellos estudiarían",
+      "he": "הם היו לומדים",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001038": {
+      "es": "Yo tendría",
+      "he": "היה לי (בתנאי)",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001039": {
+      "es": "Yo haría",
+      "he": "אני הייתי עושה",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001040": {
+      "es": "Yo podría",
+      "he": "אני הייתי יכול",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001041": {
+      "es": "Ellos vendrían",
+      "he": "הם היו באים",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001042": {
+      "es": "Yo diría",
+      "he": "אני הייתי אומר",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001043": {
+      "es": "Me gustaría",
+      "he": "הייתי רוצה",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001044": {
+      "es": "¿Podrías ayudarme?",
+      "he": "תוכל לעזור לי?",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001045": {
+      "es": "Deberías descansar",
+      "he": "כדאי לך לנוח",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001046": {
+      "es": "Yo querría",
+      "he": "הייתי רוצה (רשמי יותר)",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001047": {
+      "es": "Sería mejor",
+      "he": "זה היה יותר טוב",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001048": {
+      "es": "En tu lugar",
+      "he": "במקומך",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "w001049": {
+      "es": "Si pudiera",
+      "he": "אם הייתי יכול",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
     }
   },
   "sentences": {
@@ -8663,6 +8765,46 @@
       "es": "Eso no tiene sentido para mí.",
       "levelId": "grammar",
       "topicId": "demonstratives"
+    },
+    "s000495": {
+      "es": "Me encantaría conocer España algún día.",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "s000496": {
+      "es": "¿Qué harías tú en mi situación?",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "s000497": {
+      "es": "Deberíamos llamar al médico ahora mismo.",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "s000498": {
+      "es": "Sin tu ayuda, no podríamos terminar el proyecto.",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "s000499": {
+      "es": "Ella dijo que vendría a la fiesta.",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "s000500": {
+      "es": "Me gustaría pedir la cuenta, por favor.",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "s000501": {
+      "es": "¿Te importaría cerrar la ventana?",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
+    },
+    "s000502": {
+      "es": "Con más tiempo, aprenderíamos mucho más.",
+      "levelId": "grammar",
+      "topicId": "conditional_tense"
     }
   }
 }

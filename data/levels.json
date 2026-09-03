@@ -418,6 +418,12 @@
         "name": "כינויי רמז",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "conditional_tense",
+        "name": "מותנה",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }

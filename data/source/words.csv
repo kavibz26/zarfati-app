@@ -1031,3 +1031,20 @@ w001029,Eso es verdad,זה נכון,"Eso es verdad, no lo dudes.","זה נכון
 w001030,Aquello fue increíble,זה היה מדהים,"Aquello fue increíble, nunca lo olvidaré.","זה היה מדהים, לעולם לא אשכח את זה.",grammar,demonstratives,כינויי רמז
 w001031,¿Qué es esto?,מה זה?,¿Qué es esto que tienes en la mano?,מה זה מה שיש לך ביד?,grammar,demonstratives,כינויי רמז
 w001032,Esto o eso,זה או זה,Tienes que elegir entre esto o eso.,אתה צריך לבחור בין זה לזה.,grammar,demonstratives,כינויי רמז
+w001033,Yo hablaría,אני הייתי מדבר,Yo hablaría con ella si pudiera.,הייתי מדבר איתה אם הייתי יכול.,grammar,conditional_tense,מותנה
+w001034,Tú comerías,אתה היית אוכל,Tú comerías más si tuvieras hambre.,היית אוכל יותר אם היית רעב.,grammar,conditional_tense,מותנה
+w001035,Él viviría,הוא היה גר,Él viviría en la playa si pudiera.,הוא היה גר בחוף אם הוא היה יכול.,grammar,conditional_tense,מותנה
+w001036,Nosotros viajaríamos,אנחנו היינו נוסעים,Nosotros viajaríamos más si tuviéramos dinero.,היינו נוסעים יותר אם היה לנו כסף.,grammar,conditional_tense,מותנה
+w001037,Ellos estudiarían,הם היו לומדים,Ellos estudiarían medicina si pudieran.,הם היו לומדים רפואה אם הם היו יכולים.,grammar,conditional_tense,מותנה
+w001038,Yo tendría,היה לי (בתנאי),Yo tendría más tiempo sin trabajo.,היה לי יותר זמן בלי עבודה.,grammar,conditional_tense,מותנה
+w001039,Yo haría,אני הייתי עושה,Yo haría lo mismo en tu situación.,הייתי עושה את אותו הדבר במקומך.,grammar,conditional_tense,מותנה
+w001040,Yo podría,אני הייתי יכול,Yo podría ayudarte mañana.,הייתי יכול לעזור לך מחר.,grammar,conditional_tense,מותנה
+w001041,Ellos vendrían,הם היו באים,Ellos vendrían si los invitáramos.,הם היו באים אם היינו מזמינים אותם.,grammar,conditional_tense,מותנה
+w001042,Yo diría,אני הייתי אומר,Yo diría que es una buena idea.,הייתי אומר שזה רעיון טוב.,grammar,conditional_tense,מותנה
+w001043,Me gustaría,הייתי רוצה,Me gustaría viajar a Japón algún día.,הייתי רוצה לטייל ליפן יום אחד.,grammar,conditional_tense,מותנה
+w001044,¿Podrías ayudarme?,תוכל לעזור לי?,¿Podrías ayudarme con las maletas?,תוכל לעזור לי עם המזוודות?,grammar,conditional_tense,מותנה
+w001045,Deberías descansar,כדאי לך לנוח,Deberías descansar un poco hoy.,כדאי לך לנוח קצת היום.,grammar,conditional_tense,מותנה
+w001046,Yo querría,הייתי רוצה (רשמי יותר),Yo querría hablar con el gerente.,הייתי רוצה לדבר עם המנהל.,grammar,conditional_tense,מותנה
+w001047,Sería mejor,זה היה יותר טוב,Sería mejor salir temprano.,זה היה יותר טוב לצאת מוקדם.,grammar,conditional_tense,מותנה
+w001048,En tu lugar,במקומך,"En tu lugar, yo aceptaría la oferta.","במקומך, הייתי מקבל את ההצעה.",grammar,conditional_tense,מותנה
+w001049,Si pudiera,אם הייתי יכול,"Si pudiera, cambiaría de trabajo.","אם הייתי יכול, הייתי מחליף עבודה.",grammar,conditional_tense,מותנה
