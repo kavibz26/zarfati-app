@@ -6293,6 +6293,108 @@
       "he": "אם הייתי יכול",
       "levelId": "grammar",
       "topicId": "conditional_tense"
+    },
+    "w001050": {
+      "es": "Estoy hablando",
+      "he": "אני מדבר (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001051": {
+      "es": "Estás comiendo",
+      "he": "אתה אוכל (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001052": {
+      "es": "Está viviendo",
+      "he": "הוא גר (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001053": {
+      "es": "Estamos trabajando",
+      "he": "אנחנו עובדים (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001054": {
+      "es": "Están jugando",
+      "he": "הם משחקים (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001055": {
+      "es": "Estoy leyendo",
+      "he": "אני קורא (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001056": {
+      "es": "Estás durmiendo",
+      "he": "אתה ישן (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001057": {
+      "es": "Está sirviendo la comida",
+      "he": "הוא מגיש את האוכל (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001058": {
+      "es": "Estamos viajando",
+      "he": "אנחנו נוסעים (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001059": {
+      "es": "Están cocinando",
+      "he": "הם מבשלים (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001060": {
+      "es": "Estoy escribiendo",
+      "he": "אני כותב (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001061": {
+      "es": "Estás corriendo",
+      "he": "אתה רץ (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001062": {
+      "es": "Está sonriendo",
+      "he": "הוא מחייך (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001063": {
+      "es": "Estamos esperando",
+      "he": "אנחנו מחכים (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001064": {
+      "es": "Estoy pensando",
+      "he": "אני חושב (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001065": {
+      "es": "¿Qué estás haciendo?",
+      "he": "מה אתה עושה (כרגע)?",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "w001066": {
+      "es": "Estoy aprendiendo español",
+      "he": "אני לומד ספרדית (כרגע)",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
     }
   },
   "sentences": {
@@ -8805,6 +8907,46 @@
       "es": "Con más tiempo, aprenderíamos mucho más.",
       "levelId": "grammar",
       "topicId": "conditional_tense"
+    },
+    "s000503": {
+      "es": "No puedo hablar ahora, estoy trabajando.",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "s000504": {
+      "es": "Mis padres están viajando por Europa.",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "s000505": {
+      "es": "¿Todavía estás durmiendo? Ya es tarde.",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "s000506": {
+      "es": "Estamos buscando un apartamento nuevo.",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "s000507": {
+      "es": "Ella está estudiando para el examen.",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "s000508": {
+      "es": "Estoy pensando en cambiar de trabajo.",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "s000509": {
+      "es": "Los niños están jugando en el jardín.",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
+    },
+    "s000510": {
+      "es": "Estamos aprendiendo mucho en esta clase.",
+      "levelId": "grammar",
+      "topicId": "present_progressive"
     }
   }
 }

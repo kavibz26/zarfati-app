@@ -1048,3 +1048,20 @@ w001046,Yo querría,הייתי רוצה (רשמי יותר),Yo querría hablar c
 w001047,Sería mejor,זה היה יותר טוב,Sería mejor salir temprano.,זה היה יותר טוב לצאת מוקדם.,grammar,conditional_tense,מותנה
 w001048,En tu lugar,במקומך,"En tu lugar, yo aceptaría la oferta.","במקומך, הייתי מקבל את ההצעה.",grammar,conditional_tense,מותנה
 w001049,Si pudiera,אם הייתי יכול,"Si pudiera, cambiaría de trabajo.","אם הייתי יכול, הייתי מחליף עבודה.",grammar,conditional_tense,מותנה
+w001050,Estoy hablando,אני מדבר (כרגע),"No puedo salir, estoy hablando por teléfono.","אני לא יכול לצאת, אני מדבר בטלפון.",grammar,present_progressive,הווה מתמשך
+w001051,Estás comiendo,אתה אוכל (כרגע),¿Qué estás comiendo?,מה אתה אוכל?,grammar,present_progressive,הווה מתמשך
+w001052,Está viviendo,הוא גר (כרגע),Está viviendo en Barcelona este año.,הוא גר בברצלונה השנה.,grammar,present_progressive,הווה מתמשך
+w001053,Estamos trabajando,אנחנו עובדים (כרגע),Estamos trabajando en un proyecto nuevo.,אנחנו עובדים על פרויקט חדש.,grammar,present_progressive,הווה מתמשך
+w001054,Están jugando,הם משחקים (כרגע),Los niños están jugando afuera.,הילדים משחקים בחוץ.,grammar,present_progressive,הווה מתמשך
+w001055,Estoy leyendo,אני קורא (כרגע),Estoy leyendo un libro muy interesante.,אני קורא ספר מאוד מעניין.,grammar,present_progressive,הווה מתמשך
+w001056,Estás durmiendo,אתה ישן (כרגע),Estás durmiendo demasiado últimamente.,אתה ישן יותר מדי לאחרונה.,grammar,present_progressive,הווה מתמשך
+w001057,Está sirviendo la comida,הוא מגיש את האוכל (כרגע),El camarero está sirviendo la comida.,המלצר מגיש את האוכל.,grammar,present_progressive,הווה מתמשך
+w001058,Estamos viajando,אנחנו נוסעים (כרגע),Estamos viajando por el sur de España.,אנחנו נוסעים בדרום ספרד.,grammar,present_progressive,הווה מתמשך
+w001059,Están cocinando,הם מבשלים (כרגע),Están cocinando algo delicioso en la cocina.,הם מבשלים משהו טעים במטבח.,grammar,present_progressive,הווה מתמשך
+w001060,Estoy escribiendo,אני כותב (כרגע),Estoy escribiendo un correo importante.,אני כותב מייל חשוב.,grammar,present_progressive,הווה מתמשך
+w001061,Estás corriendo,אתה רץ (כרגע),Estás corriendo muy rápido hoy.,אתה רץ מהר מאוד היום.,grammar,present_progressive,הווה מתמשך
+w001062,Está sonriendo,הוא מחייך (כרגע),El bebé está sonriendo mucho.,התינוק מחייך הרבה.,grammar,present_progressive,הווה מתמשך
+w001063,Estamos esperando,אנחנו מחכים (כרגע),Estamos esperando el autobús.,אנחנו מחכים לאוטובוס.,grammar,present_progressive,הווה מתמשך
+w001064,Estoy pensando,אני חושב (כרגע),Estoy pensando en ti.,אני חושב עליך.,grammar,present_progressive,הווה מתמשך
+w001065,¿Qué estás haciendo?,מה אתה עושה (כרגע)?,¿Qué estás haciendo esta noche?,מה אתה עושה הערב?,grammar,present_progressive,הווה מתמשך
+w001066,Estoy aprendiendo español,אני לומד ספרדית (כרגע),Estoy aprendiendo español desde hace un año.,אני לומד ספרדית כבר שנה.,grammar,present_progressive,הווה מתמשך

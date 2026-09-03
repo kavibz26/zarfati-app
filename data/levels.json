@@ -424,6 +424,12 @@
         "name": "מותנה",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "present_progressive",
+        "name": "הווה מתמשך",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }

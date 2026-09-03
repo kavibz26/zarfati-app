@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "present_progressive",
+  "vocab": [
+    {
+      "id": "w001050",
+      "es": "Estoy hablando",
+      "he": "אני מדבר (כרגע)",
+      "ex_es": "No puedo salir, estoy hablando por teléfono.",
+      "ex_he": "אני לא יכול לצאת, אני מדבר בטלפון."
+    },
+    {
+      "id": "w001051",
+      "es": "Estás comiendo",
+      "he": "אתה אוכל (כרגע)",
+      "ex_es": "¿Qué estás comiendo?",
+      "ex_he": "מה אתה אוכל?"
+    },
+    {
+      "id": "w001052",
+      "es": "Está viviendo",
+      "he": "הוא גר (כרגע)",
+      "ex_es": "Está viviendo en Barcelona este año.",
+      "ex_he": "הוא גר בברצלונה השנה."
+    },
+    {
+      "id": "w001053",
+      "es": "Estamos trabajando",
+      "he": "אנחנו עובדים (כרגע)",
+      "ex_es": "Estamos trabajando en un proyecto nuevo.",
+      "ex_he": "אנחנו עובדים על פרויקט חדש."
+    },
+    {
+      "id": "w001054",
+      "es": "Están jugando",
+      "he": "הם משחקים (כרגע)",
+      "ex_es": "Los niños están jugando afuera.",
+      "ex_he": "הילדים משחקים בחוץ."
+    },
+    {
+      "id": "w001055",
+      "es": "Estoy leyendo",
+      "he": "אני קורא (כרגע)",
+      "ex_es": "Estoy leyendo un libro muy interesante.",
+      "ex_he": "אני קורא ספר מאוד מעניין."
+    },
+    {
+      "id": "w001056",
+      "es": "Estás durmiendo",
+      "he": "אתה ישן (כרגע)",
+      "ex_es": "Estás durmiendo demasiado últimamente.",
+      "ex_he": "אתה ישן יותר מדי לאחרונה."
+    },
+    {
+      "id": "w001057",
+      "es": "Está sirviendo la comida",
+      "he": "הוא מגיש את האוכל (כרגע)",
+      "ex_es": "El camarero está sirviendo la comida.",
+      "ex_he": "המלצר מגיש את האוכל."
+    },
+    {
+      "id": "w001058",
+      "es": "Estamos viajando",
+      "he": "אנחנו נוסעים (כרגע)",
+      "ex_es": "Estamos viajando por el sur de España.",
+      "ex_he": "אנחנו נוסעים בדרום ספרד."
+    },
+    {
+      "id": "w001059",
+      "es": "Están cocinando",
+      "he": "הם מבשלים (כרגע)",
+      "ex_es": "Están cocinando algo delicioso en la cocina.",
+      "ex_he": "הם מבשלים משהו טעים במטבח."
+    },
+    {
+      "id": "w001060",
+      "es": "Estoy escribiendo",
+      "he": "אני כותב (כרגע)",
+      "ex_es": "Estoy escribiendo un correo importante.",
+      "ex_he": "אני כותב מייל חשוב."
+    },
+    {
+      "id": "w001061",
+      "es": "Estás corriendo",
+      "he": "אתה רץ (כרגע)",
+      "ex_es": "Estás corriendo muy rápido hoy.",
+      "ex_he": "אתה רץ מהר מאוד היום."
+    },
+    {
+      "id": "w001062",
+      "es": "Está sonriendo",
+      "he": "הוא מחייך (כרגע)",
+      "ex_es": "El bebé está sonriendo mucho.",
+      "ex_he": "התינוק מחייך הרבה."
+    },
+    {
+      "id": "w001063",
+      "es": "Estamos esperando",
+      "he": "אנחנו מחכים (כרגע)",
+      "ex_es": "Estamos esperando el autobús.",
+      "ex_he": "אנחנו מחכים לאוטובוס."
+    },
+    {
+      "id": "w001064",
+      "es": "Estoy pensando",
+      "he": "אני חושב (כרגע)",
+      "ex_es": "Estoy pensando en ti.",
+      "ex_he": "אני חושב עליך."
+    },
+    {
+      "id": "w001065",
+      "es": "¿Qué estás haciendo?",
+      "he": "מה אתה עושה (כרגע)?",
+      "ex_es": "¿Qué estás haciendo esta noche?",
+      "ex_he": "מה אתה עושה הערב?"
+    },
+    {
+      "id": "w001066",
+      "es": "Estoy aprendiendo español",
+      "he": "אני לומד ספרדית (כרגע)",
+      "ex_es": "Estoy aprendiendo español desde hace un año.",
+      "ex_he": "אני לומד ספרדית כבר שנה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000503",
+      "es": "No puedo hablar ahora, estoy trabajando.",
+      "he": "אני לא יכול לדבר עכשיו, אני עובד."
+    },
+    {
+      "id": "s000504",
+      "es": "Mis padres están viajando por Europa.",
+      "he": "ההורים שלי מטיילים באירופה."
+    },
+    {
+      "id": "s000505",
+      "es": "¿Todavía estás durmiendo? Ya es tarde.",
+      "he": "אתה עדיין ישן? כבר מאוחר."
+    },
+    {
+      "id": "s000506",
+      "es": "Estamos buscando un apartamento nuevo.",
+      "he": "אנחנו מחפשים דירה חדשה."
+    },
+    {
+      "id": "s000507",
+      "es": "Ella está estudiando para el examen.",
+      "he": "היא לומדת למבחן."
+    },
+    {
+      "id": "s000508",
+      "es": "Estoy pensando en cambiar de trabajo.",
+      "he": "אני חושב לעבור עבודה."
+    },
+    {
+      "id": "s000509",
+      "es": "Los niños están jugando en el jardín.",
+      "he": "הילדים משחקים בגינה."
+    },
+    {
+      "id": "s000510",
+      "es": "Estamos aprendiendo mucho en esta clase.",
+      "he": "אנחנו לומדים הרבה בשיעור הזה."
+    }
+  ]
+}
