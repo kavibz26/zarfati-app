@@ -6395,6 +6395,108 @@
       "he": "אני לומד ספרדית (כרגע)",
       "levelId": "grammar",
       "topicId": "present_progressive"
+    },
+    "w001067": {
+      "es": "He hablado",
+      "he": "דיברתי (עד עכשיו)",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001068": {
+      "es": "Has comido",
+      "he": "אכלת (עד עכשיו)",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001069": {
+      "es": "Ha vivido",
+      "he": "הוא חי / גר (עד עכשיו)",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001070": {
+      "es": "Hemos viajado",
+      "he": "נסענו (עד עכשיו)",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001071": {
+      "es": "Han estudiado",
+      "he": "הם למדו (עד עכשיו)",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001072": {
+      "es": "He hecho",
+      "he": "עשיתי",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001073": {
+      "es": "Has visto",
+      "he": "ראית",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001074": {
+      "es": "Ha dicho",
+      "he": "הוא אמר",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001075": {
+      "es": "Hemos puesto",
+      "he": "שמנו",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001076": {
+      "es": "Han escrito",
+      "he": "הם כתבו",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001077": {
+      "es": "He abierto",
+      "he": "פתחתי",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001078": {
+      "es": "Has vuelto",
+      "he": "חזרת",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001079": {
+      "es": "¿Has estado alguna vez en España?",
+      "he": "היית פעם בספרד?",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001080": {
+      "es": "Todavía no he terminado",
+      "he": "עוד לא סיימתי",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001081": {
+      "es": "Ya hemos comido",
+      "he": "כבר אכלנו",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001082": {
+      "es": "Nunca he visto algo así",
+      "he": "מעולם לא ראיתי משהו כזה",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "w001083": {
+      "es": "¿Qué has hecho hoy?",
+      "he": "מה עשית היום?",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
     }
   },
   "sentences": {
@@ -8947,6 +9049,46 @@
       "es": "Estamos aprendiendo mucho en esta clase.",
       "levelId": "grammar",
       "topicId": "present_progressive"
+    },
+    "s000511": {
+      "es": "Nunca he estado en Sudamérica.",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "s000512": {
+      "es": "¿Habéis terminado el proyecto?",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "s000513": {
+      "es": "Mi hermana ha encontrado un trabajo nuevo.",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "s000514": {
+      "es": "Todavía no hemos decidido adónde ir.",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "s000515": {
+      "es": "¿Alguna vez has probado la comida japonesa?",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "s000516": {
+      "es": "Han cerrado la tienda por vacaciones.",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "s000517": {
+      "es": "He perdido mis llaves otra vez.",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
+    },
+    "s000518": {
+      "es": "Esta semana hemos trabajado mucho.",
+      "levelId": "grammar",
+      "topicId": "present_perfect"
     }
   }
 }

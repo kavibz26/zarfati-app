@@ -1065,3 +1065,20 @@ w001063,Estamos esperando,אנחנו מחכים (כרגע),Estamos esperando el 
 w001064,Estoy pensando,אני חושב (כרגע),Estoy pensando en ti.,אני חושב עליך.,grammar,present_progressive,הווה מתמשך
 w001065,¿Qué estás haciendo?,מה אתה עושה (כרגע)?,¿Qué estás haciendo esta noche?,מה אתה עושה הערב?,grammar,present_progressive,הווה מתמשך
 w001066,Estoy aprendiendo español,אני לומד ספרדית (כרגע),Estoy aprendiendo español desde hace un año.,אני לומד ספרדית כבר שנה.,grammar,present_progressive,הווה מתמשך
+w001067,He hablado,דיברתי (עד עכשיו),He hablado con él sobre el problema.,דיברתי איתו על הבעיה.,grammar,present_perfect,עבר מושלם
+w001068,Has comido,אכלת (עד עכשיו),¿Ya has comido algo hoy?,כבר אכלת משהו היום?,grammar,present_perfect,עבר מושלם
+w001069,Ha vivido,הוא חי / גר (עד עכשיו),Ha vivido en tres países diferentes.,הוא חי בשלוש מדינות שונות.,grammar,present_perfect,עבר מושלם
+w001070,Hemos viajado,נסענו (עד עכשיו),Hemos viajado juntos muchas veces.,נסענו יחד הרבה פעמים.,grammar,present_perfect,עבר מושלם
+w001071,Han estudiado,הם למדו (עד עכשיו),Han estudiado toda la noche.,הם למדו כל הלילה.,grammar,present_perfect,עבר מושלם
+w001072,He hecho,עשיתי,He hecho todo lo posible.,עשיתי כל מה שאפשר.,grammar,present_perfect,עבר מושלם
+w001073,Has visto,ראית,¿Has visto mi teléfono?,ראית את הטלפון שלי?,grammar,present_perfect,עבר מושלם
+w001074,Ha dicho,הוא אמר,Ha dicho que vendrá mañana.,הוא אמר שהוא יבוא מחר.,grammar,present_perfect,עבר מושלם
+w001075,Hemos puesto,שמנו,Hemos puesto la mesa para la cena.,ערכנו את השולחן לארוחת הערב.,grammar,present_perfect,עבר מושלם
+w001076,Han escrito,הם כתבו,Han escrito un libro juntos.,הם כתבו ספר יחד.,grammar,present_perfect,עבר מושלם
+w001077,He abierto,פתחתי,He abierto todas las ventanas.,פתחתי את כל החלונות.,grammar,present_perfect,עבר מושלם
+w001078,Has vuelto,חזרת,¿Cuándo has vuelto de tu viaje?,מתי חזרת מהטיול שלך?,grammar,present_perfect,עבר מושלם
+w001079,¿Has estado alguna vez en España?,היית פעם בספרד?,¿Has estado alguna vez en Japón?,היית פעם ביפן?,grammar,present_perfect,עבר מושלם
+w001080,Todavía no he terminado,עוד לא סיימתי,Todavía no he terminado mi tarea.,עוד לא סיימתי את השיעורים שלי.,grammar,present_perfect,עבר מושלם
+w001081,Ya hemos comido,כבר אכלנו,"Ya hemos comido, gracias.","כבר אכלנו, תודה.",grammar,present_perfect,עבר מושלם
+w001082,Nunca he visto algo así,מעולם לא ראיתי משהו כזה,Nunca he visto algo tan hermoso.,מעולם לא ראיתי משהו כל כך יפה.,grammar,present_perfect,עבר מושלם
+w001083,¿Qué has hecho hoy?,מה עשית היום?,¿Qué has hecho hoy en el trabajo?,מה עשית היום בעבודה?,grammar,present_perfect,עבר מושלם

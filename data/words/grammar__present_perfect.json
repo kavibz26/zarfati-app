@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "present_perfect",
+  "vocab": [
+    {
+      "id": "w001067",
+      "es": "He hablado",
+      "he": "דיברתי (עד עכשיו)",
+      "ex_es": "He hablado con él sobre el problema.",
+      "ex_he": "דיברתי איתו על הבעיה."
+    },
+    {
+      "id": "w001068",
+      "es": "Has comido",
+      "he": "אכלת (עד עכשיו)",
+      "ex_es": "¿Ya has comido algo hoy?",
+      "ex_he": "כבר אכלת משהו היום?"
+    },
+    {
+      "id": "w001069",
+      "es": "Ha vivido",
+      "he": "הוא חי / גר (עד עכשיו)",
+      "ex_es": "Ha vivido en tres países diferentes.",
+      "ex_he": "הוא חי בשלוש מדינות שונות."
+    },
+    {
+      "id": "w001070",
+      "es": "Hemos viajado",
+      "he": "נסענו (עד עכשיו)",
+      "ex_es": "Hemos viajado juntos muchas veces.",
+      "ex_he": "נסענו יחד הרבה פעמים."
+    },
+    {
+      "id": "w001071",
+      "es": "Han estudiado",
+      "he": "הם למדו (עד עכשיו)",
+      "ex_es": "Han estudiado toda la noche.",
+      "ex_he": "הם למדו כל הלילה."
+    },
+    {
+      "id": "w001072",
+      "es": "He hecho",
+      "he": "עשיתי",
+      "ex_es": "He hecho todo lo posible.",
+      "ex_he": "עשיתי כל מה שאפשר."
+    },
+    {
+      "id": "w001073",
+      "es": "Has visto",
+      "he": "ראית",
+      "ex_es": "¿Has visto mi teléfono?",
+      "ex_he": "ראית את הטלפון שלי?"
+    },
+    {
+      "id": "w001074",
+      "es": "Ha dicho",
+      "he": "הוא אמר",
+      "ex_es": "Ha dicho que vendrá mañana.",
+      "ex_he": "הוא אמר שהוא יבוא מחר."
+    },
+    {
+      "id": "w001075",
+      "es": "Hemos puesto",
+      "he": "שמנו",
+      "ex_es": "Hemos puesto la mesa para la cena.",
+      "ex_he": "ערכנו את השולחן לארוחת הערב."
+    },
+    {
+      "id": "w001076",
+      "es": "Han escrito",
+      "he": "הם כתבו",
+      "ex_es": "Han escrito un libro juntos.",
+      "ex_he": "הם כתבו ספר יחד."
+    },
+    {
+      "id": "w001077",
+      "es": "He abierto",
+      "he": "פתחתי",
+      "ex_es": "He abierto todas las ventanas.",
+      "ex_he": "פתחתי את כל החלונות."
+    },
+    {
+      "id": "w001078",
+      "es": "Has vuelto",
+      "he": "חזרת",
+      "ex_es": "¿Cuándo has vuelto de tu viaje?",
+      "ex_he": "מתי חזרת מהטיול שלך?"
+    },
+    {
+      "id": "w001079",
+      "es": "¿Has estado alguna vez en España?",
+      "he": "היית פעם בספרד?",
+      "ex_es": "¿Has estado alguna vez en Japón?",
+      "ex_he": "היית פעם ביפן?"
+    },
+    {
+      "id": "w001080",
+      "es": "Todavía no he terminado",
+      "he": "עוד לא סיימתי",
+      "ex_es": "Todavía no he terminado mi tarea.",
+      "ex_he": "עוד לא סיימתי את השיעורים שלי."
+    },
+    {
+      "id": "w001081",
+      "es": "Ya hemos comido",
+      "he": "כבר אכלנו",
+      "ex_es": "Ya hemos comido, gracias.",
+      "ex_he": "כבר אכלנו, תודה."
+    },
+    {
+      "id": "w001082",
+      "es": "Nunca he visto algo así",
+      "he": "מעולם לא ראיתי משהו כזה",
+      "ex_es": "Nunca he visto algo tan hermoso.",
+      "ex_he": "מעולם לא ראיתי משהו כל כך יפה."
+    },
+    {
+      "id": "w001083",
+      "es": "¿Qué has hecho hoy?",
+      "he": "מה עשית היום?",
+      "ex_es": "¿Qué has hecho hoy en el trabajo?",
+      "ex_he": "מה עשית היום בעבודה?"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000511",
+      "es": "Nunca he estado en Sudamérica.",
+      "he": "מעולם לא הייתי בדרום אמריקה."
+    },
+    {
+      "id": "s000512",
+      "es": "¿Habéis terminado el proyecto?",
+      "he": "סיימתם את הפרויקט?"
+    },
+    {
+      "id": "s000513",
+      "es": "Mi hermana ha encontrado un trabajo nuevo.",
+      "he": "אחותי מצאה עבודה חדשה."
+    },
+    {
+      "id": "s000514",
+      "es": "Todavía no hemos decidido adónde ir.",
+      "he": "עדיין לא החלטנו לאן ללכת."
+    },
+    {
+      "id": "s000515",
+      "es": "¿Alguna vez has probado la comida japonesa?",
+      "he": "פעם ניסית אוכל יפני?"
+    },
+    {
+      "id": "s000516",
+      "es": "Han cerrado la tienda por vacaciones.",
+      "he": "סגרו את החנות לחופשה."
+    },
+    {
+      "id": "s000517",
+      "es": "He perdido mis llaves otra vez.",
+      "he": "איבדתי את המפתחות שלי שוב."
+    },
+    {
+      "id": "s000518",
+      "es": "Esta semana hemos trabajado mucho.",
+      "he": "השבוע עבדנו הרבה."
+    }
+  ]
+}
