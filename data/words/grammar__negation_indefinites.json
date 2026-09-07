@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "negation_indefinites",
+  "vocab": [
+    {
+      "id": "w001084",
+      "es": "Alguien",
+      "he": "מישהו",
+      "ex_es": "Alguien está tocando la puerta.",
+      "ex_he": "מישהו דופק בדלת."
+    },
+    {
+      "id": "w001085",
+      "es": "Nadie",
+      "he": "אף אחד",
+      "ex_es": "Nadie sabe la respuesta.",
+      "ex_he": "אף אחד לא יודע את התשובה."
+    },
+    {
+      "id": "w001086",
+      "es": "Algo",
+      "he": "משהו",
+      "ex_es": "Necesito decirte algo importante.",
+      "ex_he": "אני צריך להגיד לך משהו חשוב."
+    },
+    {
+      "id": "w001087",
+      "es": "Nada",
+      "he": "כלום / שום דבר",
+      "ex_es": "No pasó nada interesante hoy.",
+      "ex_he": "לא קרה כלום מעניין היום."
+    },
+    {
+      "id": "w001088",
+      "es": "Alguno / Alguna",
+      "he": "איזשהו / איזושהי",
+      "ex_es": "¿Tienes alguna pregunta?",
+      "ex_he": "יש לך שאלה כלשהי?"
+    },
+    {
+      "id": "w001089",
+      "es": "Ninguno / Ninguna",
+      "he": "אף אחד / אף אחת (מהם/מהן)",
+      "ex_es": "Ninguno de mis amigos vino a la fiesta.",
+      "ex_he": "אף אחד מהחברים שלי לא בא למסיבה."
+    },
+    {
+      "id": "w001090",
+      "es": "No veo a nadie",
+      "he": "אני לא רואה אף אחד",
+      "ex_es": "No veo a nadie en la calle.",
+      "ex_he": "אני לא רואה אף אחד ברחוב."
+    },
+    {
+      "id": "w001091",
+      "es": "No quiero nada",
+      "he": "אני לא רוצה כלום",
+      "ex_es": "No quiero nada de comer ahora.",
+      "ex_he": "אני לא רוצה כלום לאכול עכשיו."
+    },
+    {
+      "id": "w001092",
+      "es": "No tengo ningún problema",
+      "he": "אין לי שום בעיה",
+      "ex_es": "No tengo ningún problema con eso.",
+      "ex_he": "אין לי שום בעיה עם זה."
+    },
+    {
+      "id": "w001093",
+      "es": "¿Hay alguien en casa?",
+      "he": "יש מישהו בבית?",
+      "ex_es": "¿Hay alguien en casa? Toqué el timbre.",
+      "ex_he": "יש מישהו בבית? צלצלתי בפעמון."
+    },
+    {
+      "id": "w001094",
+      "es": "¿Tienes algo para mí?",
+      "he": "יש לך משהו בשבילי?",
+      "ex_es": "¿Tienes algo para mí de tu viaje?",
+      "ex_he": "יש לך משהו בשבילי מהטיול שלך?"
+    },
+    {
+      "id": "w001095",
+      "es": "Nunca más",
+      "he": "אף פעם יותר (לא)",
+      "ex_es": "No voy a hacer eso nunca más.",
+      "ex_he": "אני לא הולך לעשות את זה אף פעם יותר."
+    },
+    {
+      "id": "w001096",
+      "es": "Yo tampoco",
+      "he": "גם אני לא",
+      "ex_es": "Yo tampoco quiero ir a esa fiesta.",
+      "ex_he": "גם אני לא רוצה ללכת למסיבה הזאת."
+    },
+    {
+      "id": "w001097",
+      "es": "Ni... ni",
+      "he": "לא... ולא (גם וגם בשלילה)",
+      "ex_es": "No tengo ni tiempo ni dinero.",
+      "ex_he": "אין לי לא זמן ולא כסף."
+    },
+    {
+      "id": "w001098",
+      "es": "Ni idea",
+      "he": "אין לי מושג",
+      "ex_es": "¿Dónde está el control remoto? Ni idea.",
+      "ex_he": "איפה השלט? אין לי מושג."
+    },
+    {
+      "id": "w001099",
+      "es": "Alguna vez",
+      "he": "פעם (אי פעם)",
+      "ex_es": "¿Has viajado alguna vez a China?",
+      "ex_he": "טיילת פעם לסין?"
+    },
+    {
+      "id": "w001100",
+      "es": "En ninguna parte",
+      "he": "בשום מקום",
+      "ex_es": "No encuentro mis llaves en ninguna parte.",
+      "ex_he": "אני לא מוצא את המפתחות שלי בשום מקום."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000519",
+      "es": "¿Conoces a alguien que hable japonés?",
+      "he": "אתה מכיר מישהו שמדבר יפנית?"
+    },
+    {
+      "id": "s000520",
+      "es": "No hay nada más que decir.",
+      "he": "אין כלום יותר להגיד."
+    },
+    {
+      "id": "s000521",
+      "es": "Ninguna de las opciones me convence.",
+      "he": "אף אחת מהאפשרויות לא משכנעת אותי."
+    },
+    {
+      "id": "s000522",
+      "es": "No he visto a nadie en todo el día.",
+      "he": "לא ראיתי אף אחד כל היום."
+    },
+    {
+      "id": "s000523",
+      "es": "¿Falta algo en la lista?",
+      "he": "חסר משהו ברשימה?"
+    },
+    {
+      "id": "s000524",
+      "es": "Nunca he probado algo tan picante.",
+      "he": "מעולם לא טעמתי משהו כל כך חריף."
+    },
+    {
+      "id": "s000525",
+      "es": "No queda nada de café.",
+      "he": "לא נשאר כלום קפה."
+    },
+    {
+      "id": "s000526",
+      "es": "Tampoco encontré ninguna solución.",
+      "he": "גם אני לא מצאתי שום פתרון."
+    }
+  ]
+}

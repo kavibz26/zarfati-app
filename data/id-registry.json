@@ -6497,6 +6497,108 @@
       "he": "מה עשית היום?",
       "levelId": "grammar",
       "topicId": "present_perfect"
+    },
+    "w001084": {
+      "es": "Alguien",
+      "he": "מישהו",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001085": {
+      "es": "Nadie",
+      "he": "אף אחד",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001086": {
+      "es": "Algo",
+      "he": "משהו",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001087": {
+      "es": "Nada",
+      "he": "כלום / שום דבר",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001088": {
+      "es": "Alguno / Alguna",
+      "he": "איזשהו / איזושהי",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001089": {
+      "es": "Ninguno / Ninguna",
+      "he": "אף אחד / אף אחת (מהם/מהן)",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001090": {
+      "es": "No veo a nadie",
+      "he": "אני לא רואה אף אחד",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001091": {
+      "es": "No quiero nada",
+      "he": "אני לא רוצה כלום",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001092": {
+      "es": "No tengo ningún problema",
+      "he": "אין לי שום בעיה",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001093": {
+      "es": "¿Hay alguien en casa?",
+      "he": "יש מישהו בבית?",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001094": {
+      "es": "¿Tienes algo para mí?",
+      "he": "יש לך משהו בשבילי?",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001095": {
+      "es": "Nunca más",
+      "he": "אף פעם יותר (לא)",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001096": {
+      "es": "Yo tampoco",
+      "he": "גם אני לא",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001097": {
+      "es": "Ni... ni",
+      "he": "לא... ולא (גם וגם בשלילה)",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001098": {
+      "es": "Ni idea",
+      "he": "אין לי מושג",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001099": {
+      "es": "Alguna vez",
+      "he": "פעם (אי פעם)",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "w001100": {
+      "es": "En ninguna parte",
+      "he": "בשום מקום",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
     }
   },
   "sentences": {
@@ -9089,6 +9191,46 @@
       "es": "Esta semana hemos trabajado mucho.",
       "levelId": "grammar",
       "topicId": "present_perfect"
+    },
+    "s000519": {
+      "es": "¿Conoces a alguien que hable japonés?",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "s000520": {
+      "es": "No hay nada más que decir.",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "s000521": {
+      "es": "Ninguna de las opciones me convence.",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "s000522": {
+      "es": "No he visto a nadie en todo el día.",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "s000523": {
+      "es": "¿Falta algo en la lista?",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "s000524": {
+      "es": "Nunca he probado algo tan picante.",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "s000525": {
+      "es": "No queda nada de café.",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
+    },
+    "s000526": {
+      "es": "Tampoco encontré ninguna solución.",
+      "levelId": "grammar",
+      "topicId": "negation_indefinites"
     }
   }
 }

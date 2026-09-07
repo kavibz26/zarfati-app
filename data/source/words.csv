@@ -1082,3 +1082,20 @@ w001080,Todavía no he terminado,עוד לא סיימתי,Todavía no he termina
 w001081,Ya hemos comido,כבר אכלנו,"Ya hemos comido, gracias.","כבר אכלנו, תודה.",grammar,present_perfect,עבר מושלם
 w001082,Nunca he visto algo así,מעולם לא ראיתי משהו כזה,Nunca he visto algo tan hermoso.,מעולם לא ראיתי משהו כל כך יפה.,grammar,present_perfect,עבר מושלם
 w001083,¿Qué has hecho hoy?,מה עשית היום?,¿Qué has hecho hoy en el trabajo?,מה עשית היום בעבודה?,grammar,present_perfect,עבר מושלם
+w001084,Alguien,מישהו,Alguien está tocando la puerta.,מישהו דופק בדלת.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001085,Nadie,אף אחד,Nadie sabe la respuesta.,אף אחד לא יודע את התשובה.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001086,Algo,משהו,Necesito decirte algo importante.,אני צריך להגיד לך משהו חשוב.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001087,Nada,כלום / שום דבר,No pasó nada interesante hoy.,לא קרה כלום מעניין היום.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001088,Alguno / Alguna,איזשהו / איזושהי,¿Tienes alguna pregunta?,יש לך שאלה כלשהי?,grammar,negation_indefinites,שלילה וכינויי סתם
+w001089,Ninguno / Ninguna,אף אחד / אף אחת (מהם/מהן),Ninguno de mis amigos vino a la fiesta.,אף אחד מהחברים שלי לא בא למסיבה.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001090,No veo a nadie,אני לא רואה אף אחד,No veo a nadie en la calle.,אני לא רואה אף אחד ברחוב.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001091,No quiero nada,אני לא רוצה כלום,No quiero nada de comer ahora.,אני לא רוצה כלום לאכול עכשיו.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001092,No tengo ningún problema,אין לי שום בעיה,No tengo ningún problema con eso.,אין לי שום בעיה עם זה.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001093,¿Hay alguien en casa?,יש מישהו בבית?,¿Hay alguien en casa? Toqué el timbre.,יש מישהו בבית? צלצלתי בפעמון.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001094,¿Tienes algo para mí?,יש לך משהו בשבילי?,¿Tienes algo para mí de tu viaje?,יש לך משהו בשבילי מהטיול שלך?,grammar,negation_indefinites,שלילה וכינויי סתם
+w001095,Nunca más,אף פעם יותר (לא),No voy a hacer eso nunca más.,אני לא הולך לעשות את זה אף פעם יותר.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001096,Yo tampoco,גם אני לא,Yo tampoco quiero ir a esa fiesta.,גם אני לא רוצה ללכת למסיבה הזאת.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001097,Ni... ni,לא... ולא (גם וגם בשלילה),No tengo ni tiempo ni dinero.,אין לי לא זמן ולא כסף.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001098,Ni idea,אין לי מושג,¿Dónde está el control remoto? Ni idea.,איפה השלט? אין לי מושג.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001099,Alguna vez,פעם (אי פעם),¿Has viajado alguna vez a China?,טיילת פעם לסין?,grammar,negation_indefinites,שלילה וכינויי סתם
+w001100,En ninguna parte,בשום מקום,No encuentro mis llaves en ninguna parte.,אני לא מוצא את המפתחות שלי בשום מקום.,grammar,negation_indefinites,שלילה וכינויי סתם

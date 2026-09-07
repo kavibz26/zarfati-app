@@ -436,6 +436,12 @@
         "name": "עבר מושלם",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "negation_indefinites",
+        "name": "שלילה וכינויי סתם",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }
