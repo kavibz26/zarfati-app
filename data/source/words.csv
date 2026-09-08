@@ -1099,3 +1099,20 @@ w001097,Ni... ni,לא... ולא (גם וגם בשלילה),No tengo ni tiempo ni
 w001098,Ni idea,אין לי מושג,¿Dónde está el control remoto? Ni idea.,איפה השלט? אין לי מושג.,grammar,negation_indefinites,שלילה וכינויי סתם
 w001099,Alguna vez,פעם (אי פעם),¿Has viajado alguna vez a China?,טיילת פעם לסין?,grammar,negation_indefinites,שלילה וכינויי סתם
 w001100,En ninguna parte,בשום מקום,No encuentro mis llaves en ninguna parte.,אני לא מוצא את המפתחות שלי בשום מקום.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001101,La persona que llegó,האדם שהגיע,La persona que llegó tarde es mi jefe.,האדם שהגיע מאוחר הוא הבוס שלי.,grammar,relative_pronouns,כינויי זיקה
+w001102,El libro que leo,הספר שאני קורא,El libro que leo es muy largo.,הספר שאני קורא ארוך מאוד.,grammar,relative_pronouns,כינויי זיקה
+w001103,La casa que compramos,הבית שקנינו,La casa que compramos tiene un jardín.,לבית שקנינו יש גינה.,grammar,relative_pronouns,כינויי זיקה
+w001104,Los amigos que invité,החברים שהזמנתי,Los amigos que invité no pudieron venir.,החברים שהזמנתי לא יכלו לבוא.,grammar,relative_pronouns,כינויי זיקה
+w001105,La chica con quien hablo,הבחורה שאיתה אני מדבר,La chica con quien hablo es mi vecina.,הבחורה שאיתה אני מדבר היא השכנה שלי.,grammar,relative_pronouns,כינויי זיקה
+w001106,El hombre a quien conozco,האיש שאני מכיר,El hombre a quien conozco trabaja aquí.,האיש שאני מכיר עובד כאן.,grammar,relative_pronouns,כינויי זיקה
+w001107,Las personas quienes vinieron,האנשים שהגיעו,Las personas quienes vinieron se fueron temprano.,האנשים שהגיעו עזבו מוקדם.,grammar,relative_pronouns,כינויי זיקה
+w001108,La ciudad donde vivo,העיר שבה אני גר,La ciudad donde vivo es muy tranquila.,העיר שבה אני גר מאוד שקטה.,grammar,relative_pronouns,כינויי זיקה
+w001109,El restaurante donde comimos,המסעדה שבה אכלנו,El restaurante donde comimos cerró temprano.,המסעדה שבה אכלנו נסגרה מוקדם.,grammar,relative_pronouns,כינויי זיקה
+w001110,"Mi amigo, cuyo padre es médico","החבר שלי, שאביו רופא","Mi amigo, cuyo padre es médico, vive cerca.","החבר שלי, שאביו רופא, גר קרוב.",grammar,relative_pronouns,כינויי זיקה
+w001111,La mujer cuya hija estudia aquí,האישה שבתה לומדת כאן,La mujer cuya hija estudia aquí es profesora.,האישה שבתה לומדת כאן היא מורה.,grammar,relative_pronouns,כינויי זיקה
+w001112,Lo que dijiste,מה שאמרת,Lo que dijiste me hizo pensar.,מה שאמרת גרם לי לחשוב.,grammar,relative_pronouns,כינויי זיקה
+w001113,Todo lo que necesito,כל מה שאני צריך,Tengo todo lo que necesito para el viaje.,יש לי כל מה שאני צריך לטיול.,grammar,relative_pronouns,כינויי זיקה
+w001114,No entiendo lo que pasó,אני לא מבין מה שקרה,No entiendo lo que pasó anoche.,אני לא מבין מה שקרה אתמול בלילה.,grammar,relative_pronouns,כינויי זיקה
+w001115,Eso es lo que quiero,זה מה שאני רוצה,Eso es exactamente lo que quiero.,זה בדיוק מה שאני רוצה.,grammar,relative_pronouns,כינויי זיקה
+w001116,El día en que nos conocimos,היום שבו הכרנו,El día en que nos conocimos fue especial.,היום שבו הכרנו היה מיוחד.,grammar,relative_pronouns,כינויי זיקה
+w001117,La razón por la que vine,הסיבה שבגללה באתי,La razón por la que vine es importante.,הסיבה שבגללה באתי חשובה.,grammar,relative_pronouns,כינויי זיקה

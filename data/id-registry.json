@@ -6599,6 +6599,108 @@
       "he": "בשום מקום",
       "levelId": "grammar",
       "topicId": "negation_indefinites"
+    },
+    "w001101": {
+      "es": "La persona que llegó",
+      "he": "האדם שהגיע",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001102": {
+      "es": "El libro que leo",
+      "he": "הספר שאני קורא",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001103": {
+      "es": "La casa que compramos",
+      "he": "הבית שקנינו",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001104": {
+      "es": "Los amigos que invité",
+      "he": "החברים שהזמנתי",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001105": {
+      "es": "La chica con quien hablo",
+      "he": "הבחורה שאיתה אני מדבר",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001106": {
+      "es": "El hombre a quien conozco",
+      "he": "האיש שאני מכיר",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001107": {
+      "es": "Las personas quienes vinieron",
+      "he": "האנשים שהגיעו",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001108": {
+      "es": "La ciudad donde vivo",
+      "he": "העיר שבה אני גר",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001109": {
+      "es": "El restaurante donde comimos",
+      "he": "המסעדה שבה אכלנו",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001110": {
+      "es": "Mi amigo, cuyo padre es médico",
+      "he": "החבר שלי, שאביו רופא",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001111": {
+      "es": "La mujer cuya hija estudia aquí",
+      "he": "האישה שבתה לומדת כאן",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001112": {
+      "es": "Lo que dijiste",
+      "he": "מה שאמרת",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001113": {
+      "es": "Todo lo que necesito",
+      "he": "כל מה שאני צריך",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001114": {
+      "es": "No entiendo lo que pasó",
+      "he": "אני לא מבין מה שקרה",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001115": {
+      "es": "Eso es lo que quiero",
+      "he": "זה מה שאני רוצה",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001116": {
+      "es": "El día en que nos conocimos",
+      "he": "היום שבו הכרנו",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "w001117": {
+      "es": "La razón por la que vine",
+      "he": "הסיבה שבגללה באתי",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
     }
   },
   "sentences": {
@@ -9231,6 +9333,46 @@
       "es": "Tampoco encontré ninguna solución.",
       "levelId": "grammar",
       "topicId": "negation_indefinites"
+    },
+    "s000527": {
+      "es": "El chico que vive al lado es muy simpático.",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "s000528": {
+      "es": "No conozco a nadie que hable tan rápido como tú.",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "s000529": {
+      "es": "Ese es el parque donde jugábamos de niños.",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "s000530": {
+      "es": "La mujer cuyo coche se rompió llamó a un mecánico.",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "s000531": {
+      "es": "Esto es exactamente lo que esperaba.",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "s000532": {
+      "es": "El año en que nací fue muy especial.",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "s000533": {
+      "es": "Quiero saber la razón por la que te fuiste.",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
+    },
+    "s000534": {
+      "es": "Los libros que más me gustan son de aventuras.",
+      "levelId": "grammar",
+      "topicId": "relative_pronouns"
     }
   }
 }

@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "relative_pronouns",
+  "vocab": [
+    {
+      "id": "w001101",
+      "es": "La persona que llegó",
+      "he": "האדם שהגיע",
+      "ex_es": "La persona que llegó tarde es mi jefe.",
+      "ex_he": "האדם שהגיע מאוחר הוא הבוס שלי."
+    },
+    {
+      "id": "w001102",
+      "es": "El libro que leo",
+      "he": "הספר שאני קורא",
+      "ex_es": "El libro que leo es muy largo.",
+      "ex_he": "הספר שאני קורא ארוך מאוד."
+    },
+    {
+      "id": "w001103",
+      "es": "La casa que compramos",
+      "he": "הבית שקנינו",
+      "ex_es": "La casa que compramos tiene un jardín.",
+      "ex_he": "לבית שקנינו יש גינה."
+    },
+    {
+      "id": "w001104",
+      "es": "Los amigos que invité",
+      "he": "החברים שהזמנתי",
+      "ex_es": "Los amigos que invité no pudieron venir.",
+      "ex_he": "החברים שהזמנתי לא יכלו לבוא."
+    },
+    {
+      "id": "w001105",
+      "es": "La chica con quien hablo",
+      "he": "הבחורה שאיתה אני מדבר",
+      "ex_es": "La chica con quien hablo es mi vecina.",
+      "ex_he": "הבחורה שאיתה אני מדבר היא השכנה שלי."
+    },
+    {
+      "id": "w001106",
+      "es": "El hombre a quien conozco",
+      "he": "האיש שאני מכיר",
+      "ex_es": "El hombre a quien conozco trabaja aquí.",
+      "ex_he": "האיש שאני מכיר עובד כאן."
+    },
+    {
+      "id": "w001107",
+      "es": "Las personas quienes vinieron",
+      "he": "האנשים שהגיעו",
+      "ex_es": "Las personas quienes vinieron se fueron temprano.",
+      "ex_he": "האנשים שהגיעו עזבו מוקדם."
+    },
+    {
+      "id": "w001108",
+      "es": "La ciudad donde vivo",
+      "he": "העיר שבה אני גר",
+      "ex_es": "La ciudad donde vivo es muy tranquila.",
+      "ex_he": "העיר שבה אני גר מאוד שקטה."
+    },
+    {
+      "id": "w001109",
+      "es": "El restaurante donde comimos",
+      "he": "המסעדה שבה אכלנו",
+      "ex_es": "El restaurante donde comimos cerró temprano.",
+      "ex_he": "המסעדה שבה אכלנו נסגרה מוקדם."
+    },
+    {
+      "id": "w001110",
+      "es": "Mi amigo, cuyo padre es médico",
+      "he": "החבר שלי, שאביו רופא",
+      "ex_es": "Mi amigo, cuyo padre es médico, vive cerca.",
+      "ex_he": "החבר שלי, שאביו רופא, גר קרוב."
+    },
+    {
+      "id": "w001111",
+      "es": "La mujer cuya hija estudia aquí",
+      "he": "האישה שבתה לומדת כאן",
+      "ex_es": "La mujer cuya hija estudia aquí es profesora.",
+      "ex_he": "האישה שבתה לומדת כאן היא מורה."
+    },
+    {
+      "id": "w001112",
+      "es": "Lo que dijiste",
+      "he": "מה שאמרת",
+      "ex_es": "Lo que dijiste me hizo pensar.",
+      "ex_he": "מה שאמרת גרם לי לחשוב."
+    },
+    {
+      "id": "w001113",
+      "es": "Todo lo que necesito",
+      "he": "כל מה שאני צריך",
+      "ex_es": "Tengo todo lo que necesito para el viaje.",
+      "ex_he": "יש לי כל מה שאני צריך לטיול."
+    },
+    {
+      "id": "w001114",
+      "es": "No entiendo lo que pasó",
+      "he": "אני לא מבין מה שקרה",
+      "ex_es": "No entiendo lo que pasó anoche.",
+      "ex_he": "אני לא מבין מה שקרה אתמול בלילה."
+    },
+    {
+      "id": "w001115",
+      "es": "Eso es lo que quiero",
+      "he": "זה מה שאני רוצה",
+      "ex_es": "Eso es exactamente lo que quiero.",
+      "ex_he": "זה בדיוק מה שאני רוצה."
+    },
+    {
+      "id": "w001116",
+      "es": "El día en que nos conocimos",
+      "he": "היום שבו הכרנו",
+      "ex_es": "El día en que nos conocimos fue especial.",
+      "ex_he": "היום שבו הכרנו היה מיוחד."
+    },
+    {
+      "id": "w001117",
+      "es": "La razón por la que vine",
+      "he": "הסיבה שבגללה באתי",
+      "ex_es": "La razón por la que vine es importante.",
+      "ex_he": "הסיבה שבגללה באתי חשובה."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000527",
+      "es": "El chico que vive al lado es muy simpático.",
+      "he": "הבחור שגר לידי מאוד נחמד."
+    },
+    {
+      "id": "s000528",
+      "es": "No conozco a nadie que hable tan rápido como tú.",
+      "he": "אני לא מכיר אף אחד שמדבר כל כך מהר כמוך."
+    },
+    {
+      "id": "s000529",
+      "es": "Ese es el parque donde jugábamos de niños.",
+      "he": "זה הפארק שבו שיחקנו כשהיינו ילדים."
+    },
+    {
+      "id": "s000530",
+      "es": "La mujer cuyo coche se rompió llamó a un mecánico.",
+      "he": "האישה שהמכונית שלה התקלקלה התקשרה למוסכניק."
+    },
+    {
+      "id": "s000531",
+      "es": "Esto es exactamente lo que esperaba.",
+      "he": "זה בדיוק מה שציפיתי לו."
+    },
+    {
+      "id": "s000532",
+      "es": "El año en que nací fue muy especial.",
+      "he": "השנה שבה נולדתי הייתה מיוחדת מאוד."
+    },
+    {
+      "id": "s000533",
+      "es": "Quiero saber la razón por la que te fuiste.",
+      "he": "אני רוצה לדעת את הסיבה שבגללה עזבת."
+    },
+    {
+      "id": "s000534",
+      "es": "Los libros que más me gustan son de aventuras.",
+      "he": "הספרים שהכי אני אוהב הם ספרי הרפתקאות."
+    }
+  ]
+}

@@ -442,6 +442,12 @@
         "name": "שלילה וכינויי סתם",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "relative_pronouns",
+        "name": "כינויי זיקה",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }
