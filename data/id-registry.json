@@ -6803,6 +6803,108 @@
       "he": "כיום / כרגע",
       "levelId": "grammar",
       "topicId": "adverbs_mente"
+    },
+    "w001135": {
+      "es": "Perrito",
+      "he": "כלבלב",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001136": {
+      "es": "Mesita",
+      "he": "שולחן קטן",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001137": {
+      "es": "Casita",
+      "he": "בית קטן / ביתן",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001138": {
+      "es": "Hermanito / Hermanita",
+      "he": "אח קטן / אחות קטנה",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001139": {
+      "es": "Momentito",
+      "he": "רגע קטן",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001140": {
+      "es": "Ahorita",
+      "he": "עכשיו ממש / תכף",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001141": {
+      "es": "Poquito",
+      "he": "קצת",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001142": {
+      "es": "Cerquita",
+      "he": "קרוב קרוב",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001143": {
+      "es": "Abuelita",
+      "he": "סבתא (חיבה)",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001144": {
+      "es": "Gatito",
+      "he": "חתלתול",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001145": {
+      "es": "Cafecito",
+      "he": "כוסית קפה",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001146": {
+      "es": "Amiguito / Amiguita",
+      "he": "חבר קטן / חברה קטנה",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001147": {
+      "es": "Grandote / Grandota",
+      "he": "גדול מאוד",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001148": {
+      "es": "Manota",
+      "he": "יד גדולה",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001149": {
+      "es": "Hombrón",
+      "he": "גבר גדול וחזק",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001150": {
+      "es": "Un ratito",
+      "he": "רגע (זמן קצר)",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "w001151": {
+      "es": "Chiquito / Chiquita",
+      "he": "קטנטן / קטנטנה",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
     }
   },
   "sentences": {
@@ -9515,6 +9617,46 @@
       "es": "Constantemente pienso en ese viaje que hicimos juntos.",
       "levelId": "grammar",
       "topicId": "adverbs_mente"
+    },
+    "s000543": {
+      "es": "¡Qué perrito tan bonito tienes!",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "s000544": {
+      "es": "Vivo en una casita pequeña cerca de la playa.",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "s000545": {
+      "es": "Mi abuelita siempre me da un beso antes de dormir.",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "s000546": {
+      "es": "Solo necesito un ratito para terminar esto.",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "s000547": {
+      "es": "El bebé tiene las manitas muy suaves.",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "s000548": {
+      "es": "Ese edificio es grandote, tiene treinta pisos.",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "s000549": {
+      "es": "¿Me das un poquito más de tiempo?",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
+    },
+    "s000550": {
+      "es": "Ahorita mismo voy para allá.",
+      "levelId": "grammar",
+      "topicId": "diminutives_augmentatives"
     }
   }
 }

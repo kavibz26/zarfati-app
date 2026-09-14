@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "diminutives_augmentatives",
+  "vocab": [
+    {
+      "id": "w001135",
+      "es": "Perrito",
+      "he": "כלבלב",
+      "ex_es": "Tengo un perrito muy juguetón.",
+      "ex_he": "יש לי כלבלב מאוד שובב."
+    },
+    {
+      "id": "w001136",
+      "es": "Mesita",
+      "he": "שולחן קטן",
+      "ex_es": "Puse el libro en la mesita de noche.",
+      "ex_he": "שמתי את הספר על שולחן הלילה הקטן."
+    },
+    {
+      "id": "w001137",
+      "es": "Casita",
+      "he": "בית קטן / ביתן",
+      "ex_es": "Los niños construyeron una casita de madera.",
+      "ex_he": "הילדים בנו ביתן עץ קטן."
+    },
+    {
+      "id": "w001138",
+      "es": "Hermanito / Hermanita",
+      "he": "אח קטן / אחות קטנה",
+      "ex_es": "Mi hermanito tiene solo cinco años.",
+      "ex_he": "אחי הקטן בן חמש בלבד."
+    },
+    {
+      "id": "w001139",
+      "es": "Momentito",
+      "he": "רגע קטן",
+      "ex_es": "Espera un momentito, ya regreso.",
+      "ex_he": "חכה רגע קטן, אני כבר חוזר."
+    },
+    {
+      "id": "w001140",
+      "es": "Ahorita",
+      "he": "עכשיו ממש / תכף",
+      "ex_es": "Ahorita te ayudo con eso.",
+      "ex_he": "תכף אני עוזר לך עם זה."
+    },
+    {
+      "id": "w001141",
+      "es": "Poquito",
+      "he": "קצת",
+      "ex_es": "Dame un poquito de agua, por favor.",
+      "ex_he": "תן לי קצת מים, בבקשה."
+    },
+    {
+      "id": "w001142",
+      "es": "Cerquita",
+      "he": "קרוב קרוב",
+      "ex_es": "Mi casa está cerquita de aquí.",
+      "ex_he": "הבית שלי ממש קרוב לכאן."
+    },
+    {
+      "id": "w001143",
+      "es": "Abuelita",
+      "he": "סבתא (חיבה)",
+      "ex_es": "Mi abuelita cocina muy rico.",
+      "ex_he": "הסבתא שלי מבשלת טעים מאוד."
+    },
+    {
+      "id": "w001144",
+      "es": "Gatito",
+      "he": "חתלתול",
+      "ex_es": "El gatito duerme todo el día.",
+      "ex_he": "החתלתול ישן כל היום."
+    },
+    {
+      "id": "w001145",
+      "es": "Cafecito",
+      "he": "כוסית קפה",
+      "ex_es": "¿Quieres un cafecito antes de salir?",
+      "ex_he": "רוצה כוסית קפה לפני שיוצאים?"
+    },
+    {
+      "id": "w001146",
+      "es": "Amiguito / Amiguita",
+      "he": "חבר קטן / חברה קטנה",
+      "ex_es": "Mi hijo tiene un amiguito nuevo en la escuela.",
+      "ex_he": "לבן שלי יש חבר חדש קטן בבית הספר."
+    },
+    {
+      "id": "w001147",
+      "es": "Grandote / Grandota",
+      "he": "גדול מאוד",
+      "ex_es": "Ese perro es grandote.",
+      "ex_he": "הכלב הזה גדול מאוד."
+    },
+    {
+      "id": "w001148",
+      "es": "Manota",
+      "he": "יד גדולה",
+      "ex_es": "Tiene unas manotas enormes.",
+      "ex_he": "יש לו ידיים גדולות מאוד."
+    },
+    {
+      "id": "w001149",
+      "es": "Hombrón",
+      "he": "גבר גדול וחזק",
+      "ex_es": "Su padre es un hombrón muy fuerte.",
+      "ex_he": "אבא שלו הוא גבר גדול וחזק מאוד."
+    },
+    {
+      "id": "w001150",
+      "es": "Un ratito",
+      "he": "רגע (זמן קצר)",
+      "ex_es": "Quédate un ratito más.",
+      "ex_he": "תישאר עוד רגע."
+    },
+    {
+      "id": "w001151",
+      "es": "Chiquito / Chiquita",
+      "he": "קטנטן / קטנטנה",
+      "ex_es": "Cuando era chiquito, vivía en Perú.",
+      "ex_he": "כשהייתי קטנטן, גרתי בפרו."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000543",
+      "es": "¡Qué perrito tan bonito tienes!",
+      "he": "איזה כלבלב יפה יש לך!"
+    },
+    {
+      "id": "s000544",
+      "es": "Vivo en una casita pequeña cerca de la playa.",
+      "he": "אני גר בביתן קטן ליד החוף."
+    },
+    {
+      "id": "s000545",
+      "es": "Mi abuelita siempre me da un beso antes de dormir.",
+      "he": "הסבתא שלי תמיד נותנת לי נשיקה לפני השינה."
+    },
+    {
+      "id": "s000546",
+      "es": "Solo necesito un ratito para terminar esto.",
+      "he": "אני צריך רק רגע כדי לסיים את זה."
+    },
+    {
+      "id": "s000547",
+      "es": "El bebé tiene las manitas muy suaves.",
+      "he": "לתינוק יש ידיים קטנות ורכות מאוד."
+    },
+    {
+      "id": "s000548",
+      "es": "Ese edificio es grandote, tiene treinta pisos.",
+      "he": "הבניין הזה גדול מאוד, יש בו שלושים קומות."
+    },
+    {
+      "id": "s000549",
+      "es": "¿Me das un poquito más de tiempo?",
+      "he": "תיתן לי עוד קצת זמן?"
+    },
+    {
+      "id": "s000550",
+      "es": "Ahorita mismo voy para allá.",
+      "he": "אני בא לשם ממש עכשיו."
+    }
+  ]
+}
