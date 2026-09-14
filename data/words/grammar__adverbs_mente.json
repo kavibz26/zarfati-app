@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "adverbs_mente",
+  "vocab": [
+    {
+      "id": "w001118",
+      "es": "Rápidamente",
+      "he": "במהירות",
+      "ex_es": "Corrió rápidamente hacia la puerta.",
+      "ex_he": "הוא רץ במהירות לעבר הדלת."
+    },
+    {
+      "id": "w001119",
+      "es": "Lentamente",
+      "he": "לאט",
+      "ex_es": "El coche se movía lentamente por la nieve.",
+      "ex_he": "המכונית נעה לאט בשלג."
+    },
+    {
+      "id": "w001120",
+      "es": "Fácilmente",
+      "he": "בקלות",
+      "ex_es": "Aprendió el idioma fácilmente.",
+      "ex_he": "הוא למד את השפה בקלות."
+    },
+    {
+      "id": "w001121",
+      "es": "Difícilmente",
+      "he": "בקושי",
+      "ex_es": "Difícilmente podré terminar esto hoy.",
+      "ex_he": "בקושי אצליח לסיים את זה היום."
+    },
+    {
+      "id": "w001122",
+      "es": "Claramente",
+      "he": "בבירור",
+      "ex_es": "Explicó el problema claramente.",
+      "ex_he": "הוא הסביר את הבעיה בבירור."
+    },
+    {
+      "id": "w001123",
+      "es": "Perfectamente",
+      "he": "בצורה מושלמת",
+      "ex_es": "Todo salió perfectamente en la boda.",
+      "ex_he": "הכל יצא בצורה מושלמת בחתונה."
+    },
+    {
+      "id": "w001124",
+      "es": "Generalmente",
+      "he": "באופן כללי",
+      "ex_es": "Generalmente como en casa.",
+      "ex_he": "באופן כללי אני אוכל בבית."
+    },
+    {
+      "id": "w001125",
+      "es": "Especialmente",
+      "he": "במיוחד",
+      "ex_es": "Me gusta la música, especialmente el jazz.",
+      "ex_he": "אני אוהב מוזיקה, במיוחד ג'אז."
+    },
+    {
+      "id": "w001126",
+      "es": "Realmente",
+      "he": "באמת",
+      "ex_es": "Realmente no sé qué hacer.",
+      "ex_he": "אני באמת לא יודע מה לעשות."
+    },
+    {
+      "id": "w001127",
+      "es": "Simplemente",
+      "he": "פשוט",
+      "ex_es": "Simplemente no tengo tiempo.",
+      "ex_he": "פשוט אין לי זמן."
+    },
+    {
+      "id": "w001128",
+      "es": "Finalmente",
+      "he": "לבסוף",
+      "ex_es": "Finalmente llegamos a casa.",
+      "ex_he": "לבסוף הגענו הביתה."
+    },
+    {
+      "id": "w001129",
+      "es": "Exactamente",
+      "he": "בדיוק",
+      "ex_es": "Llegamos exactamente a las ocho.",
+      "ex_he": "הגענו בדיוק בשמונה."
+    },
+    {
+      "id": "w001130",
+      "es": "Probablemente",
+      "he": "כנראה",
+      "ex_es": "Probablemente llueva mañana.",
+      "ex_he": "כנראה שירד גשם מחר."
+    },
+    {
+      "id": "w001131",
+      "es": "Recientemente",
+      "he": "לאחרונה",
+      "ex_es": "Recientemente cambié de trabajo.",
+      "ex_he": "לאחרונה החלפתי עבודה."
+    },
+    {
+      "id": "w001132",
+      "es": "Constantemente",
+      "he": "כל הזמן / באופן קבוע",
+      "ex_es": "Me llama constantemente.",
+      "ex_he": "הוא מתקשר אליי כל הזמן."
+    },
+    {
+      "id": "w001133",
+      "es": "Afortunadamente",
+      "he": "למרבה המזל",
+      "ex_es": "Afortunadamente, nadie salió herido.",
+      "ex_he": "למרבה המזל, אף אחד לא נפצע."
+    },
+    {
+      "id": "w001134",
+      "es": "Actualmente",
+      "he": "כיום / כרגע",
+      "ex_es": "Actualmente vivo en Madrid.",
+      "ex_he": "כרגע אני גר במדריד."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000535",
+      "es": "Habla más lentamente, por favor, no te entiendo.",
+      "he": "דבר לאט יותר בבקשה, אני לא מבין אותך."
+    },
+    {
+      "id": "s000536",
+      "es": "Ella resolvió el problema rápidamente y sin ayuda.",
+      "he": "היא פתרה את הבעיה במהירות ובלי עזרה."
+    },
+    {
+      "id": "s000537",
+      "es": "Normalmente llego al trabajo a las nueve.",
+      "he": "בדרך כלל אני מגיע לעבודה בתשע."
+    },
+    {
+      "id": "s000538",
+      "es": "Afortunadamente, encontramos un hotel muy bueno.",
+      "he": "למרבה המזל, מצאנו מלון טוב מאוד."
+    },
+    {
+      "id": "s000539",
+      "es": "Actualmente estoy buscando un nuevo apartamento.",
+      "he": "כרגע אני מחפש דירה חדשה."
+    },
+    {
+      "id": "s000540",
+      "es": "Probablemente lleguemos tarde a la reunión.",
+      "he": "כנראה שנגיע מאוחר לפגישה."
+    },
+    {
+      "id": "s000541",
+      "es": "He estado muy ocupado recientemente con el trabajo.",
+      "he": "הייתי עסוק מאוד לאחרונה עם העבודה."
+    },
+    {
+      "id": "s000542",
+      "es": "Constantemente pienso en ese viaje que hicimos juntos.",
+      "he": "אני חושב כל הזמן על הטיול ההוא שעשינו יחד."
+    }
+  ]
+}

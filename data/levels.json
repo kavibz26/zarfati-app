@@ -448,6 +448,12 @@
         "name": "כינויי זיקה",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "adverbs_mente",
+        "name": "תארי פועל בסיומת -mente",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }

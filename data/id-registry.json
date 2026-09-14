@@ -6701,6 +6701,108 @@
       "he": "הסיבה שבגללה באתי",
       "levelId": "grammar",
       "topicId": "relative_pronouns"
+    },
+    "w001118": {
+      "es": "Rápidamente",
+      "he": "במהירות",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001119": {
+      "es": "Lentamente",
+      "he": "לאט",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001120": {
+      "es": "Fácilmente",
+      "he": "בקלות",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001121": {
+      "es": "Difícilmente",
+      "he": "בקושי",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001122": {
+      "es": "Claramente",
+      "he": "בבירור",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001123": {
+      "es": "Perfectamente",
+      "he": "בצורה מושלמת",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001124": {
+      "es": "Generalmente",
+      "he": "באופן כללי",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001125": {
+      "es": "Especialmente",
+      "he": "במיוחד",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001126": {
+      "es": "Realmente",
+      "he": "באמת",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001127": {
+      "es": "Simplemente",
+      "he": "פשוט",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001128": {
+      "es": "Finalmente",
+      "he": "לבסוף",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001129": {
+      "es": "Exactamente",
+      "he": "בדיוק",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001130": {
+      "es": "Probablemente",
+      "he": "כנראה",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001131": {
+      "es": "Recientemente",
+      "he": "לאחרונה",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001132": {
+      "es": "Constantemente",
+      "he": "כל הזמן / באופן קבוע",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001133": {
+      "es": "Afortunadamente",
+      "he": "למרבה המזל",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "w001134": {
+      "es": "Actualmente",
+      "he": "כיום / כרגע",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
     }
   },
   "sentences": {
@@ -9373,6 +9475,46 @@
       "es": "Los libros que más me gustan son de aventuras.",
       "levelId": "grammar",
       "topicId": "relative_pronouns"
+    },
+    "s000535": {
+      "es": "Habla más lentamente, por favor, no te entiendo.",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "s000536": {
+      "es": "Ella resolvió el problema rápidamente y sin ayuda.",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "s000537": {
+      "es": "Normalmente llego al trabajo a las nueve.",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "s000538": {
+      "es": "Afortunadamente, encontramos un hotel muy bueno.",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "s000539": {
+      "es": "Actualmente estoy buscando un nuevo apartamento.",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "s000540": {
+      "es": "Probablemente lleguemos tarde a la reunión.",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "s000541": {
+      "es": "He estado muy ocupado recientemente con el trabajo.",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
+    },
+    "s000542": {
+      "es": "Constantemente pienso en ese viaje que hicimos juntos.",
+      "levelId": "grammar",
+      "topicId": "adverbs_mente"
     }
   }
 }
