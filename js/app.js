@@ -517,16 +517,28 @@ if (typeof speechSynthesis !== "undefined") {
 }
 const NORMAL_SPEECH_RATE = 0.9;
 const SLOW_SPEECH_RATE = 0.7; // "השמעה איטית" - כ-0.7x-0.75x, עדיין קול טבעי ולא מעוות
+// ב-iOS Safari/WebKit, קריאה ל-speechSynthesis.speak() מיד אחרי cancel() עלולה "להיבלע" בשקט
+// (בלי אירוע start/error בכלל) - הביטול הפנימי שם א-סינכרוני גם כש-cancel() עצמו חוזר מיד.
+// זה קורה בעיקר כשכבר יש השמעה פעילה שצריך לבטל (למשל: המשתמש לוחץ קודם על השמעה רגילה,
+// ואז מיד על "הצב"/איטית לפני שהראשונה הסתיימה). speakRequestId מוודא ש"הלחיצה האחרונה מנצחת"
+// גם עם ההשהיה הקצרה - אם התקבלה בקשת השמעה חדשה יותר בזמן ההמתנה, הבקשה הישנה מתבטלת בלי
+// לקרוא בכלל ל-speak() (כדי לא לגרום להשמעות חופפות בלחיצות חוזרות ומהירות).
+let speakRequestId = 0;
 async function speak(text, rate = NORMAL_SPEECH_RATE) {
   if (typeof speechSynthesis === "undefined") return;
+  const myRequestId = ++speakRequestId;
   if (!spanishVoiceReady) await resolveSpanishVoice();
-  speechSynthesis.cancel();
+  if (myRequestId !== speakRequestId) return;
   const clean = text.replace(/\([^)]*\)/g, "").replace(/¿|¡/g, "").trim();
   const utter = new SpeechSynthesisUtterance(clean);
   utter.lang = "es-ES";
   if (spanishVoice) utter.voice = spanishVoice;
   utter.rate = rate;
-  speechSynthesis.speak(utter);
+  speechSynthesis.cancel();
+  setTimeout(() => {
+    if (myRequestId !== speakRequestId) return;
+    speechSynthesis.speak(utter);
+  }, 80);
 }
 
 // ---------- עזרי אקראיות ----------
