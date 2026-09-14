@@ -1,0 +1,167 @@
+{
+  "levelId": "grammar",
+  "topicId": "conjunctions",
+  "vocab": [
+    {
+      "id": "w001152",
+      "es": "Y",
+      "he": "ו (וגם)",
+      "ex_es": "Compré pan y leche.",
+      "ex_he": "קניתי לחם וחלב."
+    },
+    {
+      "id": "w001153",
+      "es": "O",
+      "he": "או",
+      "ex_es": "¿Quieres té o café?",
+      "ex_he": "אתה רוצה תה או קפה?"
+    },
+    {
+      "id": "w001154",
+      "es": "Pero",
+      "he": "אבל",
+      "ex_es": "Quiero ir, pero no tengo tiempo.",
+      "ex_he": "אני רוצה ללכת, אבל אין לי זמן."
+    },
+    {
+      "id": "w001155",
+      "es": "Porque",
+      "he": "כי / מפני ש",
+      "ex_es": "No fui a la fiesta porque estaba enfermo.",
+      "ex_he": "לא הלכתי למסיבה כי הייתי חולה."
+    },
+    {
+      "id": "w001156",
+      "es": "Aunque",
+      "he": "למרות ש / אף על פי ש",
+      "ex_es": "Aunque llueve, vamos a salir.",
+      "ex_he": "למרות שיורד גשם, אנחנו יוצאים."
+    },
+    {
+      "id": "w001157",
+      "es": "Sin embargo",
+      "he": "עם זאת / למרות זאת",
+      "ex_es": "Estudió mucho; sin embargo, no aprobó el examen.",
+      "ex_he": "הוא למד הרבה; עם זאת, הוא לא עבר את המבחן."
+    },
+    {
+      "id": "w001158",
+      "es": "Además",
+      "he": "בנוסף",
+      "ex_es": "Habla español y, además, francés.",
+      "ex_he": "הוא מדבר ספרדית, ובנוסף, צרפתית."
+    },
+    {
+      "id": "w001159",
+      "es": "Mientras tanto",
+      "he": "בינתיים",
+      "ex_es": "Mientras tanto, puedes esperar aquí.",
+      "ex_he": "בינתיים, אתה יכול לחכות כאן."
+    },
+    {
+      "id": "w001160",
+      "es": "Ya que",
+      "he": "מכיוון ש",
+      "ex_es": "Ya que estás aquí, ayúdame con esto.",
+      "ex_he": "מכיוון שאתה כאן, תעזור לי עם זה."
+    },
+    {
+      "id": "w001161",
+      "es": "Por eso",
+      "he": "בגלל זה / לכן",
+      "ex_es": "No dormí bien, por eso estoy cansado.",
+      "ex_he": "לא ישנתי טוב, בגלל זה אני עייף."
+    },
+    {
+      "id": "w001162",
+      "es": "O sea",
+      "he": "זאת אומרת",
+      "ex_es": "Llego a las seis, o sea, en una hora.",
+      "ex_he": "אני מגיע בשש, זאת אומרת, בעוד שעה."
+    },
+    {
+      "id": "w001163",
+      "es": "Es decir",
+      "he": "כלומר",
+      "ex_es": "Es vegetariano, es decir, no come carne.",
+      "ex_he": "הוא צמחוני, כלומר, הוא לא אוכל בשר."
+    },
+    {
+      "id": "w001164",
+      "es": "Tanto... como",
+      "he": "גם... וגם",
+      "ex_es": "Tanto mi hermano como mi hermana estudian medicina.",
+      "ex_he": "גם אחי וגם אחותי לומדים רפואה."
+    },
+    {
+      "id": "w001165",
+      "es": "No obstante",
+      "he": "אף על פי כן (רשמי)",
+      "ex_es": "Hizo frío; no obstante, salimos a caminar.",
+      "ex_he": "היה קר; אף על פי כן, יצאנו לטייל."
+    },
+    {
+      "id": "w001166",
+      "es": "Entonces",
+      "he": "אז / אם כך",
+      "ex_es": "Terminé el trabajo, entonces me fui a casa.",
+      "ex_he": "סיימתי את העבודה, אז הלכתי הביתה."
+    },
+    {
+      "id": "w001167",
+      "es": "Aun así",
+      "he": "למרות זאת, בכל זאת",
+      "ex_es": "Sabía que era difícil, aun así lo intentó.",
+      "ex_he": "הוא ידע שזה קשה, ובכל זאת ניסה."
+    },
+    {
+      "id": "w001168",
+      "es": "Por lo tanto",
+      "he": "לכן / משום כך",
+      "ex_es": "No estudió, por lo tanto suspendió el examen.",
+      "ex_he": "הוא לא למד, לכן הוא נכשל במבחן."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s000551",
+      "es": "Me gusta el café, pero prefiero el té por la mañana.",
+      "he": "אני אוהב קפה, אבל אני מעדיף תה בבוקר."
+    },
+    {
+      "id": "s000552",
+      "es": "No fuimos a la playa porque hacía mucho frío.",
+      "he": "לא הלכנו לחוף כי היה קר מאוד."
+    },
+    {
+      "id": "s000553",
+      "es": "Aunque estaba cansada, terminó todo el trabajo.",
+      "he": "למרות שהיא הייתה עייפה, היא סיימה את כל העבודה."
+    },
+    {
+      "id": "s000554",
+      "es": "Estudia mucho; sin embargo, nunca está satisfecho con sus notas.",
+      "he": "הוא לומד הרבה; עם זאת, הוא אף פעם לא מרוצה מהציונים שלו."
+    },
+    {
+      "id": "s000555",
+      "es": "Ya que vas al supermercado, compra huevos, por favor.",
+      "he": "מכיוון שאתה הולך לסופר, תקנה ביצים, בבקשה."
+    },
+    {
+      "id": "s000556",
+      "es": "Perdimos el tren, por lo tanto llegamos tarde a la reunión.",
+      "he": "פספסנו את הרכבת, ולכן הגענו מאוחר לפגישה."
+    },
+    {
+      "id": "s000557",
+      "es": "Tanto los niños como los adultos disfrutaron del espectáculo.",
+      "he": "גם הילדים וגם המבוגרים נהנו מההופעה."
+    },
+    {
+      "id": "s000558",
+      "es": "No tenía dinero, aun así fue de vacaciones.",
+      "he": "לא היה לו כסף, ובכל זאת הוא נסע לחופשה."
+    }
+  ]
+}

@@ -1150,3 +1150,20 @@ w001148,Manota,יד גדולה,Tiene unas manotas enormes.,יש לו ידיים 
 w001149,Hombrón,גבר גדול וחזק,Su padre es un hombrón muy fuerte.,אבא שלו הוא גבר גדול וחזק מאוד.,grammar,diminutives_augmentatives,צורות הקטנה והגדלה
 w001150,Un ratito,רגע (זמן קצר),Quédate un ratito más.,תישאר עוד רגע.,grammar,diminutives_augmentatives,צורות הקטנה והגדלה
 w001151,Chiquito / Chiquita,קטנטן / קטנטנה,"Cuando era chiquito, vivía en Perú.","כשהייתי קטנטן, גרתי בפרו.",grammar,diminutives_augmentatives,צורות הקטנה והגדלה
+w001152,Y,ו (וגם),Compré pan y leche.,קניתי לחם וחלב.,grammar,conjunctions,מילות חיבור
+w001153,O,או,¿Quieres té o café?,אתה רוצה תה או קפה?,grammar,conjunctions,מילות חיבור
+w001154,Pero,אבל,"Quiero ir, pero no tengo tiempo.","אני רוצה ללכת, אבל אין לי זמן.",grammar,conjunctions,מילות חיבור
+w001155,Porque,כי / מפני ש,No fui a la fiesta porque estaba enfermo.,לא הלכתי למסיבה כי הייתי חולה.,grammar,conjunctions,מילות חיבור
+w001156,Aunque,למרות ש / אף על פי ש,"Aunque llueve, vamos a salir.","למרות שיורד גשם, אנחנו יוצאים.",grammar,conjunctions,מילות חיבור
+w001157,Sin embargo,עם זאת / למרות זאת,"Estudió mucho; sin embargo, no aprobó el examen.","הוא למד הרבה; עם זאת, הוא לא עבר את המבחן.",grammar,conjunctions,מילות חיבור
+w001158,Además,בנוסף,"Habla español y, además, francés.","הוא מדבר ספרדית, ובנוסף, צרפתית.",grammar,conjunctions,מילות חיבור
+w001159,Mientras tanto,בינתיים,"Mientras tanto, puedes esperar aquí.","בינתיים, אתה יכול לחכות כאן.",grammar,conjunctions,מילות חיבור
+w001160,Ya que,מכיוון ש,"Ya que estás aquí, ayúdame con esto.","מכיוון שאתה כאן, תעזור לי עם זה.",grammar,conjunctions,מילות חיבור
+w001161,Por eso,בגלל זה / לכן,"No dormí bien, por eso estoy cansado.","לא ישנתי טוב, בגלל זה אני עייף.",grammar,conjunctions,מילות חיבור
+w001162,O sea,זאת אומרת,"Llego a las seis, o sea, en una hora.","אני מגיע בשש, זאת אומרת, בעוד שעה.",grammar,conjunctions,מילות חיבור
+w001163,Es decir,כלומר,"Es vegetariano, es decir, no come carne.","הוא צמחוני, כלומר, הוא לא אוכל בשר.",grammar,conjunctions,מילות חיבור
+w001164,Tanto... como,גם... וגם,Tanto mi hermano como mi hermana estudian medicina.,גם אחי וגם אחותי לומדים רפואה.,grammar,conjunctions,מילות חיבור
+w001165,No obstante,אף על פי כן (רשמי),"Hizo frío; no obstante, salimos a caminar.","היה קר; אף על פי כן, יצאנו לטייל.",grammar,conjunctions,מילות חיבור
+w001166,Entonces,אז / אם כך,"Terminé el trabajo, entonces me fui a casa.","סיימתי את העבודה, אז הלכתי הביתה.",grammar,conjunctions,מילות חיבור
+w001167,Aun así,"למרות זאת, בכל זאת","Sabía que era difícil, aun así lo intentó.","הוא ידע שזה קשה, ובכל זאת ניסה.",grammar,conjunctions,מילות חיבור
+w001168,Por lo tanto,לכן / משום כך,"No estudió, por lo tanto suspendió el examen.","הוא לא למד, לכן הוא נכשל במבחן.",grammar,conjunctions,מילות חיבור

@@ -460,6 +460,12 @@
         "name": "צורות הקטנה והגדלה",
         "vocabCount": 17,
         "sentenceCount": 8
+      },
+      {
+        "id": "conjunctions",
+        "name": "מילות חיבור",
+        "vocabCount": 17,
+        "sentenceCount": 8
       }
     ]
   }
