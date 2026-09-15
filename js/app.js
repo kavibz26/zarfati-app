@@ -516,7 +516,10 @@ if (typeof speechSynthesis !== "undefined") {
   resolveSpanishVoice();
 }
 const NORMAL_SPEECH_RATE = 0.9;
-const SLOW_SPEECH_RATE = 0.7; // "השמעה איטית" - כ-0.7x-0.75x, עדיין קול טבעי ולא מעוות
+// 0.7 נמדד כמעט לא-נשמע-שונה מ-0.9 בקולות SAPI5 של Windows (Microsoft Helena/Laura/Pablo) -
+// המרת ה-rate העשרוני-רציף של Web Speech API לסולם השלם הפנימי של SAPI5 (-10..+10) "מקבצת"
+// ערכים קרובים ל-1.0 לאותה מדרגה בפועל. 0.55 נמדד כהבדל משך-זמן ברור ונשמע על אותם קולות.
+const SLOW_SPEECH_RATE = 0.55;
 // ב-iOS Safari/WebKit, קריאה ל-speechSynthesis.speak() מיד אחרי cancel() עלולה "להיבלע" בשקט
 // (בלי אירוע start/error בכלל) - הביטול הפנימי שם א-סינכרוני גם כש-cancel() עצמו חוזר מיד.
 // זה קורה בעיקר כשכבר יש השמעה פעילה שצריך לבטל (למשל: המשתמש לוחץ קודם על השמעה רגילה,
