@@ -2,7 +2,7 @@
   "beginner": {
     "id": "beginner",
     "name": "מתחילים",
-    "icon": "🌱",
+    "icon": "leaf",
     "color": "#4caf7d",
     "topics": [
       {
@@ -160,7 +160,7 @@
   "intermediate": {
     "id": "intermediate",
     "name": "בינוניים",
-    "icon": "🚀",
+    "icon": "rocket",
     "color": "#3b82f6",
     "topics": [
       {
@@ -270,7 +270,7 @@
   "advanced": {
     "id": "advanced",
     "name": "מתקדמים",
-    "icon": "🏆",
+    "icon": "trophy",
     "color": "#a855f7",
     "topics": [
       {
@@ -344,7 +344,7 @@
   "grammar": {
     "id": "grammar",
     "name": "דקדוק בסיסי",
-    "icon": "📖",
+    "icon": "book",
     "color": "#f59e0b",
     "topics": [
       {

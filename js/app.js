@@ -51,13 +51,43 @@ function escapeHtml(s) {
 // "הקלדה מהזיכרון" מוצג למשתמש ונשמר באותו מנגנון התקדמות, אך במתכוון לא נכלל כאן -
 // כדי לא לשנות רטרואקטיבית אחוזי השלמה קיימים אצל מי שכבר תרגל לפני שהתרגול הזה נוסף.
 const EXERCISE_TYPES = [
-  { id: "flashcards", name: "כרטיסיות", icon: "🗂️" },
-  { id: "listening", name: "האזנה", icon: "🎧" },
-  { id: "quiz", name: "חידון", icon: "❓" },
-  { id: "sentences", name: "בניית משפטים", icon: "✍️" }
+  { id: "flashcards", name: "כרטיסיות", icon: "folder" },
+  { id: "listening", name: "האזנה", icon: "headphones" },
+  { id: "quiz", name: "חידון", icon: "questionCircle" },
+  { id: "sentences", name: "בניית משפטים", icon: "pencil" }
 ];
-const RECALL_TYPE = { id: "recall", name: "הקלדה מהזיכרון", icon: "⌨️" };
+const RECALL_TYPE = { id: "recall", name: "הקלדה מהזיכרון", icon: "keyboard" };
 const DISPLAY_EXERCISE_TYPES = [...EXERCISE_TYPES, RECALL_TYPE];
+
+// ---------- אייקוני SVG (שפה גרפית אחידה במקום אימוג'ים כאלמנט עיצובי מרכזי) ----------
+// כל אייקון בסגנון קו אחיד (stroke, currentColor) כדי לרשת את צבע האלמנט המכיל אותו,
+// וממודד ב-1em כדי לרשת את font-size של האלמנט המכיל - בדיוק כמו שהאימוג'י שהוחלף התנהג.
+const ICON_SVG_OPEN = `<svg class="icon" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">`;
+const ICONS = {
+  leaf: `${ICON_SVG_OPEN}<path d="M20 4c-9 0-16 6-16 15 0 .55.45 1 1 1 9 0 15-7 15-16Z"/><path d="M5 19C10 14 14 10 19 5"/></svg>`,
+  rocket: `${ICON_SVG_OPEN}<path d="M12 2c3 2 5 6 5 10 0 2-.7 3.6-1.5 5h-7C7.7 15.6 7 14 7 12c0-4 2-8 5-10Z"/><path d="M9 15l-2.5 2.5M15 15l2.5 2.5"/><circle cx="12" cy="10" r="1.5"/></svg>`,
+  trophy: `${ICON_SVG_OPEN}<path d="M8 4h8v4a4 4 0 0 1-8 0V4Z"/><path d="M8 5H5a3 3 0 0 0 3 4M16 5h3a3 3 0 0 1-3 4"/><path d="M12 12v3M9 19h6M9 19c0-1.5.7-2.3 1.6-2.6M15 19c0-1.5-.7-2.3-1.6-2.6"/></svg>`,
+  book: `${ICON_SVG_OPEN}<path d="M5 4.5A2 2 0 0 1 7 3h10a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H7a2 2 0 0 0-2 2V4.5Z"/><path d="M5 17.5A2 2 0 0 1 7 16h11"/></svg>`,
+  bookOpen: `${ICON_SVG_OPEN}<path d="M12 6.5c-1.7-1.3-4-2-6.5-2A1.5 1.5 0 0 0 4 6v11c2.5 0 4.8.7 6.5 2 1.7-1.3 4-2 6.5-2 .8 0 1.5-.7 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5c-2.5 0-4.8.7-6.5 2Z"/><path d="M12 6.5V19"/></svg>`,
+  folder: `${ICON_SVG_OPEN}<path d="M3.5 6.5A1.5 1.5 0 0 1 5 5h4l2 2h8a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 19H5a1.5 1.5 0 0 1-1.5-1.5v-11Z"/></svg>`,
+  headphones: `${ICON_SVG_OPEN}<path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>`,
+  questionCircle: `${ICON_SVG_OPEN}<circle cx="12" cy="12" r="9"/><path d="M9.5 9.3a2.5 2.5 0 0 1 4.7 1.2c0 1.7-2.2 2-2.2 3.5"/><circle cx="12" cy="17.1" r="1" fill="currentColor" stroke="none"/></svg>`,
+  pencil: `${ICON_SVG_OPEN}<path d="M4 20l1-4.2L15.8 5a2 2 0 0 1 2.8 0l.4.4a2 2 0 0 1 0 2.8L8.2 19 4 20Z"/><path d="M14 7l3 3"/></svg>`,
+  keyboard: `${ICON_SVG_OPEN}<rect x="3" y="6" width="18" height="12" rx="2"/><path d="M6.5 10h.01M9.5 10h.01M12.5 10h.01M15.5 10h.01M17.5 10h.01M6.5 13h.01M17.5 13h.01M8.5 15.5h7"/></svg>`,
+  chartBar: `${ICON_SVG_OPEN}<path d="M4 20V10M10 20V4M16 20v-7M4 20h16"/></svg>`,
+  refresh: `${ICON_SVG_OPEN}<path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg>`,
+  target: `${ICON_SVG_OPEN}<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"/></svg>`,
+  logout: `${ICON_SVG_OPEN}<path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3"/><path d="M9 16l-4-4 4-4"/><path d="M5 12h10"/></svg>`,
+  play: `${ICON_SVG_OPEN}<path d="M7 5l12 7-12 7V5Z" fill="currentColor" stroke="none"/></svg>`,
+  lightbulb: `${ICON_SVG_OPEN}<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.5.4.8 1 .8 1.6v.5h5.4v-.5c0-.6.3-1.2.8-1.6A6 6 0 0 0 12 3Z"/></svg>`,
+  lock: `${ICON_SVG_OPEN}<rect x="5" y="10.5" width="14" height="9" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></svg>`,
+  star: `${ICON_SVG_OPEN}<path d="M12 3.5l2.4 5 5.5.6-4 3.8 1 5.5-4.9-2.7-4.9 2.7 1-5.5-4-3.8 5.5-.6L12 3.5Z"/></svg>`,
+  flame: `${ICON_SVG_OPEN}<path d="M12 3c.5 2.5-1 3.8-2.3 5.3C8.4 9.8 7 11.5 7 14a5 5 0 0 0 10 0c0-1.5-.6-2.6-1.3-3.6.1 1.3-.4 2.2-1.2 2.7.3-2-.4-3.4-1.6-4.6C12.4 8 12.2 5.6 12 3Z"/></svg>`,
+  speaker: `${ICON_SVG_OPEN}<path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/><path d="M19 6a8.5 8.5 0 0 1 0 12"/></svg>`,
+  notepad: `${ICON_SVG_OPEN}<path d="M6 3.5h9l3 3v14h-12Z"/><path d="M15 3.5v3h3"/><path d="M9 12h6M9 15h6M9 9h3"/></svg>`,
+  speakerQuiet: `${ICON_SVG_OPEN}<path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 10.2a2.5 2.5 0 0 1 0 3.6"/></svg>`
+};
+function icon(key) { return ICONS[key] || ""; }
 
 // 3 רמות הקושי המוצגות ברשת דף הבית. "דקדוק בסיסי" (LEVELS.grammar) הוא אזור לימוד נפרד
 // מבחינת המשתמש - יש לו כפתור משלו בדף הבית, ובכוונה לא נכלל ברשימה הזו.
@@ -1025,7 +1055,7 @@ function renderAuth() {
 
   app.innerHTML = `
     <div class="hero">
-      <h1>Zarfati App 🇪🇸 לימוד ספרדית</h1>
+      <h1>Zarfati App לימוד ספרדית</h1>
       <p>${mode === "signup" ? "יצירת חשבון חדש" : "התחברות לחשבון"}</p>
     </div>
     <form class="auth-form" data-auth-mode="${mode}">
@@ -1148,7 +1178,7 @@ function renderHome() {
   const topicsCompleted = completedTopicsCount();
   app.innerHTML = `
     <div class="hero">
-      <h1>Zarfati App 🇪🇸 לימוד ספרדית</h1>
+      <h1>Zarfati App לימוד ספרדית</h1>
       <p class="hero-greeting">${t("welcome")}, ${escapeHtml(currentUsername)}!</p>
       <p>${t("chooseLevelIntro")}</p>
     </div>
@@ -1158,15 +1188,15 @@ function renderHome() {
       <div class="stat-box"><div class="num">${topicsCompleted.count}/${topicsCompleted.total}</div><div class="lbl">נושאים הושלמו</div></div>
     </div>
     <div class="dashboard-placeholders">
-      <div class="placeholder-box stat-ready"><span class="placeholder-icon" aria-hidden="true">⭐</span><span class="placeholder-lbl">XP</span><span class="placeholder-count">${getXP()}</span></div>
+      <div class="placeholder-box stat-ready"><span class="placeholder-icon" aria-hidden="true">${icon("star")}</span><span class="placeholder-lbl">XP</span><span class="placeholder-count">${getXP()}</span></div>
       <button class="placeholder-box achievement-box" data-action="goto-achievements">
-        <span class="placeholder-icon" aria-hidden="true">🏆</span><span class="placeholder-lbl">הישגים</span><span class="placeholder-count">${achievementsUnlockedCount()}/${ACHIEVEMENTS.length}</span>
+        <span class="placeholder-icon" aria-hidden="true">${icon("trophy")}</span><span class="placeholder-lbl">הישגים</span><span class="placeholder-count">${achievementsUnlockedCount()}/${ACHIEVEMENTS.length}</span>
       </button>
-      <div class="placeholder-box stat-ready"><span class="placeholder-icon" aria-hidden="true">🔥</span><span class="placeholder-lbl">רצף ימים</span><span class="placeholder-count">${formatStreakLabel(getCurrentStreak())}</span></div>
+      <div class="placeholder-box stat-ready"><span class="placeholder-icon" aria-hidden="true">${icon("flame")}</span><span class="placeholder-lbl">רצף ימים</span><span class="placeholder-count">${formatStreakLabel(getCurrentStreak())}</span></div>
     </div>
     <div style="text-align:center; margin: 22px 0;">
       <button class="ctrl-btn continue-btn" data-action="continue-learning">
-        <span aria-hidden="true">▶️</span> המשך ללמוד
+        <span aria-hidden="true">${icon("play")}</span> המשך ללמוד
       </button>
     </div>
     <div class="level-grid">
@@ -1174,7 +1204,7 @@ function renderHome() {
         const pct = getLevelCompletion(level.id);
         return `
         <button class="level-card" style="border-color:${level.color}22" data-action="goto-level" data-level="${level.id}">
-          <div class="lc-icon" aria-hidden="true">${level.icon}</div>
+          <div class="lc-icon" aria-hidden="true">${icon(level.icon)}</div>
           <div class="lc-name">${level.name}</div>
           <div class="lc-desc">${level.topics.length} נושאים · ${level.topics.reduce((s, t) => s + t.vocab.length, 0)} מילים</div>
           <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${level.color}"></div></div>
@@ -1184,24 +1214,24 @@ function renderHome() {
     </div>
     <div style="text-align:center; margin-top:20px;">
       <button class="ctrl-btn" style="background:${LEVELS.grammar.color}" data-action="goto-level" data-level="grammar">
-        <span aria-hidden="true">${LEVELS.grammar.icon}</span> ${LEVELS.grammar.name}
+        <span aria-hidden="true">${icon(LEVELS.grammar.icon)}</span> ${LEVELS.grammar.name}
       </button>
     </div>
     <div style="text-align:center; margin-top:16px;">
-      <button class="ctrl-btn secondary" data-action="goto-stats"><span aria-hidden="true">📊</span> סטטיסטיקות והתקדמות</button>
+      <button class="ctrl-btn secondary" data-action="goto-stats"><span aria-hidden="true">${icon("chartBar")}</span> סטטיסטיקות והתקדמות</button>
     </div>
     <div style="text-align:center; margin-top:16px;">
-      <button class="ctrl-btn secondary" data-action="goto-allwords"><span aria-hidden="true">📚</span> כל המילים</button>
+      <button class="ctrl-btn secondary" data-action="goto-allwords"><span aria-hidden="true">${icon("bookOpen")}</span> כל המילים</button>
     </div>
     <div style="text-align:center; margin-top:16px;">
       <button class="ctrl-btn" data-action="goto-review" ${reviewCount === 0 ? "disabled" : ""}>
-        <span aria-hidden="true">📝</span> תרגול מילים קשות${reviewCount > 0 ? ` (${reviewCount})` : ""}
+        <span aria-hidden="true">${icon("notepad")}</span> תרגול מילים קשות${reviewCount > 0 ? ` (${reviewCount})` : ""}
       </button>
       ${reviewCount === 0 ? `<div class="section-sub" style="margin-top:8px;">${t("reviewEmptyHint")}</div>` : ""}
     </div>
     <div style="text-align:center; margin-top:16px;">
       <button class="ctrl-btn" data-action="goto-smart-review" ${dueCount === 0 ? "disabled" : ""}>
-        <span aria-hidden="true">🎯</span> חזרה חכמה על מילים קשות${dueCount > 0 ? ` (${dueCount})` : ""}
+        <span aria-hidden="true">${icon("target")}</span> חזרה חכמה על מילים קשות${dueCount > 0 ? ` (${dueCount})` : ""}
       </button>
       ${dueCount === 0 ? `<div class="section-sub" style="margin-top:8px;">${t("smartReviewEmptyHint")}</div>` : ""}
     </div>
@@ -1217,7 +1247,7 @@ function renderHome() {
     </div>
     <div style="text-align:center; margin-top:24px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
       <button class="back-btn" data-action="reset-progress">איפוס התקדמות</button>
-      <button class="back-btn" data-action="logout">🚪 התנתק</button>
+      <button class="back-btn" data-action="logout">${icon("logout")} התנתק</button>
     </div>
   `;
   bindDelegatedEvents();
@@ -1243,7 +1273,7 @@ function renderLevelProgressRow(level) {
   return `
     <div class="topic-row">
       <div class="tr-info">
-        <div class="tr-name">${level.icon} ${level.name}</div>
+        <div class="tr-name">${icon(level.icon)} ${level.name}</div>
         <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${level.color}"></div></div>
       </div>
       <div style="font-weight:700;color:${level.color}">${pct}%</div>
@@ -1255,7 +1285,7 @@ function renderExerciseTypeRow(type) {
   return `
     <div class="topic-row">
       <div class="tr-info">
-        <div class="tr-name">${type.icon} ${type.name}</div>
+        <div class="tr-name">${icon(type.icon)} ${type.name}</div>
         <div class="progress-bar"><div class="progress-bar-fill" style="width:${avg}%; background:var(--accent)"></div></div>
       </div>
       <div style="font-weight:700;color:var(--accent-dark)">${avg}%</div>
@@ -1373,7 +1403,7 @@ function renderAllWords() {
   const levelId = state.levelId || "";
   app.innerHTML = `
     <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
-    <div class="section-title">📚 כל המילים</div>
+    <div class="section-title">${icon("bookOpen")} כל המילים</div>
     <div class="section-sub">כל אוצר המילים של האפליקציה במקום אחד — ${allWords.length} מילים</div>
     <input type="text" class="search-input" data-role="allwords-search" placeholder="חיפוש לפי ספרדית או עברית..." value="${escapeHtml(query)}" autocomplete="off">
     <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
@@ -1432,7 +1462,7 @@ function renderAchievements() {
   }).join("");
   app.innerHTML = `
     <button class="back-btn" data-action="back-home">→ חזרה לדף הבית</button>
-    <div class="section-title">🏆 הישגים</div>
+    <div class="section-title">${icon("trophy")} הישגים</div>
     <div class="section-sub">${achievementsUnlockedCount()}/${ACHIEVEMENTS.length} הישגים נפתחו</div>
     <div class="achievement-list">${rows}</div>
   `;
@@ -1445,7 +1475,7 @@ function renderLevel() {
   breadcrumb.textContent = `${level.name}`;
   app.innerHTML = `
     <button class="back-btn" data-action="back-home">→ חזרה לרמות</button>
-    <div class="section-title">${level.icon} ${levelLabel(level.id, level.name)}</div>
+    <div class="section-title">${icon(level.icon)} ${levelLabel(level.id, level.name)}</div>
     <div class="section-sub">${t("chooseTopic")}</div>
     <div class="topic-list">
       ${level.topics.map(topic => {
@@ -1473,16 +1503,16 @@ function renderTopic() {
     <button class="back-btn" data-action="back-level" data-level="${level.id}">→ חזרה לנושאים</button>
     <div class="section-title">${topic.name}</div>
     <div class="section-sub" style="margin-bottom:4px;">${levelLabel(level.id, level.name)} · ${t("chooseExerciseType")}</div>
-    <div class="section-sub">💡 השלימו כרטיסיות או האזנה ב-100% כדי לפתוח את שאר התרגילים</div>
+    <div class="section-sub">${icon("lightbulb")} השלימו כרטיסיות או האזנה ב-100% כדי לפתוח את שאר התרגילים</div>
     <div class="exercise-grid">
       ${DISPLAY_EXERCISE_TYPES.map(et => {
         const score = getTopicScore(level.id, topic.id, et.id);
         const locked = isExerciseTypeLocked(level.id, topic.id, et.id);
         return `
         <button class="exercise-card" data-action="goto-exercise" data-level="${level.id}" data-topic="${topic.id}" data-type="${et.id}" ${locked ? "disabled" : ""}>
-          <div class="ec-icon" aria-hidden="true">${et.icon}</div>
+          <div class="ec-icon" aria-hidden="true">${icon(et.icon)}</div>
           <div class="ec-name">${et.name}</div>
-          <div class="ec-score">${locked ? "🔒 נפתח בסיום כרטיסיות/האזנה" : (score > 0 ? `הישג: ${score}%` : "טרם נוסה")}</div>
+          <div class="ec-score">${locked ? `${icon("lock")} נפתח בסיום כרטיסיות/האזנה` : (score > 0 ? `הישג: ${score}%` : "טרם נוסה")}</div>
         </button>`;
       }).join("")}
     </div>
@@ -1541,15 +1571,15 @@ function renderFlashcards() {
           <div class="fc-example" lang="es">${item.ex_es}</div>
           <div class="fc-example-he">${item.ex_he}</div>
           <div class="speak-btn-row">
-            <button class="speak-btn" data-action="fc-example-speak" aria-label="השמע את המשפט המלא">🔊</button>
-            <button class="speak-btn slow" data-action="fc-example-speak-slow" aria-label="השמע את המשפט המלא לאט">🐢</button>
+            <button class="speak-btn" data-action="fc-example-speak" aria-label="השמע את המשפט המלא">${icon("speaker")}</button>
+            <button class="speak-btn slow" data-action="fc-example-speak-slow" aria-label="השמע את המשפט המלא לאט">${icon("speakerQuiet")}</button>
           </div>
         ` : ""}
       </div>
     </div>
     <div class="runner-controls">
-      <button class="speak-btn" data-action="fc-speak" aria-label="השמע הגייה בספרדית">🔊</button>
-      <button class="speak-btn slow" data-action="fc-speak-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
+      <button class="speak-btn" data-action="fc-speak" aria-label="השמע הגייה בספרדית">${icon("speaker")}</button>
+      <button class="speak-btn slow" data-action="fc-speak-slow" aria-label="השמע הגייה בספרדית לאט">${icon("speakerQuiet")}</button>
       <button class="ctrl-btn secondary" data-action="fc-prev" ${ex.index === 0 ? "disabled" : ""}>הקודם</button>
       <button class="ctrl-btn" data-action="fc-next">${ex.index === ex.items.length - 1 ? "סיום" : "הבא"}</button>
     </div>
@@ -1608,8 +1638,8 @@ function renderStudyStage() {
     <div class="listen-box">
       <div class="section-sub">${t("studyStageHint")}</div>
       <div class="listen-row">
-        <button class="listen-play" data-action="study-play" aria-label="השמע הגייה בספרדית">🔊</button>
-        <button class="listen-play-slow" data-action="study-play-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
+        <button class="listen-play" data-action="study-play" aria-label="השמע הגייה בספרדית">${icon("speaker")}</button>
+        <button class="listen-play-slow" data-action="study-play-slow" aria-label="השמע הגייה בספרדית לאט">${icon("speakerQuiet")}</button>
       </div>
       <div class="fc-word" lang="es" style="margin-top:14px;">${item.es}</div>
       <div class="fc-translation">${item.he}</div>
@@ -1619,8 +1649,8 @@ function renderStudyStage() {
         <div class="fc-example" lang="es">${item.ex_es}</div>
         <div class="fc-example-he">${item.ex_he}</div>
         <div class="speak-btn-row" style="margin-top:8px;">
-          <button class="speak-btn" data-action="study-example-play" aria-label="השמע את המשפט המלא">🔊</button>
-          <button class="speak-btn slow" data-action="study-example-play-slow" aria-label="השמע את המשפט המלא לאט">🐢</button>
+          <button class="speak-btn" data-action="study-example-play" aria-label="השמע את המשפט המלא">${icon("speaker")}</button>
+          <button class="speak-btn slow" data-action="study-example-play-slow" aria-label="השמע את המשפט המלא לאט">${icon("speakerQuiet")}</button>
         </div>
       </div>
     ` : ""}
@@ -1646,8 +1676,8 @@ function renderListening() {
     <div class="listen-box">
       <div class="section-sub">${t("listeningInstruction")}</div>
       <div class="listen-row">
-        <button class="listen-play" data-action="listen-play" aria-label="השמע הגייה בספרדית">🔊</button>
-        <button class="listen-play-slow" data-action="listen-play-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
+        <button class="listen-play" data-action="listen-play" aria-label="השמע הגייה בספרדית">${icon("speaker")}</button>
+        <button class="listen-play-slow" data-action="listen-play-slow" aria-label="השמע הגייה בספרדית לאט">${icon("speakerQuiet")}</button>
       </div>
     </div>
     ${renderChoiceOptions(q, "listen-option", true)}
@@ -1684,8 +1714,8 @@ function renderSentenceBuilder() {
       <div class="runner-controls"><button class="ctrl-btn" data-action="sb-next">המשך</button></div>
     ` : `
       <div class="runner-controls">
-        <button class="speak-btn" data-action="sb-speak" aria-label="השמע הגייה בספרדית">🔊</button>
-        <button class="speak-btn slow" data-action="sb-speak-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
+        <button class="speak-btn" data-action="sb-speak" aria-label="השמע הגייה בספרדית">${icon("speaker")}</button>
+        <button class="speak-btn slow" data-action="sb-speak-slow" aria-label="השמע הגייה בספרדית לאט">${icon("speakerQuiet")}</button>
         <button class="ctrl-btn secondary" data-action="sb-clear">נקה</button>
         <button class="ctrl-btn" data-action="sb-check" ${item.answer.length === 0 ? "disabled" : ""}>בדוק</button>
       </div>
@@ -1733,8 +1763,8 @@ function renderRecall() {
         ${ex.correctFlag ? "נכון מאוד! 🎉" : `לא מדויק. התשובה: <span lang="es">${item.answer}</span>`}
       </div>
       <div class="runner-controls">
-        <button class="speak-btn" data-action="recall-speak" aria-label="השמע הגייה בספרדית">🔊</button>
-        <button class="speak-btn slow" data-action="recall-speak-slow" aria-label="השמע הגייה בספרדית לאט">🐢</button>
+        <button class="speak-btn" data-action="recall-speak" aria-label="השמע הגייה בספרדית">${icon("speaker")}</button>
+        <button class="speak-btn slow" data-action="recall-speak-slow" aria-label="השמע הגייה בספרדית לאט">${icon("speakerQuiet")}</button>
         <button class="ctrl-btn" data-action="recall-next">המשך</button>
       </div>
     ` : ""}
