@@ -9,7 +9,7 @@
 // תוך כדי גלישה בפועל.
 // לא נוגע ב-localStorage או במנגנון ההתקדמות של האפליקציה בשום צורה.
 
-const CACHE_NAME = "habla-cache-v25";
+const CACHE_NAME = "habla-cache-v26";
 const PRECACHE_URLS = [
   "./",
   "./index.html",
