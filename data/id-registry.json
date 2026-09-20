@@ -1106,7 +1106,7 @@
     },
     "w000185": {
       "es": "Cariñoso / Cariñosa",
-      "he": "חם / חמה (במזג)",
+      "he": "חם / חמה (מלא/ת חיבה)",
       "levelId": "intermediate",
       "topicId": "adjectives"
     },
@@ -1130,7 +1130,7 @@
     },
     "w000189": {
       "es": "Honesto / Honesta",
-      "he": "כן / כנה, ישר / ישרה",
+      "he": "ישר / ישרה, כן / כנה",
       "levelId": "intermediate",
       "topicId": "adjectives"
     },
@@ -1994,7 +1994,7 @@
     },
     "w000333": {
       "es": "Tomar el pelo",
-      "he": "לעבוד על מישהו/להתל",
+      "he": "לעבוד על מישהו",
       "levelId": "advanced",
       "topicId": "idioms"
     },
@@ -2594,13 +2594,13 @@
     },
     "w000433": {
       "es": "Estar en las nubes",
-      "he": "להיות מרוחק בראש",
+      "he": "להיות מרחף / להיות עם הראש בעננים",
       "levelId": "advanced",
       "topicId": "natural_expressions"
     },
     "w000434": {
       "es": "Echar una mano",
-      "he": "לתת יד / לעזור",
+      "he": "לעזור / להושיט יד",
       "levelId": "advanced",
       "topicId": "natural_expressions"
     },

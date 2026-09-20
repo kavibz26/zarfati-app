@@ -183,11 +183,11 @@ w000181,Trabajador / Trabajadora,חרוץ / חרוצה,Es una mujer trabajadora.
 w000182,Perezoso / Perezosa,עצלן / עצלנית,El gato es muy perezoso.,החתול מאוד עצלן.,intermediate,adjectives,תארים ותיאור אנשים
 w000183,Amable,אדיב/ה,El profesor es amable.,המורה אדיב.,intermediate,adjectives,תארים ותיאור אנשים
 w000184,Generoso / Generosa,נדיב / נדיבה,Su tío es muy generoso.,הדוד שלו מאוד נדיב.,intermediate,adjectives,תארים ותיאור אנשים
-w000185,Cariñoso / Cariñosa,חם / חמה (במזג),Mi abuela es muy cariñosa.,סבתא שלי מאוד חמה.,intermediate,adjectives,תארים ותיאור אנשים
+w000185,Cariñoso / Cariñosa,חם / חמה (מלא/ת חיבה),Mi abuela es muy cariñosa.,סבתא שלי מאוד חמה.,intermediate,adjectives,תארים ותיאור אנשים
 w000186,Tímido / Tímida,ביישן / ביישנית,El niño es tímido con extraños.,הילד ביישן מול זרים.,intermediate,adjectives,תארים ותיאור אנשים
 w000187,Curioso / Curiosa,סקרן / סקרנית,Los gatos son muy curiosos.,חתולים מאוד סקרנים.,intermediate,adjectives,תארים ותיאור אנשים
 w000188,Paciente,סבלני/ת,El profesor es muy paciente.,המורה מאוד סבלני.,intermediate,adjectives,תארים ותיאור אנשים
-w000189,Honesto / Honesta,"כן / כנה, ישר / ישרה",Necesitamos un empleado honesto.,אנחנו צריכים עובד ישר.,intermediate,adjectives,תארים ותיאור אנשים
+w000189,Honesto / Honesta,"ישר / ישרה, כן / כנה",Necesitamos un empleado honesto.,אנחנו צריכים עובד ישר.,intermediate,adjectives,תארים ותיאור אנשים
 w000190,Levantarse,לקום (מהמיטה),Me levanto a las siete.,אני קם בשבע.,intermediate,home_routine,הבית והיומיום
 w000191,Ducharse,להתקלח,Me ducho por la mañana.,אני מתקלח בבוקר.,intermediate,home_routine,הבית והיומיום
 w000192,Desayunar,לאכול ארוחת בוקר,Desayuno café y pan.,אני אוכל ארוחת בוקר קפה ולחם.,intermediate,home_routine,הבית והיומיום
@@ -314,24 +314,24 @@ w000312,La cadena de suministro,שרשרת האספקה,La cadena de suministro 
 w000313,El informe trimestral,הדוח הרבעוני,Presentamos el informe trimestral mañana.,נציג את הדוח הרבעוני מחר.,advanced,business_vocab,אוצר מילים עסקי
 w000314,Escalar el negocio,להרחיב את העסק,Queremos escalar el negocio a nivel internacional.,אנחנו רוצים להרחיב את העסק ברמה בינלאומית.,advanced,business_vocab,אוצר מילים עסקי
 w000315,El plazo de entrega,מועד האספקה,El plazo de entrega es muy ajustado.,מועד האספקה מאוד צפוף.,advanced,business_vocab,אוצר מילים עסקי
-w000316,Espero que vengas,אני מקווה שתבוא,Espero que vengas a la fiesta.,אני מקווה שתבוא למסיבה.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000317,Quiero que sepas,אני רוצה שתדע,Quiero que sepas la verdad.,אני רוצה שתדע את האמת.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000318,Es importante que estudies,חשוב שתלמד,Es importante que estudies para el examen.,חשוב שתלמד למבחן.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000319,Dudo que sea verdad,אני מסופק שזה נכון,Dudo que sea verdad.,אני מסופק שזה נכון.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000320,Ojalá que llueva,הלוואי וירד גשם,Ojalá que llueva mañana.,הלוואי וירד גשם מחר.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000321,No creo que pueda,אני לא חושב שהוא/היא יכול/ה,No creo que pueda venir.,אני לא חושב שהוא יכול לבוא.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000322,Antes de que llegues,לפני שתגיע,Terminaré antes de que llegues.,אני אסיים לפני שתגיע.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000323,Aunque sea difícil,למרות שזה קשה,"Aunque sea difícil, lo lograremos.","למרות שזה קשה, נצליח.",advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000324,Para que entiendas,כדי שתבין,Te lo explico para que entiendas.,אני מסביר לך כדי שתבין.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000325,Si tuviera tiempo,אם היה לי זמן,"Si tuviera tiempo, viajaría más.","אם היה לי זמן, הייתי נוסע יותר.",advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000326,Me alegra que vengas,אני שמח שאתה בא,Me alegra que vengas a la boda.,אני שמח שאתה בא לחתונה.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000327,Es posible que llueva,ייתכן וירד גשם,Es posible que llueva esta tarde.,ייתכן וירד גשם אחר הצהריים.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000328,Recomiendo que estudies más,אני ממליץ שתלמד יותר,Te recomiendo que estudies más para el examen.,אני ממליץ לך שתלמד יותר למבחן.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000329,No pienso que sea fácil,אני לא חושב שזה קל,No pienso que sea fácil este trabajo.,אני לא חושב שהעבודה הזו קלה.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
-w000330,Hasta que termines,עד שתסיים,No saldremos hasta que termines la tarea.,לא נצא עד שתסיים את המטלה.,advanced,subjuntivo,Subjuntivo - מצב רוח תלוי
+w000316,Espero que vengas,אני מקווה שתבוא,Espero que vengas a la fiesta.,אני מקווה שתבוא למסיבה.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000317,Quiero que sepas,אני רוצה שתדע,Quiero que sepas la verdad.,אני רוצה שתדע את האמת.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000318,Es importante que estudies,חשוב שתלמד,Es importante que estudies para el examen.,חשוב שתלמד למבחן.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000319,Dudo que sea verdad,אני מסופק שזה נכון,Dudo que sea verdad.,אני מסופק שזה נכון.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000320,Ojalá que llueva,הלוואי וירד גשם,Ojalá que llueva mañana.,הלוואי וירד גשם מחר.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000321,No creo que pueda,אני לא חושב שהוא/היא יכול/ה,No creo que pueda venir.,אני לא חושב שהוא יכול לבוא.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000322,Antes de que llegues,לפני שתגיע,Terminaré antes de que llegues.,אני אסיים לפני שתגיע.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000323,Aunque sea difícil,למרות שזה קשה,"Aunque sea difícil, lo lograremos.","למרות שזה קשה, נצליח.",advanced,subjuntivo,Subjuntivo - מצב משני
+w000324,Para que entiendas,כדי שתבין,Te lo explico para que entiendas.,אני מסביר לך כדי שתבין.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000325,Si tuviera tiempo,אם היה לי זמן,"Si tuviera tiempo, viajaría más.","אם היה לי זמן, הייתי נוסע יותר.",advanced,subjuntivo,Subjuntivo - מצב משני
+w000326,Me alegra que vengas,אני שמח שאתה בא,Me alegra que vengas a la boda.,אני שמח שאתה בא לחתונה.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000327,Es posible que llueva,ייתכן וירד גשם,Es posible que llueva esta tarde.,ייתכן וירד גשם אחר הצהריים.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000328,Recomiendo que estudies más,אני ממליץ שתלמד יותר,Te recomiendo que estudies más para el examen.,אני ממליץ לך שתלמד יותר למבחן.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000329,No pienso que sea fácil,אני לא חושב שזה קל,No pienso que sea fácil este trabajo.,אני לא חושב שהעבודה הזו קלה.,advanced,subjuntivo,Subjuntivo - מצב משני
+w000330,Hasta que termines,עד שתסיים,No saldremos hasta que termines la tarea.,לא נצא עד שתסיים את המטלה.,advanced,subjuntivo,Subjuntivo - מצב משני
 w000331,Costar un ojo de la cara,לעלות הון תועפות,Este coche cuesta un ojo de la cara.,המכונית הזו עולה הון תועפות.,advanced,idioms,ניבים וביטויים (Modismos)
 w000332,Estar en las nubes,להיות מפוזר/בעננים,Hoy estás en las nubes.,היום אתה בעננים.,advanced,idioms,ניבים וביטויים (Modismos)
-w000333,Tomar el pelo,לעבוד על מישהו/להתל,¿Me estás tomando el pelo?,אתה עובד עליי?,advanced,idioms,ניבים וביטויים (Modismos)
+w000333,Tomar el pelo,לעבוד על מישהו,¿Me estás tomando el pelo?,אתה עובד עליי?,advanced,idioms,ניבים וביטויים (Modismos)
 w000334,Ser pan comido,להיות קלי קלות (משימה),El examen fue pan comido.,המבחן היה קלי קלות.,advanced,idioms,ניבים וביטויים (Modismos)
 w000335,Meter la pata,לעשות טעות מביכה,Metí la pata en la reunión.,עשיתי טעות מביכה בישיבה.,advanced,idioms,ניבים וביטויים (Modismos)
 w000336,No tener pelos en la lengua,"לומר דברים כפי שהם, בלי לעטוף",Ella no tiene pelos en la lengua.,היא אומרת הכל בלי כחל וסרק.,advanced,idioms,ניבים וביטויים (Modismos)
@@ -343,7 +343,7 @@ w000341,Echar una mano,לעזור (להושיט יד),¿Puedes echarme una mano 
 w000342,Estar hasta las narices,להיות נמאס לגמרי,Estoy hasta las narices de este proyecto.,נמאס לי מהפרויקט הזה.,advanced,idioms,ניבים וביטויים (Modismos)
 w000343,Ser la gota que colma el vaso,להיות הקש ששבר את גב הגמל,Este error fue la gota que colmó el vaso.,הטעות הזו הייתה הקש ששבר את גב הגמל.,advanced,idioms,ניבים וביטויים (Modismos)
 w000344,Hablar por los codos,לדבר בלי הפסקה,Mi vecina habla por los codos.,השכנה שלי מדברת בלי הפסקה.,advanced,idioms,ניבים וביטויים (Modismos)
-w000345,Írsele el santo al cielo,לשכוח משהו לגמרי,Se me fue el santo al cielo y olvidé la reunión.,שכחתי לגמרי ונשכחה לי הישיבה.,advanced,idioms,ניבים וביטויים (Modismos)
+w000345,Írsele el santo al cielo,לשכוח משהו לגמרי,Se me fue el santo al cielo y olvidé la reunión.,שכחתי לגמרי את הישיבה.,advanced,idioms,ניבים וביטויים (Modismos)
 w000346,Yo era (imperfecto),הייתי (מצב מתמשך בעבר),"Cuando era niño, jugaba fútbol.","כשהייתי ילד, שיחקתי כדורגל.",advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
 w000347,Yo fui (indefinido),הייתי/הלכתי (פעולה חד-פעמית),Ayer fui al médico.,אתמול הלכתי לרופא.,advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
 w000348,Mientras,בזמן ש...,"Mientras cocinaba, sonó el teléfono.","בזמן שבישלתי, הטלפון צלצל.",advanced,past_tenses,עבר מורכב: Imperfecto מול Indefinido
@@ -409,7 +409,7 @@ w000407,El logro,ההישג,Graduarse fue su mayor logro.,סיום התואר ה
 w000408,La conciencia,המודעות,Necesitamos más conciencia ambiental.,אנחנו צריכים יותר מודעות סביבתית.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
 w000409,La responsabilidad,האחריות,Asumir la responsabilidad no es fácil.,לקחת אחריות זה לא קל.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
 w000410,La perspectiva,נקודת המבט,Cambió mi perspectiva sobre la vida.,זה שינה את נקודת המבט שלי על החיים.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
-w000411,La incertidumbre,חוסר הוודאות,Vivimos en una época de incertidumbre.,אנחנו חיים בתקופה של חוסר וודאות.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
+w000411,La incertidumbre,חוסר הוודאות,Vivimos en una época de incertidumbre.,אנחנו חיים בתקופה של חוסר ודאות.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
 w000412,La ambición,השאיפה / השאפתנות,Tiene mucha ambición profesional.,יש לו הרבה שאפתנות מקצועית.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
 w000413,La empatía,האמפתיה,La empatía es esencial en este trabajo.,האמפתיה חיונית בעבודה הזו.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
 w000414,La integridad,היושרה,Es conocido por su integridad.,הוא ידוע ביושרה שלו.,advanced,advanced_vocab,אוצר מילים מתקדם ומופשט
@@ -431,8 +431,8 @@ w000429,Meter la pata,לעשות טעות מביכה,Metí la pata en la reunió
 w000430,Costar un ojo de la cara,לעלות הון,Ese coche cuesta un ojo de la cara.,הרכב הזה עולה הון.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
 w000431,Dar en el clavo,לפגוע בול / לצדוק לגמרי,Diste en el clavo con esa idea.,פגעת בול עם הרעיון הזה.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
 w000432,Tomar el pelo,לעבוד על מישהו,¿Me estás tomando el pelo?,אתה עובד עליי?,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
-w000433,Estar en las nubes,להיות מרוחק בראש,"Perdón, estaba en las nubes.","סליחה, הייתי מרוחק בראש.",advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
-w000434,Echar una mano,לתת יד / לעזור,¿Me echas una mano con esto?,אתה יכול לתת לי יד עם זה?,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000433,Estar en las nubes,להיות מרחף / להיות עם הראש בעננים,"Perdón, estaba en las nubes.","סליחה, הייתי עם הראש בעננים.",advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
+w000434,Echar una mano,לעזור / להושיט יד,¿Me echas una mano con esto?,אתה יכול לעזור לי עם זה?,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
 w000435,Ser pan comido,להיות עניין של מה בכך,Este trabajo es pan comido.,העבודה הזו היא עניין של מה בכך.,advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
 w000436,Hacerse el tonto,להעמיד פני טיפש,"No te hagas el tonto, sabes la respuesta.","אל תעמיד פני טיפש, אתה יודע את התשובה.",advanced,natural_expressions,ביטויים טבעיים של דוברי ספרדית
 w000437,Yo,אני,Yo hablo español.,אני מדבר ספרדית.,grammar,pronouns,כינויי גוף
@@ -447,7 +447,7 @@ w000445,Ellas,הן,Ellas estudian medicina.,הן לומדות רפואה.,gramma
 w000446,Ustedes,אתם / אתן (רשמי),Ustedes son bienvenidos.,אתם מוזמנים בברכה.,grammar,pronouns,כינויי גוף
 w000447,Ser,להיות (זהות/תכונה),Quiero ser médico.,אני רוצה להיות רופא.,grammar,common_verbs,פעלים נפוצים
 w000448,Estar,להיות (מצב/מיקום),Necesito estar tranquilo.,אני צריך להיות רגוע.,grammar,common_verbs,פעלים נפוצים
-w000449,Tener,יש ל...,Voy a tener una reunión.,יהיה לי ישיבה.,grammar,common_verbs,פעלים נפוצים
+w000449,Tener,יש ל...,Voy a tener una reunión.,תהיה לי ישיבה.,grammar,common_verbs,פעלים נפוצים
 w000450,Hacer,לעשות,Tengo que hacer la tarea.,אני צריך לעשות שיעורי בית.,grammar,common_verbs,פעלים נפוצים
 w000451,Ir,ללכת,Vamos a ir a la playa.,אנחנו הולכים ללכת לחוף הים.,grammar,common_verbs,פעלים נפוצים
 w000452,Poder,להיות מסוגל / יכול,No puedo venir mañana.,אני לא יכול לבוא מחר.,grammar,common_verbs,פעלים נפוצים
@@ -1082,23 +1082,23 @@ w001080,Todavía no he terminado,עוד לא סיימתי,Todavía no he termina
 w001081,Ya hemos comido,כבר אכלנו,"Ya hemos comido, gracias.","כבר אכלנו, תודה.",grammar,present_perfect,עבר מושלם
 w001082,Nunca he visto algo así,מעולם לא ראיתי משהו כזה,Nunca he visto algo tan hermoso.,מעולם לא ראיתי משהו כל כך יפה.,grammar,present_perfect,עבר מושלם
 w001083,¿Qué has hecho hoy?,מה עשית היום?,¿Qué has hecho hoy en el trabajo?,מה עשית היום בעבודה?,grammar,present_perfect,עבר מושלם
-w001084,Alguien,מישהו,Alguien está tocando la puerta.,מישהו דופק בדלת.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001085,Nadie,אף אחד,Nadie sabe la respuesta.,אף אחד לא יודע את התשובה.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001086,Algo,משהו,Necesito decirte algo importante.,אני צריך להגיד לך משהו חשוב.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001087,Nada,כלום / שום דבר,No pasó nada interesante hoy.,לא קרה כלום מעניין היום.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001088,Alguno / Alguna,איזשהו / איזושהי,¿Tienes alguna pregunta?,יש לך שאלה כלשהי?,grammar,negation_indefinites,שלילה וכינויי סתם
-w001089,Ninguno / Ninguna,אף אחד / אף אחת (מהם/מהן),Ninguno de mis amigos vino a la fiesta.,אף אחד מהחברים שלי לא בא למסיבה.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001090,No veo a nadie,אני לא רואה אף אחד,No veo a nadie en la calle.,אני לא רואה אף אחד ברחוב.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001091,No quiero nada,אני לא רוצה כלום,No quiero nada de comer ahora.,אני לא רוצה כלום לאכול עכשיו.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001092,No tengo ningún problema,אין לי שום בעיה,No tengo ningún problema con eso.,אין לי שום בעיה עם זה.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001093,¿Hay alguien en casa?,יש מישהו בבית?,¿Hay alguien en casa? Toqué el timbre.,יש מישהו בבית? צלצלתי בפעמון.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001094,¿Tienes algo para mí?,יש לך משהו בשבילי?,¿Tienes algo para mí de tu viaje?,יש לך משהו בשבילי מהטיול שלך?,grammar,negation_indefinites,שלילה וכינויי סתם
-w001095,Nunca más,אף פעם יותר (לא),No voy a hacer eso nunca más.,אני לא הולך לעשות את זה אף פעם יותר.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001096,Yo tampoco,גם אני לא,Yo tampoco quiero ir a esa fiesta.,גם אני לא רוצה ללכת למסיבה הזאת.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001097,Ni... ni,לא... ולא (גם וגם בשלילה),No tengo ni tiempo ni dinero.,אין לי לא זמן ולא כסף.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001098,Ni idea,אין לי מושג,¿Dónde está el control remoto? Ni idea.,איפה השלט? אין לי מושג.,grammar,negation_indefinites,שלילה וכינויי סתם
-w001099,Alguna vez,פעם (אי פעם),¿Has viajado alguna vez a China?,טיילת פעם לסין?,grammar,negation_indefinites,שלילה וכינויי סתם
-w001100,En ninguna parte,בשום מקום,No encuentro mis llaves en ninguna parte.,אני לא מוצא את המפתחות שלי בשום מקום.,grammar,negation_indefinites,שלילה וכינויי סתם
+w001084,Alguien,מישהו,Alguien está tocando la puerta.,מישהו דופק בדלת.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001085,Nadie,אף אחד,Nadie sabe la respuesta.,אף אחד לא יודע את התשובה.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001086,Algo,משהו,Necesito decirte algo importante.,אני צריך להגיד לך משהו חשוב.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001087,Nada,כלום / שום דבר,No pasó nada interesante hoy.,לא קרה כלום מעניין היום.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001088,Alguno / Alguna,איזשהו / איזושהי,¿Tienes alguna pregunta?,יש לך שאלה כלשהי?,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001089,Ninguno / Ninguna,אף אחד / אף אחת (מהם/מהן),Ninguno de mis amigos vino a la fiesta.,אף אחד מהחברים שלי לא בא למסיבה.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001090,No veo a nadie,אני לא רואה אף אחד,No veo a nadie en la calle.,אני לא רואה אף אחד ברחוב.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001091,No quiero nada,אני לא רוצה כלום,No quiero nada de comer ahora.,אני לא רוצה כלום לאכול עכשיו.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001092,No tengo ningún problema,אין לי שום בעיה,No tengo ningún problema con eso.,אין לי שום בעיה עם זה.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001093,¿Hay alguien en casa?,יש מישהו בבית?,¿Hay alguien en casa? Toqué el timbre.,יש מישהו בבית? צלצלתי בפעמון.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001094,¿Tienes algo para mí?,יש לך משהו בשבילי?,¿Tienes algo para mí de tu viaje?,יש לך משהו בשבילי מהטיול שלך?,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001095,Nunca más,אף פעם יותר (לא),No voy a hacer eso nunca más.,אני לא הולך לעשות את זה אף פעם יותר.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001096,Yo tampoco,גם אני לא,Yo tampoco quiero ir a esa fiesta.,גם אני לא רוצה ללכת למסיבה הזאת.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001097,Ni... ni,לא... ולא (גם וגם בשלילה),No tengo ni tiempo ni dinero.,אין לי לא זמן ולא כסף.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001098,Ni idea,אין לי מושג,¿Dónde está el control remoto? Ni idea.,איפה השלט? אין לי מושג.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001099,Alguna vez,פעם (אי פעם),¿Has viajado alguna vez a China?,טיילת פעם לסין?,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
+w001100,En ninguna parte,בשום מקום,No encuentro mis llaves en ninguna parte.,אני לא מוצא את המפתחות שלי בשום מקום.,grammar,negation_indefinites,שלילה וכינויים בלתי מסוימים
 w001101,La persona que llegó,האדם שהגיע,La persona que llegó tarde es mi jefe.,האדם שהגיע מאוחר הוא הבוס שלי.,grammar,relative_pronouns,כינויי זיקה
 w001102,El libro que leo,הספר שאני קורא,El libro que leo es muy largo.,הספר שאני קורא ארוך מאוד.,grammar,relative_pronouns,כינויי זיקה
 w001103,La casa que compramos,הבית שקנינו,La casa que compramos tiene un jardín.,לבית שקנינו יש גינה.,grammar,relative_pronouns,כינויי זיקה

@@ -1201,7 +1201,7 @@ function renderHome() {
     </div>
     <div style="text-align:center; margin-top:16px;">
       <button class="ctrl-btn" data-action="goto-smart-review" ${dueCount === 0 ? "disabled" : ""}>
-        <span aria-hidden="true">🎯</span> תרגל מילים קשות${dueCount > 0 ? ` (${dueCount})` : ""}
+        <span aria-hidden="true">🎯</span> חזרה חכמה על מילים קשות${dueCount > 0 ? ` (${dueCount})` : ""}
       </button>
       ${dueCount === 0 ? `<div class="section-sub" style="margin-top:8px;">${t("smartReviewEmptyHint")}</div>` : ""}
     </div>

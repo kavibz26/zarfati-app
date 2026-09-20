@@ -281,7 +281,7 @@
       },
       {
         "id": "subjuntivo",
-        "name": "Subjuntivo - מצב רוח תלוי",
+        "name": "Subjuntivo - מצב משני",
         "vocabCount": 15,
         "sentenceCount": 8
       },
@@ -439,7 +439,7 @@
       },
       {
         "id": "negation_indefinites",
-        "name": "שלילה וכינויי סתם",
+        "name": "שלילה וכינויים בלתי מסוימים",
         "vocabCount": 17,
         "sentenceCount": 8
       },

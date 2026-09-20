@@ -19,7 +19,7 @@
     {
       "id": "w000333",
       "es": "Tomar el pelo",
-      "he": "לעבוד על מישהו/להתל",
+      "he": "לעבוד על מישהו",
       "ex_es": "¿Me estás tomando el pelo?",
       "ex_he": "אתה עובד עליי?"
     },
@@ -105,7 +105,7 @@
       "es": "Írsele el santo al cielo",
       "he": "לשכוח משהו לגמרי",
       "ex_es": "Se me fue el santo al cielo y olvidé la reunión.",
-      "ex_he": "שכחתי לגמרי ונשכחה לי הישיבה."
+      "ex_he": "שכחתי לגמרי את הישיבה."
     }
   ],
   "sentences": [
