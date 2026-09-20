@@ -85,7 +85,9 @@ const ICONS = {
   flame: `${ICON_SVG_OPEN}<path d="M12 3c.5 2.5-1 3.8-2.3 5.3C8.4 9.8 7 11.5 7 14a5 5 0 0 0 10 0c0-1.5-.6-2.6-1.3-3.6.1 1.3-.4 2.2-1.2 2.7.3-2-.4-3.4-1.6-4.6C12.4 8 12.2 5.6 12 3Z"/></svg>`,
   speaker: `${ICON_SVG_OPEN}<path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/><path d="M19 6a8.5 8.5 0 0 1 0 12"/></svg>`,
   notepad: `${ICON_SVG_OPEN}<path d="M6 3.5h9l3 3v14h-12Z"/><path d="M15 3.5v3h3"/><path d="M9 12h6M9 15h6M9 9h3"/></svg>`,
-  speakerQuiet: `${ICON_SVG_OPEN}<path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 10.2a2.5 2.5 0 0 1 0 3.6"/></svg>`
+  speakerQuiet: `${ICON_SVG_OPEN}<path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16.5 10.2a2.5 2.5 0 0 1 0 3.6"/></svg>`,
+  check: `${ICON_SVG_OPEN}<circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7L16 9.5"/></svg>`,
+  crown: `${ICON_SVG_OPEN}<path d="M4 9L7 11L12 5L17 11L20 9L18.5 18H5.5Z"/></svg>`
 };
 function icon(key) { return ICONS[key] || ""; }
 
@@ -384,16 +386,16 @@ const ACHIEVEMENT_METRICS = {
   exercisesCompleted: () => getExercisesCompletedCount()
 };
 const ACHIEVEMENTS = [
-  { id: "words_10", name: "צעדים ראשונים", icon: "🌱", metric: "wordsLearned", threshold: 10 },
-  { id: "words_50", name: "אספן/ית מילים", icon: "📚", metric: "wordsLearned", threshold: 50 },
-  { id: "words_150", name: "חובב/ת שפות", icon: "🧠", metric: "wordsLearned", threshold: 150 },
-  { id: "words_300", name: "מומחה/ית אוצר מילים", icon: "🏆", metric: "wordsLearned", threshold: 300 },
-  { id: "topics_1", name: "נושא ראשון!", icon: "✅", metric: "topicsCompleted", threshold: 1 },
-  { id: "topics_5", name: "בדרך הנכונה", icon: "🎯", metric: "topicsCompleted", threshold: 5 },
-  { id: "topics_15", name: "מומחה/ית נושאים", icon: "🌟", metric: "topicsCompleted", threshold: 15 },
-  { id: "exercises_10", name: "מתאמן/ת", icon: "💪", metric: "exercisesCompleted", threshold: 10 },
-  { id: "exercises_50", name: "מתמיד/ה", icon: "🔥", metric: "exercisesCompleted", threshold: 50 },
-  { id: "exercises_150", name: "אלוף/ת תרגול", icon: "👑", metric: "exercisesCompleted", threshold: 150 }
+  { id: "words_10", name: "צעדים ראשונים", icon: "leaf", metric: "wordsLearned", threshold: 10 },
+  { id: "words_50", name: "אספן/ית מילים", icon: "bookOpen", metric: "wordsLearned", threshold: 50 },
+  { id: "words_150", name: "חובב/ת שפות", icon: "lightbulb", metric: "wordsLearned", threshold: 150 },
+  { id: "words_300", name: "מומחה/ית אוצר מילים", icon: "trophy", metric: "wordsLearned", threshold: 300 },
+  { id: "topics_1", name: "נושא ראשון!", icon: "check", metric: "topicsCompleted", threshold: 1 },
+  { id: "topics_5", name: "בדרך הנכונה", icon: "target", metric: "topicsCompleted", threshold: 5 },
+  { id: "topics_15", name: "מומחה/ית נושאים", icon: "star", metric: "topicsCompleted", threshold: 15 },
+  { id: "exercises_10", name: "מתאמן/ת", icon: "refresh", metric: "exercisesCompleted", threshold: 10 },
+  { id: "exercises_50", name: "מתמיד/ה", icon: "flame", metric: "exercisesCompleted", threshold: 50 },
+  { id: "exercises_150", name: "אלוף/ת תרגול", icon: "crown", metric: "exercisesCompleted", threshold: 150 }
 ];
 function loadUnlockedAchievements() {
   try { return JSON.parse(localStorage.getItem(achievementsKey())) || {}; }
@@ -435,7 +437,7 @@ function processAchievementToastQueue() {
   const toast = document.createElement("div");
   toast.className = "achievement-toast";
   toast.innerHTML = `
-    <div class="achievement-toast-icon" aria-hidden="true">${a.icon}</div>
+    <div class="achievement-toast-icon" aria-hidden="true">${icon(a.icon)}</div>
     <div class="achievement-toast-text">
       <div class="achievement-toast-label">הישג חדש נפתח!</div>
       <div class="achievement-toast-name">${escapeHtml(a.name)}</div>
@@ -1451,7 +1453,7 @@ function renderAchievements() {
     const pct = Math.min(100, Math.round((current / a.threshold) * 100));
     return `
       <div class="achievement-row ${isUnlocked ? "unlocked" : "locked"}">
-        <div class="achievement-icon" aria-hidden="true">${a.icon}</div>
+        <div class="achievement-icon" aria-hidden="true">${icon(a.icon)}</div>
         <div class="achievement-info">
           <div class="achievement-name">${escapeHtml(a.name)}</div>
           <div class="progress-bar"><div class="progress-bar-fill" style="width:${pct}%; background:${isUnlocked ? "var(--success)" : "var(--accent)"}"></div></div>
